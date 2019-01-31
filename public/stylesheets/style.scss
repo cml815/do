@@ -1,0 +1,41 @@
+@import "./partials/base";
+
+body {
+    margin: 0;
+    padding: 0; }
+  
+  h1, h2, h3, h4, h5, h6 {
+    font-family: "Source Sans Pro", Times, "Times New Roman", sans-serif; }
+  
+  p, ul, li, a {
+    font-family: "Source Serif Pro", Verdana, Helvetica, Arial, serif; }
+  
+  ::-webkit-resizer
+  .flex-container {
+    display: flex; }
+  
+  main {
+    background-color: $teal;
+  }
+  
+  footer flex-container {
+    display: flex;
+    flex-direction: column; }
+  
+  .intro {
+    height: 50vh;
+    width: 100vw;
+    background-color: #999; }
+  
+  footer {
+    width: 100%; }
+  
+  footer a {
+    color: orange; }
+  
+  footer a:hover {
+    color: black; }
+  
+  footer a:visited {
+    color: $aqua; }
+  
