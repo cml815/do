@@ -10,6 +10,22 @@
 </header>
 
 
-<section>
+<section class="demo">
+
+     <p id="demo"></p>
 
 </section>
+
+<p id="demo"></p>
+
+<script>
+
+var text = '{"project":"Benefiber","title":"Bullshit title for article","url":"https://www.example.com","skills":["content writing","editing","multi-articles"]}'
+
+var obj = JSON.parse(text);
+
+document.getElementById("demo").innerHTML = obj.project + ", " + obj.title;
+
+</script>
+
+</script>

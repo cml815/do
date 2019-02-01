@@ -363,7 +363,6 @@ footer flex-container {
   flex-direction: column; }
 
 .intro {
-  height: 50vh;
   width: 100vw;
   background-color: #999; }
 
@@ -378,5 +377,9 @@ footer a:hover {
 
 footer a:visited {
   color: #26EDF2; }
+
+.demo {
+  height: 25vh;
+  background-color: yellow; }
 
 /*# sourceMappingURL=style.css.map */
