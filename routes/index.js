@@ -18,8 +18,11 @@ router.get('/work', function(req, res, next) {
   res.render('work', { title: 'Work' });
 });
 
+/* 
 router.get('/portfolio', function(req, res, next) {
   res.render('portfolio', { title: 'Portfolio - Fuck Me' });
 });
+
+*/
 
 module.exports = router;

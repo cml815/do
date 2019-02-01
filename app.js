@@ -8,12 +8,21 @@ var mongoose = require('mongoose');
 var exhbs = require('express-handlebars');
 var sassMiddleware = require('node-sass-middleware');
 var exhbs = require('express-handlebars');
-var papa = require('papaparse');
 
 var indexRouter = require('./routes/index');
 var usersRouter = require('./routes/users');
+var portfolioRouter = require('./routes/portfolio')
 
 var app = express();
+
+// database 
+mongoose.connect('mongodb: //localhost/my_datamongodb://meus:815cricket@ds241723.mlab.com:41723/fuelport');
+mongoose.Promise = global.Promise;
+// Get default connection
+var db = mongoose.connection;
+
+//Bind connection to error event (to get notification of connection errors)
+db.on('error', console.error.bind(console, 'MongoDB connection error:'));
 
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
@@ -36,6 +45,7 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 app.use('/', indexRouter);
 app.use('/users', usersRouter);
+app.use('/portfolio', portfolioRouter);
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
