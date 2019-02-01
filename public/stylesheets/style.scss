@@ -23,7 +23,6 @@ body {
     flex-direction: column; }
   
   .intro {
-    height: 50vh;
     width: 100vw;
     background-color: #999; }
   
@@ -38,4 +37,9 @@ body {
   
   footer a:visited {
     color: $aqua; }
+
+    .demo {
+      height: 25vh;
+      background-color: yellow;
+    }
   

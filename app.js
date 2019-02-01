@@ -8,6 +8,7 @@ var mongoose = require('mongoose');
 var exhbs = require('express-handlebars');
 var sassMiddleware = require('node-sass-middleware');
 var exhbs = require('express-handlebars');
+var papa = require('papaparse');
 
 var indexRouter = require('./routes/index');
 var usersRouter = require('./routes/users');
