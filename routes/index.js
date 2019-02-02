@@ -25,4 +25,11 @@ router.get('/portfolio', function(req, res, next) {
 
 */
 
+/* GET home page.
+router.get('/', function(req, res) {
+  res.redirect('/catalog');
+});
+
+*/
+
 module.exports = router;

@@ -11,17 +11,16 @@ var exhbs = require('express-handlebars');
 
 var indexRouter = require('./routes/index');
 var usersRouter = require('./routes/users');
-var portfolioRouter = require('./routes/portfolio')
+var portfolioRouter = require('./routes/portfolio');
+var product = require('./routes/product.route');
 
 var app = express();
 
-// database 
-mongoose.connect('mongodb: //localhost/my_datamongodb://meus:815cricket@ds241723.mlab.com:41723/fuelport');
+// Set up db connection
+var mongoDB = 'mongodb://meus:815cricket@ds241723.mlab.com:41723/fuelport';
+mongoose.connect(mongoDB);
 mongoose.Promise = global.Promise;
-// Get default connection
 var db = mongoose.connection;
-
-//Bind connection to error event (to get notification of connection errors)
 db.on('error', console.error.bind(console, 'MongoDB connection error:'));
 
 // view engine setup
@@ -34,6 +33,7 @@ app.set('view engine', '.hbs');
 app.use(logger('dev'));
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
+app.use(bodyParser.urlencoded({extended: true}))
 app.use(cookieParser());
 app.use(sassMiddleware({
   src: path.join(__dirname, 'public'),
@@ -46,6 +46,7 @@ app.use(express.static(path.join(__dirname, 'public')));
 app.use('/', indexRouter);
 app.use('/users', usersRouter);
 app.use('/portfolio', portfolioRouter);
+app.use('/products', product);
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
