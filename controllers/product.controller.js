@@ -6,7 +6,7 @@ exports.test = function (req, res) {
 };
 
 // Create and save product 
-exports.product_create = function (req, res, next) {
+exports.product_create = function (req, res) {
     let product = new Product(
         {
             name: req.body.name,
@@ -21,14 +21,17 @@ exports.product_create = function (req, res, next) {
         res.send('Product Created successfully')
     })
 };
-
+ 
 // Read inventory function
 exports.product_details = function (req, res) {
     Product.findById(req.params.id, function (err, product) {
-        if (err) return next(err);
+        if (err) {
+            return next(err);
+        }
         res.send(product);
     })
 };
+
 
 // Update
 
