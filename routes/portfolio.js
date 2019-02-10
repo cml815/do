@@ -1,9 +1,12 @@
-var express = require('express');
-var router = express.Router();
+const express = require('express');
+const router = express.Router();
 
-var project_controller = require('../controllers/projectController');
+const project_controller = require('../controllers/project.controller');
 
 /// Project ROUTES ///
+
+// a simple test url to check that all of our files are communicating correctly.
+// router.get('/test', project_controller.test);
 
 // Get portfolio home page
 // router.get('/project', project_controller.index);

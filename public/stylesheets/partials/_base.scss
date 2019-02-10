@@ -5,11 +5,24 @@ $breakpoint-tablet: 768px;
 $breakpoint-mobile: 480px;
 
 body {
-    font-size: 32px;
+    font-size: 16px;
 }
 p {
     font-size: 1rem;
     font-weight: bold;
+}
+
+li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: orangered;
+}
+
+a:visited {
+    color: skyblue;
 }
 
 /* Media Queries  See: https://gist.github.com/hemantajax/5938709 */
@@ -25,17 +38,42 @@ p {
 @media (max-width: $breakpoint-mobile) {
 
     a {
-        font-size: 2.0rem;
+        font-size: 1rem;
     }
   
 }
 
 button {
-    background-color: $aqua;
-    height: 50px;
-    width: 100px;
-    border: $black 1px dotted;
+
 }
+
+footer {
+    background-color: $charcoal;
+    color: $orange;
+    padding: 2em;
+}
+
+
+/* Grid */
+
+.fl-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.fl-column {
+    flex: 0, 1, auto;
+}
+
+.container-center {
+    text-align: center;
+    
+}
+
+
+
+
+
 
 
 

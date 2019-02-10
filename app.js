@@ -11,8 +11,9 @@ var exhbs = require('express-handlebars');
 
 var indexRouter = require('./routes/index');
 var usersRouter = require('./routes/users');
-var portfolioRouter = require('./routes/portfolio');
+// var portfolioRouter = require('./routes/portfolio');
 var product = require('./routes/product.route');
+var project = require('./routes/project.route');
 
 var app = express();
 
@@ -32,8 +33,9 @@ app.set('view engine', '.hbs');
 
 app.use(logger('dev'));
 app.use(express.json());
-app.use(express.urlencoded({ extended: false }));
-app.use(bodyParser.urlencoded({extended: false}))
+app.use(express.urlencoded({ extended: false })); 
+app.use(bodyParser.json());
+app.use(bodyParser.urlencoded({extended: false})) // false = querystring and true = qs libs
 app.use(cookieParser());
 app.use(sassMiddleware({
   src: path.join(__dirname, 'public'),
@@ -45,8 +47,9 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 app.use('/', indexRouter);
 app.use('/users', usersRouter);
-app.use('/portfolio', portfolioRouter);
+// app.use('/portfolio', portfolioRouter);
 app.use('/products', product);
+app.use('/projects', project);
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {

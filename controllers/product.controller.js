@@ -5,8 +5,12 @@ exports.test = function (req, res) {
     res.send('Greetings from the Test controller!');
 };
 
+exports.index = function(req, res, next) {   
+    res.send('NOT IMPLEMENTED: Site Home Page');
+}
+
 // Create and save product 
-exports.product_create = function (req, res) {
+exports.product_create = function (req, res, next) {
     let product = new Product(
         {
             name: req.body.name,
