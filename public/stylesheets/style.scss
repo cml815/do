@@ -17,6 +17,10 @@ body {
   main {
     background-color: $teal;
   }
+
+  header {
+    background-color: gray;
+  }
   
   footer flex-container {
     display: flex;

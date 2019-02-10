@@ -367,6 +367,9 @@ p, ul, li, a {
 main {
   background-color: #48AAA4; }
 
+header {
+  background-color: gray; }
+
 footer flex-container {
   display: flex;
   flex-direction: column; }

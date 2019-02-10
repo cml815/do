@@ -21,7 +21,7 @@ exports.index = function(req, res, next) {
         .exec(function (err, index) {
             if(err) {return next(err); }
             //if successful, render
-        res.render('index', {title: 'Portfolio', index});
+        res.render('index', {title: 'Projects', index});
         });
 
 }
