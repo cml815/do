@@ -1,23 +1,48 @@
 const Project = require('../models/project.model');
+var async = require('async');
+
+// const { body, validationResult } = require('express-validator/check');
+// const { sanitizeBody } = require('express-validator/filter');
 
 /// Projects 
 
-//Simple CRUD - no validation or sanitation
+// Simple CRUD - no validation or sanitation
 exports.test = function(req, res) {
     res.send('Ping from the Test Project controller');
 };
 
+/* 
+router.get('/', function(req, res, next) {
+    res.render('index', { title: 'Home' });
+  });
+
+  */
+
+exports.index = function(req, res, next) {
+    res.render('index', { title: 'Projects'}); 
+};
+
+
+ 
+
 /* List all projects
-exports.index = function(req, res, next) {   
-    res.send('NOT IMPLEMENTED: Site Home Page');
-}
+exports.index = (function(req, res, next) {
+    Project.find(function(err, projects) {
+        if (err)
+            res.send(err);
+
+        // res.json(projects);
+        res.render('index', {title: 'Projects'});
+    });
+});
 
 */
 
-// Index page: List all projects
-exports.index = function(req, res, next) {
-    Project.find({}, '_id client product')
-        .populate('client')
+/*
+
+    exports.index = function(req, res, next) {
+    Project.find({}, '_id client product url')
+        .populate('project')
         .exec(function (err, index) {
             if(err) {return next(err); }
             //if successful, render
@@ -25,6 +50,10 @@ exports.index = function(req, res, next) {
         });
 
 }
+
+*/
+
+// List all Projects
 
 // Create and save project
 exports.project_create = function (req, res, next) {
@@ -71,4 +100,17 @@ exports.project_delete = function (req, res) {
         res.send('Deleted successfully!');
     })
 };
+
+// Display list of all Projects.
+
+exports.project_list = function(req, res, next) {
+    Project.find({}, 'client product')
+      .populate('project')
+      .exec(function (err, list_projects) {
+        if (err) { return next(err); }
+        //Successful, so render
+        res.render('project_list', { title: 'Project List', project_list: list_projects });
+      });
+      
+  };
 

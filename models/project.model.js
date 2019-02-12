@@ -2,7 +2,7 @@ var mongoose = require('mongoose');
 const Schema = mongoose.Schema;
 
 const ProjectSchema = new Schema ({
-    _id: {type: String, required: true},
+    _id: {type: mongoose.Schema.Types.ObjectId},
     client: {type: String, required: true},
     product: {type: String, required: true},
     url: {type: String}

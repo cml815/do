@@ -21,4 +21,7 @@ router.put('/:id/update', project_controller.project_update);
 // Delete project
 router.delete('/:id/delete', project_controller.project_delete);
 
+// GET request for list of all Book.
+router.get('/projects', project_controller.project_list);
+
 module.exports = router;

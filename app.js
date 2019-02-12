@@ -5,9 +5,8 @@ var cookieParser = require('cookie-parser');
 var logger = require('morgan');
 var bodyParser = require('body-parser');
 var mongoose = require('mongoose');
-var exhbs = require('express-handlebars');
+var exphbs = require('express-handlebars');
 var sassMiddleware = require('node-sass-middleware');
-var exhbs = require('express-handlebars');
 
 var indexRouter = require('./routes/index');
 var usersRouter = require('./routes/users');
@@ -26,8 +25,25 @@ db.on('error', console.error.bind(console, 'MongoDB connection error:'));
 
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
+
+// register helpers
+var hbs = exphbs.create({
+  helpers: {
+      now: function (now) {
+        return new Date(now);
+      },
+      sayHello: function () { alert("Hello World") },
+      getStringifiedJson: function (value) {
+          return JSON.stringify(value);
+      },
+      random_num: function () { Math.round(Math.random() * 10)}
+  },
+  defaultLayout: 'main',
+  partialsDir: ['views/partials/']
+});
+
 // Register Handlebars view engine
-app.engine('.hbs', exhbs({defaultLayout: 'layout', extname: '.hbs'}));
+app.engine('.hbs', exphbs({defaultLayout: 'layout', extname: '.hbs'}));
 // Use Handlebars view engine
 app.set('view engine', '.hbs');
 

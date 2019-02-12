@@ -8,11 +8,11 @@ router.get('/', function(req, res, next) {
 
 */
 
-
 // Redirect home page.
 router.get('/', function(req, res) {
   res.redirect('/projects');
 });
+
 
 router.get('/about', function(req, res, next) {
   res.render('about', { title: 'About' });
@@ -39,5 +39,17 @@ router.get('/', function(req, res) {
 });
 
 */
+
+router.get('/tester', function(req, res) {
+  // Below I'm passing in a JSON object (or hash table of keys and values, which is similar to an associative array) 
+  // as a 2nd parameter to the "tester.handlebars" template
+  res.render('tester', {
+      first_name: "Donald",
+      last_name: "Duck",
+      now: new Date(),
+      random_num: Math.round(Math.random() * 10)
+  });
+});
+
 
 module.exports = router;
