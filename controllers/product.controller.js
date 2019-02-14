@@ -5,9 +5,15 @@ exports.test = function (req, res) {
     res.send('Greetings from the Test controller!');
 };
 
-exports.index = function(req, res, next) {   
+/* exports.index = function(req, res, next) {   
     res.send('NOT IMPLEMENTED: Site Home Page');
-}
+} */
+
+exports.index = function(req, res){
+  Product.find(function(err, products) {
+    res.send(products);
+  });
+};
 
 // Create and save product 
 exports.product_create = function (req, res, next) {

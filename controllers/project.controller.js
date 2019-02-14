@@ -22,6 +22,23 @@ exports.index = function(req, res, next) {
     res.render('index', { title: 'Projects'}); 
 };
 
+// Display list of all Projects.
+
+exports.project_list = function(req, res, next) {
+    Project.find()
+      // .populate('project')
+      .exec(function (err, list_projects) {
+        if (err) { return next(err); }
+        //Successful, so render
+        res.render('project_list', { title: 'Project List', project_list: list_projects });
+      });
+      
+  };
+
+  
+
+
+
 
  
 
@@ -52,6 +69,8 @@ exports.index = (function(req, res, next) {
 }
 
 */
+
+// Create and save product 
 
 // List all Projects
 
@@ -100,17 +119,4 @@ exports.project_delete = function (req, res) {
         res.send('Deleted successfully!');
     })
 };
-
-// Display list of all Projects.
-
-exports.project_list = function(req, res, next) {
-    Project.find({}, 'client product')
-      .populate('project')
-      .exec(function (err, list_projects) {
-        if (err) { return next(err); }
-        //Successful, so render
-        res.render('project_list', { title: 'Project List', project_list: list_projects });
-      });
-      
-  };
 
