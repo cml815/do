@@ -325,30 +325,35 @@ a {
 a:visited {
   color: skyblue; }
 
-/* Media Queries  See: https://gist.github.com/hemantajax/5938709 */
-@media only screen and (max-width: 480px) {
-  p {
-    color: red; } }
-
-@media (max-width: 480px) {
-  a {
-    font-size: 1rem; } }
-
 footer {
   background-color: #424A51;
   color: #C07C5E;
   padding: 2em; }
 
-/* Grid */
-.fl-container {
-  display: flex;
-  flex-direction: row; }
+.hero {
+  /* Photo by mnm.all on Unsplash */
+  background: url("../images/phila-bw.jpg") center;
+  background-size: cover;
+  padding: 4rem 2rem;
+  height: 50vh;
+  /* Grid styles */
+  display: grid;
+  align-items: center;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); }
 
-.fl-column {
-  flex: 0, 1, auto; }
+.container-menu {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+  align-items: center;
+  grid-auto-rows: auto;
+  grid-gap: 1em;
+  padding: .5em 0;
+  text-align: center;
+  border-bottom: 1px solid white;
+  background: transparent; }
 
-.container-center {
-  text-align: center; }
+.container-menue > * {
+  color: white; }
 
 body {
   margin: 0;
