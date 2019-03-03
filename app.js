@@ -11,9 +11,7 @@ var favicon = require('serve-favicon');
 
 var indexRouter = require('./routes/index');
 var usersRouter = require('./routes/users');
-// var portfolioRouter = require('./routes/portfolio');
-var product = require('./routes/product.route');
-var projectRouter = require('./routes/project.route');
+var workRouter = require('./routes/work');
 
 var app = express();
 
@@ -65,9 +63,7 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 app.use('/', indexRouter);
 app.use('/users', usersRouter);
-// app.use('/portfolio', portfolioRouter);
-app.use('/products', product);
-app.use('/projects', projectRouter);
+app.use('/work', workRouter);
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {

@@ -6,14 +6,12 @@ router.get('/', function(req, res, next) {
   res.render('index', { title: 'Home' });
 });
 
-
 /* Redirect home page.
 router.get('/', function(req, res) {
   res.redirect('/projects');
 });
 
 */
-
 
 router.get('/about', function(req, res, next) {
   res.render('about', { title: 'About' });
@@ -23,9 +21,10 @@ router.get('/contact', function(req, res, next) {
   res.render('contact', { title: 'Contact' });
 });
 
-router.get('/work', function(req, res, next) {
-  res.render('work', { title: 'Work' });
+router.get('/portfolio', function(req, res, next) {
+  res.render('portfolio', { title: 'Portfolio' });
 });
+
 
 /* 
 router.get('/portfolio', function(req, res, next) {
