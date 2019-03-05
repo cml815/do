@@ -25,14 +25,6 @@ router.get('/portfolio', function(req, res, next) {
   res.render('portfolio', { title: 'Portfolio' });
 });
 
-
-/* 
-router.get('/portfolio', function(req, res, next) {
-  res.render('portfolio', { title: 'Portfolio - Fuck Me' });
-});
-
-*/
-
 /* GET home page.
 router.get('/', function(req, res) {
   res.redirect('/catalog');

@@ -563,6 +563,12 @@ article {
   width: 100%;
   max-height: 100%; }
 
+.item > figure > figcaption {
+  position: absolute;
+  bottom: 0;
+  background-color: rgba(223, 63, 63, 0.7);
+  width: 100%; }
+
 .item-1 {
   grid-column-start: first;
   grid-column-end: second;
