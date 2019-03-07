@@ -1,0 +1,40 @@
+section {
+    height: 50vh;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: $sans;
+}
+
+.case-data {
+    background-color: orange;
+    font-family: $sans;
+    padding-bottom: 1em;
+    padding-left: 2em;
+}
+
+.tags li {
+    display: inline;
+    font-size: .875em;
+    text-transform: uppercase;
+    background-color: skyblue;
+    width: 100%;
+    border-radius: 25px;
+    padding: .5em;
+
+}
+
+.case-tease {
+    
+    display: flex;
+}
+
+.case-tease > img {
+    height: auto;
+    width: 50%;
+}
+
+.case-tease > p {
+    height: auto;
+    width: 50%;
+}

@@ -2,8 +2,18 @@
 <head>
   {{> head}}
 </head>
-<body>
-<p>sample copy here</p>
+<body class="case-study">
+<div class="case-data">
+  <p>{{{ title }}}</p>
+  <p class="case-label">Products</p>
+  <p>{{ product1 }}</p> 
+  <p>{{ product2 }}</p>
+  <ul class="tags">
+    <li>{{ tag1 }}</li>
+    <li>{{ tag2 }}</li>
+    <li>{{ tag3 }}</li>
+  </ul>
+</div>
     
   {{{ body }}}
 

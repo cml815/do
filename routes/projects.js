@@ -8,8 +8,11 @@ router.get('/', function(req, res, next) {
 router.get('/health', function(req, res, next) {
   res.render('health', { 
     title: 'Health',
-    tag: "content marketing",
-    tag2: 'SEO',
+    product1: "health guides",
+    product2: "expert Q&As",
+    tag1: 'Content Strategy',
+    tag2: 'Content Marketing',
+    tag3: 'SEO',
     layout: 'case' 
   });
 });
