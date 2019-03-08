@@ -375,10 +375,9 @@ h6 {
 
 p {
   font-size: 1rem;
-  font-weight: bold;
   line-height: 1.5; }
 
-li {
+ul, li {
   list-style-type: none; }
 
 img {
@@ -390,10 +389,7 @@ a {
   color: skyblue; }
 
 a:visited {
-  color: purple; }
-
-section {
-  padding: 2%; }
+  color: #1771ad; }
 
 /* Flexbox */
 .flex-container {
@@ -421,7 +417,7 @@ nav ul {
   margin: 0;
   padding-left: 0; }
 
-nav > li {
+nav li {
   color: #fff;
   display: block;
   float: left;
@@ -430,27 +426,24 @@ nav > li {
   text-decoration: none;
   transition-duration: 0.5s; }
 
-nav > li a {
-  color: #fff; }
+nav li a {
+  color: black; }
 
-nav > li:hover {
+nav li:hover {
   background: red;
   cursor: pointer; }
 
-/* sub-nav not working 
 ul li ul {
-	background: orange;
-	visibility: hidden;
+  background: orange;
+  visibility: hidden;
   opacity: 0;
   min-width: 5rem;
-	position: absolute;
+  position: absolute;
   transition: all 0.5s ease;
   margin-top: 1rem;
-	left: 0;
-  display: none;
-}
+  left: 0;
+  display: none; }
 
-*/
 ul li:hover > ul,
 ul li ul:hover {
   visibility: visible;
@@ -474,10 +467,6 @@ footer {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
   align-items: center; }
-
-.hero > .container {
-  padding-left: 2em;
-  padding-right: .5em; }
 
 #portfolio.hero {
   padding: 4rem 2rem;
@@ -718,11 +707,6 @@ body {
   text-transform: capitalize;
   padding: 0.7em 0; }
 
-.container {
-  padding: 1em 0;
-  float: left;
-  width: 50%; }
-
 @media screen and (max-width: 640px) {
   .container {
     display: block;
@@ -730,7 +714,7 @@ body {
 
 @media screen and (min-width: 900px) {
   .container {
-    width: 33.33333%; } }
+    width: 100%; } }
 
 .container .title {
   color: #1a1a1a;
