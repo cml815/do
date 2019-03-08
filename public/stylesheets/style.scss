@@ -13,7 +13,7 @@
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
   align-items: center;
-  height: 50vh;
+  height: 60vh;
   }
   
 .hero > * {
@@ -43,17 +43,21 @@ article {
   background: url('../images/storefront.jpg') center no-repeat;
   background-size: cover;
   box-shadow: inset 0 0 0 1000px rgba(0,0,0,.3);
+  height: 100%
   /* mix-blend-mode for cont - img darken */
 }
   
 .container-cta {
   display: flex;
+  flex-direction: column;
+  flex-flow: row wrap;
   align-items: center;
   justify-content: flex-end;
   max-width: 100%;
 }
 
-.cta {
+.btn {
+  margin-top: auto;
   margin-bottom: 0;
   text-align: center;
   width: 50%;
