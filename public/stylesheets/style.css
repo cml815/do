@@ -353,11 +353,6 @@ h1, h2, h3, h4, h5, h6 {
 h1 {
   font-size: 2em; }
 
-.page-title {
-  display: inline;
-  background-color: skyblue;
-  color: white; }
-
 h2 {
   font-size: 1.8em; }
 
@@ -402,148 +397,6 @@ a:visited {
   .flex-container {
     flex-direction: column; } }
 
-/*** Navigation **/
-.navigation {
-  display: -webkit-box;
-  display: -moz-box;
-  display: -ms-flexbox;
-  display: -webkit-flex;
-  display: flex;
-  -webkit-flex-flow: row wrap;
-  justify-content: flex-end; }
-
-nav ul {
-  list-style: none;
-  margin: 0;
-  padding-left: 0; }
-
-nav li {
-  color: #fff;
-  display: block;
-  float: left;
-  padding: 1rem;
-  position: relative;
-  text-decoration: none;
-  transition-duration: 0.5s; }
-
-nav li a {
-  color: black; }
-
-nav li:hover {
-  background: red;
-  cursor: pointer; }
-
-ul li ul {
-  background: orange;
-  visibility: hidden;
-  opacity: 0;
-  min-width: 5rem;
-  position: absolute;
-  transition: all 0.5s ease;
-  margin-top: 1rem;
-  left: 0;
-  display: none; }
-
-ul li:hover > ul,
-ul li ul:hover {
-  visibility: visible;
-  opacity: 1;
-  display: block; }
-
-ul li ul li {
-  clear: both;
-  width: 100%; }
-
-/* Footer styles */
-footer {
-  background-color: #424A51;
-  color: #C07C5E;
-  padding: 2em; }
-
-/* Containers */
-.hero {
-  height: 60vh;
-  background-color: pink;
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
-  align-items: center; }
-
-#portfolio.hero {
-  padding: 4rem 2rem;
-  /* Grid styles */
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); }
-
-.hero > * {
-  color: white; }
-
-.hero > h1 {
-  font-size: 3rem;
-  padding-bottom: 1rem; }
-
-.hero > article > p {
-  font-size: 1.5rem;
-  font-weight: 200; }
-
-.hero > article > a {
-  padding: 1rem;
-  margin-top: .75rem; }
-
-#home article {
-  background: url("../images/storefront.jpg") center no-repeat;
-  background-size: cover;
-  box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.3);
-  /* mix-blend-mode for cont - img darken */
-  height: 100%;
-  width: 100%; }
-
-.container-cta {
-  display: flex;
-  align-items: center;
-  justify-content: flex-end;
-  max-width: 100%; }
-
-.cta {
-  margin-bottom: 0;
-  text-align: center;
-  width: 50%;
-  padding: .5em;
-  background-color: pink; }
-
-.cta a {
-  padding: .5em; }
-
-/* 
-  .container-menu {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
-  align-items: center;
-  grid-auto-rows: auto;
-  grid-gap: 1em;
-  padding: .5em 0;
-  text-align: center;
-  border-bottom: 1px solid white;
-  background: transparent;
-  }
-
-  .container-menu > * {
-    color: white;
-  }
-
-  */
-.panel {
-  height: 33vh; }
-
-.icon-container {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-  grid-gap: 1rem;
-  height: 20vh; }
-
-.icon-container figure {
-  height: 20vh; }
-
-/* Home Page */
 /* projects styles home page */
 .projects {
   padding: 2rem; }
@@ -680,13 +533,129 @@ footer {
   padding: .5rem 1rem;
   margin: .5rem; }
 
-/* footer */
-footer {
-  background-color: #333;
-  padding: .75rem;
-  color: white;
+.page-title {
+  display: inline;
+  background-color: skyblue;
+  color: white; }
+
+.hero {
+  background-color: pink;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  align-items: center;
+  height: 50vh; }
+
+.hero > * {
+  color: #dfe7ec; }
+
+.hero > h1 {
+  font-size: 3rem;
+  padding-bottom: 1rem; }
+
+article {
+  display: flex;
+  flex-direction: column; }
+
+.hero > article > p {
+  font-size: 1.5rem;
+  font-weight: 200; }
+
+.hero > article > a {
+  padding: 1rem;
+  margin-top: .75rem; }
+
+.right-panel {
+  background: url("../images/storefront.jpg") center no-repeat;
+  background-size: cover;
+  box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.3);
+  /* mix-blend-mode for cont - img darken */ }
+
+.container-cta {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  max-width: 100%; }
+
+.cta {
+  margin-bottom: 0;
   text-align: center;
-  font-size: .75rem; }
+  width: 50%;
+  padding: .5em;
+  background-color: pink; }
+
+.cta a {
+  padding: .5em; }
+
+/* Navigation */
+.navigation {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-flow: row wrap;
+  justify-content: flex-end; }
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding-left: 0; }
+
+nav li {
+  color: #000;
+  display: block;
+  float: left;
+  padding: 1rem;
+  position: relative;
+  text-decoration: none;
+  transition-duration: 0.5s; }
+
+nav li a {
+  color: black; }
+
+nav li:hover {
+  background: red;
+  cursor: pointer; }
+
+ul li ul {
+  background: orange;
+  visibility: hidden;
+  opacity: 0;
+  min-width: 5rem;
+  position: absolute;
+  transition: all 0.5s ease;
+  margin-top: 1rem;
+  left: 0;
+  display: none; }
+
+ul li:hover > ul,
+ul li ul:hover {
+  visibility: visible;
+  opacity: 1;
+  display: block; }
+
+ul li ul li {
+  clear: both;
+  width: 100%; }
+
+/* Footer */
+footer {
+  display: flex;
+  width: 100%;
+  background-color: #424A51;
+  padding: 1rem;
+  color: #dfe7ec;
+  font-size: .875em;
+  line-height: 1.25em; }
+
+footer a {
+  color: skyblue; }
+
+footer a:hover {
+  color: #539ebb; }
+
+footer a:visited {
+  color: #26EDF2; }
 
 /* portfolio */
 *, *:before, *:after {
@@ -791,49 +760,5 @@ body {
 
 .fadeIn-right {
   left: 80%; }
-
-body {
-  margin: 0;
-  padding: 0; }
-
-h1, h2, h3, h4, h5, h6 {
-  font-family: "Source Serif Pro", Times, "Times New Roman", serif; }
-
-p, ul, li, a {
-  font-family: "Source Sans Pro", Verdana, Helvetica, Arial, sans-serif; }
-
-::-webkit-resizer
-.flex-container {
-  display: flex; }
-
-main {
-  background-color: #48AAA4; }
-
-header {
-  background-color: gray; }
-
-footer flex-container {
-  display: flex;
-  flex-direction: column; }
-
-.intro {
-  width: 100vw;
-  background-color: #999; }
-
-footer {
-  width: 100%; }
-
-footer a {
-  color: orange; }
-
-footer a:hover {
-  color: black; }
-
-footer a:visited {
-  color: #26EDF2; }
-
-.demo {
-  height: 25vh;
-  background-color: yellow; }
 
 /*# sourceMappingURL=style.css.map */
