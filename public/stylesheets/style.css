@@ -1,4 +1,3 @@
-@import url(https://fonts.googleapis.com/css?family=Raleway);
 * {
   margin: 0;
   padding: 0;
@@ -309,9 +308,6 @@ textarea {
   color: #000;
   padding: 0.2em 0; }
 
-section {
-  height: 50vh; }
-
 h1, h2, h3, h4, h5, h6 {
   font-family: "Source Sans Pro", Verdana, Helvetica, Arial, sans-serif; }
 
@@ -341,8 +337,13 @@ h1, h2, h3, h4, h5, h6 {
   height: auto;
   width: 50%; }
 
+html {
+  height: 100%;
+  min-height: 100vh; }
+
 body {
-  font-size: 16px; }
+  font-size: 16px;
+  height: 100%; }
 
 h1, h2, h3, h4, h5, h6 {
   font: 'Corben', cursive;
@@ -386,6 +387,19 @@ a {
 
 a:visited {
   color: #1771ad; }
+
+.btn {
+  background-color: yellow; }
+
+.btn:hover {
+  background-color: #ffff66; }
+
+/* Grid it up */
+.grid-c {
+  display: grid; }
+
+.grid-c-inline {
+  display: inline-grid; }
 
 /* Flexbox */
 .flex-container {
@@ -659,21 +673,50 @@ footer a:hover {
   color: #539ebb; }
 
 footer a:visited {
-  color: #26EDF2; }
+  color: #1bcbce; }
 
-/* portfolio */
-*, *:before, *:after {
-  margin: 0;
-  padding: 0;
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box; }
+/* Portfolio */
+.grid-3x3 {
+  height: 100%;
+  min-height: 100vh;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: repeat(3, auto [row]);
+  grid-gap: 2.5% 2.5%;
+  /* row col */
+  justify-items: stretch;
+  /* row also item justify-self */
+  align-items: stretch;
+  /* col justify */ }
 
-body {
-  background: #f9f9f9;
-  font-size: 16px;
-  font-family: 'Raleway', sans-serif; }
+grid-i-1 {
+  grid-column: 1 / 1;
+  grid-row: 1 / auto; }
 
+grid-i-2 {
+  grid-column: 2 / 2;
+  grid-row: 1 / auto; }
+
+grid-i-3 {
+  grid-column: 3 / 3;
+  grid-row: 1 / auto; }
+
+grid-i-4 {
+  grid-column: 1 / auto;
+  grid-row: 2 / auto; }
+
+grid-i-5 {
+  grid-column: 2 / auto;
+  grid-row: 2 / auto; }
+
+grid-i-6 {
+  grid-column: 3 / auto;
+  grid-row: 2 / auto; }
+
+grid-i-7 {
+  grid-column: 1 / auto;
+  grid-row: 3 / auto; }
+
+/* projects temp */
 .main-title {
   color: #2d2d2d;
   text-align: center;

@@ -3,8 +3,14 @@
 @import "elements";
 @import "case";
 
+html {
+  height: 100%;
+  min-height: 100vh;
+}
+
 body {
     font-size: 16px;
+    height: 100%;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -67,6 +73,17 @@ a:visited {
 }
 .btn:hover { 
     background-color: lighten($btnColor, 20%); 
+}
+
+
+/* Grid it up */
+
+.grid-c {
+  display: grid; 
+}
+
+.grid-c-inline {
+  display: inline-grid;
 }
 
 /* Flexbox */
