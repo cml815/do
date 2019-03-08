@@ -62,6 +62,13 @@ a:visited {
     color: rgb(23, 113, 173);
 }
 
+.btn { 
+    background-color: $btnColor; 
+}
+.btn:hover { 
+    background-color: lighten($btnColor, 20%); 
+}
+
 /* Flexbox */
 
 .flex-container {
