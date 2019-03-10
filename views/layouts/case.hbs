@@ -3,7 +3,7 @@
   {{> head}}
 </head>
 <div id="caseTemplate" class="case__wrapper">
-  <header class="case__summary">  
+  <header class="grid-item case__summary">  
     <ul class="case__metadata">
       <li>{{{ title }}}</li>
       <li><p>Products</p></li>
@@ -18,13 +18,13 @@
   </header>
 </div>
 <body class="case__body">
-  <main> 
+  <main class="grid-item"> 
   
   {{{ body }}}
 
   </main>
-  <sidebar>
-
+  <sidebar class="grid-item">
+    <p>This is a sidebar.</p>
   </sidebar>
 </body>
 

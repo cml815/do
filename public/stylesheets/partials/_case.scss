@@ -153,17 +153,22 @@ h1, h2, h3, h4, h5, h6 {
 
 header {
     grid-area: header;
+    grid-column: 1 / 5;
+    grid-row: 1 / 2;
+
 }
 
 main {
     grid-area: main;
+    grid-column: 1 / 4;
+    grid-row: 2 / 4;  
 }
 
 .sidebar {
     grid-area: sidebar;
+    grid-column: 4 / 5;
+    grid-row: 2 / 4;
 }
-
-
 
 .case__metadata {
     background-color: orange;
