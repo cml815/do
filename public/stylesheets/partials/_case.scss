@@ -1,22 +1,179 @@
-/// Case Study Styles ///
+/// Portfolio & Case Study Styles ///
 
-main {
+/** Portfolio Page **/
+  
+.samples {
+    padding: 2rem;
+  }
+
+  .samples-container {
     display: grid;
-    padding-left: 2em; 
+    grid-template-columns: [first] 1fr [second] 1fr [third] 1fr;
+    grid-template-rows: [one] 25% [two] 25% [three] 25% [four] 25%;
+    height: 80vh;
+  }
+ 
+.samples-container > figure {
+  height: 20vh;
 }
+
+  .samples-container > img {
+    object-fit: cover;
+    width: 100%;
+    max-height: 100%;
+
+  }
+
+  .item > figure > figcaption {
+    position: absolute;
+    bottom: 0;
+    background-color: rgba(223, 63, 63, 0.7);
+    width: 100%;
+  }
+
+  .item-1 {
+    grid-column-start: first;
+    grid-column-end: second;
+    grid-row-start: one;
+    grid-row-end: two;
+    background-color: pink;
+  }
+
+  .item-2 {
+    grid-column-start: second;
+    grid-column-end: third;
+    grid-row-start: one;
+    grid-row-end: two;
+    background-color: purple;
+  }
+
+  .item-3 {
+    grid-column-start: third;
+    grid-column-end: third;
+    grid-row-start: one;
+    grid-row-end: two;
+    background-color: skyblue;
+  }
+
+  .item-4 {
+    grid-column-start: first;
+    grid-column-end: third;
+    grid-row-start: twp;
+    grid-row-end: three;
+    background-color: blue;
+  }
+  
+  .samples > ul {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    grid-gap: 1rem;
+  }
+  
+  .samples > ul > li {
+    border: 1px solid #E2E2E2;
+    border-radius: .5rem;
+  }
+  
+  .samples > ul > li > figure {
+    max-height: 220px;
+    overflow: hidden;
+    border-top-left-radius: .5rem;
+    border-top-right-radius: .5rem;
+    position: relative;
+  }
+  
+  .samples > ul > li > figure > img {
+    width: 100%;
+  }
+  
+  .samples > ul > li > figure > figcaption {
+    position: absolute;
+    bottom: 0;
+    background-color: rgba(0,0,0,.7);
+    width: 100%;
+  }
+  
+  .samples > ul > li > figure > figcaption > h3 {
+    color: white;
+    padding: .75rem;
+    font-size: 1.25rem;
+  }
+  
+  .samples > ul > li > p {
+    font-size: 1rem;
+    line-height: 1.5;
+    padding: 1rem .75rem;
+    color: #666666;
+  }
+  
+  .samples > ul > li > a {
+    padding: .5rem 1rem;
+    margin: .5rem;
+  }
+  
+/** Case Study Base Styles **/
 
 h1, h2, h3, h4, h5, h6 {
     font-family: $sans;
 }
 
-.case-data {
+.item-a {
+    grid-area: header;
+  }
+  .item-b {
+    grid-area: main;
+  }
+  .item-c {
+    grid-area: sidebar;
+  }
+  .item-d {
+    grid-area: footer;
+  }
+
+  .container {
+    display: grid;
+    grid-template-columns: 50px 50px 50px 50px;
+    grid-template-rows: auto;
+    grid-template-areas: 
+      "header header header header"
+      "main main . sidebar"
+      "footer footer footer footer";
+  }
+
+.case__wrapper {
+  display: grid; 
+  grid-template-columns: 25% 25% 25% 25%;
+  grid-template-rows: auto;
+  grid-template-areas:
+    "header header header header"
+    "main main main sidebar"
+    "main main main sidebar"
+    "main main main main"
+}
+
+header {
+    grid-area: header;
+}
+
+main {
+    grid-area: main;
+}
+
+.sidebar {
+    grid-area: sidebar;
+}
+
+
+
+.case__metadata {
     background-color: orange;
     font-family: $sans;
     padding-bottom: 1em;
     padding-left: 2em;
 }
 
-.tags li {
+
+.case__metadata--tags li {
     display: inline;
     font-size: .875em;
     text-transform: uppercase;
@@ -26,17 +183,4 @@ h1, h2, h3, h4, h5, h6 {
     padding: .5em;
 }
 
-.case-tease {
-    
-    display: flex;
-}
-
-.case-tease > img {
-    height: auto;
-    width: 50%;
-}
-
-.case-tease > p {
-    height: auto;
-    width: 50%;
-}
+/* Case Study Special Styles */

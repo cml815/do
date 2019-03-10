@@ -2,25 +2,30 @@
 <head>
   {{> head}}
 </head>
-<header class="case-study">
-<div class="case-data">
-  <p>{{{ title }}}</p>
-  <p class="case-label">Products</p>
-  <p>{{ product1 }}</p> 
-  <p>{{ product2 }}</p>
-  <ul class="tags">
-    <li>{{ tag1 }}</li>
-    <li>{{ tag2 }}</li>
-    <li>{{ tag3 }}</li>
-  </ul>
+<div id="caseTemplate" class="case__wrapper">
+  <header class="case__summary">  
+    <ul class="case__metadata">
+      <li>{{{ title }}}</li>
+      <li><p>Products</p></li>
+      <li>{{ product1 }}</li> 
+      <li>{{ product2 }}</l1>
+    </ul>
+    <ul class="case__metadata--tags">
+      <li>{{ tag1 }}</li>
+      <li>{{ tag2 }}</li>
+      <li>{{ tag3 }}</li>
+    </ul>
+  </header>
 </div>
-</header>
-<body>
+<body class="case__body">
   <main> 
   
   {{{ body }}}
 
   </main>
+  <sidebar>
+
+  </sidebar>
 </body>
 
   <footer>
