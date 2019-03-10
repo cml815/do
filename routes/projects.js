@@ -7,15 +7,29 @@ router.get('/', function(req, res, next) {
 
 router.get('/health', function(req, res, next) {
   res.render('health', { 
-    title: 'Health',
-    product1: "health guides",
-    product2: "expert Q&As",
-    tag1: 'Content Strategy',
-    tag2: 'Content Marketing',
+    title: 'Relatable Content for Household Health Brands',
+    industry: 'healthcare',
+    tag1: 'content strategy',
+    tag2: 'content marketing',
     tag3: 'SEO',
     layout: 'case' 
   });
 });
+
+router.get('/lead-generation', function(req, res, next) {
+  res.render('lead-generation', { 
+    title: 'Lead Generation for a High Competition Market',
+    product1: "white papers",
+    product2: "research",
+    tag1: 'content strategy',
+    tag2: 'white papers',
+    tag3: 'lead generation',
+    layout: 'case' 
+  });
+});
+
+
+
 
   router.get('/marketing', function(req, res, next) {
     res.render('marketing', { title: 'Marketing' });
