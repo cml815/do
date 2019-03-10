@@ -24,7 +24,7 @@ router.get('/lead-generation', function(req, res, next) {
     tag1: 'content strategy',
     tag2: 'white papers',
     tag3: 'lead generation',
-    layout: 'case' 
+    layout: 'grid' 
   });
 });
 

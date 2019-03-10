@@ -404,44 +404,37 @@ textarea {
 h1, h2, h3, h4, h5, h6 {
   font-family: "Source Sans Pro", Verdana, Helvetica, Arial, sans-serif; }
 
-.item-a {
+.grid__item--header {
   grid-area: header; }
 
-.item-b {
+.grid__item--main {
   grid-area: main; }
 
-.item-c {
+.grid__item--sidebar {
   grid-area: sidebar; }
 
-.item-d {
-  grid-area: footer; }
-
-.container {
+.grid-container__page {
   display: grid;
-  grid-template-columns: 50px 50px 50px 50px;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-template-rows: auto;
-  grid-template-areas: "header header header header" "main main . sidebar" "footer footer footer footer"; }
+  grid-template-areas: "header header header header" "main main main sidebar" "main main main sidebar" "main main main sidebar"; }
 
-.case__wrapper {
-  display: grid;
-  grid-template-columns: 25% 25% 25% 25%;
-  grid-template-rows: auto;
-  grid-template-areas: "header header header header" "main main main sidebar" "main main main sidebar" "main main main main"; }
-
-header {
+.grid__item--header {
   grid-area: header;
   grid-column: 1 / 5;
   grid-row: 1 / 2; }
 
-main {
+.grid__item--main {
+  display: grid;
   grid-area: main;
   grid-column: 1 / 4;
-  grid-row: 2 / 4; }
+  grid-row: 2 / 5; }
 
-.sidebar {
+.grid__item--sidebar {
+  display: grid;
   grid-area: sidebar;
   grid-column: 4 / 5;
-  grid-row: 2 / 4; }
+  grid-row: 2 / 5; }
 
 .case__metadata {
   background-color: orange;
@@ -517,10 +510,10 @@ a:visited {
   background-color: #ffff66; }
 
 /* Grid it up */
-.grid-c {
+.grid-container {
   display: grid; }
 
-.grid-c-inline {
+.grid-container__inline {
   display: inline-grid; }
 
 /* Flexbox */
