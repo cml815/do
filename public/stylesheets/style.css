@@ -308,7 +308,6 @@ textarea {
   color: #000;
   padding: 0.2em 0; }
 
-/** Portfolio Page **/
 .samples {
   padding: 2rem; }
 
@@ -400,10 +399,7 @@ textarea {
   padding: .5rem 1rem;
   margin: .5rem; }
 
-/** Case Study Base Styles **/
-h1, h2, h3, h4, h5, h6 {
-  font-family: "Source Sans Pro", Verdana, Helvetica, Arial, sans-serif; }
-
+/* Grid layout */
 .grid__item--header {
   grid-area: header; }
 
@@ -417,28 +413,28 @@ h1, h2, h3, h4, h5, h6 {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-template-rows: auto;
-  grid-template-areas: "header header header header" "main main main sidebar" "main main main sidebar" "main main main sidebar"; }
+  grid-template-areas: "header header header header" "main main main main" "main main main main" "main main main main"; }
 
 .grid__item--header {
   grid-area: header;
   grid-column: 1 / 5;
-  grid-row: 1 / 2; }
+  grid-row: 1 / 2;
+  background-color: #424A51; }
+
+.main__container {
+  padding-left: 2em;
+  padding-right: 2em;
+  background-color: #efe; }
 
 .grid__item--main {
   display: grid;
   grid-area: main;
-  grid-column: 1 / 4;
-  grid-row: 2 / 5; }
-
-.grid__item--sidebar {
-  display: grid;
-  grid-area: sidebar;
-  grid-column: 4 / 5;
-  grid-row: 2 / 5; }
+  grid-column: 1 / 5;
+  grid-row: 3 / 5; }
 
 .case__metadata {
   background-color: orange;
-  font-family: "Source Sans Pro", Verdana, Helvetica, Arial, sans-serif;
+  font-family: "Lato", sans-serif;
   padding-bottom: 1em;
   padding-left: 2em; }
 
@@ -451,7 +447,19 @@ h1, h2, h3, h4, h5, h6 {
   border-radius: 10px;
   padding: .5em; }
 
-/* Case Study Special Styles */
+/* Page styles */
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Lato", sans-serif; }
+
+p {
+  font-family: "Corben", cursive; }
+
+.text-container {
+  padding-top: 2em; }
+
+.text-container p {
+  padding-top: 1em; }
+
 html {
   height: 100%;
   min-height: 100vh; }
@@ -504,10 +512,10 @@ a:visited {
   color: #1771ad; }
 
 .btn {
-  background-color: yellow; }
+  background-color: pink; }
 
 .btn:hover {
-  background-color: #ffff66; }
+  background-color: white; }
 
 /* Grid it up */
 .grid-container {

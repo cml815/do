@@ -24,7 +24,19 @@ router.get('/lead-generation', function(req, res, next) {
     tag1: 'content strategy',
     tag2: 'white papers',
     tag3: 'lead generation',
-    layout: 'grid' 
+    layout: 'case' 
+  });
+});
+
+router.get('/websites', function(req, res, next) {
+  res.render('websites', { 
+    title: 'Strategy on Healthcare Marketing',
+    product1: "web content",
+    product2: "SEO",
+    tag1: 'web copy',
+    tag2: 'strategy',
+    tag3: 'SEO',
+    layout: 'case' 
   });
 });
 

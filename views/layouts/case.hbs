@@ -2,33 +2,17 @@
 <head>
   {{> head}}
 </head>
-<div id="caseTemplate" class="case__wrapper">
-  <header class="grid-item case__summary">  
-    <ul class="case__metadata">
-      <li>{{{ title }}}</li>
-    </ul>
-    <ul class="case__metadata--tags">
-      <li>{{ tag1 }}</li>
-      <li>{{ tag2 }}</li>
-      <li>{{ tag3 }}</li>
-    </ul>
-  </header>
-</div>
-<body class="case__body">
-  <main class="grid-item"> 
-  
-  {{{ body }}}
+<body class="grid-container grid-container__page case__tech">
+    <header class="grid__item grid__item--header">
+        <h1>{{title}}</h1>
+        <ul>{{> sidebar}}</ul>
+    </header>
+       
+    <main class="grid__item grid__item--main">
 
-  </main>
-  <sidebar class="grid-item">
-    <p>This is a sidebar.</p>
-  </sidebar>
+        {{{ body }}}
+
+    </main>
+
 </body>
-
-  <footer>
-    {{> footer }}
-  </footer>
-  <script src="./javascripts/main.js"></script>
-  </body>
-  </html>
-
+</html>
