@@ -18,12 +18,12 @@ router.get('/health', function(req, res, next) {
 
 router.get('/lead-generation', function(req, res, next) {
   res.render('lead-generation', { 
-    title: 'Lead Generation for a High Competition Market',
-    product1: "white papers",
+    title: 'Lead generation in a high stakes market',
+    client: 'Comodo',
+    product1: "white paper",
     product2: "research",
-    tag1: 'content strategy',
-    tag2: 'white papers',
-    tag3: 'lead generation',
+    tag: [ "content strategy", "white paper", "lead generation"
+          ],
     layout: 'case' 
   });
 });

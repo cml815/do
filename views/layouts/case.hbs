@@ -4,15 +4,30 @@
 </head>
 <body class="grid-container grid-container__page case__tech">
     <header class="grid__item grid__item--header">
-        <h1>{{title}}</h1>
-        <ul>{{> sidebar}}</ul>
+        <h2>{{title}}</h1>
+        <h4>{{client}}</h4>
+        <h4>{{product1}}</h4>
+        <ul class="tags-list">
+            {{#each tag}}
+            <li>{{this}}</li>
+            {{/each}}
+        </ul>
+        </div>
+        <ul>
+
+        </ul>
     </header>
        
     <main class="grid__item grid__item--main">
 
         {{{ body }}}
-
+        
+    <button class="go-back" onclick="goBack()">Previous</button>
     </main>
-
+<script>
+    function goBack() {
+    window.history.back();
+    }
+</script>
 </body>
 </html>

@@ -155,7 +155,7 @@ color: $aqua; }
 
 /// Page Styles ///
 
-/* Portfolio */
+/* Portfolio 
 
 .grid-samples {
   display: grid;
@@ -205,8 +205,10 @@ figcaption {
 
    /** Alternative Syntax **/
   /* grid-column: 5 / span 4;
-  grid-row: 1 / span 5; */
-}
+  grid-row: 1 / span 5;
+ } */
+
+ /*
 
 .sample__item--4 {
   grid-column: 1 / span 4;
@@ -229,16 +231,10 @@ figcaption {
   background-color: aqua;
 }
 
-/* remove */
-.grid-3x3 {
-  height: 100%;
-  min-height: 100vh;
-  grid-template-columns: [col1] 1fr [col2] 1fr [col3] 1fr; 
-  grid-template-rows: repeat(3, auto [row]);
-  grid-gap: 5% 5%; /* row col */
-  justify-items: stretch; /* row also item justify-self */
-  align-items: stretch; /* col justify */
-}
+*/
+
+
+/* add to boilerplate */
 
 grid-i-1 {
   grid-column-start: 1;

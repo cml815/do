@@ -1,118 +1,43 @@
 /// Portfolio Styles ///
-  
-.samples {
-    padding: 2rem;
+  .samples__container {
+    display: grid;
+    grid-template-columns: repeat( auto-fit, minmax(250px, 1fr));
+    grid-template-rows: repeat(2, minmax(200px, 1fr));
+    grid-gap: 2.5%;
+    grid-auto-flow: dense;
+    height: 100%;
   }
 
-  .samples-container {
-    display: grid;
-    grid-template-columns: [first] 1fr [second] 1fr [third] 1fr;
-    grid-template-rows: [one] 25% [two] 25% [three] 25% [four] 25%;
-    height: 80vh;
+  figure {
+    height: 100%;
   }
  
-.samples-container > figure {
-  height: 20vh;
-}
-
-  .samples-container > img {
+  figure img {
     object-fit: cover;
     width: 100%;
     max-height: 100%;
 
   }
 
-  .item > figure > figcaption {
+figure .featured {
+  grid-column: span 2; 
+  grid-row: span 2;  
+}
+
+  /*
+
+  .sample > figure > figcaption {
     position: absolute;
     bottom: 0;
     background-color: rgba(223, 63, 63, 0.7);
     width: 100%;
   }
 
-  .item-1 {
-    grid-column-start: first;
-    grid-column-end: second;
-    grid-row-start: one;
-    grid-row-end: two;
-    background-color: pink;
-  }
+  */
 
-  .item-2 {
-    grid-column-start: second;
-    grid-column-end: third;
-    grid-row-start: one;
-    grid-row-end: two;
-    background-color: purple;
-  }
-
-  .item-3 {
-    grid-column-start: third;
-    grid-column-end: third;
-    grid-row-start: one;
-    grid-row-end: two;
-    background-color: skyblue;
-  }
-
-  .item-4 {
-    grid-column-start: first;
-    grid-column-end: third;
-    grid-row-start: twp;
-    grid-row-end: three;
-    background-color: blue;
-  }
-  
-  .samples > ul {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-    grid-gap: 1rem;
-  }
-  
-  .samples > ul > li {
-    border: 1px solid #E2E2E2;
-    border-radius: .5rem;
-  }
-  
-  .samples > ul > li > figure {
-    max-height: 220px;
-    overflow: hidden;
-    border-top-left-radius: .5rem;
-    border-top-right-radius: .5rem;
-    position: relative;
-  }
-  
-  .samples > ul > li > figure > img {
-    width: 100%;
-  }
-  
-  .samples > ul > li > figure > figcaption {
-    position: absolute;
-    bottom: 0;
-    background-color: rgba(0,0,0,.7);
-    width: 100%;
-  }
-  
-  .samples > ul > li > figure > figcaption > h3 {
-    color: white;
-    padding: .75rem;
-    font-size: 1.25rem;
-  }
-  
-  .samples > ul > li > p {
-    font-size: 1rem;
-    line-height: 1.5;
-    padding: 1rem .75rem;
-    color: #666666;
-  }
-  
-  .samples > ul > li > a {
-    padding: .5rem 1rem;
-    margin: .5rem;
-  }
-  
 /// Case Study Styles ///
 
-
-/* Grid layout */
+/* Grid layout - no other styles */
 
 .grid__item {
 
@@ -124,10 +49,6 @@
 
 .grid__item--main {
     grid-area: main;
-  }
-
-  .grid__item--sidebar {
-    grid-area: sidebar;
   }
  
   .grid-container__page {
@@ -145,7 +66,6 @@
     grid-area: header;
     grid-column: 1 / 5;
     grid-row: 1 / 2;
-    background-color: $test-dark;
 }
 
 .main__container {
@@ -160,6 +80,15 @@
     grid-row: 3 / 5;  
 }
 
+.grid__item--sidebar {
+  display: grid;
+  grid-area: sidebar;
+  grid-column: 4 / 5;
+  grid-row: 3 / 5;
+  background-color: skyblue;
+
+}
+
 .case__metadata {
     background-color: orange;
     font-family: $sans;
@@ -167,16 +96,19 @@
     padding-left: 2em;
 }
 
-
 .case__metadata--tags li {
     display: inline;
     font-size: .875em;
     text-transform: uppercase;
     background-color: white;
-    width: 100%;
     border-radius: 10px;
     padding: .5em;
 }
+
+/* Page template styles */
+
+
+
 
 /* Page styles */
 
@@ -185,7 +117,16 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 p {
-    font-family: $cursive;
+    font-family: $cursive; /* fixx */
+}
+
+header {
+  background-color: $test-light;
+  height: 25vh;
+}
+
+header h1 {
+  color: $test-light;
 }
 
 .text-container {
