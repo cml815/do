@@ -1,63 +1,16 @@
 <h1>{{title}}</h1>
 <p>Welcome to {{title}}</p>
 
-<h4>Please Work</h4>
+<form action="/contact" id="contact-form" method="post" role="form">
+  <fieldset>
+    <label for="name">Name &#42;</label>
+    <input id="name" name="name" type="text" placeholder="Your name" required="required">
+    <label for="email">Email &#42;</label>
+    <input id="email" name="email" type="text" placeholder="Your email" required="required">
+    <label for="message">Message &#42;</label>
+    <textarea id="message" name="message" placeholder="Enter your message here" rows="3" required="required"></textarea>
+    <button type="submit">Submit</button>
+  </fieldset>
+</form>
 
-<header>
 
-</header>
-
-<section>
-
-</section>
-
-<script>
- // var superHeroesText = '{"_id":{"$oid":"5c31423b8f99989bd07d4896"},"URL":"https://www.colgate.com/en-us/oral-health/conditions/tooth-sensitivity/why-are-my-teeth-sensitive-is-it-related-to-age-1214","Link":"View"}'
- 
-var portText = '{"project":[{"client":"Benefiber","product":"campaign","tags":["large brand","health","content marketing"],"url":"https://www.benefiber.com/digestive-health/","member":"Caroline Leopold"},{"client":"Colgate","product":"campaign","tags":["large brand","oral care","content marketing"],"url":"https://www.example.com","member":"Caroline Leopold"},{"client":"National Hemophilia Foundation","product":"$2M CDC grant","tags":["national","grant writing"],"url":"https://www.example.com","member":"Caroline Leopold"}]}';
-
-var header = document.querySelector('header');    
-var section = document.querySelector('section');
-var projects  = JSON.parse(portText);
-      // populateHeader(projects);
-      showProjects(projects);
-   /* 
-    function populateHeader(jsonObj) {
-      var myH1 = document.createElement('h1');
-      myH1.textContent = jsonObj['squadName'];
-      header.appendChild(myH1);
-      var myPara = document.createElement('p');
-      myPara.textContent = 'Hometown: ' + jsonObj['homeTown'] + ' // Formed: ' + jsonObj['formed'];
-      header.appendChild(myPara);
-    }
-    */
-    function showProjects(jsonObj) {
-      // var eachProject = jsonObj['members'];
-        var projects = jsonObj['project'];
-      for(var i = 0; i < projects.length; i++) {
-        var myArticle = document.createElement('article');
-        var myH2 = document.createElement('h2');
-        var myPara1 = document.createElement('p');
-        var myPara2 = document.createElement('p');
-        var myPara3 = document.createElement('p');
-        var myList = document.createElement('ul');
-        myH2.textContent = projects[i].client;
-        myPara1.textContent = 'What we did: ' + projects[i].product;
-        // myPara2.textContent = 'Age: ' + heroes[i].age;
-        myPara3.textContent = 'Skills:';
-        var talents = projects[i].tags;
-        for(var j = 0; j < talents.length; j++) {
-          var listItem = document.createElement('li');
-          listItem.textContent = talents[j];
-          myList.appendChild(listItem);
-        }
-        myArticle.appendChild(myH2);
-        myArticle.appendChild(myPara1);
-        myArticle.appendChild(myPara2);
-        myArticle.appendChild(myPara3);
-        myArticle.appendChild(myList);
-        section.appendChild(myArticle);
-      }
-    }
-
-</script>

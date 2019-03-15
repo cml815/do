@@ -2,9 +2,11 @@
 <head>
   {{> head}}
 </head>
-<body class="grid-container grid-container__page case__tech">
+<body class="grid__container--page">
     <header class="grid__item grid__item--header">
-        <h2>{{title}}</h1>
+        <h2>{{title}}</h2>
+        <div class="grid__item--flex">
+        
         <h4>{{client}}</h4>
         <h4>{{product1}}</h4>
         <ul class="tags-list">
@@ -12,18 +14,25 @@
             <li>{{this}}</li>
             {{/each}}
         </ul>
-        </div>
-        <ul>
-
-        </ul>
+    </div>
     </header>
-       
-    <main class="grid__item grid__item--main">
+    
+    <!-- sidebar sidebar area-->    
+    <div class="grid__item grid__item--sidebar">
+         {{> sidebar}}
+    </div>
 
+<!-- Main area -->
+    <main class="grid__item grid__item--main">
         {{{ body }}}
-        
     <button class="go-back" onclick="goBack()">Previous</button>
     </main>
+
+<!-- Footer -->
+ <footer class="grid__item grid__item--footer">
+        {{> footer}}
+    </footer>
+    
 <script>
     function goBack() {
     window.history.back();

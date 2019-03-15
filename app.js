@@ -8,6 +8,8 @@ var mongoose = require('mongoose');
 var exphbs = require('express-handlebars');
 var sassMiddleware = require('node-sass-middleware');
 var favicon = require('serve-favicon');
+var nodemailer = require('nodemailer');
+var dotenv = require('dotenv').config();
 
 var indexRouter = require('./routes/index');
 var usersRouter = require('./routes/users');
@@ -50,7 +52,7 @@ app.use(logger('dev'));
 app.use(express.json());
 app.use(express.urlencoded({ extended: false })); 
 app.use(bodyParser.json());
-app.use(bodyParser.urlencoded({extended: false})) // false = querystring and true = qs libs
+app.use(bodyParser.urlencoded({extended: true})) // false = querystring and true = qs libs
 app.use(cookieParser());
 app.use(sassMiddleware({
   src: path.join(__dirname, 'public'),
