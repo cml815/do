@@ -448,20 +448,6 @@ footer {
   padding: .5em; }
 
 /* Page template styles */
-/* Page styles */
-h1, h2, h3, h4, h5, h6 {
-  font-family: "Lato", sans-serif; }
-
-p {
-  font-family: "Corben", cursive;
-  /* fixx */ }
-
-header {
-  background-color: skyblue; }
-
-header h1 {
-  color: skyblue; }
-
 html {
   height: 100%;
   min-height: 100vh; }
@@ -475,6 +461,9 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: bold;
   letter-spacing: 1px;
   line-height: 1.5; }
+
+p {
+  font-family: "Lato", sans-serif; }
 
 h1 {
   font-size: 2em; }
@@ -585,6 +574,7 @@ a:visited {
 .page-title {
   display: inline;
   background-color: skyblue;
+  padding: .25em;
   color: white; }
 
 .hero {
@@ -639,9 +629,6 @@ article {
   padding: .5em; }
 
 /* Navigation */
-.header-navigation {
-  background-color: yellow; }
-
 .navigation {
   display: -webkit-box;
   display: -moz-box;

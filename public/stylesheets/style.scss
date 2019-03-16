@@ -5,6 +5,7 @@
 .page-title {
   display: inline;
   background-color: skyblue;
+  padding: .25em;
   color: white; 
 }
 
@@ -71,10 +72,6 @@ article {
   
 
 /* Navigation */
-
-.header-navigation {
-  background-color: yellow;
-}
 
 .navigation {
   display: -webkit-box;
