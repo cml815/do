@@ -7,15 +7,85 @@ router.get('/', function(req, res, next) {
   res.render('index', { title: '' });
 });
 
-/* Redirect home page.
-router.get('/', function(req, res) {
-  res.redirect('/projects');
-});
-
-*/
-
 router.get('/about', function(req, res, next) {
   res.render('about', { title: 'About' });
+});
+
+router.get('/about', function(req, res) {
+  // Below I'm passing in a JSON object (or hash table of keys and values, which is similar to an associative array) 
+  // as a 2nd parameter to the "tester.handlebars" template
+  res.render('about', {
+      title: "Meet the Team",
+      name: [ "Caroline Leopold", "Dana Henry", "Rich Garella", "Darcie Goodwin", "Ed Apffel"],
+      role: ["Founder", "Strategist", "Editor", "Writer", "Writer"],
+      url: ["./team/caroline_leopold", "./team/dana_henry", './team/rich_garella', './team/darcie_goodwin', './team/ed_apffel']
+    });
+  });
+
+  /* Fix Fix fix 
+
+  router.get('/about', function(req, res, next) {
+    // Below I'm passing in a JSON object (or hash table of keys and values, which is similar to an associative array) 
+    // as a 2nd parameter to the "tester.handlebars" template
+    res.render('about', {
+        members: [
+        {
+          name: "Caroline Leopold",
+          role: "Creative Director",
+          powers: [
+            "Medical marketing",
+            "Contracts, grants, RFPs",
+            "Web design"
+          ]
+        },
+        {
+          name: "Dana Henry",
+          role: "Content Strategy Director",
+          powers: [
+            "Campaign strategy",
+            "Science journalist",
+            "Tech copywriter"
+          ]
+        },
+        {
+          name: "Rich Garella",
+          role: "Editor in Chief",
+          powers: [
+            "Video producer",
+            "Journalism background"
+          ]
+        },
+        {
+          name: "Darcie Goodwin",
+          role: "Senior Content Writer",
+          powers: [
+            "Large brand experience",
+            "International experience"
+          ]
+        },
+        {
+          name: "Ed Apffel",
+          role: "Senior Technical Writer",
+          powers: [
+            "financial research/writing",
+            "technical writing"
+          ]
+        } 
+      ]
+    }
+  }); 
+  
+  */
+
+router.get('/tester', function(req, res) {
+  // Below I'm passing in a JSON object (or hash table of keys and values, which is similar to an associative array) 
+  // as a 2nd parameter to the "tester.handlebars" template
+  res.render('tester', {
+      first_name: "Donald",
+      last_name: "Duck",
+      now: new Date(),
+      random_num: Math.round(Math.random() * 10)
+  });
 });
 
 router.get('/work', function(req, res, next) {
@@ -109,16 +179,7 @@ mailOpts = {
   });
 });
 
-router.get('/tester', function(req, res) {
-  // Below I'm passing in a JSON object (or hash table of keys and values, which is similar to an associative array) 
-  // as a 2nd parameter to the "tester.handlebars" template
-  res.render('tester', {
-      first_name: "Donald",
-      last_name: "Duck",
-      now: new Date(),
-      random_num: Math.round(Math.random() * 10)
-  });
-});
+
 
 
 module.exports = router;
