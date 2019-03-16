@@ -2,21 +2,27 @@
 <head>
   {{> head}}
 </head>
-<body class="grid__container--page">
+<body class="case-template grid__container--page">
     <header class="grid__item grid__item--header">
-        <h2>{{title}}</h2>
-        <div class="grid__item--flex">
+        <div class="container__flex">
+            <h2>{{title}}</h2>
+            <div class="data__primary">
+                <h4>{{client}}</h4>
+                <h4>{{product1}}</h4>
+            </div>
+        </div>
         
-        <h4>{{client}}</h4>
-        <h4>{{product1}}</h4>
-        <ul class="tags-list">
+        <div class="container__flex--column">
+            
+       
+        <ul class="container__flex tag-list">
             {{#each tag}}
             <li>{{this}}</li>
             {{/each}}
         </ul>
     </div>
     </header>
-    
+
     <!-- sidebar sidebar area-->    
     <div class="grid__item grid__item--sidebar">
          {{> sidebar}}

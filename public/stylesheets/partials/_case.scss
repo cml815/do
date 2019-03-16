@@ -62,6 +62,15 @@ figure .featured {
 
 /* Case study page layout  */
 
+header, main {
+  padding-left: 2em;
+  padding-right: 1em;
+}
+
+footer {
+  padding: 0;
+}
+
 .grid__container--page {
   display: grid;
   min-height: 100%;
@@ -88,9 +97,37 @@ figure .featured {
   grid-row: 1 / 2;
 }
 
-.grid__item--flex {
+.container__flex {
   display: flex;
-  flex-direction: row;
+}
+
+.container__flex--column {
+  display: flex;
+  flex-direction: column;
+}
+
+.data__primary {
+  justify-content: space-between;
+  background-color: white;
+}
+
+.tag-list li {
+  display: inline;
+  font-size: .75em;
+  text-transform: uppercase;
+  padding: .5em .5em;
+}
+
+.tag-list li:first-child {
+  background-color: green;
+}
+
+.tag-list li:nth-child(2) {
+  background-color: orange;
+}
+
+.tag-list li:last-child {
+  background-color: red;
 }
 
 .grid__item--header > h2 {
