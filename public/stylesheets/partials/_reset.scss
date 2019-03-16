@@ -22,7 +22,7 @@ body {
 	line-height: 1;
 }
 
-ol, ul {
+ol, ul, li {
 	list-style: none;
 }
 
@@ -297,15 +297,6 @@ input::-moz-focus-inner {
 textarea {
     overflow: auto; /* 1 */
     vertical-align: top; /* 2 */
-}
-
-/**
- * Remove most spacing between table cells.
- */
-
-table {
-    border-collapse: collapse;
-    border-spacing: 0;
 }
 
 html,

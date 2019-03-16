@@ -18,7 +18,7 @@ footer, header, hgroup, menu, nav, section {
 body {
   line-height: 1; }
 
-ol, ul {
+ol, ul, li {
   list-style: none; }
 
 blockquote, q {
@@ -268,13 +268,6 @@ textarea {
   /* 1 */
   vertical-align: top;
   /* 2 */ }
-
-/**
- * Remove most spacing between table cells.
- */
-table {
-  border-collapse: collapse;
-  border-spacing: 0; }
 
 html,
 button,
