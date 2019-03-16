@@ -573,14 +573,13 @@ a:visited {
   color: white; }
 
 .hero {
-  background-color: pink;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
   align-items: center;
   height: 60vh; }
 
 .hero > * {
-  color: #dfe7ec; }
+  color: #424A51; }
 
 .hero > h1 {
   font-size: 3rem;

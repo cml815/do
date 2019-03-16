@@ -4,7 +4,7 @@ var nodemailer = require('nodemailer');
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
-  res.render('index', { title: '' });
+  res.render('index', { placeholder: '' });
 });
 
 router.get('/about', function(req, res, next) {

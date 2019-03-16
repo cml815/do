@@ -10,7 +10,6 @@
 }
 
 .hero {
-  background-color: pink;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
   align-items: center;
@@ -18,7 +17,7 @@
   }
   
 .hero > * {
-  color: $light;
+  color: $test-dark;
   }
     
 .hero > h1 {

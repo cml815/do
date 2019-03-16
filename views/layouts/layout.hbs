@@ -4,8 +4,12 @@
 </head>
 <body>
 {{> nav }}
+
+<div class="container__title">
+  {{#if title}}
     <h1 class="page-title">{{ title }}</h1>
-  <div>
+  {{/if}}
+</div>
     
   {{{ body }}}
 
