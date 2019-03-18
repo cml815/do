@@ -57,9 +57,9 @@ header, main {
     auto; 
   grid-template-areas: 
     "header header header header"
-    "main main main sidebar"
-    "main main main sidebar"
-    "main main main sidebar"
+    "main main main main"
+    "main main main main"
+    "main main main main"
     "footer footer footer footer";
 }
 
@@ -124,36 +124,6 @@ header, main {
   grid-row: 4 / 5;  
 }
 
-.grid__item--sidebar {
-    grid-area: sidebar;
-    grid-column: 3 / 5;
-    grid-row: 2 / 5;
-    background-color: pink;   
-}
-
-
-
-.case__sidebar {
-    display: flex;
-    flex-direction: column;
-    max-height: 100%;
-    background-color: $sidebar;
-    font-family: $sans;
-    padding-bottom: 1em;
-    padding-left: 2em;
-}
-
-.case__sidebar li:first-child {
-  display: block;
-  width: 100%;
-}
-.case__sidebar li {
-    font-size: .875em;
-    text-transform: uppercase;
-    background-color: white;
-    border-radius: 10px;
-    padding: .5em;
-}
 
 /* Page template styles */
 
