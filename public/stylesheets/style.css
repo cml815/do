@@ -354,31 +354,10 @@ figure img {
   object-fit: cover;
   max-width: 100%; }
 
-/* 
-
-figure .featured {
-  grid-column: span 2; 
-  grid-row: span 2;  
-}
-
-*/
-/*
-
-  .sample > figure > figcaption {
-    position: absolute;
-    bottom: 0;
-    background-color: rgba(223, 63, 63, 0.7);
-    width: 100%;
-  }
-
-  */
 /* Case study page layout  */
 header, main {
   padding-left: 2em;
   padding-right: 1em; }
-
-footer {
-  padding: 0; }
 
 .grid__container--page {
   display: grid;
@@ -411,16 +390,11 @@ footer {
   display: inline;
   font-size: .75em;
   text-transform: uppercase;
-  padding: .5em .5em; }
-
-.tag-list li:first-child {
-  background-color: green; }
-
-.tag-list li:nth-child(2) {
-  background-color: orange; }
-
-.tag-list li:last-child {
-  background-color: red; }
+  padding: .5em .5em;
+  border: solid 1px #e5e4e2;
+  border-radius: 8px;
+  background-color: #e5e4e2;
+  margin-left: 2px; }
 
 .grid__item--header > h2 {
   text-align: center;
@@ -696,8 +670,9 @@ ul li ul li {
 
 /* Footer */
 footer {
-  display: flex;
-  width: 100%;
+  width: 100vw;
+  height: 50px;
+  margin-top: -50px;
   background-color: #424A51;
   padding: 1rem;
   color: #dfe7ec;

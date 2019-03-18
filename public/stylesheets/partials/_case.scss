@@ -38,26 +38,6 @@
     max-width: 100%;
   }
 
-  /* 
-
-figure .featured {
-  grid-column: span 2; 
-  grid-row: span 2;  
-}
-
-*/
-
-  /*
-
-  .sample > figure > figcaption {
-    position: absolute;
-    bottom: 0;
-    background-color: rgba(223, 63, 63, 0.7);
-    width: 100%;
-  }
-
-  */
-
 /// Case Study Styles ///
 
 /* Case study page layout  */
@@ -65,10 +45,6 @@ figure .featured {
 header, main {
   padding-left: 2em;
   padding-right: 1em;
-}
-
-footer {
-  padding: 0;
 }
 
 .grid__container--page {
@@ -116,18 +92,20 @@ footer {
   font-size: .75em;
   text-transform: uppercase;
   padding: .5em .5em;
+  border: solid 1px $pearl;
+  border-radius: 8px;
+  background-color: $pearl;
+  margin-left: 2px;
 }
 
 .tag-list li:first-child {
-  background-color: green;
+ 
 }
 
 .tag-list li:nth-child(2) {
-  background-color: orange;
 }
 
 .tag-list li:last-child {
-  background-color: red;
 }
 
 .grid__item--header > h2 {
