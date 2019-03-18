@@ -2,7 +2,7 @@ var express = require('express');
 var router = express.Router();
 
 router.get('/', function(req, res, next) {
-  res.render('projects', { title: 'Here\'s Our Work' });
+  res.render('projects', { title: 'Here\'s Our Work', layout: 'portfolio' });
 });
 
 router.get('/health', function(req, res, next) {
