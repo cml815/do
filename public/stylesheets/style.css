@@ -315,15 +315,9 @@ header.grid__item {
   grid-column: 1 / span 12;
   grid-row: 1 / 2; }
 
-.hero.grid__item {
-  grid-column: 1 / span 12;
-  grid-row: 2 / span 2;
-  background-color: pink; }
-
 main.grid__item {
   grid-column: 1 / span 12;
-  grid-row: 4 / 12;
-  background-color: yellow; }
+  grid-row: 2 / 12; }
 
 footer.grid_item {
   grid-column: 1 / span 12;
