@@ -80,6 +80,16 @@ a:visited {
     background-color: lighten($btnColor, 20%); 
 }
 
+figcaption {
+  
+}
+
+figcaption p {
+  font-family: $sans;
+  font-size: .875em;
+  line-height: 1em;
+}
+
 /* Grid it up */
 
 .grid-container {

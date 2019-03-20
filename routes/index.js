@@ -16,7 +16,7 @@ router.get('/', function(req, res, next) {
         members: [
         {
           name: "Caroline Leopold",
-          role: "Creative Director",
+          role: "Founder, Client Relations and Creative Director",
           powers: [
             "Medical marketing",
             "Contracts, grants, RFPs",
@@ -25,7 +25,7 @@ router.get('/', function(req, res, next) {
         },
         {
           name: "Dana Henry",
-          role: "Content Strategy Director",
+          role: "Content Director",
           powers: [
             "Campaign strategy",
             "Science journalist",
@@ -34,7 +34,7 @@ router.get('/', function(req, res, next) {
         },
         {
           name: "Rich Garella",
-          role: "Editor in Chief",
+          role: "Technology / Interactive Director",
           powers: [
             "Video producer",
             "Journalism background"
@@ -42,7 +42,7 @@ router.get('/', function(req, res, next) {
         },
         {
           name: "Darcie Goodwin",
-          role: "Senior Content Writer",
+          role: "Content Manager",
           powers: [
             "Large brand experience",
             "International experience"

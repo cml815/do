@@ -6,12 +6,6 @@
     <header class="grid__item grid__item--header">
         <div class="container__flex data__primary">
             <h2>{{title}}</h2>
-            <div class="">
-                <h4>{{client}}</h4>
-                <h4>{{product1}}</h4>
-            </div>
-        </div>
-        <div class="">
             <ul class="container__flex tag-list">
                 {{#each tag}}
                 <li>{{this}}</li>
@@ -19,6 +13,8 @@
             </ul>
         </div>
     </header>
+  
+
 
 <!-- Main area -->
     <main class="grid__item grid__item--main">
@@ -26,10 +22,12 @@
     <button class="go-back" onclick="goBack()">Previous</button>
     </main>
 
-<!-- Footer -->
+<!-- Footer 
  <footer class="grid__item grid__item--footer">
         {{> footer}}
     </footer>
+
+    -->
     
 <script>
     function goBack() {
