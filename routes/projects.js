@@ -7,7 +7,7 @@ router.get('/', function(req, res, next) {
 
 router.get('/jeff-grant-technology-influencer', function(req, res, next) {
   res.render('jeff-grant-technology-influencer', { 
-    title: 'Magaziney Title.',
+    title: 'From Behind the Camera: From Videographer to YouTube Influencer',
     name: 'Jeff Grant',
     jobTitle: 'Videographer, YouTube Influencer',
     caption: 'Jeff Grant on location for a video shoot',
