@@ -127,6 +127,42 @@ header, main {
 
 /* Page template styles */
 
+/* Jeff Grant, Influencer */
+
+.row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 100%;
+  flex: 1;
+}
+
+.narrative {
+  width: 50%;
+}
+.hero-image {
+  margin: 0;
+  background-position: center;
+  background-size: cover;
+  background-image: url(/images/grant-red-shirt.jpg);
+  width: 33%;
+  height: 70vh; 
+}
+
+.col-2 {
+
+}
+
+
+
+
+
 
 
 
