@@ -13,7 +13,7 @@
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
   align-items: center;
-  height: 60vh;
+  height: 100vh;
   }
   
 .hero > * {
@@ -69,7 +69,6 @@ article {
   padding: .5em;
 }
   
-
 /* Navigation */
 
 .navigation {
@@ -155,6 +154,21 @@ footer a:visited {
 color: $aqua; }
 
 /// Page Styles ///
+
+// Home page grid //
+
+.home.page__wrap {
+  display: grid;
+  grid-gap: 1em;
+  grid-template-areas: 
+    "hero"
+    "primary"
+    ""
+    "services"
+    "";
+}
+
+
 
 /* Portfolio 
 
