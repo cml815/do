@@ -1,18 +1,22 @@
 <!doctype html>
 <head>
-  {{> head}}
+{{> head}}
 </head>
+
 <body>
-{{> nav }}
-
-<div class="container__title">
-  {{#if title}}
-    <h1 class="page-title">{{ title }}</h1>
-  {{/if}}
-</div>
-    
+  <header>
+    <nav>
+      {{> nav }}
+    </nav>
+  </header>
+  <main>
+    <div class="container__title">
+      {{#if title}}
+      <h1 class="page-title">{{ title }}</h1>
+      {{/if}}
+    </div>
   {{{ body }}}
-
+  </main>
   <footer>
     {{> footer }}
   </footer>

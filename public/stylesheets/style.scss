@@ -13,12 +13,14 @@
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
   align-items: center;
-  height: 100vh;
+  height: 90vh;
   }
   
 .hero > * {
   color: $test-dark;
   }
+
+.hero
     
 .hero > h1 {
   font-size: 3rem;
@@ -161,15 +163,47 @@ color: $aqua; }
 
 // Home page grid //
 
-.home.page__wrap {
+.home .page__wrap {
+  display: grid;
+  grid-gap: 0;
+  grid-template-columns: repeat(auto-fit, minmax(125px, 1fr));
+  grid-template-rows: auto;
+  grid-template-areas:
+    "hero hero hero hero"
+    "value value value value"
+    "work work samples samples"
+    "work work samples samples"
+    "contact contact contact contact";
+}
+
+main.home {
+  background-color: grey;
+}
+
+.home > section {
+  height: 75vh;
+  padding: 0 1em;
+}
+
+.home > .card-container {
   display: grid;
   grid-gap: 1em;
-  grid-template-areas: 
-    "hero"
-    "primary"
-    ""
-    "services"
-    "";
+  grid-template-columns: col 2 / span 2;
+  grid-row: row 2;
+  grid-template-columns: 1fr 1fr;
+  height: 100%
+}
+
+.card {
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 50%;
+}
+
+i {
+  font-size: 2em;
+  text-align: center;
 }
 
 
