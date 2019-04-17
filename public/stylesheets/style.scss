@@ -38,7 +38,7 @@ article {
 
 .hero > article > a {
   padding: 1rem;
-  margin-top: 1.75rem;
+  margin-top: .75rem;
 }
 
 .container-cta {
@@ -59,6 +59,9 @@ article {
   background-color: whitesmoke;
 }
 
+.btn:hover {
+  background-color: salmon;
+}
 .cta a {
   padding: .5em;
   font-size: 1.6em;
@@ -170,11 +173,7 @@ color: $aqua; }
 }
 
 main.home {
-  background-color: grey;
-}
-
-.home > section {
-  height: 75vh;
+  background-color: transparent;
 }
 
 .card-container {

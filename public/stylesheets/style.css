@@ -592,7 +592,7 @@ article {
 
 .hero > article > a {
   padding: 1rem;
-  margin-top: 1.75rem; }
+  margin-top: .75rem; }
 
 .container-cta {
   display: flex;
@@ -609,6 +609,9 @@ article {
   padding: 1em .75em;
   border-radius: 1.5em;
   background-color: whitesmoke; }
+
+.btn:hover {
+  background-color: salmon; }
 
 .cta a {
   padding: .5em;
@@ -697,10 +700,7 @@ color: $aqua; }
   grid-template-areas: "hero hero hero hero" "value value value value" "work work samples samples" "work work samples samples" "contact contact contact contact"; }
 
 main.home {
-  background-color: grey; }
-
-.home > section {
-  height: 75vh; }
+  background-color: transparent; }
 
 .card-container {
   display: grid;
