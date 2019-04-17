@@ -570,6 +570,7 @@ figcaption p {
 
 .hero {
   display: flex;
+  flex-direction: column;
   align-items: center;
   height: 90vh; }
 
@@ -591,18 +592,8 @@ article {
 
 .hero > article > a {
   padding: 1rem;
-  margin-top: .75rem; }
+  margin-top: 1.75rem; }
 
-/* 
-.right-panel {
-  background: url('../images/storefront.jpg') center no-repeat;
-  background-size: cover;
-  box-shadow: inset 0 0 0 1000px rgba(0,0,0,.3);
-  height: 100%
-  /* mix-blend-mode for cont - img darken 
-}
-
-*/
 .container-cta {
   display: flex;
   flex-direction: column;
@@ -615,12 +606,13 @@ article {
   margin-top: auto;
   margin-bottom: 0;
   text-align: center;
-  width: 50%;
-  padding: .5em;
-  background-color: pink; }
+  padding: 1em .75em;
+  border-radius: 1.5em;
+  background-color: whitesmoke; }
 
 .cta a {
-  padding: .5em; }
+  padding: .5em;
+  font-size: 1.6em; }
 
 /* Navigation */
 .navigation {
