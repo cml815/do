@@ -2,23 +2,19 @@
 <head>
   {{> head}}
 </head>
-<body class="home">
-  <header class="">
-		<div class="">
-			{{#if title}}
-				<h1 class="page-title">{{ title }}</h1>
-			{{/if}}
-		</div>
-  </header>
-  <header id="menu" class="menu-wrap grid__item">
-      {{> nav }}
-  </header>
-		<main class="">
-			 {{{ body }}}
-		</main>
-  <footer class="">
-    {{> footer }}
-  </footer>
+<body>
+  <main>
+    <section class="hero">
+        {{> hero}}
+    </section>
+    <header id="menu" class="menu-wrap grid__item">
+        {{> nav }}
+    </header>
+        {{{ body }}}
+    <footer class="">
+        {{> footer }}
+    </footer>
+  </main>
   <script src="./javascripts/main.js"></script>
 </body>
 </html>
