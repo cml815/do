@@ -1,6 +1,13 @@
-rsdocument.getElementById('myElem').addEventListener('click', function() {
-  alert("I'm a mf button");
-}, false);
+/* Sticky navigation */
+
+const nav = document.querySelector('#main');
+const topOfNav = nav.offsetTop;
+
+function fixedNav() {
+  console.log(topOfNav, window.scrollY);
+}
+
+window.addEventListener("scroll", fixedNav);
 
 /* Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon */
 function myFunction() {

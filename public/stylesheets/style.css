@@ -577,7 +577,6 @@ figcaption p {
 .hero > * {
   color: #424A51; }
 
-.hero
 .hero > h1 {
   font-size: 3rem;
   padding-bottom: 1rem; }
@@ -620,6 +619,15 @@ article {
   font-size: 1.6em; }
 
 /* Navigation */
+.menu-wrap {
+  width: 100%; }
+
+#navbar {
+  display: flex;
+  overflow: hidden;
+  background-color: gray;
+  width: 100%; }
+
 .navigation {
   display: -webkit-box;
   display: -moz-box;
@@ -644,6 +652,7 @@ nav li {
   transition-duration: 0.5s; }
 
 nav li a {
+  font-family: "Lato", Helvetica, "Helvetica Neue", Arial, sans-serif;
   color: black; }
 
 nav li:hover {
@@ -671,6 +680,7 @@ ul li ul li {
   clear: both;
   width: 100%; }
 
+/* Home Page Styles */
 /* Footer */
 footer {
   width: 100vw;

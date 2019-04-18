@@ -5,12 +5,14 @@
 <body>
 <div class="grid__page grid__page--12x12">
   <header class="grid__item">
-    {{> nav }}
 			<div class="container__title">
 				{{#if title}}
 					<h1 class="page-title">{{ title }}</h1>
 				{{/if}}
 			</div>
+  </header>
+  <header id="menu">
+      {{> nav }}
   </header>
 		<main class="grid__item">
 			 {{{ body }}}

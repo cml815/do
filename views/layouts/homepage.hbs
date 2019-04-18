@@ -1,0 +1,24 @@
+<!doctype html>
+<head>
+  {{> head}}
+</head>
+<body class="home">
+  <header class="">
+		<div class="">
+			{{#if title}}
+				<h1 class="page-title">{{ title }}</h1>
+			{{/if}}
+		</div>
+  </header>
+  <header id="menu" class="menu-wrap grid__item">
+      {{> nav }}
+  </header>
+		<main class="">
+			 {{{ body }}}
+		</main>
+  <footer class="">
+    {{> footer }}
+  </footer>
+  <script src="./javascripts/main.js"></script>
+</body>
+</html>

@@ -2,19 +2,18 @@
 <head>
 {{> head}}
 </head>
-
 <body>
-  <header>
-    <nav>
-      {{> nav }}
-    </nav>
-  </header>
   <main>
     <div class="container__title">
       {{#if title}}
       <h1 class="page-title">{{ title }}</h1>
       {{/if}}
     </div>
+    <header>
+      <nav id="menu">
+      {{> nav }}
+      </nav>
+    </header>
   {{{ body }}}
   </main>
   <footer>
