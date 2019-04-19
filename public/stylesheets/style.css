@@ -759,6 +759,10 @@ i {
   grid-column: 2 / span 1;
   grid-row: 2 / span 1; }
 
+.contact {
+  height: 40vh;
+  padding-bottom: 0; }
+
 /* Portfolio 
 
 .grid-samples {
