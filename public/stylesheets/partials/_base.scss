@@ -167,6 +167,15 @@ figcaption p {
     margin: .5rem;
   }
 
+  /* Visibility with JS */
+
+  .toggle-content {
+    display: none;
+  }
+  
+  .toggle-content.is-visible {
+    display: block;
+  }
   
   
 

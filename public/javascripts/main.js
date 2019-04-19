@@ -19,6 +19,23 @@ function stickyNavigation() {
 
 window.addEventListener('scroll', stickyNavigation);
 
+/* Scroll effects */
+
+// Show an element
+var show = function (elem) {
+	elem.classList.add('is-visible');
+};
+
+// Hide an element
+var hide = function (elem) {
+	elem.classList.remove('is-visible');
+};
+
+// Toggle element visibility
+var toggle = function (elem) {
+	elem.classList.toggle('is-visible');
+};
+
 /* Animate home page image */
 
 var animateHTML = function() {
