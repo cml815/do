@@ -262,6 +262,21 @@ i {
   padding-left: 1em;
 }
 
+/* Animate cards */
+
+@keyframes fade-in {
+  from {opacity: 0; transform: scale(.7,.7)}
+  to {opacity: 1;}
+}
+
+.fade-in-element {
+animation: fade-in 1.4s;
+}
+
+.hidden {
+  opacity: 0;
+}
+
 .samples.grid-container {
   grid-template-columns: 50% 50%;
   grid-template-rows: 50% 50%;
