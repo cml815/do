@@ -767,6 +767,13 @@ i {
   grid-column: 2 / span 1;
   grid-row: 3 / span 1; }
 
+.s-card {
+  background-color: pink; }
+
+.s-card > h4,
+.s-card > img {
+  padding-left: 1em; }
+
 .samples.grid-container {
   grid-template-columns: 50% 50%;
   grid-template-rows: 50% 50%;
