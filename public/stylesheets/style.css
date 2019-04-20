@@ -930,7 +930,9 @@ i {
 .samples {
   width: 100vw;
   height: 75vh;
-  background: url("./images/ad-wall.jpg") no-repeat cover; }
+  background-image: url("../images/ad-wall.jpg");
+  background-repeat: no-repeat;
+  background-position: cover; }
 
 .contact {
   height: 40vh;
