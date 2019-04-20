@@ -52,7 +52,7 @@ app.use(logger('dev'));
 app.use(express.json());
 app.use(express.urlencoded({ extended: false })); 
 app.use(bodyParser.json());
-app.use(bodyParser.urlencoded({extended: true})) // false = querystring and true = qs libs
+app.use(bodyParser.urlencoded({extended: true})); // false = querystring and true = qs libs
 app.use(cookieParser());
 app.use(sassMiddleware({
   src: path.join(__dirname, 'public'),
