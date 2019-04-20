@@ -277,36 +277,13 @@ animation: fade-in 1.4s;
   opacity: 0;
 }
 
-.samples.grid-container {
-  grid-template-columns: 50% 50%;
-  grid-template-rows: 50% 50%;
-  grid-gap: 0;
+.samples {
+  width: 100vw;
+  height: 75vh;
+  background: url("../images/ad-wall.jpg") no-repeat cover;
 }
 
-.top-left {
-  grid-column: 1 / span 1;
-  grid-row: 1 / span 1;
 
-}
-
-.top-right {
-  grid-column: 2 / span 1;
-  grid-row: 1 / span 1;
-
-}
-
-.bottom-left {
-
-  grid-column: 1 / span 1;
-  grid-row: 2 / span 1;
-
-}
-
-.bottom-right {
-  grid-column: 2 / span 1;
-  grid-row: 2 / span 1;
-
-}
 
 .contact {
   height: 40vh;
