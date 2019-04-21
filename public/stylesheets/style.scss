@@ -55,7 +55,7 @@ article {
   padding: 1em 1.25em;
   border: 1.5px solid $charcoal;
   background-color: $plum;
-  /* border-radius: 1.5em; */
+  border-radius: 1.5em; 
 }
 
 .btn:hover {
@@ -64,7 +64,6 @@ article {
   transition-timing-function: ease-in-out; 
 }
 .cta > p {
-  padding: .5em;
   font-size: 1em;
   text-transform: uppercase;
   font-family: $sans;
