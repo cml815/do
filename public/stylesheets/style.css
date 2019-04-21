@@ -900,6 +900,10 @@ i {
   grid-template-rows: 33% 33% 33%;
   grid-gap: 1em; }
 
+.s-card.grid-item {
+  justify-self: center;
+  align-self: center; }
+
 .1of6 {
   grid-column: 1 / span 1;
   grid-row: 1 / span 1; }
@@ -925,7 +929,7 @@ i {
   grid-row: 3 / span 1; }
 
 .s-card {
-  background-color: pink; }
+  background-color: transparent; }
 
 .s-card > h4,
 .s-card > img {

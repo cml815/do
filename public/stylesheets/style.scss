@@ -246,6 +246,11 @@ i {
   grid-gap: 1em;
 }
 
+.s-card.grid-item {
+  justify-self: center;
+  align-self: center;
+}
+
 .1of6 {
   grid-column: 1 / span 1;
   grid-row: 1 / span 1;
@@ -277,7 +282,7 @@ i {
 }
 
 .s-card {
-  background-color: pink;
+  background-color: transparent;
 }
 
 .s-card > h4,
