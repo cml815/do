@@ -52,19 +52,22 @@ article {
   margin-top: auto;
   margin-bottom: 0;
   text-align: center;
-  padding: 1em .75em;
-  border-radius: 1.5em;
-  background-color: salmon;
+  padding: 1em 1.25em;
+  border: 1.5px solid $charcoal;
+  background-color: $plum;
+  /* border-radius: 1.5em; */
 }
 
 .btn:hover {
-  background-color: whitesmoke;
+  background-color: $rose-darker;
   transition: 400ms;
   transition-timing-function: ease-in-out; 
 }
-.cta a {
+.cta > p {
   padding: .5em;
-  font-size: 1.6em;
+  font-size: 1em;
+  text-transform: uppercase;
+  font-family: $sans;
 }
   
 /* Navigation */
