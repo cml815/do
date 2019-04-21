@@ -305,13 +305,13 @@ animation: fade-in 1.4s;
   opacity: 0;
 }
 
-.samples {
+.page-split {
+  display: flex;
   width: 100vw;
-  height: 90vh;
-  background-image: url("../images/ad-edit.jpg");
-  background-repeat: no-repeat;
-  background-position: cover;
+  height: 50vh; 
 }
+
+
 
 
 
