@@ -52,16 +52,17 @@ article {
   margin-top: auto;
   margin-bottom: 0;
   text-align: center;
-  padding: 1em 1.25em;
-  border: 1.5px solid $charcoal;
-  background-color: $plum;
-  border-radius: 1.5em; 
+  padding: .25em 1.5em;
+  border: 1.5px solid $plum;
+  background-color: transparent;
+  border-radius: 2.5em; 
 }
 
 .btn:hover {
-  background-color: $rose-darker;
+  background-color: $plum;
   transition: 400ms;
-  transition-timing-function: ease-in-out; 
+  transition-timing-function: ease-in-out;
+  color: #fff; 
 }
 .cta > p {
   font-size: 1em;
