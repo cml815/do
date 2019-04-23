@@ -2,6 +2,14 @@
 
 /* Grid full page layout */
 
+.grid-container {
+    display: grid;
+}
+
+.flex-container {
+    display: flex;
+}
+
 .grid__page--12x12 {
     display: grid;
     grid-template-columns: repeat(12, 1fr);
@@ -26,5 +34,7 @@ footer.grid_item {
     grid-row: 12 / 13;    
 
 }
+
+/* Hero Layout */
 
 

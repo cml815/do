@@ -11,10 +11,15 @@
 
 .hero {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
   height: 75vh;
+  @include mobile {
+    flex-direction: column;
+    }
   }
+
+  
   
 .hero > * {
   color: $test-dark;
@@ -310,10 +315,6 @@ animation: fade-in 1.4s;
   width: 100vw;
   height: 50vh; 
 }
-
-
-
-
 
 .contact {
   height: 40vh;

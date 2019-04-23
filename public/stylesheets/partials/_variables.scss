@@ -73,6 +73,38 @@ $sans: 'Lato', Helvetica, 'Helvetica Neue', Arial, sans-serif;
 $narrow: 'Roboto Condensed', 'Lato', Helvetica, 'Helvetica Neue', Arial, sans-serif;
 $serif: 'Aleo', Georgia, 'Times New Roman', Times, serif;
 
-$btnColor: pink;
+$btnColor: #ffc0cb;
 
-$mobile: "max-width: 600px";
+@mixin mobile {
+    @media (max-width: 599px) { @content; }
+  }
+  @mixin mobile-tablet {
+    @media (min-width: 600px) { @content; }
+  }
+  @mixin tablet-plus {
+    @media (min-width: 900px) { @content; }
+  }
+  @mixin desktop {
+    @media (min-width: 1200px) { @content; }
+  }
+  @mixin desktop-plus {
+    @media (min-width: 1800px) { @content; }
+  }
+
+
+
+$mobile: (min-width: 320px) and (max-width: 767px);
+$tablet: (min-width: 768px) and (max-width: 1024px);
+$lap-desk: (min-width: 1025px) and (max-width: 1280px); 
+$desktop-large: (min-width: 1281px)
+
+
+/* 
+xs, extra-small: 0px or larger
+sm, small: 600px or larger
+md, medium: 960px or larger
+lg, large: 1280px or larger
+xl, extra-large: 1920px or larger
+
+*/
+
