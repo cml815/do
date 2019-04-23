@@ -661,7 +661,7 @@ figcaption p {
 .flex-container > * {
   flex: 1; }
 
-@media only screen and ((max-width: 767px)) {
+@media only screen and (599px) {
   .flex-container {
     flex-direction: column; } }
 
@@ -727,9 +727,10 @@ figcaption p {
   flex-direction: row;
   align-items: center;
   height: 75vh; }
-  @media (max-width: 599px) {
-    .hero {
-      flex-direction: column; } }
+
+@media screen and (max-width: 599px) {
+  .hero {
+    flex-direction: column; } }
 
 .hero > * {
   color: #424A51; }
