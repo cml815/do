@@ -726,7 +726,7 @@ figcaption p {
   display: flex;
   flex-direction: row;
   align-items: center;
-  height: 75vh; }
+  height: 100vh; }
 
 @media screen and (max-width: 599px) {
   .hero {
@@ -784,7 +784,8 @@ nav {
   width: 100%;
   background-color: black;
   text-align: center;
-  margin: 0 auto; }
+  margin: 0 auto;
+  height: 2.2em; }
 
 /* applied after scroll height reached */
 .fixed-nav nav {
@@ -811,7 +812,7 @@ nav li {
   color: #000;
   display: block;
   float: left;
-  padding: 1rem;
+  padding: 1em;
   position: relative;
   text-decoration: none;
   transition-duration: 0.5s; }
