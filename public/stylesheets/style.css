@@ -629,10 +629,13 @@ p {
 ul, li {
   list-style-type: none; }
 
+section > * {
+  padding: 0 1em; }
+
 img {
   display: block;
   max-width: 100%;
-  height: auto; }
+  max-height: 100%; }
 
 a {
   text-decoration: none;
@@ -782,7 +785,7 @@ article {
   flex-direction: column;
   flex-flow: row wrap;
   align-items: center;
-  justify-content: flex-end;
+  justify-content: center;
   max-width: 100%; }
 
 .btn {
@@ -942,6 +945,7 @@ i {
   opacity: 0; }
 
 .services.grid-container {
+  height: 100vh;
   grid-template-columns: 50% 50%;
   grid-template-rows: 33% 33% 33%;
   grid-gap: 1em; }
@@ -995,11 +999,7 @@ i {
 .hidden {
   opacity: 0; }
 
-.page-split {
-  display: flex;
-  width: 100vw;
-  height: 50vh; }
-
+/* Contact */
 .contact {
   height: 40vh;
   padding-bottom: 0; }

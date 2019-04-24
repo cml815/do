@@ -81,7 +81,7 @@ article {
   flex-direction: column;
   flex-flow: row wrap;
   align-items: center;
-  justify-content: flex-end;
+  justify-content: center;
   max-width: 100%;
 }
 
@@ -279,6 +279,7 @@ i {
 }
 
 .services.grid-container {
+  height: 100vh;
   grid-template-columns: 50% 50%;
   grid-template-rows: 33% 33% 33%;
   grid-gap: 1em;
@@ -343,11 +344,8 @@ animation: fade-in 1.4s;
   opacity: 0;
 }
 
-.page-split {
-  display: flex;
-  width: 100vw;
-  height: 50vh; 
-}
+
+/* Contact */
 
 .contact {
   height: 40vh;
