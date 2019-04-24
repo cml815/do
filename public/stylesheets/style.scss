@@ -62,20 +62,6 @@
     }
   }
 
-article {
-  display: flex;
-  flex-direction: column;
-}
-.hero > article > p {
-  font-size: 1.5rem;
-  font-weight: 200;
-}
-
-.hero > article > a {
-  padding: 1rem;
-  margin-top: .75rem;
-}
-
 .container-cta {
   display: flex;
   flex-direction: column;
@@ -239,28 +225,6 @@ main.home {
   transition: 0.3s;
   margin: 0;
 }
-
-.card.first {
-  background-color: $plum;
-}
-
-.card.second {
-  background-color: $rose;
-}
-
-.card.third {
-  background-color: $slate;
-}
-
-.card.last {
-  background-color: $navy;
-}
-
-i {
-  font-size: 2em;
-  text-align: center;
-}
-
 .home {
   width: 100%;
 }
