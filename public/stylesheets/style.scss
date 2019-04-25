@@ -110,8 +110,6 @@
   max-width: 100%;
 }
 
-
-
 /* Footer */
 
 footer {
@@ -133,7 +131,18 @@ footer {
   width: 100%;
 }
 
+.benefits {
+  height: 100vh;
+}
 
+.benefits > figure {
+  
+}
+
+.title-bar > h2 {
+  text-align: center;
+  justify-content: center;
+}
 
 
 .services.grid-container {
