@@ -10,6 +10,15 @@
     display: flex;
 }
 
+.flex-container-col {
+    flex-direction: column;
+}
+
+.lead {
+    height: 25vh;
+    padding: 2em;
+}
+
 .grid__page--12x12 {
     display: grid;
     grid-template-columns: repeat(12, 1fr);

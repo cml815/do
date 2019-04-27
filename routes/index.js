@@ -77,6 +77,10 @@ router.get('/work', function(req, res, next) {
   res.render('work', { title: 'Work' });
 });
 
+router.get('/about', function(req, res, next) {
+  res.render('about', { layout: 'case' });
+});
+
 router.get('/portfolio', function(req, res, next) {
   res.render('portfolio', { title: 'Portfolio' });
 });
