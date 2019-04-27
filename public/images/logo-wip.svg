@@ -1,16 +1,1 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="310" height="310" viewBox="0 0 310 310">
-  <defs>
-    <linearGradient id="a" x1="75.482%" x2="23.959%" y1="0%" y2="100%">
-      <stop stop-color="#CA4A4C" offset="0%"/>
-      <stop stop-color="#FD5F61" offset="100%"/>
-    </linearGradient>
-  </defs>
-  <g fill="none" fill-rule="evenodd">
-    <polygon fill="url(#a)" points="0 310 310 310 310 0 0 0"/>
-    <polygon fill="#FFFFFF" points="56 165 99 165 99 179 72 179 72 193 97 193 97 207 72 207 72 231 56 231"/>
-    <path fill="#FFFFFF" d="M107,165 L123,165 L123,206 C123.050488,215.012678 127.228223,218.08446 133,218 C138.9909,218.08446 142.839437,215.012678 143,206 L143,165 L159,165 L159,209 C159,224.225972 147.346371,233 133,233 C117.774052,233 107,223.786706 107,209 L107,165 Z"/>
-    <polygon fill="#FFFFFF" points="167 165 211 165 211 179 183 179 183 191 209 191 209 205 183 205 183 217 212 217 212 231 167 231"/>
-    <polygon fill="#FFFFFF" points="219 165 235 165 235 217 264 217 264 231 219 231"/>
-    <polygon fill="#FFFFFF" points="86 149 112 123 139 149 167 149 126 109 147 88 208 149 235 149 145 60 56 149"/>
-  </g>
-</svg>
+<svg id="Layer_5" data-name="Layer 5" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 69.95 35.34"><defs><style>.cls-1{fill:url(#radial-gradient);}</style><radialGradient id="radial-gradient" cx="34.97" cy="17.67" r="27.71" gradientUnits="userSpaceOnUse"><stop offset="0.01" stop-color="#fd5561"/><stop offset="0.19" stop-color="#f9455f"/><stop offset="1" stop-color="#e90054"/></radialGradient></defs><title>logo-wip</title><path class="cls-1" d="M11,35.1l9.54-9.54a.79.79,0,0,1,1.11,0l9.93,9.56a.79.79,0,0,0,.55.22H41A.79.79,0,0,0,41.55,34L27.25,20a.79.79,0,0,1,0-1.13l7.21-7.21a.79.79,0,0,1,1.12,0L59,35.1a.79.79,0,0,0,.56.23H69.95L34.21,0,.23,34A.79.79,0,0,0,.8,35.34h9.67A.79.79,0,0,0,11,35.1Z"/></svg>
