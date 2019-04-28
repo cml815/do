@@ -19,7 +19,7 @@ function stickyNavigation() {
 
 window.addEventListener('scroll', stickyNavigation);
 
-/* Animate homepage images */
+/* Fade in animation */
 
 var animateHTML = function() {
   var elems;

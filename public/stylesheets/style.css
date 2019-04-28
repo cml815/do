@@ -70,7 +70,7 @@ nav {
   position: fixed;
   top: 0;
   z-index: 1;
-  box-shadow: 0 5px rgba(0, 0, 0, 0.1); }
+  box-shadow: 0 2px rgba(0, 0, 0, 0.1); }
 
 .navigation {
   display: -webkit-box;
@@ -495,7 +495,7 @@ textarea {
   color: #fff; }
 
 .cta > p {
-  font-size: 1em;
+  font-size: .875em;
   text-transform: uppercase; }
 
 /* Animations */
@@ -512,26 +512,50 @@ textarea {
 .hidden {
   opacity: 0; }
 
+/* Slide in right */
 @-webkit-keyframes slide-in-right {
-  0% {
-    -webkit-transform: translateX(1000px);
-    transform: translateX(1000px);
-    opacity: 0; }
-  100% {
-    -webkit-transform: translateX(0);
-    transform: translateX(0);
-    opacity: 1; } }
+  from {
+    margin-left: -100%; }
+  to {
+    margin-left: 50%; } }
 
 @keyframes slide-in-right {
-  0% {
-    -webkit-transform: translateX(1000px);
-    transform: translateX(1000px);
-    opacity: 0; }
-  100% {
-    -webkit-transform: translateX(0);
-    transform: translateX(0);
-    opacity: 1; } }
+  from {
+    margin-left: -100%; }
+  to {
+    margin-left: 50%; } }
 
+.slide-in-right {
+  animation: move-blue 5s infinite alternate ease-in-out; }
+
+/* Slide in right not working 
+
+  @-webkit-keyframes slide-in-right {
+    0% {
+      -webkit-transform: translateX(1000px);
+              transform: translateX(1000px);
+      opacity: 0;
+    }
+    100% {
+      -webkit-transform: translateX(0);
+              transform: translateX(0);
+      opacity: 1;
+    }
+  }
+  @keyframes slide-in-right {
+    0% {
+      -webkit-transform: translateX(1000px);
+              transform: translateX(1000px);
+      opacity: 0;
+    }
+    100% {
+      -webkit-transform: translateX(0);
+              transform: translateX(0);
+      opacity: 1;
+    }
+  }
+
+  */
 .container-cta {
   display: flex;
   flex-direction: column;
