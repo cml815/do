@@ -1,3 +1,8 @@
+@font-face {
+  font-family: "Inter";
+  src: url("./fonts/inter3.5/inter-web/Inter-Bold.woff");
+}
+
 @import "./partials/base";
 
 /// SITE STYLES  ///
@@ -20,10 +25,6 @@
     }
   }
 
-.hero > * {
-  color: $test-dark;
-  }
-    
 .hero > h1 {
   font-size: 3rem;
   padding-bottom: 1rem;
@@ -51,9 +52,8 @@
 }
 
 .cta > p {
-  font-size: 1em;
+  font-size: .875em;
   text-transform: uppercase;
-  font-family: $sans;
 }
 
   /* Animations */
@@ -115,7 +115,6 @@ footer {
   margin-top: -50px;
   background-color: $charcoal;
   padding: 1rem;
-  color: $light;
   font-size: .875em;
   line-height: 1.15em;
 }
@@ -131,7 +130,7 @@ footer {
 // Benefits section //
 
 .benefits {
-  height: 100vh;
+  height: 120vh;
 }
 
 .title-bar > h2 {
@@ -165,14 +164,15 @@ footer {
 }
 
 .services.grid-container {
-  height: 100vh;
+  height: 120vh;
   grid-template-columns: 50% 50%;
-  grid-template-rows: 33% 33% 33%;
-  grid-gap: 2em 0;
+  grid-template-rows: 50% 50%;
+  grid-gap: 0 0;
+  align-items: stretch;
 }
 
 .s-card {
-  height: 30vh;
+  height: 60vh;
  /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
 }
 
@@ -221,9 +221,35 @@ footer {
 }
 
 .six-6 {
-  background-color: $navy;
+  background-color: $primary;
   grid-column: 2 / span 1;
   grid-row: 3 / span 1;
+}
+
+.callout {
+  display: grid;
+  align-items: center;
+  height: 60vh;
+  background-color: primary;
+}
+
+.feature {
+  height: 100vh;
+  grid-template-columns: 40% 60%;
+  grid-template-rows: 1fr;
+  grid-gap: 0;
+  align-items: stretch;
+  background-color: $primary;
+}
+
+.feature-text {
+  grid-column: 1 / span 1;
+  grid-row: 1 / span 1;
+}
+
+.feature-img {
+  grid-column: 2 / span 1;
+  grid-row: 1 / span 2;
 }
 
 

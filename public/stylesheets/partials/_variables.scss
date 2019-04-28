@@ -1,94 +1,43 @@
-$sky: skyblue;
-$aqua: rgb(27, 203, 206);
-$orange: #C07C5E;
-$charcoal: #424A51;
-$light: rgb(222, 233, 240);
+/* Color Scheme */
 
-$plum: #2c2b39;
-$navy: #1b1d3a;
-$rose: #ba3455;
-$rose-darker: #ba3455;
-$slate: #424A51;
+$text: #242424;
+$link-x:  rgba(72, 82, 84, 1); /* gray-d */
 
-/* RGB */
-$indigo: rgba(58, 74, 165, 1);
-$pool: rgba(87, 184, 255, 1);
-$gray-d: rgba(72, 82, 84, 1);
-$orange: rgba(249, 151, 59, 1);
+$primary:  rgba(58, 74, 165, 1); /* indigo */
+
+/* test primary color palette */
+
+$cherry: #ba3455;
+$cherry-darker: #ba3455;
 $red: rgba(255, 89, 71, 1);
 $logo: #eb5b5f;
 
-/* HSL */
-$indigo: hsla(231%, 48%, 44%, 1);
-$pool: hsla(205%, 100%, 67%, 1);
-$gray-d: hsla(190%, 8%, 31%, 1);
-$orange: hsla(29%, 94%, 60%, 1);
-$red: hsla(6%, 100%, 64%, 1);
+$eggplant: rgb(38, 36, 49);
+$indigo: rgba(58, 74, 165, 1);
+$plum: #2c2b39;
 
-.color1 { color: #282735}
-.color2 { color: #392d2f}
-.color3 { color: #4b3e45}
-.color4 { color: #1e1c27}
-.color5 { color: #181621}
-.color6 { color: #2d2f3e}
-.color7 { color: #2c2b39}
-.color8 { color: #786869}
-.color9 { color: #745250}
-.color10 { color: #170c10}
-.color11 { color: #21212d}
-.color12 { color: #1c1a25}
-.color13 { color: #2c2b3b}
-.color14 { color: #323143}
-.color15 { color: #7b5349}
-.color16 { color: #22202b}
-.color17 { color: #1d1b26}
-.color18 { color: #272936}
-.color19 { color: #ba3455}
-.color20 { color: #c83257}
-.color21 { color: #dfc0ae}
-.color22 { color: #5b1628}
-.color23 { color: #6f2033}
-.color24 { color: #25222b}
-.color25 { color: #bc345c}
-.color26 { color: #ce365d}
-.color27 { color: #b9274c}
-.color28 { color: #932846}
-.color29 { color: #546172}
-.color30 { color: #1b1924}
-.color31 { color: #1c1b21}
-.color32 { color: #b09287}
-.color33 { color: #44101d}
-.color34 { color: #6e2038}
-.color35 { color: #b7908b}
-.color36 { color: #6b5655}
-.color37 { color: #151318}
-.color38 { color: #15141a}
-.color39 { color: #211425}
-.color40 { color: #310912}
-.color41 { color: #3f0f1b}
-.color42 { color: #380e18}
-.color43 { color: #501a28}
-.color44 { color: #0e0d12}
+$aqua: rgb(27, 203, 206);
+$pool: rgba(87, 184, 255, 1);
 
-/* default black hue */
+$orange: rgb(255, 151, 53);
 
-$black: #131517;
+$white: rgb(222, 233, 240);
+$black: #131517; /* not in use */
+$charcoal: #424A51;
+$slate: #424A51;
+$gray-d: rgba(72, 82, 84, 1);
 
 /* site color scheme */
 
-$pearl: #e5e4e2;
 
-$test-light: skyblue;
-$test-dark: #424A51;
-
-$sans-typekit: "din-2014-narrow", sans-serif;
+$sans-tk: "din-2014-narrow", sans-serif;
 $serif-tk: "clarendon-urw", serif;
 
 $sans: 'Lato', Helvetica, 'Helvetica Neue', Arial, sans-serif;
 $narrow: 'Roboto Condensed', 'Lato', Helvetica, 'Helvetica Neue', Arial, sans-serif;
 $serif: 'Aleo', Georgia, 'Times New Roman', Times, serif;
 
-$btnColor: #ffc0cb;
+
 
 @mixin mobile {
     @media (max-width: 599px) { @content; }
