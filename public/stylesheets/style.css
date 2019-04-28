@@ -937,45 +937,50 @@ footer {
   grid-gap: 2em 0; }
 
 .s-card {
-  height: 40vh;
-  background-color: white;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); }
+  height: 30vh;
+  /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */ }
 
+/* 
+.s-card > h4,
+.s-card >  img {
+  padding-left: 1em;
+}
+
+*/
 .s-card.grid-item {
   justify-self: center;
   align-self: center;
   overflow: hidden; }
 
-.1of6 {
+.one-6 {
+  background-color: #3a4ba6;
   grid-column: 1 / span 1;
   grid-row: 1 / span 1; }
 
-.2of6 {
+.two-6 {
+  background-color: #57b9ff;
   grid-column: 2 / span 1;
   grid-row: 1 / span 1; }
 
-.3of6 {
+.three-6 {
+  background-color: #ff5a47;
   grid-column: 1 / span 1;
   grid-row: 2 / span 1; }
 
-.4of6 {
+.four-6 {
+  background-color: #495355;
   grid-column: 2 / span 1;
   grid-row: 2 / span 1; }
 
-.5of6 {
+.five-6 {
+  background-color: #f99639;
   grid-column: 1 / span 1;
   grid-row: 3 / span 1; }
 
-.6of6 {
+.six-6 {
+  background-color: #1b1d3a;
   grid-column: 2 / span 1;
   grid-row: 3 / span 1; }
-
-.s-card {
-  background-color: transparent; }
-
-.s-card > h4,
-.s-card > img {
-  padding-left: 1em; }
 
 /* Animate cards */
 @keyframes fade-in {
