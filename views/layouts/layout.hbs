@@ -2,16 +2,20 @@
 <head>
 {{> head}}
 </head>
-<body>
+<body class="not-home">
   <main>
     <header id="menu" class="menu-wrap grid__item">
       {{> nav }}
     </header>
-    <div class="">
+    <div class="title-wrap">
       {{#if title}}
       <h1 class="page-title">{{ title }}</h1>
+      <p>Adjust title-wrap</p>
       {{/if}}
     </div>
+    <div class="hero">
+      {{> hero}}
+    </div>  
   {{{ body }}}
   </main>
   <footer>
