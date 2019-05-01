@@ -3,22 +3,22 @@
 
 ## Site map
 
-|--Home  
+|--*Home*  
 |  
-|--Work (will probably just be one page & extended later)    
+|--*Work* (will probably just be one page & extended later)    
 |    --Strategy   
 |    --Website dev/design   
 |    --Copywriting / SEO   
 |    --Content marketing / Influencer marketing  
   
-|--Projects (Case stories)  
+|--*Projects* (Case stories)  
 |   -- Jeff Grant (influencer marketing)  
 |   -- CeasefirePA (strategy)  
 |   -- RewardExpert (content/influencer & SEO)  
 |  
-|-- About   
+|-- *About*   
 |  
-|-- Contact   
+|-- *Contact*   
 
 ## How to clone and use repository
 
