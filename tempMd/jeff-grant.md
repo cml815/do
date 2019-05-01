@@ -1,7 +1,7 @@
-YouTuber Shares Tips on Safe Selfies
+### YouTuber Shares Tips on Safe Selfies
 https://driversed.com/trending/youtuber-shares-tips-safe-selfies
 
-Aceable
+# Aceable
 https://www.aceable.com/
 
 Why are YouTubers revered by their fans? What makes a YouTube channel a success? And how have the profile of vloggers become influencers and media stars on par with TV starts, in the eyes of their fans. Fuel has work with Jeff Grant to offer everyday advice to teens and young adults based on his life as a videographer, geer geek, new dad and YouTuber. 
