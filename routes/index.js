@@ -78,7 +78,7 @@ router.get('/work', function(req, res, next) {
 });
 
 router.get('/about', function(req, res, next) {
-  res.render('about', { title: '' });
+  res.render('about', { title: '', layout: 'layout' });
 });
 
 router.get('/portfolio', function(req, res, next) {
