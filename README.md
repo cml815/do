@@ -3,24 +3,24 @@
 
 ## Site map
 
-|--Home
-|
-|--Work (may just be one page & extended later)
-|    |
-|    --Strategy 
-|    --Website dev/design
-|    --Copywriting / SEO
-|    --Content marketing / Influencer marketing
-
-|--Projects (Case stories)
-|   |
-|   -- Jeff Grant (influencer marketing)
-|   -- CeasefirePA (strategy)
-|   -- RewardExpert (content/influencer & SEO)
-|
-|-- About 
-|
-|-- Contact
+|--Home  
+|  
+|--Work (may just be one page & extended later)  
+|    |    
+|    --Strategy   
+|    --Website dev/design   
+|    --Copywriting / SEO   
+|    --Content marketing / Influencer marketing  
+  
+|--Projects (Case stories)  
+|   |  
+|   -- Jeff Grant (influencer marketing)  
+|   -- CeasefirePA (strategy)  
+|   -- RewardExpert (content/influencer & SEO)  
+|  
+|-- About   
+|  
+|-- Contact   
 
 ## How to clone and use repository
 
