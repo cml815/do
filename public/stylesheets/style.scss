@@ -87,11 +87,12 @@
   to   { margin-right: 25%; }
 }
 
-.slide-in-right {
+  /* Slide in right not working 
+
+  .slide-in-right-FIXME {
   -webkit-animation: slide-in-right 3s alternate ease-in-out; 
   animation: slide-in-right 3s alternate ease-in-out;
 }
-  /* Slide in right not working 
 
   @-webkit-keyframes slide-in-right {
     0% {
@@ -153,6 +154,7 @@ footer {
 
 .benefits {
   height: 120vh;
+  background-color: #dedede; 
 }
 
 .title-bar > h2 {
@@ -212,47 +214,30 @@ footer {
   overflow: hidden;
 }
 
-.one-6 {
-  background-color: $indigo;
+.first {
   grid-column: 1 / span 1;
   grid-row: 1 / span 1;
 }
 
-.two-6 {
-  background-color: $pool;
+.second {
   grid-column: 2 / span 1;
   grid-row: 1 / span 1;
 }
 
-.three-6 {
-  background-color: $red;
+.third {
   grid-column: 1 / span 1;
   grid-row: 2 / span 1;
 }
 
-.four-6 {
-  background-color: $gray-d;
+.fourth {
   grid-column: 2 / span 1;
   grid-row: 2 / span 1;
 }
-
-.five-6 {
-  background-color: $orange;
-  grid-column: 1 / span 1;
-  grid-row: 3 / span 1;
-}
-
-.six-6 {
-  background-color: $primary;
-  grid-column: 2 / span 1;
-  grid-row: 3 / span 1;
-}
-
 .callout {
   display: flex;
   flex-direction: column; 
-  align-items: center;
-  height: 40vh;
+  align-items: left;
+  height: 60vh;
   background-color: $pool;
 }
 
@@ -365,15 +350,65 @@ animation: fade-in 1.4s;
   align-self: center;
 }
 
-
-
-
-/* Contact */
+/* Contact page */
 
 .contact {
-  height: 40vh;
+  height: 100vh;
   padding-bottom: 0;
 }
+
+form {
+  display: grid;
+  padding: 1em;
+  background: $primary;
+  border: 1px solid #e7e6e6;
+  margin: 2rem auto 0 auto;
+  max-width: 600px;
+  padding: 1em;
+}
+form input {
+  background: #fff;
+  border: 1px solid #9c9c9c;
+}
+form button {
+  background: lightgrey;
+  padding: 0.7em;
+  width: 100%;
+  border: 0;
+}
+form button:hover {
+  background: gold;
+}
+
+label {
+  padding: 0.5em 0.5em 0.5em 0;
+}
+
+input {
+  padding: 0.7em;
+  margin-bottom: 0.5rem;
+}
+input:focus {
+  outline: 3px solid gold;
+}
+
+@media (min-width: 400px) {
+  form {
+    grid-template-columns: 200px 1fr;
+    grid-gap: 16px;
+  }
+
+  label {
+    text-align: right;
+    grid-column: 1 / 2;
+  }
+
+  input,
+  button {
+    grid-column: 2 / 3;
+  }
+}
+
 
 /* Projects Overview */
 

@@ -407,7 +407,7 @@ textarea {
   padding: 0;
   /* IE 10 */ }
 
-/* projects styles home page */
+/* projects styles home page FIXME */
 .projects {
   padding: 2rem; }
 
@@ -527,11 +527,12 @@ textarea {
   to {
     margin-right: 25%; } }
 
-.slide-in-right {
-  -webkit-animation: slide-in-right 3s alternate ease-in-out;
-  animation: slide-in-right 3s alternate ease-in-out; }
-
 /* Slide in right not working 
+
+  .slide-in-right-FIXME {
+  -webkit-animation: slide-in-right 3s alternate ease-in-out; 
+  animation: slide-in-right 3s alternate ease-in-out;
+}
 
   @-webkit-keyframes slide-in-right {
     0% {
@@ -581,7 +582,8 @@ footer {
   width: 100%; }
 
 .benefits {
-  height: 120vh; }
+  height: 120vh;
+  background-color: #dedede; }
 
 .title-bar > h2 {
   text-align: center;
@@ -631,41 +633,27 @@ footer {
   align-self: center;
   overflow: hidden; }
 
-.one-6 {
-  background-color: #3a4aa5;
+.first {
   grid-column: 1 / span 1;
   grid-row: 1 / span 1; }
 
-.two-6 {
-  background-color: #57b8ff;
+.second {
   grid-column: 2 / span 1;
   grid-row: 1 / span 1; }
 
-.three-6 {
-  background-color: #ff5947;
+.third {
   grid-column: 1 / span 1;
   grid-row: 2 / span 1; }
 
-.four-6 {
-  background-color: #485254;
+.fourth {
   grid-column: 2 / span 1;
   grid-row: 2 / span 1; }
-
-.five-6 {
-  background-color: #ff9735;
-  grid-column: 1 / span 1;
-  grid-row: 3 / span 1; }
-
-.six-6 {
-  background-color: #3a4aa5;
-  grid-column: 2 / span 1;
-  grid-row: 3 / span 1; }
 
 .callout {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  height: 40vh;
+  align-items: left;
+  height: 60vh;
   background-color: #57b8ff; }
 
 .feature {
@@ -754,10 +742,53 @@ footer {
   grid-row: 2 / span 1;
   align-self: center; }
 
-/* Contact */
+/* Contact page */
 .contact {
-  height: 40vh;
+  height: 100vh;
   padding-bottom: 0; }
+
+form {
+  display: grid;
+  padding: 1em;
+  background: #3a4aa5;
+  border: 1px solid #e7e6e6;
+  margin: 2rem auto 0 auto;
+  max-width: 600px;
+  padding: 1em; }
+
+form input {
+  background: #fff;
+  border: 1px solid #9c9c9c; }
+
+form button {
+  background: lightgrey;
+  padding: 0.7em;
+  width: 100%;
+  border: 0; }
+
+form button:hover {
+  background: gold; }
+
+label {
+  padding: 0.5em 0.5em 0.5em 0; }
+
+input {
+  padding: 0.7em;
+  margin-bottom: 0.5rem; }
+
+input:focus {
+  outline: 3px solid gold; }
+
+@media (min-width: 400px) {
+  form {
+    grid-template-columns: 200px 1fr;
+    grid-gap: 16px; }
+  label {
+    text-align: right;
+    grid-column: 1 / 2; }
+  input,
+  button {
+    grid-column: 2 / 3; } }
 
 /* Projects Overview */
 .sample > .flex-item {

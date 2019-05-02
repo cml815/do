@@ -75,7 +75,7 @@ router.get('/tester', function(req, res) {
 });
 
 router.get('/work', function(req, res, next) {
-  res.render('work', { title: 'Work' });
+  res.render('work', { title: '' });
 });
 
 router.get('/about', function(req, res, next) {
@@ -83,11 +83,11 @@ router.get('/about', function(req, res, next) {
 });
 
 router.get('/portfolio', function(req, res, next) {
-  res.render('portfolio', { title: 'Portfolio' });
+  res.render('portfolio', { title: '' });
 });
 
 router.get('/contact', function(req, res, next) {
-  res.render('contact', { title: 'Contact' });
+  res.render('contact', { layout: 'contact' });
 });
 
 /// Nodemailer contact form ///
