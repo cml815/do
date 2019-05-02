@@ -26,7 +26,7 @@
 
 ** Be quick to ask Caroline for help. Call 610-220-7863.A phone tech support session is the fastest way to get on board. Trust me, email is inefficient.**
 
-# Install node:
+### Install node:
 
 Check on command line to see if you have node: *node --version* (OR try *node -v* OR *which node*).
 
@@ -34,12 +34,12 @@ Check on command line to see if you have node: *node --version* (OR try *node -v
 
 Node version 10 or higher recommended. 
 
-# Clone website Github repository onto home machine 
+### Clone website Github repository onto home machine 
 
 * Download source code from repo
 * Clone with HTTPS: git clone https://github.com/cml815/do.git
 
-# How to open and run website
+### How to open and run website
 
 * **Use localhost:3000 (!IMPORTANT)**
 * Follow these steps:
