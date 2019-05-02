@@ -1,3 +1,5 @@
+/* Unused route. No user registration on site */
+
 var express = require('express');
 var router = express.Router();
 

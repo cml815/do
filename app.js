@@ -17,7 +17,7 @@ var projectsRouter = require('./routes/projects');
 
 var app = express();
 
-// Set up db connection
+// Set up db connection - archive - TODO move   
 var mongoDB = 'mongodb://meus:815cricket@ds241723.mlab.com:41723/fuelport';
 mongoose.connect(mongoDB);
 mongoose.Promise = global.Promise;
