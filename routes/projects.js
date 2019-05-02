@@ -1,9 +1,13 @@
 var express = require('express');
 var router = express.Router();
 
+/* Project's Page */
+
 router.get('/', function(req, res, next) {
   res.render('projects', { title: 'Here\'s Our Work', layout: 'portfolio' });
 });
+
+// Jeff Grant case study
 
 router.get('/jeff-grant-technology-influencer', function(req, res, next) {
   res.render('jeff-grant-technology-influencer', { 
@@ -18,5 +22,18 @@ router.get('/jeff-grant-technology-influencer', function(req, res, next) {
     layout: 'case' 
   });
 });
+
+/* CeasefirePA case study - Credit: David Scholnick
+
+router.get('/cease-fire-pa-strategy', function(req, res, next) {
+  res.render('cease-fire-pa-strategy'), {
+    title: 'Strategy to bring visibility on gun control legislation in Pennsylvania',
+    name: 'Shira Goodman',
+    jobTitle: 'Executive Director',
+    layout: 'case'
+  });
+});
+
+*/
 
   module.exports = router;

@@ -7,7 +7,7 @@ router.get('/', function(req, res, next) {
   res.render('index', { layout: 'homepage' });
 });
 
-/* Fix Fix fix 
+/* About page route - Fix or delete 
 
   router.get('/about', function(req, res, next) {
     // Below I'm passing in a JSON object (or hash table of keys and values, which is similar to an associative array) 
@@ -62,6 +62,7 @@ router.get('/', function(req, res, next) {
   
   */
 
+/* Test route for reference purposes. TODO - delete */  
 router.get('/tester', function(req, res) {
   // Below I'm passing in a JSON object (or hash table of keys and values, which is similar to an associative array) 
   // as a 2nd parameter to the "tester.handlebars" template
@@ -89,9 +90,11 @@ router.get('/contact', function(req, res, next) {
   res.render('contact', { title: 'Contact' });
 });
 
-/* https://nodemailer.com/smtp/oauth2/ */
+/// Nodemailer contact form ///
 
 // POST route from contact form
+
+/* https://nodemailer.com/smtp/oauth2/ */
 
 /*
 router.post('/contact', function (req, res) {
@@ -120,8 +123,6 @@ mailOpts = {
     }
   });
 });
-
-*/
 
 let transporter = nodemailer.createTransport({
   host: 'smtp.gmail.com',
@@ -167,5 +168,7 @@ mailOpts = {
     }
   });
 });
+
+*/
 
 module.exports = router;
