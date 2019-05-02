@@ -71,6 +71,10 @@ ul, li {
     list-style-type: none;
 }
 
+li:hover {
+  cursor: pointer;
+}
+
 section > * {
   padding: 0 1em;
 }

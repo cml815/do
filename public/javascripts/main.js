@@ -19,6 +19,30 @@ function stickyNavigation() {
 
 window.addEventListener('scroll', stickyNavigation);
 
+/* Hide logo on scroll 
+
+function scrollFunction() {
+     document.getElementById("logoHide").style.visibility = "hidden";  
+}
+
+window.onscroll = scrollFunction;
+
+
+window.onscroll = function() {
+  resizeLogo()
+};
+
+function resizeLogo() {
+  var Logo = document.getElementById("logo")
+  if (document.body.scrollTop > 5 || document.documentElement.scrollTop > 5) {
+    Logo.style.width = '20px';
+  } else {
+    Logo.style.width = '50px';
+  }
+}
+*/
+
+
 /* Fade in animation */
 
 var animateHTML = function() {
