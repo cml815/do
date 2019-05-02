@@ -35,7 +35,7 @@ nav {
       margin: 0;
       padding-left: 0;
       justify-content: flex-end;
-      jutify-self: flex-end;
+      jutisfy-self: flex-end;
       height: 50px;
   }
 
@@ -65,3 +65,11 @@ nav {
   
   nav li:hover {
       cursor: pointer; }
+
+  nav > button {
+    background-color: $primary;
+  }
+
+  nav > button > {
+    color: white;
+  }
