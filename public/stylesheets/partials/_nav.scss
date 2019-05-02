@@ -35,12 +35,13 @@ nav {
       margin: 0;
       padding-left: 0;
       justify-content: flex-end;
-      jutisfy-self: flex-end;
-      height: 50px;
+      align-items: center;
+      height: 64px;
   }
 
   nav ul li {
     justify-self: flex-end;
+    padding: 0 1em;
   }
 
   .logo {
@@ -70,6 +71,23 @@ nav {
     background-color: $primary;
   }
 
-  nav > button > {
+  nav > a {
+    color: white;
+  }
+
+  .main-nav {
+    display: flex;
+    align-content: center;
+  }
+
+  .main-nav > li {
+    align-items: center;
+  }
+
+  .main-nav > .btn-small {
+    background-color: $primary;
+  }
+
+  .main-nav > button > a {
     color: white;
   }
