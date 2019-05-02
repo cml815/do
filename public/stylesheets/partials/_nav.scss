@@ -3,13 +3,13 @@
 /* old nav */
 nav {
     width: 100%;
-    background-color: whitesmoke;
+    background-color: $cherry;
     text-align: center;
     margin: 0 auto;
     height: 64px;
   }
   
-  /* applied after scroll height reached 
+  /* applied after scroll height reached */
   
   .fixed-nav nav {
     position: fixed;
@@ -59,44 +59,9 @@ nav {
     transition-duration: 0.5s;
   }
     
-  nav li a {
-    /* font-family: $sans; 
+  nav li a { 
     color: rgb(0, 0, 0);
   }
-
-  */
   
   nav li:hover {
-      cursor: pointer;
-  }
-
-
-
-  
-  
-  /* dropdown 
-  ul li ul {
-      background: rgb(184, 183, 180);
-      visibility: hidden;
-    opacity: 0;
-    min-width: 5rem;
-      position: absolute;
-    transition: all 0.5s ease;
-    margin-top: 1rem;
-      left: 0;
-    display: none;
-  }
-  
-  ul li:hover > ul,
-  ul li ul:hover {
-    visibility: visible;
-    opacity: 1;
-    display: block;
-  }
-  
-  ul li ul li {
-      clear: both;
-    width: 100%;
-  }
-
-  */
+      cursor: pointer; }

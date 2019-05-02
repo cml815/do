@@ -238,7 +238,6 @@ footer {
   flex-direction: column; 
   align-items: left;
   height: 60vh;
-  background-color: $pool;
 }
 
 
@@ -357,13 +356,20 @@ animation: fade-in 1.4s;
   padding-bottom: 0;
 }
 
+.callout-l {
+  display: flex;
+  flex-direction: column; 
+  align-items: center;
+  justify-content: center;
+  padding-top: 2em;
+  
+}
+
 form {
   display: grid;
   padding: 1em;
-  background: $primary;
-  border: 1px solid #e7e6e6;
   margin: 2rem auto 0 auto;
-  max-width: 600px;
+  max-width: 300px;
   padding: 1em;
 }
 form input {
