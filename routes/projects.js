@@ -4,8 +4,9 @@ var router = express.Router();
 /* Project's Page */
 
 router.get('/', function(req, res, next) {
-  res.render('projects', { title: 'Here\'s Our Work', layout: 'portfolio' });
+  res.render('projects', { layout: 'portfolio' });
 });
+
 
 // Jeff Grant case study
 
@@ -19,6 +20,20 @@ router.get('/jeff-grant-technology-influencer', function(req, res, next) {
     tag1: 'social media',
     tag2: 'influencer marketing',
     tag3: 'video',
+    layout: 'case' 
+  });
+});
+
+router.get('/press-campaign, function(req, res, next) {
+  res.render('press-campaign', { 
+    title: 'Mass Shootings No More: PR Campaign to Move Pennsylvania Forward',
+    name: 'David Scholnick',
+    jobTitle: 'Videographer, YouTube Influencer',
+    caption: 'Jeff Grant on location for a video shoot',
+    credit: 'RMM (get info)',
+    tag1: 'comms strategy',
+    tag2: 'public relations',
+    tag3: '',
     layout: 'case' 
   });
 });
