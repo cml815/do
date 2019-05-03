@@ -637,13 +637,9 @@ footer p {
   grid-row: 3 / span 1;
   align-self: center; }
 
+/* Projects pages */
 .services {
-  display: grid;
-  height: 100vh;
-  grid-template-columns: 50% 50%;
-  grid-template-rows: 50% 50%;
-  grid-gap: 0 0;
-  align-items: stretch; }
+  display: grid; }
 
 .s-card {
   height: 60vh;

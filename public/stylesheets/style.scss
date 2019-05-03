@@ -193,13 +193,10 @@ footer p {
   align-self: center;
 }
 
+/* Projects pages */
+
 .services {
   display: grid;
-  height: 100vh;
-  grid-template-columns: 50% 50%;
-  grid-template-rows: 50% 50%;
-  grid-gap: 0 0;
-  align-items: stretch;
 }
 
 .s-card {
