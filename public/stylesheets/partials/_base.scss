@@ -207,6 +207,12 @@ button,
     outline: 1px dotted ButtonText;
   }
 
+  /* test button */
+
+  button .default {
+    background-color: #666;
+  }
+
   textarea /* IE 10+ */ {
     overflow: auto;
   } 

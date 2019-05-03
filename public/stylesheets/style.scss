@@ -193,8 +193,9 @@ footer p {
   align-self: center;
 }
 
-.services.grid-container {
-  height: 120vh;
+.services {
+  display: grid;
+  height: 100vh;
   grid-template-columns: 50% 50%;
   grid-template-rows: 50% 50%;
   grid-gap: 0 0;
@@ -239,21 +240,14 @@ footer p {
   grid-column: 2 / span 1;
   grid-row: 2 / span 1;
 }
-.callout {
-  display: flex;
-  flex-direction: column; 
-  align-items: left;
-  height: 60vh;
-}
-
 
 .feature {
-  height: 100vh;
-  grid-template-columns: 40% 60%;
+  height: 80vh;
+  grid-template-columns: 60% 40%;
   grid-template-rows: 1fr;
   grid-gap: 0;
   align-items: stretch;
-  background-color: $primary;
+  background-color: #efefef;
 }
 
 .feature-text {
@@ -262,8 +256,18 @@ footer p {
 }
 
 .feature-img {
+  width: 80%;
   grid-column: 2 / span 1;
   grid-row: 1 / span 2;
+}
+
+.callout {
+  display: flex;
+  flex-direction: column; 
+  align-items: center;
+  justify-content: center;
+  height: 40vh;
+  background-color: #efefef;
 }
 
 
