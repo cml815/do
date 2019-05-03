@@ -420,6 +420,11 @@ textarea {
   padding: 0;
   /* IE 10 */ }
 
+fieldset {
+  border: 1px solid #c0c0c0;
+  margin: 0 2px;
+  padding: 0.35em 0.625em 0.75em; }
+
 /* projects styles home page FIXME */
 .projects {
   padding: 2rem; }
@@ -596,6 +601,7 @@ footer {
 
 .benefits {
   height: 120vh;
+  padding-top: 3em;
   background-color: #dedede; }
 
 .title-bar > h2 {
@@ -756,8 +762,7 @@ footer {
 
 /* Contact page */
 .contact {
-  height: 100vh;
-  padding-bottom: 0; }
+  margin-bottom: 100px; }
 
 .callout-l {
   display: flex;
@@ -766,46 +771,108 @@ footer {
   justify-content: center;
   padding-top: 2em; }
 
+.callout-l > * {
+  align-items: center; }
+
+/* 
 form {
   display: grid;
   padding: 1em;
   margin: 2rem auto 0 auto;
   max-width: 300px;
-  padding: 1em; }
-
+  padding: 1em;
+}
 form input {
   background: #fff;
-  border: 1px solid #9c9c9c; }
-
+  border: 1px solid #9c9c9c;
+}
 form button {
   background: lightgrey;
   padding: 0.7em;
   width: 100%;
-  border: 0; }
-
+  border: 0;
+}
 form button:hover {
-  background: gold; }
+  background: gold;
+}
 
 label {
-  padding: 0.5em 0.5em 0.5em 0; }
+  padding: 0.5em 0.5em 0.5em 0;
+}
 
 input {
   padding: 0.7em;
-  margin-bottom: 0.5rem; }
-
+  margin-bottom: 0.5rem;
+}
 input:focus {
-  outline: 3px solid gold; }
+  outline: 3px solid gold;
+}
 
 @media (min-width: 400px) {
   form {
     grid-template-columns: 200px 1fr;
-    grid-gap: 16px; }
+    grid-gap: 16px;
+  }
+
   label {
     text-align: right;
-    grid-column: 1 / 2; }
+    grid-column: 1 / 2;
+  }
+
   input,
   button {
-    grid-column: 2 / 3; } }
+    grid-column: 2 / 3;
+  }
+}
+
+/* Form updated */
+form {
+  /* Just to center the form on the page */
+  margin: 0 auto;
+  width: 400px;
+  /* To see the outline of the form */
+  padding: 1em;
+  border: 1px solid #CCC;
+  border-radius: 1em; }
+
+form div + div {
+  margin-top: 1em; }
+
+label {
+  /* To make sure that all labels have the same size and are properly aligned */
+  display: inline-block;
+  width: 90px;
+  text-align: right; }
+
+input, textarea {
+  /* To make sure that all text fields have the same font settings
+     By default, textareas have a monospace font */
+  font: 1em sans-serif;
+  /* To give the same size to all text fields */
+  width: 300px;
+  box-sizing: border-box;
+  /* To harmonize the look & feel of text field border */
+  border: 1px solid #999; }
+
+input:focus, textarea:focus {
+  /* To give a little highlight on active elements */
+  border-color: #000; }
+
+textarea {
+  /* To properly align multiline text fields with their labels */
+  vertical-align: top;
+  /* To give enough room to type some text */
+  height: 5em; }
+
+.button {
+  /* To position the buttons to the same position of the text fields */
+  padding-left: 90px;
+  /* same size as the label elements */ }
+
+button {
+  /* This extra margin represent roughly the same space as the space
+     between the labels and their text fields */
+  margin-left: .5em; }
 
 /* Projects Overview */
 .sample > .flex-item {

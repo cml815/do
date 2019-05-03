@@ -2,10 +2,33 @@
 
 <section class="contact flex-container-col">
   <div class="callout-l">
-    <h4>Get started today. Schedule a no-obligation consult to jump-start your online image.</h2>
+    <h2>Say hello! We can help.</h2>
+    <h4>Call or email to get a consultation or quote.</h2>
     <p class="mail-link"><a href="mailto:caroline@fuelcopy.com?subject=Fuelsite query">Email us</a></h4>
     <p class="tel-link"><a href="tel:5551234567">Call +1 (610) 220-7863</a></h4>
   </div>
+  <form class="contact-form" action="/contact" method="post">
+      <fieldset>
+          <legend>Write us a message.</legend>
+          <div>
+              <label for="name" class="">Name:</label>
+              <input id="name" type="text" name="user_name">
+          </div>
+          <div>
+              <label for="mail" class="">Email:</label>
+              <input id="mail" type="user_email">
+          </div>
+          <div>
+              <label for="msg">Message:</label>
+              <textarea id="msg" name="user_message"></textarea>
+          </div>
+          <div class="button">
+            <button type="submit">Send your message</button>
+          </div>
+      </fieldset>
+  </form>
+
+<!-- old form 
   <form action="/contact" id="contact-form" method="post" role="form">
   <fieldset>
     <label for="name">Name &#42;</label>
@@ -18,6 +41,8 @@
   </fieldset>
 </form>
 </section>
+
+-->
 
 
 
