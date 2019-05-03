@@ -596,6 +596,10 @@ footer {
   font-size: .875em;
   line-height: 1.15em; }
 
+footer p {
+  text-align: center;
+  color: white; }
+
 .home {
   width: 100%; }
 

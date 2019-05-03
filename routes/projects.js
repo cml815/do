@@ -24,8 +24,8 @@ router.get('/jeff-grant-technology-influencer', function(req, res, next) {
   });
 });
 
-router.get('/press-campaign, function(req, res, next) {
-  res.render('press-campaign', { 
+router.get('/press-campaign', function(req, res, next) {
+  res.render('pa-press-campaign', { 
     title: 'Mass Shootings No More: PR Campaign to Move Pennsylvania Forward',
     name: 'David Scholnick',
     jobTitle: 'Videographer, YouTube Influencer',

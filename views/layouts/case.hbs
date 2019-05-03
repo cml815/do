@@ -2,36 +2,39 @@
 <head>
   {{> head}}
 </head>
-<body class="case-template grid__container--page">
-    <header class="grid__item grid__item--header">
-        <div class="container__flex data__primary">
-            <h2>{{title}}</h2>
-            <ul class="container__flex tag-list">
-                {{#each tag}}
-                <li>{{this}}</li>
-                {{/each}}
-            </ul> 
-        </div>
+<body>
+    <header class="">
         {{> nav}}
     </header>
+
+<!-- Data from projects.js -->
+    <div class="case-data">
+        <h2>{{title}}</h2>
+        <ul class="">
+            {{#each tag}}
+            <li>{{this}}</li>
+            {{/each}}
+        </ul> 
+    </div>
   
 <!-- Main area -->
-    <main class="grid__item grid__item--main">
+    <main class="case-content">
         {{{ body }}}
-    <button class="go-back" onclick="goBack()">Previous</button>
+
     </main>
 
+<!--    <button class="go-back" onclick="goBack()">Previous</button> -->
 <!-- Footer 
  <footer class="grid__item grid__item--footer">
         {{> footer}}
-    </footer>
-
-    -->
+    </footer>  -->
     
-<script>
+<!-- script>
     function goBack() {
     window.history.back();
     }
-</script>
+</script> -->
+
+    {{> footer}}
 </body>
 </html>
