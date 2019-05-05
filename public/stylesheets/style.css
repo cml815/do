@@ -705,8 +705,16 @@ footer p {
   opacity: 0; }
 
 /* About */
+.about {
+  min-height: 100%;
+  height: 100%;
+  padding-bottom: 300px; }
+
+.team-wrap {
+  height: 120vh; }
+
 .about > .grid-container {
-  height: 100vh;
+  min-height: 100%;
   padding-top: 2em;
   grid-template-columns: 1fr;
   align-items: center; }
