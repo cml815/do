@@ -16,7 +16,8 @@
 |   -- CeasefirePA (strategy)  
 |   -- RewardExpert (content/influencer & SEO)  
 |  
-|-- **About**   
+|-- **About**
+    --Team bios (one page, not separate pages)
 |  
 |-- **Contact**   
 
