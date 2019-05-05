@@ -22,6 +22,10 @@ xl, extra-large: 1920px or larger
   padding: .25em;
   color: white; }
 
+.title-box h2 {
+  align-items: center;
+  padding: 1em 0; }
+
 /* Grid full page layout */
 .grid-container {
   display: grid; }
@@ -259,7 +263,8 @@ body {
   color: #242424; }
 
 main {
-  display: block; }
+  display: block;
+  min-height: 100%; }
 
 h1, h2, h3, h4, h5, h6 {
   /* font-family: $serif; */
@@ -657,7 +662,8 @@ footer p {
   overflow: hidden; }
 
 .services > figcaption {
-  font-size: 1em; }
+  font-size: 1em;
+  line-height: 1.15em; }
 
 .feature {
   height: 80vh;
@@ -681,7 +687,7 @@ footer p {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  height: 40vh;
+  min-height: 100%;
   background-color: #efefef; }
 
 /* Animate cards */
