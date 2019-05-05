@@ -20,17 +20,21 @@
 |  
 |-- **Contact**   
 
-## How to clone and use repository
+## Problem troubleshooting
 
-** When problems occur, read the error message. Node is decent at giving information. It is recommended to delete the package and start over. Googling error codes isn't going to help much.**
+If problems occur, google the error message. If that doesn't help, then delete what you've done and start over. If on 2-3 tries, you don't succeed, the contact Caroline.
 
-** Be quick to ask Caroline for help. Call 610-220-7863.A phone tech support session is the fastest way to get on board. Trust me, email is inefficient.**
+Be quick to ask Caroline for help when you get stuck. **Call 610-220-7863 or email caroline@fuelcopy.com** to schedule a call. A phone tech support session is the fastest way to get on board.
 
-### Install node:
+## Note for Windows / Linux users
 
-Check on command line to see if you have node: *node --version* (OR try *node -v* OR *which node*).
+**IMPORTANT:** Instructions are for Mac OS only. If you use Windows, refer to [Node installation for Windows and Linux](https://nodejs.org/en/download/).
 
-[Node package installer] (https://nodejs.org/en/download/)
+## Install node (Mac):
+
+Open Terminal (app that comes with all macs). Check on command line to see if you have node: *node --version* (OR try *node -v* OR *which node*).
+
+[Node package installer](https://nodejs.org/en/download/)
 
 Node version 10 or higher recommended. 
 
@@ -54,13 +58,21 @@ Node version 10 or higher recommended.
 
 4) Type ```npm run start``` for read only mode. 
 
-FYI - Debug mode is extremely useful and recommend for editing / dev mode. Debug mode gives the exact file and line for errors. 
+FYI - Debug mode is recommended for editing/developer mode. Debug mode gives the exact file and line for errors.
 
 Debug start command: ```DEBUG=do:* npm run dev```
 
-# Recommended resource (other than googling)
+Open browser window and type "localhost:3000" 
+
+### Resources
 
 [MDN tutorial for beginners to Node/Express](https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs/Introduction)
+
+## Todos (team or hire) 
+
+* Accessibility audit
+
+
 
 
 
