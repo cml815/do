@@ -197,22 +197,17 @@ footer p {
 
 .services {
   display: grid;
+  height: 120vh;
+  
 }
 
-.s-card {
-  height: 60vh;
+.card {
+  
+  height: 100%;
  /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
 }
 
-/* 
-.s-card > h4,
-.s-card >  img {
-  padding-left: 1em;
-}
-
-*/
-
-.s-card.grid-item {
+.card {
   justify-self: center;
   align-self: center;
   overflow: hidden;
