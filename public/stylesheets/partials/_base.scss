@@ -232,60 +232,6 @@ button,
     padding: 0.35em 0.625em 0.75em;
 }
 
-  /* projects styles home page FIXME */
-
-  .projects {
-    padding: 2rem;
-  }
-  
-  .projects > ul {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-    grid-gap: 1rem;
-  }
-  
-  .projects > ul > li {
-    border: 1px solid #E2E2E2;
-    border-radius: .5rem;
-  }
-  
-  .projects > ul > li > figure {
-    max-height: 220px;
-    overflow: hidden;
-    border-top-left-radius: .5rem;
-    border-top-right-radius: .5rem;
-    position: relative;
-  }
-  
-  .projects > ul > li > figure > img {
-    width: 100%;
-  }
-  
-  .projects > ul > li > figure > figcaption {
-    position: absolute;
-    bottom: 0;
-    background-color: rgba(0,0,0,.7);
-    width: 100%;
-  }
-  
-  .projects > ul > li > figure > figcaption > h3 {
-    color: white;
-    padding: .75rem;
-    font-size: 1.25rem;
-  }
-  
-  .projects > ul > li > p {
-    font-size: 1rem;
-    line-height: 1.5;
-    padding: 1rem .75rem;
-    color: #666666;
-  }
-  
-  .projects > ul > li > a {
-    padding: .5rem 1rem;
-    margin: .5rem;
-  }
-
   /* Visibility with JS */
 
   .toggle-content {

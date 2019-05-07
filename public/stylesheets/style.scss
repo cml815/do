@@ -24,7 +24,8 @@
   padding: 0 1em;
 }
 
-.btn {
+
+.btn-hero {
   margin-top: auto;
   margin-bottom: 0;
   text-align: center;
@@ -34,7 +35,23 @@
   border-radius: 2.5em; 
 }
 
-.btn:hover {
+.btn-hero:hover {
+  background-color: $indigo;
+  transition: 400ms;
+  transition-timing-function: ease-in-out;
+  color: #fff; 
+}
+
+.btn-cta {
+  background-color: $pool;
+  margin-top: auto;
+  margin-bottom: 0;
+  text-align: center;
+  padding: .25em 1.5em;
+  border-radius: 2.5em; 
+}
+
+.btn-cta:hover {
   background-color: $indigo;
   transition: 400ms;
   transition-timing-function: ease-in-out;
@@ -255,7 +272,19 @@ footer p {
   align-items: center;
   justify-content: center;
   min-height: 100%;
-  background-color: #efefef;
+  height: 100%;
+  background-color: $primary;
+  margin-bottom: 2em;
+}
+
+.callout > * {
+  color: white;
+  line-height: 1.5em;
+}
+
+.cta-container {
+  width: 80%;
+  padding-bottom: 2em;
 }
 
 

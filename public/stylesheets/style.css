@@ -436,50 +436,6 @@ fieldset {
   margin: 0 2px;
   padding: 0.35em 0.625em 0.75em; }
 
-/* projects styles home page FIXME */
-.projects {
-  padding: 2rem; }
-
-.projects > ul {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-  grid-gap: 1rem; }
-
-.projects > ul > li {
-  border: 1px solid #E2E2E2;
-  border-radius: .5rem; }
-
-.projects > ul > li > figure {
-  max-height: 220px;
-  overflow: hidden;
-  border-top-left-radius: .5rem;
-  border-top-right-radius: .5rem;
-  position: relative; }
-
-.projects > ul > li > figure > img {
-  width: 100%; }
-
-.projects > ul > li > figure > figcaption {
-  position: absolute;
-  bottom: 0;
-  background-color: rgba(0, 0, 0, 0.7);
-  width: 100%; }
-
-.projects > ul > li > figure > figcaption > h3 {
-  color: white;
-  padding: .75rem;
-  font-size: 1.25rem; }
-
-.projects > ul > li > p {
-  font-size: 1rem;
-  line-height: 1.5;
-  padding: 1rem .75rem;
-  color: #666666; }
-
-.projects > ul > li > a {
-  padding: .5rem 1rem;
-  margin: .5rem; }
-
 /* Visibility with JS */
 .toggle-content {
   display: none; }
@@ -500,7 +456,7 @@ fieldset {
 .hero > .text-container {
   padding: 0 1em; }
 
-.btn {
+.btn-hero {
   margin-top: auto;
   margin-bottom: 0;
   text-align: center;
@@ -509,7 +465,21 @@ fieldset {
   background-color: transparent;
   border-radius: 2.5em; }
 
-.btn:hover {
+.btn-hero:hover {
+  background-color: #3a4aa5;
+  transition: 400ms;
+  transition-timing-function: ease-in-out;
+  color: #fff; }
+
+.btn-cta {
+  background-color: #57b8ff;
+  margin-top: auto;
+  margin-bottom: 0;
+  text-align: center;
+  padding: .25em 1.5em;
+  border-radius: 2.5em; }
+
+.btn-cta:hover {
   background-color: #3a4aa5;
   transition: 400ms;
   transition-timing-function: ease-in-out;
@@ -693,7 +663,17 @@ footer p {
   align-items: center;
   justify-content: center;
   min-height: 100%;
-  background-color: #efefef; }
+  height: 100%;
+  background-color: #3a4aa5;
+  margin-bottom: 2em; }
+
+.callout > * {
+  color: white;
+  line-height: 1.5em; }
+
+.cta-container {
+  width: 80%;
+  padding-bottom: 2em; }
 
 /* Animate cards */
 @keyframes fade-in {
