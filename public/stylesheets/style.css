@@ -5,6 +5,7 @@
 /* Color Scheme */
 /* gray-d */
 /* indigo */
+/* pool */
 /* test primary color palette */
 /* not in use */
 /* site color scheme */
@@ -280,10 +281,7 @@ h1 {
 p {
   /* font-family: $sans; */ }
 
-h1 {
-  font-size: 2em; }
-
-h2 {
+h1, h2 {
   font-size: 1.8em; }
 
 h3 {
@@ -300,7 +298,7 @@ h6 {
 
 p {
   font-size: 1rem;
-  line-height: 1.5;
+  line-height: 1.25;
   /* width: 50ch; */ }
 
 ul, li {
@@ -321,12 +319,12 @@ img {
 
 a {
   text-decoration: none;
-  color: #3a4aa5;
+  color: #57b8ff;
   background-color: transparent;
   /* IE 10 */ }
 
 a:visited {
-  color: #1f285a; }
+  color: #008bf0; }
 
 b,
 strong {
@@ -586,8 +584,7 @@ footer p {
 
 .benefits {
   height: 120vh;
-  padding-top: 3em;
-  background-color: #dedede; }
+  background-color: #efefef; }
 
 .title-bar > h2 {
   text-align: center;

@@ -40,11 +40,7 @@ p {
   /* font-family: $sans; */
 }
 
-h1 {  
-    font-size: 2em;
-}
-
-h2 {
+h1, h2 {  
     font-size: 1.8em;
 }
 
@@ -66,7 +62,7 @@ h6 {
 
 p {
     font-size: 1rem;
-    line-height: 1.5;
+    line-height: 1.25;
     /* width: 50ch; */
 }
 
@@ -91,12 +87,12 @@ img {
 
 a {
     text-decoration: none;
-    color: $primary;
+    color: $link;
     background-color: transparent; /* IE 10 */ 
 }
 
 a:visited {  
-  color: darken($primary, 20%);
+  color: darken($link, 20%);
 }
 
 b,
