@@ -263,7 +263,8 @@ body {
   color: #242424;
   min-height: 100%;
   display: grid;
-  grid-template-rows: 1fr auto; }
+  grid-template-rows: 1fr auto;
+  overflow-x: hidden; }
 
 main {
   display: block;
