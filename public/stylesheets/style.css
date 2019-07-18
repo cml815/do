@@ -585,6 +585,7 @@ footer p {
 
 .benefits {
   height: 120vh;
+  /* background: url('../images/getty-place.jpg') no-repeat center; */
   background-color: #efefef; }
 
 .title-bar > h2 {
