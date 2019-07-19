@@ -267,13 +267,15 @@ footer p {
 }
 
 .callout {
+  height: 100%;
+  height: 40vh;
   display: flex;
   flex-direction: column; 
   align-items: center;
   justify-content: center;
   min-height: 100%;
   height: 100%;
-  background-color: $primary-dark;
+  background: url("/images/stars.svg");
   /* margin-bottom: 2em; */
 }
 
@@ -284,7 +286,7 @@ footer p {
 
 .cta-container {
   width: 80%;
-  padding-bottom: 2em;
+  
 }
 
 
