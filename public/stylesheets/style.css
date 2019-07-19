@@ -268,7 +268,7 @@ body {
 
 main {
   display: block;
-  min-height: calc(100vh - 50px); }
+  /* min-height: calc(100vh - 50px); */ }
 
 h1, h2, h3, h4, h5, h6 {
   /* font-family: $serif; */
@@ -577,9 +577,10 @@ fieldset {
 
 /* Footer */
 footer {
+  position: absolute;
   width: 100vw;
   height: 50px;
-  margin-top: -50px;
+  bottom: 0px;
   background-color: #424A51;
   padding: 1rem;
   font-size: .875em;
