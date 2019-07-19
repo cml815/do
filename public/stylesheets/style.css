@@ -442,6 +442,15 @@ fieldset {
 .toggle-content.is-visible {
   display: block; }
 
+.left {
+  text-align: left; }
+
+.center {
+  text-align: center; }
+
+.right {
+  text-align: right; }
+
 /* Hero */
 .hero {
   height: 100vh;
@@ -584,13 +593,12 @@ footer p {
   width: 100%; }
 
 .benefits {
-  height: 120vh;
+  height: 100vh;
   /* background: url('../images/getty-place.jpg') no-repeat center; */
   background-color: #efefef; }
 
 .title-bar > h2 {
-  text-align: center;
-  justify-content: center; }
+  text-align: left; }
 
 .benefits > .grid-container {
   align-items: center;

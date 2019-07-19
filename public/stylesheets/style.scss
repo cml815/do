@@ -7,6 +7,18 @@
 
 /// SITE STYLES  ///
 
+.left {
+  text-align: left;
+}
+
+.center {
+  text-align: center;
+}
+
+.right {
+  text-align: right;
+}
+
 /* Hero */
 
 .hero {
@@ -175,14 +187,13 @@ footer p {
 // Benefits section //
 
 .benefits {
-  height: 120vh;
+  height: 100vh;
   /* background: url('../images/getty-place.jpg') no-repeat center; */
   background-color: #efefef; 
 }
 
 .title-bar > h2 {
-  text-align: center;
-  justify-content: center;
+  text-align: left;
 }
 
 .benefits > .grid-container {
