@@ -30,15 +30,17 @@
 }
 
 @media (min-width: 500px) {
-    .wrapper {
+    .grid-wrapper {
       grid-template-columns: 1fr 1fr;
       grid-template-areas: 
         "header header"
-        "title-wrap nav"
+        "title-wrap title-wrap"
         "main main"
         "footer footer";
     }
 }
+
+
 
 
 .grid-container {
