@@ -2,10 +2,18 @@ var express = require('express');
 var router = express.Router();
 var nodemailer = require('nodemailer');
 
+
 /* GET home page. */
 router.get('/', function(req, res, next) {
   res.render('index', { layout: 'homepage' });
 });
+
+/* sandbox */
+
+router.get('/sandbox', function(req, res, next) {
+  res.render('sandbox', { layout: '' });
+});
+
 
 /* Test route for reference purposes. TODO - delete */  
 router.get('/tester', function(req, res) {
