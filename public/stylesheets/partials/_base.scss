@@ -11,13 +11,13 @@ html {
 }
 
 body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
     margin: 0;
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-    font-size: 16px;
+    font-size: 22px;
     color: $text;
-    min-height: 100%;
-    display: grid;
-    grid-template-rows: 1fr auto;
     overflow-x: hidden;
 }
 

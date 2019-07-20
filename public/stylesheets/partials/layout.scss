@@ -38,6 +38,13 @@
     justify-content: center;
 }
 
+/* sandbox grid TODO */
+
+.grid__wrapper--page {
+    
+}
+
+
 header.grid__item {
     grid-column: 1 / span 12;
     grid-row: 1 / 2;
