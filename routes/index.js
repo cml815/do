@@ -11,7 +11,7 @@ router.get('/', function(req, res, next) {
 /* sandbox */
 
 router.get('/sandbox', function(req, res, next) {
-  res.render('sandbox', { layout: '' });
+  res.render('sandbox', { layout: 'homepage1' });
 });
 
 

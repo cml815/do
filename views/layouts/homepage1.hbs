@@ -1,0 +1,22 @@
+<!doctype html>
+<head>
+  {{> head}}
+</head>
+<body class="grid-page">
+  <main>
+    <header id="menu" class="menu-wrap grid__item">
+        {{> nav }}
+    </header>
+    <div class="">
+        {{{ body }}}
+      <section class="callout">
+          {{> cta }}
+      </section>
+    </div>
+  </main>
+  <footer class="flex-container">
+        {{> footer }}
+    </footer>
+  <script src="./javascripts/main.js"></script>
+</body>
+</html>
