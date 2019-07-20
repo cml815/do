@@ -8,13 +8,6 @@ router.get('/', function(req, res, next) {
   res.render('index', { layout: 'homepage' });
 });
 
-/* sandbox */
-
-router.get('/sandbox', function(req, res, next) {
-  res.render('sandbox', { layout: 'homepage1' });
-});
-
-
 /* Test route for reference purposes. TODO - delete */  
 router.get('/tester', function(req, res) {
   // Below I'm passing in a JSON object (or hash table of keys and values, which is similar to an associative array) 

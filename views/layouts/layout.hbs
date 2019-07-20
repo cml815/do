@@ -3,22 +3,24 @@
 {{> head}}
 </head>
 <body class="not-home">
+<div class="grid-wrapper">
+  <header id="menu" class="menu-wrap grid__item">
+    {{> nav }}
+  </header>
+  <div class="title-wrap">
+    {{#if title}}
+    <h1 class="page-title">{{ title }}</h1>
+    <p>Adjust title-wrap</p>
+    {{/if}}
+  </div>
   <main>
-    <header id="menu" class="menu-wrap grid__item">
-      {{> nav }}
-    </header>
-    <div class="title-wrap">
-      {{#if title}}
-      <h1 class="page-title">{{ title }}</h1>
-      <p>Adjust title-wrap</p>
-      {{/if}}
-    </div>
   {{{ body }}}
   {{> cta}}
+  </main>
   <footer>
     {{> footer }}
   </footer>
-  </main>
+</div> <!-- end grid -->
   <script src="./javascripts/main.js"></script>
   </body>
   </html>
