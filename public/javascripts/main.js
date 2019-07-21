@@ -19,6 +19,10 @@ function stickyNavigation() {
 
 window.addEventListener('scroll', stickyNavigation);
 
+setInterval(function () { 
+  document.getElementById("colorful").style.background= '#'+Math.floor(Math.random()*16777215).toString(16); 
+}, 1000);
+
 /* Nav toggle
 
 let mainNav = document.getElementById('js-menu');
