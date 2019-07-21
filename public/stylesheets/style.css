@@ -23,6 +23,13 @@ xl, extra-large: 1920px or larger
   padding: .25em;
   color: white; }
 
+.flex-center {
+  align-iterms: center;
+  justify-content: center; }
+
+.centered {
+  max-width: 50%; }
+
 .title-box h2 {
   align-items: center;
   padding: 1em 0; }
@@ -435,6 +442,9 @@ sup {
 
 .rounded {
   border-radius: 2.5em; }
+
+.btn a, .btn a:visited {
+  color: white; }
 
 /* button {
 } */
