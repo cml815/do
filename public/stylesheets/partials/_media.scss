@@ -1,18 +1,7 @@
-
-/* Case Study Grid Media Queries */
-
 @media (max-width: 768px) {
-    .grid__container--page {
-      grid-template-areas:
-        "header"
-        "main"
-        "sidebar"
-        "footer";
+  .mobile-hide {
+    display: none;
+  }
+}
+
   
-      grid-template-columns: 1fr;
-      grid-template-rows:
-        auto /* Header */
-        1fr /* Main */
-        minmax(75px, auto) /* Sidebar */
-        auto /* Footer */
-    }
