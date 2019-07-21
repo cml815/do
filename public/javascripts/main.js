@@ -19,9 +19,23 @@ function stickyNavigation() {
 
 window.addEventListener('scroll', stickyNavigation);
 
+/* overlay nav */
+
+/* Open when someone clicks on the span element */
+function openNav() {
+  document.getElementById("myNav").style.width = "100%";
+}
+
+/* Close when someone clicks on the "x" symbol inside the overlay */
+function closeNav() {
+  document.getElementById("myNav").style.width = "0%";
+}
+
 /* Shrink navigation */
 
 // When the user scrolls down 80px from the top of the document, resize the navbar's padding and the logo's font size
+
+/*
 window.onscroll = function() {scrollFunction()};
 
 function scrollFunction() {
@@ -33,6 +47,8 @@ function scrollFunction() {
     document.getElementById("logo").style.fontSize = "35px";
   }
 }
+
+*/
 
 /* 
 setInterval(function () { 
