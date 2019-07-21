@@ -132,9 +132,6 @@ nav li a {
 nav li:hover {
   cursor: pointer; }
 
-nav > button {
-  background-color: #242943; }
-
 nav > a {
   color: white; }
 
@@ -364,11 +361,23 @@ sub {
 sup {
   top: -0.5em; }
 
+/* Buttons */
 .btn {
+  padding: .25em 1.25em;
+  margin-top: auto;
+  margin-bottom: 0;
+  text-align: center;
   background-color: #242943; }
 
+.rounded {
+  border-radius: 2.5em; }
+
+/* button {
+} */
 .btn:hover {
-  background-color: #485285; }
+  background-color: #000001;
+  transition: 400ms;
+  transition-timing-function: ease-in-out; }
 
 figcaption p {
   /* font-family: $sans; */
@@ -476,51 +485,28 @@ fieldset {
 .hero > .text-container {
   padding: 0 1em; }
 
-.btn-hero {
-  margin-top: auto;
-  margin-bottom: 0;
-  text-align: center;
-  padding: .25em 1.5em;
-  border: 1.5px solid #3a4aa5;
-  background-color: transparent;
-  border-radius: 2.5em; }
-
-.btn-hero:hover {
-  background-color: #3a4aa5;
-  transition: 400ms;
-  transition-timing-function: ease-in-out;
-  color: #fff; }
-
-.btn-cta {
-  background-color: #57b8ff;
-  margin-top: auto;
-  margin-bottom: 0;
-  text-align: center;
-  padding: .25em 1.5em;
-  border-radius: 2.5em; }
-
-.btn-cta:hover {
-  background-color: #3a4aa5;
-  transition: 400ms;
-  transition-timing-function: ease-in-out;
-  color: #fff; }
-
 .cta > p {
   font-size: .875em;
   text-transform: uppercase; }
 
-.home-hero {
+.home-hero, .flex-wrap {
   display: flex;
   flex-direction: row;
   align-items: center;
+  justify-content: center;
   height: 100vh; }
 
 .home-hero h1 {
   font-size: 3em;
-  font-weight: normal; }
+  font-weight: 700;
+  line-height: 1.4em; }
+
+.text-container {
+  flex: 2 0 60%;
+  padding-left: 1em; }
 
 .highlight {
-  background-color: #ff8533; }
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0) 50%, #FFD0AE 50%); }
 
 @media screen and (max-width: 767px) {
   .hero {

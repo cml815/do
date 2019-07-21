@@ -122,11 +122,27 @@ sup {
   top: -0.5em;
 }
 
+/* Buttons */
+
 .btn { 
-    background-color: $primary; 
+    padding: .25em 1.25em;
+    margin-top: auto;
+    margin-bottom: 0;
+    text-align: center;
+    background-color: $primary;
 }
+
+.rounded {
+  border-radius: 2.5em;
+}
+
+/* button {
+} */
+
 .btn:hover { 
-    background-color: lighten($primary, 20%); 
+    background-color: darken($primary, 20%);
+    transition: 400ms;
+    transition-timing-function: ease-in-out; 
 }
 
 figcaption {
