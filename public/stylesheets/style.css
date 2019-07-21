@@ -278,7 +278,7 @@ body {
   margin: 0;
   font-family: "Barlow", Helvetica, "Helvetica Neue", Arial, sans-serif;
   /* font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"; todo */
-  font-size: 22px;
+  font-size: 16px;
   color: #242424;
   overflow-x: hidden; }
 
@@ -473,10 +473,6 @@ fieldset {
   display: grid;
   align-items: center; }
 
-.hero > h1 {
-  font-size: 3rem;
-  padding-bottom: 1rem; }
-
 .hero > .text-container {
   padding: 0 1em; }
 
@@ -518,6 +514,14 @@ fieldset {
   flex-direction: row;
   align-items: center;
   height: 100vh; }
+
+.home-hero h1 {
+  font-size: 3em;
+  font-weight: normal; }
+
+.highlight {
+  background-color: #ff8533;
+  transform: skew(20deg); }
 
 @media screen and (max-width: 767px) {
   .hero {
@@ -900,5 +904,8 @@ button {
 /* Projects Overview */
 .sample > .flex-item {
   height: 60vw; }
+
+/* flicker https://codepen.io/mandymichael/pen/aJLYVz */
+/* prefers-reduced-motion */
 
 /*# sourceMappingURL=style.css.map */

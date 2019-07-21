@@ -27,14 +27,11 @@
   align-items: center;
 }
 
-.hero > h1 {
-  font-size: 3rem;
-  padding-bottom: 1rem;
-  }
 
 .hero > .text-container {
   padding: 0 1em;
 }
+
 
 
 .btn-hero {
@@ -81,6 +78,17 @@
   align-items: center;
   height: 100vh;
 }
+
+.home-hero h1 {
+  font-size: 3em;
+  font-weight: normal;
+}
+
+.highlight {
+  background-color: rgb(255, 133, 51);
+  transform: skew(20deg);
+}
+
   @media screen and (max-width: $mobile-max) {
     .hero {
       flex-direction: column;
@@ -550,7 +558,6 @@ button {
 }
 
 
+/* flicker https://codepen.io/mandymichael/pen/aJLYVz */
 
-
-
-
+/* prefers-reduced-motion */
