@@ -598,6 +598,17 @@ footer p {
   text-align: center;
   color: white; }
 
+.emph {
+  font-weight: bolder; }
+
+.social-links > a:visited {
+  color: #424A51; }
+
+.copyright {
+  text-align: center;
+  font-size: .875em;
+  padding-top: 1em; }
+
 .home {
   width: 100%; }
 
