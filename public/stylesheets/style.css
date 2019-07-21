@@ -520,8 +520,7 @@ fieldset {
   font-weight: normal; }
 
 .highlight {
-  background-color: #ff8533;
-  transform: skew(20deg); }
+  background-color: #ff8533; }
 
 @media screen and (max-width: 767px) {
   .hero {
