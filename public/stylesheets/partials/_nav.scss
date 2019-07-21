@@ -5,10 +5,10 @@
 /* old nav */
 nav {
     width: 100%;
-    background-color: $cherry;
+    background-color: transparent;
     text-align: center;
     margin: 0 auto;
-    height: 64px;
+    height: 3em;
   }
   
   /* applied after scroll height reached */
@@ -38,7 +38,7 @@ nav {
       padding-left: 0;
       justify-content: flex-end;
       align-items: center;
-      height: 64px;
+      height: 3em;
   }
 
   nav ul li {
@@ -47,8 +47,8 @@ nav {
   }
 
   .logo {
-    margin-top: -10px;
-    padding-right: 20em;
+   padding-left: 3em;
+   margin-top: -10px;
     
   }
   
@@ -94,8 +94,8 @@ nav {
   /* The Overlay (background) */
 .overlay {
   /* Height & width depends on how you want to reveal the overlay (see JS below) */    
-  height: 100%;
-  width: 0 !important;
+  height: 0;
+  width: 100%;
   position: fixed; /* Stay in place */
   z-index: 1; /* Sit on top */
   left: 0;

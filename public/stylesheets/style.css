@@ -79,10 +79,10 @@ footer.grid_item {
 /* old nav */
 nav {
   width: 100%;
-  background-color: #ba3455;
+  background-color: transparent;
   text-align: center;
   margin: 0 auto;
-  height: 64px; }
+  height: 3em; }
 
 /* applied after scroll height reached */
 .fixed-nav nav {
@@ -108,15 +108,15 @@ nav ul {
   padding-left: 0;
   justify-content: flex-end;
   align-items: center;
-  height: 64px; }
+  height: 3em; }
 
 nav ul li {
   justify-self: flex-end;
   padding: 0 1em; }
 
 .logo {
-  margin-top: -10px;
-  padding-right: 20em; }
+  padding-left: 3em;
+  margin-top: -10px; }
 
 nav li {
   color: #000;
@@ -152,8 +152,8 @@ nav > a {
 /* The Overlay (background) */
 .overlay {
   /* Height & width depends on how you want to reveal the overlay (see JS below) */
-  height: 100%;
-  width: 0 !important;
+  height: 0;
+  width: 100%;
   position: fixed;
   /* Stay in place */
   z-index: 1;
