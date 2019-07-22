@@ -4,9 +4,8 @@ var router = express.Router();
 /* Project's Page */
 
 router.get('/', function(req, res, next) {
-  res.render('projects', { layout: 'portfolio' });
+  res.render('projects', { title: 'Case studies of marketing and fundraising success', shortTitle: 'Success stories', description: 'Lessons from our client success stories', layout: 'portfolio' });
 });
-
 
 // Jeff Grant case study
 

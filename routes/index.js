@@ -5,7 +5,7 @@ var nodemailer = require('nodemailer');
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
-  res.render('index', { layout: 'homepage' });
+  res.render('index', { title: 'Fuel growth with websites and content', description: 'Grow revenue with web design and content for marketing &amp; fundraising', layout: 'homepage' });
 });
 
 /* Test route for reference purposes. TODO - delete */  
@@ -21,7 +21,7 @@ router.get('/tester', function(req, res) {
 });
 
 router.get('/work', function(req, res, next) {
-  res.render('work', { title: 'What we do', layout: 'homepage' });
+  res.render('work', { title: 'Marketing and Fundraising Services | Fuel Copy', description: 'Fuel growth with websites, content, SEO and grant proposals', shortTitle: "What we offer",  layout: 'homepage' });
 });
 
 router.get('/about', function(req, res, next) {
@@ -31,7 +31,7 @@ router.get('/about', function(req, res, next) {
 /* TODO about route */
 
 router.get('/team-bios', function(req, res, next) {
-  res.render('team-bios', { title: '', layout: 'case' });
+  res.render('team-bios', { title: 'Funding and marketing strategists | Fuel Copy', description: 'Benefit from our team of web designers, strategists, writers and fundraisers.', shortTitle: 'Meet the team', layout: 'case' });
 });
 
 router.get('/portfolio', function(req, res, next) {
