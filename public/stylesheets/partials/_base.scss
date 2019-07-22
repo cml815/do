@@ -134,11 +134,19 @@ sup {
     margin-top: auto;
     margin-bottom: 0;
     text-align: center;
-    background-color: $primary;
+}
+
+.dark {
+  background-color: $primary;
 }
 
 .rounded {
   border-radius: 2.5em;
+}
+
+.subtle {
+  border-radius: .25em;
+  border: solid $primary 1px;
 }
 
 .btn a, .btn a:visited {
@@ -152,6 +160,10 @@ sup {
     background-color: darken($primary, 20%);
     transition: 400ms;
     transition-timing-function: ease-in-out; 
+}
+
+figure {
+  margin: 0;
 }
 
 figcaption {

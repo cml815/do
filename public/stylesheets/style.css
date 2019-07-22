@@ -453,11 +453,17 @@ sup {
   padding: .25em 1.25em;
   margin-top: auto;
   margin-bottom: 0;
-  text-align: center;
+  text-align: center; }
+
+.dark {
   background-color: #242943; }
 
 .rounded {
   border-radius: 2.5em; }
+
+.subtle {
+  border-radius: .25em;
+  border: solid #242943 1px; }
 
 .btn a, .btn a:visited {
   color: white; }
@@ -468,6 +474,9 @@ sup {
   background-color: #000001;
   transition: 400ms;
   transition-timing-function: ease-in-out; }
+
+figure {
+  margin: 0; }
 
 figcaption p {
   /* font-family: $sans; */
@@ -770,7 +779,8 @@ footer {
 
 .feature-text {
   grid-column: 1 / span 1;
-  grid-row: 1 / span 1; }
+  grid-row: 1 / span 1;
+  padding: 1em; }
 
 .feature-img {
   grid-column: 2 / span 1;
