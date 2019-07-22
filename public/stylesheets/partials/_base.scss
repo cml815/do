@@ -180,6 +180,10 @@ figcaption p {
   flex: 1;
 }
 
+.flex-container-wide {
+  flex: 2;
+}
+
 @media only screen and ($mobile) {
   .flex-container {
     flex-direction: column;

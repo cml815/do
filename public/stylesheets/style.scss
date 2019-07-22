@@ -219,20 +219,20 @@ footer {
   margin: 0;
 }
 
-.heading {
+.track-lead {
   background-color: $aqua;
+}
+
+.track-growth {
+  background-color: $cherry;
+}
+
+.track-funding {
+  background-color: $primary;
 }
 
 .grid-container-fluid {
   display: grid;
-  height: 120vh;
-  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
-  grid-gap: .5rem; 
-}
-
-.grid-container-fluid .nogap {
-  display: grid;
-  height: 120vh;
   grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
   grid-gap: 0; 
 }
@@ -246,6 +246,7 @@ footer {
   justify-self: center;
   align-self: center;
   overflow: hidden;
+  padding: 1em;
 }
 
 .services > figcaption {
