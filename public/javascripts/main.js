@@ -7,6 +7,7 @@ function isOverflown(element) {
 
 /* Sticky navigation */
 
+/*
 const nav = document.querySelector('#menu');
 const navTop = nav.offsetTop;
 
@@ -25,6 +26,8 @@ function stickyNavigation() {
 }
 
 window.addEventListener('scroll', stickyNavigation);
+
+*/
 
 // Overlay menu //
 

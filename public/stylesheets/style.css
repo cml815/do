@@ -223,6 +223,9 @@ nav > a {
     top: 15px;
     right: 35px; } }
 
+.hamburger {
+  font-size: 1.2em; }
+
 .samples {
   padding: 1em; }
 
