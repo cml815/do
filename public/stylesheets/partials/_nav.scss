@@ -9,6 +9,8 @@ nav {
     text-align: center;
     margin: 0 auto;
     height: 3em;
+    position: fixed;
+    background-color: #efefef;
   }
   
   /* applied after scroll height reached 
@@ -49,7 +51,7 @@ nav {
   }
 
   .logo {
-   padding-left: 3em;
+   padding-left: 1em;
    margin-top: -10px;
     
   }

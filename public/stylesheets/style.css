@@ -89,7 +89,9 @@ nav {
   background-color: transparent;
   text-align: center;
   margin: 0 auto;
-  height: 3em; }
+  height: 3em;
+  position: fixed;
+  background-color: #efefef; }
 
 /* applied after scroll height reached 
   
@@ -125,7 +127,7 @@ nav ul li {
   padding: 0 1em; }
 
 .logo {
-  padding-left: 3em;
+  padding-left: 1em;
   margin-top: -10px; }
 
 nav li {
