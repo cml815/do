@@ -3,10 +3,10 @@
   {{> head}}
 </head>
 <body class="home">
+  <header id="menu" class="menu-wrap grid__item">
+    {{> nav }}
+  </header>
   <main>
-    <header id="menu" class="menu-wrap grid__item">
-        {{> nav }}
-    </header>
     <div class="">
         {{{ body }}}
       <section class="callout">
@@ -15,7 +15,7 @@
     </div>
   </main>
   <footer class="colorful">
-        {{> footer }}
+    {{> footer }}
     </footer>
   <script src="./javascripts/main.js"></script>
 </body>

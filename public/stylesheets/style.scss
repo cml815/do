@@ -142,7 +142,6 @@
 
 footer {
   position: absolute;
-  width: 100vw;
   padding: 1rem;
   font-size: .875em;
   line-height: 1.15em;
@@ -166,10 +165,6 @@ footer {
 /// Page Styles ///
 
 // Home page //
-
-.home {
-  width: 100%;
-}
 
 // Benefits section //
 
@@ -259,7 +254,6 @@ footer {
 }
 
 .feature-img {
-  width: 80%;
   grid-column: 2 / span 1;
   grid-row: 1 / span 2;
 }

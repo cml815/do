@@ -11,7 +11,7 @@ nav {
     height: 3em;
   }
   
-  /* applied after scroll height reached */
+  /* applied after scroll height reached 
   
   .fixed-nav nav {
     position: fixed;
@@ -19,6 +19,8 @@ nav {
     z-index: 1;
     box-shadow: 0 2px rgba(0, 0, 0, 0.1);
   }
+
+  */
   
   .navigation {
     display: -webkit-box;
