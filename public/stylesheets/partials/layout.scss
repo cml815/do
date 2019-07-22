@@ -61,6 +61,10 @@
     display: flex;
 }
 
+.flex-item {
+    flex: 0 1;
+}
+
 .flex-container-col {
     flex-direction: column;
 }

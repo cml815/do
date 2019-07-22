@@ -53,6 +53,9 @@ xl, extra-large: 1920px or larger
 .flex-container {
   display: flex; }
 
+.flex-item {
+  flex: 0 1; }
+
 .flex-container-col {
   flex-direction: column; }
 
@@ -408,9 +411,6 @@ ul, li {
 li:hover {
   cursor: pointer; }
 
-section > * {
-  padding: 0 1em; }
-
 img {
   display: block;
   max-width: 100%;
@@ -600,7 +600,9 @@ fieldset {
 
 @media screen and (max-width: 767px) {
   .hero {
-    flex-direction: column; } }
+    /* flex-direction: column; */
+    align-items: center;
+    justify-content: center; } }
 
 /* Animations */
 @keyframes fade-in {
@@ -723,6 +725,12 @@ footer {
 
 .card-container {
   display: grid; }
+
+.card {
+  margin: 0; }
+
+.heading {
+  background-color: #1bcbce; }
 
 .grid-container-fluid {
   display: grid;
@@ -863,6 +871,9 @@ footer {
   align-self: center; }
 
 /* Work page */
+.services {
+  height: auto; }
+
 /* Contact page */
 .contact {
   margin-bottom: 100px; }
