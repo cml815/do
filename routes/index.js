@@ -21,7 +21,7 @@ router.get('/tester', function(req, res) {
 });
 
 router.get('/work', function(req, res, next) {
-  res.render('work', { title: '', layout: 'homepage' });
+  res.render('work', { title: 'What we do', layout: 'homepage' });
 });
 
 router.get('/about', function(req, res, next) {

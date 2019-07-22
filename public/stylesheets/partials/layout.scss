@@ -2,9 +2,10 @@
 
 .page-title {
     display: inline;
-    background-color: skyblue;
+    text-transform: uppercase;
+    font-weight: bolder;
     padding: .25em;
-    color: white; 
+    color: $charcoal; 
   }
 
 .flex-center {

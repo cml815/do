@@ -57,7 +57,7 @@
 }
 
 .highlight {
-  background: linear-gradient(180deg,rgba(255,255,255,0) 50%, #FFD0AE 50%);
+  background: $highlight;
 }
 
   @media screen and (max-width: $mobile-max) {

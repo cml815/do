@@ -19,9 +19,10 @@ xl, extra-large: 1920px or larger
 */
 .page-title {
   display: inline;
-  background-color: skyblue;
+  text-transform: uppercase;
+  font-weight: bolder;
   padding: .25em;
-  color: white; }
+  color: #424A51; }
 
 .flex-center {
   align-iterms: center;
@@ -595,7 +596,7 @@ fieldset {
   padding-left: 1em; }
 
 .highlight {
-  background: linear-gradient(180deg, rgba(255, 255, 255, 0) 50%, #FFD0AE 50%); }
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0) 50%, #5972c1 50%); }
 
 @media screen and (max-width: 767px) {
   .hero {
