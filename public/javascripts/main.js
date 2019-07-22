@@ -1,3 +1,10 @@
+/* overflow test */
+
+function isOverflown(element) {
+  return element.scrollHeight > element.clientHeight || element.scrollWidth > element.clientWidth;
+}
+
+
 /* Sticky navigation */
 
 const nav = document.querySelector('#menu');
