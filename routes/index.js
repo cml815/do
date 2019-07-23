@@ -25,7 +25,7 @@ router.get('/work', function(req, res, next) {
 });
 
 router.get('/about', function(req, res, next) {
-  res.render('about', { title: '', layout: 'layout' });
+  res.render('about', { title: '', layout: 'homepage' });
 });
 
 /* TODO about route */

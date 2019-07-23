@@ -4,7 +4,9 @@
 @import "case";
 @import "media";
 
-/*  {border:1px solid red;} overflow test */ 
+* {
+  /* border:1px solid red; */
+}
 
 * {
   -webkit-font-smoothing: antialiased;
@@ -164,6 +166,7 @@ sup {
 
 figure {
   margin: 0;
+  padding: 0;
 }
 
 figcaption {

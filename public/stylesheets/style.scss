@@ -215,10 +215,6 @@ footer {
   display: grid;
 }
 
-.card {
-  margin: 0;
-}
-
 .track-lead {
   background-color: $aqua;
 }
@@ -246,7 +242,7 @@ footer {
   justify-self: center;
   align-self: center;
   overflow: hidden;
-  padding: 1em;
+  padding: 0;
 }
 
 .services > figcaption {
