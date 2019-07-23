@@ -41,21 +41,17 @@ main {
 }
 
 h2, h3, h4, h5, h6 {
-    font-family: $serif;
+    font-family: $sans;
     letter-spacing: .25px;
-    line-height: 1.25;
+    line-height: 1.15em;
 }
 
 h1 {
   margin: 0.67em 0;
-  font-family: $sans;
+  font-family: $display;
   font-size: 2em;
   letter-spacing: .25px;
-  line-height: 1.25;
-}
-
-p {
-  /* font-family: $sans; */
+  line-height: 1.25em;
 }
 
 h2 {  
@@ -79,9 +75,9 @@ h6 {
 }
 
 p {
+    font-family: $sans;
     font-size: 1rem;
-    line-height: 1.25;
-    /* width: 50ch; */
+    line-height: 1.4;
 }
 
 ul, li {
