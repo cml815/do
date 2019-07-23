@@ -121,13 +121,16 @@ nav {
 }
 
 /* The navigation links inside the overlay */
-.overlay a {
-  padding: 8px;
-  text-decoration: none;
-  font-size: 36px;
-  color: #818181;
-  display: block; /* Display block instead of inline */
-  transition: 0.3s; /* Transition effects on hover (color) */
+
+  .overlay a {
+    padding: .5em;
+    text-decoration: none;
+    font-size: 2em;
+    font-weight: bold;
+    color: #818181;
+    display: block; /* Display block instead of inline */
+    transition: 0.3s; /* Transition effects on hover (color) */
+    transition-timing-function: ease-in-out;
 }
 
 /* When you mouse over the navigation links, change their color */
