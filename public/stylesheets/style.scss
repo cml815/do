@@ -155,7 +155,7 @@ footer {
 }
 
 .social-links > a:visited {
-  color: $charcoal;
+  color: $deep;
 }
 
 .copyright {
@@ -273,13 +273,10 @@ footer {
 
 .callout {
   height: 100%;
-  height: 40vh;
   display: flex;
   flex-direction: column; 
   align-items: center;
   justify-content: center;
-  min-height: 100%;
-  height: 100%;
   background: url("/images/stars.svg");
   /* margin-bottom: 2em; */
 }
