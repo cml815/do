@@ -25,7 +25,7 @@ router.get('/work', function(req, res, next) {
 });
 
 router.get('/about', function(req, res, next) {
-  res.render('about', { title: '', layout: 'homepage' });
+  res.render('about', { title: 'About Fuel Copy', shortTitle: 'About us', description: 'As a marketing and fundraising team, Fuel Copy helps companies grow', layout: 'homepage' });
 });
 
 /* TODO about route */
