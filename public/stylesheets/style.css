@@ -7,6 +7,7 @@
 /* night */
 /* grape */
 /* pool */
+/* eggplant */
 /* test primary color palette */
 /* not in use */
 /* site color scheme */
@@ -145,13 +146,11 @@ nav li {
   transition-duration: 0.5s; }
 
 nav li a {
-  color: black; }
+  color: black;
+  /* over-ridden todo fix  */ }
 
 nav li:hover {
   cursor: pointer; }
-
-nav > a {
-  color: white; }
 
 .main-nav {
   display: flex;
@@ -205,12 +204,15 @@ nav > a {
   text-decoration: none;
   font-size: 2em;
   font-weight: bold;
-  color: #818181;
+  color: #57b8ff;
   display: block;
   /* Display block instead of inline */
   transition: 0.3s;
   /* Transition effects on hover (color) */
   transition-timing-function: ease-in-out; }
+
+.overlay a:visited {
+  color: #57b8ff; }
 
 /* When you mouse over the navigation links, change their color */
 .overlay a:hover, .overlay a:focus {
@@ -365,7 +367,9 @@ html {
   height: 100%;
   width: 100%;
   line-height: 1.15;
-  -webkit-text-size-adjust: 100%; }
+  -webkit-text-size-adjust: 100%;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased; }
 
 body {
   height: 100%;
@@ -375,9 +379,6 @@ body {
   font-family: "Barlow", Helvetica, "Helvetica Neue", Arial, sans-serif;
   font-size: 16px;
   color: #131517;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  color: rgba(0, 0, 0, 0.8);
   overflow-x: hidden; }
 
 main {
@@ -476,11 +477,12 @@ sup {
   border-radius: .25em;
   border: solid #242943 1px; }
 
-.btn a, .btn a:visited {
-  color: white; }
+.btn a {
+  color: #57b8ff; }
 
-/* button {
-} */
+.btn a:visited {
+  color: rgba(38, 36, 49, 0.5); }
+
 .btn:hover {
   background-color: #000001;
   transition: 400ms;
@@ -513,7 +515,7 @@ figcaption p {
   .flex-container {
     flex-direction: column; } }
 
-/* Forms */
+/* Contact Form */
 button,
 input,
 optgroup,
@@ -555,9 +557,9 @@ button:-moz-focusring,
 [type="submit"]:-moz-focusring {
   outline: 1px dotted ButtonText; }
 
-/* test button */
 button .default {
-  background-color: #666; }
+  background-color: #666;
+  /* test button todo */ }
 
 textarea {
   overflow: auto; }
@@ -622,6 +624,12 @@ h1.loud {
 
 .highlight {
   background: linear-gradient(180deg, rgba(255, 255, 255, 0) 50%, #5972c1 50%); }
+
+.fine-print {
+  text-transform: uppercase;
+  font-size: .875em;
+  font-weight: bold;
+  letter-spacing: 2px; }
 
 @media screen and (max-width: 767px) {
   .hero {
@@ -908,57 +916,6 @@ footer {
 .callout-l > * {
   align-items: center; }
 
-/* 
-form {
-  display: grid;
-  padding: 1em;
-  margin: 2rem auto 0 auto;
-  max-width: 300px;
-  padding: 1em;
-}
-form input {
-  background: #fff;
-  border: 1px solid #9c9c9c;
-}
-form button {
-  background: lightgrey;
-  padding: 0.7em;
-  width: 100%;
-  border: 0;
-}
-form button:hover {
-  background: gold;
-}
-
-label {
-  padding: 0.5em 0.5em 0.5em 0;
-}
-
-input {
-  padding: 0.7em;
-  margin-bottom: 0.5rem;
-}
-input:focus {
-  outline: 3px solid gold;
-}
-
-@media (min-width: 400px) {
-  form {
-    grid-template-columns: 200px 1fr;
-    grid-gap: 16px;
-  }
-
-  label {
-    text-align: right;
-    grid-column: 1 / 2;
-  }
-
-  input,
-  button {
-    grid-column: 2 / 3;
-  }
-}
-
 /* Form updated */
 form {
   /* Just to center the form on the page */
@@ -1003,11 +960,16 @@ textarea {
   padding-left: 90px;
   /* same size as the label elements */ }
 
+/* 
+
 button {
   /* This extra margin represent roughly the same space as the space
      between the labels and their text fields */
-  margin-left: .5em; }
+/*
+  margin-left: .5em;
+}
 
+*/
 /* Projects Overview */
 .sample > .flex-item {
   height: 60vw; }

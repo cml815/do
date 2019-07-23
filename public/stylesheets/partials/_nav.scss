@@ -67,16 +67,11 @@ nav {
   }
     
   nav li a { 
-    color: rgb(0, 0, 0);
+    color: rgb(0, 0, 0); /* over-ridden todo fix  */
   }
   
   nav li:hover {
       cursor: pointer; }
-
-
-  nav > a {
-    color: white;
-  }
 
   .main-nav {
     display: flex;
@@ -127,10 +122,14 @@ nav {
     text-decoration: none;
     font-size: 2em;
     font-weight: bold;
-    color: #818181;
+    color: $link;
     display: block; /* Display block instead of inline */
     transition: 0.3s; /* Transition effects on hover (color) */
     transition-timing-function: ease-in-out;
+}
+
+.overlay a:visited {
+  color: $link;
 }
 
 /* When you mouse over the navigation links, change their color */

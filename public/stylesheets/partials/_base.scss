@@ -24,6 +24,8 @@ html {
   width: 100%;
   line-height: 1.15; 
   -webkit-text-size-adjust: 100%;
+  text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
   
 }
 
@@ -35,9 +37,6 @@ body {
     font-family: $sans;
     font-size: 16px;
     color: $black;
-    text-rendering: optimizeLegibility;
-    -webkit-font-smoothing: antialiased;
-    color: rgba(0,0,0,0.8);
     overflow-x: hidden;
 }
 
@@ -158,12 +157,13 @@ sup {
   border: solid $primary 1px;
 }
 
-.btn a, .btn a:visited {
-  color: white;
+.btn a {
+  color: $link;
 }
 
-/* button {
-} */
+.btn a:visited {
+  color: $link-vis;
+}
 
 .btn:hover { 
     background-color: darken($primary, 20%);
@@ -212,7 +212,7 @@ figcaption p {
   }
 }
 
-/* Forms */
+/* Contact Form */
 
 button,
   input,
@@ -259,10 +259,8 @@ button,
     outline: 1px dotted ButtonText;
   }
 
-  /* test button */
-
   button .default {
-    background-color: #666;
+    background-color: #666; /* test button todo */
   }
 
   textarea /* IE 10+ */ {
