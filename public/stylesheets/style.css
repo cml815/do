@@ -67,6 +67,18 @@ xl, extra-large: 1920px or larger
   grid-gap: 1em;
   padding: 1em; }
 
+.grid-container {
+  display: grid; }
+
+.fluid {
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr)); }
+
+.full {
+  grid-gap: 0; }
+
+.pad {
+  padding: 1em; }
+
 .grid__page--12x12 {
   display: grid;
   grid-template-columns: repeat(12, 1fr);
@@ -91,7 +103,15 @@ footer.grid_item {
 .card-container {
   display: grid; }
 
-.card {
+.home > .card {
+  height: 100%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  justify-self: center;
+  align-self: center;
+  overflow: hidden;
+  padding: 1em; }
+
+.work > .card {
   height: 100%;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   justify-self: center;
