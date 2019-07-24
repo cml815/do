@@ -103,21 +103,15 @@ footer.grid_item {
 .card-container {
   display: grid; }
 
-.home > .card {
+.card {
   height: 100%;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   justify-self: center;
   align-self: center;
   overflow: hidden;
   padding: 1em; }
 
-.work > .card {
-  height: 100%;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  justify-self: center;
-  align-self: center;
-  overflow: hidden;
-  padding: 1em; }
+.shadow {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); }
 
 /* Alignment */
 .left {
