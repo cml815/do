@@ -5,7 +5,7 @@ var nodemailer = require('nodemailer');
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
-  res.render('index', { title: 'Fuel growth with websites and content', description: 'Grow revenue with web design and content for marketing &amp; fundraising', layout: 'homepage' });
+  res.render('index', { title: 'Fuel growth with websites and content', description: 'Grow revenue with web design and content for marketing &amp; fundraising', bodyClass: 'home', layout: 'homepage' });
 });
 
 /* Test route for reference purposes. TODO - delete */  
@@ -21,17 +21,17 @@ router.get('/tester', function(req, res) {
 });
 
 router.get('/work', function(req, res, next) {
-  res.render('work', { title: 'Marketing and Fundraising Services | Fuel Copy', description: 'Fuel growth with websites, content, SEO and grant proposals', shortTitle: "What we offer",  layout: 'homepage' });
+  res.render('work', { title: 'Marketing and Fundraising Services | Fuel Copy', description: 'Fuel growth with websites, content, SEO and grant proposals', shortTitle: "What we offer", bodyClass: 'work',  layout: 'homepage' });
 });
 
 router.get('/about', function(req, res, next) {
-  res.render('about', { title: 'About Fuel Copy', shortTitle: 'About us', description: 'As a marketing and fundraising team, Fuel Copy helps companies grow', layout: 'homepage' });
+  res.render('about', { title: 'About Fuel Copy', shortTitle: 'About us', description: 'As a marketing and fundraising team, Fuel Copy helps companies grow', bodyClass: 'about', layout: 'homepage' });
 });
 
 /* TODO about route */
 
 router.get('/team-bios', function(req, res, next) {
-  res.render('team-bios', { title: 'Funding and marketing strategists | Fuel Copy', description: 'Benefit from our team of web designers, strategists, writers and fundraisers.', shortTitle: 'Meet the team', layout: 'case' });
+  res.render('team-bios', { title: 'Funding and marketing strategists | Fuel Copy', description: 'Benefit from our team of web designers, strategists, writers and fundraisers.', shortTitle: 'Meet the team', bodyClass: 'teamBios', layout: 'case' });
 });
 
 router.get('/portfolio', function(req, res, next) {
@@ -39,7 +39,7 @@ router.get('/portfolio', function(req, res, next) {
 });
 
 router.get('/contact', function(req, res, next) {
-  res.render('contact', { layout: 'contact' });
+  res.render('contact', { title: 'Contact us for practical growth and funding support', description: 'Contact us by phone, email or fill out this form', bodyClass: 'contact', layout: 'contact' });
 });
 
 /// Nodemailer contact form ///
