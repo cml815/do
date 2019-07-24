@@ -7,17 +7,6 @@
 
 /// SITE STYLES - move to base TODO  ///
 
-.left {
-  text-align: left;
-}
-
-.center {
-  text-align: center;
-}
-
-.right {
-  text-align: right;
-}
 
 /* Hero */
 
@@ -49,6 +38,7 @@ h1.loud {
   font-size: 3.4em;
   font-weight: 700;
   line-height: 1.25em;
+  letter-spacing: .5px;
 }
 
 .text-container {
@@ -375,7 +365,7 @@ animation: fade-in 1.4s;
 /* Work page */
 
 .services {
-  height: auto;
+  height: 100vh;
   background-color: $bg-pale;
 
 }

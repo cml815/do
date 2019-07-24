@@ -99,10 +99,15 @@ footer.grid_item {
   overflow: hidden;
   padding: 1em; }
 
-/* Hero variations */
-.lead {
-  height: 25vh;
-  padding: 2em; }
+/* Alignment */
+.left {
+  text-align: left; }
+
+.center {
+  text-align: center; }
+
+.right {
+  text-align: right; }
 
 /* Navigation */
 /* https://www.w3schools.com/code/tryit.asp?filename=G6913M8THUXM */
@@ -600,15 +605,6 @@ fieldset {
 .toggle-content.is-visible {
   display: block; }
 
-.left {
-  text-align: left; }
-
-.center {
-  text-align: center; }
-
-.right {
-  text-align: right; }
-
 /* Hero */
 .hero {
   height: 100vh;
@@ -633,7 +629,8 @@ h1.loud {
   font-family: "Barlow", Helvetica, "Helvetica Neue", Arial, sans-serif;
   font-size: 3.4em;
   font-weight: 700;
-  line-height: 1.25em; }
+  line-height: 1.25em;
+  letter-spacing: .5px; }
 
 .text-container {
   flex: 2 0 60%;
@@ -895,7 +892,7 @@ footer {
 
 /* Work page */
 .services {
-  height: auto;
+  height: 100vh;
   background-color: rgba(0, 0, 0, 0.08); }
 
 /* Contact page */

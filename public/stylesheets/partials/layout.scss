@@ -114,11 +114,17 @@ footer.grid_item {
     padding: 1em;
   }
   
+/* Alignment */
 
-
-/* Hero variations */
-
-.lead {
-    height: 25vh;
-    padding: 2em;
-}
+.left {
+    text-align: left;
+  }
+  
+  .center {
+    text-align: center;
+  }
+  
+  .right {
+    text-align: right;
+  }
+  
