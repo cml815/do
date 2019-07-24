@@ -236,6 +236,12 @@ footer {
   background-color: #efefef;
 }
 
+@media only screen and (max-width: 599px) {
+  section {
+    flex-direction: column; 
+  }
+}
+
 .feature-text {
   grid-column: 1 / span 1;
   grid-row: 1 / span 1;

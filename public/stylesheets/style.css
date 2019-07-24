@@ -388,6 +388,10 @@ header, main {
   .mobile-hide {
     display: none; } }
 
+@media only screen and (max-width: 599px) {
+  section {
+    flex-direction: column; } }
+
 /* Temp margin fix - todo delete */
 * {
   /* border:1px solid red; */ }
@@ -804,6 +808,10 @@ footer {
   grid-gap: 0;
   align-items: stretch;
   background-color: #efefef; }
+
+@media only screen and (max-width: 599px) {
+  section {
+    flex-direction: column; } }
 
 .feature-text {
   grid-column: 1 / span 1;
