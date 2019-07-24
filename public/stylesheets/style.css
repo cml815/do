@@ -798,11 +798,14 @@ footer {
 
 .feature-img {
   grid-column: 2 / span 1;
-  grid-row: 1 / span 2; }
+  grid-row: 1 / span 2;
+  width: auto;
+  height: 50vh;
+  border-style: none; }
 
 .callout {
   max-height: 100%;
-  height: 50vh;
+  height: 60vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -897,7 +900,7 @@ footer {
 
 /* Contact page */
 .contact {
-  margin-bottom: 100px; }
+  margin-bottom: 2em; }
 
 .callout-l {
   display: flex;
