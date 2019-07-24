@@ -5,7 +5,7 @@ var nodemailer = require('nodemailer');
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
-  res.render('index', { title: 'Fuel growth with websites and content', description: 'Grow revenue with web design and content for marketing &amp; fundraising', bodyClass: 'home', layout: 'homepage' });
+  res.render('index', { title: 'Fuel growth with websites and content', description: 'Grow revenue with web design and content for marketing &amp; fundraising', bodyClass: 'home', layout: 'default' });
 });
 
 /* Test route for reference purposes. TODO - delete */  
@@ -21,11 +21,11 @@ router.get('/tester', function(req, res) {
 });
 
 router.get('/work', function(req, res, next) {
-  res.render('work', { title: 'Marketing and Fundraising Services | Fuel Copy', description: 'Fuel growth with websites, content, SEO and grant proposals', shortTitle: "What we offer", bodyClass: 'work',  layout: 'homepage' });
+  res.render('work', { title: 'Marketing and Fundraising Services | Fuel Copy', description: 'Fuel growth with websites, content, SEO and grant proposals', shortTitle: "What we offer", bodyClass: 'work',  layout: 'default' });
 });
 
 router.get('/about', function(req, res, next) {
-  res.render('about', { title: 'About Fuel Copy', shortTitle: 'About us', description: 'As a marketing and fundraising team, Fuel Copy helps companies grow', bodyClass: 'about', layout: 'homepage' });
+  res.render('about', { title: 'About Fuel Copy', shortTitle: 'About us', description: 'As a marketing and fundraising team, Fuel Copy helps companies grow', bodyClass: 'about', layout: 'default' });
 });
 
 /* TODO about route */
@@ -39,7 +39,7 @@ router.get('/portfolio', function(req, res, next) {
 });
 
 router.get('/contact', function(req, res, next) {
-  res.render('contact', { title: 'Contact us for practical growth and funding support', description: 'Contact us by phone, email or fill out this form', bodyClass: 'contact', layout: 'contact' });
+  res.render('contact', { title: 'Contact us for practical growth and funding support', description: 'Contact us by phone, email or fill out this form', bodyClass: 'contact', layout: 'default' });
 });
 
 /// Nodemailer contact form ///
