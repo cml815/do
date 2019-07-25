@@ -98,24 +98,7 @@
     min-height: 100%;
 }
 
-header.grid__item {
-    grid-column: 1 / span 12;
-    grid-row: 1 / 2;
-}
-
-main.grid__item {
-    grid-column: 1 / span 12;
-    grid-row: 2 / 12;
-
-}
-
-footer.grid_item {
-    grid-column: 1 / span 12;
-    grid-row: 12 / 13;    
-
-}
-
-/* Card containers */
+/* Card components */
 
 .card-container {
     display: grid;
@@ -132,6 +115,8 @@ footer.grid_item {
   .shadow {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); 
   }
+
+  /* Portfolio / Projects Grid */
 
   
   
