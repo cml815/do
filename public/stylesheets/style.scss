@@ -25,7 +25,7 @@
   text-transform: uppercase;
 }
 
-.home-hero, .flex-wrap {
+.home > .hero {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -33,18 +33,22 @@
   height: 100vh;
 }
 
-h1.loud {
-  font-family: $sans;
-  font-size: 3.4em;
+.home > h1 {
+  font-family: $display;
+  font-size: 3.0em;
   font-weight: 700;
   line-height: 1.25em;
   letter-spacing: .5px;
 }
 
-.text-container {
+.home > .text-container {
   flex: 2 0 60%;
-  padding-left: 1em;
+  padding: 1em;
   
+}
+
+.hero > .text-container > * {
+  margin-bottom: 2em; /* margin btw lines */
 }
 
 .highlight {
@@ -58,11 +62,14 @@ h1.loud {
   letter-spacing: 2px;
 }
 
-  @media screen and (max-width: $mobile-max) {
+  @media screen and (max-width: $mobile) {
     .hero {
-      /* flex-direction: column; */
+      flex-direction: column;
       align-items: center;
       justify-content: center;
+    }
+    h1 {
+      font-size: 2em; 
     }
   }
 
@@ -129,14 +136,7 @@ h1.loud {
 
   */
 
-.container-cta {
-  display: flex;
-  flex-direction: column;
-  flex-flow: row wrap;
-  align-items: center;
-  justify-content: center;
-  max-width: 100%;
-}
+
 
 /* Footer */
 

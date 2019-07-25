@@ -14,7 +14,8 @@ $highlight: linear-gradient(180deg,rgba(255,255,255,0) 50%, #5972c1 50%);
 
 /* test primary color palette */
 
-$cherry: #ba3455;
+$cherry: rgb(186, 52, 85);
+$cherry-lt: rgb(241, 92, 130);
 $grape: #32293b;
 $red: rgba(255, 89, 71, 1);
 $logo: #eb5b5f;
@@ -75,8 +76,7 @@ $serif-old: 'Aleo', Georgia, 'Times New Roman', Times, serif;
 
 
 
-$mobile: 599px; 
-$mobile-max: 767px;
+$mobile: 599px; /* max-width */
 $tablet: (min-width: 768px) and (max-width: 1024px);
 $lap-desk: (min-width: 1025px) and (max-width: 1280px); 
 $desktop-large: (min-width: 1281px)

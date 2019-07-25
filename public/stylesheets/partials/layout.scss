@@ -63,7 +63,14 @@
 }
 
 .flex-container-col {
+    display: flex;
     flex-direction: column;
+}
+
+.flex-center {
+    align-items: center;
+    justify-content: center;
+    max-width: 100%;
 }
 
 .grid-container-fluid {
@@ -97,6 +104,8 @@
     justify-content: center;
     min-height: 100%;
 }
+
+
 
 /* Card components */
 
