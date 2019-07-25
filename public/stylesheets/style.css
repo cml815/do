@@ -506,10 +506,6 @@ sup {
 .rounded {
   border-radius: 2.5em; }
 
-.subtle {
-  border-radius: .25em;
-  border: solid #242943 1px; }
-
 .btn a {
   color: #5465ca; }
 
