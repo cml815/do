@@ -7,9 +7,12 @@
 /* night */
 /* grape */
 /* pool */
-/* eggplant */
+/* indigo */
+/* indigo lite */
 /* test primary color palette */
 /* not in use */
+/* Coolors Exported Palette - coolors.co/3a4aa5-57b8ff-485254-f9973b-ff5947 */
+/* RGB */
 /* site color scheme */
 /* 
 xs, extra-small: 0px or larger
@@ -87,19 +90,7 @@ xl, extra-large: 1920px or larger
   justify-content: center;
   min-height: 100%; }
 
-header.grid__item {
-  grid-column: 1 / span 12;
-  grid-row: 1 / 2; }
-
-main.grid__item {
-  grid-column: 1 / span 12;
-  grid-row: 2 / 12; }
-
-footer.grid_item {
-  grid-column: 1 / span 12;
-  grid-row: 12 / 13; }
-
-/* Card containers */
+/* Card components */
 .card-container {
   display: grid; }
 
@@ -113,6 +104,7 @@ footer.grid_item {
 .shadow {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); }
 
+/* Portfolio / Projects Grid */
 /* Alignment */
 .left {
   text-align: left; }
@@ -240,7 +232,7 @@ nav li:hover {
   text-decoration: none;
   font-size: 2em;
   font-weight: bold;
-  color: #57b8ff;
+  color: #5465ca;
   display: block;
   /* Display block instead of inline */
   transition: 0.3s;
@@ -248,7 +240,7 @@ nav li:hover {
   transition-timing-function: ease-in-out; }
 
 .overlay a:visited {
-  color: #57b8ff; }
+  color: #5465ca; }
 
 /* When you mouse over the navigation links, change their color */
 .overlay a:hover, .overlay a:focus {
@@ -472,12 +464,12 @@ img {
 
 a {
   text-decoration: none;
-  color: #57b8ff;
+  color: #5465ca;
   background-color: transparent;
   /* IE 10 */ }
 
 a:visited {
-  color: #008bf0; }
+  color: #2c3a8c; }
 
 b,
 strong {
@@ -505,6 +497,7 @@ sup {
   padding: .25em 1.25em;
   margin-top: auto;
   margin-bottom: 0;
+  border-radius: 5px;
   text-align: center; }
 
 .dark {
@@ -518,10 +511,10 @@ sup {
   border: solid #242943 1px; }
 
 .btn a {
-  color: #57b8ff; }
+  color: #5465ca; }
 
 .btn a:visited {
-  color: rgba(38, 36, 49, 0.5); }
+  color: #3a4aa5; }
 
 .btn:hover {
   background-color: #000001;
