@@ -104,8 +104,10 @@ xl, extra-large: 1920px or larger
   min-height: 100%; }
 
 /* Card components */
+
 .card-container {
-  display: grid; }
+  display: grid;
+}
 
 .card {
   justify-self: center;

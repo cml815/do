@@ -8,12 +8,19 @@
     color: $charcoal; 
   }
 
+/* Alignment */ 
+
 .flex-center {
     align-items: center;
     justify-content: center;
 }
 
 .center {
+    justify-self: center;
+    align-self: center;
+}
+
+.center > * {
     text-align: center;
 }
 
@@ -112,8 +119,6 @@
     justify-content: center;
     min-height: 100%;
 }
-
-
 
 /* Card components */
 
