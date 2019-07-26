@@ -31,8 +31,11 @@ xl, extra-large: 1920px or larger
   color: #424A51; }
 
 .flex-center {
-  align-iterms: center;
+  align-items: center;
   justify-content: center; }
+
+.center {
+  text-align: center; }
 
 .centered {
   max-width: 50%; }
