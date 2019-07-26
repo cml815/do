@@ -180,10 +180,6 @@ sup {
 
 }
 
-.btn > a {
-  color: white;
-}
-
 .btn.large p {
   font-size: 1.25em;
 }
@@ -192,12 +188,10 @@ sup {
   border-radius: 2.5em;
 }
 
-.btn a {
-  color: $link;
-}
-
-.btn a:visited {
-  color: $link-vis;
+.btn a, .btn a:visited  {
+  color: $black;
+  text-transform: uppercase;
+  font-weight: bold;
 }
 
 .btn:hover { 

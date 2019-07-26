@@ -30,11 +30,16 @@ xl, extra-large: 1920px or larger
   padding: .25em;
   color: #424A51; }
 
+/* Alignment */
 .flex-center {
   align-items: center;
   justify-content: center; }
 
 .center {
+  justify-self: center;
+  align-self: center; }
+
+.center > * {
   text-align: center; }
 
 .centered {
@@ -104,10 +109,8 @@ xl, extra-large: 1920px or larger
   min-height: 100%; }
 
 /* Card components */
-
 .card-container {
-  display: grid;
-}
+  display: grid; }
 
 .card {
   justify-self: center;
@@ -547,20 +550,16 @@ sup {
   font-size: 1.25;
   letter-spacing: .2px; }
 
-.btn > a {
-  color: white; }
-
 .btn.large p {
   font-size: 1.25em; }
 
 .rounded {
   border-radius: 2.5em; }
 
-.btn a {
-  color: #5465ca; }
-
-.btn a:visited {
-  color: #3a4aa5; }
+.btn a, .btn a:visited {
+  color: #131517;
+  text-transform: uppercase;
+  font-weight: bold; }
 
 .btn:hover {
   background-color: #6a1e31;
@@ -777,6 +776,7 @@ fieldset {
 /* Footer */
 footer {
   position: absolute;
+  height: 20vh;
   padding: 1rem;
   font-size: .875em;
   line-height: 1.15em; }
@@ -860,10 +860,7 @@ footer {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background: url("/images/stars.svg"); }
-
-.cta-container {
-  width: 80%; }
+  background: #f9973b; }
 
 /* Animate */
 @keyframes fade-in {
