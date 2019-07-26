@@ -374,13 +374,20 @@ animation: fade-in 1.4s;
 /* Work page */
 
 .services {
-  height: 100vh;
+  height: 100%;
   background-color: $bg-pale;
+}
 
+.services > article {
+  height: 75vh;
 }
 
 .work > ul > * {
   margin-bottom: 2em;
+}
+
+.work > main > article {
+  height: 75vh;
 }
 
 .label-row {

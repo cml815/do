@@ -96,6 +96,10 @@
       grid-gap: 0;
   }
 
+  .full-height {
+    height: 100vh;
+  }
+
   .pad {
       padding: 1em; 
   }
@@ -118,7 +122,6 @@
   }
     
   .card {
-    height: 100%;
     justify-self: center;
     align-self: center;
     overflow: hidden;
@@ -127,6 +130,10 @@
 
   .shadow {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); 
+  }
+
+  .work > article {
+    height: 100vh;
   }
 
   /* Portfolio / Projects Grid */
