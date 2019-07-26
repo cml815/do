@@ -371,7 +371,7 @@ animation: fade-in 1.4s;
   align-self: center;
 }
 
-/* Work (Services) page */
+/* Work page */
 
 .services {
   height: 100vh;
@@ -379,8 +379,12 @@ animation: fade-in 1.4s;
 
 }
 
-.work > .hero > * {
+.work > ul > * {
   margin-bottom: 2em;
+}
+
+.label-row {
+  margin-top: 2em;
 }
 
 /* Contact page */

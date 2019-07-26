@@ -942,13 +942,16 @@ footer {
   grid-row: 2 / span 1;
   align-self: center; }
 
-/* Work (Services) page */
+/* Work page */
 .services {
   height: 100vh;
   background-color: rgba(0, 0, 0, 0.08); }
 
-.work > .hero > * {
+.work > ul > * {
   margin-bottom: 2em; }
+
+.label-row {
+  margin-top: 2em; }
 
 /* Contact page */
 .contact {
