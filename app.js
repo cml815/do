@@ -44,7 +44,7 @@ var hbs = exphbs.create({
 });
 
 // Register Handlebars view engine
-app.engine('.hbs', exphbs({defaultLayout: 'layout', extname: '.hbs'}));
+app.engine('.hbs', exphbs({defaultLayout: 'default', extname: '.hbs'}));
 // Use Handlebars view engine
 app.set('view engine', '.hbs');
 
@@ -80,7 +80,7 @@ app.use(function(err, req, res, next) {
 
   // render the error page
   res.status(err.status || 500);
-  res.render('error');
+  res.render('error', {layout: 'error'});
 });
 
 module.exports = app;
