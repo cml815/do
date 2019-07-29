@@ -2,39 +2,17 @@
 <head>
   {{> head}}
 </head>
-<body>
-    <header class="">
-        {{> nav}}
-    </header>
-
-<!-- Data from projects.js -->
-    <div class="case-data">
-        <h2>{{title}}</h2>
-        <ul class="">
-            {{#each tag}}
-            <li>{{this}}</li>
-            {{/each}}
-        </ul> 
-    </div>
-  
-<!-- Main area -->
-    <main class="case-content">
-        {{{ body }}}
-
-    </main>
-
-<!--    <button class="go-back" onclick="goBack()">Previous</button> -->
-<!-- Footer 
- <footer class="grid__item grid__item--footer">
-        {{> footer}}
-    </footer>  -->
-    
-<!-- script>
-    function goBack() {
-    window.history.back();
-    }
-</script> -->
-
-    {{> footer}}
+<body class="{{ bodyClass }}">
+  <header id="menu" class="menu-wrap grid__item">
+    {{> nav }}
+  </header>
+  <main>
+      {{> hero}}
+      {{{ body }}}
+  </main>
+  <footer class="">
+    {{> footer }}
+    </footer>
+  <script src="./javascripts/main.js"></script>
 </body>
 </html>
