@@ -7,6 +7,11 @@
 
 /// SITE STYLES - move to base TODO  ///
 
+.projects, .error {
+  background-color: $night-lite;
+  color: white;
+}
+
 
 /* Hero */
 
@@ -165,56 +170,13 @@ footer {
 
 /// Page Styles ///
 
+
+
+
+
+
+
 // Home page //
-
-// Benefits section //
-
-.benefits {
-  height: 100vh;
-  /* background: url('../images/getty-place.jpg') no-repeat center; */
-  background-color: #efefef; 
-}
-
-.title-bar > h2 {
-  text-align: left;
-}
-
-.benefits > .grid-container {
-  align-items: center;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  /* grid-template-rows: repeat(2, 350px); */
-  grid-gap: 2em 1em;
-}
-
-.b1 {
-  grid-column: 1 / span 4;
-  grid-row: 1 / span 2;
-  align-self: left;
-}
-
-.b2 {
-  grid-column: 1 / span 1;
-  grid-row: 3 / span 1;
-  align-self: center;
-}
-
-.b3 {
-  grid-column: 2 / span 1;
-  grid-row: 3 / span 1;
-  align-self: center;
-}
-
-/* Projects pages */
-
-.title-container > h2 {
-  text-align: center;
-}
-
-.services > figcaption {
-  font-size: 1em;
-  line-height: 1.15em;
-
-}
 
 .feature {
   height: 80vh;

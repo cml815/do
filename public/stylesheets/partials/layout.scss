@@ -13,19 +13,36 @@
 .flex-center {
     align-items: center;
     justify-content: center;
+    align-self: center;
+}
+
+.flex-center {
+    width: 50%;
 }
 
 .center {
     justify-self: center;
-    align-self: center;
+    justify-content: center;
+    align-items: center;
 }
 
 .center > * {
     text-align: center;
+    align-self: center;
 }
 
 .centered {
     max-width: 50%
+}
+
+.fullscreen {
+    height: 100vh;
+}
+
+.halfscreen {
+    height: 50vh;
+
+
 }
 
 /// Headers ///

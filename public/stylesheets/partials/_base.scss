@@ -107,7 +107,7 @@ a {
 }
 
 a:visited {  
-  color: darken($link, 20%);
+  /* color: darken($link, 20%); todo */
 }
 
 b,
@@ -195,7 +195,7 @@ sup {
 }
 
 .btn:hover { 
-    background-color: darken($cherry, 20%);
+    background-color: lighten($cherry, 5%);
     transition: 400ms;
     transition-timing-function: ease-in-out; 
 }
