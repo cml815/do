@@ -9,8 +9,8 @@ router.get('/', function(req, res, next) {
 
 // Jeff Grant case study
 
-router.get('/jeff-grant-technology-influencer', function(req, res, next) {
-  res.render('jeff-grant-technology-influencer', { 
+router.get('/social-media-influencer', function(req, res, next) {
+  res.render('social-media-influencer', { 
     title: 'From Behind the Camera: From Videographer to YouTube Influencer',
     name: 'Jeff Grant',
     jobTitle: 'Videographer, YouTube Influencer',
@@ -22,7 +22,7 @@ router.get('/jeff-grant-technology-influencer', function(req, res, next) {
 });
 
 router.get('/press-campaign', function(req, res, next) {
-  res.render('pa-press-campaign', { 
+  res.render('press-campaign', { 
     title: 'Mass Shootings No More: PR Campaign to Move Pennsylvania Forward',
     name: 'David Scholnick',
     jobTitle: 'Videographer, YouTube Influencer',
