@@ -1,39 +1,36 @@
-<div id="" class="wrapper"></div> 
-    <header class="flexbox-container hero short">
-        <div class="text-container"></div>
-            <div class="case-data">
-                <h2>{{title}}</h2>
-                <h4>{{summary}}</h4>
-                <ul class="">
-                    {{#each tag}}
-                    <li>{{this}}</li>
-                    {{/each}}
-                </ul> 
-            </div>
+<section class="flexbox-container hero short">
+    <div class="case-data">
+        <h1>{{title}}</h1>
+        <h4>{{summary}}</h4>
+        <ul data-type="pr-tags">
+            {{#each tag}}
+            <li>{{this}}</li>
+            {{/each}}
+        </ul> 
     </div>
+    </div>
+</section>
+    <div class="row flexbox-container">
+        <div class="column">
+            <p>Jeff turned the camera on himself in 2009, launching JeffGrantMedia on YouTube. His channel evolved in sync YouTube community as well as his busy personal and professional life. During that era, pioneers of YouTube filmed skits, newsy segments, lifestyle tips or sketch comedy with their friends. </p>
+            <p>Over the past decade, Jeff has seen the YouTube streams outside Scanton, the city made famous by Michael Scott, Jim and Pam, and their fictional colleagues in The Office (US version).</p>
+            <p>YouTube influencers like Jeff have the attention of teens who imagine gaining notice what they love best: joking with friends, gaming or showing off their humor, style or special skill. </p>
         </div>
-    </header>
-        <div class="row flexbox-container">
-            <div class="column">
-                <p>Jeff turned the camera on himself in 2009, launching JeffGrantMedia on YouTube. His channel evolved in sync YouTube community as well as his busy personal and professional life. During that era, pioneers of YouTube filmed skits, newsy segments, lifestyle tips or sketch comedy with their friends. </p>
-                <p>Over the past decade, Jeff has seen the YouTube streams outside Scanton, the city made famous by Michael Scott, Jim and Pam, and their fictional colleagues in The Office (US version).</p>
-                <p>YouTube influencers like Jeff have the attention of teens who imagine gaining notice what they love best: joking with friends, gaming or showing off their humor, style or special skill. </p>
-            </div>
-            <figure class="column hero-image">
-                <!-- <img class=""src="../images/grant-red-shirt.jpg" alt= "Jeff Grant, videographer" / -->
-                <figcaption>Photo: RMM</figcaption>
-            </figure>
-        </div>
-           
-    
+        <figure class="column hero-image">
+            <!-- <img class=""src="../images/grant-red-shirt.jpg" alt= "Jeff Grant, videographer" / -->
+            <figcaption>Photo: RMM</figcaption>
+        </figure>
+    </div>
         
-    </div>
-    <figure>
-        <img src="../images/harrisburg.jpg" height="400px" width="600px" alt="Videographer Jeff Grant on location">
-        <figcaption>
-            <p>{{ caption }}</p>
-            <p>{{ credit }}</p>
-        </figcaption>
-    </figure>
+
+    
 </div>
+<figure>
+    <img src="../images/harrisburg.jpg" height="400px" width="600px" alt="Videographer Jeff Grant on location">
+    <figcaption>
+        <p>{{ caption }}</p>
+        <p>{{ credit }}</p>
+    </figcaption>
+</figure>
+
 
