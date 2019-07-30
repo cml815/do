@@ -11,7 +11,8 @@ router.get('/', function(req, res, next) {
 
 router.get('/social-media-influencer', function(req, res, next) {
   res.render('social-media-influencer', { 
-    title: 'From Behind the Camera: From Videographer to YouTube Influencer',
+    title: 'Mighty Influencers',
+    summary: 'YouTube influencer talks about finding an audience and sponsors',
     name: 'Jeff Grant',
     jobTitle: 'Videographer, YouTube Influencer',
     caption: 'Jeff Grant on location for a video shoot',
@@ -23,7 +24,8 @@ router.get('/social-media-influencer', function(req, res, next) {
 
 router.get('/press-campaign', function(req, res, next) {
   res.render('press-campaign', { 
-    title: 'Mass Shootings No More: PR Campaign to Move Pennsylvania Forward',
+    title: 'Mass Shootings, No More',
+    summary: 'How a citizens group organized the largest gun violence prevention rally ever in Pennsylvania and was catapulted to the national stage. ',
     name: 'David Scholnick',
     jobTitle: 'Videographer, YouTube Influencer',
     caption: 'Jeff Grant on location for a video shoot',
