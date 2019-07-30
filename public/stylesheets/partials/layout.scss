@@ -11,12 +11,12 @@
 /* Alignment */ 
 
 .flex-center {
+    display: flex;
     align-items: center;
     justify-content: center;
-    align-self: center;
 }
 
-.flex-center {
+.flex-item-center {
     width: 50%;
 }
 
@@ -101,6 +101,10 @@
     max-width: 100%;
 }
 
+.flex-spaced-b {
+    justify-content: space-between;
+}
+
 .grid-container-fluid {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
@@ -176,3 +180,4 @@
     text-align: right;
   }
   
+

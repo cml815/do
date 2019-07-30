@@ -13,6 +13,7 @@
 /* not in use */
 /* Coolors Exported Palette - coolors.co/3a4aa5-57b8ff-485254-f9973b-ff5947 */
 /* RGB */
+/* work category color scheme */
 /* Typography */
 /* max-width */
 /* 
@@ -32,11 +33,11 @@ xl, extra-large: 1920px or larger
 
 /* Alignment */
 .flex-center {
+  display: flex;
   align-items: center;
-  justify-content: center;
-  align-self: center; }
+  justify-content: center; }
 
-.flex-center {
+.flex-item-center {
   width: 50%; }
 
 .center {
@@ -90,6 +91,9 @@ xl, extra-large: 1920px or larger
   align-items: center;
   justify-content: center;
   max-width: 100%; }
+
+.flex-spaced-b {
+  justify-content: space-between; }
 
 .grid-container-fluid {
   display: grid;
@@ -551,19 +555,14 @@ sup {
   padding: .25em 1.25em;
   margin-top: .5em;
   margin-bottom: .5em;
-  border-radius: 5px;
-  text-align: center;
-  background-color: #f15c82; }
+  text-align: center; }
+
+.outline {
+  border: solid 2px #242943;
+  background-color: transparent; }
 
 .btn.large {
   padding: .75em 1.5em; }
-
-.btn p {
-  font-size: 1.25;
-  letter-spacing: .2px; }
-
-.btn.large p {
-  font-size: 1.25em; }
 
 .rounded {
   border-radius: 2.5em; }
@@ -673,9 +672,22 @@ fieldset {
 .toggle-content.is-visible {
   display: block; }
 
-.projects, .error {
-  background-color: #2a2f4a;
-  color: white; }
+.projects {
+  background-color: transparent; }
+
+figure.card {
+  height: 60vh; }
+
+figure.card:first-child {
+  background-color: #3a4aa5;
+  /* background: lightblue url("../images/grant-sit-camera.jpg") no-repeat fixed center; */ }
+
+figure.card:nth-child(2n) {
+  background-color: #ba3455;
+  /* background: lightblue url("../images/grant-sit-camera.jpg") no-repeat fixed center; */ }
+
+.error {
+  background-color: yellow; }
 
 /* Hero */
 .hero {
@@ -685,6 +697,10 @@ fieldset {
 
 .hero > .text-container {
   padding: 0 1em; }
+
+.hero.short {
+  height: 50vh;
+  background-color: yellow; }
 
 .cta > p {
   font-size: .875em;
@@ -713,7 +729,7 @@ fieldset {
   /* margin btw lines */ }
 
 .highlight {
-  background: linear-gradient(180deg, rgba(255, 255, 255, 0) 50%, #5972c1 50%); }
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0) 50%, #899bd6 50%); }
 
 .fine-print {
   text-transform: uppercase;
@@ -825,6 +841,9 @@ footer {
   grid-row: 1 / span 1;
   padding: 1em; }
 
+.feature-text > * {
+  margin-bottom: 1em; }
+
 .feature-img {
   grid-column: 2 / span 1;
   grid-row: 1 / span 2;
@@ -839,7 +858,7 @@ footer {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background: #f9973b; }
+  background: rgba(249, 151, 59, 0.5); }
 
 /* Animate */
 @keyframes fade-in {
@@ -922,6 +941,7 @@ footer {
 /* Work page */
 .services {
   height: 100%;
+  padding: 0 1em;
   background-color: rgba(0, 0, 0, 0.08); }
 
 .services > article {
@@ -936,6 +956,19 @@ footer {
 .label-row {
   margin-top: 2em; }
 
+.label-row li {
+  padding: 2em; }
+
+.lead {
+  background-color: #f9973b; }
+
+.fund {
+  background-color: #ff5947; }
+
+.grow {
+  background-color: #1bcbce; }
+
+/* Case stories */
 /* Contact page */
 .contact {
   margin-bottom: 2em; }
@@ -1010,5 +1043,11 @@ button {
 
 /* flicker https://codepen.io/mandymichael/pen/aJLYVz */
 /* prefers-reduced-motion */
+/* 404 Error Page */
+.wrap-error-text {
+  height: 75vh; }
+
+.wrap-error-text p {
+  font-size: 1.25em; }
 
 /*# sourceMappingURL=style.css.map */

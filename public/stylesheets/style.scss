@@ -7,11 +7,27 @@
 
 /// SITE STYLES - move to base TODO  ///
 
-.projects, .error {
-  background-color: $night-lite;
-  color: white;
+.projects {
+  background-color: transparent;
 }
 
+figure.card {
+  height: 60vh;
+}
+
+figure.card:first-child {
+  background-color: $indigo;
+  /* background: lightblue url("../images/grant-sit-camera.jpg") no-repeat fixed center; */ 
+}
+
+figure.card:nth-child(2n) {
+  background-color: $cherry;
+  /* background: lightblue url("../images/grant-sit-camera.jpg") no-repeat fixed center; */ 
+}
+
+.error {
+  background-color: yellow;
+}
 
 /* Hero */
 
@@ -23,6 +39,11 @@
 
 .hero > .text-container {
   padding: 0 1em;
+}
+
+.hero.short {
+  height: 50vh;
+  background-color: yellow;
 }
 
 .cta > p {
@@ -199,6 +220,11 @@ footer {
   padding: 1em;
 }
 
+.feature-text > * {
+  margin-bottom: 1em;
+}
+
+
 .feature-img {
   grid-column: 2 / span 1;
   grid-row: 1 / span 2;
@@ -214,7 +240,7 @@ footer {
   flex-direction: column; 
   align-items: center;
   justify-content: center;
-  background: $orange; 
+  background: $bg-orange; 
 }
 
 /* Animate */
@@ -320,6 +346,7 @@ animation: fade-in 1.4s;
 
 .services {
   height: 100%;
+  padding: 0 1em; 
   background-color: $bg-pale;
 }
 
@@ -338,6 +365,24 @@ animation: fade-in 1.4s;
 .label-row {
   margin-top: 2em;
 }
+
+.label-row li {
+  padding: 2em;
+}
+
+.lead {
+  background-color: $lead;
+}
+
+.fund {
+  background-color: $fund;
+}
+
+.grow {
+  background-color: $grow;
+}
+
+/* Case stories */
 
 /* Contact page */
 
@@ -434,3 +479,14 @@ button {
 /* flicker https://codepen.io/mandymichael/pen/aJLYVz */
 
 /* prefers-reduced-motion */
+
+/* 404 Error Page */
+
+
+.wrap-error-text {
+  height: 75vh;  
+}
+
+.wrap-error-text p {
+  font-size: 1.25em;
+}

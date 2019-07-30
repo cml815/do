@@ -4,7 +4,7 @@ var router = express.Router();
 /* Project's Page */
 
 router.get('/', function(req, res, next) {
-  res.render('projects', { title: 'Case studies of marketing and fundraising success', shortTitle: 'Success stories', description: 'Lessons from our client success stories', layout: 'default' });
+  res.render('projects', { title: 'Case studies of marketing and fundraising success', bodyClass: 'projects', shortTitle: 'Success stories', description: 'Lessons from our client success stories', layout: 'default' });
 });
 
 // Jeff Grant case study
@@ -16,9 +16,7 @@ router.get('/jeff-grant-technology-influencer', function(req, res, next) {
     jobTitle: 'Videographer, YouTube Influencer',
     caption: 'Jeff Grant on location for a video shoot',
     credit: 'RMM (get info)',
-    tag1: 'social media',
-    tag2: 'influencer marketing',
-    tag3: 'video',
+    tag: ['social media','influencer marketing','video'],
     layout: 'case' 
   });
 });

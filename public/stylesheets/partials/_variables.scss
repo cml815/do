@@ -10,12 +10,14 @@ $link-vis: rgba(58, 74, 165, 1); /* indigo */
 $link: rgb(84, 101, 202); /* indigo lite */
 $bg-pale: rgba(0,0,0,0.08);
 
-$highlight: linear-gradient(180deg,rgba(255,255,255,0) 50%, #5972c1 50%);
+$highlight: linear-gradient(180deg,rgba(255,255,255,0) 50%, rgb(137, 155, 214) 50%);
+$bg-orange: rgba(249, 151, 59, .5);
+
 
 /* test primary color palette */
 
 $cherry: rgb(186, 52, 85);
-$cherry-lt: rgb(241, 92, 130);
+$cherry-lt: rgba(241, 92, 130, .5);
 $grape: #32293b;
 $red: rgba(255, 89, 71, 1);
 $logo: #eb5b5f;
@@ -42,6 +44,12 @@ $slate: rgba(72, 82, 84, 1);
 $indigo: rgba(58, 74, 165, 1);
 $orange: rgba(249, 151, 59, 1);
 $red: rgba(255, 89, 71, 1);
+
+/* work category color scheme */
+
+$lead: rgba(249, 151, 59, 1); 
+$fund: rgba(255, 89, 71, 1); 
+$grow: rgba(27, 203, 206, 1); 
 
 /* Typography */
 

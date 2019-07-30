@@ -165,23 +165,16 @@ sup {
     padding: .25em 1.25em;
     margin-top: .5em;
     margin-bottom: .5em;
-    border-radius: 5px;
     text-align: center;
-    background-color: $cherry-lt;
+}
+
+.outline {
+  border: solid 2px $night;
+  background-color: transparent;
 }
 
 .btn.large {
   padding: .75em 1.5em;
-}
-
-.btn p {
-  font-size: 1.25;
-  letter-spacing: .2px;
-
-}
-
-.btn.large p {
-  font-size: 1.25em;
 }
 
 .rounded {
