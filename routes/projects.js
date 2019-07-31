@@ -28,11 +28,9 @@ router.get('/press-campaign', function(req, res, next) {
     summary: 'How a citizens group organized the largest gun violence prevention rally ever in Pennsylvania and was catapulted to the national stage. ',
     name: 'David Scholnick',
     jobTitle: 'Videographer, YouTube Influencer',
-    caption: 'Jeff Grant on location for a video shoot',
+    caption: '',
     credit: 'RMM (get info)',
-    tag1: 'comms strategy',
-    tag2: 'public relations',
-    tag3: '',
+    tag: ['strategy', 'public relations', 'earned media'],
     layout: 'case' 
   });
 });
