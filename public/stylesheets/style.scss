@@ -39,8 +39,18 @@ figure.card:nth-child(2n) {
   align-items: center;
 }
 
+.hero {
+  display: flex;
+  margin: 0;
+  background-size: cover;
+  background: skyblue url("../images/grant-red-crop.jpg") no-repeat center right fixed;
+  /* background-size: cover; */
+}
+
+
 .hero > .text-container {
   padding: 0 1em;
+  width: 50%;
 }
 
 .hero.short {

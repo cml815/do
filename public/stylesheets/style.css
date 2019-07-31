@@ -419,14 +419,6 @@ header, main {
 .narrative {
   width: 50%; }
 
-.hero-image {
-  margin: 0;
-  background-position: center;
-  background-size: cover;
-  background-image: url(/images/grant-red-shirt.jpg);
-  width: 33%;
-  height: 70vh; }
-
 @media (max-width: 768px) {
   .mobile-hide {
     display: none; } }
@@ -711,8 +703,16 @@ figure.card:nth-child(2n) {
   display: grid;
   align-items: center; }
 
+.hero {
+  display: flex;
+  margin: 0;
+  background-size: cover;
+  background: skyblue url("../images/grant-red-crop.jpg") no-repeat center right fixed;
+  /* background-size: cover; */ }
+
 .hero > .text-container {
-  padding: 0 1em; }
+  padding: 0 1em;
+  width: 50%; }
 
 .hero.short {
   height: 75vh;
