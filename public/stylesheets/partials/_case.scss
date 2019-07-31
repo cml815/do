@@ -123,6 +123,30 @@ header, main {
   grid-row: 4 / 5;  
 }
 
+/// Case Studies ///
+
+.case-header > * {
+  margin-bottom: 2em;
+}
+.case-header h1 {
+  text-align: center;
+}
+
+.case-header ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.case-header li {
+  margin-right: 1em;
+  padding: 25em;
+  border: solid 1px $charcoal;
+}
+
+.case-header > li
+
+
 
 /* Page template styles */
 
@@ -154,9 +178,6 @@ header, main {
   height: 70vh; 
 }
 
-.col-2 {
-
-}
 
 
 

@@ -387,8 +387,23 @@ header, main {
   grid-column: 1 / 5;
   grid-row: 4 / 5; }
 
-/* Page template styles */
-/* Jeff Grant, Influencer */
+.case-header > * {
+  margin-bottom: 2em; }
+
+.case-header h1 {
+  text-align: center; }
+
+.case-header ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: center; }
+
+.case-header li {
+  margin-right: 1em;
+  padding: 25em;
+  border: solid 1px #424A51; }
+
+.case-header > li
 .row {
   display: flex;
   flex-direction: row;

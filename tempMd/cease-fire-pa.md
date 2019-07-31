@@ -25,6 +25,6 @@ In addition to submitting a series of op-eds, Dave suggested targeting local med
 
 The strategy worked both conceptually and practically. It spotlighted a set of hometown stories that wouldn’t compete against the big event. Pennsylvanians witnessed dramatic reports on television and radio in the state’s three biggest media markets. Readers woke up to stories in major metropolitan daily papers and small town weeklies across the state. One suburban reporter boarded the bus and rode with activists to the rally for a cover story on the trip.
 
-“Dave recognized our needs and helped us develop a plan that maximized our media coverage,” Shira said. “His strategic writing and thinking amplified our voice and extended our reach. It moved our agenda forward.”</p>
+“Dave recognized our needs and helped us develop a plan that maximized our media coverage,” Shira said. “His strategic writing and thinking amplified our voice and extended our reach. It moved our agenda forward.”
 
 
