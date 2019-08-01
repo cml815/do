@@ -688,14 +688,27 @@ fieldset {
 .projects figure {
   height: 50vh; }
 
-.projects figure:first-child {
-  background-color: #f789a4; }
+/* 
+.projects .panel-img:first-child {
+  background-color: $charcoal;
+}
 
 .projects figure:nth-child(2n) {
-  background-color: #79739b; }
+  background-color: $eggplant-lt;
+}
 
-.projects figure:nth-child(2n + 1) {
-  background-color: #929fe9; }
+*/
+.panel {
+  display: flex;
+  align-items: center;
+  /* center container */
+  justify-content: center; }
+
+.panel > * {
+  max-width: 50%; }
+
+.panel h4 {
+  margin-bottom: 1em; }
 
 .fullscreen > * {
   margin-bottom: 2em; }
@@ -710,6 +723,9 @@ figure.card:first-child {
 figure.card:nth-child(2) {
   background-color: #424A51;
   /* background: lightblue url("../images/grant-sit-camera.jpg") no-repeat fixed center; */ }
+
+.panel-left {
+  padding-left: 2; }
 
 .error {
   background-color: yellow; }
