@@ -105,7 +105,7 @@ xl, extra-large: 1920px or larger
   display: grid; }
 
 .full-col {
-  grid-template-columns: repeat(auto-fill, minmax(900px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
   grid-gap: 0; }
 
 .full-height {
@@ -691,14 +691,14 @@ fieldset {
   background-color: transparent; }
 
 figure.card {
-  height: 50vh; }
+  height: 60vh; }
 
 figure.card:first-child {
-  background-color: transparent;
+  background-color: #070E16;
   /* background: lightblue url("../images/grant-sit-camera.jpg") no-repeat fixed center; */ }
 
-figure.card:nth-child(2n) {
-  background-color: #efefef;
+figure.card:nth-child(2) {
+  background-color: rgba(255, 69, 0, 0.8);
   /* background: lightblue url("../images/grant-sit-camera.jpg") no-repeat fixed center; */ }
 
 .error {
