@@ -104,10 +104,8 @@ xl, extra-large: 1920px or larger
 .grid-container {
   display: grid; }
 
-.fluid {
-  grid-template-columns: repeat(auto-fill, minmax(400px, 1fr)); }
-
-.full {
+.full-col {
+  grid-template-columns: repeat(auto-fill, minmax(900px, 1fr));
   grid-gap: 0; }
 
 .full-height {
