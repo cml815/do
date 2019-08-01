@@ -2,7 +2,7 @@
 
 How do some become Internet famous? 
 
-In the social media universe, influencers are stars, almost on par with Hollywood celebrities. With the right approach, companies can connect with YouTubers and their thousands of fans. 
+In the social media universe, influencers are stars, almost on par with Hollywood celebrities. How do companies connect with people with thousands of fans. 
 
 Fuel teams with talented influencers who offer insight, expertise and a following to share important messages. 
 
