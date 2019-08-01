@@ -8,6 +8,12 @@ color: white;
 line-height: 1.25em;
 }
 
+.text-block {
+  background-color: $pool;
+  color: white;
+  line-height: 1.25em;
+  }
+
 .text-block p, .main-content p {
   font-family: $serif;
   font-size: 1.25em;

@@ -309,6 +309,11 @@ nav li:hover {
   color: white;
   line-height: 1.25em; }
 
+.text-block {
+  background-color: #57b8ff;
+  color: white;
+  line-height: 1.25em; }
+
 .text-block p, .main-content p {
   font-family: "Merriweather", serif;
   font-size: 1.25em;
