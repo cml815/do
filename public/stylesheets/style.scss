@@ -14,16 +14,16 @@
 }
 
 figure.card {
-  height: 60vh;
+  height: 50vh;
 }
 
 figure.card:first-child {
-  background-color: $indigo;
+  background-color: transparent;
   /* background: lightblue url("../images/grant-sit-camera.jpg") no-repeat fixed center; */ 
 }
 
 figure.card:nth-child(2n) {
-  background-color: $cherry;
+  background-color: #efefef;
   /* background: lightblue url("../images/grant-sit-camera.jpg") no-repeat fixed center; */ 
 }
 
@@ -340,7 +340,6 @@ animation: fade-in 1.4s;
 .services {
   height: 100%;
   padding: 0 1em; 
-  background-color: $bg-pale;
 }
 
 .services > article {
