@@ -107,7 +107,7 @@
 
 .grid-container-fluid {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
     grid-gap: 1em;
     padding: 1em; 
   }
@@ -117,7 +117,7 @@
   } 
   
   .fluid {
-    grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
   }
   
   .full {
