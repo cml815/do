@@ -8,5 +8,5 @@ Buttons
 
 Fix Flex - alignments - margins
 
-Nav problem in case
+Nav problem in case - nav error only on cases
 

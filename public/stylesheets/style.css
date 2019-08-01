@@ -303,67 +303,31 @@ nav li:hover {
 .hamburger {
   font-size: 1.2em; }
 
-.samples {
-  padding: 1em; }
-
-.samples__container {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
-  /* grid-template-rows: repeat(2, minmax(400px, 1fr)); */
-  grid-gap: 1rem;
-  grid-auto-flow: dense; }
-
-.samples > ul > li {
-  border: 1px solid #E2E2E2;
-  border-radius: .5rem; }
-
-.samples > figure {
-  max-height: 350px;
-  overflow: hidden;
-  border-top-left-radius: .5rem;
-  border-top-right-radius: .5rem;
-  position: relative; }
-
-.samples > figcaption {
-  position: absolute;
-  bottom: 0;
-  background-color: rgba(0, 0, 0, 0.7);
-  width: 100%; }
-
-figure img {
-  object-fit: cover;
-  max-width: 100%; }
-
 /* Case study page layout  */
-header, main {
-  padding: 0; }
+.text-block {
+  background-color: black;
+  color: white;
+  line-height: 1.25em; }
 
-.grid__container--page {
-  display: grid;
-  min-height: 100%;
-  height: 100vh;
-  grid-template-columns: 1fr 1fr 1fr .25fr;
-  grid-template-rows: auto;
-  grid-template-areas: "header header header header" "main main main main" "main main main main" "main main main main" "footer footer footer footer"; }
+.text-block p, .main-content p {
+  font-family: "Merriweather", serif;
+  font-size: 1.25em;
+  font-weight: bolder;
+  padding: 1em 2em; }
 
-.grid__item {
-  display: grid; }
+.case-study .headline {
+  height: 33vh; }
 
-.grid__item--header {
-  grid-area: header;
-  grid-column: 1 / 5;
-  grid-row: 1 / 2; }
+.headline span {
+  font-weight: bold;
+  font-size: 1.4em;
+  color: #f77a99; }
 
-.container__flex {
-  display: flex; }
+.main-content {
+  padding: 1em 2em; }
 
-.container__flex--column {
-  display: flex;
-  flex-direction: column; }
-
-.data__primary {
-  justify-content: space-between;
-  background-color: white; }
+.main-content p {
+  margin-bottom: 2em; }
 
 .tag-list li {
   display: inline;
@@ -735,10 +699,7 @@ figure.card:nth-child(2) {
   height: 100vh;
   display: flex;
   align-items: center;
-  justify-content: center; }
-
-.hero {
-  display: flex;
+  justify-content: center;
   background-size: cover; }
 
 body.home .hero {
@@ -747,11 +708,6 @@ body.home .hero {
 .hero > .text-container {
   padding: 0 1em;
   width: 50%; }
-
-.home > .hero {
-  display: flex;
-  flex-direction: row;
-  height: 100vh; }
 
 @media screen and (max-width: 599px) {
   .hero {
