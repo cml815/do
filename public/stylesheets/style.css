@@ -698,7 +698,7 @@ figure.card:first-child {
   /* background: lightblue url("../images/grant-sit-camera.jpg") no-repeat fixed center; */ }
 
 figure.card:nth-child(2) {
-  background-color: rgba(255, 69, 0, 0.8);
+  background-color: #424A51;
   /* background: lightblue url("../images/grant-sit-camera.jpg") no-repeat fixed center; */ }
 
 .error {
