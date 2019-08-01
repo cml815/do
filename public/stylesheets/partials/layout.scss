@@ -67,7 +67,7 @@
         "footer";
 }
 
-@media (min-width: 500px) {
+@media (min-width: 599px) {
     .grid-wrapper {
       grid-template-columns: 1fr 1fr;
       grid-template-areas: 
@@ -111,20 +111,13 @@
     grid-gap: 1em;
     padding: 1em; 
   }
-
-  .grid-container {
-      display: grid;
-  } 
   
-  .full-col {
-    grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+  .fullscreen {
+    grid-template-columns: 1fr;
     grid-gap: 0;
-  }
-  
-  .full-height {
     height: 100vh;
   }
-
+  
   .pad {
       padding: 1em; 
   }
@@ -138,7 +131,7 @@
     min-height: 100%;
 }
 
-/* Card components */
+/* Container components */
 
 .card-container {
     display: grid;

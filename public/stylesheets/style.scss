@@ -7,10 +7,29 @@
 
 /// SITE STYLES - move to base TODO  ///
 
-/* Data styles */
+/* Projects pages */
 
 .projects {
   background-color: transparent;
+}
+
+.projects figure {
+  height: 50vh;
+}
+.projects figure:first-child {
+  background-color: $cherry-lt;
+}
+
+.projects figure:nth-child(2n) {
+  background-color: $eggplant-lt;
+}
+
+.projects figure:nth-child(2n + 1) {
+  background-color: $indigo-lt;
+}
+
+.fullscreen > * {
+  margin-bottom: 2em;
 }
 
 figure.card {
@@ -67,7 +86,6 @@ body.home .hero {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    color: white;
   }
     .hero > * {
       margin-left: 1em;
