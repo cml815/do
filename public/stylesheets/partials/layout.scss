@@ -180,4 +180,14 @@
     text-align: right;
   }
   
-
+  .highlight {
+    background: $highlight;
+  }
+  
+  .fine-print {
+    text-transform: uppercase;
+    font-size: .875em;
+    font-weight: bold;
+    letter-spacing: 1px;
+  }
+  
