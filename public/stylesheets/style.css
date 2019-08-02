@@ -109,6 +109,35 @@ xl, extra-large: 1920px or larger
 .pad {
   padding: 1em; }
 
+.two-x-2 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-gap: 0;
+  justify-content: center;
+  min-height: 100%; }
+
+.icon-container li {
+  padding: 1em;
+  color: white; }
+
+.icon-container li:first-child {
+  background-color: #1bcbce; }
+
+.icon-container li:nth-child(2) {
+  background-color: #3a4aa5; }
+
+.icon-container li:nth-child(3) {
+  background-color: #f77a99; }
+
+.icon-container li:nth-child(3) {
+  background-color: #929fe9;
+  color: black; }
+
+.icon-container li:nth-child(4) {
+  background-color: orange;
+  color: black; }
+
 .grid__page--12x12 {
   display: grid;
   grid-template-columns: repeat(12, 1fr);
