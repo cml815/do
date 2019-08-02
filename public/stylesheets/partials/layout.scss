@@ -111,7 +111,15 @@
     grid-gap: 1em;
     padding: 1em; 
   }
-  
+
+.fluid-small {
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+}
+
+.no-gap {
+    grid-gap: 0;
+}
+
   .fullscreen {
     grid-template-columns: 1fr;
     grid-gap: 0;
@@ -140,7 +148,7 @@
     background-color: $aqua;
 }
 
-.icon-container li:nth-child(2) {
+.icon-container li:nth-child(2n) {
     background-color: $indigo;
 }
 
@@ -148,7 +156,7 @@
     background-color: $cherry;
 }
 
-.icon-container li:nth-child(3) {
+.icon-container li:nth-child(5) {
     background-color: $indigo-lt;
     color: black;
 }

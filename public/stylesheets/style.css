@@ -101,6 +101,12 @@ xl, extra-large: 1920px or larger
   grid-gap: 1em;
   padding: 1em; }
 
+.fluid-small {
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); }
+
+.no-gap {
+  grid-gap: 0; }
+
 .fullscreen {
   grid-template-columns: 1fr;
   grid-gap: 0;
@@ -124,13 +130,13 @@ xl, extra-large: 1920px or larger
 .icon-container li:first-child {
   background-color: #1bcbce; }
 
-.icon-container li:nth-child(2) {
+.icon-container li:nth-child(2n) {
   background-color: #3a4aa5; }
 
 .icon-container li:nth-child(3) {
   background-color: #f77a99; }
 
-.icon-container li:nth-child(3) {
+.icon-container li:nth-child(5) {
   background-color: #929fe9;
   color: black; }
 
