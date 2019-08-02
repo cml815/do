@@ -7,7 +7,7 @@ router.get('/', function(req, res, next) {
   res.render('projects', { title: 'Case studies of marketing and fundraising success', bodyClass: 'projects', shortTitle: 'Success stories', description: 'Lessons from our client success stories', layout: 'default' });
 });
 
-// Jeff Grant case study
+// Social media influencer case study route
 
 router.get('/social-media-influencer', function(req, res, next) {
   res.render('social-media-influencer', { 
@@ -22,6 +22,8 @@ router.get('/social-media-influencer', function(req, res, next) {
   });
 });
 
+// PR case study route
+
 router.get('/press-campaign', function(req, res, next) {
   res.render('press-campaign', { 
     title: 'Mass Shootings, No More',
@@ -35,6 +37,8 @@ router.get('/press-campaign', function(req, res, next) {
   });
 });
 
+// Interviews case study route
+
 router.get('/founder-stories', function(req, res, next) {
   res.render('founder-stories', { 
     title: 'Founder stories on risk, reward and travel',
@@ -47,6 +51,53 @@ router.get('/founder-stories', function(req, res, next) {
     layout: 'case' 
   });
 });
+
+// Grants route
+
+router.get('/sbir-grants', function(req, res, next) {
+  res.render('sbir-grants', { 
+    title: 'Growth without dilution: Small business innovation research grants',
+    summary: 'How Fuel helped tech and biotech companies win funding to bring their innovations to market',
+    name: 'null',
+    jobTitle: 'null',
+    caption: 'null',
+    credit: 'null',
+    tag: ['grants', 'sbir', 'biotech'],
+    layout: 'case' 
+  });
+});
+
+// Authority blogging - thought eadership case study
+
+router.get('/thought-leadership', function(req, res, next) {
+  res.render('thought-leadership', { 
+    title: 'Healthcare content readers can trust',
+    summary: 'Growth without dilution: Small business innovation research grants',
+    name: 'null',
+    jobTitle: 'null',
+    caption: 'null',
+    credit: 'null',
+    tag: ['thought leadership', 'magazine style', 'authority'],
+    layout: 'case' 
+  });
+});
+
+// Web design case study route
+
+router.get('/web-design', function(req, res, next) {
+  res.render('web-design', { 
+    title: 'Usable, useful websites',
+    summary: 'Web design to introduce new companies to discerning audiences',
+    name: 'null',
+    jobTitle: 'null',
+    caption: 'null',
+    credit: 'null',
+    tag: ['web design', 'prototyping', 'UI/UX'],
+    layout: 'case' 
+  });
+});
+
+
 
 /* CeasefirePA case study - Credit: David Scholnick
 
