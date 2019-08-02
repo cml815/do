@@ -430,7 +430,7 @@ nav li:hover {
     display: none; } }
 
 @media only screen and (max-width: 599px) {
-  section, figure {
+  section, figure, .flex-container {
     flex-direction: column; } }
 
 /* Temp margin fix - todo delete */
@@ -1042,7 +1042,8 @@ footer {
   padding: 0 1em; }
 
 .services > article {
-  height: 75vh; }
+  height: 75vh;
+  background: url("./images/laptop.jpg") no-repeat center; }
 
 .card-wrap > * {
   margin-bottom: 2em; }

@@ -19,10 +19,13 @@ router.get('/tester', function(req, res) {
       random_num: Math.round(Math.random() * 10)
   });
 });
- 
+
+/* 
 router.get('/work', function(req, res, next) {
   res.render('work', { title: 'Marketing and Fundraising Services | Fuel Copy', description: 'Fuel growth with websites, content, SEO and grant proposals', shortTitle: "What we offer", bodyClass: 'work'});
 });
+
+*/
 
 
 router.get('/about', function(req, res, next) {

@@ -5,8 +5,8 @@ router.get('/', function(req, res, next) {
   res.render('work', { title: 'Services | Fuel Copy', bodyClass: 'projects', shortTitle: 'Success stories', description: 'Lessons from our client success stories', layout: 'default' });
 });
 
-router.get('/growth-marketing', function(req, res, next) {
-  res.render('growth-marketing', { 
+router.get('/growth-marketing-services', function(req, res, next) {
+  res.render('growth-marketing-services', { 
     title: 'Digital Marketing',
     summary: '',
     name: '',
@@ -16,7 +16,7 @@ router.get('/growth-marketing', function(req, res, next) {
 });
 
 router.get('/media-relations', function(req, res, next) {
-  res.render('press-campaign', { 
+  res.render('media-relations', { 
     title: 'Mass Shootings, No More',
     summary: '',
     tag: ['strategy', 'public relations', 'earned media'],
@@ -26,8 +26,8 @@ router.get('/media-relations', function(req, res, next) {
 
 // Interviews case study route
 
-router.get('/lead-generation', function(req, res, next) {
-  res.render('founder-stories', { 
+router.get('/lead-generation-services', function(req, res, next) {
+  res.render('lead-generation-services', { 
     title: 'Founder stories on risk, reward and travel',
     summary: 'Fuel interviewed dozens of entrepreneurs on how to make a mark in the travel world',
     name: 'null',
@@ -35,14 +35,14 @@ router.get('/lead-generation', function(req, res, next) {
     caption: 'null',
     credit: 'null',
     tag: ['content marketing', 'thought leadership', 'seo'],
-    layout: 'case' 
+    layout: 'default' 
   });
 });
 
 // Grants route
 
-router.get('/grants', function(req, res, next) {
-  res.render('sbir-grants', { 
+router.get('/grant-services', function(req, res, next) {
+  res.render('grant-services', { 
     title: 'Win grant awards with federal and SBIR grant proposals',
     summary: 'How Fuel helped tech and biotech companies win funding to bring their innovations to market',
     name: 'null',
@@ -50,11 +50,11 @@ router.get('/grants', function(req, res, next) {
     caption: 'null',
     credit: 'null',
     tag: ['grants', 'sbir', 'biotech'],
-    layout: 'case' 
+    layout: 'default' 
   });
 });
 
-// Authority blogging - thought eadership case study
+/* Authority blogging - thought eadership case study
 
 router.get('/thought-leadership', function(req, res, next) {
   res.render('thought-leadership', { 
@@ -69,7 +69,9 @@ router.get('/thought-leadership', function(req, res, next) {
   });
 });
 
-// Web design case study route
+*/
+
+/* Web design case study route
 
 router.get('/web-design', function(req, res, next) {
   res.render('web-design', { 
@@ -83,6 +85,8 @@ router.get('/web-design', function(req, res, next) {
     layout: 'case' 
   });
 });
+
+*/
 
 
 
