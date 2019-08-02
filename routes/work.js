@@ -1,14 +1,6 @@
 var express = require('express');
 var router = express.Router();
 
-/* Services routes */
-
-/* 
-router.get('/work', function(req, res, next) {
-  res.render('work', { title: 'Marketing and Fundraising Services | Fuel Copy', description: 'Fuel growth with websites, content, SEO and grant proposals', shortTitle: "What we offer", bodyClass: 'work'});
-});
-*/
-
 router.get('/', function(req, res, next) {
   res.render('work', { title: 'Services | Fuel Copy', bodyClass: 'projects', shortTitle: 'Success stories', description: 'Lessons from our client success stories', layout: 'default' });
 });
