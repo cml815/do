@@ -48,7 +48,7 @@
 }
 
 figure.card {
-  height: 60vh;
+  height: 50vh;
 }
 
 figure.card:first-child {
@@ -96,6 +96,12 @@ figure.card:nth-child(2) {
       1px 1px 0 #000;
 }
 
+div#myDiv {
+  -ms-transform: skewY(20deg); /* IE 9 */
+  -webkit-transform: skewY(20deg); /* Safari prior 9.0 */
+  transform: skewY(20deg); /* Standard syntax */
+}
+
 body.home .hero {
     /* background: skyblue url("../images/grant-red-crop.jpg") no-repeat center right fixed; */
 }
@@ -104,18 +110,6 @@ body.home .hero {
   height: 100%;
   width: 100%;
   margin-top: 80px;
-}
-
-.skew {
-  -ms-transform: skewY(20deg); /* IE 9 */
-  -webkit-transform: skewY(20deg); /* Safari prior 9.0 */
-  transform: skewY(20deg); /* Standard syntax */
-}
-
-.not-skew {
-  -ms-transform: skewY(-20deg); /* IE 9 */
-  -webkit-transform: skewY(-20deg); /* Safari prior 9.0 */
-  transform: skewY(-20deg); /* Standard syntax */
 }
 
 @media screen and (min-width: $mobile) {
@@ -455,7 +449,7 @@ animation: fade-in 1.4s;
 }
 
 .card > * {
-  margin-bottom: 2em;
+  margin-bottom: .5em;
 }
 
 .label-row {

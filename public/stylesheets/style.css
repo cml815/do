@@ -722,7 +722,7 @@ fieldset {
   margin-bottom: 2em; }
 
 figure.card {
-  height: 60vh; }
+  height: 50vh; }
 
 figure.card:first-child {
   /* background-color: #070E16; */
@@ -754,15 +754,7 @@ figure.card:nth-child(2) {
   color: #f77a99;
   text-shadow: 3px 3px 0 #000, -1px -1px 0 #000,   1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000; }
 
-body.home .hero {
-  /* background: skyblue url("../images/grant-red-crop.jpg") no-repeat center right fixed; */ }
-
-.hero > .text-container {
-  height: 100%;
-  width: 100%;
-  margin-top: 80px; }
-
-.skew {
+div#myDiv {
   -ms-transform: skewY(20deg);
   /* IE 9 */
   -webkit-transform: skewY(20deg);
@@ -770,13 +762,13 @@ body.home .hero {
   transform: skewY(20deg);
   /* Standard syntax */ }
 
-.not-skew {
-  -ms-transform: skewY(-20deg);
-  /* IE 9 */
-  -webkit-transform: skewY(-20deg);
-  /* Safari prior 9.0 */
-  transform: skewY(-20deg);
-  /* Standard syntax */ }
+body.home .hero {
+  /* background: skyblue url("../images/grant-red-crop.jpg") no-repeat center right fixed; */ }
+
+.hero > .text-container {
+  height: 100%;
+  width: 100%;
+  margin-top: 80px; }
 
 @media screen and (min-width: 599px) {
   .hero {
@@ -1084,7 +1076,7 @@ footer {
   margin-bottom: 2em; }
 
 .card > * {
-  margin-bottom: 2em; }
+  margin-bottom: .5em; }
 
 .label-row {
   margin-top: 2em; }
