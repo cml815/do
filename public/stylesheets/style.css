@@ -739,32 +739,44 @@ figure.card:nth-child(2) {
   background-color: yellow; }
 
 /* Hero */
-.bg-animation {
-  position: absolute;
-  background: linear-gradient(33deg, #F17C58, #E94584, #24AADB, #27DBB1);
-  background-size: 600% 100%;
-  animation: gradient 20s linear infinite;
-  animation-direction: alternate; }
-
-@keyframes gradient {
-  0% {
-    background-position: 0%; }
-  100% {
-    background-position: 100%; } }
-
 .hero {
   height: 100vh;
   display: flex;
   align-items: center;
-  justify-content: center;
-  background-size: cover; }
+  justify-content: center; }
+
+.hero.bg {
+  /* background-image: linear-gradient(to bottom, white, $cherry-lt); */ }
+
+.hero h1 {
+  font-size: 2em;
+  -webkit-text-stroke: 1px black;
+  color: #f77a99;
+  text-shadow: 3px 3px 0 #000, -1px -1px 0 #000,   1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000; }
 
 body.home .hero {
   /* background: skyblue url("../images/grant-red-crop.jpg") no-repeat center right fixed; */ }
 
 .hero > .text-container {
   height: 100%;
-  width: 100%; }
+  width: 100%;
+  margin-top: 80px; }
+
+.skew {
+  -ms-transform: skewY(20deg);
+  /* IE 9 */
+  -webkit-transform: skewY(20deg);
+  /* Safari prior 9.0 */
+  transform: skewY(20deg);
+  /* Standard syntax */ }
+
+.not-skew {
+  -ms-transform: skewY(-20deg);
+  /* IE 9 */
+  -webkit-transform: skewY(-20deg);
+  /* Safari prior 9.0 */
+  transform: skewY(-20deg);
+  /* Standard syntax */ }
 
 @media screen and (min-width: 599px) {
   .hero {
@@ -776,7 +788,7 @@ body.home .hero {
   .hero > .text-container {
     width: 50%; }
   h1 {
-    font-size: 1.6em; } }
+    font-size: 2.8em; } }
 
 .hero.short {
   height: 75vh;
@@ -791,7 +803,7 @@ body.home .hero {
   padding: 1em; }
 
 .inner-container > * {
-  margin-bottom: 2em; }
+  margin-bottom: 1em; }
 
 /* Background video */
 * {

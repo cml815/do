@@ -71,16 +71,29 @@ figure.card:nth-child(2) {
 
 /* Hero */
 
-
-
-
-
 .hero {
   height: 100vh;
   display: flex;
   align-items: center;
   justify-content: center;
-  background-size: cover;
+  
+}
+
+.hero.bg {
+  /* background-image: linear-gradient(to bottom, white, $cherry-lt); */
+
+}
+
+.hero h1 {
+  font-size: 2em;
+  -webkit-text-stroke: 1px black;
+  color: $cherry;
+  text-shadow:
+      3px 3px 0 #000,
+    -1px -1px 0 #000,  
+     1px -1px 0 #000,
+     -1px 1px 0 #000,
+      1px 1px 0 #000;
 }
 
 body.home .hero {
@@ -90,6 +103,19 @@ body.home .hero {
 .hero > .text-container {
   height: 100%;
   width: 100%;
+  margin-top: 80px;
+}
+
+.skew {
+  -ms-transform: skewY(20deg); /* IE 9 */
+  -webkit-transform: skewY(20deg); /* Safari prior 9.0 */
+  transform: skewY(20deg); /* Standard syntax */
+}
+
+.not-skew {
+  -ms-transform: skewY(-20deg); /* IE 9 */
+  -webkit-transform: skewY(-20deg); /* Safari prior 9.0 */
+  transform: skewY(-20deg); /* Standard syntax */
 }
 
 @media screen and (min-width: $mobile) {
@@ -105,7 +131,7 @@ body.home .hero {
       width: 50%;
     }
   h1 {
-    font-size: 1.6em; 
+    font-size: 2.8em; 
   }
 }
 
@@ -125,7 +151,7 @@ body.home .hero {
 }
 
 .inner-container > * {
-  margin-bottom: 2em;
+  margin-bottom: 1em;
 }
 
 /* Background video */
