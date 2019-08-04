@@ -71,19 +71,9 @@ figure.card:nth-child(2) {
 
 /* Hero */
 
-.wrapper {
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  background: linear-gradient(45deg,#F17C58, #E94584, #24AADB , #27DBB1,#FFDC18, #FF3706);
-  background-size: 600% 100%;
-  animation: gradient 16s linear infinite;
-  animation-direction: alternate;
-}
-@keyframes gradient {
-  0% {background-position: 0%}
-  100% {background-position: 100%}
-}
+
+
+
 
 .hero {
   height: 100vh;
@@ -98,27 +88,26 @@ body.home .hero {
 }
 
 .hero > .text-container {
-  padding: 0 1em;
-  width: 50%;
+  height: 100%;
+  width: 100%;
 }
 
-@media screen and (max-width: $mobile) {
+@media screen and (min-width: $mobile) {
   .hero {
     flex-direction: column;
     align-items: center;
     justify-content: center;
   }
     .hero > * {
-      margin-left: 1em;
+      /* margin-left: 1em; */
     }
     .hero > .text-container {
-      width: 100%;
+      width: 50%;
     }
   h1 {
     font-size: 1.6em; 
   }
 }
-
 
 .hero.short {
   height: 75vh;
@@ -129,6 +118,14 @@ body.home .hero {
 .cta > p {
   font-size: .875em;
   text-transform: uppercase;
+}
+
+.inner-container {
+  padding: 1em;
+}
+
+.inner-container > * {
+  margin-bottom: 2em;
 }
 
 /* Background video */

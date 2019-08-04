@@ -87,9 +87,13 @@ xl, extra-large: 1920px or larger
   display: flex;
   flex-direction: column; }
 
+.flex-col {
+  flex-direction: column; }
+
 .flex-center {
   align-items: center;
   justify-content: center;
+  place-items: center center;
   max-width: 100%; }
 
 .flex-spaced-b {
@@ -735,13 +739,11 @@ figure.card:nth-child(2) {
   background-color: yellow; }
 
 /* Hero */
-.wrapper {
-  width: 100%;
-  height: 100%;
+.bg-animation {
   position: absolute;
-  background: linear-gradient(45deg, #F17C58, #E94584, #24AADB, #27DBB1, #FFDC18, #FF3706);
+  background: linear-gradient(33deg, #F17C58, #E94584, #24AADB, #27DBB1);
   background-size: 600% 100%;
-  animation: gradient 16s linear infinite;
+  animation: gradient 20s linear infinite;
   animation-direction: alternate; }
 
 @keyframes gradient {
@@ -761,18 +763,18 @@ body.home .hero {
   /* background: skyblue url("../images/grant-red-crop.jpg") no-repeat center right fixed; */ }
 
 .hero > .text-container {
-  padding: 0 1em;
-  width: 50%; }
+  height: 100%;
+  width: 100%; }
 
-@media screen and (max-width: 599px) {
+@media screen and (min-width: 599px) {
   .hero {
     flex-direction: column;
     align-items: center;
     justify-content: center; }
   .hero > * {
-    margin-left: 1em; }
+    /* margin-left: 1em; */ }
   .hero > .text-container {
-    width: 100%; }
+    width: 50%; }
   h1 {
     font-size: 1.6em; } }
 
@@ -784,6 +786,12 @@ body.home .hero {
 .cta > p {
   font-size: .875em;
   text-transform: uppercase; }
+
+.inner-container {
+  padding: 1em; }
+
+.inner-container > * {
+  margin-bottom: 2em; }
 
 /* Background video */
 * {
