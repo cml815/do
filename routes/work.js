@@ -5,9 +5,11 @@ router.get('/', function(req, res, next) {
   res.render('work', { title: 'Services | Fuel Copy', bodyClass: 'projects', shortTitle: 'Success stories', description: 'Lessons from our client success stories', layout: 'default' });
 });
 
-router.get('/growth-marketing-services', function(req, res, next) {
-  res.render('growth-marketing-services', { 
-    title: 'Digital Marketing',
+router.get('/growth-marketing', function(req, res, next) {
+  res.render('growth-marketing', { 
+    title: 'Grow traffic with influencer and content marketing',
+    bodyClass: 'growth-marketing',
+    shortTitle: 'digital marketing',
     summary: '',
     name: '',
     tag: ['content marketing','influencer marketing','video'],
@@ -18,19 +20,19 @@ router.get('/growth-marketing-services', function(req, res, next) {
 router.get('/media-relations', function(req, res, next) {
   res.render('media-relations', { 
     title: 'Mass Shootings, No More',
+    bodyClass: 'pr',
     summary: '',
     tag: ['strategy', 'public relations', 'earned media'],
     layout: 'default' 
   });
 });
 
-// Interviews case study route
 
-router.get('/lead-generation-services', function(req, res, next) {
-  res.render('lead-generation-services', { 
+router.get('/lead-generation', function(req, res, next) {
+  res.render('lead-generation', { 
     title: 'Founder stories on risk, reward and travel',
     summary: 'Fuel interviewed dozens of entrepreneurs on how to make a mark in the travel world',
-    name: 'null',
+    bodyClass: 'leads',
     jobTitle: 'null',
     caption: 'null',
     credit: 'null',
@@ -41,11 +43,11 @@ router.get('/lead-generation-services', function(req, res, next) {
 
 // Grants route
 
-router.get('/grant-services', function(req, res, next) {
-  res.render('grant-services', { 
+router.get('/grant-proposals', function(req, res, next) {
+  res.render('grant-proposals', { 
     title: 'Win grant awards with federal and SBIR grant proposals',
     summary: 'How Fuel helped tech and biotech companies win funding to bring their innovations to market',
-    name: 'null',
+    bodyClass: 'grants',
     jobTitle: 'null',
     caption: 'null',
     credit: 'null',
@@ -54,7 +56,7 @@ router.get('/grant-services', function(req, res, next) {
   });
 });
 
-/* Authority blogging - thought eadership case study
+/* Authority blogging - thought leadership case study
 
 router.get('/thought-leadership', function(req, res, next) {
   res.render('thought-leadership', { 

@@ -41,8 +41,10 @@
 
 .halfscreen {
     height: 50vh;
+}
 
-
+.spaced {
+    justify-content: space-between;
 }
 
 /// Headers ///
@@ -121,6 +123,9 @@
     grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
 }
 
+.gap {
+    grid-gap: 1em;
+}
 .no-gap {
     grid-gap: 0;
 }
@@ -135,7 +140,7 @@
       padding: 1em; 
   }
 
-.two-x-2 {
+.two-x-two {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(2, 1fr);
@@ -144,17 +149,24 @@
     min-height: 100%;
 }
 
-.icon-container li {
+.growth {
     padding: 1em;
-    color: white;
+    border: black 2px solid;
+    background: url('../images/laptop.jpg');
+    background-size: cover;
+}
+
+.bg-icon {
+    background: url('../images/laptop.jpg');
+    background-size: contain;
 }
 
 .icon-container li:first-child {
-    background-color: $aqua;
+    background-color: transparent;
 }
 
 .icon-container li:nth-child(2n) {
-    background-color: $indigo;
+    background-color: transparent;
 }
 
 .icon-container li:nth-child(3) {
