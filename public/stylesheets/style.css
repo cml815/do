@@ -31,6 +31,20 @@ xl, extra-large: 1920px or larger
   padding: .25em;
   color: #424A51; }
 
+/* Flexbox */
+.flex-container {
+  display: flex; }
+
+.flex-container > * {
+  flex: 1; }
+
+.flex-container-wide {
+  flex: 2; }
+
+@media only screen and (599px) {
+  .flex-container {
+    flex-direction: column; } }
+
 /* Alignment */
 .flex-center {
   display: flex;
@@ -194,9 +208,6 @@ xl, extra-large: 1920px or larger
 
 .right {
   text-align: right; }
-
-.highlight {
-  background: linear-gradient(180deg, rgba(255, 255, 255, 0) 50%, #899bd6 50%); }
 
 .fine-print {
   text-transform: uppercase;
@@ -567,28 +578,6 @@ sup {
   top: -0.5em; }
 
 /* Buttons */
-.myButton {
-  background-color: #768d87;
-  -moz-border-radius: 28px;
-  -webkit-border-radius: 28px;
-  border-radius: 28px;
-  border: 1px solid #566963;
-  display: inline-block;
-  cursor: pointer;
-  color: #ffffff;
-  font-family: Arial;
-  font-size: 17px;
-  padding: 16px 31px;
-  text-decoration: none;
-  text-shadow: 0px 1px 0px #2b665e; }
-
-.myButton:hover {
-  background-color: #6c7c7c; }
-
-.myButton:active {
-  position: relative;
-  top: 1px; }
-
 .btn {
   padding: .25em 1.25em;
   margin-top: .5em;
@@ -611,9 +600,12 @@ sup {
   font-weight: bold; }
 
 .btn:hover {
-  background-color: #f892ab;
+  background-color: #4152b8;
   transition: 400ms;
   transition-timing-function: ease-in-out; }
+
+.btn:hover p {
+  color: white; }
 
 figure {
   margin: 0;
@@ -627,20 +619,6 @@ figcaption p {
 /* Grid it up */
 .grid-container {
   display: grid; }
-
-/* Flexbox */
-.flex-container {
-  display: flex; }
-
-.flex-container > * {
-  flex: 1; }
-
-.flex-container-wide {
-  flex: 2; }
-
-@media only screen and (599px) {
-  .flex-container {
-    flex-direction: column; } }
 
 /* Contact Form */
 button,
@@ -765,6 +743,16 @@ figure.card:nth-child(2) {
   display: flex;
   align-items: center;
   justify-content: center; }
+
+.home .hero {
+  background-color: #131517;
+  color: white; }
+
+.accent {
+  color: white; }
+
+.highlight {
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0) 50%, #6983d6 50%); }
 
 .hero.bg {
   /* background-image: linear-gradient(to bottom, white, $cherry-lt); */ }

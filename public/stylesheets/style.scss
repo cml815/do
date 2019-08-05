@@ -79,6 +79,20 @@ figure.card:nth-child(2) {
   
 }
 
+.home .hero {
+  background-color: $black;
+  color: white;
+}
+
+.accent {
+  color: white;
+}
+
+.highlight {
+  background: $highlight;
+}
+
+
 .hero.bg {
   /* background-image: linear-gradient(to bottom, white, $cherry-lt); */
 
