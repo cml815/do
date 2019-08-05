@@ -45,40 +45,6 @@ xl, extra-large: 1920px or larger
   .flex-container {
     flex-direction: column; } }
 
-/* Alignment */
-.flex-center {
-  display: flex;
-  align-items: center;
-  justify-content: center; }
-
-.flex-item-center {
-  width: 50%; }
-
-.center {
-  justify-self: center;
-  justify-content: center;
-  align-items: center; }
-
-.center > * {
-  text-align: center;
-  align-self: center; }
-
-.centered {
-  max-width: 50%; }
-
-.fullscreen {
-  height: 100vh; }
-
-.halfscreen {
-  height: 50vh; }
-
-.spaced {
-  justify-content: space-between; }
-
-.title-box {
-  padding: 0 1em;
-  margin: 1em 0; }
-
 /* Grid full page layout */
 .grid-wrapper {
   display: grid;
@@ -146,6 +112,40 @@ xl, extra-large: 1920px or larger
   grid-gap: 0;
   justify-content: center;
   min-height: 100%; }
+
+/* Alignment */
+.flex-center {
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+
+.flex-item-center {
+  width: 50%; }
+
+.center {
+  justify-self: center;
+  justify-content: center;
+  align-items: center; }
+
+.center > * {
+  text-align: center;
+  align-self: center; }
+
+.centered {
+  max-width: 50%; }
+
+.fullscreen {
+  height: 100vh; }
+
+.halfscreen {
+  height: 50vh; }
+
+.spaced {
+  justify-content: space-between; }
+
+.title-box {
+  padding: 0 1em;
+  margin: 1em 0; }
 
 .growth {
   padding: 1em;
@@ -615,10 +615,6 @@ figcaption p {
   /* font-family: $sans; */
   font-size: .875em;
   line-height: 1em; }
-
-/* Grid it up */
-.grid-container {
-  display: grid; }
 
 /* Contact Form */
 button,
