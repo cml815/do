@@ -798,7 +798,12 @@ body.home .hero {
 
 /* Home page styles */
 .home .title-box {
-  margin-bottom: 2em; }
+  padding: 0;
+  width: 100%;
+  margin-bottom: 2em;
+  height: 25vh;
+  background-color: #c02e53;
+  color: white; }
 
 .home article {
   height: 60vh; }
@@ -1073,10 +1078,6 @@ footer {
   align-self: center; }
 
 /* Work page */
-.services {
-  height: 100%;
-  padding: 0 1em; }
-
 .services > article {
   height: 100vh;
   background: url("../images/laptop.jpg") no-repeat center;

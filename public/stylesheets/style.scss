@@ -157,7 +157,12 @@ body.home .hero {
 /* Home page styles */
 
 .home .title-box {
+  padding: 0;
+  width: 100%;
   margin-bottom: 2em;
+  height: 25vh;
+  background-color: $cerise;
+  color: white;
 }
 
 .home article {
@@ -451,11 +456,6 @@ animation: fade-in 1.4s;
 }
 
 /* Work page */
-
-.services {
-  height: 100%;
-  padding: 0 1em; 
-}
 
 .services > article {
   height: 100vh;
