@@ -461,7 +461,7 @@ nav li:hover {
 .narrative {
   width: 50%; }
 
-@media (max-width: 768px) {
+@media screen and (max-width: 599px) {
   .mobile-hide {
     display: none; } }
 
@@ -515,7 +515,7 @@ h1 {
   line-height: 1.25em; }
 
 h2 {
-  font-size: 1.75em; }
+  font-size: 1.6em; }
 
 h3 {
   font-size: 1.6em; }
@@ -761,9 +761,6 @@ div#myDiv {
   transform: skewY(20deg);
   /* Standard syntax */ }
 
-body.home .hero {
-  /* background: skyblue url("../images/grant-red-crop.jpg") no-repeat center right fixed; */ }
-
 .hero > .text-container {
   height: 100%;
   width: 100%;
@@ -786,6 +783,10 @@ body.home .hero {
   margin-top: 50px;
   background-color: #efefef; }
 
+/* .hero .bg {
+  background: url("../images/fibonacci-white.svg") no-repeat;
+}
+*/
 .cta > p {
   font-size: .875em;
   text-transform: uppercase; }
@@ -1103,9 +1104,6 @@ footer {
 
 .grow {
   background-color: #1bcbce; }
-
-.icon-container li {
-  height: 25vh; }
 
 /* Case stories */
 /* Contact page */
