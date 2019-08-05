@@ -769,12 +769,6 @@ figure.card:nth-child(2) {
 .hero.bg {
   /* background-image: linear-gradient(to bottom, white, $cherry-lt); */ }
 
-.hero h1 {
-  font-size: 2em;
-  -webkit-text-stroke: 1px black;
-  color: #f77a99;
-  text-shadow: 3px 3px 0 #000, -1px -1px 0 #000,   1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000; }
-
 div#myDiv {
   -ms-transform: skewY(20deg);
   /* IE 9 */
