@@ -796,6 +796,16 @@ body.home .hero {
 .inner-container > * {
   margin-bottom: 1em; }
 
+/* Home page styles */
+.home .title-box {
+  margin-bottom: 2em; }
+
+.home article {
+  height: 60vh; }
+
+.home article > * {
+  padding: 0 0 1em; }
+
 /* Background video */
 * {
   box-sizing: border-box; }
