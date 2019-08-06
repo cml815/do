@@ -1,3 +1,11 @@
+An origin story is told and retold to help fans connect to their favorite superheroes. Similarly, startup founders tell stories almost everyone craves. That's because launching a company is highly risky. Obstacles, dramatic highs and lows and high-stakes pressures. 
+
+
+superhero needs an origin story, so   essential for superheroes. The Super
+
+
+
+
 # Boat Setter
 Tomas Ponce De Leon
 https://www.rewardexpert.com/blog/renting-the-american-dream-with-boatsetter/
@@ -13,6 +21,11 @@ https://www.rewardexpert.com/blog/cleverlayover-saves-money-on-global-travel/
 Gate Guru
 cl
 https://www.rewardexpert.com/blog/gateguru-the-yelp-of-airports/
+Shut down because of acquisition to TripAdvisor
+
+Global Rescuse
+dana
+https://www.rewardexpert.com/blog/stay-safe-on-exotic-trips-with-global-rescue/
 
 Hater
 nick
@@ -61,6 +74,10 @@ https://www.rewardexpert.com/blog/traxo-travel-itineraries-on-an-integrated-dash
 Travefy
 cl
 https://www.rewardexpert.com/blog/travefy-group-itinerary-planning-made-easier/
+
+TRIPBAM
+dana henry
+https://www.rewardexpert.com/blog/tripbam-finds-hidden-savings-on-hotel-rates/
 
 # U Trip
 cl
