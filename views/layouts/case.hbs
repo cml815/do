@@ -5,13 +5,15 @@
 <body class="{{ bodyClass }}">
   <header id="menu" class="menu-wrap grid__item">
     {{> nav }}
-    {{> subnav }}
   </header>
   <main>
       {{> hero}}
       {{{ body }}}
+    <div class="subnav-container grid-container">
+      {{> subnav }}
+    </div>
   </main>
-  <footer class="">
+  <footer>
     {{> footer }}
     </footer>
   <script src="./javascripts/main.js"></script>

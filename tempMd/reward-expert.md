@@ -1,4 +1,8 @@
-An origin story is told and retold to help fans connect to their favorite superheroes. Similarly, startup founders tell stories almost everyone craves. That's because launching a company is highly risky. Obstacles, dramatic highs and lows and high-stakes pressures. 
+An origin story helps fans emulate to their favorite superheroes in everyday life. Likewise, startup founders face personal risk, courage and sacrifice. dramatic fails and wins. Story makes us human, as that's how we make sense of ourselves, others and the world.
+
+Every story has a lesson -- an opportunity to laugh, learn and grow.  
+
+
 
 
 superhero needs an origin story, so   essential for superheroes. The Super

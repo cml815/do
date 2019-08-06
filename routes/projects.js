@@ -7,6 +7,16 @@ router.get('/', function(req, res, next) {
   res.render('projects', { title: 'Case studies of marketing and fundraising success', bodyClass: 'projects', shortTitle: 'Success stories', description: 'Lessons from our client success stories', layout: 'default' });
 });
 
+router.get('/a-case', function(req, res, next) {
+  res.render('a-case', { 
+    title: 'TEST CASE', 
+    bodyClass: 'testCase', 
+    shortTitle: 'Just a test', 
+    description: 'testme testme',
+    tag: ['happy', 'joyous', 'free'], 
+    layout: 'case' });
+});
+
 // Social media influencer case study route
 
 router.get('/social-media-influencer', function(req, res, next) {

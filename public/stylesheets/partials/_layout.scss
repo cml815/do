@@ -21,6 +21,11 @@
   .flex-container-wide {
     flex: 2;
   }
+
+  .flex-container-row {
+      display: flex;
+      flex-direction: row;
+  }
   
   @media only screen and ($mobile) {
     .flex-container {
@@ -206,10 +211,16 @@
     color: black;
 }
 
+/* subnav grid */ 
 
+.sub-nav .grid-container {
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    grid-gap: 0;
+}
 
-
-
+.sub-nav > li {
+    
+}
 
 .grid__page--12x12 {
     display: grid;
