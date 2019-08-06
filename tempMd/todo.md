@@ -1,5 +1,15 @@
 To Dos
 
+
+## Pages (14 main pages)
+
+Home
+About > Team
+Work > Marketing / Funding
+Projects > 6 projects
+Contact
+
+
 Title tags for tab 
 
 Buttons
