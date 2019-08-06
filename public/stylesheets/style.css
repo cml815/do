@@ -461,6 +461,12 @@ nav li:hover {
 .narrative {
   width: 50%; }
 
+.main-content {
+  background-color: white; }
+
+.grant-case-study footer {
+  background-color: white; }
+
 @media screen and (max-width: 599px) {
   .mobile-hide {
     display: none; } }

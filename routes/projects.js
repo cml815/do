@@ -12,6 +12,7 @@ router.get('/', function(req, res, next) {
 router.get('/social-media-influencer', function(req, res, next) {
   res.render('social-media-influencer', { 
     title: 'Mighty Influencers',
+    bodyClass: 'grant-case-study',
     summary: 'YouTube influencer talks about finding an audience and sponsors',
     name: 'Jeff Grant',
     jobTitle: 'Videographer, YouTube Influencer',
