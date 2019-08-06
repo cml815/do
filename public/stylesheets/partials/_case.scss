@@ -13,14 +13,14 @@
 
 /* Case study page layout  */
 
-.text-block {
+.grant-case-study .text-block {
 background-color: black;
 color: white;
 line-height: 1.25em;
 }
 
 .text-block {
-  background-color: $pool;
+  background-color: #B30B18;
   color: white;
   line-height: 1.25em;
   }
@@ -144,6 +144,21 @@ line-height: 1.25em;
 .grant-case-study footer {
   background-color: white;
 }
+
+.iframe-container{
+  position: relative;
+  width: 100%;
+  padding-bottom: 56.25%; 
+  height: 0;
+}
+.iframe-container iframe{
+  position: absolute;
+  top:0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
 
 
 
