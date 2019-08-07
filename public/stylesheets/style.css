@@ -749,6 +749,13 @@ fieldset {
 .toggle-content.is-visible {
   display: block; }
 
+.shape {
+  border-radius: 30% 70% 58% 42% / 30% 37% 63% 70%;
+  background-color: #3a4aa5; }
+
+.shape > * {
+  padding: 2em; }
+
 /* Projects pages */
 .projects {
   background-color: transparent; }

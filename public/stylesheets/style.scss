@@ -5,6 +5,17 @@
 
 @import "./partials/base";
 
+/// Tests /// 
+
+.shape {
+border-radius: 30% 70% 58% 42% / 30% 37% 63% 70%;
+background-color: $indigo;
+}
+
+.shape > * {
+  padding: 2em;
+}
+
 /// SITE STYLES - move to base TODO  ///
 
 /* Projects pages */
