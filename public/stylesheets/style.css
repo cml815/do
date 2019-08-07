@@ -813,7 +813,7 @@ figure.card:nth-child(2) {
   color: white; }
 
 .highlight {
-  background: linear-gradient(180deg, rgba(255, 255, 255, 0) 50%, #6983d6 50%); }
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0) 60%, #5278f7 0%); }
 
 .hero.bg {
   /* background-image: linear-gradient(to bottom, white, $cherry-lt); */ }
