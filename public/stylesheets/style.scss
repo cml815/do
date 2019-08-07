@@ -66,7 +66,8 @@ figure.card:nth-child(2) {
 }
 
 .error {
-  background-color: yellow;
+  background-color: $black;
+  color: white;
 }
 
 /* Hero */
