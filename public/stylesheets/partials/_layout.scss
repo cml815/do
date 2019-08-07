@@ -168,6 +168,13 @@
     justify-content: space-between;
 }
 
+@media screen and (min-width: $mobile) {
+    .centering {
+        width: 80%;
+        text-align: center;
+        font-size: 1.25em;
+    }
+}
 /// Headers ///
 
 .title-box {

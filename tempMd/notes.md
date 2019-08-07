@@ -16,3 +16,14 @@ https://loremipsum.io/21-of-the-best-placeholder-image-generators/
   background: url("../images/grant-red-crop.jpg") no-repeat;
 
 background - https://www.webfx.com/blog/web-design/background-css-shorthand/
+
+.bg-stripe {
+  background: linear-gradient( 
+  90deg,
+  #fff,
+  #fff 20px,
+  #000 20px,
+  #000 40px);
+  height: 200px;
+  width: 200px;
+}
