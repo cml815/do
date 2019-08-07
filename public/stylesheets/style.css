@@ -15,7 +15,7 @@
 /* RGB */
 /* work category color scheme */
 /* Typography */
-/* max-width */
+/* min-width */
 /* 
 xs, extra-small: 0px or larger
 sm, small: 600px or larger
@@ -378,7 +378,7 @@ nav li:hover {
     right: 35px; } }
 
 .hamburger {
-  font-size: 1.2em; }
+  font-size: 1.4em; }
 
 /* Service styles */
 .sub-nav {
@@ -432,7 +432,7 @@ nav li:hover {
   line-height: 1.25em; }
 
 .text-block p, .main-content p {
-  font-family: "Merriweather", serif;
+  font-family: "Merriweather", Georgia, Times, serif;
   font-size: 1.25em;
   font-weight: bolder;
   padding: 1em 2em; }
