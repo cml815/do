@@ -86,7 +86,8 @@ figure.card:nth-child(2) {
 }
 
 .home .hero h1 {
-  z-index: 1;
+  font-size: 2.5em;
+  line-height: 1em;
 }
 
 .ball {
@@ -97,6 +98,10 @@ figure.card:nth-child(2) {
 
 .accent {
   color: white;
+}
+
+.red {
+  color: $cerise;
 }
 
 .highlight {

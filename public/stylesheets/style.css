@@ -48,6 +48,12 @@ xl, extra-large: 1920px or larger
   background: linear-gradient(90deg, #1370FB 20px, transparent 1%) center, linear-gradient(#1370FB 20px, transparent 1%) center, #3882E8;
   background-size: 22px 22px; }
 
+.bold {
+  font-weight: bold; }
+
+.larger {
+  font-size: 1.25em; }
+
 /* Flexbox */
 .flex-container {
   display: flex; }
@@ -833,7 +839,8 @@ figure.card:nth-child(2) {
   color: white; }
 
 .home .hero h1 {
-  z-index: 1; }
+  font-size: 2.5em;
+  line-height: 1em; }
 
 .ball {
   position: absolute;
@@ -842,6 +849,9 @@ figure.card:nth-child(2) {
 
 .accent {
   color: white; }
+
+.red {
+  color: #c02e53; }
 
 .highlight {
   background: linear-gradient(180deg, rgba(255, 255, 255, 0) 60%, #5278f7 0%); }
