@@ -85,6 +85,16 @@ figure.card:nth-child(2) {
   color: white;
 }
 
+.home .hero h1 {
+  z-index: 1;
+}
+
+.ball {
+  position: absolute;
+  border-radius: 100%;
+  opacity: 0.7;
+}
+
 .accent {
   color: white;
 }
