@@ -8,6 +8,22 @@
     color: $charcoal; 
   }
 
+/// Backgrounds /// 
+
+
+#shape {
+    border-radius: 30% 70% 58% 42% / 30% 37% 63% 70%;
+    }
+
+#shape > * {
+    padding: 2em;
+}
+
+#shape .bg {
+    background-color: $indigo-lt;
+}
+    
+
   /* Flexbox */
 
 .flex-container {

@@ -31,6 +31,15 @@ xl, extra-large: 1920px or larger
   padding: .25em;
   color: #424A51; }
 
+#shape {
+  border-radius: 30% 70% 58% 42% / 30% 37% 63% 70%; }
+
+#shape > * {
+  padding: 2em; }
+
+#shape .bg {
+  background-color: #c4beff; }
+
 /* Flexbox */
 .flex-container {
   display: flex; }
@@ -177,7 +186,7 @@ xl, extra-large: 1920px or larger
   background-color: #f77a99; }
 
 .icon-container li:nth-child(5) {
-  background-color: #929fe9;
+  background-color: #c4beff;
   color: black; }
 
 .icon-container li:nth-child(4) {
@@ -749,13 +758,6 @@ fieldset {
 .toggle-content.is-visible {
   display: block; }
 
-.shape {
-  border-radius: 30% 70% 58% 42% / 30% 37% 63% 70%;
-  background-color: #3a4aa5; }
-
-.shape > * {
-  padding: 2em; }
-
 /* Projects pages */
 .projects {
   background-color: transparent; }
@@ -904,22 +906,18 @@ div#myDiv {
 
 .icon-grid li {
   height: 25vh;
-  color: white; }
+  font-weight: bolder;
+  font-size: 1.25em;
+  letter-spacing: .5px; }
 
-.icon-grid li:first-child {
-  background-color: red; }
-
-.icon-grid li:nth-child(2) {
-  background-color: #000000;
-  background-image: linear-gradient(315deg, #000000 0%, #ffffff 74%); }
+.icon-grid li:nth-child(2n) {
+  border-left: .5px dotted #fff; }
 
 .icon-grid li:nth-child(3) {
-  background-color: #000000;
-  background-image: linear-gradient(315deg, #000000 0%, #414141 74%); }
+  border-top: .5px dotted #fff; }
 
 .icon-grid li:nth-child(4) {
-  background-color: #000000;
-  background-image: linear-gradient(315deg, #000000 0%, #7f8c8d 74%); }
+  border-top: .5px dotted #fff; }
 
 /* Background video */
 * {

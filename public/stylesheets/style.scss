@@ -5,17 +5,6 @@
 
 @import "./partials/base";
 
-/// Tests /// 
-
-.shape {
-border-radius: 30% 70% 58% 42% / 30% 37% 63% 70%;
-background-color: $indigo;
-}
-
-.shape > * {
-  padding: 2em;
-}
-
 /// SITE STYLES - move to base TODO  ///
 
 /* Projects pages */
@@ -208,30 +197,22 @@ div#myDiv {
 }
 .icon-grid li {
   height: 25vh;
-  color: white;
+  font-weight: bolder;
+  font-size: 1.25em;
+  letter-spacing: .5px;
 }
 
-.icon-grid li:first-child {
-  background-color: red;
-}
-
-.icon-grid li:nth-child(2) {
-  background-color: #000000;
-  background-image: linear-gradient(315deg, #000000 0%, #ffffff 74%);
-
+.icon-grid li:nth-child(2n) {
+  border-left: .5px dotted #fff;
 }
 
 .icon-grid li:nth-child(3) {
-  background-color: #000000;
-  background-image: linear-gradient(315deg, #000000 0%, #414141 74%);
+  border-top: .5px dotted #fff;
 }
 
 .icon-grid li:nth-child(4) {
-  background-color: #000000;
-  background-image: linear-gradient(315deg, #000000 0%, #7f8c8d 74%);
+  border-top: .5px dotted #fff;
 }
-
-
 
 /* Background video */
 
