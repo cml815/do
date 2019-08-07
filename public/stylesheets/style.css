@@ -14,6 +14,7 @@
 /* Coolors Exported Palette - coolors.co/3a4aa5-57b8ff-485254-f9973b-ff5947 */
 /* RGB */
 /* work category color scheme */
+/* backgrounds */
 /* Typography */
 /* min-width */
 /* 
@@ -33,7 +34,8 @@ xl, extra-large: 1920px or larger
 
 .shape {
   border-radius: 30% 70% 58% 42% / 30% 37% 63% 70%;
-  background-color: #c4beff; }
+  background-color: #c4beff;
+  box-shadow: 20px 20px #3a4aa5; }
 
 .shape.alt {
   border-radius: 30% 70% 17% 83% / 30% 78% 22% 70%;
@@ -41,6 +43,10 @@ xl, extra-large: 1920px or larger
 
 .shape > * {
   padding: 2em; }
+
+.bg-dot {
+  background: linear-gradient(90deg, #1370FB 20px, transparent 1%) center, linear-gradient(#1370FB 20px, transparent 1%) center, #3882E8;
+  background-size: 22px 22px; }
 
 /* Flexbox */
 .flex-container {
@@ -669,6 +675,11 @@ sup {
 
 .rounded {
   border-radius: 2.5em; }
+
+.btn .shadow {
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75); }
 
 .btn a, .btn a:visited {
   color: #131517;
