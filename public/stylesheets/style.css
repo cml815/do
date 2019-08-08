@@ -188,6 +188,10 @@ xl, extra-large: 1920px or larger
   background: url("../images/laptop.jpg");
   background-size: contain; }
 
+/* About page icons */
+.icon-container {
+  width: 50%; }
+
 .icon-container li:first-child {
   background-color: transparent; }
 

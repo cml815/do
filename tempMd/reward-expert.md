@@ -27,7 +27,7 @@ cl
 https://www.rewardexpert.com/blog/gateguru-the-yelp-of-airports/
 Shut down because of acquisition to TripAdvisor
 
-Global Rescuse
+Global Rescue
 dana
 https://www.rewardexpert.com/blog/stay-safe-on-exotic-trips-with-global-rescue/
 
@@ -55,7 +55,7 @@ Rome2rio
 cl
 https://www.rewardexpert.com/blog/rome2rio-have-the-freedom-to-not-plan-ahead/
 
-Rover
+Rover xxx
 shawn
 https://www.rewardexpert.com/blog/fetch-better-care-for-your-pets-with-rover/
 
@@ -67,11 +67,15 @@ Spot Hero
 shawn
 https://www.rewardexpert.com/blog/find-a-home-for-your-car-with-spothero/
 
-Transit
-cl
-https://www.rewardexpert.com/blog/transit-an-easier-way-to-navigate-public-transportation/
+https://spothero.com/press/
 
-Traxo
+Transit  xxx
+cl
+https://www.rewardexpert.com/blog/transit-an-easier-way-to-navigate-public-transportation
+
+/https://transitapp.com/press
+
+Traxo xxx
 cl
 https://www.rewardexpert.com/blog/traxo-travel-itineraries-on-an-integrated-dashboard/
 
