@@ -506,6 +506,23 @@ animation: fade-in 1.4s;
   background-color: $grow;
 }
 
+.service-container i {
+  background-color: $grow;
+  border-radius: 50%;
+  padding: 1em;
+  color: white;
+  font-size: 2em;
+}
+
+.bottom-border {
+  bottom: 0;
+  width: 100%;
+  border-radius: 100% 0% 100% 0% / 0% 0% 100% 100% ;
+  height: 10vh;
+  background-color: $indigo; 
+}
+
+/* 
 .service-container li:first-child {
   background-color: $charcoal;
   color: white;
@@ -525,6 +542,8 @@ animation: fade-in 1.4s;
   background-color: green;
   color: white;
 }
+
+*/
 
 /* Case stories */
 

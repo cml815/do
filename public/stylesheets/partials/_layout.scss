@@ -45,6 +45,10 @@
     font-size: 1.25em;
 }
 
+.xlarge {
+    font-size: 2em;
+}
+
   /* Flexbox */
 
 .flex-container {
@@ -104,6 +108,9 @@
     display: grid;
 }
 
+.stretch {
+    justify-items: stretch;
+}
 
 .flex-container-col {
     display: flex;
@@ -279,7 +286,6 @@
     
   .card {
     justify-self: center;
-    align-self: center;
     overflow: hidden;
     padding: 1em;
   }

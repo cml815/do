@@ -54,6 +54,9 @@ xl, extra-large: 1920px or larger
 .larger {
   font-size: 1.25em; }
 
+.xlarge {
+  font-size: 2em; }
+
 /* Flexbox */
 .flex-container {
   display: flex; }
@@ -89,6 +92,9 @@ xl, extra-large: 1920px or larger
 
 .grid-container {
   display: grid; }
+
+.stretch {
+  justify-items: stretch; }
 
 .flex-container-col {
   display: flex;
@@ -221,7 +227,6 @@ xl, extra-large: 1920px or larger
 
 .card {
   justify-self: center;
-  align-self: center;
   overflow: hidden;
   padding: 1em; }
 
@@ -1204,22 +1209,42 @@ footer {
 .grow {
   background-color: #1b7ace; }
 
+.service-container i {
+  background-color: #1b7ace;
+  border-radius: 50%;
+  padding: 1em;
+  color: white;
+  font-size: 2em; }
+
+.bottom-border {
+  bottom: 0;
+  width: 100%;
+  border-radius: 100% 0% 100% 0% / 0% 0% 100% 100%;
+  height: 10vh;
+  background-color: #3a4aa5; }
+
+/* 
 .service-container li:first-child {
-  background-color: #424A51;
-  color: white; }
+  background-color: $charcoal;
+  color: white;
+}
 
 .service-container li:nth-child(2) {
-  background-color: #3a4aa5;
-  color: white; }
+  background-color: $indigo;
+  color: white;
+}
 
 .service-container li:nth-child(3) {
-  background-color: #c02e53;
-  color: white; }
+  background-color: $cerise;
+  color: white;
+}
 
 .service-container li:nth-child(4) {
   background-color: green;
-  color: white; }
+  color: white;
+}
 
+*/
 /* Case stories */
 /* Contact page */
 .contact {
