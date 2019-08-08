@@ -34,18 +34,16 @@ xl, extra-large: 1920px or larger
 
 .shape {
   border-radius: 30% 70% 58% 42% / 30% 37% 63% 70%;
-  background-color: #c4beff;
-  box-shadow: 20px 20px #3a4aa5; }
+  background-color: #c4beff; }
 
 .shape.alt {
-  border-radius: 30% 70% 17% 83% / 30% 78% 22% 70%;
-  background-color: #f789a4; }
+  border-radius: 30% 70% 17% 83% / 30% 78% 22% 70%; }
 
 .shape > * {
   padding: 2em; }
 
 .bg-dot {
-  background: linear-gradient(90deg, #1370FB 20px, transparent 1%) center, linear-gradient(#1370FB 20px, transparent 1%) center, #3882E8;
+  background: linear-gradient(90deg, rgba(168, 202, 253, 0.8) 20px, transparent 1%) center, linear-gradient(rgba(168, 202, 253, 0.8) 20px, transparent 1%) center, rgba(204, 222, 247, 0.6);
   background-size: 22px 22px; }
 
 .bold {

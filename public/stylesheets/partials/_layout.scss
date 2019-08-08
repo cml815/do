@@ -14,12 +14,11 @@
 .shape {
     border-radius: 30% 70% 58% 42% / 30% 37% 63% 70%;
     background-color: $indigo-lt;
-    box-shadow: 20px 20px $indigo;
     }
 
 .shape.alt {
     border-radius: 30% 70% 17% 83% / 30% 78% 22% 70%;
-    background-color: $cherry-lt; 
+ 
 }
 
 .shape > * {
