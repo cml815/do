@@ -4,8 +4,9 @@
     display: inline;
     text-transform: uppercase;
     font-weight: bolder;
+    letter-spacing: 1px;
     padding: .25em;
-    color: $charcoal; 
+    color: $black; 
   }
 
 /// Backgrounds /// 
@@ -17,7 +18,7 @@
     width: 100%;
     height: 100%;
     }
-
+pxx
 .shape.alt {
     border-radius: 30% 70% 17% 83% / 30% 78% 22% 70%;
  

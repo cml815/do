@@ -108,6 +108,9 @@ figure.card:nth-child(2) {
   position: absolute;
   border-radius: 100%;
   opacity: 0.7;
+  height: 25vh;
+  width: 25vw;
+  overflow: hidden;
 }
 
 .accent {

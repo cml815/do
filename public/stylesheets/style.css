@@ -29,8 +29,9 @@ xl, extra-large: 1920px or larger
   display: inline;
   text-transform: uppercase;
   font-weight: bolder;
+  letter-spacing: 1px;
   padding: .25em;
-  color: #424A51; }
+  color: #131517; }
 
 .shape {
   border-radius: 30% 70% 58% 42% / 30% 37% 63% 70%;
@@ -38,6 +39,7 @@ xl, extra-large: 1920px or larger
   width: 100%;
   height: 100%; }
 
+pxx
 .shape.alt {
   border-radius: 30% 70% 17% 83% / 30% 78% 22% 70%; }
 
@@ -857,7 +859,10 @@ figure.card:nth-child(2) {
 .ball {
   position: absolute;
   border-radius: 100%;
-  opacity: 0.7; }
+  opacity: 0.7;
+  height: 25vh;
+  width: 25vw;
+  overflow: hidden; }
 
 .accent {
   color: white; }
@@ -866,7 +871,7 @@ figure.card:nth-child(2) {
   color: #c02e53; }
 
 .highlight {
-  background: linear-gradient(180deg, rgba(255, 255, 255, 0) 60%, #5278f7 0%); }
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0) 70%, #52adf7 0%); }
 
 .hero.bg {
   /* background-image: linear-gradient(to bottom, white, $cherry-lt); */ }
