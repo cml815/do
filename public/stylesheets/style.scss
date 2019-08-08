@@ -5,6 +5,12 @@
 
 @import "./partials/base";
 
+/// HACK STYLES todo //
+
+.projects > footer {
+  display: none;
+}
+
 /// SITE STYLES - move to base TODO  ///
 
 /* Projects pages */
@@ -16,6 +22,10 @@
 .projects figure {
   height: 50vh;
 }
+
+.project-card {
+  margin-bottom: 2em;
+} 
 
 /* 
 .projects .panel-img:first-child {

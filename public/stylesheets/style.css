@@ -59,6 +59,9 @@ xl, extra-large: 1920px or larger
 .flex-container > * {
   flex: 1; }
 
+.flex-item {
+  flex: 1; }
+
 .flex-container-wide {
   flex: 2; }
 
@@ -84,12 +87,6 @@ xl, extra-large: 1920px or larger
 
 .grid-container {
   display: grid; }
-
-.flex-container {
-  display: flex; }
-
-.flex-item {
-  flex: 0 1; }
 
 .flex-container-col {
   display: flex;
@@ -127,8 +124,11 @@ xl, extra-large: 1920px or larger
   grid-gap: 0;
   height: 100vh; }
 
-.pad {
+.pad-1 {
   padding: 1em; }
+
+.pad-2 {
+  padding: 2em; }
 
 .two-x-two {
   display: grid;
@@ -139,14 +139,6 @@ xl, extra-large: 1920px or larger
   min-height: 100%; }
 
 /* Alignment */
-.flex-center {
-  display: flex;
-  align-items: center;
-  justify-content: center; }
-
-.flex-item-center {
-  width: 50%; }
-
 .center {
   justify-self: center;
   justify-content: center;
@@ -259,6 +251,9 @@ xl, extra-large: 1920px or larger
   color: white;
   background-color: #131517;
   padding: .5em; }
+
+.text-margin > * {
+  margin-bottom: 1em; }
 
 /* Navigation */
 /* https://www.w3schools.com/code/tryit.asp?filename=G6913M8THUXM */
@@ -784,12 +779,18 @@ fieldset {
 .toggle-content.is-visible {
   display: block; }
 
+.projects > footer {
+  display: none; }
+
 /* Projects pages */
 .projects {
   background-color: transparent; }
 
 .projects figure {
   height: 50vh; }
+
+.project-card {
+  margin-bottom: 2em; }
 
 /* 
 .projects .panel-img:first-child {
