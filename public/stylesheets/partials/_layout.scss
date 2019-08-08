@@ -112,7 +112,7 @@
     flex-direction: column;
 }
 
-.flex-center {
+.flex-c-center, .flex-center {
     align-items: center;
     justify-content: center;
     place-items: center center;
@@ -137,6 +137,15 @@
 .gap {
     grid-gap: 1em;
 }
+
+.gap-2 {
+    grid-gap: 2em;
+}
+
+.gap-4 {
+    grid-gap: 4em;
+}
+
 .no-gap {
     grid-gap: 0;
 }
