@@ -43,7 +43,7 @@ xl, extra-large: 1920px or larger
   padding: 2em; }
 
 .bg-dot {
-  background: linear-gradient(90deg, rgba(168, 202, 253, 0.8) 20px, transparent 1%) center, linear-gradient(rgba(168, 202, 253, 0.8) 20px, transparent 1%) center, rgba(204, 222, 247, 0.6);
+  background: linear-gradient(90deg, rgba(168, 202, 253, 0.8) 21px, transparent 1%) center, linear-gradient(rgba(168, 202, 253, 0.8) 21px, transparent 1%) center, rgba(204, 222, 247, 0.6);
   background-size: 22px 22px; }
 
 .bold {
@@ -254,6 +254,11 @@ xl, extra-large: 1920px or larger
   font-size: .875em;
   font-weight: bold;
   letter-spacing: 1px; }
+
+.reverse {
+  color: white;
+  background-color: #131517;
+  padding: .5em; }
 
 /* Navigation */
 /* https://www.w3schools.com/code/tryit.asp?filename=G6913M8THUXM */

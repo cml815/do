@@ -52,6 +52,10 @@
   .flex-container > * {
     flex: 1;
   }
+
+  .flex-item {
+      flex: 1;
+  }
   
   .flex-container-wide {
     flex: 2;
@@ -98,13 +102,6 @@
     display: grid;
 }
 
-.flex-container {
-    display: flex;
-}
-
-.flex-item {
-    flex: 0 1;
-}
 
 .flex-container-col {
     display: flex;
@@ -150,8 +147,12 @@
     height: 100vh;
   }
   
-  .pad {
+  .pad-1 {
       padding: 1em; 
+  }
+
+  .pad-2 {
+      padding: 2em;
   }
 
 .two-x-two {
@@ -165,16 +166,6 @@
 
 
 /* Alignment */ 
-
-.flex-center {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.flex-item-center {
-    width: 50%;
-}
 
 .center {
     justify-self: center;
@@ -322,5 +313,11 @@
     font-size: .875em;
     font-weight: bold;
     letter-spacing: 1px;
+  }
+
+  .reverse {
+      color: white;
+      background-color: $black;
+      padding: .5em;
   }
   
