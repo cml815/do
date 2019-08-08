@@ -115,6 +115,9 @@ xl, extra-large: 1920px or larger
 .fluid-small {
   grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); }
 
+.fluid-xsmall {
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); }
+
 .gap {
   grid-gap: 1em; }
 
@@ -177,16 +180,6 @@ xl, extra-large: 1920px or larger
 .title-box {
   padding: 0 1em;
   margin: 1em 0; }
-
-.growth {
-  padding: 1em;
-  border: black 2px solid;
-  background: url("../images/laptop.jpg");
-  background-size: cover; }
-
-.bg-icon {
-  background: url("../images/laptop.jpg");
-  background-size: contain; }
 
 /* About page icons */
 .icon-container {
@@ -261,6 +254,18 @@ xl, extra-large: 1920px or larger
   padding: .5em; }
 
 .text-margin > * {
+  margin-bottom: 1em; }
+
+.main-content {
+  padding: 1em 2em; }
+
+.main-content h2 {
+  margin-bottom: 1em; }
+
+.main-content p {
+  font-family: "Merriweather", Georgia, Times, serif;
+  font-size: 1.2em;
+  line-height: 1.5em;
   margin-bottom: 1em; }
 
 /* Navigation */
@@ -459,17 +464,6 @@ nav li:hover {
   color: white;
   line-height: 1.25em; }
 
-.text-block {
-  background-color: #B30B18;
-  color: white;
-  line-height: 1.25em; }
-
-.text-block p, .main-content p {
-  font-family: "Merriweather", Georgia, Times, serif;
-  font-size: 1.25em;
-  font-weight: bolder;
-  padding: 1em 2em; }
-
 .case-study .headline {
   height: 33vh; }
 
@@ -477,12 +471,6 @@ nav li:hover {
   font-weight: bold;
   font-size: 1.4em;
   color: #f77a99; }
-
-.main-content {
-  padding: 1em 2em; }
-
-.main-content p {
-  margin-bottom: 2em; }
 
 .tag-list li {
   display: inline;
@@ -568,9 +556,9 @@ nav li:hover {
     flex-direction: column; } }
 
 /* Temp margin fix - todo delete */
-* {
-  border: 1px solid red; }
-
+/* * {
+  border:1px solid red;
+} */
 *, *:before, *:after {
   box-sizing: inherit; }
 
@@ -1193,9 +1181,7 @@ footer {
 
 /* Work page */
 .services > article {
-  height: 100vh;
-  background: url("../images/laptop.jpg") no-repeat center;
-  background-size: contain; }
+  height: 100vh; }
 
 .card-wrap > * {
   margin-bottom: 2em; }
@@ -1217,6 +1203,22 @@ footer {
 
 .grow {
   background-color: #1b7ace; }
+
+.service-container li:first-child {
+  background-color: #424A51;
+  color: white; }
+
+.service-container li:nth-child(2) {
+  background-color: #3a4aa5;
+  color: white; }
+
+.service-container li:nth-child(3) {
+  background-color: #c02e53;
+  color: white; }
+
+.service-container li:nth-child(4) {
+  background-color: green;
+  color: white; }
 
 /* Case stories */
 /* Contact page */

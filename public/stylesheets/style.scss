@@ -476,8 +476,6 @@ animation: fade-in 1.4s;
 
 .services > article {
   height: 100vh;
- background: url("../images/laptop.jpg") no-repeat center;
- background-size: contain;
 }
 
 .card-wrap > * {
@@ -508,7 +506,24 @@ animation: fade-in 1.4s;
   background-color: $grow;
 }
 
-.icon-container li {
+.service-container li:first-child {
+  background-color: $charcoal;
+  color: white;
+}
+
+.service-container li:nth-child(2) {
+  background-color: $indigo;
+  color: white;
+}
+
+.service-container li:nth-child(3) {
+  background-color: $cerise;
+  color: white;
+}
+
+.service-container li:nth-child(4) {
+  background-color: green;
+  color: white;
 }
 
 /* Case stories */

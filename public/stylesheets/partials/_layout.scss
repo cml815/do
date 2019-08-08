@@ -136,6 +136,10 @@
     grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
 }
 
+.fluid-xsmall  {
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+}
+
 .gap {
     grid-gap: 1em;
 }
@@ -217,18 +221,6 @@
 .title-box {
     padding: 0 1em;
     margin: 1em 0;
-}
-
-.growth {
-    padding: 1em;
-    border: black 2px solid;
-    background: url('../images/laptop.jpg');
-    background-size: cover;
-}
-
-.bg-icon {
-    background: url('../images/laptop.jpg');
-    background-size: contain;
 }
 
 /* About page icons */ 
@@ -335,3 +327,22 @@
   .text-margin > * {
       margin-bottom: 1em;
   }
+
+  // Text heavy styles (for readability) //
+  
+
+.main-content {
+    padding: 1em 2em;
+  }
+  
+  .main-content h2 {
+      margin-bottom: 1em;  
+  }
+
+.main-content p {
+    font-family: $serif;
+    font-size: 1.2em;
+    line-height: 1.5em;
+    margin-bottom: 1em;
+  }
+  

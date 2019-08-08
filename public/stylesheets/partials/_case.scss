@@ -61,20 +61,6 @@ color: white;
 line-height: 1.25em;
 }
 
-.text-block {
-  background-color: #B30B18;
-  color: white;
-  line-height: 1.25em;
-  }
-
-.text-block p, .main-content p {
-  font-family: $serif;
-  font-size: 1.25em;
-  font-weight: bolder;
-  padding: 1em 2em;
-  
-}
-
 .case-study .headline {
   height: 33vh;
 }
@@ -84,16 +70,6 @@ line-height: 1.25em;
   font-size: 1.4em;
   color: $cherry;
 }
-
-.main-content {
-  padding: 1em 2em;
-}
-
-.main-content p {
-  margin-bottom: 2em;
-}
-
-
 
 .tag-list li {
   display: inline;
