@@ -35,7 +35,7 @@ xl, extra-large: 1920px or larger
 .shape {
   border-radius: 30% 70% 58% 42% / 30% 37% 63% 70%;
   background-color: #c4beff;
-  width: 80%;
+  width: 100%;
   height: 100%; }
 
 .shape.alt {
@@ -921,6 +921,12 @@ div#myDiv {
 
 .inner-container > * {
   margin-bottom: 1em; }
+
+@media screen and (min-width: 768px) {
+  .inner-container {
+    padding: 2em; }
+  .inner-container > * {
+    margin-bottom: 2em; } }
 
 /* Home page styles */
 .home .title-box {

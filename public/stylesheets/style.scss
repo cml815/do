@@ -186,6 +186,15 @@ div#myDiv {
   margin-bottom: 1em;
 }
 
+@media screen and (min-width: $medium) {
+  .inner-container {
+    padding: 2em;
+  }
+  .inner-container > *{
+    margin-bottom: 2em;
+  }
+}
+
 /* Home page styles */
 
 .home .title-box {
