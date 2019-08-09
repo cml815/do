@@ -33,6 +33,9 @@ xl, extra-large: 1920px or larger
   padding: .25em;
   color: #131517; }
 
+.circle {
+  border-radius: 50%; }
+
 .shape {
   border-radius: 30% 70% 58% 42% / 30% 37% 63% 70%;
   background-color: #c4beff;
@@ -229,8 +232,7 @@ pxx
 
 .card {
   justify-self: center;
-  overflow: hidden;
-  padding: 1em; }
+  overflow: hidden; }
 
 .shadow {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); }
@@ -460,10 +462,6 @@ nav li:hover {
 .inactive {
   background-color: #424A51;
   color: white; }
-
-.growth-marketing .hero {
-  background: url("../images/head-screen.png") no-repeat center;
-  background-position: cover; }
 
 /* Case study page layout  */
 .grant-case-study .text-block {
@@ -1189,7 +1187,14 @@ footer {
 .member {
   height: 25vh; }
 
-/* Work page */
+/* Work page and sub-pages */
+.growth-marketing .hero {
+  background-image: url("../images/people.png");
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  background-color: rgba(255, 255, 255, 0.8);
+  background-blend-mode: lighten; }
+
 .card-wrap > * {
   margin-bottom: 2em; }
 
@@ -1212,7 +1217,7 @@ footer {
   background-color: #1b7ace; }
 
 .service-container i {
-  background-color: #1b7ace;
+  background-color: #131517;
   border-radius: 50%;
   padding: 1em;
   color: white;

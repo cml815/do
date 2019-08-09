@@ -473,10 +473,15 @@ animation: fade-in 1.4s;
 
 }
 
+/* Work page and sub-pages */
 
-
-/* Work page */
-
+.growth-marketing .hero {
+  background-image: url('../images/people.png');
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  background-color: rgba(255, 255, 255, 0.8);
+  background-blend-mode: lighten;
+}
 
 .card-wrap > * {
   margin-bottom: 2em;
@@ -507,12 +512,13 @@ animation: fade-in 1.4s;
 }
 
 .service-container i {
-  background-color: $grow;
+  background-color: $black;
   border-radius: 50%;
   padding: 1em;
   color: white;
   font-size: 2em;
 }
+
 
 .bottom-border {
   bottom: 0;
