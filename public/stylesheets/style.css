@@ -1256,6 +1256,38 @@ footer {
 .grow.light {
   background-color: #7683cf; }
 
+.lead {
+  background-color: #f9973b;
+  color: white; }
+
+.lead.darker {
+  background-color: #f77d0a; }
+
+.lead.dark {
+  background-color: #c86406; }
+
+.lead.lighter {
+  background-color: #fbb16c; }
+
+.lead.light {
+  background-color: #fccc9e; }
+
+.fund {
+  background-color: #ff5947;
+  color: white; }
+
+.fund.darker {
+  background-color: #ff2b14; }
+
+.fund.dark {
+  background-color: #e01600; }
+
+.lead.lighter {
+  background-color: #fbb16c; }
+
+.lead.light {
+  background-color: #fccc9e; }
+
 .service-container i {
   background-color: #131517;
   border-radius: 50%;

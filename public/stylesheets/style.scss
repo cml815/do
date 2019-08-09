@@ -536,6 +536,48 @@ animation: fade-in 1.4s;
   background-color: lighten($grow, 20);
 }
 
+.lead {
+  background-color: $lead;
+  color: white;
+}
+
+.lead.darker {
+  background-color: darken($lead, 10);
+}
+
+.lead.dark {
+  background-color: darken($lead, 20)
+}
+
+.lead.lighter {
+  background-color: lighten($lead, 10);
+}
+
+.lead.light {
+  background-color: lighten($lead, 20);
+}
+
+.fund {
+  background-color: $fund;
+  color: white;
+}
+
+.fund.darker {
+  background-color: darken($fund, 10);
+}
+
+.fund.dark {
+  background-color: darken($fund, 20)
+}
+
+.lead.lighter {
+  background-color: lighten($lead, 10);
+}
+
+.lead.light {
+  background-color: lighten($lead, 20);
+}
+
 .service-container i {
   background-color: $black;
   border-radius: 50%;
