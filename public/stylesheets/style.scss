@@ -200,7 +200,8 @@ div#myDiv {
 
 @media screen and (min-width: $medium) {
   .inner-container {
-    max-width: 728px;
+    max-width: 900px;
+    margin: 0 auto;
     padding: 0 1em;
   }
 }
