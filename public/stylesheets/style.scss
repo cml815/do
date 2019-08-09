@@ -198,6 +198,13 @@ div#myDiv {
   }
 }
 
+@media screen and (min-width: $medium) {
+  .inner-container {
+    max-width: 728px;
+    padding: 0 1em;
+  }
+}
+
 /* Home page styles */
 
 .home .title-box {

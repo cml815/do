@@ -932,6 +932,11 @@ div#myDiv {
   .inner-container > * {
     margin-bottom: 2em; } }
 
+@media screen and (min-width: 768px) {
+  .inner-container {
+    max-width: 728px;
+    padding: 0 1em; } }
+
 /* Home page styles */
 .home .title-box {
   padding: 0;
