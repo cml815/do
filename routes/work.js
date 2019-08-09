@@ -31,8 +31,8 @@ router.get('/media-relations', function(req, res, next) {
 
 router.get('/lead-generation', function(req, res, next) {
   res.render('lead-generation', { 
-    title: 'Founder stories on risk, reward and travel',
-    summary: 'Fuel interviewed dozens of entrepreneurs on how to make a mark in the travel world',
+    title: 'Lead Generation',
+    summary: 'We\'ll help you generate interest in your product and service',
     bodyClass: 'leads',
     shortTitle: 'lead generation',
     caption: 'null',
