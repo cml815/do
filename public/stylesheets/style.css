@@ -36,6 +36,13 @@ xl, extra-large: 1920px or larger
   padding: .25em;
   color: #131517; }
 
+.tag-container {
+  padding: 1em 0;
+  margin: 1em 0; }
+
+.tag-container li {
+  max-width: 20vw; }
+
 .circle {
   border-radius: 50%; }
 
@@ -119,6 +126,9 @@ pxx
   max-width: 100%; }
 
 .flex-spaced-b {
+  justify-content: space-between; }
+
+.space-between {
   justify-content: space-between; }
 
 .grid-container-fluid {
@@ -683,7 +693,10 @@ sup {
   border: solid 2px #242943;
   background-color: transparent; }
 
-.btn.large {
+.small {
+  padding: .25em; }
+
+.large {
   padding: .75em 1.5em; }
 
 .rounded {
@@ -903,7 +916,7 @@ div#myDiv {
   .hero > * {
     /* margin-left: 1em; */ }
   .hero > .text-container {
-    width: 50%; }
+    width: 70%; }
   h1 {
     font-size: 2.8em; } }
 
