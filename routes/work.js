@@ -9,10 +9,10 @@ router.get('/growth-marketing', function(req, res, next) {
   res.render('growth-marketing', { 
     title: 'Grow traffic with influencer and content marketing',
     bodyClass: 'growth-marketing',
-    shortTitle: 'digital marketing',
+    shortTitle: 'growth marketing',
     summary: '',
     name: '',
-    tag: ['content marketing','influencer marketing','video'],
+    tag: ['content marketing','influencer marketing','video', 'seo'],
     layout: 'default' 
   });
 });
@@ -21,6 +21,7 @@ router.get('/media-relations', function(req, res, next) {
   res.render('media-relations', { 
     title: 'Mass Shootings, No More',
     bodyClass: 'pr',
+    shortTitle: 'media relations', 
     summary: '',
     tag: ['strategy', 'public relations', 'earned media'],
     layout: 'default' 
@@ -33,10 +34,10 @@ router.get('/lead-generation', function(req, res, next) {
     title: 'Founder stories on risk, reward and travel',
     summary: 'Fuel interviewed dozens of entrepreneurs on how to make a mark in the travel world',
     bodyClass: 'leads',
-    jobTitle: 'null',
+    shortTitle: 'lead generation',
     caption: 'null',
     credit: 'null',
-    tag: ['content marketing', 'thought leadership', 'seo'],
+    tag: ['landing pages', 'downloaded content', 'white papers'],
     layout: 'default' 
   });
 });
@@ -48,10 +49,11 @@ router.get('/grant-proposals', function(req, res, next) {
     title: 'Win grant awards with federal and SBIR grant proposals',
     summary: 'How Fuel helped tech and biotech companies win funding to bring their innovations to market',
     bodyClass: 'grants',
+    shortTitle: 'Fundraising',
     jobTitle: 'null',
     caption: 'null',
     credit: 'null',
-    tag: ['grants', 'sbir', 'biotech'],
+    tag: ['grants', 'contracts', 'procurement', 'sbir', 'biotech'],
     layout: 'default' 
   });
 });
