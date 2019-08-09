@@ -9,11 +9,14 @@
 /* pool */
 /* indigo */
 /* indigo lite */
+/* button */
+/* night */
 /* test primary color palette */
 /* not in use */
 /* Coolors Exported Palette - coolors.co/3a4aa5-57b8ff-485254-f9973b-ff5947 */
 /* RGB */
 /* work category color scheme */
+/* lighten($indigo, 5%); */
 /* backgrounds */
 /* Typography */
 /* min-width */
@@ -99,6 +102,7 @@ pxx
   display: grid; }
 
 .stretch {
+  disply: grid;
   justify-items: stretch; }
 
 .flex-container-col {
@@ -695,10 +699,14 @@ sup {
   text-transform: uppercase;
   font-weight: bold; }
 
-.btn:hover {
-  background-color: #4152b8;
-  transition: 400ms;
-  transition-timing-function: ease-in-out; }
+.btn .main {
+  display: inline-block;
+  background: purple;
+  color: white; }
+  .btn .main:hover {
+    background: #4d004d;
+    transition: 400ms;
+    transition-timing-function: ease-in-out; }
 
 .btn:hover p {
   color: white; }
@@ -1214,7 +1222,20 @@ footer {
   background-color: #ff5947; }
 
 .grow {
-  background-color: #1b7ace; }
+  background-color: #3a4aa5;
+  color: white; }
+
+.grow.darker {
+  background-color: #2d397f; }
+
+.grow.dark {
+  background-color: #1f285a; }
+
+.grow.lighter {
+  background-color: #5061c2; }
+
+.grow.light {
+  background-color: #7683cf; }
 
 .service-container i {
   background-color: #131517;
@@ -1222,6 +1243,10 @@ footer {
   padding: 1em;
   color: white;
   font-size: 2em; }
+
+.growth-marketing > .card {
+  width: 100%;
+  height: 100%; }
 
 .bottom-border {
   bottom: 0;

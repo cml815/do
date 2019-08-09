@@ -509,6 +509,23 @@ animation: fade-in 1.4s;
 
 .grow {
   background-color: $grow;
+  color: white;
+}
+
+.grow.darker {
+  background-color: darken($grow, 10);
+}
+
+.grow.dark {
+  background-color: darken($grow, 20)
+}
+
+.grow.lighter {
+  background-color: lighten($grow, 10);
+}
+
+.grow.light {
+  background-color: lighten($grow, 20);
 }
 
 .service-container i {
@@ -519,6 +536,10 @@ animation: fade-in 1.4s;
   font-size: 2em;
 }
 
+.growth-marketing > .card {
+  width: 100%;
+  height: 100%;
+}
 
 .bottom-border {
   bottom: 0;

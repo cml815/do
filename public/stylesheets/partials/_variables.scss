@@ -16,6 +16,9 @@ $bg-orange: rgba(249, 151, 59, .5);
 
 $gold: #F2AA18;
 
+/* button */ 
+$btn-main: #242943; /* night */
+
 /* test primary color palette */
 
 $cherry: rgb(247, 122, 153);
@@ -53,7 +56,9 @@ $red: rgba(255, 89, 71, 1);
 
 $lead: rgba(249, 151, 59, 1); 
 $fund: rgba(255, 89, 71, 1); 
-$grow:rgba(27, 122, 206, 1);
+$grow: rgba(58, 74, 165, 1);
+
+/* lighten($indigo, 5%); */
 
 /* backgrounds */
 
@@ -101,6 +106,8 @@ $medium: 768px;
 $tablet: (min-width: 768px) and (max-width: 1024px);
 $lap-desk: (min-width: 1025px) and (max-width: 1280px); 
 $desktop-large: (min-width: 1281px)
+
+
 
 
 /* 
