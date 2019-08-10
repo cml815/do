@@ -11,12 +11,14 @@ img .feature-img
 
 .text-container
 
-.grid-container
+.grid-c
 .icon-grid
 
-.flex-container--col
-.flex-container
-.flex-center
+.flex-c
+.flex-c--col
+.flex-c--center
+
+.flex-c--center
 
 .center
 .full-width
