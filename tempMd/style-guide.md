@@ -14,7 +14,7 @@ img .feature-img
 .grid-container
 .icon-grid
 
-.flex-container-col
+.flex-container--col
 .flex-container
 .flex-center
 

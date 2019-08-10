@@ -112,7 +112,7 @@ pxx
   disply: grid;
   justify-items: stretch; }
 
-.flex-container-col {
+.flex-container--col {
   display: flex;
   flex-direction: column; }
 
