@@ -1216,7 +1216,7 @@ footer {
 
 /* Work page and sub-pages */
 .growth-marketing .hero {
-  background-image: url("../images/people.png");
+  background: skyblue url("../images/people.png") no-repeat center bottom;
   background-repeat: no-repeat;
   background-position: center bottom;
   background-color: rgba(255, 255, 255, 0.8);
