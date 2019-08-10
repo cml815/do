@@ -9,6 +9,20 @@
     color: $black; 
   }
 
+/* Containers */
+
+.container__inner--text {
+    padding: .5em;
+    margin-bottom: 2em;
+}
+
+@media screen and (min-width: $mobile) {
+.container__inner--text {
+    padding: 5em;
+}
+
+}
+
 .tag-container {
     padding: 1em 0;
     margin: 1em 0;
@@ -22,13 +36,16 @@
     border-radius: 50%;
 }
 
+.container-temp {
+    max-width: 100%;
+    overflow: hidden;
+}
+
 .shape {
     border-radius: 30% 70% 58% 42% / 30% 37% 63% 70%;
-    background-color: $indigo-lt;
-    width: 100%;
-    height: 100%;
+    background-color: $pool;
     }
-pxx
+
 .shape.alt {
     border-radius: 30% 70% 17% 83% / 30% 78% 22% 70%;
  
