@@ -62,7 +62,8 @@ pxx
 
   /* Flexbox */
 
-.flex-c {
+
+.flex, .flex-c {
     display: flex;
   }
   
@@ -70,8 +71,12 @@ pxx
     flex: 1;
   }
 
-  .flex-item {
+  .flex-item, .flex-i {
       flex: 1;
+  }
+
+  .flex-item--double {
+      flex: 2;
   }
   
   .flex-c--col {
