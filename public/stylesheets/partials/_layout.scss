@@ -131,15 +131,19 @@ pxx
 
 .grid-c-fluid {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax($minmax-l, 1fr));
   }
 
-.fluid-small {
-    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+.fluid-med {
+    grid-template-columns: repeat(auto-fill, minmax($minmax-m, 1fr));
 }
 
-.fluid-xsmall  {
-    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+.fluid-small  {
+    grid-template-columns: repeat(auto-fill, minmax($minmax-s, 1fr));
+}
+
+.fluid-small  {
+    grid-template-columns: repeat(auto-fill, minmax($minmax-xs, 1fr));
 }
 
 .gap {
