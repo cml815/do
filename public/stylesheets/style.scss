@@ -141,13 +141,6 @@ div#myDiv {
   transform: skewY(20deg); /* Standard syntax */
 }
 
-
-.hero > .text-container {
-  height: 100%;
-  width: 100%;
-  margin-top: 80px;
-}
-
 @media screen and (min-width: $mobile) {
   .hero {
     flex-direction: column;
@@ -157,7 +150,7 @@ div#myDiv {
     .hero > * {
       /* margin-left: 1em; */
     }
-    .hero > .text-container {
+    .hero > .hero__inner-container {
       width: 70%;
     }
   h1 {

@@ -897,7 +897,7 @@ div#myDiv {
   transform: skewY(20deg);
   /* Standard syntax */ }
 
-.hero > .text-container {
+.hero > .hero__inner-container {
   height: 100%;
   width: 100%;
   margin-top: 80px; }
@@ -909,7 +909,7 @@ div#myDiv {
     justify-content: center; }
   .hero > * {
     /* margin-left: 1em; */ }
-  .hero > .text-container {
+  .hero > .hero__inner-container {
     width: 70%; }
   h1 {
     font-size: 2.8em; } }
