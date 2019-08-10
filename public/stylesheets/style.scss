@@ -225,34 +225,6 @@ div#myDiv {
   padding: 0 0 1em;
 }
 
-.icon-grid {
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr 1fr;
-  align-items: center;
-  justify-content: center;
-  align-content: center;
-  padding: 1em;
-  height: 50vh;
-}
-.icon-grid li {
-  height: 25vh;
-  font-weight: bolder;
-  font-size: 1.25em;
-  letter-spacing: .5px;
-}
-
-.icon-grid li:nth-child(2n) {
-  border-left: .5px dotted #fff;
-}
-
-.icon-grid li:nth-child(3) {
-  border-top: .5px dotted #fff;
-}
-
-.icon-grid li:nth-child(4) {
-  border-top: .5px dotted #fff;
-}
-
 /* Background video */
 
 * { box-sizing: border-box; }
