@@ -589,9 +589,9 @@ nav li:hover {
     flex-direction: column; } }
 
 /* Temp margin fix - todo delete */
-/* * {
-  border:1px solid red;
-} */
+* {
+  border: 1px solid red; }
+
 *, *:before, *:after {
   box-sizing: inherit; }
 
