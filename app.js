@@ -65,6 +65,11 @@ app.use(sassMiddleware({
 app.use(favicon(path.join(__dirname,'public','images','favicon.ico')));
 app.use(express.static(path.join(__dirname, 'public')));
 
+// Serve static assets from non-root routes
+/* app.use('/', express.static(__dirname + '/public')); */
+app.use('/work', express.static(__dirname + '/public'));
+app.use('/projects', express.static(__dirname + '/public'));
+
 app.use('/', indexRouter);
 app.use('/users', usersRouter);
 app.use('/work', workRouter);
