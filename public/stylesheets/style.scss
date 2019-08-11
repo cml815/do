@@ -125,22 +125,6 @@ figure.card:nth-child(2) {
   background: $highlight;
 }
 
-
-.hero.bg {
-  /* background-image: linear-gradient(to bottom, white, $cherry-lt); */
-
-}
-
-.hero h1 {
- 
-}
-
-div#myDiv {
-  -ms-transform: skewY(20deg); /* IE 9 */
-  -webkit-transform: skewY(20deg); /* Safari prior 9.0 */
-  transform: skewY(20deg); /* Standard syntax */
-}
-
 @media screen and (min-width: $mobile) {
   .hero {
     flex-direction: column;
@@ -201,18 +185,6 @@ div#myDiv {
 
 /* Home page styles */
 
-.home .title-box {
-  padding: 0;
-  width: 100%;
-  margin-bottom: 2em;
-  height: 25vh;
-  background-color: $cerise;
-  color: white;
-}
-
-.home article > * {
-  padding: 0 0 1em;
-}
 
 /* Background video */
 
