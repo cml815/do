@@ -41,30 +41,6 @@
     overflow: hidden;
 }
 
-.shape {
-    border-radius: 30% 70% 58% 42% / 30% 37% 63% 70%;
-    background-color: $pool;
-    }
-
-.shape.alt {
-    border-radius: 30% 70% 17% 83% / 30% 78% 22% 70%;
- 
-}
-
-.shape > * {
-    padding: 2em;
-}
-
-.bg-dot {
-
-    background:
-		linear-gradient(90deg, $bg-color ($dot-space - $dot-size), transparent 1%) center,
-		linear-gradient($bg-color ($dot-space - $dot-size), transparent 1%) center,
-		$dot-color;
-    background-size: $dot-space $dot-space;
-
-}
-
 .bold {
     font-weight: bold;
 }
