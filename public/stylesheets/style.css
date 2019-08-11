@@ -20,7 +20,7 @@
 /* lighten($indigo, 5%); */
 /* backgrounds */
 /* Typography */
-/* min-width */
+/* min-width for larger screens*/
 /* 
 xs, extra-small: 0px or larger
 sm, small: 600px or larger
@@ -38,6 +38,17 @@ xl, extra-large: 1920px or larger
   color: #131517; }
 
 /* Containers */
+.banner {
+  width: 100%;
+  padding: 1em 0; }
+
+.banner__dark {
+  background-color: #3a4aa5;
+  color: white; }
+
+.bannerh2 {
+  font-family: "Merriweather", Georgia, Times, serif; }
+
 .container__inner--text {
   padding: .5em;
   margin-bottom: 2em; }
@@ -118,17 +129,21 @@ xl, extra-large: 1920px or larger
   display: grid;
   justify-items: stretch; }
 
-.grid-c-fluid {
+.grid-c__fluid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); }
+
+.grid-c__fluid--l {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(400px, 1fr)); }
 
-.fluid-med {
+.grid-c__fluid--m {
   grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); }
 
-.fluid-small {
+.grid-c__fluid--s {
   grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); }
 
-.fluid-small {
+.grid-c__fluid-xs {
   grid-template-columns: repeat(auto-fill, minmax(100px, 1fr)); }
 
 .gap {
@@ -589,9 +604,9 @@ nav li:hover {
     flex-direction: column; } }
 
 /* Temp margin fix - todo delete */
-* {
-  border: 1px solid red; }
-
+/* * {
+  border: 1px solid red;
+} */
 *, *:before, *:after {
   box-sizing: inherit; }
 
@@ -647,6 +662,9 @@ h5 {
 
 h6 {
   font-size: 1em; }
+
+.serif {
+  font-family: "Merriweather", Georgia, Times, serif; }
 
 p {
   font-family: "Barlow", Helvetica, "Helvetica Neue", Arial, sans-serif;

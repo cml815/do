@@ -11,6 +11,24 @@
 
 /* Containers */
 
+.banner {
+    width: 100%;
+    padding: 1em 0;
+}
+
+.banner {
+    &__dark {
+        background-color: $indigo;
+        color: white;
+    }
+    &h2 {
+        font-family: $serif;
+    }
+}
+
+
+
+
 .container__inner--text {
     padding: .5em;
     margin-bottom: 2em;
@@ -127,20 +145,25 @@
     justify-items: stretch;
 }
 
-.grid-c-fluid {
+.grid-c__fluid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax($minmax, 1fr));
+  }
+
+.grid-c__fluid--l {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax($minmax-l, 1fr));
   }
 
-.fluid-med {
+.grid-c__fluid--m {
     grid-template-columns: repeat(auto-fill, minmax($minmax-m, 1fr));
 }
 
-.fluid-small  {
+.grid-c__fluid--s  {
     grid-template-columns: repeat(auto-fill, minmax($minmax-s, 1fr));
 }
 
-.fluid-small  {
+.grid-c__fluid-xs  {
     grid-template-columns: repeat(auto-fill, minmax($minmax-xs, 1fr));
 }
 
@@ -310,7 +333,7 @@
 
 /* Container components */
 
-.card-container {
+.cards {
     display: grid;
   }
     
