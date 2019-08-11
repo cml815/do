@@ -40,6 +40,12 @@ body {
     overflow-x: hidden;
 }
 
+@media screen and (min-width: $mobile) {
+  body {
+    font-size: 18px;
+  }
+}
+
 main {
   display: block;
   /* min-height: calc(100vh - 50px); */
@@ -47,8 +53,7 @@ main {
 
 h2, h3, h4, h5, h6 {
     font-family: $sans;
-    letter-spacing: .25px;
-    line-height: 1.25em;
+    letter-spacing: .1px;
 }
 
 h1 {
@@ -56,37 +61,36 @@ h1 {
   font-family: $display;
   font-size: 2em;
   letter-spacing: .25px;
-  line-height: 1.25em;
+  line-height: 1.8em;
 }
 
 h2 {  
-    font-size: 1.6em;
+    font-size: 1.75em;
+    line-height: 1.4em;
 }
 
-h3 {
-    font-size: 1.6em;
+h3, h4 {
+    font-size: 1.5em;
+    line-height: 1.3em;
 }
 
-h4 {
-    font-size: 1.4em;
-}
-
-h5 {
-    font-size: 1.2em;
-}
-
-h6 {
-    font-size: 1em;
+h5, h6 {
+    font-size: 1.25em;
+    line-height: 1.3em;
 }
 
 .serif {
   font-family: $serif;
 }
 
+.sans {
+  font-family: $sans;
+}
+
 p {
     font-family: $sans;
     font-size: 1em;
-    line-height: 1.2em;
+    line-height: 1.3em;
     margin-bottom: 1.5em;
 }
 

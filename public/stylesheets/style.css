@@ -640,44 +640,47 @@ body {
   color: #131517;
   overflow-x: hidden; }
 
+@media screen and (min-width: 599px) {
+  body {
+    font-size: 18px; } }
+
 main {
   display: block;
   /* min-height: calc(100vh - 50px); */ }
 
 h2, h3, h4, h5, h6 {
   font-family: Helvetica, "Helvetica Neue", Arial, sans-serif;
-  letter-spacing: .25px;
-  line-height: 1.25em; }
+  letter-spacing: .1px; }
 
 h1 {
   margin: 0.67em 0;
   font-family: "Montserrat", sans-serif;
   font-size: 2em;
   letter-spacing: .25px;
-  line-height: 1.25em; }
+  line-height: 1.8em; }
 
 h2 {
-  font-size: 1.6em; }
+  font-size: 1.75em;
+  line-height: 1.4em; }
 
-h3 {
-  font-size: 1.6em; }
+h3, h4 {
+  font-size: 1.5em;
+  line-height: 1.3em; }
 
-h4 {
-  font-size: 1.4em; }
-
-h5 {
-  font-size: 1.2em; }
-
-h6 {
-  font-size: 1em; }
+h5, h6 {
+  font-size: 1.25em;
+  line-height: 1.3em; }
 
 .serif {
   font-family: "Merriweather", Georgia, Times, serif; }
 
+.sans {
+  font-family: Helvetica, "Helvetica Neue", Arial, sans-serif; }
+
 p {
   font-family: Helvetica, "Helvetica Neue", Arial, sans-serif;
   font-size: 1em;
-  line-height: 1.2em;
+  line-height: 1.3em;
   margin-bottom: 1.5em; }
 
 ul, li {
@@ -977,9 +980,6 @@ figure.card:nth-child(2) {
     padding: 0 1em; } }
 
 /* Home page styles */
-.benefits {
-  height: 100vh; }
-
 /* Background video */
 * {
   box-sizing: border-box; }
