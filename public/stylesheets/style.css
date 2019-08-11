@@ -270,12 +270,18 @@ xl, extra-large: 1920px or larger
   min-height: 100%; }
 
 /* Container components */
-.card-container {
+.cards {
   display: grid; }
+
+.cards--gap {
+  grid-gap: 1em; }
 
 .card {
   justify-self: center;
   overflow: hidden; }
+
+.card {
+  background-color: #f77a99; }
 
 .shadow {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); }
@@ -987,9 +993,6 @@ div#myDiv {
   height: 25vh;
   background-color: #c02e53;
   color: white; }
-
-.home article {
-  height: 100vh; }
 
 .home article > * {
   padding: 0 0 1em; }

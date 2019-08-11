@@ -336,10 +336,18 @@
 .cards {
     display: grid;
   }
+
+  .cards--gap {
+      grid-gap: 1em;
+  }
     
   .card {
     justify-self: center;
     overflow: hidden;
+  }
+
+  .card {
+      background-color: $cherry;
   }
 
   .shadow {
