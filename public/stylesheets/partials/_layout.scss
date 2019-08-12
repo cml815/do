@@ -253,6 +253,35 @@
     min-height: 100%;
 }
 
+figure {
+    &.placer {
+        background-color: red;
+    }
+}
+
+/* Image gallery grid -- About page */
+
+@media(min-width: $mobile) {
+    .grid-c__columns {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+  
+  @media(min-width: $medium) {
+    .grid-c__columns {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr)
+    }
+    figure:nth-child(3), .enlarge-2 {
+      grid-row: span 2;
+    }
+    figure:nth-child(4) {
+      grid-column: span 2;
+      grid-row: span 2;
+    }
+  }
+
 
 /* Alignment */ 
 

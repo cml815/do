@@ -446,10 +446,10 @@ animation: fade-in 1.4s;
 
 }
 
-.team {
+.team, .grid-c__fixed--c3r3 {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
   grid-gap: 2em 1em;
 }
 

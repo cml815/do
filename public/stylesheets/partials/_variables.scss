@@ -111,8 +111,12 @@ $serif-old: 'Aleo', Georgia, 'Times New Roman', Times, serif;
     @media (min-width: 1800px) { @content; }
   }
 
-$mobile: 599px; /* min-width for larger screens*/
-$medium: 768px;
+/* min-width breakpoints*/
+$mobile: 599px; 
+$small: 599px;
+$medium: 900px;
+$large: 1025px;
+
 $tablet: (min-width: 768px) and (max-width: 1024px);
 $lap-desk: (min-width: 1025px) and (max-width: 1280px); 
 $desktop-large: (min-width: 1281px)
