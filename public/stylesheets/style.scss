@@ -555,12 +555,19 @@ animation: fade-in 1.4s;
   background-color: lighten($lead, 20);
 }
 
-.service-container i {
+.icon-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.icon-container i {
+  flex: 0 1;
   background-color: $black;
   border-radius: 50%;
-  padding: 1em;
+  padding: .75em;
   color: white;
-  font-size: 2em;
+  font-size: 1em;
+  max-width: 25vw;
 }
 
 .growth-marketing > .card {
@@ -576,28 +583,6 @@ animation: fade-in 1.4s;
   background-color: $indigo; 
 }
 
-/* 
-.service-container li:first-child {
-  background-color: $charcoal;
-  color: white;
-}
-
-.service-container li:nth-child(2) {
-  background-color: $indigo;
-  color: white;
-}
-
-.service-container li:nth-child(3) {
-  background-color: $cerise;
-  color: white;
-}
-
-.service-container li:nth-child(4) {
-  background-color: green;
-  color: white;
-}
-
-*/
 
 /* Case stories */
 
