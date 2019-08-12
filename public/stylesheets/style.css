@@ -680,7 +680,7 @@ h1 {
   font-family: "Montserrat", sans-serif;
   font-size: 2em;
   letter-spacing: .25px;
-  line-height: 1.8em; }
+  line-height: 1.4em; }
 
 h2 {
   font-size: 1.75em;
@@ -1024,7 +1024,8 @@ figure.card:nth-child(2) {
     /* Will override color (regardless of order) */
     -webkit-text-stroke-width: 3px;
     -webkit-text-stroke-color: black;
-    letter-spacing: 2px; } }
+    text-shadow: 3px 3px 0 #000, -1px -1px 0 #000,   1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    letter-spacing: 3px; } }
 
 .width-tune {
   max-width: 250px; }
