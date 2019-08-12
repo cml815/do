@@ -194,17 +194,12 @@ figure.card:nth-child(2) {
   max-width: 70ch; 
 }
 
-.text__background {
-  position: absolute;
-  border: 1px solid red;
-}
-
 @media screen and (min-width: $mobile) {
 .text-as-background {
   writing-mode: vertical-rl;
   text-orientation: sideways;
   position: relative;
-  top: -50px;
+  top: -25px;
   color: rgba(0,0,0,0.5);
   font-family: $display;
   font-size: 4em;
