@@ -4,9 +4,55 @@
 
 
 
-Public agencies reward companies and not-for-profits for solving important problems in cost-effective ways. Billions of dollars finance a variety of health and technology projects. 
+Public agencies reward companies and not-for-profits for solving important problems in cost-effective ways. Therefore, the U.S. government distributes billions of dollars each year to finance healthcare, technology and human services. 
 
-We help our clients describe their projects in a credible and compelling way. By pulling from our past experience and research, we can give concrete advice on what funders want.
+Funding has a high return on investment. Grant winners often can leverage further funding and investment. Companies value grants because they are non-dilutive, meaning founders don't give up equity. 
+
+Public contracts offer companies reliable, longterm customers from local, state or federal goverment. 
+
+What we do
+
+We help our clients describe their projects in a credible and compelling way. By pulling from our past experience and research, we can give concrete advice on what funders want. Also, we execute the proposal writing and attachment creation with the full involvement of the client team.
+
+Who we help
+
+We work with project directors at not-for-profits, startups, health centers and universities.   
+
+How we help
+
+We excel across the full-spectrum of activities needed to create a proposal that scores highly on the funder's review criteria. 
+
+Our process
+
+We begin with a free consultation to discuss a grant or contract opportunity and the client's strengths. 
+
+Then, we make a plan and race the deadline clock. We work in small teams to make sure everything gets done in time and at the highest possible quality. 
+
+We work with our clients to communicate the proposal demands, collect data, discuss project 
+
+<ul>
+    <p>Advising</p>
+    <li>RFP interpretation</li>
+    <li>Opportunity research</li>
+    <li>Project development</li>
+    <li>Mock review &amp; scoring</li>
+</ul>
+<ul>
+    <p>Proposal writing</p>
+    <li>Need statement</li>
+    <li>Project plan</li>
+    <li>Evaluation</li>
+    <li>Templates (e.g., support letter)</li>
+</ul> 
+<ul>
+    <p>Technical support</p>
+    <li>Registration</li>
+    <li>Budget</li>
+    <li>Attachments</li>
+    <li>Upload support</li>   
+</ul>       
+
+
 
 Frequently Asked Questions
 
