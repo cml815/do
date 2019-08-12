@@ -1007,6 +1007,9 @@ figure.card:nth-child(2) {
   height: 60vh;
   max-width: 70ch; }
 
+.text-as-background {
+  margin-bottom: 0; }
+
 @media screen and (min-width: 599px) {
   .text-as-background {
     writing-mode: vertical-rl;

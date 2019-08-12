@@ -194,6 +194,11 @@ figure.card:nth-child(2) {
   max-width: 70ch; 
 }
 
+
+.text-as-background {
+  margin-bottom: 0;
+}
+
 @media screen and (min-width: $mobile) {
 .text-as-background {
   writing-mode: vertical-rl;
@@ -283,6 +288,7 @@ figure.card:nth-child(2) {
   
   .hidden {
     opacity: 0;
+    will-change: opacity;
   }
 
   /* Slide in right */
