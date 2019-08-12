@@ -17,8 +17,8 @@ $primary: #242943; /* night */
 $primary-light: rgba(87, 184, 255, 1); /* pool */
 $deep: #32293b; /* grape */
 $link-bright: rgba(87, 184, 255, 1); /* pool */
-$link-vis: rgba(58, 74, 165, 1); /* indigo */
-$link: rgb(84, 101, 202); /* indigo lite */
+$link-vis: #3a4aa5; /* indigo */
+$link: #5465ca; /* indigo lite */
 $bg-pale: rgba(0,0,0,0.08);
 
 $highlight: linear-gradient(180deg,rgba(255,255,255,0) 70%, rgb(82, 173, 247) 0%);
@@ -117,8 +117,13 @@ $tablet: (min-width: 768px) and (max-width: 1024px);
 $lap-desk: (min-width: 1025px) and (max-width: 1280px); 
 $desktop-large: (min-width: 1281px)
 
+/* 
+
+background: rgb(58,74,165);
+background: linear-gradient(90deg, rgba(58,74,165,1) 30%, rgba(84,101,202,1) 74%);
 
 
+*/
 
 /* 
 xs, extra-small: 0px or larger
