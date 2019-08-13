@@ -1,8 +1,10 @@
 # Intro
 
-We foster growth with our long experience with help ventures succeed. We bring strategy along with technical and creative skill. As a result, we bring head, hands and heart to every client project. 
+We supply effective marketing campaigns for nimble, leaner companies. We help you attract and engage audiences with delightful content and experiences that convey your value. 
 
 #Benefits
+
+Digital marketing is powerful, but it's also costly. A tremendous volume of content is released online and it's easy to veer off the right course. Channels and methods evolve, so it's easy to fall behind.  
 
 Put simply, we're useful, flexible and experienced meaning we we're able to withstand the demands of marketing.  
 
@@ -19,8 +21,6 @@ Specifically, we offer:
 Website design & copy
 
 Websites and landing pages are more than an online introduction. They give visitors have opportunities to take satisfying actions -- learn, ask for help, subscribe and buy. 
-
-
 
 
 Content marketing
