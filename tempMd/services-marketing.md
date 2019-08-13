@@ -4,7 +4,7 @@ We supply effective marketing campaigns for nimble, leaner companies. We help yo
 
 #Benefits
 
-Digital marketing is powerful, but it's also costly. A tremendous volume of content is released online and it's easy to veer off the right course. Channels and methods evolve, so it's easy to fall behind.  
+Digital marketing is powerful because it appeals to finely tuned to audience responses (bounce or sign up) and it's  commitment and a willingness to adjust based on audience insights. Inbound approaches such as content marketing help brands retain  quality tremendous volume of content is released online and it's easy to veer off the right course. Channels and methods evolve, so it's easy to fall behind.  
 
 Put simply, we're useful, flexible and experienced meaning we we're able to withstand the demands of marketing.  
 
