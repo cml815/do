@@ -13,6 +13,7 @@
 /* indigo lite */
 /* button */
 /* night */
+/* caroline palette fix */
 /* lisa palette test */
 /* test primary color palette */
 /* not in use */
@@ -616,7 +617,7 @@ nav li:hover {
   background-color: white; }
 
 .grant-case-study .hero {
-  background: url("../images/grant-sit-tight.jpg") no-repeat center right; }
+  background: #efefef url("../images/grant-sit-tight.jpg") no-repeat center right; }
 
 .grant-case-study footer {
   background-color: white; }

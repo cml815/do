@@ -29,13 +29,17 @@ $gold: #F2AA18;
 /* button */ 
 $btn-primary: #242943; /* night */
 
+/* caroline palette fix */
+
+$red: rgba(192, 46, 83, 1);
+$gray-l: #efefef;
 
 /* lisa palette test */
 
-$red: #F75B5E; 
+// $red: #F75B5E; 
 $deep: #373F51;
 $white: #F2F2F2;
-$gray: #BDBDBD;
+// $gray-lt: #BDBDBD;
 $accent: #23E3C9;
 
 /* test primary color palette */
@@ -45,7 +49,6 @@ $cherry: rgb(247, 122, 153);
 $cherry-lt: rgba(247, 137, 164, 1);
 $cerise: rgba(192, 46, 83, 1);
 $grape: #32293b;
-$red: rgba(255, 89, 71, 1);
 $logo: #eb5b5f;
 
 $night: #242943;

@@ -21,9 +21,10 @@ router.get('/a-case', function(req, res, next) {
 
 router.get('/social-media-influencer', function(req, res, next) {
   res.render('social-media-influencer', { 
-    title: 'Influence in Small Channels',
+    title: 'Small Channels, Mighty Influence',
     bodyClass: 'grant-case-study',
-    summary: 'How Video Reaches Younger Audiences',
+    summary: 'How young adults relate and emulate social media stars',
+    type: 'Case Study',
     name: 'Jeff Grant',
     jobTitle: 'Videographer, YouTube Influencer',
     caption: 'Jeff Grant on location for a video shoot',
