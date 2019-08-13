@@ -1,4 +1,4 @@
-## Intro
+# Intro
 
 We foster growth with our long experience with help ventures succeed. We bring strategy along with technical and creative skill. As a result, we bring head, hands and heart to every client project. 
 
@@ -18,7 +18,7 @@ Specifically, we offer:
 
 Website design & copy
 
-Websites are more than an online introduction. They give visitors have opportunities to take satisfying actions -- learn, ask for help, subscribe and buy. 
+Websites and landing pages are more than an online introduction. They give visitors have opportunities to take satisfying actions -- learn, ask for help, subscribe and buy. 
 
 
 

@@ -91,7 +91,7 @@ p {
     font-family: $sans;
     font-size: 1em;
     line-height: 1.4em;
-    margin-bottom: 1.6em;
+    margin-bottom: 1.4em;
 }
 
 ul, li {
@@ -182,13 +182,13 @@ box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
   font-weight: bold;
 }
 
-$btn-main: purple;
-.btn .main {
+
+.btn .primary {
   display: inline-block;
-  background: $btn-main;
+  background: $btn-primary;
   color: white;
   &:hover {
-    background: darken($btn-main, 10%);
+    background: darken($btn-primary, 10%);
     transition: 400ms;
     transition-timing-function: ease-in-out; 
   }
