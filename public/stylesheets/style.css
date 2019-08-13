@@ -68,11 +68,13 @@ xl, extra-large: 1920px or larger
     padding: 5em; } }
 
 .tag-container {
-  padding: 1em 0;
-  margin: 1em 0; }
+  padding: 1em .5em;
+  margin: 1em 0;
+  border-left: 2px solid #23E3C9; }
 
 .tag-container li {
-  max-width: 20vw; }
+  max-width: 20vw;
+  line-height: 1.5em; }
 
 .container--bg {
   margin: 0 auto;
