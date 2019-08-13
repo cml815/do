@@ -615,6 +615,9 @@ nav li:hover {
 .main-content {
   background-color: white; }
 
+.grant-case-study .hero {
+  background: url("../images/grant-sit-tight.jpg") no-repeat center right; }
+
 .grant-case-study footer {
   background-color: white; }
 

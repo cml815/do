@@ -11,6 +11,15 @@ bg?
 
 https://loremipsum.io/21-of-the-best-placeholder-image-generators/
 
+The background property is a shorthand that sets the following properties in a single declaration: background-clip, 
+background-color, 
+background-image, 
+background-origin, 
+background-position, 
+background-repeat, 
+background-size, and 
+background-attachment.
+
 # images
 
   background: url("../images/grant-red-crop.jpg") no-repeat;
