@@ -2,7 +2,7 @@
 
 We foster growth with our long experience with help ventures succeed. We bring strategy along with technical and creative skill. As a result, we bring head, hands and heart to every client project. 
 
-#Benefits we offer
+#Benefits
 
 Put simply, we're useful, flexible and experienced meaning we we're able to withstand the demands of marketing.  
 
