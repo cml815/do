@@ -29,7 +29,12 @@ $bg-orange: rgba(249, 151, 59, .5);
 
 $gold: #F2AA18;
 
-/* button */ 
+///Colors ///
+
+$white: rgb(222, 233, 240);
+$black: #131517; /* not in use */
+
+/* button adjusted colors*/ 
 $btn-primary: #242943; /* night */
 
 /* caroline palette fix */
@@ -56,8 +61,6 @@ $grape: #32293b;
 $logo: #eb5b5f;
 
 $night: #242943;
-$night-lite: rgba(42, 47, 74, 1);
-$night-lite-text: rgba(42, 47, 74, .6);
 
 $eggplant: rgba(38, 36, 49, 1);
 $eggplant-lt: rgb(121, 115, 155);
@@ -67,10 +70,8 @@ $indigo-lt: rgb(196, 190, 255);
 $aqua: rgb(170, 227, 228);
 $pool: rgba(87, 184, 255, 1);
 
-$white: rgb(222, 233, 240);
-$black: #131517; /* not in use */
+
 $charcoal: #424A51;
-$slate: rgba(72, 82, 84, 1);
 
 /* Coolors Exported Palette - coolors.co/3a4aa5-57b8ff-485254-f9973b-ff5947 */
 
@@ -138,6 +139,7 @@ $mobile: 599px;
 $small: 599px;
 $medium: 900px;
 $large: 1025px;
+$lg-col: 650px; 
 
 $tablet: (min-width: 768px) and (max-width: 1024px);
 $lap-desk: (min-width: 1025px) and (max-width: 1280px); 

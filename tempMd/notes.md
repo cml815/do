@@ -1,3 +1,10 @@
+## Daily log
+
+08 14 
+:goals
+1. Service pages
+2. Dent in case study layout
+
 ### Notes / Scribbles
 
 # img cheatsheet

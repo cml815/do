@@ -11,12 +11,12 @@
 /* pool */
 /* indigo */
 /* indigo lite */
-/* button */
+/* not in use */
+/* button adjusted colors*/
 /* night */
 /* caroline palette fix */
 /* lisa palette test */
 /* test primary color palette */
-/* not in use */
 /* Coolors Exported Palette - coolors.co/3a4aa5-57b8ff-485254-f9973b-ff5947 */
 /* RGB */
 /* work category color scheme */
@@ -46,6 +46,20 @@ xl, extra-large: 1920px or larger
   letter-spacing: 1px;
   padding: .25em;
   color: #131517; }
+
+@media (min-width: 599px) {
+  article {
+    width: 650px;
+    margin-left: auto;
+    margin-right: auto; }
+  section {
+    width: 599px;
+    margin-left: auto;
+    margin-right: auto; }
+  figure {
+    width: 599px;
+    margin-left: auto;
+    margin-right: auto; } }
 
 /* Hero */
 .hero {
@@ -93,14 +107,20 @@ xl, extra-large: 1920px or larger
 .banner--deep, section--deep {
   background-color: #373F51; }
 
+/* 
 .container__inner--text {
-  padding: .5em;
-  margin-bottom: 2em; }
+    padding: .5em;
+    margin-bottom: 2em;
+}
 
-@media screen and (min-width: 599px) {
-  .container__inner--text {
-    padding: 5em; } }
+@media screen and (min-width: $mobile) {
+.container__inner--text {
+    padding: 5em;
+}
 
+}
+
+*/
 .tag-container {
   padding: 1em .5em;
   margin: 1em 0;
@@ -772,11 +792,13 @@ main {
   /* min-height: calc(100vh - 50px); */ }
 
 h2 {
-  font-family: "Noto Serif JP", Georgia, "Times New Roman", Times, serif; }
+  font-family: "Noto Serif JP", Georgia, "Times New Roman", Times, serif;
+  letter-spacing: .5px;
+  margin-bottom: .5em; }
 
 h3, h4, h5, h6 {
   font-family: "Chivo", "Helvetica Neue", "Helvetica", Arial, sans-serif;
-  letter-spacing: .1px; }
+  letter-spacing: .5px; }
 
 h1 {
   margin: 0.67em 0;

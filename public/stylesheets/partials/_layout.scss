@@ -9,6 +9,24 @@
     color: $black; 
   }
 
+@media (min-width: $mobile) {
+  article {
+    width: $lg-col;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  section {
+    width: $mobile;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  figure {
+    width: $mobile;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
 /* Hero */
 
 .hero {
@@ -72,6 +90,7 @@
     }
 }
 
+/* 
 .container__inner--text {
     padding: .5em;
     margin-bottom: 2em;
@@ -83,6 +102,8 @@
 }
 
 }
+
+*/
 
 .tag-container {
     padding: 1em .5em;
