@@ -30,6 +30,10 @@ $bg-orange: rgba(249, 151, 59, .5);
 
 $gold: #F2AA18;
 
+$lead: rgba(35, 227, 201, 1);
+$fund: rgba(192, 46, 83, 1);
+$grow:  rgba(58, 74, 165, 1);
+
 ///Colors ///
 
 $white: rgb(222, 233, 240);
@@ -83,19 +87,20 @@ $red: rgba(255, 89, 71, 1);
 
 /* work category color scheme */
 
-$lead: rgba(249, 151, 59, 1); 
-$fund: rgba(255, 89, 71, 1); 
-$grow: rgba(58, 74, 165, 1);
 
-$red: #F75B5E;
+.black {
+  color: $black;
+} 
+
+.white {
+  color: $white;
+}
+
 
 /* lighten($indigo, 5%); */
 
 /* backgrounds */
 
-// Colors
-$bg-color: rgba(168, 202, 253, .8);
-$dot-color: rgba(204, 222, 247, .6);
 
 // Dimensions
 $dot-size: 1px;

@@ -20,6 +20,12 @@
 /* Coolors Exported Palette - coolors.co/3a4aa5-57b8ff-485254-f9973b-ff5947 */
 /* RGB */
 /* work category color scheme */
+.black {
+  color: #131517; }
+
+.white {
+  color: #F2F2F2; }
+
 /* lighten($indigo, 5%); */
 /* backgrounds */
 /* Typography */
@@ -989,8 +995,9 @@ fieldset {
 .toggle-content.is-visible {
   display: block; }
 
-.black {
-  color: #131517; }
+@media screen and (max-width: 599px) {
+  .visible-on-large {
+    display: none; } }
 
 .projects > footer {
   display: none; }
@@ -1301,10 +1308,10 @@ footer {
   padding: 2em; }
 
 .lead {
-  background-color: #f9973b; }
+  background-color: #23e3c9; }
 
 .fund {
-  background-color: #ff5947; }
+  background-color: #c02e53; }
 
 .grow {
   background-color: #3a4aa5;
@@ -1323,36 +1330,36 @@ footer {
   background-color: #7683cf; }
 
 .lead {
-  background-color: #f9973b;
+  background-color: #23e3c9;
   color: white; }
 
 .lead.darker {
-  background-color: #f77d0a; }
+  background-color: #18bba5; }
 
 .lead.dark {
-  background-color: #c86406; }
+  background-color: #128e7d; }
 
 .lead.lighter {
-  background-color: #fbb16c; }
+  background-color: #50e9d4; }
 
 .lead.light {
-  background-color: #fccc9e; }
+  background-color: #7defdf; }
 
 .fund {
-  background-color: #ff5947;
+  background-color: #c02e53;
   color: white; }
 
 .fund.darker {
-  background-color: #ff2b14; }
+  background-color: #972441; }
 
 .fund.dark {
-  background-color: #e01600; }
+  background-color: #6e1a2f; }
 
 .lead.lighter {
-  background-color: #fbb16c; }
+  background-color: #50e9d4; }
 
 .lead.light {
-  background-color: #fccc9e; }
+  background-color: #7defdf; }
 
 .icon-container {
   display: flex;

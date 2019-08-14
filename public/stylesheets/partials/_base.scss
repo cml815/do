@@ -295,10 +295,14 @@ button,
   .toggle-content.is-visible {
     display: block;
   }
-  
-.black {
-  color: $black;
-} 
+
+  @media screen and (max-width: $mobile) {
+    .visible-on-large {
+      display: none;
+    } 
+  }
+
+
 
 
 
