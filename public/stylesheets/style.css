@@ -104,7 +104,7 @@ xl, extra-large: 1920px or larger
 .tag-container {
   padding: 1em .5em;
   margin: 1em 0;
-  border-left: 2px solid #23E3C9; }
+  border-left: 2px solid #23e3c9; }
 
 .tag-container li {
   max-width: 20vw;
@@ -285,8 +285,7 @@ figure.card:nth-child(2) {
 
 .icon-grid li {
   height: 25vh;
-  font-weight: bolder;
-  font-size: 1.25em;
+  font-size: 1em;
   letter-spacing: .5px; }
 
 .icon-grid li:nth-child(2n) {
@@ -994,7 +993,7 @@ fieldset {
   overflow: hidden; }
 
 .accent {
-  color: #23E3C9; }
+  color: #23e3c9; }
 
 .highlight {
   background: linear-gradient(180deg, rgba(255, 255, 255, 0) 70%, #52adf7 0%); }
@@ -1014,6 +1013,7 @@ fieldset {
     position: relative;
     top: 10px;
     left: 50px;
+    background-color: #23e3c9;
     color: rgba(0, 0, 0, 0.2);
     font-family: Helvetica, "Helvetica Neue", Arial, sans-serif;
     font-size: 3em;
