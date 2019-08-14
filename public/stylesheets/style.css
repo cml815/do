@@ -431,18 +431,23 @@ figure.placer {
 .text-margin > * {
   margin-bottom: 1em; }
 
+/*
 .main-content {
-  padding: 1em 2em; }
-
-.main-content h2 {
-  margin-bottom: 1em; }
+    padding: 1em 2em;
+  }
+  
+  .main-content h2 {
+      margin-bottom: 1em;  
+  }
 
 .main-content p {
-  font-family: "Noto Serif JP", Georgia, "Times New Roman", Times, serif;
-  font-size: 1.2em;
-  line-height: 1.5em;
-  margin-bottom: 1em; }
+    font-family: $serif;
+    font-size: 1.2em;
+    line-height: 1.5em;
+    margin-bottom: 1em;
+  }
 
+  */
 /* Navigation */
 /* https://www.w3schools.com/code/tryit.asp?filename=G6913M8THUXM */
 /* old nav */
@@ -965,6 +970,9 @@ fieldset {
 
 .toggle-content.is-visible {
   display: block; }
+
+.black {
+  color: #131517; }
 
 .projects > footer {
   display: none; }
