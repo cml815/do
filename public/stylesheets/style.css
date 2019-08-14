@@ -5,7 +5,7 @@
 /* Layouts */
 /* Color Scheme */
 /* gray-d */
-/* night */
+/* deep */
 /* pool */
 /* grape */
 /* pool */
@@ -80,14 +80,21 @@ xl, extra-large: 1920px or larger
 /* Containers */
 .banner {
   width: 100%;
-  padding: 1em 0; }
+  background-color: transparent; }
+
+.banner__inner-container {
+  padding: 1em;
+  width: 80; }
 
 .banner--light {
-  background-color: #57b8ff;
+  background-color: #efefef;
   color: #131517; }
 
-.bannerh2 {
-  font-family: "Merriweather", Georgia, Times, serif; }
+.banner--deep {
+  background-color: #373F51; }
+
+.banner h2 {
+  font-size: 1.25em; }
 
 .container__inner--text {
   padding: .5em;
@@ -514,7 +521,7 @@ nav li:hover {
   align-items: center; }
 
 .main-nav > .btn-small {
-  background-color: #242943; }
+  background-color: #373F51; }
 
 .main-nav > button > a {
   color: white; }
@@ -645,9 +652,9 @@ nav li:hover {
   font-size: .75em;
   text-transform: uppercase;
   padding: .5em .5em;
-  border: solid 1px #242943;
+  border: solid 1px #373F51;
   border-radius: 8px;
-  background-color: #242943;
+  background-color: #373F51;
   margin-left: 2px; }
 
 .grid__item--header > h2 {
@@ -978,6 +985,7 @@ fieldset {
 
 .ball {
   position: absolute;
+  border-radius: 100%;
   background: url("../images/heart.svg");
   opacity: 0.4;
   height: 25vh;

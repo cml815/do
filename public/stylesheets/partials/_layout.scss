@@ -54,17 +54,26 @@
 
 .banner {
     width: 100%;
-    padding: 1em 0;
+    background-color: transparent;
 }
 
-.banner {
+.banner__inner-container {
+  padding: 1em;
+  width: 80;
+}
+
+.banner, section {
     &--light {
-        background-color: $primary-light;
+        background-color: $gray-l;
         color: $black;
     }
-    &h2 {
-        font-family: $serif;
+    &--deep {
+      background-color: $primary;
     }
+}
+
+.banner h2 {
+  font-size: 1.25em;
 }
 
 .container__inner--text {
