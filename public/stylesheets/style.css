@@ -52,12 +52,8 @@ xl, extra-large: 1920px or larger
     width: 650px;
     margin-left: auto;
     margin-right: auto; }
-  section {
-    width: 599px;
-    margin-left: auto;
-    margin-right: auto; }
   figure {
-    width: 599px;
+    width: 650px;
     margin-left: auto;
     margin-right: auto; } }
 
@@ -294,7 +290,7 @@ figure.card:nth-child(2) {
   grid-gap: 0; }
 
 /* home page grid - todo */
-.icon-grid {
+.icon-grid__fixed--2x2 {
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr 1fr;
   align-items: center;
@@ -1368,7 +1364,7 @@ footer {
   display: flex;
   flex-wrap: wrap; }
 
-.icon-container i {
+i.circle {
   flex: 0 1;
   background-color: #131517;
   border-radius: 50%;
