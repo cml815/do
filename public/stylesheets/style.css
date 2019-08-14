@@ -86,15 +86,12 @@ xl, extra-large: 1920px or larger
   padding: 1em;
   width: 80; }
 
-.banner--light {
+.banner--light, section--light {
   background-color: #efefef;
   color: #131517; }
 
-.banner--deep {
+.banner--deep, section--deep {
   background-color: #373F51; }
-
-.banner h2 {
-  font-size: 1.25em; }
 
 .container__inner--text {
   padding: .5em;
@@ -970,6 +967,10 @@ fieldset {
 .projects > footer {
   display: none; }
 
+.light {
+  background-color: #efefef;
+  color: #131517; }
+
 .projects {
   background-color: transparent; }
 
@@ -1011,19 +1012,24 @@ fieldset {
     writing-mode: vertical-rl;
     text-orientation: sideways;
     position: relative;
-    top: -25px;
-    color: rgba(0, 0, 0, 0.5);
-    font-family: "Montserrat", sans-serif;
-    font-size: 4em;
+    top: 10px;
+    left: 50px;
+    color: rgba(0, 0, 0, 0.2);
+    font-family: Helvetica, "Helvetica Neue", Arial, sans-serif;
+    font-size: 3em;
     font-weight: bold;
     text-transform: uppercase;
     z-index: -1;
     color: black;
     -webkit-text-fill-color: white;
-    /* Will override color (regardless of order) */
-    -webkit-text-stroke-width: 3px;
+    -webkit-text-stroke-width: 2px;
     -webkit-text-stroke-color: black;
-    text-shadow: 3px 3px 0 #000, -1px -1px 0 #000,   1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    /* text-shadow:
+       3px 3px 0 #000,
+      -1px -1px 0 #000,  
+      1px -1px 0 #000,
+      -1px 1px 0 #000,
+       1px 1px 0 #000; */
     letter-spacing: 3px; } }
 
 .width-tune {

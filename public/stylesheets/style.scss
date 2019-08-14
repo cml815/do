@@ -79,23 +79,24 @@
   writing-mode: vertical-rl;
   text-orientation: sideways;
   position: relative;
-  top: -25px;
-  color: rgba(0,0,0,0.5);
-  font-family: $display;
-  font-size: 4em;
+  top: 10px;
+  left: 50px;
+  color: rgba(0,0,0,0.2);
+  font-family: $sans;
+  font-size: 3em;
   font-weight: bold;
   text-transform: uppercase;
   z-index: -1;
   color: black;
-  -webkit-text-fill-color: white; /* Will override color (regardless of order) */
-  -webkit-text-stroke-width: 3px;
+  -webkit-text-fill-color: white; // Will override color (regardless of order)
+  -webkit-text-stroke-width: 2px;
   -webkit-text-stroke-color: black;
-  text-shadow:
+  /* text-shadow:
        3px 3px 0 #000,
       -1px -1px 0 #000,  
       1px -1px 0 #000,
       -1px 1px 0 #000,
-       1px 1px 0 #000;
+       1px 1px 0 #000; */
   letter-spacing: 3px;
 }
   
