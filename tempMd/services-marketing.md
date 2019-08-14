@@ -8,7 +8,9 @@ We help attract, engage and delight those who matter most to you. We offer nimbl
 
 #Benefits
 
-Digital marketing is powerful because it appeals to finely tuned to audience responses (bounce or sign up) and it's  commitment and a willingness to adjust based on audience insights. Inbound approaches such as content marketing help brands retain  quality tremendous volume of content is released online and it's easy to veer off the right course. Channels and methods evolve, so it's easy to fall behind.  
+Digital marketing is powerful when there is a commitment to learn and adjust to audiences and the competitive context. 
+
+Inbound approaches such as content marketing help brands retain  quality tremendous volume of content is released online and it's easy to veer off the right course. Channels and methods evolve, so it's easy to fall behind. 
 
 Put simply, we're useful, flexible and experienced meaning we we're able to withstand the demands of marketing.  
 
@@ -16,9 +18,9 @@ We are often asked to jump into the middle of a web project. And we play roles o
 
 #What we do
 
-Our job is to foster growth via powerful digital strategies that attract, retain and convert. 
+ Our job is to foster growth via powerful digital strategies that attract, retain and convert.
 
-We're most attuned to how digital experiences provoke thought, emotion and action. So, we use data, creative and technology to make client visions real. 
+We're attuned to how digital experiences provoke thought, emotion and action. So, we use data, creative and technology to make client visions real. 
 
 Specifically, we offer:
 
