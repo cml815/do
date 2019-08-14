@@ -32,6 +32,10 @@
   
 }
 
+.hero__inner-container {
+  padding: 0 .5em;
+}
+
 .home .hero {
   background-color: $black;
   color: white;
@@ -392,11 +396,6 @@ figure.card:nth-child(2) {
     min-height: 100%;
 }
 
-figure {
-    &.placer {
-        background-color: red;
-    }
-}
 
 /* Image gallery grid -- About page */
 

@@ -1,6 +1,10 @@
 # Intro
 
+We help attract, engage and delight those who matter most to you. We offer nimble, lean marketing campaigns.
+
 We supply effective marketing campaigns for nimble, leaner companies. We help you attract and engage audiences with delightful content and experiences that convey your value. 
+
+We help attract, engage and delight those who matter most to you. We offer nimble marketing campaigns that blend message and experience.  
 
 #Benefits
 

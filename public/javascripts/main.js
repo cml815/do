@@ -162,6 +162,9 @@ canvas.height = H; canvas.width = W;
 
 */
 
+/* Ball experiment */
+
+/* 
 const colors = ["#3CC157", "#2AA7FF", "#1B1B1B", "#FCBC0F", "#F85F36"];
 
 const numBalls = 15;
@@ -203,5 +206,6 @@ balls.forEach((el, i, ra) => {
   );
 });
 
+*/
 
 

@@ -39,3 +39,14 @@ body.home .hero {
     background-size: $dot-space $dot-space;
 
 }
+
+.ball {
+    position: absolute;
+    border-radius: 100%;
+    background: url("../images/heart.svg");
+    opacity: 0.4;
+    height: 25vh;
+    width: 25vw;
+    overflow: hidden;
+  } 
+  
