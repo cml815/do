@@ -47,6 +47,36 @@ xl, extra-large: 1920px or larger
   padding: .25em;
   color: #131517; }
 
+/* Hero */
+.hero {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+
+.home .hero {
+  background-color: #131517;
+  color: white; }
+
+.home .hero .bg {
+  background: url("../images/fibonacci-white.svg") no-repeat; }
+
+.home .hero h1 {
+  font-size: 2.5em;
+  line-height: 1em; }
+
+@media screen and (min-width: 599px) {
+  .hero {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; }
+  .hero > * {
+    /* margin-left: 1em; */ }
+  .hero > .hero__inner-container {
+    width: 70%; }
+  h1 {
+    font-size: 2.8em; } }
+
 /* Containers */
 .banner {
   width: 100%;
@@ -88,6 +118,51 @@ xl, extra-large: 1920px or larger
   font-size: 2em;
   padding: 1em 0; }
 
+.inner-container {
+  padding: 1em; }
+
+.inner-container > * {
+  margin-bottom: 1em; }
+
+@media screen and (min-width: 900px) {
+  .inner-container {
+    padding: 2em; }
+  .inner-container > * {
+    margin-bottom: 2em; } }
+
+@media screen and (min-width: 900px) {
+  .inner-container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 1em; } }
+
+/* Cards */
+figure.card {
+  height: 50vh; }
+
+figure.card:first-child {
+  /* background-color: #070E16; */
+  /* background: lightblue url("../images/grant-sit-camera.jpg") no-repeat fixed center; */ }
+
+figure.card:nth-child(2) {
+  /* background-color: $charcoal; */
+  /* background: lightblue url("../images/grant-sit-camera.jpg") no-repeat fixed center; */ }
+
+.panel {
+  display: flex;
+  align-items: center;
+  /* center container */
+  justify-content: center; }
+
+.panel > * {
+  max-width: 80%; }
+
+.panel h4 {
+  margin-bottom: 1em; }
+
+.panel-left {
+  padding-left: 2; }
+
 .circle {
   border-radius: 50%; }
 
@@ -117,6 +192,9 @@ xl, extra-large: 1920px or larger
 .flex-item--double {
   flex: 2; }
 
+.flex-i--2 {
+  flex: 2; }
+
 .flex-c--col {
   display: flex;
   flex-direction: column; }
@@ -126,6 +204,9 @@ xl, extra-large: 1920px or larger
   align-items: center;
   justify-content: center;
   place-items: center center; }
+
+.flex-item-half {
+  max-width: 50%; }
 
 .flex-c--space-between {
   justify-content: space-between; }
@@ -882,7 +963,6 @@ fieldset {
 .projects > footer {
   display: none; }
 
-/* Projects pages */
 .projects {
   background-color: transparent; }
 
@@ -892,126 +972,23 @@ fieldset {
 .project-card {
   margin-bottom: 2em; }
 
-.flex-item-half {
-  max-width: 50%; }
-
-/* 
-.projects .panel-img:first-child {
-  background-color: $charcoal;
-}
-
-.projects figure:nth-child(2n) {
-  background-color: $eggplant-lt;
-}
-
-*/
-.panel {
-  display: flex;
-  align-items: center;
-  /* center container */
-  justify-content: center; }
-
-.panel > * {
-  max-width: 80%; }
-
-.panel h4 {
-  margin-bottom: 1em; }
-
-.fullscreen > * {
-  margin-bottom: 2em; }
-
-figure.card {
-  height: 50vh; }
-
-figure.card:first-child {
-  /* background-color: #070E16; */
-  /* background: lightblue url("../images/grant-sit-camera.jpg") no-repeat fixed center; */ }
-
-figure.card:nth-child(2) {
-  /* background-color: $charcoal; */
-  /* background: lightblue url("../images/grant-sit-camera.jpg") no-repeat fixed center; */ }
-
-.panel-left {
-  padding-left: 2; }
-
 .error {
   background-color: #131517;
   color: white; }
 
-/* Hero */
-.hero {
-  height: 100vh;
-  display: flex;
-  align-items: center;
-  justify-content: center; }
-
-.home .hero {
-  background-color: #131517;
-  color: white; }
-
-.home .hero h1 {
-  font-size: 2.5em;
-  line-height: 1em; }
-
 .ball {
   position: absolute;
-  border-radius: 100%;
-  opacity: 0.7;
+  background: url("../images/heart.svg");
+  opacity: 0.4;
   height: 25vh;
   width: 25vw;
   overflow: hidden; }
 
 .accent {
-  color: white; }
-
-.red {
-  color: #c02e53; }
+  color: #23E3C9; }
 
 .highlight {
   background: linear-gradient(180deg, rgba(255, 255, 255, 0) 70%, #52adf7 0%); }
-
-@media screen and (min-width: 599px) {
-  .hero {
-    flex-direction: column;
-    align-items: center;
-    justify-content: center; }
-  .hero > * {
-    /* margin-left: 1em; */ }
-  .hero > .hero__inner-container {
-    width: 70%; }
-  h1 {
-    font-size: 2.8em; } }
-
-.hero.short {
-  height: 75vh;
-  margin-top: 50px;
-  background-color: #efefef; }
-
-/* .hero .bg {
-  background: url("../images/fibonacci-white.svg") no-repeat;
-}
-*/
-.cta > p {
-  font-size: .875em;
-  text-transform: uppercase; }
-
-.inner-container {
-  padding: 1em; }
-
-.inner-container > * {
-  margin-bottom: 1em; }
-
-@media screen and (min-width: 900px) {
-  .inner-container {
-    padding: 2em; }
-  .inner-container > * {
-    margin-bottom: 2em; } }
-
-@media screen and (min-width: 900px) {
-  .inner-container {
-    max-width: 900px;
-    margin: 0 auto;
-    padding: 0 1em; } }
 
 /* Home page styles */
 .benefits .card {
@@ -1043,9 +1020,6 @@ figure.card:nth-child(2) {
 
 .width-tune {
   max-width: 250px; }
-
-.flex-i--2 {
-  flex: 2; }
 
 /* Background video */
 * {

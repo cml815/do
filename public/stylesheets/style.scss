@@ -13,8 +13,6 @@
 
 /// SITE STYLES - move to base TODO  ///
 
-/* Projects pages */
-
 .projects {
   background-color: transparent;
 }
@@ -27,161 +25,31 @@
   margin-bottom: 2em;
 } 
 
-.flex-item-half {
-  max-width: 50%;
-}
-
-/* 
-.projects .panel-img:first-child {
-  background-color: $charcoal;
-}
-
-.projects figure:nth-child(2n) {
-  background-color: $eggplant-lt;
-}
-
-*/
-
-
-.panel {
-  display: flex;
-  align-items: center; /* center container */
-  justify-content: center;
-}
-
-.panel > * {
-  max-width: 80%;
-}
-
-.panel h4 {
-  margin-bottom: 1em;
-}
-
-.fullscreen > * {
-  margin-bottom: 2em;
-}
-
-figure.card {
-  height: 50vh;
-}
-
-figure.card:first-child {
-  /* background-color: #070E16; */
-  /* background: lightblue url("../images/grant-sit-camera.jpg") no-repeat fixed center; */ 
-}
-
-figure.card:nth-child(2) {
-  /* background-color: $charcoal; */
-  /* background: lightblue url("../images/grant-sit-camera.jpg") no-repeat fixed center; */ 
-}
-
-.panel-left {
-  padding-left: 2
-}
 
 .error {
   background-color: $black;
   color: white;
 }
 
-/* Hero */
-
-.hero {
-  height: 100vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  
-}
-
-.home .hero {
-  background-color: $black;
-  color: white;
-}
-
-.home .hero h1 {
-  font-size: 2.5em;
-  line-height: 1em;
-}
-
 .ball {
   position: absolute;
-  border-radius: 100%;
-  opacity: 0.7;
+  // border-radius: 100%;
+  background: url("../images/heart.svg");
+  opacity: 0.4;
   height: 25vh;
   width: 25vw;
   overflow: hidden;
 }
 
 .accent {
-  color: white;
+  color: $accent;
 }
 
-.red {
-  color: $cerise;
-}
 
 .highlight {
   background: $highlight;
 }
 
-@media screen and (min-width: $mobile) {
-  .hero {
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-  }
-    .hero > * {
-      /* margin-left: 1em; */
-    }
-    .hero > .hero__inner-container {
-      width: 70%;
-    }
-  h1 {
-    font-size: 2.8em; 
-  }
-}
-
-.hero.short {
-  height: 75vh;
-  margin-top: 50px;
-  background-color: #efefef;
-}
-
-/* .hero .bg {
-  background: url("../images/fibonacci-white.svg") no-repeat;
-}
-*/
-
-.cta > p {
-  font-size: .875em;
-  text-transform: uppercase;
-}
-
-.inner-container {
-  padding: 1em;
-}
-
-.inner-container > * {
-  margin-bottom: 1em;
-}
-
-@media screen and (min-width: $medium) {
-  .inner-container {
-    padding: 2em;
-  }
-  .inner-container > *{
-    margin-bottom: 2em;
-  }
-}
-
-@media screen and (min-width: $medium) {
-  .inner-container {
-    max-width: 900px;
-    margin: 0 auto;
-    padding: 0 1em;
-  }
-}
 
 /* Home page styles */
 
@@ -230,9 +98,6 @@ figure.card:nth-child(2) {
   max-width: 250px;
 }
 
-.flex-i--2 {
-  flex: 2;
-}
 
 /* Background video */
 
