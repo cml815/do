@@ -1027,6 +1027,9 @@ fieldset {
 .highlight {
   background: linear-gradient(180deg, rgba(255, 255, 255, 0) 70%, #52adf7 0%); }
 
+a.highlight {
+  background: linear-gradient(180deg, rgba(57, 137, 202, 0.6) 70%, #23e3c9 0%); }
+
 /* Home page styles */
 .benefits .card {
   height: 60vh;
