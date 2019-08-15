@@ -170,25 +170,6 @@ figure.card:nth-child(2) {
   /* background: lightblue url("../images/grant-sit-camera.jpg") no-repeat fixed center; */ 
 }
 
-.panel {
-  display: flex;
-  align-items: center; /* center container */
-  justify-content: center;
-}
-
-.panel > * {
-  max-width: 80%;
-}
-
-.panel h4 {
-  margin-bottom: 1em;
-}
-
-
-.panel-left {
-  padding-left: 2
-}
-
 /// Shapes /// 
 
 .circle {
@@ -601,6 +582,7 @@ figure.card:nth-child(2) {
     border-radius: 2px;
     overflow: hidden;
     margin: 1rem;
+    transition: all 0.5s ease;
   }
 
   .card:hover {

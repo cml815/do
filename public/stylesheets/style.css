@@ -177,21 +177,6 @@ figure.card:nth-child(2) {
   /* background-color: $charcoal; */
   /* background: lightblue url("../images/grant-sit-camera.jpg") no-repeat fixed center; */ }
 
-.panel {
-  display: flex;
-  align-items: center;
-  /* center container */
-  justify-content: center; }
-
-.panel > * {
-  max-width: 80%; }
-
-.panel h4 {
-  margin-bottom: 1em; }
-
-.panel-left {
-  padding-left: 2; }
-
 .circle {
   border-radius: 50%; }
 
@@ -484,15 +469,17 @@ figure.card:nth-child(2) {
 
 /* Container components */
 .cards {
-  display: grid; }
-
-.cards--gap {
-  grid-gap: 1em; }
+  display: flex; }
 
 .card {
-  padding: 1em;
-  justify-self: center;
-  overflow: hidden; }
+  padding: .5em;
+  border-radius: 2px;
+  overflow: hidden;
+  margin: 1rem;
+  transition: all 0.5s ease; }
+
+.card:hover {
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23); }
 
 /* .card--border {
     border-radius: 53% 47% 45% 55% / 67% 62% 38% 33%;    
@@ -1295,6 +1282,17 @@ footer {
   text-align: center;
   font-size: .875em;
   padding-top: 1em; }
+
+section.benefit {
+  height: 100vh; }
+
+article.panel {
+  height: 75vh;
+  margin-bottom: 1rem;
+  margin-top: 5em; }
+
+article.panel > * {
+  margin-bottom: 2rem; }
 
 .feature {
   height: 80vh;

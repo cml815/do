@@ -235,6 +235,20 @@ footer {
 
 // Home page //
 
+section.benefit {
+  height: 100vh;
+}
+article.panel {
+  height: 75vh;
+  margin-bottom: 1rem;
+  margin-top: 5em;
+}
+
+article.panel > * {
+
+  margin-bottom: 2rem;
+}
+
 .feature {
   height: 80vh;
   grid-template-columns: 60% 40%;
