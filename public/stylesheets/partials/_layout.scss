@@ -75,8 +75,8 @@
 }
 
 .banner__inner-container {
-  padding: 1em;
-  width: 80;
+  padding: 2em;
+  text-align: center;
 }
 
 .banner, section {
@@ -664,3 +664,8 @@ figure.card:nth-child(2) {
 
   */
   
+  .vertical-line {
+    margin: 2em 0;
+    height: 50px;
+    background: linear-gradient($black, $black) no-repeat center/1px 100%;
+  }

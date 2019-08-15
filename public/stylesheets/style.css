@@ -102,8 +102,8 @@ xl, extra-large: 1920px or larger
   background-color: transparent; }
 
 .banner__inner-container {
-  padding: 1em;
-  width: 80; }
+  padding: 2em;
+  text-align: center; }
 
 .banner--light, section--light {
   background-color: #efefef;
@@ -536,6 +536,11 @@ figure.card:nth-child(2) {
   }
 
   */
+.vertical-line {
+  margin: 2em 0;
+  height: 50px;
+  background: linear-gradient(#131517, #131517) no-repeat center/1px 100%; }
+
 /* Navigation */
 /* https://www.w3schools.com/code/tryit.asp?filename=G6913M8THUXM */
 /* old nav */
@@ -896,8 +901,7 @@ h5, h6 {
 p {
   font-family: "DM Sans", "Helvetica Neue", "Helvetica", Arial, sans-serif;
   font-size: 1em;
-  line-height: 1.4em;
-  margin-bottom: 1.4em; }
+  line-height: 1.4em; }
 
 ul, li {
   list-style-type: none; }
@@ -941,6 +945,11 @@ sub {
 
 sup {
   top: -0.5em; }
+
+hr {
+  transform: rotate(90deg);
+  width: 50px;
+  color: #131517; }
 
 /* Buttons */
 .btn {
@@ -1095,6 +1104,9 @@ a.highlight {
   background: linear-gradient(180deg, rgba(57, 137, 202, 0.6) 70%, #23e3c9 0%); }
 
 /* Home page styles */
+article > h6 {
+  padding: 1em 0; }
+
 .benefits .card {
   height: 60vh;
   max-width: 70ch; }

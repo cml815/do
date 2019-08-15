@@ -97,7 +97,6 @@ p {
     font-family: $sans;
     font-size: 1em;
     line-height: 1.4em;
-    margin-bottom: 1.4em;
 }
 
 ul, li {
@@ -149,6 +148,12 @@ sub {
 sup {
   top: -0.5em;
 }
+
+  hr {
+    transform: rotate(90deg);
+    width: 50px;
+    color: $black;
+ }
 
 /* Buttons */
 
