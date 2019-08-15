@@ -593,18 +593,19 @@ figure.card:nth-child(2) {
 /* Container components */
 
 .cards {
-    display: grid;
-  }
-
-  .cards--gap {
-      grid-gap: 1em;
+    display: flex;
   }
     
   .card {
-    padding: 1em;
-    justify-self: center;
+    padding: .5em;
+    border-radius: 2px;
     overflow: hidden;
+    margin: 1rem;
   }
+
+  .card:hover {
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+    }
 
  
 
