@@ -1094,9 +1094,9 @@ fieldset {
   .visible-on-large {
     display: none; } }
 
-.projects > footer {
-  display: none; }
-
+/* .projects > footer {
+  display: none;
+} */
 .light {
   background-color: #efefef;
   color: #141414; }
