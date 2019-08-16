@@ -478,8 +478,18 @@ i.circle {
   margin-bottom: 2em;
 }
 
+.contact .hero {
+  background-color: lighten($indigo, 40);
+  color: $red;
+}
+
+
 .contact h1 {
   letter-spacing: -1px;
+}
+
+.contact > .hero {
+  background-color: $indigo;
 }
 
 .contact > .hero__inner-container {
