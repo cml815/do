@@ -22,11 +22,18 @@
   }
 }
 
+/* new styles to do move */
+
+.row {
+  @include flex;
+}
+
+
 /* Hero */
 
 .hero {
+  @include flex;
   height: 100vh;
-  display: flex;
   justify-content: center;
   align-items: center;
 }
