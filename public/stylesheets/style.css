@@ -648,10 +648,8 @@ nav li:hover {
   /* Sit on top */
   left: 0;
   top: 0;
-  background-color: black;
-  /* Black fallback color */
-  background-color: rgba(0, 0, 0, 0.9);
-  /* Black w/opacity */
+  background-color: white;
+  /* white fallback color */
   overflow-x: hidden;
   /* Disable horizontal scroll */
   transition: 0.5s;
@@ -664,8 +662,8 @@ nav li:hover {
   /* 25% from the top */
   width: 100%;
   /* 100% width */
-  text-align: center;
-  /* Centered text/links */
+  text-align: left;
+  background-color: rgba(255, 255, 255, 0.95);
   margin-top: 30px;
   /* 30px top margin to avoid conflict with the close button on smaller screens */ }
 
@@ -676,6 +674,7 @@ nav li:hover {
   font-size: 2em;
   font-weight: bold;
   color: #5465ca;
+  border-bottom: solid 1px #efefef;
   display: block;
   /* Display block instead of inline */
   transition: 0.3s;
