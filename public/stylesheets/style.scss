@@ -12,7 +12,7 @@
 }
 
 .light {
-  background-color: $gray-l;
+  background-color: $gray-light;
   color: $black;
 }
 
@@ -46,7 +46,7 @@
 }
 
 a.highlight {
-  background: $highlight-link;
+  background: $gray-light;
 }
 
 
@@ -284,7 +284,7 @@ article.panel > * {
   flex-direction: column; 
   align-items: center;
   justify-content: center;
-  background: $bg-orange; 
+  background: $primary; 
 }
 
 /* Animate */
