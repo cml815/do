@@ -1452,6 +1452,9 @@ article.panel > * {
   display: flex;
   flex-wrap: wrap; }
 
+.icon__container {
+  background-color: #c2c8e9; }
+
 i.circle {
   flex: 0 1;
   background-color: #131517;

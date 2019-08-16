@@ -440,6 +440,11 @@ animation: fade-in 1.4s;
   flex-wrap: wrap;
 }
 
+.icon__container {
+  background-color: lighten($indigo, 40%);
+}
+
+
 i.circle {
   flex: 0 1;
   background-color: $black;
