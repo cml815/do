@@ -67,8 +67,7 @@ xl, extra-large: 1920px or larger
 .hero {
   height: 100vh;
   display: flex;
-  align-items: center;
-  justify-content: center; }
+  align-items: center; }
 
 .hero__inner-container {
   padding: 0 .5em; }
@@ -87,8 +86,7 @@ xl, extra-large: 1920px or larger
 @media screen and (min-width: 599px) {
   .hero {
     flex-direction: column;
-    align-items: center;
-    justify-content: center; }
+    align-items: center; }
   .hero > * {
     /* margin-left: 1em; */ }
   .hero > .hero__inner-container {
@@ -1453,6 +1451,7 @@ article.panel > * {
   flex-wrap: wrap; }
 
 .icon__container {
+  padding: 1em 0;
   background-color: #c2c8e9; }
 
 i.circle {
