@@ -524,9 +524,12 @@ figure.card:nth-child(2) {
 
 .fine-print {
   text-transform: uppercase;
-  font-size: .875em;
+  font-size: .9em;
   font-weight: bold;
-  letter-spacing: 1px; }
+  letter-spacing: .2em; }
+
+.fine-print a, .fine-print a:visited {
+  color: #5fd6e5; }
 
 .reverse {
   color: white;
