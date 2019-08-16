@@ -102,7 +102,7 @@ xl, extra-large: 1920px or larger
   background-color: transparent; }
 
 .banner__inner-container {
-  padding: 2em;
+  padding: 2em 2em 0;
   text-align: center; }
 
 .banner--light, section--light {
