@@ -1501,6 +1501,24 @@ i.circle {
 .contact {
   margin-bottom: 2em; }
 
+.contact h1 {
+  letter-spacing: -1px; }
+
+.contact > .hero__inner-container {
+  padding-bottom: 1em; }
+
+.contact__container {
+  text-align: center;
+  padding-top: 4em; }
+  .contact__container a {
+    color: #141414; }
+
+.mail-link {
+  padding-bottom: 1.5em; }
+
+.mail-link a, .tel-link a {
+  font-size: 1.8em; }
+
 .callout-l {
   display: flex;
   flex-direction: column;
