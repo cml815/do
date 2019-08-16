@@ -1476,8 +1476,7 @@ article.panel > * {
   flex-wrap: wrap; }
 
 .icon__container {
-  padding: 1em 0;
-  background-color: #c2c8e9; }
+  padding: 1em 0; }
 
 i.circle {
   flex: 0 1;
