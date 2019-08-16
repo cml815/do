@@ -14,7 +14,11 @@
 /* grape */
 /* lighten($indigo, 5%); */
 /* button adjusted colors*/
-/* test primary color palette */
+.btn .shadow {
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75); }
+
 /* Typography */
 /* min-width breakpoints*/
 /* 
@@ -73,10 +77,17 @@ xl, extra-large: 1920px or larger
     margin-left: auto;
     margin-right: auto; } }
 
+/* new styles to do move */
+/*
+.row {
+  @include flex;
+}
+
+*/
 /* Hero */
 .hero {
-  height: 100vh;
   display: flex;
+  height: 100vh;
   justify-content: center;
   align-items: center; }
 

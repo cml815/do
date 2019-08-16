@@ -43,7 +43,7 @@ router.get('/portfolio', function(req, res, next) {
 });
 
 router.get('/contact', function(req, res, next) {
-  res.render('contact', { title: 'Contact us for practical growth and funding support', description: 'Contact us by phone, email or fill out this form', bodyClass: 'contact'});
+  res.render('contact', { title: 'Get in touch!', description: 'Contact Fuel Copy for help with growth marketing and fundraising.', bodyClass: 'contact'});
 });
 
 /// Nodemailer contact form ///
