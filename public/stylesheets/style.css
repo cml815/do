@@ -1357,7 +1357,7 @@ article.panel > * {
   align-items: center;
   justify-content: center;
   background: #242943;
-  color: #9ca4ca; }
+  color: Sbg-text-color-light; }
 
 /* Animate */
 @keyframes fade-in {
