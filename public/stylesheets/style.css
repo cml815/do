@@ -77,6 +77,7 @@ xl, extra-large: 1920px or larger
 .hero {
   height: 100vh;
   display: flex;
+  justify-content: center;
   align-items: center; }
 
 .hero__inner-container {
