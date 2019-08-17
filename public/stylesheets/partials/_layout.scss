@@ -40,7 +40,7 @@
   align-items: center;
 }
 
-.hero__inner-container {
+.hero__inner {
   padding: 0 .5em;
 }
 
@@ -66,7 +66,7 @@
     .hero > * {
       /* margin-left: 1em; */
     }
-    .hero > .hero__inner-container {
+    .hero > .hero__inner {
       width: 70%;
     }
   h1 {
@@ -81,7 +81,7 @@
     background-color: transparent;
 }
 
-.banner__inner-container {
+.banner__inner {
   padding: 2em 2em 0 ;
   text-align: center;
 }
@@ -96,20 +96,9 @@
     }
 }
 
- 
 .container__inner--text {
     padding: .5em;
 }
-
-/* @media screen and (min-width: $mobile) {
-.container__inner--text {
-    padding: 5em;
-}
-
-}
-
-*/
-
 
 .tag-container {
     padding: 1em .5em;
@@ -136,25 +125,45 @@
     padding: 1em 0;
 }
 
-.inner-container {
+.inner, .inner {
   padding: 1em;
 }
 
-.inner-container > * {
+.inner--xs {
+  padding: .25em;
+}
+
+
+.inner--s {
+  padding: .50em;
+}
+
+.inner--l {
+  padding: 2em;
+}
+
+.inner > * {
+  margin-bottom: 2em;
+}
+
+/* 
+.inner > * {
   margin-bottom: 1em;
 }
 
+*/
+
 @media screen and (min-width: $medium) {
-  .inner-container {
+  .inner {
     padding: 2em;
   }
-  .inner-container > *{
+  .inner > * {
     margin-bottom: 2em;
   }
 }
 
 @media screen and (min-width: $medium) {
-  .inner-container {
+  .inner {
     max-width: 900px;
     margin: 0 auto;
     padding: 0 1em;

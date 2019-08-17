@@ -7,9 +7,9 @@ img .feature-img
 .bg
 .bg-dot
 
-.inner-container 
+.inner 
 
-.hero__inner-container
+.hero__inner
 
 .grid-c
 .icon-grid

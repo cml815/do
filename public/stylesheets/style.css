@@ -91,7 +91,7 @@ xl, extra-large: 1920px or larger
   justify-content: center;
   align-items: center; }
 
-.hero__inner-container {
+.hero__inner {
   padding: 0 .5em; }
 
 .home .hero {
@@ -111,7 +111,7 @@ xl, extra-large: 1920px or larger
     align-items: center; }
   .hero > * {
     /* margin-left: 1em; */ }
-  .hero > .hero__inner-container {
+  .hero > .hero__inner {
     width: 70%; }
   h1 {
     font-size: 2.8em; } }
@@ -121,7 +121,7 @@ xl, extra-large: 1920px or larger
   width: 100%;
   background-color: transparent; }
 
-.banner__inner-container {
+.banner__inner {
   padding: 2em 2em 0;
   text-align: center; }
 
@@ -135,14 +135,6 @@ xl, extra-large: 1920px or larger
 .container__inner--text {
   padding: .5em; }
 
-/* @media screen and (min-width: $mobile) {
-.container__inner--text {
-    padding: 5em;
-}
-
-}
-
-*/
 .tag-container {
   padding: 1em .5em;
   margin: 1em 0;
@@ -164,20 +156,35 @@ xl, extra-large: 1920px or larger
   font-size: 2em;
   padding: 1em 0; }
 
-.inner-container {
+.inner, .inner {
   padding: 1em; }
 
-.inner-container > * {
-  margin-bottom: 1em; }
+.inner--xs {
+  padding: .25em; }
 
+.inner--s {
+  padding: .50em; }
+
+.inner--l {
+  padding: 2em; }
+
+.inner > * {
+  margin-bottom: 2em; }
+
+/* 
+.inner > * {
+  margin-bottom: 1em;
+}
+
+*/
 @media screen and (min-width: 900px) {
-  .inner-container {
+  .inner {
     padding: 2em; }
-  .inner-container > * {
+  .inner > * {
     margin-bottom: 2em; } }
 
 @media screen and (min-width: 900px) {
-  .inner-container {
+  .inner {
     max-width: 900px;
     margin: 0 auto;
     padding: 0 1em; } }
@@ -214,16 +221,13 @@ figure.card:nth-child(2) {
 .flex, .flex-c {
   display: flex; }
 
-.flex-c > * {
+.flex, .flex-c > * {
   flex: 1; }
 
 .flex-item, .flex-i {
   flex: 1; }
 
-.flex-item--double {
-  flex: 2; }
-
-.flex-i--2 {
+.flex-item--double, .flex-i--2 {
   flex: 2; }
 
 .flex-c--col {
@@ -245,7 +249,7 @@ figure.card:nth-child(2) {
 .flex-c--wrap {
   flex-direction: wrap; }
 
-@media only screen and (599px) {
+@media only screen and (max-width: 599px) {
   .flex-c {
     flex-direction: column; } }
 
@@ -1510,7 +1514,7 @@ i.circle {
 .contact > .hero {
   background-color: #3a4aa5; }
 
-.contact > .hero__inner-container {
+.contact > .hero__inner {
   padding-bottom: 1em; }
 
 .contact__container {
