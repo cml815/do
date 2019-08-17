@@ -74,7 +74,9 @@
   }
 }
 
-/* Containers */ 
+/// Containers /// 
+
+/* Full-width banners */
 
 .banner {
     width: 100%;
@@ -83,7 +85,6 @@
 
 .banner__inner {
   padding: 2em 2em 0 ;
-  text-align: center;
 }
 
 .banner, section {
@@ -224,7 +225,7 @@ figure.card:nth-child(2) {
       flex: 1;
   }
 
-  .flex-item--double, .flex-i--2 {
+  .flex-i--double, .flex-i--2 {
       flex: 2;
   }
   
