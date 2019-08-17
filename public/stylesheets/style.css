@@ -157,7 +157,8 @@ xl, extra-large: 1920px or larger
   padding: 1em 0; }
 
 .inner, .inner {
-  padding: 1em; }
+  padding: 1em;
+  /* default padding */ }
 
 .inner--xs {
   padding: .25em; }
