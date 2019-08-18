@@ -12,6 +12,16 @@
   color: $black;
 }
 
+
+  h2.anchor::before {
+    display: block; 
+    content: " "; 
+    margin-top: -100px; 
+    height: 100px; 
+    visibility: hidden; 
+    pointer-events: none;
+  }
+
 /// SITE STYLES - move to base TODO  ///
 
 .projects {
