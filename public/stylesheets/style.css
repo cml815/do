@@ -551,10 +551,18 @@ figure.card:nth-child(2) {
   padding: 1em 2em; }
 
 .main-content p {
-  font-family: "Noto Serif JP", Georgia, "Times New Roman", Times, serif;
   font-size: 1.2em;
   line-height: 1.5em;
   margin-bottom: 1em; }
+
+.content-sidebar {
+  background-color: #141414;
+  color: white; }
+
+blockquote {
+  font-family: "Noto Serif JP", Georgia, "Times New Roman", Times, serif;
+  line-height: 1.8em;
+  padding: 2em 3em; }
 
 .vertical-line {
   margin: 2em 0;
@@ -764,7 +772,7 @@ nav li:hover {
   padding: 1em;
   font-size: 1.25em;
   font-family: "Noto Serif JP", Georgia, "Times New Roman", Times, serif;
-  line-height: 1.5em; }
+  line-height: 1.8em; }
 
 .wrap {
   height: 100vh; }

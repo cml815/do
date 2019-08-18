@@ -671,14 +671,21 @@ figure.card:nth-child(2) {
   
 
 .main-content p {
-    font-family: $serif;
     font-size: 1.2em;
     line-height: 1.5em;
     margin-bottom: 1em;
   }
 
+  .content-sidebar {
+    background-color: $black;
+    color: $white;
+  }
 
-  
+  blockquote {
+    font-family: $serif;
+    line-height: 1.8em;
+    padding: 2em 3em;
+  }
   .vertical-line {
     margin: 2em 0;
     height: 50px;
