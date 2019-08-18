@@ -155,12 +155,12 @@ xl, extra-large: 1920px or larger
   font-size: 2em;
   padding: 1em 0; }
 
-.project__container {
-  height: 40vh;
-  background: url("../images/rex.jpg") no-repeat; }
-
-.project-container {
-  height: 40vh; }
+.project__container--rex {
+  height: 60vh;
+  width: 80vw;
+  max-width: 100%;
+  background: url("../images/rex.jpg") no-repeat center center;
+  background-size: cover; }
 
 .inner, .inner {
   padding: 1em;
