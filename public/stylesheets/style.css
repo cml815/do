@@ -987,7 +987,7 @@ hr {
 
 /* Buttons */
 .btn {
-  padding: .25em 1.25em;
+  padding: .25em .75em;
   margin-top: .5em;
   margin-bottom: .5em;
   text-align: center; }

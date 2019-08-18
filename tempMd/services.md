@@ -18,7 +18,7 @@ Our singular purpose is to help you win. We apply decades of experience, researc
 
 Creating a winning proposal is a long, arduous process. Proposal submissions often are hundreds (even thousands!) of pages. We take over much of the burden, so you can focus on your work, family and life.    
 
-We help our clients describe their projects and their value in a credible and compelling way. By pulling from our past experience and research, we can give concrete advice on what funders want. Also, we execute the proposal writing and attachment creation with the full involvement of the client team.
+We help our clients describe their projects and their value in a credible and compelling way. By pulling from our past experience and research, we can give concrete advice on what funders want. Also, we create proposals, budgets and attachments with your involvement as director.
 
 Specifics on how we help
 
@@ -71,7 +71,7 @@ Our process
 
 We begin with a free consultation to discuss a grant or contract opportunity and learn more about you. 
 
-We are candid about your chances and give you insights on how agencies make funding decisions. Sometimes the requirements seem daunting, but we've seen small projects get large awards.  
+We'll discuss how to boost your odds for success and give you insights on how agencies make funding decisions. Sometimes the requirements seem daunting, but we've seen small projects get large awards.  
 
 Then, we make a plan and race the deadline clock. We work in small teams to make sure everything gets done in time and at the highest possible quality. 
 
