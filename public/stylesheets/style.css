@@ -757,18 +757,36 @@ nav li:hover {
   color: white;
   line-height: 1.25em; }
 
-.case-study .headline {
-  height: 33vh; }
+.case-study {
+  background-color: #424A51;
+  color: white; }
 
-.headline span {
-  font-weight: bold;
-  font-size: 1.4em;
-  color: #f77a99; }
+@media screen and (min-width: 599px) {
+  .lede__container {
+    width: 80vw; } }
+
+.lede {
+  padding: 1em;
+  font-size: 1.25em;
+  font-family: "Noto Serif JP", Georgia, "Times New Roman", Times, serif;
+  line-height: 1.5em; }
+
+.wrap {
+  height: 100vh; }
+
+.lede__image {
+  background: url("../images/overhead.jpg") no-repeat center;
+  height: 100vh; }
 
 .tag-container {
   padding: 1em .5em;
   margin: 2em 0; }
 
+/*
+<img class=""src="../images/overhead.jpg" alt= "Protest against gun violence in Harrisburg, PA">
+    <figcaption></figcaption>
+
+    */
 .tag-item {
   display: inline;
   font-size: 1em;

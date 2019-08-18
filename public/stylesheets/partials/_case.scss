@@ -54,20 +54,45 @@ color: white;
 line-height: 1.25em;
 }
 
-.case-study .headline {
-  height: 33vh;
+.case-study {
+  background-color: $charcoal;
+  color: $white;
 }
 
-.headline span {
-  font-weight: bold;
-  font-size: 1.4em;
-  color: $cherry;
+@media screen and (min-width: $mobile) {
+  .lede__container {
+    width: 80vw;
+  }
+}
+
+
+.lede {
+  padding: 1em;
+  font-size: 1.25em;
+  font-family: $serif;
+  line-height: 1.5em;
+}
+
+.wrap {
+  height: 100vh;
+}
+
+.lede__image {
+  background: url("../images/overhead.jpg") no-repeat center;
+  height: 100vh;
+
 }
 
 .tag-container {
   padding: 1em .5em;
   margin: 2em 0;
 }
+
+/*
+<img class=""src="../images/overhead.jpg" alt= "Protest against gun violence in Harrisburg, PA">
+    <figcaption></figcaption>
+
+    */
 
 .tag-item {
   display: inline;
