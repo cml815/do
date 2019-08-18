@@ -155,6 +155,12 @@ xl, extra-large: 1920px or larger
   font-size: 2em;
   padding: 1em 0; }
 
+.project .image__container {
+  height: 40vh; }
+
+.project-container {
+  height: 40vh; }
+
 .inner, .inner {
   padding: 1em;
   /* default padding */ }
