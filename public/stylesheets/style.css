@@ -157,7 +157,7 @@ xl, extra-large: 1920px or larger
 
 .project__container--rex {
   height: 60vh;
-  width: 80vw;
+  width: 60vw;
   max-width: 100%;
   background: url("../images/rex.jpg") no-repeat center center;
   background-size: cover; }
