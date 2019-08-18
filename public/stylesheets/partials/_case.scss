@@ -64,15 +64,20 @@ line-height: 1.25em;
   color: $cherry;
 }
 
-.tag-list li {
+.tag-container {
+  padding: 1em .5em;
+  margin: 2em 0;
+}
+
+.tag-item {
   display: inline;
-  font-size: .75em;
+  font-size: 1em;
   text-transform: uppercase;
-  padding: .5em .5em;
+  padding: .5em .75em;
+  margin-right: 1em;
   border: solid 1px $primary;
   border-radius: 8px;
-  background-color: $primary;
-  margin-left: 2px;
+  background-color: $white;
 }
 
 .tag-list li:first-child {

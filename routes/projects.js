@@ -44,7 +44,7 @@ router.get('/press-campaign', function(req, res, next) {
 router.get('/founder-stories', function(req, res, next) {
   res.render('founder-stories', { 
     title: 'Founder stories on risk, reward and travel',
-    summary: 'Fuel interviewed dozens of entrepreneurs on how to make a mark in the travel world',
+    description: 'Fuel interviewed dozens of entrepreneurs on how to make a mark in the travel world',
     name: 'null',
     jobTitle: 'null',
     caption: 'null',

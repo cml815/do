@@ -137,15 +137,6 @@ xl, extra-large: 1920px or larger
 .container__inner--text {
   padding: .5em; }
 
-.tag-container {
-  padding: 1em .5em;
-  margin: 1em 0;
-  border-left: 2px solid #23e3c9; }
-
-.tag-container li {
-  max-width: 20vw;
-  line-height: 1.5em; }
-
 .container--bg {
   margin: 0 auto;
   width: 25%;
@@ -774,15 +765,19 @@ nav li:hover {
   font-size: 1.4em;
   color: #f77a99; }
 
-.tag-list li {
+.tag-container {
+  padding: 1em .5em;
+  margin: 2em 0; }
+
+.tag-item {
   display: inline;
-  font-size: .75em;
+  font-size: 1em;
   text-transform: uppercase;
-  padding: .5em .5em;
+  padding: .5em .75em;
+  margin-right: 1em;
   border: solid 1px #242943;
   border-radius: 8px;
-  background-color: #242943;
-  margin-left: 2px; }
+  background-color: white; }
 
 .grid__item--header > h2 {
   text-align: center;
