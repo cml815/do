@@ -105,8 +105,7 @@ xl, extra-large: 1920px or larger
   background: url("../images/fibonacci-white.svg") no-repeat; }
 
 .press-case-study .hero {
-  background: url("../images/overhead.jpg") no-repeat center center;
-  background-position: cover; }
+  background-color: #c02e53; }
 
 .home .hero h1 {
   font-size: 2.5em;
@@ -548,23 +547,15 @@ figure.card:nth-child(2) {
 .text-margin > * {
   margin-bottom: 1em; }
 
-/*
-.main-content {
-    padding: 1em 2em;
-  }
-  
-  .main-content h2 {
-      margin-bottom: 1em;  
-  }
+.main-content__inner {
+  padding: 1em 2em; }
 
 .main-content p {
-    font-family: $serif;
-    font-size: 1.2em;
-    line-height: 1.5em;
-    margin-bottom: 1em;
-  }
+  font-family: "Noto Serif JP", Georgia, "Times New Roman", Times, serif;
+  font-size: 1.2em;
+  line-height: 1.5em;
+  margin-bottom: 1em; }
 
-  */
 .vertical-line {
   margin: 2em 0;
   height: 50px;
@@ -846,9 +837,6 @@ nav li:hover {
 
 .narrative {
   width: 50%; }
-
-.main-content {
-  background-color: white; }
 
 .grant-case-study .hero {
   background: #efefef url("../images/grant-sit-tight.jpg") no-repeat center right; }

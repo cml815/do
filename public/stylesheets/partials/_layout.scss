@@ -54,9 +54,7 @@
 }
 
 .press-case-study .hero {
-  background: url("../images/overhead.jpg") no-repeat center center;
-  background-position: cover;
-
+ background-color: $cerise;
 }
 
 .home .hero h1 {
@@ -666,14 +664,11 @@ figure.card:nth-child(2) {
 
   // Text heavy styles (for readability) //
   
-/*
-.main-content {
+
+.main-content__inner {
     padding: 1em 2em;
   }
   
-  .main-content h2 {
-      margin-bottom: 1em;  
-  }
 
 .main-content p {
     font-family: $serif;
@@ -682,7 +677,7 @@ figure.card:nth-child(2) {
     margin-bottom: 1em;
   }
 
-  */
+
   
   .vertical-line {
     margin: 2em 0;
