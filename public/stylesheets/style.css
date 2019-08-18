@@ -104,6 +104,10 @@ xl, extra-large: 1920px or larger
 .home .hero .bg {
   background: url("../images/fibonacci-white.svg") no-repeat; }
 
+.press-case-study .hero {
+  background: url("../images/overhead.jpg") no-repeat center center;
+  background-position: cover; }
+
 .home .hero h1 {
   font-size: 2.5em;
   line-height: 1em; }

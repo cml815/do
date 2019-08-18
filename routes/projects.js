@@ -29,7 +29,8 @@ router.get('/social-media-influencer', function(req, res, next) {
 router.get('/press-campaign', function(req, res, next) {
   res.render('press-campaign', { 
     title: 'Mass Shootings, No More',
-    summary: 'How a citizens group organized the largest gun violence prevention rally ever in Pennsylvania and was catapulted to the national stage. ',
+    bodyClass: 'press-case-study',
+    summary: 'How a citizens group organized the largest gun violence prevention rally ever in Pennsylvania and was catapulted to the national stage.',
     name: 'David Scholnick',
     jobTitle: 'Videographer, YouTube Influencer',
     caption: '',
@@ -44,6 +45,7 @@ router.get('/press-campaign', function(req, res, next) {
 router.get('/founder-stories', function(req, res, next) {
   res.render('founder-stories', { 
     title: 'Founder stories on risk, reward and travel',
+    bodyClass: 'founder-case-study',
     description: 'Fuel interviewed dozens of entrepreneurs on how to make a mark in the travel world',
     name: 'null',
     jobTitle: 'null',
@@ -59,6 +61,7 @@ router.get('/founder-stories', function(req, res, next) {
 router.get('/sbir-grants', function(req, res, next) {
   res.render('sbir-grants', { 
     title: 'Growth without dilution: Small business innovation research grants',
+    bodyClass: 'sbir-case-study',
     summary: 'How Fuel helped tech and biotech companies win funding to bring their innovations to market',
     name: 'null',
     jobTitle: 'null',
@@ -89,6 +92,7 @@ router.get('/thought-leadership', function(req, res, next) {
 router.get('/web-design', function(req, res, next) {
   res.render('web-design', { 
     title: 'Usable, useful websites',
+    bodyClass: 'website-case-study',
     summary: 'Web design to introduce new companies to discerning audiences',
     name: 'null',
     jobTitle: 'null',
