@@ -24,13 +24,26 @@
 
 /// SITE STYLES - move to base TODO  ///
 
-.projects {
-  background-color: transparent;
+.projects__container {
+  background-color: $black;
+  padding-top: 2em;
 }
 
 .project-card {
-  margin-bottom: 2em;
-} 
+  padding: 2em 0;
+  height: 90vh;
+}
+
+.cs__jg {
+  background-color: $night;
+  color: lighten($night, 50%);
+}
+
+.cs__jg .btn a {
+color: white;
+}
+
+
 
 .error {
   background-color: $bg-color-primary-dark;
