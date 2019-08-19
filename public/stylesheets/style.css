@@ -70,16 +70,21 @@ xl, extra-large: 1920px or larger
   padding: .25em;
   color: #141414; }
 
-@media (min-width: 599px) {
+/* 
+@media (min-width: $mobile) {
   article {
-    width: 650px;
+    min-width: $large;
     margin-left: auto;
-    margin-right: auto; }
+    margin-right: auto;
+  }
   figure {
-    width: 650px;
+    min-width: $large;
     margin-left: auto;
-    margin-right: auto; } }
+    margin-right: auto;
+  }
+}
 
+*/
 /* new styles to do move */
 /*
 .row {
@@ -569,6 +574,26 @@ blockquote {
   height: 50px;
   background: linear-gradient(#141414, #141414) no-repeat center/1px 100%; }
 
+.grayscale {
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+  -webkit-transition: .3s ease-in-out;
+  transition: .3s ease-in-out; }
+
+.grayscale:hover {
+  -webkit-filter: grayscale(0);
+  filter: grayscale(0); }
+
+/* 
+.zoom-in-out img {
+  transition: .6s ease-in-out;
+}
+
+.zoom-in-out:hover {
+  transform: scale(1.15);
+}
+
+*/
 /* Navigation */
 /* https://www.w3schools.com/code/tryit.asp?filename=G6913M8THUXM */
 /* old nav */
@@ -1138,9 +1163,6 @@ h2.anchor::before {
 
 .projects {
   background-color: transparent; }
-
-.projects figure {
-  height: 50vh; }
 
 .project-card {
   margin-bottom: 2em; }

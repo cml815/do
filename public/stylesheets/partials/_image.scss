@@ -1,0 +1,22 @@
+.grayscale {
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+  -webkit-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
+    }
+
+.grayscale:hover {
+  -webkit-filter: grayscale(0);
+  filter: grayscale(0);
+}
+
+/* 
+.zoom-in-out img {
+  transition: .6s ease-in-out;
+}
+
+.zoom-in-out:hover {
+  transform: scale(1.15);
+}
+
+*/

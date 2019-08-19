@@ -9,18 +9,21 @@
     color: $black; 
   }
 
+/* 
 @media (min-width: $mobile) {
   article {
-    width: $lg-col;
+    min-width: $large;
     margin-left: auto;
     margin-right: auto;
   }
   figure {
-    width: $lg-col;
+    min-width: $large;
     margin-left: auto;
     margin-right: auto;
   }
 }
+
+*/
 
 /* new styles to do move */
 
