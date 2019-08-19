@@ -54,38 +54,29 @@ main {
   /* min-height: calc(100vh - 50px); */
 }
 
-h2 {
-  font-family: $serif;
-  letter-spacing: .5px;
-  margin-bottom: .5em;
-}
-
-h3, h4, h5, h6 {
-    font-family: $sans;
-    letter-spacing: .5px;
+h1, h2, h3, h4, h5, h6 {
+  font-family: $sans;
+  line-height: 1.25;
+  letter-spacing: 1px;
 }
 
 h1 {
-  margin: 0.67em 0;
-  font-family: $sans;
   font-size: 2em;
-  letter-spacing: .25px;
-  line-height: 1.4em;
+  margin: 0.67em 0;
 }
+
 
 h2 {  
     font-size: 1.75em;
-    line-height: 1.4em;
+    margin: 0.67em 0;
 }
 
 h3, h4 {
     font-size: 1.5em;
-    line-height: 1.3em;
 }
 
 h5, h6 {
     font-size: 1.25em;
-    line-height: 1.3em;
 }
 
 .serif {
@@ -99,7 +90,7 @@ h5, h6 {
 p {
     font-family: $sans;
     font-size: 1em;
-    line-height: 1.4em;
+    line-height: 1.5;
     margin-bottom: .75em;
 }
 
@@ -125,7 +116,7 @@ a {
 }
 
 a:visited {  
-  /* color: darken($link, 20%); todo */
+  color: darken($link, 20%);
 }
 
 b,
@@ -154,7 +145,7 @@ sup {
 }
 
   hr {
-    transform: rotate(90deg);
+    transform: rotate(90deg); /* vertical line */
     width: 50px;
     color: $black;
  }
@@ -163,8 +154,7 @@ sup {
 
 .btn { 
     padding: .25em .75em;
-    margin-top: .5em;
-    margin-bottom: .5em;
+    margin: .5em 0;
     text-align: center;
 }
 
@@ -197,7 +187,6 @@ box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
   font-weight: bold;
 }
 
-
 .btn .primary {
   display: inline-block;
   background: $btn-primary;
@@ -210,7 +199,7 @@ box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
 }
 
 .btn:hover p {
-  color: white;
+  color: yellow; /* todo fix */
 }
 
 figure {

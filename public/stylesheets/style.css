@@ -57,6 +57,7 @@ $theme-colors: (
 );
 
 */
+/* Main Primary color */
 .grid-c {
   display: -ms-grid;
   display: grid; }
@@ -574,11 +575,6 @@ figure.card:nth-child(2) {
 .fine-print a, .fine-print a:visited {
   color: #5fd6e5; }
 
-.reverse {
-  color: white;
-  background-color: #141414;
-  padding: .5em; }
-
 .text-margin > * {
   margin-bottom: 1em; }
 
@@ -968,33 +964,24 @@ main {
   display: block;
   /* min-height: calc(100vh - 50px); */ }
 
-h2 {
-  font-family: "Noto Serif JP", Georgia, "Times New Roman", Times, serif;
-  letter-spacing: .5px;
-  margin-bottom: .5em; }
-
-h3, h4, h5, h6 {
+h1, h2, h3, h4, h5, h6 {
   font-family: "DM Sans", "Helvetica Neue", "Helvetica", Arial, sans-serif;
-  letter-spacing: .5px; }
+  line-height: 1.25;
+  letter-spacing: 1px; }
 
 h1 {
-  margin: 0.67em 0;
-  font-family: "DM Sans", "Helvetica Neue", "Helvetica", Arial, sans-serif;
   font-size: 2em;
-  letter-spacing: .25px;
-  line-height: 1.4em; }
+  margin: 0.67em 0; }
 
 h2 {
   font-size: 1.75em;
-  line-height: 1.4em; }
+  margin: 0.67em 0; }
 
 h3, h4 {
-  font-size: 1.5em;
-  line-height: 1.3em; }
+  font-size: 1.5em; }
 
 h5, h6 {
-  font-size: 1.25em;
-  line-height: 1.3em; }
+  font-size: 1.25em; }
 
 .serif {
   font-family: "Noto Serif JP", Georgia, "Times New Roman", Times, serif; }
@@ -1005,7 +992,7 @@ h5, h6 {
 p {
   font-family: "DM Sans", "Helvetica Neue", "Helvetica", Arial, sans-serif;
   font-size: 1em;
-  line-height: 1.4em;
+  line-height: 1.5;
   margin-bottom: .75em; }
 
 ul, li {
@@ -1028,7 +1015,7 @@ a {
   /* IE 10 */ }
 
 a:visited {
-  /* color: darken($link, 20%); todo */ }
+  color: #2c3a8c; }
 
 b,
 strong {
@@ -1053,14 +1040,14 @@ sup {
 
 hr {
   transform: rotate(90deg);
+  /* vertical line */
   width: 50px;
   color: #141414; }
 
 /* Buttons */
 .btn {
   padding: .25em .75em;
-  margin-top: .5em;
-  margin-bottom: .5em;
+  margin: .5em 0;
   text-align: center; }
 
 .outline {
@@ -1096,7 +1083,8 @@ hr {
     transition-timing-function: ease-in-out; }
 
 .btn:hover p {
-  color: white; }
+  color: yellow;
+  /* todo fix */ }
 
 figure {
   margin: 0;
@@ -1192,7 +1180,7 @@ h2.anchor::before {
   pointer-events: none; }
 
 .projects__container {
-  background-color: #141414;
+  background-color: yellow;
   padding-top: 2em; }
 
 .project-card {
@@ -1200,12 +1188,16 @@ h2.anchor::before {
   height: 90vh; }
 
 .cs__jg {
-  background-color: #242943;
-  color: #9ca4ca; }
+  background-color: white;
+  /*  background-color: lighten($pool, 20);
+  color: darken($night, 80%); */ }
 
+/* 
 .cs__jg .btn a {
-  color: white; }
+color: white;
+}
 
+*/
 .error {
   background-color: #242943;
   color: #9ca4ca; }
