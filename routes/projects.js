@@ -103,6 +103,19 @@ router.get('/web-design', function(req, res, next) {
   });
 });
 
+router.get('/websites', function(req, res, next) {
+  res.render('websites', { 
+    title: 'Usable, useful websites',
+    bodyClass: 'website-case-study',
+    summary: 'Web design to introduce new companies to discerning audiences',
+    name: 'null',
+    jobTitle: 'null',
+    caption: 'null',
+    credit: 'null',
+    tag: ['web design', 'web copywriting','prototyping', 'UI/UX'],
+    layout: 'case' 
+  });
+});
 
 
 /* CeasefirePA case study - Credit: David Scholnick

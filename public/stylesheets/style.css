@@ -785,6 +785,9 @@ nav li:hover {
   padding: 1em .5em;
   margin: 2em 0; }
 
+.twitter-wrap {
+  z-index: -1; }
+
 /*
 <img class=""src="../images/overhead.jpg" alt= "Protest against gun violence in Harrisburg, PA">
     <figcaption></figcaption>
