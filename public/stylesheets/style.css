@@ -1407,7 +1407,7 @@ footer {
   width: 100vw;
   bottom: 0;
   padding: 1em 0;
-  color: #5fd6e5; }
+  color: #3a4aa5; }
 
 section.benefit {
   height: 100vh; }
@@ -1417,13 +1417,15 @@ section.benefit {
   /*  background: url("../images/test-bg.png") no-repeat center;
   background-position: contain; */ }
 
+.panel__container {
+  background-image: linear-gradient(-225deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 40%, rgba(0, 255, 255, 0) 60%, #0ff 100%), linear-gradient(45deg, #3023AE 0%, #FF0099 100%); }
+
 article.panel {
-  height: 75vh;
   margin-bottom: 1rem;
-  margin-top: 5em; }
+  margin-top: 1em; }
 
 article.panel > * {
-  margin-bottom: 2rem; }
+  margin-bottom: 1rem; }
 
 .feature {
   height: 80vh;
