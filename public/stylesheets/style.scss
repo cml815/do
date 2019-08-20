@@ -224,11 +224,12 @@ article > h6 {
 
 footer {
   position: absolute;
-  height: 40vh;
+  height: 60vh;
   width: 100%;
   padding-top: 2em;
   padding-bottom: 1em;
-  background: url("../images/south-philly-skyline-blue.jpg") no-repeat;
+  background: url("../images/south-philly-skyline-poster.jpg") no-repeat;
+  background-size: cover;
 }
 
 .emph {
@@ -240,11 +241,11 @@ footer {
 }
 
 .copyright {
-  width: 100vw;
   text-align: center;
   font-size: .875em;
   padding: 1em 0;
-  background-color: $cerise;
+  color: $aqua;
+  background-color: $black;
 }
 
 

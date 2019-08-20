@@ -1388,11 +1388,12 @@ article > h6 {
 /* Footer */
 footer {
   position: absolute;
-  height: 40vh;
+  height: 60vh;
   width: 100%;
   padding-top: 2em;
   padding-bottom: 1em;
-  background: url("../images/south-philly-skyline-blue.jpg") no-repeat; }
+  background: url("../images/south-philly-skyline-poster.jpg") no-repeat;
+  background-size: cover; }
 
 .emph {
   font-weight: bolder; }
@@ -1401,11 +1402,11 @@ footer {
   color: #32293b; }
 
 .copyright {
-  width: 100vw;
   text-align: center;
   font-size: .875em;
   padding: 1em 0;
-  background-color: #c02e53; }
+  color: #5fd6e5;
+  background-color: #141414; }
 
 section.benefit {
   height: 100vh; }
