@@ -3,6 +3,13 @@
   display: grid;
 }
 
+@mixin setColorAndHover($baseColor) {
+  color: $baseColor;
+  &:hover {
+    background: lighten($baseColor, 8%);
+  }
+}
+
 .grid-c {
   @include display-grid;
 }
