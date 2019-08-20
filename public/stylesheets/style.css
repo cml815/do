@@ -1191,9 +1191,12 @@ h2.anchor::before {
 .projects__container {
   padding-top: 2em; }
 
-.cs__jg {
+.case-study__jg {
   background-color: #141414;
-  color: red; }
+  color: #f9973b; }
+
+a.temp-color {
+  color: yellow; }
 
 .temp-padding {
   padding: 1em 2em 0; }

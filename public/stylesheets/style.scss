@@ -28,9 +28,13 @@
   padding-top: 2em;
 }
 
-.cs__jg {
+.case-study__jg {
   background-color: $black;
-  color: red;
+  color: $orange;
+}
+
+a.temp-color {
+  color: yellow;
 }
 
 .temp-padding {
