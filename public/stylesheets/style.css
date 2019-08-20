@@ -1415,7 +1415,7 @@ footer {
   margin: 0; }
 
 .container--bottom {
-  height: 60vh;
+  height: 55vh;
   background: url("../images/south-philly-skyline-poster.jpg") no-repeat;
   background-size: cover; }
 
@@ -1423,7 +1423,7 @@ footer {
   font-weight: bolder; }
 
 .container__inner {
-  padding-left: 2em; }
+  padding: 0; }
 
 .social-links {
   width: 25%; }
