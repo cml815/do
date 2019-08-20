@@ -1230,17 +1230,16 @@ article > h6 {
     position: relative;
     top: 10px;
     left: 50px;
-    background-color: #23e3c9;
+    background-color: transparent;
     color: rgba(0, 0, 0, 0.2);
     font-family: "DM Sans", "Helvetica Neue", "Helvetica", Arial, sans-serif;
-    font-size: 3em;
+    font-size: 2em;
     font-weight: bold;
-    text-transform: uppercase;
     z-index: -1;
     color: black;
-    -webkit-text-fill-color: white;
-    -webkit-text-stroke-width: 2px;
-    -webkit-text-stroke-color: black;
+    /* -webkit-text-fill-color: white; // Will override color (regardless of order)
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: black; */
     /* text-shadow:
        3px 3px 0 #000,
       -1px -1px 0 #000,  
@@ -1250,7 +1249,7 @@ article > h6 {
     letter-spacing: 3px; } }
 
 .width-tune {
-  max-width: 250px; }
+  max-width: 200px; }
 
 /* Background video */
 * {
@@ -1389,10 +1388,11 @@ article > h6 {
 /* Footer */
 footer {
   position: absolute;
+  height: 40vh;
   width: 100%;
   padding-top: 2em;
   padding-bottom: 1em;
-  background-color: #efefef; }
+  background: url("../images/south-philly-skyline-blue.jpg") no-repeat; }
 
 .emph {
   font-weight: bolder; }
