@@ -243,7 +243,6 @@ footer {
 .copyright {
   text-align: center;
   font-size: .875em;
-  width: 100vw;
   bottom: 0;
   padding: 1em 0;
   color: $indigo;
@@ -269,13 +268,25 @@ section.benefit {
 background-image: linear-gradient(-225deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 40%, rgba(0, 255, 255, 0) 60%, #0ff 100%), linear-gradient(45deg, #3023AE 0%, #FF0099 100%);
 }
 
-article.panel {
+.panel {
   margin-bottom: 1rem;
   margin-top: 1em;
 }
 
-article.panel > * {
+.panel > * {
   margin-bottom: 1rem;
+}
+
+.panel__text {
+  padding: 1em 2em 2em;
+}
+
+.panel__text h4, .panel__text p {
+  padding: 1em 0;
+}
+
+.button__container {
+  padding: 2em 0;
 }
 
 .feature {
