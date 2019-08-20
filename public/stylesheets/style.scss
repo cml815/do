@@ -25,12 +25,20 @@
 /// SITE STYLES - move to base TODO  ///
 
 .projects__container {
-  background-color: yellow;
   padding-top: 2em;
 }
 
+.cs__jg {
+  background-color: $black;
+  color: red;
+}
+
+.temp-padding {
+  padding: 1em 2em 0;
+}
+
 .project-card {
-  padding: 2em 0;
+  padding: 2em;
   height: 90vh;
 }
 
@@ -264,8 +272,10 @@ section.benefit {
   background-position: contain; */
 } 
 
-.panel {
-background-image: linear-gradient(-225deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 40%, rgba(0, 255, 255, 0) 60%, #0ff 100%), linear-gradient(45deg, #3023AE 0%, #FF0099 100%);
+.panel__list li {
+
+  padding-bottom: .5em;
+  
 }
 
 .panel {
@@ -613,6 +623,10 @@ button {
 
 .sample > .flex-item {
   height: 60vw;
+}
+
+.image__container {
+  
 }
 
 

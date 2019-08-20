@@ -58,6 +58,11 @@ $theme-colors: (
 
 */
 /* Main Primary color */
+/* 
+
+background-image: linear-gradient(to bottom, #413da8, #3b42a7, #3746a5, #334aa3, #314da0, #2e519f, #2c559e, #2c589d, #2a5d9d, #2b619d, #2d659d, #30699c);
+
+*/
 .grid-c {
   display: -ms-grid;
   display: grid; }
@@ -1184,11 +1189,17 @@ h2.anchor::before {
   pointer-events: none; }
 
 .projects__container {
-  background-color: yellow;
   padding-top: 2em; }
 
+.cs__jg {
+  background-color: #141414;
+  color: red; }
+
+.temp-padding {
+  padding: 1em 2em 0; }
+
 .project-card {
-  padding: 2em 0;
+  padding: 2em;
   height: 90vh; }
 
 .cs__jg {
@@ -1420,8 +1431,8 @@ section.benefit {
   /*  background: url("../images/test-bg.png") no-repeat center;
   background-position: contain; */ }
 
-.panel {
-  background-image: linear-gradient(-225deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 40%, rgba(0, 255, 255, 0) 60%, #0ff 100%), linear-gradient(45deg, #3023AE 0%, #FF0099 100%); }
+.panel__list li {
+  padding-bottom: .5em; }
 
 .panel {
   margin-bottom: 1rem;
