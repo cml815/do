@@ -1392,7 +1392,7 @@ footer {
   width: 100%;
   padding-top: 2em;
   padding-bottom: 1em;
-  background: url("../images/south-philly-skyline-poster.jpg") no-repeat;
+  background: url("../images/south-philly-skyline-opacity.jpg") no-repeat;
   background-size: cover; }
 
 .emph {
@@ -1404,9 +1404,10 @@ footer {
 .copyright {
   text-align: center;
   font-size: .875em;
+  width: 100vw;
+  bottom: 0;
   padding: 1em 0;
-  color: #5fd6e5;
-  background-color: #141414; }
+  color: #5fd6e5; }
 
 section.benefit {
   height: 100vh; }

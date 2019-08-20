@@ -228,7 +228,7 @@ footer {
   width: 100%;
   padding-top: 2em;
   padding-bottom: 1em;
-  background: url("../images/south-philly-skyline-poster.jpg") no-repeat;
+  background: url("../images/south-philly-skyline-opacity.jpg") no-repeat;
   background-size: cover;
 }
 
@@ -243,10 +243,12 @@ footer {
 .copyright {
   text-align: center;
   font-size: .875em;
+  width: 100vw;
+  bottom: 0;
   padding: 1em 0;
   color: $aqua;
-  background-color: $black;
 }
+
 
 
 /// Page Styles ///
