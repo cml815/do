@@ -1417,7 +1417,7 @@ section.benefit {
   /*  background: url("../images/test-bg.png") no-repeat center;
   background-position: contain; */ }
 
-.panel__container {
+.panel {
   background-image: linear-gradient(-225deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 40%, rgba(0, 255, 255, 0) 60%, #0ff 100%), linear-gradient(45deg, #3023AE 0%, #FF0099 100%); }
 
 article.panel {
