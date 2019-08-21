@@ -280,7 +280,7 @@ figure.card:nth-child(2) {
 
 .grid-wrapper {
     display: grid;
-    max-height: 100vh;
+    min-height: 100vh;
     grid-gap: 1em;
     grid-template-areas:
         "menu"
@@ -488,20 +488,6 @@ figure.card:nth-child(2) {
   /* end todo */
   
 
-  .fullscreen {
-    grid-template-columns: 1fr;
-    grid-gap: 0;
-    height: 100vh;
-  }
-  
-  .pad-1 {
-      padding: 1em; 
-  }
-
-  .pad-2 {
-      padding: 2em;
-  }
-
 .two-x-two {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -551,10 +537,6 @@ figure.card:nth-child(2) {
 
 .centered {
     max-width: 50%
-}
-
-.fullscreen {
-    height: 100vh;
 }
 
 .halfscreen {
