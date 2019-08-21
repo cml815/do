@@ -233,11 +233,11 @@ article > h6 {
 
 footer {
   position: absolute;
-  height: 40vh;
+  height: 95vh;
   width: 100%;
   padding-top: 0;
   padding-bottom: 0;
-  
+  background: url("../images/south-philly-skyline-poster.jpg") no-repeat center bottom;
 }
 
 .footer-link {
@@ -246,26 +246,42 @@ footer {
   line-height: 1.3;
   margin: 0;
 }
-.container--bottom {
-height: 55vh;
-background: url("../images/south-philly-skyline-poster.jpg") no-repeat;
-  background-size: cover;
-}
+
 
 .emph {
   font-weight: bolder;
 }
 
-.container__inner {
+.footer__wrap {
   padding: 0;
+  margin: 0;
+}
+
+.container__inner {
+  padding: 1em;
+}
+
+.container--text > * {
+  padding-bottom: 1em;
+}
+
+.flex-c--row {
+  display: flex;
+  flex-direction: row;
 }
 
 .social-links {
-  width: 25%;
+  display: inline-block;
+  flex-direction: row;
+  padding-top: 2em;
 }
 
 .social-links li {
-  width: 20px;
+  width: 100px;
+}
+
+.social-links li a {
+  font-size: 2em;
 }
 
 .social-links > a:visited {
