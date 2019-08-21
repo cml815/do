@@ -141,6 +141,14 @@ background-image: linear-gradient(to bottom, #413da8, #3b42a7, #3746a5, #334aa3,
   background-color: #141414;
   color: white; }
 
+/* 
+.hero-container-element {
+  background-image: url(your-hero-bg.jpg);
+  background-size: cover;
+  background-posititon: x% y%;
+}
+
+*/
 .home .hero .bg {
   background: url("../images/fibonacci-white.svg") no-repeat; }
 
@@ -1502,6 +1510,14 @@ section.benefit {
   width: auto;
   height: 50vh;
   border-style: none; }
+
+.meet-the-team {
+  background-color: white; }
+
+.meet-the-team img {
+  max-width: 100%;
+  height: auto;
+  object-fit: cover; }
 
 .callout {
   max-height: 100%;
