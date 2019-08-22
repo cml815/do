@@ -6,7 +6,7 @@ router.get('/', function(req, res, next) {
   });
   
 router.get('/team-bios', function(req, res, next) {
-  res.render('team-bios', { layout: 'case' });
+  res.render('team-bios', { layout: 'default' });
 });
 
 /* About page route - Fix or delete 
