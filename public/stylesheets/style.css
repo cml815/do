@@ -2,7 +2,7 @@
   font-family: "Inter";
   src: url("./fonts/inter3.5/inter-web/Inter-Bold.woff"); }
 
-/* Size and space */
+/* Size and spacing */
 /* for padding and margins */
 /* Layouts */
 /* Color Scheme */
@@ -135,7 +135,7 @@ background-image: linear-gradient(to bottom, #413da8, #3b42a7, #3746a5, #334aa3,
   align-items: center; }
 
 .hero__inner {
-  padding: 0 .5em; }
+  padding: calc(0.25 * var(--space-unit)); }
 
 .home .hero {
   background-color: #141414;
