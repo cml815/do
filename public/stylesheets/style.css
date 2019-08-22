@@ -1166,7 +1166,7 @@ fieldset {
   background-color: #efefef;
   color: #141414; }
 
-h2.anchor::before {
+h4.anchor::before {
   display: block;
   content: " ";
   margin-top: -100px;
@@ -1400,9 +1400,6 @@ footer {
   font-size: 1.4em;
   line-height: 1.3;
   margin: 0; }
-
-.emph {
-  font-weight: bolder; }
 
 .footer__wrap {
   padding: 0;
@@ -1759,8 +1756,6 @@ button {
 .sample > .flex-item {
   height: 60vw; }
 
-/* flicker https://codepen.io/mandymichael/pen/aJLYVz */
-/* prefers-reduced-motion */
 /* 404 Error Page */
 .wrap-error-text {
   height: 75vh; }
