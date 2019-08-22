@@ -2,7 +2,7 @@ var express = require('express');
 var router = express.Router();
 
 router.get('/', function(req, res, next) {
-    res.render('about', { layout: 'default' });
+    res.render('about', { layout: 'default', bodyClass: "team-bios" });
   });
   
 router.get('/team-bios', function(req, res, next) {
