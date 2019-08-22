@@ -824,6 +824,17 @@ nav li:hover {
   background: url("../images/overhead.jpg") no-repeat center;
   height: 100vh; }
 
+.flex-c--wrap {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 1em; }
+
+.tag-container > tag {
+  margin: 1em; }
+
+.tag-item {
+  margin-botton: 1em; }
+
 .tag-container {
   padding: 1em .5em;
   margin: 2em 0; }
@@ -841,6 +852,7 @@ nav li:hover {
   font-size: 1em;
   text-transform: uppercase;
   padding: .5em .75em;
+  margin-bottom: 1em;
   margin-right: 1em;
   border: solid 1px #242943;
   border-radius: 8px;
