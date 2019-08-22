@@ -10,7 +10,7 @@
   }
 
 /* 
-@media (min-width: $mobile) {
+@include mobile {
   article {
     min-width: $large;
     margin-left: auto;
@@ -44,7 +44,7 @@
 }
 
 .hero__inner {
-  padding: $space-xxs;
+  padding: $space-s;
 }
 
 .home .hero {
@@ -75,7 +75,7 @@
   line-height: 1em;
 }
 
-@media screen and (min-width: $mobile) {
+@include mobile {
   .hero {
     flex-direction: column;
     align-items: center;
@@ -167,7 +167,7 @@
 
 */
 
-@media screen and (min-width: $medium) {
+@include tablet {
   .inner {
     padding: 2em;
   }
@@ -176,7 +176,7 @@
   }
 }
 
-@media screen and (min-width: $medium) {
+@include mobile {
   .inner {
     max-width: 900px;
     margin: 0 auto;
@@ -265,7 +265,7 @@ figure.card:nth-child(2) {
     flex-direction: wrap;
 }
   
-  @media only screen and (max-width: $mobile) {
+@include mobile {
     .flex-c {
       flex-direction: column;
     }
@@ -284,7 +284,7 @@ figure.card:nth-child(2) {
         "footer";
 }
 
-@media (min-width: 599px) {
+@include mobile{
     .grid-wrapper {
       grid-template-columns: 1fr 1fr;
       grid-template-areas: 
@@ -454,7 +454,7 @@ figure.card:nth-child(2) {
     &--full {
       grid-column-end: auto;
   
-      @media screen and (min-width: 768px) {
+      @include laptop {
         grid-column: 1/-1;
         grid-row-end: span 2;
       }
@@ -495,14 +495,14 @@ figure.card:nth-child(2) {
 
 /* Image gallery grid -- About page */
 
-@media(min-width: $mobile) {
+@include mobile {
     .grid-c__columns {
       display: grid;
       grid-template-columns: repeat(2, 1fr);
     }
   }
   
-  @media(min-width: $medium) {
+  @include tablet {
     .grid-c__columns {
       display: grid;
       grid-template-columns: repeat(3, 1fr)
@@ -542,7 +542,7 @@ figure.card:nth-child(2) {
     justify-content: space-between;
 }
 
-@media screen and (min-width: $mobile) {
+@include mobile {
     .centering {
         width: 80%;
         text-align: center;

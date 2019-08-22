@@ -3,13 +3,27 @@
   display: grid;
 }
 
-@mixin setColorAndHover($baseColor) {
-  color: $baseColor;
+@mixin base-lighten($base-color) {
+  color: $base-color;
   &:hover {
-    background: lighten($baseColor, 8%);
+    background: lighten($base-color, 8%);
   }
 }
 
-.grid-c {
-  @include display-grid;
+@mixin mobile {
+  @media (max-width: 599px) { @content; }
 }
+@mixin tablet {
+  @media (min-width: 600px) { @content; }
+}
+@mixin laptop {
+  @media (min-width: 900px) { @content; }
+}
+@mixin desktop {
+  @media (min-width: 1200px) { @content; }
+}
+@mixin largest-screen {
+  @media (min-width: 1800px) { @content; }
+}
+
+

@@ -9,7 +9,7 @@
   height: 20vh;
 }
 
-@media screen and ($mobile) {
+@include mobile {
   li {
     width: 50%;
   }
@@ -59,7 +59,7 @@ line-height: 1.25em;
   color: $white;
 }
 
-@media screen and (min-width: $mobile) {
+@include mobile {
   .lede__container {
     width: 80vw;
   }

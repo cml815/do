@@ -3,6 +3,7 @@
 @import "layout-margin";
 @import "layout";
 @import "image";
+@import "type";
 @import "nav";
 @import "case";
 @import "media";
@@ -45,7 +46,7 @@ body {
     /* overflow-x: hidden; */
 }
 
-@media screen and (min-width: $mobile) {
+@include mobile {
   body {
     font-size: 18px;
   }
@@ -296,7 +297,7 @@ button,
     display: block;
   }
 
-  @media screen and (max-width: $mobile) {
+  @include mobile {
     .visible-on-large {
       display: none;
     } 

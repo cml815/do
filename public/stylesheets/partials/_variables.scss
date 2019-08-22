@@ -7,6 +7,8 @@ $font-size-large: 18px;
 
 $space: 1em;
 
+$space-s: .5em;
+
 /* $space-unit: 1em; /* for padding and margins 
 
 $space-xxs:  calc(0.25 * var(--space-unit));
@@ -17,7 +19,6 @@ $space-lg:   calc(2 * var(--space-unit));
 $space-xl:   calc(3.25 * var(--space-unit));
 $space-xxl:  calc(5.25 * var(--space-unit));
 
-*/
 
 
 /* Layouts */
@@ -38,8 +39,6 @@ $white: rgba(255, 255, 255, 1) !default;
 $logo: #eb5b5f;
 
 // base colors
-
-$test: #30699C;
 
 $black: rgb(20, 20, 20);
 $white: rgb(255, 255, 255);
@@ -69,28 +68,36 @@ $night: #242943; /* dark blue */
 
 // color scheme //
 
-$main-color:          #413DA8;
+$base-color:          #413DA8;
 
-$main-color-lightest: lighten($main-color, 20%);
-$main-color-lighter:  lighten($main-color, 15%);
-$main-color-light:    lighten($main-color, 10%);
+$base-color-lightest: lighten($base-color, 20%);
+$base-color-lighter:  lighten($base-color, 15%);
+$base-color-light:    lighten($base-color, 10%);
 
-$main-color-dark:     darken($main-color, 40%);
-$main-color-darker:   darken($main-color, 50%);
-$main-color-darkest:  darken($main-color, 60%);
+$base-color-dark:     darken($base-color, 40%);
+$base-color-darker:   darken($base-color, 50%);
+$base-color-darkest:  darken($base-color, 60%);
 
 $secondary-color: #30699C;
 
-$secondary-color-lightest: lighten($main-color, 20%);
-$secondary-color-lighter:  lighten($main-color, 15%);
-$main-color-light:    lighten($main-color, 10%);
+$secondary-color-lightest: lighten($base-color, 20%);
+$secondary-color-lighter:  lighten($base-color, 15%);
+$main-color-light:    lighten($base-color, 10%);
 
-$main-color-dark:     darken($main-color, 40%);
-$main-color-darker:   darken($main-color, 50%);
-$main-color-darkest:  darken($main-color, 60%);
+$main-color-dark:     darken($base-color, 40%);
+$main-color-darker:   darken($base-color, 50%);
+$main-color-darkest:  darken($base-color, 60%);
 
 $tertiary-color: #2AA375;
 
+
+@function tint($color, $percentage) {
+  @return mix(white, $color, $percentage);
+}
+
+@function shade($color, $percentage) {
+  @return mix(black, $color, $percentage);
+}
 
 // service category colors
 
@@ -177,9 +184,9 @@ $serif-old: 'Aleo', Georgia, 'Times New Roman', Times, serif;
 
 /* min-width breakpoints*/
 
-$bp-sm: "(max-width: 599px)"; 
-$bp-md: "(min-width: 600px)";
-$bp-lg: "(min-width: 1024px)";
+$bp-s: "(max-width: 599px)"; 
+$bp-m: "(min-width: 600px)";
+$bp-l: "(min-width: 1024px)";
 $bp-xl: "min-width: 1025px)";
 
 /* 
