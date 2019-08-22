@@ -23,6 +23,7 @@ $space-xxl:  calc(5.25 * var(--space-unit));
 /* indigo */
 /* indigo lite */
 /* grape */
+/* $hero: linear-gradient(45deg,#fff 70%, rgb(82, 173, 247) 0%); */
 /* lighten($indigo, 5%); */
 /* button adjusted colors*/
 .btn .shadow {
@@ -117,8 +118,8 @@ background-image: linear-gradient(to bottom, #413da8, #3b42a7, #3746a5, #334aa3,
   padding: 0.5em; }
 
 .home .hero {
-  background-color: #141414;
-  color: white; }
+  color: white;
+  background: linear-gradient(45deg, #3a4aa6 0%, #52adf7 80%, #3a4aa6 2%); }
 
 /* 
 .hero-container-element {
@@ -1198,7 +1199,7 @@ color: white;
   color: #23e3c9; }
 
 .highlight {
-  background: linear-gradient(180deg, rgba(255, 255, 255, 0) 70%, #52adf7 0%); }
+  background: linear-gradient(180deg, #3a4aa6 70%, #52adf7 0%); }
 
 a.highlight {
   background: #efefef; }
