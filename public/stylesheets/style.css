@@ -253,10 +253,6 @@ figure.card:nth-child(2) {
 .circle {
   border-radius: 50%; }
 
-.container-temp {
-  max-width: 100%;
-  overflow: hidden; }
-
 .bold {
   font-weight: bold; }
 
@@ -953,7 +949,7 @@ body {
   font-family: "DM Sans", "Helvetica Neue", "Helvetica", Arial, sans-serif;
   font-size: 16px;
   color: #141414;
-  overflow-x: hidden; }
+  /* overflow-x: hidden; */ }
 
 @media screen and (min-width: 599px) {
   body {
