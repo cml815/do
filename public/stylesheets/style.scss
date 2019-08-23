@@ -112,6 +112,26 @@ article > h6 {
 
 /* Home page styles */
 
+.shoutout {
+  height: 100vh;
+}
+
+.shoutout h2 {
+  max-width: 768px;
+}
+
+h2.room {
+  line-height: 1.5;
+}
+
+h2 .focus {
+border-bottom: 2px $indigo solid;
+}
+
+h2 .focus-alt {
+border-bottom: 2px #c0ffee solid;
+} 
+
 .benefits .card {
   height: 60vh;
   max-width: 70ch; 

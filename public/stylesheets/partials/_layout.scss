@@ -48,9 +48,8 @@
 }
 
 .home .hero {
-  color: white;
-  background: rgb(62,53,85);
-  background: linear-gradient(45deg, rgba(62,53,85,1) 0%, rgba(44,46,113,1) 45%, rgba(50,49,109,1) 63%, rgba(50,41,59,1) 100%);
+  color: $white;
+  background-color: lighten($charcoal, 5);
 }
 
 /* 
@@ -64,6 +63,18 @@
 
 .home .hero .bg {
   background: url("../images/fibonacci-white.svg") no-repeat;
+}
+
+.hero-fixed {
+  position: absolute;
+  right: 0;
+  bottom: .5em;
+}
+
+.img__container--center {
+  position: relative;
+  margin: 0 auto;
+  width: 75%;
 }
 
 
@@ -681,9 +692,9 @@ figure.card:nth-child(2) {
  
   .fine-print {
     text-transform: uppercase;
-    font-size: .9em;
+    font-size: 1em;
     font-weight: bold;
-    letter-spacing: .2em;
+    letter-spacing: .0625em;
   }
 
   .fine-print a, .fine-print a:visited {

@@ -123,8 +123,7 @@ background-image: linear-gradient(to bottom, #413da8, #3b42a7, #3746a5, #334aa3,
 
 .home .hero {
   color: white;
-  background: #3e3555;
-  background: linear-gradient(45deg, #3e3555 0%, #2c2e71 45%, #32316d 63%, #32293b 100%); }
+  background-color: #4d575f; }
 
 /* 
 .hero-container-element {
@@ -136,6 +135,16 @@ background-image: linear-gradient(to bottom, #413da8, #3b42a7, #3746a5, #334aa3,
 */
 .home .hero .bg {
   background: url("../images/fibonacci-white.svg") no-repeat; }
+
+.hero-fixed {
+  position: absolute;
+  right: 0;
+  bottom: .5em; }
+
+.img__container--center {
+  position: relative;
+  margin: 0 auto;
+  width: 75%; }
 
 .heart,
 .heart:before,
@@ -584,9 +593,9 @@ figure.card:nth-child(2) {
 
 .fine-print {
   text-transform: uppercase;
-  font-size: .9em;
+  font-size: 1em;
   font-weight: bold;
-  letter-spacing: .2em; }
+  letter-spacing: .0625em; }
 
 .fine-print a, .fine-print a:visited {
   color: #5fd6e5; }
@@ -996,7 +1005,7 @@ main {
 h1, h2, h3, h4, h5, h6 {
   font-family: "DM Sans", "Helvetica Neue", "Helvetica", Arial, sans-serif;
   line-height: 1.25;
-  letter-spacing: 1px; }
+  letter-spacing: 0.0625em; }
 
 h1 {
   font-size: 2em;
@@ -1278,6 +1287,21 @@ article > h6 {
   padding: 1em 0; }
 
 /* Home page styles */
+.shoutout {
+  height: 100vh; }
+
+.shoutout h2 {
+  max-width: 768px; }
+
+h2.room {
+  line-height: 1.5; }
+
+h2 .focus {
+  border-bottom: 2px #3a4aa5 solid; }
+
+h2 .focus-alt {
+  border-bottom: 2px #c0ffee solid; }
+
 .benefits .card {
   height: 60vh;
   max-width: 70ch; }
