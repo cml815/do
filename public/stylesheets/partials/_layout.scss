@@ -71,13 +71,14 @@
 .heart,
 .heart:before,
 .heart:after {
-  width: 25px;
-  height: 25px;
-  box-shadow: 0px 0px 4px red;
+  width: 15px;
+  height: 15px;
+  box-shadow: 0px 0px 4px #c93133;
+  z-index: 1;
 }
 
 .heart {
-  background: red;
+  background: #c93131;
   position: relative;
   animation-name: pulse;
   animation-duration: 3s;
@@ -87,7 +88,7 @@
   &:after,
   &:before {
     content: "";
-    background: red;
+    background: #c93131;
     border-radius: 50%;
     position: absolute;
     top: 0;
