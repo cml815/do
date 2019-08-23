@@ -1257,7 +1257,7 @@ color: white;
 .error p {
   font-size: 1.25em; }
 
-.error a {
+a.underline {
   font-size: 1.25em;
   text-decoration: underline; }
 
