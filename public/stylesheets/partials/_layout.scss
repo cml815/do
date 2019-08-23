@@ -43,13 +43,24 @@
   align-items: center; 
 }
 
+.hero h1 {
+  line-height: 1.4;
+  letter-spacing: .02em;
+}
+
 .hero__inner {
-  padding: $space-s;
+  padding: $space-l;
+  max-width: 768px;
 }
 
 .home .hero {
   color: $white;
-  background-color: lighten($charcoal, 5);
+  background-color: darken($charcoal, 10);
+}
+
+.about .hero {
+  background: url('../images/rock-shot.jpg') no-repeat;
+  background-position: contain;
 }
 
 /* 
@@ -57,9 +68,8 @@
   background-image: url(your-hero-bg.jpg);
   background-size: cover;
   background-posititon: x% y%;
-}
+} */
 
-*/
 
 .home .hero .bg {
   background: url("../images/fibonacci-white.svg") no-repeat;
@@ -76,8 +86,6 @@
   margin: 0 auto;
   width: 75%;
 }
-
-
 
 .heart,
 .heart:before,
@@ -216,7 +224,7 @@
 }
 
 .inner > * {
-  margin-bottom: 2em;
+  margin-bottom: .5em;
 }
 
 /* 
@@ -228,10 +236,10 @@
 
 @include mobile-plus {
   .inner {
-    padding: 2em;
+    padding: 1em 2em;
   }
   .inner > * {
-    margin-bottom: 2em;
+    margin-bottom: .75em;
   }
 }
 
@@ -601,13 +609,6 @@ figure.card:nth-child(2) {
     justify-content: space-between;
 }
 
-@include mobile {
-    .centering {
-        width: 80%;
-        text-align: center;
-        font-size: 1.25em;
-    }
-}
 /// Headers ///
 
 .title-box {
