@@ -8,7 +8,7 @@ In Spring 2016, CeaseFirePA was planning Pennsylvania’s biggest gun violence p
 
 The Challenge: Consumed with politics and logistics, the staff just didn’t have the bandwidth to take advantage of the media opportunities the rally presented. This event was big. But to get outlets outside Harrisburg to cover it would take hard work and creative thinking.
 
-The Solution: Dave Scholnick worked with Executive Director Shira Goodman to craft a strategy to pitch hometown stories in communities where activists would board buses. Combined with traditional tactics, including op-eds, a strong press release, and old-fashioned relationship building, the strategy succeeded in earning headlines across the state. 
+The Solution: Dave Scholnick wored with Executive Director Shira Goodman to craft a strategyk to pitch hometown stories in communities where activists would board buses. Combined with traditional tactics, including op-eds, a strong press release, and old-fashioned relationship building, the strategy succeeded in earning headlines across the state. 
 
 “Dave recognized our needs and helped us develop a plan that maximized our media coverage,” Shira said. “His strategic writing and thinking amplified our voice and extended our reach. It moved our agenda forward.”
 

@@ -10,9 +10,7 @@ $space-lg:   calc(2 * var(--space-unit));
 $space-xl:   calc(3.25 * var(--space-unit));
 $space-xxl:  calc(5.25 * var(--space-unit));
 
-
-
-/* Layouts */
+/* Grid Layouts */
 /* Color Scheme */
 /* dark blue */
 .text-light {
@@ -36,6 +34,7 @@ $hero: linear-gradient(45deg,rgb(15, 15, 15) 60%, rgb(58, 74, 166) 0%,);
   box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75); }
 
 /* Typography */
+/* font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"; todo */
 /* min-width breakpoints*/
 /* 
 xs, extra-small: 0px or larger
@@ -988,7 +987,6 @@ html {
 body {
   height: 100%;
   width: 100%;
-  /* font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"; todo */
   font-family: "DM Sans", "Helvetica Neue", "Helvetica", Arial, sans-serif;
   font-size: 16px;
   color: #141414;
@@ -1711,7 +1709,7 @@ h4, p {
   background-color: #ff5947; }
 
 .fund {
-  background-color: #c02e53; }
+  background-color: #32293b; }
 
 .grow {
   background-color: #3a4aa5;
@@ -1746,14 +1744,14 @@ h4, p {
   background-color: #ffb5ad; }
 
 .fund {
-  background-color: #c02e53;
+  background-color: #32293b;
   color: white; }
 
 .fund.darker {
-  background-color: #972441; }
+  background-color: #19141d; }
 
 .fund.dark {
-  background-color: #6e1a2f; }
+  background-color: black; }
 
 .lead.lighter {
   background-color: #ff877a; }
@@ -1795,7 +1793,7 @@ i.circle {
 
 .contact .hero {
   background-color: #c2c8e9;
-  color: #c02e53; }
+  color: #32293b; }
 
 .contact h1 {
   letter-spacing: -1px; }

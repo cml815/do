@@ -8,6 +8,8 @@ $font-size-large: 18px;
 $space: 1em;
 
 $space-s: .5em;
+$space-m: 1.5em;
+$space-l: 2em;
 
 /* $space-unit: 1em; /* for padding and margins 
 
@@ -19,9 +21,7 @@ $space-lg:   calc(2 * var(--space-unit));
 $space-xl:   calc(3.25 * var(--space-unit));
 $space-xxl:  calc(5.25 * var(--space-unit));
 
-
-
-/* Layouts */
+/* Grid Layouts */
 
 $minmax: 250px;
 $minmax-l: 400px;
@@ -35,6 +35,7 @@ $minmax-xs: 100px;
 $black: rgba(0, 0, 0, 1) !default; 
 $white: rgba(255, 255, 255, 1) !default;
 
+
 // old brand colors 
 $logo: #eb5b5f;
 
@@ -46,11 +47,7 @@ $charcoal: #424A51;
 $gray-light: rgb(239, 239, 239);
 
 $indigo: #3a4aa5;
-$red: rgb(192, 46, 83);
-
-$cherry: rgb(247, 122, 153);
-$cherry-lt: rgba(247, 137, 164, 1);
-$cerise: #c02e53;
+$cerise: rgb(192, 46, 83);
 
 $orange-red: rgba(255, 89, 71, 1);
 $orange: rgba(249, 151, 59, 1);
@@ -59,11 +56,9 @@ $pool:  rgb(87, 184, 255);
 $aqua: rgb(95, 214, 229);
 $aqua-green: rgb(35, 227, 201);
 
-$eggplant: #32293b;
 $grape: #32293b;
 
-$blue: #3C4F76;
-
+$blue: rgb(46, 71, 122);
 $night: #242943; /* dark blue */
 
 // color scheme //
@@ -102,7 +97,7 @@ $tertiary-color: #2AA375;
 // service category colors
 
 $lead: $orange-red;
-$fund: $red;
+$fund: $grape;
 $grow: $indigo;
 
 // element colors
@@ -174,6 +169,8 @@ $serif: 'Noto Serif JP', Georgia, 'Times New Roman', Times, serif;
 
 $narrow: 'Roboto Condensed', 'Lato', Helvetica, 'Helvetica Neue', Arial, sans-serif;
 $serif-old: 'Aleo', Georgia, 'Times New Roman', Times, serif;
+
+  /* font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"; todo */
 
 @mixin mobile {
     @media (max-width: 599px) { @content; }

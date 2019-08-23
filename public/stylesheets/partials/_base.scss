@@ -16,7 +16,8 @@
   border: 1px solid red;
  }
 
- */@at-root
+ */
+
 *, *:before, *:after {
   box-sizing: inherit;
 }
@@ -39,7 +40,6 @@ html {
 body {
     height: 100%;
     width: 100%;
-    /* font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"; todo */
     font-family: $sans;
     font-size: $font-size-base;
     color: $black;
