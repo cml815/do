@@ -129,7 +129,7 @@
   }
 }
 
-@include tablet-plus {
+@include mobile-plus {
   h1 {
     font-size: 2.5em;
   }
@@ -211,7 +211,7 @@
 
 */
 
-@include tablet {
+@include mobile-plus {
   .inner {
     padding: 2em;
   }
@@ -546,7 +546,7 @@ figure.card:nth-child(2) {
     }
   }
   
-  @include tablet {
+  @include mobile-plus {
     .grid-c__columns {
       display: grid;
       grid-template-columns: repeat(3, 1fr)

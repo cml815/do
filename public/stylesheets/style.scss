@@ -87,7 +87,7 @@ article > h6 {
   margin-bottom: 0;
 }
 
-@include mobile{
+@include mobile-plus {
 .text-as-background {
   writing-mode: vertical-rl;
   text-orientation: sideways;
@@ -97,8 +97,10 @@ article > h6 {
   background-color: transparent;
   color: rgba(0,0,0,0.2);
   font-family: $sans;
-  font-size: 2em;
+  font-size: 1.5em;
   font-weight: bold;
+  border-left: 2px solid orange;
+   //text-decoration: underline;
   z-index: -1;
   color: black;
  /* -webkit-text-fill-color: white; // Will override color (regardless of order)

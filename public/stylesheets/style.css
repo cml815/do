@@ -184,7 +184,7 @@ background-image: linear-gradient(to bottom, #413da8, #3b42a7, #3746a5, #334aa3,
     flex-direction: column;
     align-items: center; } }
 
-@media (min-width: 900px) {
+@media (min-width: 600px) {
   h1 {
     font-size: 2.5em; } }
 
@@ -982,7 +982,7 @@ body {
   color: #141414;
   /* overflow-x: hidden; */ }
 
-@media (max-width: 599px) {
+@media (min-width: 600px) {
   body {
     font-size: 18px; } }
 
@@ -1255,7 +1255,7 @@ article > h6 {
 .text-as-background {
   margin-bottom: 0; }
 
-@media (max-width: 599px) {
+@media (min-width: 600px) {
   .text-as-background {
     writing-mode: vertical-rl;
     text-orientation: sideways;
@@ -1265,8 +1265,9 @@ article > h6 {
     background-color: transparent;
     color: rgba(0, 0, 0, 0.2);
     font-family: "DM Sans", "Helvetica Neue", "Helvetica", Arial, sans-serif;
-    font-size: 2em;
+    font-size: 1.5em;
     font-weight: bold;
+    border-left: 2px solid orange;
     z-index: -1;
     color: black;
     /* -webkit-text-fill-color: white; // Will override color (regardless of order)
