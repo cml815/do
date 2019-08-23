@@ -10,7 +10,7 @@
 }
 
 @include mobile {
-  li {
+  .sub-nav li {
     width: 50%;
   }
 }

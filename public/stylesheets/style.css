@@ -194,6 +194,9 @@ background-image: linear-gradient(to bottom, #413da8, #3b42a7, #3746a5, #334aa3,
   background-color: transparent; }
 
 .banner__inner {
+  padding: .75em .75em 0; }
+
+@media (min-width: 900px) {
   padding: 2em 2em 0; }
 
 .banner--light, section--light {
@@ -613,6 +616,14 @@ blockquote {
   height: 50px;
   background: linear-gradient(#141414, #141414) no-repeat center/1px 100%; }
 
+.img-container {
+  width: 100%; }
+
+img.center {
+  display: block;
+  margin: auto;
+  width: 50%; }
+
 .grayscale {
   -webkit-filter: grayscale(100%);
   filter: grayscale(100%);
@@ -791,7 +802,7 @@ nav li:hover {
   height: 20vh; }
 
 @media (max-width: 599px) {
-  li {
+  .sub-nav li {
     width: 50%; } }
 
 .sub-nav li a {

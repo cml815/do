@@ -145,7 +145,11 @@
 }
 
 .banner__inner {
-  padding: 2em 2em 0 ;
+  padding: .75em .75em 0 ;
+}
+
+@include tablet-plus {
+  padding: 2em 2em 0;
 }
 
 .banner, section {
