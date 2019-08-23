@@ -24,6 +24,10 @@ $space-xxl:  calc(5.25 * var(--space-unit));
 /* indigo lite */
 /* grape */
 /* $hero: linear-gradient(45deg,#fff 70%, rgb(82, 173, 247) 0%); */
+/* 
+$hero: linear-gradient(45deg,rgb(15, 15, 15) 60%, rgb(58, 74, 166) 0%,);
+
+*/
 /* lighten($indigo, 5%); */
 /* button adjusted colors*/
 .btn .shadow {
@@ -119,7 +123,8 @@ background-image: linear-gradient(to bottom, #413da8, #3b42a7, #3746a5, #334aa3,
 
 .home .hero {
   color: white;
-  background: linear-gradient(45deg, #4355bb 70%, #3a4aa6 0%); }
+  background: #3e3555;
+  background: linear-gradient(45deg, #3e3555 0%, #2c2e71 45%, #32316d 63%, #32293b 100%); }
 
 /* 
 .hero-container-element {
@@ -132,23 +137,55 @@ background-image: linear-gradient(to bottom, #413da8, #3b42a7, #3746a5, #334aa3,
 .home .hero .bg {
   background: url("../images/fibonacci-white.svg") no-repeat; }
 
+.heart,
+.heart:before,
+.heart:after {
+  width: 25px;
+  height: 25px;
+  box-shadow: 0px 0px 4px red; }
+
+.heart {
+  background: red;
+  position: relative;
+  animation-name: pulse;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  transform: rotate(45deg); }
+  .heart:after, .heart:before {
+    content: "";
+    background: red;
+    border-radius: 50%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block; }
+  .heart:before {
+    left: -50%; }
+  .heart:after {
+    top: -50%; }
+
+@keyframes pulse {
+  0% {
+    transform: rotate(45deg) scale(1); }
+  50% {
+    transform: rotate(45deg) scale(1.2); }
+  100% {
+    transform: rotate(45deg) scale(1); } }
+
 .press-case-study .hero {
   background-color: #c02e53; }
 
 .home .hero h1 {
-  font-size: 2.5em;
-  line-height: 1em; }
+  line-height: 1.2em; }
 
 @media (max-width: 599px) {
   .hero {
     flex-direction: column;
-    align-items: center; }
-  .hero > * {
-    /* margin-left: 1em; */ }
-  .hero > .hero__inner {
-    width: 70%; }
+    align-items: center; } }
+
+@media (min-width: 900px) {
   h1 {
-    font-size: 2.8em; } }
+    font-size: 2.5em; } }
 
 /* Full-width banners */
 .banner {

@@ -130,10 +130,14 @@ $highlight: linear-gradient(180deg,rgb(58, 74, 166) 70%, rgb(82, 173, 247) 0%);
 
 $highlight-alt: linear-gradient(145deg,#61d0fd 5%,#5ae3ab 95%);
 
+$hero: linear-gradient( 45deg, rgba(231,69,54,0.82) 80%, rgba(58, 74, 166, 0.82) 20% );
+
 /* $hero: linear-gradient(45deg,#fff 70%, rgb(82, 173, 247) 0%); */
 
-$hero: linear-gradient(45deg,rgb(67, 85, 187) 70%, rgb(58, 74, 166) 0%,);
+/* 
+$hero: linear-gradient(45deg,rgb(15, 15, 15) 60%, rgb(58, 74, 166) 0%,);
 
+*/
 
 /* lighten($indigo, 5%); */
 
@@ -174,7 +178,7 @@ $serif-old: 'Aleo', Georgia, 'Times New Roman', Times, serif;
 @mixin mobile {
     @media (max-width: 599px) { @content; }
   }
-  @mixin mobile-tablet {
+  @mixin mobile-plus {
     @media (min-width: 600px) { @content; }
   }
   @mixin tablet-plus {
