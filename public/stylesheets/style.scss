@@ -51,12 +51,46 @@ color: white;
 
 */
 
-
-
 .error {
-  background-color: $bg-color-primary-dark;
-  color: $bg-text-color-light;
+  background-color: $cerise;
+  color: $white;
+  height: 100vh;
 }
+
+.error > .img-container {
+  padding-top: 100px;
+  max-width: 768px;
+}
+
+.error img {
+  display: block;
+  margin: auto;
+  padding: 2em 0;
+  width: 50%;
+}
+
+.error h1 {
+  font-size: 3em;
+}
+
+.error img {
+  margin: 0 auto;
+}
+
+.error p {
+  font-size: 1.25em;
+}
+
+.error a {
+  font-size: 1.25em;
+  text-decoration: underline;
+}
+
+.top-pad {
+  padding-top: 4em;
+}
+
+
 
 .accent {
   color: $accent;

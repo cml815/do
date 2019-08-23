@@ -616,14 +616,6 @@ blockquote {
   height: 50px;
   background: linear-gradient(#141414, #141414) no-repeat center/1px 100%; }
 
-.img-container {
-  width: 100%; }
-
-img.center {
-  display: block;
-  margin: auto;
-  width: 50%; }
-
 .grayscale {
   -webkit-filter: grayscale(100%);
   filter: grayscale(100%);
@@ -1242,8 +1234,35 @@ color: white;
 
 */
 .error {
-  background-color: #242943;
-  color: #9ca4ca; }
+  background-color: #c02e53;
+  color: white;
+  height: 100vh; }
+
+.error > .img-container {
+  padding-top: 100px;
+  max-width: 768px; }
+
+.error img {
+  display: block;
+  margin: auto;
+  padding: 2em 0;
+  width: 50%; }
+
+.error h1 {
+  font-size: 3em; }
+
+.error img {
+  margin: 0 auto; }
+
+.error p {
+  font-size: 1.25em; }
+
+.error a {
+  font-size: 1.25em;
+  text-decoration: underline; }
+
+.top-pad {
+  padding-top: 4em; }
 
 .accent {
   color: #23e3c9; }
