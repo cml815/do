@@ -129,6 +129,9 @@ background-image: linear-gradient(to bottom, #413da8, #3b42a7, #3746a5, #334aa3,
   color: white;
   background-color: #2f2738; }
 
+.founder-case-study .hero {
+  background: url("../images/travel1.svg"); }
+
 /* 
 .hero-container-element {
   background-image: url(your-hero-bg.jpg);
