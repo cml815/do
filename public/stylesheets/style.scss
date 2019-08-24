@@ -2,6 +2,11 @@
 
 /// HACK STYLES todo //
 
+/* 
+.theme-grape {
+  @include theme(theme-grape, )
+} */
+
 .light {
   background-color: $gray-light;
   color: $black;
@@ -435,6 +440,13 @@ padding: $space;
   .callout .inner {
     padding: $space-l;
   }
+}
+
+.callout p {
+  max-width: 768px;
+  font-size: 1.4em;
+  font-family: $serif;
+  line-height: 1.8;
 }
 
 

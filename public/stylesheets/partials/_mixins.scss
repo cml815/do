@@ -3,7 +3,7 @@
   display: grid;
 }
 
-@mixin theme($name, $color) {
+@mixin theme($name, $base-color) {
   .#{$name} {
     .element {
       color: $color;
@@ -34,4 +34,10 @@
   @media (min-width: 1800px) { @content; }
 }
 
+img {
+  @include filter(grayscale(100%));
+  &:hover {
+    @include filter(grayscale(0));
+  }
+}
 

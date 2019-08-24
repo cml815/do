@@ -837,7 +837,7 @@ nav li:hover {
   line-height: 1.25em; }
 
 .case-study {
-  background-color: #424A51;
+  background-color: #242943;
   color: white; }
 
 .flex-c--wrap {
@@ -1189,6 +1189,10 @@ fieldset {
   .visible-on-large {
     display: none; } }
 
+/* 
+.theme-grape {
+  @include theme(theme-grape, )
+} */
 .light {
   background-color: #efefef;
   color: #141414; }
@@ -1574,6 +1578,12 @@ img.fit-container {
 @media (min-width: 600px) {
   .callout .inner {
     padding: 2em; } }
+
+.callout p {
+  max-width: 768px;
+  font-size: 1.4em;
+  font-family: "Noto Serif JP", Georgia, "Times New Roman", Times, serif;
+  line-height: 1.8; }
 
 .lede {
   padding: 1em;

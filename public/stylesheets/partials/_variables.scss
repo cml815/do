@@ -61,10 +61,10 @@ $grape: #32293b;
 $blue: rgb(46, 71, 122);
 $night: #242943; /* dark blue */
 
-// color themes 
-
 
 // color scheme //
+
+// theme grape
 
 $base-color:          #413DA8;
 
@@ -76,6 +76,8 @@ $base-color-dark:     darken($base-color, 40%);
 $base-color-darker:   darken($base-color, 50%);
 $base-color-darkest:  darken($base-color, 60%);
 
+// theme slate 
+
 $secondary-color: #30699C;
 
 $secondary-color-lightest: lighten($base-color, 20%);
@@ -86,7 +88,9 @@ $main-color-dark:     darken($base-color, 40%);
 $main-color-darker:   darken($base-color, 50%);
 $main-color-darkest:  darken($base-color, 60%);
 
-$tertiary-color: #2AA375;
+// theme accent
+
+$accent-color: #2AA375;
 
 
 @function tint($color, $percentage) {
