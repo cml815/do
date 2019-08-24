@@ -55,12 +55,7 @@
 
 .home .hero {
   color: $white;
-  background-color: darken($charcoal, 10);
-}
-
-.about .hero {
-  background: url('../images/rock-shot.jpg') no-repeat;
-  background-position: contain;
+  background-color: darken($cerise, 20);
 }
 
 /* 
@@ -72,12 +67,12 @@
 
 
 .home .hero .bg {
-  background: url("../images/fibonacci-white.svg") no-repeat;
+  background: url("../images/fibonacci-fine.svg") no-repeat;
 }
 
 .hero-fixed {
   position: absolute;
-  right: 0;
+  right: 10%;
   bottom: .5em;
 }
 

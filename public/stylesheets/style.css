@@ -127,11 +127,7 @@ background-image: linear-gradient(to bottom, #413da8, #3b42a7, #3746a5, #334aa3,
 
 .home .hero {
   color: white;
-  background-color: #2b3035; }
-
-.about .hero {
-  background: url("../images/rock-shot.jpg") no-repeat;
-  background-position: contain; }
+  background-color: #6e1a2f; }
 
 /* 
 .hero-container-element {
@@ -140,11 +136,11 @@ background-image: linear-gradient(to bottom, #413da8, #3b42a7, #3746a5, #334aa3,
   background-posititon: x% y%;
 } */
 .home .hero .bg {
-  background: url("../images/fibonacci-white.svg") no-repeat; }
+  background: url("../images/fibonacci-fine.svg") no-repeat; }
 
 .hero-fixed {
   position: absolute;
-  right: 0;
+  right: 10%;
   bottom: .5em; }
 
 .img__container--center {
