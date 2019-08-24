@@ -1669,6 +1669,9 @@ img.fit-container {
 .m-container:hover .m-overlay {
   height: 80%; }
 
+.m-overlay h4, .m-overlay p {
+  padding: 1em; }
+
 /* 
 h4, p {
   color: white;
