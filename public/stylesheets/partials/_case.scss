@@ -59,26 +59,6 @@ line-height: 1.25em;
   color: $white;
 }
 
-@include mobile {
-  .lede__container {
-    width: 80vw;
-  }
-}
-
-
-.lede {
-  padding: 1em;
-  font-size: 1.25em;
-  font-family: $serif;
-  line-height: 1.8em;
-}
-
-.lede__image {
-  background: url("../images/overhead.jpg") no-repeat center;
-  height: 100vh;
-
-}
-
 .flex-c--wrap {
   display: flex;
   flex-wrap: wrap;

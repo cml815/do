@@ -419,16 +419,40 @@ img.fit-container {
   object-fit: cover;
 }
 
-
-
-
 .callout {
-  max-height: 100%;
-  height: 60vh;
   display: flex;
   flex-direction: column; 
   align-items: center;
   justify-content: center;
+  max-height: 100%;
+}
+
+.callout .inner { 
+padding: $space;
+}
+
+@include mobile-plus {
+  .callout .inner {
+    padding: $space-l;
+  }
+}
+
+
+
+.lede {
+  padding: 1em;
+  font-size: 1.25em;
+  font-family: $serif;
+  line-height: 1.8em;
+}
+
+.lede__image {
+  background: url("../images/overhead.jpg") no-repeat center;
+  height: 100vh;
+
+}
+
+.theme--dark {
   background: $bg-color-primary-dark; 
   color: Sbg-text-color-light;
 }

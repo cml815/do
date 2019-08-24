@@ -3,6 +3,14 @@
   display: grid;
 }
 
+@mixin theme($name, $color) {
+  .#{$name} {
+    .element {
+      color: $color;
+    }
+  }
+}
+
 @mixin base-lighten($base-color) {
   color: $base-color;
   &:hover {
