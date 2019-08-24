@@ -18,7 +18,7 @@ router.get('/', function(req, res, next) {
 
 router.get('/press-campaign', function(req, res, next) {
     res.render('press-campaign', { 
-      title: 'Mass Shootings, No More',
+      title: 'Mass Shootings, Must End',
       bodyClass: 'press-case-study',
       summary: 'How a citizens group organized the largest gun violence prevention rally ever in Pennsylvania and was catapulted to the national stage.',
       name: 'David Scholnick',

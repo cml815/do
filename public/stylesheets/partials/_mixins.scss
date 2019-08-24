@@ -34,10 +34,3 @@
   @media (min-width: 1800px) { @content; }
 }
 
-img {
-  @include filter(grayscale(100%));
-  &:hover {
-    @include filter(grayscale(0));
-  }
-}
-
