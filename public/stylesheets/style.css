@@ -13,6 +13,9 @@ $space-xxl:  calc(5.25 * var(--space-unit));
 /* Grid Layouts */
 /* Color Scheme */
 /* dark blue */
+/* RGB */
+/* night */
+/* light red */
 .text-light {
   color: #9ca4ca; }
 
@@ -159,43 +162,28 @@ background-image: linear-gradient(to bottom, #413da8, #3b42a7, #3746a5, #334aa3,
 
 .home .hero {
   color: white;
-  background-color: #2f2738; }
+  background-color: #222740; }
+
+.home .hero h1 {
+  line-height: 1.2em; }
+
+.home .hero--content {
+  padding-top: 1em; }
+
+.cta-container {
+  padding-top: 1em;
+  margin-top: 2em; }
 
 .founder-case-study .hero {
   background: url("../images/travel1.svg"); }
-
-/* 
-.hero-container-element {
-  background-image: url(your-hero-bg.jpg);
-  background-size: cover;
-  background-posititon: x% y%;
-} */
-.home .hero .bg {
-  background: url("../images/fibonacci-fine.svg") no-repeat; }
-
-.hero-fixed {
-  position: absolute;
-  right: 10%;
-  bottom: .5em; }
 
 .img__container--center {
   position: relative;
   margin: 0 auto;
   width: 75%; }
 
-.heart,
-.heart:before,
-.heart:after {
-  width: 15px;
-  height: 15px;
-  box-shadow: 0px 0px 4px #c93133;
-  z-index: 1; }
-
 .press-case-study .hero {
   background-color: #c02e53; }
-
-.home .hero h1 {
-  line-height: 1.2em; }
 
 @media (max-width: 599px) {
   .hero {
@@ -1095,6 +1083,24 @@ hr {
 .rounded {
   border-radius: 2.5em; }
 
+.bg-accent {
+  background-color: #51d8d3; }
+
+.bg-primary {
+  background-color: #c1666b; }
+
+.bg-secondary {
+  background-color: #3a4aa5; }
+
+.white {
+  color: white; }
+
+.black {
+  color: #141414; }
+
+.primary {
+  color: #c1666b; }
+
 .btn .shadow {
   -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
   -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
@@ -1105,16 +1111,20 @@ hr {
   text-transform: uppercase;
   font-weight: bold; }
 
+/* 
 .btn .primary {
   display: inline-block;
-  background: #242943;
-  color: white; }
-  .btn .primary:hover {
-    background: #121522;
+  background: $btn-primary;
+  color: white;
+  &:hover {
+    background: darken($btn-primary, 10%);
     transition: 400ms;
-    transition-timing-function: ease-in-out;
-    cursor: pointer; }
+    transition-timing-function: ease-in-out; 
+    cursor: pointer;
+  }
+}
 
+*/
 figure {
   margin: 0;
   padding: 0; }
@@ -1267,9 +1277,6 @@ a.underline {
 
 .top-pad {
   padding-top: 4em; }
-
-.accent {
-  color: #23e3c9; }
 
 .highlight {
   background: linear-gradient(180deg, #3a4aa6 70%, #52adf7 0%); }

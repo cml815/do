@@ -35,10 +35,29 @@ $minmax-xs: 100px;
 $black: rgba(0, 0, 0, 1) !default; 
 $white: rgba(255, 255, 255, 1) !default;
 
-
 // old brand colors 
 $logo: #eb5b5f;
+ 
+$primary-dark: #242943; // night
+$primary: rgba(193, 102, 107, 1);
+$secondary: rgb(58, 74, 165);
+$accent: rgb(128, 241, 238);
 
+// theme map
+
+$theme-colors: (
+  "primary": rgba(193, 102, 107, 1),
+  "primary-dark": rgb(36, 41, 67),
+  "secondary": rgb(58, 74, 165),
+  "accent": rgb(81, 216, 211),
+  "black": rgb(20, 20, 20),
+);
+
+.alert {
+  // Instead of $theme-color-#{warning}
+  background-color: map-get($theme-colors, "warning");
+}
+ 
 // base colors
 
 $black: rgb(20, 20, 20);
@@ -47,7 +66,9 @@ $charcoal: #424A51;
 $gray-light: rgb(239, 239, 239);
 
 $indigo: #3a4aa5;
+
 $cerise: rgb(192, 46, 83);
+$red-test: rgb(216, 30, 91);
 
 $orange-red: rgba(255, 89, 71, 1);
 $orange: rgba(249, 151, 59, 1);
@@ -59,8 +80,14 @@ $aqua-green: rgb(35, 227, 201);
 $grape: #32293b;
 
 $blue: rgb(46, 71, 122);
-$night: #242943; /* dark blue */
+$night: rgb(36, 41, 67); /* dark blue */
 
+/* RGB */
+$color1: rgba(36, 41, 67, 1); /* night */
+$color2: rgba(72, 169, 166, 1);
+$color3: rgba(228, 223, 218, 1);
+$color4: rgba(212, 180, 131, 1);
+$color5: rgba(193, 102, 107, 1); /* light red */
 
 // color scheme //
 

@@ -161,6 +161,7 @@ sup {
     text-align: center;
 }
 
+
 .outline {
   border: solid 2px $night;
   background-color: transparent;
@@ -178,6 +179,30 @@ sup {
   border-radius: 2.5em;
 }
 
+.bg-accent {
+  background-color: map-get($theme-colors, "accent");
+}
+
+.bg-primary {
+  background-color: map-get($theme-colors, "primary");
+}
+
+.bg-secondary {
+  background-color: map-get($theme-colors, "secondary");
+}
+
+.white {
+  color: $white;
+}
+
+.black {
+  color: $black;
+}
+
+.primary {
+  color: map-get($theme-colors, "primary");
+}
+
 .btn .shadow {
   -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
 -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
@@ -190,6 +215,8 @@ box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
   font-weight: bold;
 }
 
+
+/* 
 .btn .primary {
   display: inline-block;
   background: $btn-primary;
@@ -201,6 +228,8 @@ box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
     cursor: pointer;
   }
 }
+
+*/
 
 
 
@@ -301,6 +330,9 @@ button,
       display: none;
     } 
   }
+
+
+
 
 
 
