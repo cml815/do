@@ -151,19 +151,14 @@
 
 .inner {
   padding: 1em; /* default padding */
-}
 
-.inner--xs {
-  padding: .25em;
-}
+  @include mobile {
+    padding: $space-s;
+  }
 
-
-.inner--s {
-  padding: .50em;
-}
-
-.inner--l {
-  padding: 2em;
+  @include laptop {
+    padding: $space-l;
+  }
 }
 
 .inner > * {
@@ -171,12 +166,6 @@
 }
 
 /* 
-.inner > * {
-  margin-bottom: 1em;
-}
-
-*/
-
 @include mobile-plus {
   .inner {
     padding: 1em 2em;
@@ -193,6 +182,8 @@
     padding: 0 1em;
   }
 }
+
+*/
 
 /* Cards */
 

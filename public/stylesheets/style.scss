@@ -7,6 +7,10 @@
   @include theme(theme-grape, )
 } */
 
+div p {
+  max-width: 768px;
+}
+
 .light {
   background-color: $gray-light;
   color: $black;
