@@ -706,7 +706,10 @@ figure.card:nth-child(2) {
   }
 
   // Text heavy styles (for readability) //
-  
+
+  .main-content {
+    flex: 2;
+  }
 
 .main-content__inner {
     padding: 1em 2em;
