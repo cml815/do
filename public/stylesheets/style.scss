@@ -14,6 +14,16 @@
   margin: 0;
 }
 
+.text-column {
+  @include text-column;
+}
+
+.anchor a {
+  position: absolute;
+  left: 0px;
+  top: 100px;
+}
+
 /*
 div p {
   max-width: 768px;

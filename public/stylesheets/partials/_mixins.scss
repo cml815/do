@@ -8,6 +8,11 @@
   display: grid;
 }
 
+@mixin text-column {
+  max-width: 768px;
+  margin: 0 auto;
+}
+
 @mixin theme($name, $base-color) {
   .#{$name} {
     .element {

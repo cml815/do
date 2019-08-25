@@ -656,7 +656,7 @@ nav {
   background-color: transparent;
   text-align: center;
   margin: 0 auto;
-  height: 3em;
+  height: 2.6em;
   position: fixed;
   background-color: #efefef; }
 
@@ -1227,6 +1227,15 @@ fieldset {
 .reset {
   padding: 0;
   margin: 0; }
+
+.text-column {
+  max-width: 768px;
+  margin: 0 auto; }
+
+.anchor a {
+  position: absolute;
+  left: 0px;
+  top: 100px; }
 
 /*
 div p {
