@@ -95,40 +95,6 @@
   z-index: 1;
 }
 
-.heart {
-  background: #c93131;
-  position: relative;
-  animation-name: pulse;
-  animation-duration: 3s;
-  animation-iteration-count: infinite;
-  transform: rotate(45deg);
-
-  &:after,
-  &:before {
-    content: "";
-    background: #c93131;
-    border-radius: 50%;
-    position: absolute;
-    top: 0;
-    left: 0;
-    display: block;
-  }
-  
-  &:before {
-    left: -50%;
-  }
-  
-  &:after {
-    top: -50%;
-  }
-}
-
-@keyframes pulse {
-  0% {  transform: rotate(45deg) scale(1)}
-  50% {  transform: rotate(45deg) scale(1.2)}
-  100% {  transform: rotate(45deg) scale(1)}
-}
-
 
 .press-case-study .hero {
  background-color: $cerise;

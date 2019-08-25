@@ -198,12 +198,11 @@ box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
     background: darken($btn-primary, 10%);
     transition: 400ms;
     transition-timing-function: ease-in-out; 
+    cursor: pointer;
   }
 }
 
-.btn:hover p {
-  color: yellow; /* todo fix */
-}
+
 
 figure {
   margin: 0;

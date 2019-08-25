@@ -50,6 +50,38 @@ xl, extra-large: 1920px or larger
 background-image: linear-gradient(to bottom, #413da8, #3b42a7, #3746a5, #334aa3, #314da0, #2e519f, #2c559e, #2c589d, #2a5d9d, #2b619d, #2d659d, #30699c);
 
 */
+.btn-green {
+  background: #2ecc71; }
+  .btn-green:hover {
+    background: #26ab5f;
+    transition: all 0.3s ease; }
+  .btn-green:active {
+    background: #176437; }
+
+.btn-blue {
+  background: #3498db; }
+  .btn-blue:hover {
+    background: #2383c4;
+    transition: all 0.3s ease; }
+  .btn-blue:active {
+    background: #16527a; }
+
+.btn-yellow {
+  background: #f1c40f; }
+  .btn-yellow:hover {
+    background: #cba50c;
+    transition: all 0.3s ease; }
+  .btn-yellow:active {
+    background: #796307; }
+
+.btn-red {
+  background: #e74c3c; }
+  .btn-red:hover {
+    background: #df2e1b;
+    transition: all 0.3s ease; }
+  .btn-red:active {
+    background: #921e12; }
+
 .margin-top, .margin-top--md {
   margin-top: var(--space-md); }
 
@@ -158,34 +190,6 @@ background-image: linear-gradient(to bottom, #413da8, #3b42a7, #3746a5, #334aa3,
   height: 15px;
   box-shadow: 0px 0px 4px #c93133;
   z-index: 1; }
-
-.heart {
-  background: #c93131;
-  position: relative;
-  animation-name: pulse;
-  animation-duration: 3s;
-  animation-iteration-count: infinite;
-  transform: rotate(45deg); }
-  .heart:after, .heart:before {
-    content: "";
-    background: #c93131;
-    border-radius: 50%;
-    position: absolute;
-    top: 0;
-    left: 0;
-    display: block; }
-  .heart:before {
-    left: -50%; }
-  .heart:after {
-    top: -50%; }
-
-@keyframes pulse {
-  0% {
-    transform: rotate(45deg) scale(1); }
-  50% {
-    transform: rotate(45deg) scale(1.2); }
-  100% {
-    transform: rotate(45deg) scale(1); } }
 
 .press-case-study .hero {
   background-color: #c02e53; }
@@ -1108,11 +1112,8 @@ hr {
   .btn .primary:hover {
     background: #121522;
     transition: 400ms;
-    transition-timing-function: ease-in-out; }
-
-.btn:hover p {
-  color: yellow;
-  /* todo fix */ }
+    transition-timing-function: ease-in-out;
+    cursor: pointer; }
 
 figure {
   margin: 0;
@@ -1194,13 +1195,6 @@ fieldset {
 @media (max-width: 599px) {
   .visible-on-large {
     display: none; } }
-
-/* Temp sandbox - todo */
-.m-container {
-  background: blue; }
-
-.m-container img {
-  mix-blend-mode: darken; }
 
 /* 
 .theme-grape {
