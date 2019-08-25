@@ -75,7 +75,10 @@ line-height: 1.25em;
 
 .tag-container {
   padding: 1em;
-  margin: 2em 0;
+}
+
+.tag-container li {
+  line-height: 1.4em;
 }
 
 .twitter-wrap {
@@ -97,6 +100,10 @@ line-height: 1.25em;
   border: solid 1px $primary;
   border-radius: 4px;
   background-color: $white;
+}
+
+.case-meta p {
+  font-size: 1.25em;
 }
 
 .tag-list li:first-child {

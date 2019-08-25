@@ -592,9 +592,9 @@ figure.card:nth-child(2) {
 
 .fine-print {
   text-transform: uppercase;
-  font-size: 1em;
-  font-weight: bold;
-  letter-spacing: .0625em; }
+  font-size: .875em;
+  letter-spacing: .0625em;
+  margin-bottom: 0; }
 
 .fine-print a, .fine-print a:visited {
   color: #5fd6e5; }
@@ -852,8 +852,10 @@ nav li:hover {
   margin-botton: 1em; }
 
 .tag-container {
-  padding: 1em;
-  margin: 2em 0; }
+  padding: 1em; }
+
+.tag-container li {
+  line-height: 1.4em; }
 
 .twitter-wrap {
   z-index: -1; }
@@ -872,6 +874,9 @@ nav li:hover {
   border: solid 1px #242943;
   border-radius: 4px;
   background-color: white; }
+
+.case-meta p {
+  font-size: 1.25em; }
 
 .grid__item--header > h2 {
   text-align: center;
