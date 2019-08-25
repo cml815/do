@@ -235,10 +235,6 @@ background-image: linear-gradient(to bottom, #413da8, #3b42a7, #3746a5, #334aa3,
   font-size: 2em;
   padding: 1em 0; }
 
-.project {
-  max-width: 100%;
-  margin-top: 4em; }
-
 .inner {
   padding: 1em;
   /* default padding */ }
@@ -912,7 +908,9 @@ nav li:hover {
   padding: 25em;
   border: solid 1px #424A51; }
 
-.case-header > li
+/* Next project component */
+/* Page template styles */
+/* Jeff Grant, Influencer */
 .row {
   display: flex;
   flex-direction: row;
