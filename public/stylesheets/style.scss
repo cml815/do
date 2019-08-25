@@ -7,6 +7,13 @@
   @include theme(theme-grape, )
 } */
 
+/* utility classes */
+
+.reset {
+  padding: 0;
+  margin: 0;
+}
+
 div p {
   max-width: 768px;
 }
@@ -363,6 +370,15 @@ footer {
   
 }
 
+.test-bg {
+  border: 1px #000 solid;
+  background-color: transparent;
+  background: url("../tiny.jpg") no-repeat;
+  background-size: 200px 200px;
+  background-position: right 100px bottom 10px;
+
+}
+
 .panel {
   margin-bottom: 1rem;
   margin-top: 1em;
@@ -410,7 +426,18 @@ footer {
   width: auto;
   height: 50vh;
   border-style: none;
-}   
+}  
+
+.testimonials {
+  height: 75vh;
+  background-color: $primary-dark;
+  color: $white;
+}
+
+.testimonials .fine-print {
+  color: $accent;
+  margin-bottom: 1em;
+}
 
 .meet-the-team {
   max-width: 100%;
