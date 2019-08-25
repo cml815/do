@@ -157,8 +157,7 @@ background-image: linear-gradient(to bottom, #413da8, #3b42a7, #3746a5, #334aa3,
   letter-spacing: .02em; }
 
 .hero__inner {
-  padding: 2em;
-  max-width: 768px; }
+  padding: 2em; }
 
 .home .hero {
   color: white;
@@ -1213,9 +1212,12 @@ fieldset {
   padding: 0;
   margin: 0; }
 
+/*
 div p {
-  max-width: 768px; }
+  max-width: 768px;
+}
 
+*/
 .light {
   background-color: #efefef;
   color: #141414; }
