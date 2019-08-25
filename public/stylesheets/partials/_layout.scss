@@ -304,6 +304,12 @@ figure.card:nth-child(2) {
     justify-items: stretch;
 }
 
+.grid-c--1x5 {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-gap: .5em;
+}
+
 .grid-c__fluid {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax($minmax, 1fr));
