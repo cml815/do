@@ -549,7 +549,14 @@ figure.card:nth-child(2) {
     margin: 1em 0;
 }
 
+.subnav {
+  padding: 2em 0;
+
+}
+
 /* subnav grid */ 
+
+/*
 
 .sub-nav .grid-c {
     grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
@@ -559,6 +566,8 @@ figure.card:nth-child(2) {
 .sub-nav > li {
     
 }
+
+*/
 
 .grid__page--12x12 {
     display: grid;
@@ -628,7 +637,7 @@ figure.card:nth-child(2) {
     text-transform: uppercase;
     font-size: .875em;
     letter-spacing: .0625em;
-    margin-bottom: 0;
+    margin-bottom: 1em;
   }
 
   .fine-print a, .fine-print a:visited {

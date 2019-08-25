@@ -325,7 +325,7 @@ button,
     display: block;
   }
 
-  @include mobile {
+  @include laptop-max {
     .visible-on-large {
       display: none;
     } 
