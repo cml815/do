@@ -440,16 +440,6 @@ footer .banner span {
   margin-bottom: 1em;
 }
 
-.meet-the-team {
-  max-width: 100%;
-  height: auto;
-  object-fit: cover;
-}
-
-img.fit-container {
-  object-fit: cover;
-}
-
 .callout {
   display: flex;
   flex-direction: column; 
@@ -788,7 +778,7 @@ i.circle {
 }
 
 .mail-link {
-  padding-bottom: 1.5em;
+  padding-bottom: 1.5em; 
 }
 
 .mail-link a, .tel-link a {

@@ -1617,14 +1617,6 @@ footer .banner span {
   color: #23e3c9;
   margin-bottom: 1em; }
 
-.meet-the-team {
-  max-width: 100%;
-  height: auto;
-  object-fit: cover; }
-
-img.fit-container {
-  object-fit: cover; }
-
 .callout {
   display: flex;
   flex-direction: column;
