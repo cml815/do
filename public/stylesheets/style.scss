@@ -42,12 +42,62 @@ div p {
   margin: 0;
 }
 
+.shoutout {
+  height: 60vh;
+}
+
+.shoutout h2 {
+  max-width: 768px;
+}
+
+.text-as-background {
+  margin-bottom: 0;
+}
+
+@include mobile-plus {
+.text-as-background {
+  writing-mode: vertical-rl;
+  text-orientation: sideways;
+  position: relative;
+  top: 10px;
+  left: 50px;
+  background-color: transparent;
+  color: rgba(0,0,0,0.2);
+  font-family: $sans;
+  font-size: 1.5em;
+  font-weight: bold;
+  border-left: 2px solid $accent;
+   //text-decoration: underline;
+  z-index: -1;
+  color: $black;
+ /* -webkit-text-fill-color: white; // Will override color (regardless of order)
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: black; */
+  /* text-shadow:
+       3px 3px 0 #000,
+      -1px -1px 0 #000,  
+      1px -1px 0 #000,
+      -1px 1px 0 #000,
+       1px 1px 0 #000; */
+  letter-spacing: 3px;
+}
+  
+}
+
 .text-column {
   @include text-column;
 }
 
 .underline {
-  border-bottom: 2px $indigo solid;
+  border-bottom: 2px $accent solid;
+  }
+
+  .width-tune {
+    max-width: 100px;
+  }
+
+  p.width-tune {
+    max-width: 540px;
   }
 
 
@@ -146,56 +196,6 @@ article > h6 {
 
 /* Home page styles */
 
-.shoutout {
-  height: 60vh;
-}
-
-.shoutout h2 {
-  max-width: 768px;
-}
-
-.benefits .card {
-  height: 60vh;
-  max-width: 70ch; 
-}
-
-.text-as-background {
-  margin-bottom: 0;
-}
-
-@include mobile-plus {
-.text-as-background {
-  writing-mode: vertical-rl;
-  text-orientation: sideways;
-  position: relative;
-  top: 10px;
-  left: 50px;
-  background-color: transparent;
-  color: rgba(0,0,0,0.2);
-  font-family: $sans;
-  font-size: 1.5em;
-  font-weight: bold;
-  border-left: 2px solid orange;
-   //text-decoration: underline;
-  z-index: -1;
-  color: black;
- /* -webkit-text-fill-color: white; // Will override color (regardless of order)
-  -webkit-text-stroke-width: 2px;
-  -webkit-text-stroke-color: black; */
-  /* text-shadow:
-       3px 3px 0 #000,
-      -1px -1px 0 #000,  
-      1px -1px 0 #000,
-      -1px 1px 0 #000,
-       1px 1px 0 #000; */
-  letter-spacing: 3px;
-}
-  
-}
-
-.width-tune {
-  max-width: 200px;
-}
 
 /* Background video */
 

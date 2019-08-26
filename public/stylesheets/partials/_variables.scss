@@ -92,6 +92,49 @@ $color3: rgba(228, 223, 218, 1);
 $color4: rgba(212, 180, 131, 1);
 $color5: rgba(193, 102, 107, 1); /* light red */
 
+
+// color variable map
+$colors: (
+  text: #FFF,
+  background: #333,
+  // map inception  
+  primary: (
+    base: #FFBB00,
+    light: lighten(#FFBB00, 15%),
+    dark: darken(#FFBB00, 15%)
+  ),
+  secondary: (
+    base: #0969A2,
+    light: lighten(#0969A2, 15%),
+    dark: darken(#0969A2, 15%)
+  )
+);
+
+// retrieve color from map ie. `color(primary, base)`
+@function color($color-name, $color-variant:null) {
+  // color variant is optional
+  @if ($color-variant != null) {
+    // map inception
+    @return map-get(map-get($colors, $color-name), $color-variant);
+  } @else {
+    @return map-get($colors, $color-name);
+  }
+}
+
+/* 
+
+body { 
+  background: color(background);
+  color: color(text);
+  text-align: center;
+}
+
+h1 { color: color(primary, base); }
+strong { color: color(secondary, light); }
+a { color: color(secondary, light); 
+
+*/
+
 // color scheme //
 
 
