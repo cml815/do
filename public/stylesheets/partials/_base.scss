@@ -118,7 +118,7 @@ a {
     background-color: transparent; /* IE 10 */ 
 }
 
-a:visited {  
+a:visited, a:hover {  
   color: darken($link, 20%);
 }
 
@@ -216,22 +216,17 @@ box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
 }
 
 
-/* 
 .btn .primary {
   display: inline-block;
-  background: $btn-primary;
+  background: $primary;
   color: white;
   &:hover {
-    background: darken($btn-primary, 10%);
+    background: darken($primary, 10%);
     transition: 400ms;
     transition-timing-function: ease-in-out; 
     cursor: pointer;
   }
 }
-
-*/
-
-
 
 figure {
   margin: 0;
