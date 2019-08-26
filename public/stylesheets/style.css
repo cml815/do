@@ -1323,7 +1323,7 @@ article > h6 {
 
 /* Home page styles */
 .shoutout {
-  height: 100vh; }
+  height: 60vh; }
 
 .shoutout h2 {
   max-width: 768px; }
