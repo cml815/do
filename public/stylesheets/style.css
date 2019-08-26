@@ -1520,7 +1520,7 @@ footer {
   position: relative; }
 
 footer p,
-footer a {
+footer a, footer a:visited {
   color: white;
   font-size: 1.4em; }
 
