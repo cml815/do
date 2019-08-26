@@ -1517,32 +1517,31 @@ article > h6 {
   */
 /* Footer */
 footer {
+  position: relative; }
+
+footer p,
+footer a {
+  color: white;
+  font-size: 1.4em; }
+
+footer .banner {
+  position: absolute;
+  background-color: #141414;
+  text-align: center;
+  bottom: 0; }
+
+footer .banner span {
+  color: white; }
+
+.copyright {
+  padding: 1em 0;
+  font-size: 1em; }
+
+.footer__wrap {
   position: absolute;
   height: 95vh;
   width: 100%;
-  padding-top: 0;
-  padding-bottom: 0;
-  background: url("../images/south-philly-skyline-poster.jpg") no-repeat center bottom; }
-
-.footer-link {
-  color: #c02e53;
-  font-size: 1.4em;
-  line-height: 1.3;
-  margin: 0; }
-
-.footer__wrap {
-  padding: 0;
-  margin: 0; }
-
-.container__inner {
-  padding: 1em; }
-
-.container--text > * {
-  padding-bottom: 1em; }
-
-.flex-c--row {
-  display: flex;
-  flex-direction: row; }
+  background: url("../images/bok.jpg") no-repeat center bottom; }
 
 .social-links {
   display: inline-block;
@@ -1554,16 +1553,6 @@ footer {
 
 .social-links li a {
   font-size: 2em; }
-
-.social-links > a:visited {
-  color: #32293b; }
-
-.copyright {
-  text-align: center;
-  font-size: .875em;
-  bottom: 0;
-  padding: 1em 0;
-  color: #3a4aa5; }
 
 .header__container {
   max-width: 60ch;

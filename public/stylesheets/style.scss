@@ -305,38 +305,38 @@ article > h6 {
 /* Footer */
 
 footer {
-  position: absolute;
-  height: 95vh;
-  width: 100%;
-  padding-top: 0;
-  padding-bottom: 0;
-  background: url("../images/south-philly-skyline-poster.jpg") no-repeat center bottom;
+position: relative;
 }
 
-.footer-link {
-  color: $cerise;
+footer p, 
+footer a {
+  color: $white;
   font-size: 1.4em;
-  line-height: 1.3;
-  margin: 0;
+}
+
+footer .banner {
+  position: absolute;
+  background-color: $black;  
+  text-align: center;
+  bottom: 0;
+}
+
+footer .banner span {
+  color: white;
+}
+
+.copyright {
+  padding: 1em 0;
+  font-size: 1em;
 }
 
 .footer__wrap {
-  padding: 0;
-  margin: 0;
+  position: absolute;
+  height: 95vh;
+  width: 100%;
+  background: url("../images/bok.jpg") no-repeat center bottom;
 }
 
-.container__inner {
-  padding: 1em;
-}
-
-.container--text > * {
-  padding-bottom: 1em;
-}
-
-.flex-c--row {
-  display: flex;
-  flex-direction: row;
-}
 
 .social-links {
   display: inline-block;
@@ -352,17 +352,6 @@ footer {
   font-size: 2em;
 }
 
-.social-links > a:visited {
-  color: $deep;
-}
-
-.copyright {
-  text-align: center;
-  font-size: .875em;
-  bottom: 0;
-  padding: 1em 0;
-  color: $indigo;
-}
 
 
 
