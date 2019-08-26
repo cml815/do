@@ -162,11 +162,13 @@ $primary-light: $pool;
 
 $deep: $grape; /* grape */
 
-$highlight: linear-gradient(180deg,rgb(58, 74, 166) 70%, rgb(82, 173, 247) 0%);
+/* Gradients */ 
+
+$highlight: linear-gradient(180deg,rgb(244, 245, 247) 70%, rgb(82, 173, 247) 0%);
 
 $highlight-alt: linear-gradient(145deg,#61d0fd 5%,#5ae3ab 95%);
 
-$hero: linear-gradient( 45deg, rgba(231,69,54,0.82) 80%, rgba(58, 74, 166, 0.82) 20% );
+$hero: linear-gradient( 45deg, rgba($gray-light,0.82) 80%, rgba(58, 74, 166, 0.82) 20% );
 
 /* $hero: linear-gradient(45deg,#fff 70%, rgb(82, 173, 247) 0%); */
 

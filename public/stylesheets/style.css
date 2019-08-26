@@ -24,6 +24,7 @@ $space-xxl:  calc(5.25 * var(--space-unit));
 /* indigo */
 /* indigo lite */
 /* grape */
+/* Gradients */
 /* $hero: linear-gradient(45deg,#fff 70%, rgb(82, 173, 247) 0%); */
 /* 
 $hero: linear-gradient(45deg,rgb(15, 15, 15) 60%, rgb(58, 74, 166) 0%,);
@@ -1216,11 +1217,34 @@ fieldset {
   .visible-on-large {
     display: none; } }
 
+/* themes */
 /* 
 .theme-grape {
   @include theme(theme-grape, )
 } */
-/* utility classes */
+.light {
+  background-color: #efefef;
+  color: #141414; }
+
+/* helper classes */
+/*
+div p {
+  max-width: 768px;
+}
+
+*/
+.anchor a {
+  position: absolute;
+  left: 0px; }
+
+.anchor:before {
+  display: block;
+  content: " ";
+  margin-top: -120px;
+  height: 120px;
+  visibility: hidden;
+  pointer-events: none; }
+
 .reset {
   padding: 0;
   margin: 0; }
@@ -1229,28 +1253,8 @@ fieldset {
   max-width: 768px;
   margin: 0 auto; }
 
-.anchor a {
-  position: absolute;
-  left: 0px;
-  top: 100px; }
-
-/*
-div p {
-  max-width: 768px;
-}
-
-*/
-.light {
-  background-color: #efefef;
-  color: #141414; }
-
-h4.anchor::before {
-  display: block;
-  content: " ";
-  margin-top: -100px;
-  height: 100px;
-  visibility: hidden;
-  pointer-events: none; }
+.underline {
+  border-bottom: 2px #3a4aa5 solid; }
 
 .projects__container {
   padding-top: 2em; }
@@ -1314,7 +1318,7 @@ a.underline {
   padding-top: 4em; }
 
 .highlight {
-  background: linear-gradient(180deg, #3a4aa6 70%, #52adf7 0%); }
+  background: linear-gradient(180deg, #f4f5f7 70%, #52adf7 0%); }
 
 a.highlight {
   background: #efefef; }
@@ -1329,15 +1333,6 @@ article > h6 {
 
 .shoutout h2 {
   max-width: 768px; }
-
-h2.room {
-  line-height: 1.5; }
-
-h2 .focus {
-  border-bottom: 2px #3a4aa5 solid; }
-
-h2 .focus-alt {
-  border-bottom: 2px #c0ffee solid; }
 
 .benefits .card {
   height: 60vh;
