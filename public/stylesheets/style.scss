@@ -37,6 +37,10 @@ div p {
   pointer-events: none;
 }
 
+.margin-gap {
+  margin-bottom: 1em;
+}
+
 .reset {
   padding: 0;
   margin: 0;
@@ -60,7 +64,7 @@ div p {
   text-orientation: sideways;
   position: relative;
   top: 10px;
-  left: 50px;
+  left: 20px;
   background-color: transparent;
   color: rgba(0,0,0,0.2);
   font-family: $sans;
@@ -83,6 +87,7 @@ div p {
 }
   
 }
+  
 
 .text-column {
   @include text-column;
@@ -710,12 +715,21 @@ h4, p {
   background-color: lighten($lead, 20);
 }
 
-.icon-container {
-  display: flex;
-  flex-wrap: wrap;
+.primary {
+  background-color: $primary;
+  color: $white;
+}
+
+.secondary {
+  background-color: $secondary;
+  color: $white;
 }
 
 .icon__container {
+  margin-top: 2em;
+}
+
+.icon__container li {
   padding: 1em 0;
 }
 
