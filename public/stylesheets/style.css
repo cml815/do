@@ -1084,6 +1084,9 @@ hr {
   border: solid 2px #242943;
   background-color: transparent; }
 
+.outline a {
+  color: #141414; }
+
 .small {
   padding: .25em; }
 
@@ -1117,19 +1120,20 @@ hr {
   box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75); }
 
 .btn a, .btn a:visited {
-  color: #141414;
   text-transform: uppercase;
   font-weight: bold; }
 
-.btn .primary {
+.btn.night {
   display: inline-block;
-  background: #242943;
-  color: white; }
-  .btn .primary:hover {
+  background: #242943; }
+  .btn.night:hover {
     background: #121522;
     transition: 400ms;
     transition-timing-function: ease-in-out;
     cursor: pointer; }
+
+.btn.night a {
+  color: white; }
 
 figure {
   margin: 0;
@@ -1252,8 +1256,13 @@ h4.anchor::before {
   padding-top: 2em; }
 
 .case-study__jg {
-  background-color: #141414;
-  color: #f9973b; }
+  background-color: #141414; }
+
+.case-study__jg .fine-print, .case-study__jg p {
+  color: white; }
+
+.case-study__jg h4 {
+  color: #c4302b; }
 
 .temp-padding {
   padding: 1em 2em 0; }

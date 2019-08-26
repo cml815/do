@@ -167,6 +167,10 @@ sup {
   background-color: transparent;
 }
 
+.outline a {
+  color: $black;
+}
+
 .small {
   padding: .25em;
 }
@@ -210,22 +214,24 @@ box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
 }
 
 .btn a, .btn a:visited  {
-  color: $black;
   text-transform: uppercase;
   font-weight: bold;
 }
 
 
-.btn .primary {
+.btn.night {
   display: inline-block;
   background: $primary;
-  color: white;
   &:hover {
     background: darken($primary, 10%);
     transition: 400ms;
     transition-timing-function: ease-in-out; 
     cursor: pointer;
   }
+}
+
+.btn.night a {
+  color: $white;
 }
 
 figure {

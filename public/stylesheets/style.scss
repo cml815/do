@@ -54,9 +54,15 @@ div p {
 
 .case-study__jg {
   background-color: $black;
-  color: $orange;
 }
 
+.case-study__jg .fine-print, .case-study__jg p {
+  color: $white;
+}
+
+.case-study__jg h4 {
+  color: $youtube-red;
+}
 
 .temp-padding {
   padding: 1em 2em 0;
