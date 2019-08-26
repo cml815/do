@@ -43,3 +43,5 @@ background - https://www.webfx.com/blog/web-design/background-css-shorthand/
   height: 200px;
   width: 200px;
 }
+
+https://www.termsandcondiitionssample.com/live.php?token=K2XgeKn6AEDVT5wPeMPBFrxXoVJgQ2AM

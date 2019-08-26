@@ -46,6 +46,10 @@ router.get('/contact', function(req, res, next) {
   res.render('contact', { title: 'Get in touch!', description: 'Contact Fuel Copy for help with growth marketing and fundraising.', bodyClass: 'contact'});
 });
 
+router.get('/privacy', function(req, res, next) {
+  res.render('privacy', { title: 'Privacy Policy, Fuel Copy',bodyClass: 'privacy'});
+});
+
 /// Nodemailer contact form ///
 
 // POST route from contact form
