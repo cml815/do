@@ -1283,6 +1283,10 @@ div p {
 .margin-gap {
   margin-bottom: 1em; }
 
+@media (max-width: 599px) {
+  .mobile-hide {
+    display: none; } }
+
 .reset {
   padding: 0;
   margin: 0; }
@@ -1335,9 +1339,23 @@ div p {
 p.width-tune {
   max-width: 540px; }
 
-.projects__container {
-  padding-top: 2em; }
+.project {
+  position: relative; }
 
+.project--overlay {
+  position: absolute;
+  top: 1em;
+  left: 1em; }
+
+.project a {
+  color: white; }
+
+/*
+.projects__container {
+  padding-top: 2em;
+}
+
+*/
 .case-study__jg {
   background-color: #141414; }
 

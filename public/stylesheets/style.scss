@@ -41,6 +41,12 @@ div p {
   margin-bottom: 1em;
 }
 
+@include mobile {
+  .mobile-hide {
+    display:none;
+  }
+}
+
 .reset {
   padding: 0;
   margin: 0;
@@ -108,43 +114,24 @@ div p {
 
 /// SITE STYLES - move to base TODO  ///
 
-.projects__container {
-  padding-top: 2em;
+.project {
+  position: relative;
 }
 
-.case-study__jg {
-  background-color: $black;
+.project--overlay {
+  position: absolute;
+  top: 1em;
+  left: 1em;
 }
 
-.case-study__jg .fine-print, .case-study__jg p {
+.project a {
   color: $white;
 }
 
-.case-study__jg h4 {
-  color: $youtube-red;
-}
 
-.temp-padding {
-  padding: 1em 2em 0;
-}
 
-.project-card {
-  padding: 2em;
-  height: 90vh;
-}
 
-.cs__jg {
-  background-color: $white;
- /*  background-color: lighten($pool, 20);
-  color: darken($night, 80%); */
-}
 
-/* 
-.cs__jg .btn a {
-color: white;
-}
-
-*/
 
 .error {
   background-color: $cerise;

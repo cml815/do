@@ -45,3 +45,7 @@ background - https://www.webfx.com/blog/web-design/background-css-shorthand/
 }
 
 https://www.termsandcondiitionssample.com/live.php?token=K2XgeKn6AEDVT5wPeMPBFrxXoVJgQ2AM
+
+System fonts:
+
+font-family: system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,Cantarell,Oxygen,sans-serif,Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol,Noto Color Emoji;
