@@ -193,7 +193,7 @@ background-image: linear-gradient(to bottom, #413da8, #3b42a7, #3746a5, #334aa3,
   padding-top: 1em;
   margin-top: 2em; }
 
-.founder-case-study .hero {
+.founder-case-study .hero-short {
   background: url("../images/travel1.svg"); }
 
 .img__container--center {
@@ -201,7 +201,7 @@ background-image: linear-gradient(to bottom, #413da8, #3b42a7, #3746a5, #334aa3,
   margin: 0 auto;
   width: 75%; }
 
-.press-case-study .hero {
+.press-case-study .hero-short {
   background-color: #c02e53; }
 
 @media (max-width: 599px) {
@@ -1257,6 +1257,15 @@ fieldset {
 @media (max-width: 900px) {
   .visible-on-large {
     display: none; } }
+
+.case-meta {
+  background-color: #141414;
+  color: white; }
+
+.case-meta span {
+  color: #57b8ff;
+  font-size: 1.15em;
+  font-weight: bold; }
 
 /* themes */
 /* 
