@@ -81,6 +81,9 @@ app.use('/users', usersRouter);
 app.use('/work', workRouter);
 app.use('/projects', projectsRouter);
 
+
+/* https://express-validator.github.io/docs/ */
+
 /*
 https://www.hacksparrow.com/webdev/express/handling-processing-forms.html
 
@@ -96,6 +99,40 @@ app.post('/submit-form', (req, res) => {
 })
 
 */
+
+/* 
+
+app.post('/form', [
+  check('name').isLength({ min: 3 }),
+  check('email').isEmail(),
+  check('age').isNumeric()
+], (req, res) => {
+  const errors = validationResult(req)
+  if (!errors.isEmpty()) {
+    return res.status(422).json({ errors: errors.array() })
+  }
+
+  const name  = req.body.name
+  const email = req.body.email
+  const age   = req.body.age
+})
+
+*/
+
+app.post('/submit-form', [
+  body('name').isLength({ min: 3 }),
+  body('email').isEmail(),
+  body('msg').isNumeric()
+], (req, res) => {
+  const errors = validationResult(req)
+  if (!errors.isEmpty()) {
+    return res.status(422).json({ errors: errors.array() })
+  }
+
+  const name  = req.body.name
+  const email = req.body.email
+  const message   = req.body.msg
+})
 
 app.post('/submit-form', function (req, res) {
   //const username = req.body.username

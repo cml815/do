@@ -1,0 +1,22 @@
+
+  <div class="inner">
+    <div class="flex-c">
+      <div class="case-meta">
+        <h6 class="fine-print">Client</h6>
+        <p>{{client}}</p>
+      </div>
+      <div class="">
+        <ul class="case-meta flex-c--col">
+            <li><h6 class="fine-print">Team</h6></li> 
+            {{#each team}}
+            <li><p>{{this}}</p></li>
+            {{/each}}
+        </ul>
+      </div>
+       <ul class="case-meta flex-c--col">
+      {{#each tag}}
+      <li><p>{{this}} / </p></li>
+      {{/each}}
+    </ul> 
+  </div>
+  </div>
