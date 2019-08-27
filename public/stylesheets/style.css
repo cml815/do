@@ -1345,6 +1345,12 @@ div p {
 p.width-tune {
   max-width: 540px; }
 
+.projects-wrapper {
+  background-color: #141414; }
+  .projects-wrapper h1 {
+    color: white;
+    max-width: 768px; }
+
 .project {
   position: relative; }
 

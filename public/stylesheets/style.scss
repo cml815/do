@@ -114,6 +114,16 @@ div p {
 
 /// SITE STYLES - move to base TODO  ///
 
+.projects-wrapper {
+  background-color: $black; 
+  & h1 {
+    color: $white;
+    max-width: 768px;
+  }
+}
+
+
+
 .project {
   position: relative;
 }
