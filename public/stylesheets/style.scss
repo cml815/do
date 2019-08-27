@@ -322,15 +322,10 @@ footer .banner span {
 .copyright {
   padding: 1em 0;
   font-size: 1em;
+  text-align: center;
+  background-color: $grape;
+  color: $white;
 }
-
-.footer__wrap {
-  position: absolute;
-  height: 95vh;
-  width: 100%;
-  background: url("../images/bok.jpg") no-repeat center bottom;
-}
-
 
 .social-links {
   display: inline-block;
@@ -754,6 +749,11 @@ i.circle {
   & a {
     color: $black;
   }
+}
+
+.contact-image {
+height: 70vh;
+background: url("../images/bok.jpg") no-repeat center bottom;
 }
 
 .mail-link {

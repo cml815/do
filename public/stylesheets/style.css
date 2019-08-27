@@ -1555,13 +1555,10 @@ footer .banner span {
 
 .copyright {
   padding: 1em 0;
-  font-size: 1em; }
-
-.footer__wrap {
-  position: absolute;
-  height: 95vh;
-  width: 100%;
-  background: url("../images/bok.jpg") no-repeat center bottom; }
+  font-size: 1em;
+  text-align: center;
+  background-color: #32293b;
+  color: white; }
 
 .social-links {
   display: inline-block;
@@ -1884,6 +1881,10 @@ i.circle {
   padding-top: 4em; }
   .contact__container a {
     color: #141414; }
+
+.contact-image {
+  height: 70vh;
+  background: url("../images/bok.jpg") no-repeat center bottom; }
 
 .mail-link {
   padding-bottom: 1.5em; }
