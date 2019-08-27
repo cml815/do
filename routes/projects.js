@@ -26,7 +26,7 @@ router.get('/press-campaign', function(req, res, next) {
       bodyClass: 'press-case-study',
       summary: 'How a citizens group organized the largest gun violence prevention rally ever in Pennsylvania and was catapulted to the national stage.',
       client: 'CeaseFirePA',
-      team: 'David Scholnick',
+      team: ['David Scholnick'],
       tag: ['strategy', 'public relations', 'earned media'],
       layout: 'default' 
     });
@@ -53,7 +53,7 @@ router.get('/sbir-grants', function(req, res, next) {
     res.render('sbir-grants', { 
       title: 'SBIR grants: Funds without dilution',
       bodyClass: 'sbir-case-study',
-      summary: 'NULL - How Fuel helped tech and biotech companies win funding to bring their innovations to market',
+      summary: 'How Fuel helped tech and biotech companies win funding to bring their innovations to market',
       client: 'Various companies',
       team: ['Caroline Leopold', 'Dana Henry', 'Ed Apffel'], 
       tag: ['federal grants', 'sbir', 'biotech'],
@@ -85,7 +85,7 @@ router.get('/sbir-grants', function(req, res, next) {
       bodyClass: 'website-case-study',
       summary: 'Web design to introduce new companies to discerning audiences',
       team: ['Caroline Leopold', 'Dana Henry', 'Francesca Lo Basso', 'Rich Garella'],
-      client: 'NexRX',
+      client: 'Various companies',
       tag: ['web design', 'prototyping', 'UI/UX', 'copywriting'],
       layout: 'default' 
     });
