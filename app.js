@@ -8,6 +8,11 @@ var mongoose = require('mongoose');
 var exphbs = require('express-handlebars');
 var sassMiddleware = require('node-sass-middleware');
 var favicon = require('serve-favicon');
+
+const { body,validationResult } = require('express-validator/check');
+const { sanitizeBody } = require('express-validator/filter');
+
+// unused modules 
 var nodemailer = require('nodemailer');
 var dotenv = require('dotenv').config();
 
@@ -76,6 +81,10 @@ app.use('/about', aboutRouter)
 app.use('/users', usersRouter);
 app.use('/work', workRouter);
 app.use('/projects', projectsRouter);
+
+
+
+
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
