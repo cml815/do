@@ -1258,14 +1258,35 @@ fieldset {
   .visible-on-large {
     display: none; } }
 
-.case-meta {
+/* case study work todo */
+.case-summary {
   background-color: #141414;
-  color: white; }
+  color: white;
+  padding: 2em 1.5em 1em; }
+
+.case-client {
+  padding: 1.5em 0 1em; }
+
+.case-meta {
+  padding: 1em; }
+
+.case-meta {
+  flex: 0 1 40%; }
 
 .case-meta span {
   color: #57b8ff;
   font-size: 1.15em;
   font-weight: bold; }
+
+.flex-c--space-between {
+  display: flex;
+  justify-content: space-between; }
+
+.fine-print .no-margin {
+  margin: 0; }
+
+.tag-list li {
+  padding-bottom: .75em; }
 
 /* themes */
 /* 

@@ -2,10 +2,24 @@
 
 /// HACK STYLES todo //
 
+/* case study work todo */
 
-.case-meta {
+.case-summary {
   background-color: $black;
   color: $white;
+  padding: 2em 1.5em 1em;
+}
+
+.case-client {
+  padding: 1.5em 0 1em;
+}
+
+.case-meta {
+  padding: 1em;
+}
+
+.case-meta {
+  flex: 0 1 40%;
 }
 
 .case-meta span {
@@ -13,6 +27,20 @@
   font-size: 1.15em;
   font-weight: bold;
 }
+
+.flex-c--space-between {
+  display: flex;
+  justify-content: space-between;
+}
+
+.fine-print .no-margin {
+  margin: 0;
+}
+
+.tag-list li {
+  padding-bottom: .75em;
+}
+
 
 /* themes */ 
 

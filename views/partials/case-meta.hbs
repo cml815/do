@@ -1,13 +1,14 @@
-<div class="inner">
-  <div class="flex-c">
-    <div class="flex-i case-meta">
-      <h6 class="fine-print">Client</h6>
-      <p>{{client}}</p>
+<div class="flex-c--col">
+  <div class="case-client">
+    <p><span>client</span> &mdash;  {{client}}</p>
+  </div>
+  <div>
+    <div class="case-meta">
+      <ul class="flex-c--col tag-list">
+        {{#each tag}}
+        <li>{{this}} <span>/</span></{{this}}></li>
+        {{/each}}
+      </ul>
     </div>
-      <ul class="case-meta flex-c--col">
-      {{#each tag}}
-        <li><p>{{this}} <span>/</span></p></li>
-      {{/each}}
-    </ul>
-</div>
-</div>
+  </div>
+
