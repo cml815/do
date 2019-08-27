@@ -76,3 +76,31 @@ masonry overlay
 .m-overlay h4, .m-overlay p {
   padding: 1em;
 }
+
+<!--
+<section>
+  <div class="inner">
+    <div class="flex-c">
+      <div class="case-meta">
+        <h6 class="fine-print">Client</h6>
+        <p>Various companies</p>
+      </div>
+      <div class="case-meta">
+        <ul>
+          <li><h6 class="fine-print">Team</h6></li>  
+          <li><p>Caroline Leopold</p></li>
+          <li><p>Rich Garella</p></li>
+          <li><p>Dana Henry</p></li>
+          <li><p>Ed Apffel</p></li>
+        </ul>
+      </div>
+       <ul class="case-meta flex-c--col">
+      {{#each tag}}
+      <li><p>{{this}} / </p></li>
+      {{/each}}
+    </ul> 
+  </div>
+  </div>
+</section>
+
+-->

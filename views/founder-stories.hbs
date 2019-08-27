@@ -5,31 +5,11 @@
         <h4>Fuel interviewed dozens of entrepreneurs making a mark in the travel world</h4>
     </div>
 </section>
-<section>
-  <div class="inner">
-    <div class="flex-c">
-      <div class="case-meta">
-        <h6 class="fine-print">Client</h6>
-        <p>Reward Expert</p>
-      </div>
-      <div class="case-meta">
-        <ul>
-          <li><h6 class="fine-print">Contributors</h6></li>  
-          <li><p>Nick Mordowanec</p></li>
-          <li><p>Shawn Farner</p></li>
-          <li><p>Caroline Leopold</p></li>
-          <li><p>Dana Henry</p></li>
-          <li><p>Tomas Ponce de Leon</p></li>
-        </ul>
-      </div>
-       <ul class="case-meta flex-c--col">
-      {{#each tag}}
-      <li><p>{{this}} / </p></li>
-      {{/each}}
-    </ul> 
-  </div>
-  </div>
+
+<section class="case-meta">
+  {{>case-meta}}
 </section>
+
 <section class="case-study">
 <div class="callout">
   <div class="inner">
