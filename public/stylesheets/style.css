@@ -166,6 +166,12 @@ background-image: linear-gradient(to bottom, #413da8, #3b42a7, #3746a5, #334aa3,
   justify-content: center;
   align-items: center; }
 
+.hero-short {
+  display: flex;
+  height: 70vh;
+  justify-content: center;
+  align-items: center; }
+
 .hero h1 {
   line-height: 1.4;
   letter-spacing: .02em; }
@@ -1350,39 +1356,9 @@ p.width-tune {
 .project a {
   color: white; }
 
-/*
-.projects__container {
-  padding-top: 2em;
-}
+.temp-margin {
+  margin-top: 2em; }
 
-*/
-.case-study__jg {
-  background-color: #141414; }
-
-.case-study__jg .fine-print, .case-study__jg p {
-  color: white; }
-
-.case-study__jg h4 {
-  color: #c4302b; }
-
-.temp-padding {
-  padding: 1em 2em 0; }
-
-.project-card {
-  padding: 2em;
-  height: 90vh; }
-
-.cs__jg {
-  background-color: white;
-  /*  background-color: lighten($pool, 20);
-  color: darken($night, 80%); */ }
-
-/* 
-.cs__jg .btn a {
-color: white;
-}
-
-*/
 .error {
   background-color: #c02e53;
   color: white;
