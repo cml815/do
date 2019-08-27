@@ -49,3 +49,30 @@ https://www.termsandcondiitionssample.com/live.php?token=K2XgeKn6AEDVT5wPeMPBFrx
 System fonts:
 
 font-family: system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,Cantarell,Oxygen,sans-serif,Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol,Noto Color Emoji;
+
+masonry overlay 
+
+.m-container {
+  position: relative;
+  width: 100%;
+}
+
+.m-overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(255,255,255,1);
+  overflow: hidden;
+  width: 100%;
+  height: 0;
+  transition: .5s ease;
+}
+
+.m-container:hover .m-overlay {
+  height: 80%;
+}
+
+.m-overlay h4, .m-overlay p {
+  padding: 1em;
+}

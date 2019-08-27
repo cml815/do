@@ -1736,27 +1736,6 @@ footer .banner span {
     column-count: 1; } }
 
 /* masonry tiles hover overlay */
-.m-container {
-  position: relative;
-  width: 100%; }
-
-.m-overlay {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  background-color: white;
-  overflow: hidden;
-  width: 100%;
-  height: 0;
-  transition: .5s ease; }
-
-.m-container:hover .m-overlay {
-  height: 80%; }
-
-.m-overlay h4, .m-overlay p {
-  padding: 1em; }
-
 /* 
 h4, p {
   color: white;
