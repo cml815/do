@@ -1,28 +1,27 @@
-var createError = require('http-errors');
-var express = require('express');
-var path = require('path');
-var cookieParser = require('cookie-parser');
-var logger = require('morgan');
-var bodyParser = require('body-parser');
-var mongoose = require('mongoose');
-var exphbs = require('express-handlebars');
-var sassMiddleware = require('node-sass-middleware');
-var favicon = require('serve-favicon');
-
+const createError = require('http-errors');
+const express = require('express');
+const path = require('path');
+const cookieParser = require('cookie-parser');
+const logger = require('morgan');
+const bodyParser = require('body-parser');
+const mongoose = require('mongoose');
+const exphbs = require('express-handlebars');
 const { body,validationResult } = require('express-validator/check');
 const { sanitizeBody } = require('express-validator/filter');
+const sassMiddleware = require('node-sass-middleware');
+const favicon = require('serve-favicon');
 
 // unused modules 
-var nodemailer = require('nodemailer');
-var dotenv = require('dotenv').config();
+const nodemailer = require('nodemailer');
+const dotenv = require('dotenv').config();
 
-var indexRouter = require('./routes/index');
-var aboutRouter = require('./routes/about')
-var usersRouter = require('./routes/users');
-var workRouter = require('./routes/work');
-var projectsRouter = require('./routes/projects');
+const indexRouter = require('./routes/index');
+const aboutRouter = require('./routes/about')
+const usersRouter = require('./routes/users');
+const workRouter = require('./routes/work');
+const projectsRouter = require('./routes/projects');
 
-var app = express();
+const app = express();
 
 // Set up db connection - archive - TODO move   
 var mongoDB = 'mongodb://meus:815cricket@ds241723.mlab.com:41723/fuelport';
@@ -82,9 +81,29 @@ app.use('/users', usersRouter);
 app.use('/work', workRouter);
 app.use('/projects', projectsRouter);
 
+/*
+https://www.hacksparrow.com/webdev/express/handling-processing-forms.html
 
+app.post('/handler', function (req, res) {
+  console.log(req.body);
+  res.send(req.body);
+});
 
+app.post('/submit-form', (req, res) => {
+  const username = req.body.username
+  //...
+  res.end()
+})
 
+*/
+
+app.post('/submit-form', function (req, res) {
+  //const username = req.body.username
+  //...
+  console.log(req.body);
+  // res.send(req.body); - sends json data
+  res.send("Thank you for sending us a message!")
+});
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
