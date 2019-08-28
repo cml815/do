@@ -124,6 +124,11 @@ div p {
   max-width: 768px;
 }
 
+
+.width-tune {
+  max-width: 100px;
+}
+
 .text-as-background {
   margin-bottom: 0;
 }
@@ -134,7 +139,7 @@ div p {
   text-orientation: sideways;
   position: relative;
   top: 10px;
-  left: 20px;
+  left: 1.5em;
   background-color: transparent;
   color: rgba(0,0,0,0.2);
   font-family: $sans;
@@ -167,13 +172,6 @@ div p {
   border-bottom: 2px $accent solid;
   }
 
-  .width-tune {
-    max-width: 100px;
-  }
-
-  p.width-tune {
-    max-width: 540px;
-  }
 
 
 /// SITE STYLES - move to base TODO  ///

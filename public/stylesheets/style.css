@@ -861,6 +861,9 @@ nav li:hover {
   font-size: 1.4em; }
 
 /* Service styles */
+.text-column-width {
+  max-width: 540px; }
+
 .sub-nav {
   width: 100%; }
 
@@ -942,6 +945,12 @@ nav li:hover {
 
 .content-container {
   max-width: 540px; }
+
+.block-spacer {
+  margin-top: 2em; }
+
+.block-spacer-lg {
+  margin-top: 3em; }
 
 .flex-c--space-between {
   display: flex;
@@ -1437,6 +1446,9 @@ div p {
 .shoutout h2 {
   max-width: 768px; }
 
+.width-tune {
+  max-width: 100px; }
+
 .text-as-background {
   margin-bottom: 0; }
 
@@ -1446,7 +1458,7 @@ div p {
     text-orientation: sideways;
     position: relative;
     top: 10px;
-    left: 20px;
+    left: 1.5em;
     background-color: transparent;
     color: rgba(0, 0, 0, 0.2);
     font-family: "DM Sans", "Helvetica Neue", "Helvetica", Arial, sans-serif;
@@ -1472,12 +1484,6 @@ div p {
 
 .underline {
   border-bottom: 2px #23e3c9 solid; }
-
-.width-tune {
-  max-width: 100px; }
-
-p.width-tune {
-  max-width: 540px; }
 
 .projects-grid {
   grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
