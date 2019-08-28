@@ -39,94 +39,32 @@
   width: 66.67%;
 }
 
-.case-text-box {
-  @include reset;
-  background-color: $white;
-}
-
-  .pool-bg {
-    color: $black;
-    background-color: lighten($pool, 20%);
+.pool-bg {
+  color: $black;
+  background-color: lighten($pool, 20%);
 }
 
 .bg-night {
-  color: white;
-  background-color: $night;
-}
-
-.border-bottom {
-  border-bottom: 1px $pool solid;
-}
-
-.case-client {
-  padding: 1.5em 0 1em;
-}
-
-.intro-meta-container {
-  height: 80vh;
-  background: url('../images/travel1.svg');
-}
-
-.case-meta {
-  padding: 1em;
-  background-color: $black;
-  color: $white;
-}
-
-.case-inner > * {
-  padding: 0 0 1em;
+color: white;
+background-color: $night;
 }
 
 .flex-end {
   justify-content: flex-end;
 }
 
-/*
-.case-meta {
-  position: absolute;
-  right: 0;
-  top: 400px;
-  height: 50vh;
-  width: 35%;
-  padding: 1em;
-  background-color: $black;
-  color: $white;
+.border-bottom {
+  border-bottom: 1px $pool solid;
 }
 
-*/
 
-.case-meta > * {
-  padding: 1.25em 1em; 
-}
-  
- 
-.case-meta span {
-  color: $pool;
-  font-size: 1.15em;
-  font-weight: bold;
+.case-text-box {
+  @include reset;
+  background-color: $white;
 }
 
-.content-container {
-  max-width: 540px;
-}
 
-.flex-c--space-between {
-  display: flex;
-  justify-content: space-between;
-}
 
-.fine-print .no-margin {
-  margin: 0;
-}
-
-.tag-list li {
-  padding-bottom: .75em;
-}
-
-.twitter-wrap {
-  background-color: $pool;
-  max-width: 375px;
-}
 
 /* themes */ 
 

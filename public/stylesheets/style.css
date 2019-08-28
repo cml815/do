@@ -896,6 +896,67 @@ nav li:hover {
   background-color: #424A51;
   color: white; }
 
+/* global case styles */
+.summary-container {
+  background: url("../images/travel1.svg"); }
+
+/* 
+  @include mobile-plus {
+    .row-md {
+    flex-direction: row;
+  }
+}
+
+*/
+.case-client {
+  padding: 1.5em 0 1em; }
+
+.case-meta {
+  padding: 1em;
+  background-color: #141414;
+  color: white; }
+
+.case-inner > * {
+  padding: 0 0 1em; }
+
+/*
+.case-meta {
+  position: absolute;
+  right: 0;
+  top: 400px;
+  height: 50vh;
+  width: 35%;
+  padding: 1em;
+  background-color: $black;
+  color: $white;
+}
+
+*/
+.case-meta > * {
+  padding: 1.25em 1em; }
+
+.case-meta span {
+  color: #57b8ff;
+  font-size: 1.15em;
+  font-weight: bold; }
+
+.content-container {
+  max-width: 540px; }
+
+.flex-c--space-between {
+  display: flex;
+  justify-content: space-between; }
+
+.fine-print .no-margin {
+  margin: 0; }
+
+.tag-list li {
+  padding-bottom: .75em; }
+
+.twitter-wrap {
+  background-color: #57b8ff;
+  max-width: 375px; }
+
 /* Case study page layout  */
 .grant-case-study .text-block {
   background-color: black;
@@ -1312,11 +1373,6 @@ fieldset {
 .column-2-of-3 {
   width: 66.67%; }
 
-.case-text-box {
-  margin: 0;
-  padding: 0;
-  background-color: white; }
-
 .pool-bg {
   color: #141414;
   background-color: #bde3ff; }
@@ -1325,64 +1381,16 @@ fieldset {
   color: white;
   background-color: #242943; }
 
-.border-bottom {
-  border-bottom: 1px #57b8ff solid; }
-
-.case-client {
-  padding: 1.5em 0 1em; }
-
-.intro-meta-container {
-  height: 80vh;
-  background: url("../images/travel1.svg"); }
-
-.case-meta {
-  padding: 1em;
-  background-color: #141414;
-  color: white; }
-
-.case-inner > * {
-  padding: 0 0 1em; }
-
 .flex-end {
   justify-content: flex-end; }
 
-/*
-.case-meta {
-  position: absolute;
-  right: 0;
-  top: 400px;
-  height: 50vh;
-  width: 35%;
-  padding: 1em;
-  background-color: $black;
-  color: $white;
-}
+.border-bottom {
+  border-bottom: 1px #57b8ff solid; }
 
-*/
-.case-meta > * {
-  padding: 1.25em 1em; }
-
-.case-meta span {
-  color: #57b8ff;
-  font-size: 1.15em;
-  font-weight: bold; }
-
-.content-container {
-  max-width: 540px; }
-
-.flex-c--space-between {
-  display: flex;
-  justify-content: space-between; }
-
-.fine-print .no-margin {
-  margin: 0; }
-
-.tag-list li {
-  padding-bottom: .75em; }
-
-.twitter-wrap {
-  background-color: #57b8ff;
-  max-width: 375px; }
+.case-text-box {
+  margin: 0;
+  padding: 0;
+  background-color: white; }
 
 /* themes */
 /* 
