@@ -861,6 +861,18 @@ nav li:hover {
   font-size: 1.4em; }
 
 /* Service styles */
+.next-project-first {
+  width: 50%; }
+
+.next-project-second {
+  width: 50%; }
+
+.next-project-first > img {
+  object-fit: contain; }
+
+.next-project-second > img {
+  object-fit: contain; }
+
 .text-column-width {
   max-width: 540px; }
 

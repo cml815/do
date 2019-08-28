@@ -43,6 +43,10 @@ router.get('/founder-stories', function(req, res, next) {
       team: ['Nick Mordowanec', 'Shawn Farner', 'Caroline Leopold', 'Dana Henry', 
       'Tomas Ponce de Leon'],
       tag: ['content marketing', 'thought leadership', 'seo'],
+      url1: "../projects/social-media-influencer",
+      url2: "../projects/press-campaign",
+      img1: "../images/grant-red-crop.jpg",
+      img2: "../images/overhead.jpg",
       layout: 'default' 
     });
   });
