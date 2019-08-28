@@ -1277,9 +1277,6 @@ fieldset {
   margin: 0;
   padding: 0; }
 
-.case-text-box-inner {
-  padding: 1.5em; }
-
 .pool-bg {
   color: #141414;
   background-color: #bde3ff; }
@@ -1287,6 +1284,9 @@ fieldset {
 .bg-night {
   color: white;
   background-color: #242943; }
+
+.border-bottom {
+  border-bottom: 1px #57b8ff solid; }
 
 .case-client {
   padding: 1.5em 0 1em; }

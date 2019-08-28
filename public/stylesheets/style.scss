@@ -26,6 +26,10 @@
   background-color: $night;
 }
 
+.border-bottom {
+  border-bottom: 1px $pool solid;
+}
+
 .case-client {
   padding: 1.5em 0 1em;
 }
