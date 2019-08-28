@@ -1266,16 +1266,23 @@ fieldset {
     display: none; } }
 
 /* case study work todo */
+/*
 .founder-case-study .hero-short {
-  position: relative; }
+  position: relative;
+}
 
+*/
 .case-text-box {
-  padding: 2em 1.5em 1em;
-  width: 50%; }
+  width: 50%;
+  margin: 0;
+  padding: 0; }
 
-.light-bg {
+.case-text-box-inner {
+  padding: 1.5em; }
+
+.pool-bg {
   color: #141414;
-  background-color: #efefef; }
+  background-color: #bde3ff; }
 
 .bg-night {
   color: white;
@@ -1289,15 +1296,27 @@ fieldset {
   background: url("../images/travel1.svg"); }
 
 .case-meta {
+  height: 50vh;
+  padding: 1em;
+  background-color: #141414;
+  color: white; }
+
+.case-inner > * {
+  padding: 0 0 1em; }
+
+/*
+.case-meta {
   position: absolute;
   right: 0;
   top: 400px;
   height: 50vh;
   width: 35%;
   padding: 1em;
-  background-color: #141414;
-  color: white; }
+  background-color: $black;
+  color: $white;
+}
 
+*/
 .case-meta > * {
   padding: 1.25em 1em; }
 

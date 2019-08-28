@@ -4,18 +4,21 @@
 
 /* case study work todo */
 
+/*
 .founder-case-study .hero-short {
   position: relative;
 }
 
+*/
+
 .case-text-box {
-  padding: 2em 1.5em 1em;
   width: 50%; 
+  @include reset;
 }
 
-  .light-bg {
+  .pool-bg {
     color: $black;
-    background-color: $gray-light;
+    background-color: lighten($pool, 20%);
 }
 
 .bg-night {
@@ -33,6 +36,18 @@
 }
 
 .case-meta {
+  height: 50vh;
+  padding: 1em;
+  background-color: $black;
+  color: $white;
+}
+
+.case-inner > * {
+  padding: 0 0 1em;
+}
+
+/*
+.case-meta {
   position: absolute;
   right: 0;
   top: 400px;
@@ -42,6 +57,8 @@
   background-color: $black;
   color: $white;
 }
+
+*/
 
 .case-meta > * {
   padding: 1.25em 1em; 
