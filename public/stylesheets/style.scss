@@ -4,28 +4,58 @@
 
 /* case study work todo */
 
-.case-summary {
-  background-color: $black;
-  color: $white;
+.founder-case-study .hero-short {
+  position: relative;
+}
+
+.case-text-box {
   padding: 2em 1.5em 1em;
+  width: 50%; 
+}
+
+  .light-bg {
+    color: $black;
+    background-color: $gray-light;
+}
+
+.bg-night {
+  color: white;
+  background-color: $night;
 }
 
 .case-client {
   padding: 1.5em 0 1em;
 }
 
+.intro-meta-container {
+  height: 80vh;
+  background: url('../images/travel1.svg');
+}
+
 .case-meta {
+  position: absolute;
+  right: 0;
+  top: 400px;
+  height: 50vh;
+  width: 35%;
   padding: 1em;
+  background-color: $black;
+  color: $white;
 }
 
-.case-meta {
-  flex: 0 1 40%;
+.case-meta > * {
+  padding: 1.25em 1em; 
 }
-
+  
+ 
 .case-meta span {
   color: $pool;
   font-size: 1.15em;
   font-weight: bold;
+}
+
+.content-container {
+  max-width: 540px;
 }
 
 .flex-c--space-between {
@@ -41,6 +71,10 @@
   padding-bottom: .75em;
 }
 
+.twitter-wrap {
+  background-color: $pool;
+  max-width: 375px;
+}
 
 /* themes */ 
 

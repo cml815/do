@@ -12,6 +12,11 @@ $space-xxl:  calc(5.25 * var(--space-unit));
 
 /* Grid Layouts */
 /* Color Scheme */
+/* 
+$black: rgba(0, 0, 0, 1) !default; 
+$white: rgba(255, 255, 255, 1) !default;
+
+*/
 /* dark blue */
 /* RGB */
 /* night */
@@ -193,9 +198,11 @@ background-image: linear-gradient(to bottom, #413da8, #3b42a7, #3746a5, #334aa3,
   padding-top: 1em;
   margin-top: 2em; }
 
+/*
 .founder-case-study .hero-short {
-  background: url("../images/travel1.svg"); }
-
+  background: url('../images/travel1.svg');
+}
+*/
 .img__container--center {
   position: relative;
   margin: 0 auto;
@@ -775,7 +782,7 @@ nav li:hover {
   width: 100%;
   position: fixed;
   /* Stay in place */
-  z-index: 10;
+  z-index: 100;
   /* Sit on top */
   left: 0;
   top: 0;
@@ -1259,24 +1266,48 @@ fieldset {
     display: none; } }
 
 /* case study work todo */
-.case-summary {
-  background-color: #141414;
+.founder-case-study .hero-short {
+  position: relative; }
+
+.case-text-box {
+  padding: 2em 1.5em 1em;
+  width: 50%; }
+
+.light-bg {
+  color: #141414;
+  background-color: #efefef; }
+
+.bg-night {
   color: white;
-  padding: 2em 1.5em 1em; }
+  background-color: #242943; }
 
 .case-client {
   padding: 1.5em 0 1em; }
 
-.case-meta {
-  padding: 1em; }
+.intro-meta-container {
+  height: 80vh;
+  background: url("../images/travel1.svg"); }
 
 .case-meta {
-  flex: 0 1 40%; }
+  position: absolute;
+  right: 0;
+  top: 400px;
+  height: 50vh;
+  width: 35%;
+  padding: 1em;
+  background-color: #141414;
+  color: white; }
+
+.case-meta > * {
+  padding: 1.25em 1em; }
 
 .case-meta span {
   color: #57b8ff;
   font-size: 1.15em;
   font-weight: bold; }
+
+.content-container {
+  max-width: 540px; }
 
 .flex-c--space-between {
   display: flex;
@@ -1287,6 +1318,10 @@ fieldset {
 
 .tag-list li {
   padding-bottom: .75em; }
+
+.twitter-wrap {
+  background-color: #57b8ff;
+  max-width: 375px; }
 
 /* themes */
 /* 
