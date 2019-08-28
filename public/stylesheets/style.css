@@ -372,17 +372,31 @@ figure.card:nth-child(2) {
   grid-column: 2 / span 2;
   grid-row: 3 / span 2; }
 
+/*
+
 .grid-wrapper {
-  display: grid;
-  min-height: 100vh;
-  grid-gap: 1em;
-  grid-template-areas: "menu" "title-wrap" "main" "footer"; }
+    display: grid;
+    min-height: 100vh;
+    grid-gap: 1em;
+    grid-template-areas:
+        "menu"
+        "title-wrap"
+        "main"
+        "footer";
+}
 
-@media (max-width: 599px) {
-  .grid-wrapper {
-    grid-template-columns: 1fr 1fr;
-    grid-template-areas: "header header" "title-wrap title-wrap" "main main" "footer footer"; } }
+@include mobile{
+    .grid-wrapper {
+      grid-template-columns: 1fr 1fr;
+      grid-template-areas: 
+        "header header"
+        "title-wrap title-wrap"
+        "main main"
+        "footer footer";
+    }
+}
 
+*/
 .grid-c {
   display: -ms-grid;
   display: grid; }
@@ -469,7 +483,7 @@ figure.card:nth-child(2) {
   grid-template-rows: repeat(6, 200px);
   grid-auto-flow: dense; }
 
-.item {
+.item--disabled {
   position: relative;
   display: flex;
   flex-direction: column;
@@ -487,13 +501,13 @@ figure.card:nth-child(2) {
   transition: transform 0.3s ease-in-out;
   cursor: pointer;
   counter-increment: item-counter; }
-  .item:nth-of-type(2) {
+  .item--disabled:nth-of-type(2) {
     background-image: url("../images/head-shots-bad/dana-1.jpg"); }
-  .item:nth-of-type(3) {
+  .item--disabled:nth-of-type(3) {
     background-image: url("./images/head-shots-bad/darcie-goodwin.jpg"); }
-  .item:nth-of-type(4) {
+  .item--disabled:nth-of-type(4) {
     background-image: url("https://images.unsplash.com/photo-1464652149449-f3b8538144aa?dpr=2&auto=format&fit=crop&w=1500&h=1000&q=80&cs=tinysrgb&crop="); }
-  .item:after {
+  .item--disabled:after {
     content: '';
     position: absolute;
     width: 100%;
@@ -501,21 +515,21 @@ figure.card:nth-child(2) {
     background-color: black;
     opacity: 0.3;
     transition: opacity 0.3s ease-in-out; }
-  .item:hover {
+  .item--disabled:hover {
     transform: scale(1.05); }
-    .item:hover:after {
+    .item--disabled:hover:after {
       opacity: 0; }
-  .item--medium {
+  .item--disabled--medium {
     grid-row-end: span 2; }
-  .item--large {
+  .item--disabled--large {
     grid-row-end: span 3; }
-  .item--full {
+  .item--disabled--full {
     grid-column-end: auto; }
     @media (min-width: 900px) {
-      .item--full {
+      .item--disabled--full {
         grid-column: 1/-1;
         grid-row-end: span 2; } }
-  .item__details {
+  .item--disabled__details {
     position: relative;
     z-index: 1;
     padding: 15px;
@@ -524,7 +538,7 @@ figure.card:nth-child(2) {
     text-transform: lowercase;
     letter-spacing: 1px;
     color: #828282; }
-    .item__details:before {
+    .item--disabled__details:before {
       content: counter(item-counter);
       font-weight: bold;
       font-size: 1.1rem;
@@ -705,7 +719,8 @@ nav {
   margin: 0 auto;
   height: 2.6em;
   position: fixed;
-  background-color: #efefef; }
+  background-color: #efefef;
+  z-index: 10; }
 
 /* applied after scroll height reached 
   
@@ -726,7 +741,7 @@ nav {
   -webkit-flex-flow: row wrap;
   justify-content: flex-end;
   width: 100%;
-  z-index: 9; }
+  z-index: 90; }
 
 nav ul {
   display: flex;
@@ -1298,7 +1313,6 @@ fieldset {
   width: 66.67%; }
 
 .case-text-box {
-  width: 50%;
   margin: 0;
   padding: 0;
   background-color: white; }
@@ -1322,8 +1336,6 @@ fieldset {
   background: url("../images/travel1.svg"); }
 
 .case-meta {
-  width: 40vw;
-  height: 50vh;
   padding: 1em;
   background-color: #141414;
   color: white; }

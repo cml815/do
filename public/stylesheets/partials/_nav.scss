@@ -11,7 +11,10 @@ nav {
     height: 2.6em;
     position: fixed;
     background-color: #efefef;
+    z-index: 10;
   }
+
+  
   
   /* applied after scroll height reached 
   
@@ -33,7 +36,7 @@ nav {
     -webkit-flex-flow: row wrap;
     justify-content: flex-end;
     width: 100%;
-    z-index: 9;
+    z-index: 90;
   }
   
   nav ul {
