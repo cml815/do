@@ -1123,6 +1123,10 @@ hr {
   width: 50px;
   color: #141414; }
 
+hr.horizontal {
+  width: 50px;
+  color: #141414; }
+
 /* Buttons */
 .btn {
   padding: .25em .75em;
@@ -1275,7 +1279,8 @@ fieldset {
 .case-text-box {
   width: 50%;
   margin: 0;
-  padding: 0; }
+  padding: 0;
+  background-color: white; }
 
 .pool-bg {
   color: #141414;
