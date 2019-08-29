@@ -356,6 +356,11 @@ figure.card:nth-child(2) {
     grid-template-columns: repeat(auto-fill, minmax($minmax, 1fr));
   }
 
+  .grid-c__fluid--xl {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax($minmax-xl, 1fr));
+  }
+
 .grid-c__fluid--l {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax($minmax-l, 1fr));

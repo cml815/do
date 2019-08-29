@@ -410,6 +410,10 @@ figure.card:nth-child(2) {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); }
 
+.grid-c__fluid--xl {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(600px, 1fr)); }
+
 .grid-c__fluid--l {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(400px, 1fr)); }
