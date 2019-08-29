@@ -9,7 +9,7 @@ img .feature-img
 
 .inner 
 
-.hero__inner
+.inner
 
 .grid-c
 .icon-grid

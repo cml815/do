@@ -53,10 +53,10 @@
 .hero h1, .hero-short {
   line-height: 1.4;
   letter-spacing: .02em;
-  max-width: 768px;
+  max-width: $mw-m;
 }
 
-.hero__inner {
+.inner-l {
   padding: $space-l;
 }
 

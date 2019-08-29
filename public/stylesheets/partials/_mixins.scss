@@ -9,7 +9,7 @@
 }
 
 @mixin text-column {
-  max-width: 768px;
+  max-width: $mw-m;
   margin: 0 auto;
 }
 

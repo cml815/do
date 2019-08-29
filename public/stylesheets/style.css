@@ -1,5 +1,6 @@
 /* Size and spacing */
 /* padding and margins */
+/* max-width */
 /* $space-unit: 1em; /* for padding and margins 
 
 $space-xxs:  calc(0.25 * var(--space-unit));
@@ -178,7 +179,7 @@ xl, extra-large: 1920px or larger
   letter-spacing: .02em;
   max-width: 768px; }
 
-.hero__inner {
+.inner-l {
   padding: 2em; }
 
 .home .hero {
@@ -1399,12 +1400,6 @@ fieldset {
 }
 
 */
-.test-width {
-  max-width: 540px; }
-
-.flex-row {
-  display: flex; }
-
 .column-1 {
   width: 100%; }
 
@@ -2101,9 +2096,6 @@ i.circle {
 
 .contact > .hero {
   background-color: #3a4aa5; }
-
-.contact > .hero__inner {
-  padding-bottom: 1em; }
 
 .contact__container {
   text-align: center;

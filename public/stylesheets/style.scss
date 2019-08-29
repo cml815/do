@@ -11,14 +11,6 @@
 
 */
 
-.test-width {
-  max-width: 540px;
-}
-
-.flex-row {
-  display: flex;
-}
-
 .column-1 {
   width: 100%
 }
@@ -850,11 +842,6 @@ i.circle {
 .contact > .hero {
   background-color: $indigo;
 }
-
-.contact > .hero__inner {
-  padding-bottom: 1em;
-}
-
 .contact__container {
   text-align: center;
   padding-top: 4em;
