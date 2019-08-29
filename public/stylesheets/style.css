@@ -1554,6 +1554,9 @@ div p {
   background-color: rgba(0, 0, 0, 0.5);
   opacity: 0; }
 
+.project--details > * {
+  padding-bottom: .5em; }
+
 /*
 
 .project--overlay::before {
