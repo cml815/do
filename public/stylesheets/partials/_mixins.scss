@@ -17,9 +17,16 @@
   @media (min-width: 600px) { @content; }
 }
 
+@mixin link-color($static: $link-color, $hover : $link-hover-color) { 
+  &, &:visited, &:active, &:visited:active { 
+    color: $static; } 
+    &:hover, &:visited:hover { 
+      color: $hover; } 
+    }
+
 @mixin theme($name, $base-color) {
   .#{$name} {
-    .element {
+    .span {
       color: $color;
     }
   }

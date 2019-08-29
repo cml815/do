@@ -20,12 +20,16 @@
   object-fit: contain;
 }
 
-
-
-
-
-.text-column-width {
+.focus-text-block {
   max-width: 540px;
+  margin-bottom: 2em;
+}
+
+.focus-text-block p {
+  font-family: $serif;
+  font-size: 1.2em;
+  line-height: 1.8em;
+  font-weight: bold;
 }
 
 // projects nav // 
@@ -121,15 +125,19 @@
 
 */
 
+
 .case-meta > * {
   padding: 1.25em 1em; 
 }
-  
  
-.case-meta span {
+.founder-case-study .case-meta span {
   color: $pool;
   font-size: 1.15em;
   font-weight: bold;
+}
+
+.theme-cherry span {
+  @include theme(theme-cherry, $red);
 }
 
 .content-container {

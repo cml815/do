@@ -28,6 +28,10 @@ router.get('/press-campaign', function(req, res, next) {
       client: 'CeaseFirePA',
       team: ['David Scholnick'],
       tag: ['strategy', 'public relations', 'earned media'],
+      url1: "../projects/social-media-influencer",
+      url2: "../projects/websites",
+      img1: "../images/grant-red-crop.jpg",
+      img2: "../images/desktop.svg",
       layout: 'default' 
     });
   });
@@ -61,7 +65,11 @@ router.get('/sbir-grants', function(req, res, next) {
       client: 'Various companies',
       team: ['Caroline Leopold', 'Dana Henry', 'Ed Apffel'], 
       tag: ['federal grants', 'sbir', 'biotech'],
-      layout: 'default' 
+      url1: "../projects/social-media-influencer",
+      url2: "../projects/press-campaign",
+      img1: "../images/grant-red-crop.jpg",
+      img2: "../images/overhead.jpg",
+      layout: 'default'
     });
   });
   
@@ -91,7 +99,11 @@ router.get('/sbir-grants', function(req, res, next) {
       team: ['Caroline Leopold', 'Dana Henry', 'Francesca Lo Basso', 'Rich Garella'],
       client: 'Various companies',
       tag: ['web design', 'prototyping', 'UI/UX', 'copywriting'],
-      layout: 'default' 
+      url1: "../projects/social-media-influencer",
+      url2: "../projects/sbir-grants",
+      img1: "../images/grant-red-crop.jpg",
+      img2: "../images/biotech-tight.svg",
+      layout: 'default', 
     });
   });
       

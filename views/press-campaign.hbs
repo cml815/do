@@ -1,12 +1,31 @@
 <section class="hero-short">
   <div class="hero__inner">
+    <p class="fine-print">Case Study</p>
     <h1>Mass Shootings, No More</h1>
     <h4>Here's how our PR expert brought the media spotlight to a massive gun violence prevention rally in Pennsylvania.</h4>
   </div>
 </section>
-<section>
-{{>case-meta}}
+
+<section class="block-spacer">
+  <article class="summary-container">
+    <div class="flex-c">
+      <div class="case-text-box flex-c--center">
+        <div class="inner focus-text-block">
+          <h6 class="fine-print">summary</h6>
+          <p class="bold serif ">With critical gun control legislation on the table, a fearless not-for-profit, CeaseFirePA mounted an unprecented rally inside the Pennsylvania State Capitol.</p> 
+          <p>Media expert, Dave Scholnick, catalyzed a press strategy to bring coverage to Harrisburg, a smaller media market, to the rest of the state and the nation.</p>
+      </div>
+      <aside class="">
+        <div class="flex-c--center case-meta">
+          {{>case-meta}}
+        </div>
+      </aside>
+    </div>
+  </article>
 </section>
+
+
+
 <section class="case-study">
   <div class="callout">
     <div class="inner">
@@ -50,15 +69,8 @@
       </div>
     </div>
 </section>
-<section class="project flex-c--center">
-  <div class="flex-i">
-    <h2>Next Project</h2>
-    <a href="../projects/founder-stories"><p>Reward Expert</p></a>
-  </div>
-  <a href="../projects/founder-stories">
-    <img src="./images/rex.jpg" alt="airplane wing"/>
-  </a>
-</div>
+<section class="next-project-wrap">
+  {{> next-proj}}
 </section>
 
 

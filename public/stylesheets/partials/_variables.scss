@@ -50,6 +50,11 @@ $primary: rgba(193, 102, 107, 1);
 $secondary: rgb(58, 74, 165);
 $accent: rgb(128, 241, 238);
 
+$red: rgb(192, 46, 83);
+$indigo: #3a4aa5;
+$pool:  rgb(87, 184, 255);
+
+
 // theme map
 
 $theme-colors: (
@@ -145,6 +150,18 @@ a { color: color(secondary, light);
 // theme grape
 
 $base-color:          #413DA8;
+
+$base-color-lightest: lighten($base-color, 20%);
+$base-color-lighter:  lighten($base-color, 15%);
+$base-color-light:    lighten($base-color, 10%);
+
+$base-color-dark:     darken($base-color, 40%);
+$base-color-darker:   darken($base-color, 50%);
+$base-color-darkest:  darken($base-color, 60%);
+
+// theme red
+
+$base-color: rgb(192, 46, 83);
 
 $base-color-lightest: lighten($base-color, 20%);
 $base-color-lighter:  lighten($base-color, 15%);
@@ -315,8 +332,7 @@ $color-secondary-2-3: #0E9461;
 $color-secondary-2-4: #057349;
 
 
-/* 
+/* Test color schemes */
 
-background-image: linear-gradient(to bottom, #413da8, #3b42a7, #3746a5, #334aa3, #314da0, #2e519f, #2c559e, #2c589d, #2a5d9d, #2b619d, #2d659d, #30699c);
+// reward expert - pool /
 
-*/

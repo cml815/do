@@ -67,11 +67,7 @@ xl, extra-large: 1920px or larger
 
 */
 /* Main Primary color */
-/* 
-
-background-image: linear-gradient(to bottom, #413da8, #3b42a7, #3746a5, #334aa3, #314da0, #2e519f, #2c559e, #2c589d, #2a5d9d, #2b619d, #2d659d, #30699c);
-
-*/
+/* Test color schemes */
 .btn-green {
   background: #2ecc71; }
   .btn-green:hover {
@@ -873,8 +869,15 @@ nav li:hover {
 .next-project-second > img {
   object-fit: contain; }
 
-.text-column-width {
-  max-width: 540px; }
+.focus-text-block {
+  max-width: 540px;
+  margin-bottom: 2em; }
+
+.focus-text-block p {
+  font-family: "Noto Serif JP", Georgia, "Times New Roman", Times, serif;
+  font-size: 1.2em;
+  line-height: 1.8em;
+  font-weight: bold; }
 
 .sub-nav {
   width: 100%; }
@@ -950,10 +953,16 @@ nav li:hover {
 .case-meta > * {
   padding: 1.25em 1em; }
 
-.case-meta span {
+.founder-case-study .case-meta span {
   color: #57b8ff;
   font-size: 1.15em;
   font-weight: bold; }
+
+.theme-cherry span .theme-cherry .element {
+  color: #c02e53; }
+
+.theme-cherry span .theme-cherry .other-element {
+  background: #d4584d; }
 
 .content-container {
   max-width: 540px; }
