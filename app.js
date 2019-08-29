@@ -75,7 +75,6 @@ app.use(express.static(path.join(__dirname, 'public')));
 app.use('/work', express.static(__dirname + '/public'));
 app.use('/projects', express.static(__dirname + '/public'));
 app.use('/about', express.static(__dirname + '/public'));
-app.use('/about/team-bios', express.static(__dirname + '/public'));
 
 app.use('/', indexRouter);
 app.use('/about', aboutRouter)
