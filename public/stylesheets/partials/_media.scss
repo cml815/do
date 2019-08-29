@@ -10,4 +10,10 @@
   }
 }
 
+@include mobile {
+  .visible-on-larger {
+    display: none;
+  }
+}
+
   
