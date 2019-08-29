@@ -173,9 +173,10 @@ xl, extra-large: 1920px or larger
   justify-content: center;
   align-items: center; }
 
-.hero h1 {
+.hero h1, .hero-short {
   line-height: 1.4;
-  letter-spacing: .02em; }
+  letter-spacing: .02em;
+  max-width: 768px; }
 
 .hero__inner {
   padding: 2em; }
@@ -1646,10 +1647,7 @@ a.underline {
   padding-top: 4em; }
 
 .highlight {
-  background: linear-gradient(180deg, #f4f5f7 70%, #52adf7 0%); }
-
-a.highlight {
-  background: #efefef; }
+  background: linear-gradient(180deg, white 70%, #52adf7 0%); }
 
 /* padding */
 article > h6 {

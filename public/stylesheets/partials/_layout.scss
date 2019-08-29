@@ -50,9 +50,10 @@
   align-items: center; 
 }
 
-.hero h1 {
+.hero h1, .hero-short {
   line-height: 1.4;
   letter-spacing: .02em;
+  max-width: 768px;
 }
 
 .hero__inner {
