@@ -14,6 +14,10 @@ router.get('/', function(req, res, next) {
       client: 'Aceable',
       team: ['Caroline Leopold', 'Dana Henry'],
       tag: ['social media','influencer marketing','video'],
+      url1: "../projects/founder-stories",
+      img1: "../images/travel1.svg",
+      url2: "../projects/websites",
+      img2: "../images/desktop.svg",
       layout: 'default' 
     });
   });
@@ -29,8 +33,8 @@ router.get('/press-campaign', function(req, res, next) {
       team: ['David Scholnick'],
       tag: ['strategy', 'public relations', 'earned media'],
       url1: "../projects/social-media-influencer",
-      url2: "../projects/websites",
       img1: "../images/grant-red-crop.jpg",
+      url2: "../projects/websites",
       img2: "../images/desktop.svg",
       layout: 'default' 
     });
@@ -48,8 +52,8 @@ router.get('/founder-stories', function(req, res, next) {
       'Tomas Ponce de Leon'],
       tag: ['content marketing', 'thought leadership', 'seo'],
       url1: "../projects/social-media-influencer",
-      url2: "../projects/press-campaign",
       img1: "../images/grant-red-crop.jpg",
+      url2: "../projects/press-campaign",
       img2: "../images/overhead.jpg",
       layout: 'default' 
     });
@@ -66,8 +70,8 @@ router.get('/sbir-grants', function(req, res, next) {
       team: ['Caroline Leopold', 'Dana Henry', 'Ed Apffel'], 
       tag: ['federal grants', 'sbir', 'biotech'],
       url1: "../projects/social-media-influencer",
-      url2: "../projects/press-campaign",
       img1: "../images/grant-red-crop.jpg",
+      url2: "../projects/press-campaign",
       img2: "../images/overhead.jpg",
       layout: 'default'
     });
@@ -100,8 +104,8 @@ router.get('/sbir-grants', function(req, res, next) {
       client: 'Various companies',
       tag: ['web design', 'prototyping', 'UI/UX', 'copywriting'],
       url1: "../projects/social-media-influencer",
-      url2: "../projects/sbir-grants",
       img1: "../images/grant-red-crop.jpg",
+      url2: "../projects/sbir-grants",
       img2: "../images/biotech-tight.svg",
       layout: 'default', 
     });
