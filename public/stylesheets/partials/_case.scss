@@ -119,35 +119,18 @@ height: 80vh;
   flex: 0 0 33%;
 }
 
+.case-meta-container > * {
+  padding-bottom: 1em;
+}
+
 .case-meta {
-  padding: 1em;
+  padding: 1em 1.25em;
   background-color: $black;
   color: $white;
 }
 
 .case-inner > * {
   padding: 0 0 1em;
-}
-
-
-
-/*
-.case-meta {
-  position: absolute;
-  right: 0;
-  top: 400px;
-  height: 50vh;
-  width: 35%;
-  padding: 1em;
-  background-color: $black;
-  color: $white;
-}
-
-*/
-
-
-.case-meta > * {
-  padding: 1.25em 1em; 
 }
  
 .founder-case-study .case-meta span {
@@ -183,6 +166,7 @@ height: 80vh;
 
 .tag-list li {
   padding-bottom: .75em;
+  text-indent: .75em;
 }
 
 .twitter-wrap {

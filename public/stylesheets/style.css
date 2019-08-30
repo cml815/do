@@ -913,29 +913,16 @@ nav li:hover {
 .summary-container aside {
   flex: 0 0 33%; }
 
+.case-meta-container > * {
+  padding-bottom: 1em; }
+
 .case-meta {
-  padding: 1em;
+  padding: 1em 1.25em;
   background-color: #141414;
   color: white; }
 
 .case-inner > * {
   padding: 0 0 1em; }
-
-/*
-.case-meta {
-  position: absolute;
-  right: 0;
-  top: 400px;
-  height: 50vh;
-  width: 35%;
-  padding: 1em;
-  background-color: $black;
-  color: $white;
-}
-
-*/
-.case-meta > * {
-  padding: 1.25em 1em; }
 
 .founder-case-study .case-meta span {
   color: #57b8ff;
@@ -965,7 +952,8 @@ nav li:hover {
   margin: 0; }
 
 .tag-list li {
-  padding-bottom: .75em; }
+  padding-bottom: .75em;
+  text-indent: .75em; }
 
 .twitter-wrap {
   background-color: #57b8ff;
