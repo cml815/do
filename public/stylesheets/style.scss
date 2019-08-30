@@ -821,8 +821,8 @@ i.circle {
   background-color: $indigo; 
 }
 
-
 /* Case stories */
+
 
 /* Contact page */
 
@@ -835,14 +835,6 @@ i.circle {
   color: $grape;
 }
 
-
-.contact h1 {
-  letter-spacing: -1px;
-}
-
-.contact > .hero {
-  background-color: $indigo;
-}
 .contact__container {
   text-align: center;
   padding-top: 4em;
@@ -861,7 +853,7 @@ background: url("../images/bok.jpg") no-repeat center bottom;
 }
 
 .mail-link a, .tel-link a {
-  font-size: 1.8em;
+  font-size: 1.25em;
 }
 
 /* Form updated */
