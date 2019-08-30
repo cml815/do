@@ -2,23 +2,17 @@
 <head>
   {{> head}}
 </head>
-<body>
-<!-- portfolio page layout -->
-
-{{> nav }}
-
-<div class="container__title">
-  {{#if title}}
-    <h1 class="page-title">{{ title }}</h1>
-  {{/if}}
-</div>
-
-  {{{ body }}}
-
-  <footer>
+<body class="{{ bodyClass }}">
+  <header id="menu" class="menu-wrap grid__item">
+    {{> nav }}
+  </header>
+  <main class=" {{bodyClass}}__main">
+      {{{ body }}}
+  </main>
+  <footer class="{{bodyClass}}__footer">
     {{> footer }}
   </footer>
   <script src="./javascripts/main.js"></script>
-  </body>
-  </html>
+</body>
+</html>
 
