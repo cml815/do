@@ -824,6 +824,15 @@ nav li:hover {
   font-size: 1.4em; }
 
 /* Service styles */
+.mw {
+  width: 100%;
+  max-width: 768px; }
+
+.fancy-text {
+  font-family: "Noto Serif JP", Georgia, "Times New Roman", Times, serif;
+  font-size: 1.15em;
+  font-weight: bold; }
+
 .next-project-first {
   width: 50%; }
 
@@ -837,15 +846,13 @@ nav li:hover {
   object-fit: contain; }
 
 .focus-text-block {
-  max-width: 768px;
   margin-bottom: 2em; }
 
 .focus-text-block p {
   font-family: "Noto Serif JP", Georgia, "Times New Roman", Times, serif;
   font-size: 1.1em;
   line-height: 1.6em;
-  font-weight: bold;
-  text-indent: .5em; }
+  font-weight: bold; }
 
 .sub-nav {
   width: 100%; }
@@ -902,6 +909,9 @@ nav li:hover {
 */
 .case-client {
   padding: 1.5em 0 1em; }
+
+.summary-container aside {
+  flex: 0 0 33%; }
 
 .case-meta {
   padding: 1em;
@@ -1451,11 +1461,6 @@ fieldset {
 
 .border-bottom {
   border-bottom: 1px #57b8ff solid; }
-
-.case-text-box {
-  margin: 0;
-  padding: 0;
-  background-color: white; }
 
 /* themes */
 /* 

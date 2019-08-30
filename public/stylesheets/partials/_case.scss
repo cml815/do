@@ -1,8 +1,18 @@
 /// Case Study & Service Page Styles ///
 /* Service styles */
 
-.next-project-wrap {
+
+.mw {
+  width: 100%;
+  max-width: 768px;
 }
+
+.fancy-text {
+  font-family: $serif;
+  font-size: 1.15em;
+  font-weight: bold;
+}
+
 .next-project-first {
   width: 50%;
 }
@@ -21,7 +31,6 @@
 }
 
 .focus-text-block {
-  max-width: 768px;
   margin-bottom: 2em;
 }
 
@@ -30,7 +39,6 @@
   font-size: 1.1em;
   line-height: 1.6em;
   font-weight: bold;
-  text-indent: .5em;
 }
 
 // projects nav // 
@@ -107,6 +115,9 @@ height: 80vh;
   padding: 1.5em 0 1em;
 }
 
+.summary-container aside {
+  flex: 0 0 33%;
+}
 
 .case-meta {
   padding: 1em;
