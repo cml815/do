@@ -1930,9 +1930,9 @@ footer .banner span {
   column-gap: 1.5em;
   height: 100%; }
 
-/* The Masonry Brick */
+/* masonry images */
 .m-item {
-  background: #fff;
+  background: white;
   padding: 1em;
   margin: 0 0 1.5em; }
 
@@ -1952,7 +1952,8 @@ footer .banner span {
     column-count: 1; } }
 
 /* masonry tiles hover overlay */
-/* 
+/*
+
 h4, p {
   color: white;
   font-size: 20px;
@@ -1966,9 +1967,78 @@ h4, p {
 }
 
 */
-.content-overlay:hover {
-  background: 0, 0, 0, .8; }
+/* Revisit later */
+/* 
+.m-container {
+  width: 100%;
+  height: 100%;
+  float: left;
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+  cursor: default;
+}
 
+.m-container .m-overlay {
+  width: 100%;
+  position: absolute;
+  overflow: hidden;
+  left: 0;
+top: auto;
+bottom: 0;
+padding: 1em;
+height: 4.75em;
+background: #79FAC4;
+color: #3c4a50;
+-webkit-transition: -webkit-transform 0.35s;
+transition: transform 0.35s;
+-webkit-transform: translate3d(0,100%,0);
+transform: translate3d(0,100%,0);
+visibility: hidden;
+
+}
+
+.m-container img {
+  display: block;
+  position: relative;
+-webkit-transition: -webkit-transform 0.35s;
+transition: transform 0.35s;
+}
+
+.m-container:hover img {
+-webkit-transform: translate3d(0,-10%,0);
+transform: translate3d(0,-10%,0);
+}
+
+.m-container p {
+  text-transform: uppercase;
+  color: #fff;
+  text-align: center;
+  position: relative;
+  font-size: 17px;
+  padding: 10px;
+  background: rgba(0, 0, 0, 0.6);
+  float: left;
+  margin: 0px;
+  display: inline-block;
+}
+
+
+
+.m-container {
+  position: relative;
+}
+
+.m-overlay {
+  opacity: 0;
+  position: absolute;
+}
+
+.m-overlay:hover {
+  opacity: 1;
+}
+
+*/
 .about figcaption {
   text-align: center; }
 
