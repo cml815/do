@@ -1,5 +1,31 @@
-/* Helper classes in alphabetical order */
+/* Helper classes */
 
 .caps {
   text-transform: uppercase;
+}
+
+/* Width styles */ 
+
+.column-1 {
+  width: 100%
+}
+
+.column-2 {
+  width: 50%;
+}
+
+.column-3 {
+  width: 33.3%
+}
+
+.column-4 {
+  width: 25%;
+}
+
+.column-3-of-4 {
+  width: 75%;
+}
+
+.column-2-of-3 {
+  width: 66.67%;
 }
