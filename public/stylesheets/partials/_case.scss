@@ -10,6 +10,7 @@
 .fancy-text {
   font-family: $serif;
   font-size: 1.15em;
+  line-height: 1.6em;
   font-weight: bold;
 }
 
@@ -110,6 +111,9 @@ height: 80vh;
 
 */
 
+.justify-between {
+  justify-content: space-between;
+}
 
 .case-client {
   padding: 1.5em 0 1em;
@@ -174,7 +178,10 @@ height: 80vh;
   max-width: 375px;
 }
 
-
+.summary-text {
+  padding: 1em 4em;
+  max-width: 768px;
+}
 
 /* Case study page layout  */
 

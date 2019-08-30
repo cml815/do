@@ -831,6 +831,7 @@ nav li:hover {
 .fancy-text {
   font-family: "Noto Serif JP", Georgia, "Times New Roman", Times, serif;
   font-size: 1.15em;
+  line-height: 1.6em;
   font-weight: bold; }
 
 .next-project-first {
@@ -907,6 +908,9 @@ nav li:hover {
 }
 
 */
+.justify-between {
+  justify-content: space-between; }
+
 .case-client {
   padding: 1.5em 0 1em; }
 
@@ -958,6 +962,10 @@ nav li:hover {
 .twitter-wrap {
   background-color: #57b8ff;
   max-width: 375px; }
+
+.summary-text {
+  padding: 1em 4em;
+  max-width: 768px; }
 
 /* Case study page layout  */
 .grant-case-study .text-block {
