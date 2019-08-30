@@ -239,6 +239,15 @@ xl, extra-large: 1920px or larger
   background: url('../images/travel1.svg');
 }
 */
+.text-display-container {
+  flex: 2; }
+
+.gutter {
+  width: 300px; }
+
+.flex-c--width {
+  display: flex; }
+
 .img__container--center {
   position: relative;
   margin: 0 auto;
