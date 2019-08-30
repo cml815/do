@@ -150,6 +150,9 @@ xl, extra-large: 1920px or larger
 .banner--deep, section--deep {
   background-color: #242943; }
 
+.case__content-container {
+  padding: 2em; }
+
 .container__inner--text {
   padding: .5em; }
 
