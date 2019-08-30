@@ -210,10 +210,13 @@ xl, extra-large: 1920px or larger
   .huge {
     font-size: 4em; }
   .less-huge {
-    font-size: 2em; }
-  .indent {
-    margin-left: 5.5em; } }
+    font-size: 2em; } }
 
+/*
+.indent {
+  margin-left: 5.5em;;
+}
+*/
 .outline {
   color: white;
   -webkit-text-fill-color: red;
