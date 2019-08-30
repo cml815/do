@@ -1,0 +1,81 @@
+/** HER0 ***/
+
+.hero {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    @include mobile {
+      flex-direction: column;
+      align-items: center;
+    } 
+  }
+  
+  .hero-short {
+    display: flex;
+    height: 70vh;
+    justify-content: center;
+    align-items: center; 
+  }
+  
+  .hero h1, .hero-short h1 {
+    letter-spacing: .02em;
+    max-width: $mw-m;
+    @include mobile-plus {
+      font-size: 2.6em;
+    }
+  }
+  
+  // hero custom home page // 
+  
+  .home .hero {
+    color: $white;
+    background-color: darken($primary-dark, 1);
+  }
+  
+  .home h1 {
+    font-size: 2.4em; 
+    @include mobile-plus {
+      font-size: 4em;
+    }
+  }
+  
+  .hero__text-container {
+    display:flex;
+    @include mobile {
+      flex-direction: column;
+    }
+    @include mobile-plus {
+      margin-left: -200px;
+    }
+  }
+  
+  .small-text-column {
+    width: 250px;
+  }
+  
+  .small-text-column p {
+    font-size: 1.75em;
+    margin-top: 100px;
+  }
+  
+  // Hero CTAs // 
+  
+  .cta-container {
+    padding-top: 1em;
+    margin-top: 2em;
+  }
+  
+  
+  .img__container--center {
+    position: relative;
+    margin: 0 auto;
+    width: 75%;
+  }
+
+  // page hero styles //
+  
+  .press-case-study .hero-short {
+   background-color: $cerise;
+  }
+  
