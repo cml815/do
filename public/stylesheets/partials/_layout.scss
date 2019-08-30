@@ -65,8 +65,11 @@
 }
 
 .case__content-container {
-  padding: 2em;
+  flex-basis: 360px;
+  padding: 0 2em 0;
 }
+
+
 
 .container__inner--text {
     padding: .5em;
@@ -198,6 +201,9 @@ figure.card:nth-child(2) {
     align-items: center;
     justify-content: center;
     place-items: center center;
+    @include mobile {
+      flex-direction: column;
+    }
 }
 
 .flex-item-half {

@@ -21,15 +21,16 @@
 }
 
 .focus-text-block {
-  max-width: 540px;
+  max-width: 768px;
   margin-bottom: 2em;
 }
 
 .focus-text-block p {
   font-family: $serif;
-  font-size: 1.2em;
-  line-height: 1.8em;
+  font-size: 1.1em;
+  line-height: 1.6em;
   font-weight: bold;
+  text-indent: .5em;
 }
 
 // projects nav // 
@@ -81,8 +82,16 @@
 /* global case styles */
 
 .summary-container {
+height: 80vh;
+}
+
+/* 
+.summary-container {
   background: url('../images/travel1.svg');
 }
+
+*/
+
 
 /* 
   @include mobile-plus {

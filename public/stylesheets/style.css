@@ -151,7 +151,8 @@ xl, extra-large: 1920px or larger
   background-color: #242943; }
 
 .case__content-container {
-  padding: 2em; }
+  flex-basis: 360px;
+  padding: 0 2em 0; }
 
 .container__inner--text {
   padding: .5em; }
@@ -255,6 +256,9 @@ figure.card:nth-child(2) {
   align-items: center;
   justify-content: center;
   place-items: center center; }
+  @media (max-width: 599px) {
+    .flex-c--center {
+      flex-direction: column; } }
 
 .flex-item-half {
   max-width: 80%; }
@@ -833,14 +837,15 @@ nav li:hover {
   object-fit: contain; }
 
 .focus-text-block {
-  max-width: 540px;
+  max-width: 768px;
   margin-bottom: 2em; }
 
 .focus-text-block p {
   font-family: "Noto Serif JP", Georgia, "Times New Roman", Times, serif;
-  font-size: 1.2em;
-  line-height: 1.8em;
-  font-weight: bold; }
+  font-size: 1.1em;
+  line-height: 1.6em;
+  font-weight: bold;
+  text-indent: .5em; }
 
 .sub-nav {
   width: 100%; }
@@ -879,8 +884,14 @@ nav li:hover {
 
 /* global case styles */
 .summary-container {
-  background: url("../images/travel1.svg"); }
+  height: 80vh; }
 
+/* 
+.summary-container {
+  background: url('../images/travel1.svg');
+}
+
+*/
 /* 
   @include mobile-plus {
     .row-md {
