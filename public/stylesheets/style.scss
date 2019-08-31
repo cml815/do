@@ -451,10 +451,22 @@ footer .banner span {
   background-position: contain; */
 } 
 
-.panel__list li {
+.home .banner {
+  height: 50vh;
+}
 
+.panel {
+  height: 80vh;
+}
+
+.panel__list li {
   padding-bottom: .5em;
-  
+}
+
+.panel li {
+  text-indent: .75em;
+  line-height: 1em;
+  margin: 0 0 .5em;
 }
 
 .test-bg {

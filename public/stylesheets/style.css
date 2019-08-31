@@ -135,7 +135,8 @@ xl, extra-large: 1920px or larger
 /* Full-width banners */
 .banner {
   width: 100%;
-  background-color: transparent; }
+  background-color: transparent;
+  margin-bottom: 4em; }
 
 .banner__inner {
   padding: .75em .75em 0; }
@@ -1840,8 +1841,19 @@ footer .banner span {
   /*  background: url("../images/test-bg.png") no-repeat center;
   background-position: contain; */ }
 
+.home .banner {
+  height: 50vh; }
+
+.panel {
+  height: 80vh; }
+
 .panel__list li {
   padding-bottom: .5em; }
+
+.panel li {
+  text-indent: .75em;
+  line-height: 1em;
+  margin: 0 0 .5em; }
 
 .test-bg {
   border: 1px #000 solid;
