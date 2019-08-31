@@ -163,6 +163,10 @@ div p {
   }
 }
 
+.projects article {
+  display: flex;
+  flex-direction: column;
+}
 .project {
   width: 100%;
   position: relative;
