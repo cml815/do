@@ -333,9 +333,9 @@ figure.card:nth-child(2) {
   display: grid;
   justify-items: stretch; }
 
-.grid-c--1x5 {
+.grid-c--1x4 {
   display: grid;
-  grid-template-columns: repeat(5, 1fr);
+  grid-template-columns: repeat(4, 1fr);
   grid-gap: .5em; }
 
 .grid-c__fluid {
