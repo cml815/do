@@ -1456,6 +1456,9 @@ fieldset {
 .border-bottom {
   border-bottom: 1px #57b8ff solid; }
 
+.width-half {
+  width: 50%; }
+
 /* themes */
 /* 
 .theme-grape {
@@ -1920,6 +1923,9 @@ footer .banner span {
   justify-content: center;
   max-height: 100%; }
 
+.callout .fullscreen {
+  height: 100vh; }
+
 .callout .inner {
   padding: 1em; }
 
@@ -2092,12 +2098,6 @@ transform: translate3d(0,-10%,0);
 
 .card > * {
   margin-bottom: .5em; }
-
-.label-row {
-  margin-top: 2em; }
-
-.label-row li {
-  padding: 2em; }
 
 .lead {
   background-color: #ff5947; }

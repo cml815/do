@@ -19,6 +19,10 @@ background-color: $night;
   border-bottom: 1px $pool solid;
 }
 
+.width-half {
+  width: 50%;
+}
+
 
 
 
@@ -546,6 +550,10 @@ footer .banner span {
   max-height: 100%;
 }
 
+.callout .fullscreen {
+  height: 100vh;
+}
+
 .callout .inner { 
 padding: $space;
 }
@@ -745,14 +753,6 @@ transform: translate3d(0,-10%,0);
 
 .card > * {
   margin-bottom: .5em;
-}
-
-.label-row {
-  margin-top: 2em;
-}
-
-.label-row li {
-  padding: 2em;
 }
 
 .lead {
