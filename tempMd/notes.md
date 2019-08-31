@@ -104,3 +104,33 @@ masonry overlay
 </section>
 
 -->
+
+Sprites
+
+.item-2 {
+  background: url("../images/css_sprites.png") -50px 0;
+}
+
+.item-3 {
+  background: url("../images/css_sprites.png") -100px 0;
+}
+
+.item-4 {
+  background: url("../images/css_sprites.png") -200px 0;
+}
+
+.item-5 {
+  background: url("../images/css_sprites.png") -500px 0;
+}
+
+.bg-test_abstract {
+  width: 900px; height: 752px;
+  background: url('css_sprites.png') -10px -10px;
+}
+
+.set-height {
+  height: 60vh;
+  background: url("../images/test-abstract.jpg") no-repeat;
+  background-position: top 10px right 50px;
+}
+
