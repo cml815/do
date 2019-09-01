@@ -740,9 +740,7 @@ transform: translate3d(0,-10%,0);
   color: $black;
 }
 
-
 /* Work page and sub-pages */
-
 
 .card-wrap > * {
   margin-bottom: 2em;
@@ -750,19 +748,6 @@ transform: translate3d(0,-10%,0);
 
 .card > * {
   margin-bottom: .5em;
-}
-
-.lead {
-  background-color: $lead;
-}
-
-.fund {
-  background-color: $fund;
-}
-
-.grow {
-  background-color: $grow;
-  color: white;
 }
 
 .grow.darker {
