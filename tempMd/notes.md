@@ -190,3 +190,14 @@ Highest viewed video on my channel 66,000 reviews - a popular backpack - expensi
     </p>
 </div>
 </section>
+
+
+background
+
+.growth-marketing .hero {
+  background-image: url('../images/people.png');
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  background-color: rgba(255, 255, 255, 0.8);
+  background-blend-mode: lighten;
+}

@@ -2089,13 +2089,6 @@ transform: translate3d(0,-10%,0);
   color: #141414; }
 
 /* Work page and sub-pages */
-.growth-marketing .hero {
-  background-image: url("../images/people.png");
-  background-repeat: no-repeat;
-  background-position: center bottom;
-  background-color: rgba(255, 255, 255, 0.8);
-  background-blend-mode: lighten; }
-
 .card-wrap > * {
   margin-bottom: 2em; }
 
