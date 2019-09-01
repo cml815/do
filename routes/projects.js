@@ -18,7 +18,7 @@ router.get('/', function(req, res, next) {
       img1: "../images/travel1.svg",
       url2: "../projects/websites",
       img2: "../images/desktop.svg",
-      layout: 'default' 
+      layout: 'case' 
     });
   });
 
@@ -36,7 +36,7 @@ router.get('/press-campaign', function(req, res, next) {
       img1: "../images/grant-red-crop.jpg",
       url2: "../projects/websites",
       img2: "../images/desktop.svg",
-      layout: 'default' 
+      layout: 'case' 
     });
   });
 
@@ -55,7 +55,7 @@ router.get('/founder-stories', function(req, res, next) {
       img1: "../images/grant-red-crop.jpg",
       url2: "../projects/press-campaign",
       img2: "../images/overhead.jpg",
-      layout: 'default' 
+      layout: 'case' 
     });
   });
   
@@ -73,7 +73,7 @@ router.get('/sbir-grants', function(req, res, next) {
       img1: "../images/grant-red-crop.jpg",
       url2: "../projects/press-campaign",
       img2: "../images/overhead.jpg",
-      layout: 'default'
+      layout: 'case'
     });
   });
   
@@ -89,7 +89,7 @@ router.get('/sbir-grants', function(req, res, next) {
       credit: 'null',
       client: ['Various brands'],
       tag: ['thought leadership', 'magazine style', 'white papers', 'authority'],
-      layout: 'default' 
+      layout: 'case' 
     });
   });
   
@@ -107,7 +107,7 @@ router.get('/sbir-grants', function(req, res, next) {
       img1: "../images/grant-red-crop.jpg",
       url2: "../projects/sbir-grants",
       img2: "../images/biotech-tight.svg",
-      layout: 'default', 
+      layout: 'case', 
     });
   });
       

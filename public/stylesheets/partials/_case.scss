@@ -187,9 +187,14 @@ line-height: 1.25em;
 }
 
 .case-study {
-  background-color: $night;
+
+}
+
+.case-study .banner {
+  background-color: $black;
   color: $white;
 }
+
 
 .flex-c--wrap {
   display: flex;

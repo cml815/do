@@ -971,8 +971,8 @@ nav li:hover {
   color: white;
   line-height: 1.25em; }
 
-.case-study {
-  background-color: #242943;
+.case-study .banner {
+  background-color: #141414;
   color: white; }
 
 .flex-c--wrap {
