@@ -148,15 +148,16 @@ sup {
 }
 
   hr {
+    width: 50px;
+    color: $black;
+  }
+  
+  hr.vertical-line {
     transform: rotate(90deg); /* vertical line */
     width: 50px;
     color: $black;
  }
 
- hr.horizontal {
-   width: 50px;
-   color: $black;
- }
 /* Buttons */
 
 .btn { 
