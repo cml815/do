@@ -1875,10 +1875,13 @@ footer .banner span {
 .panel > * {
   margin-bottom: 1rem; }
 
-.panel__text {
+.panel__container {
   padding: 1em 2em 2em; }
 
-.panel__text h4, .panel__text p {
+.panel__content {
+  max-width: 500px; }
+
+.panel__content h4, .panel__content p {
   padding: 1em 0; }
 
 .button__container {
