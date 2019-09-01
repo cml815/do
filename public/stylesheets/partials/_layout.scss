@@ -48,9 +48,8 @@
 }
 
 .banner__inner {
-  margin-top: 3em;
+  padding: 3em 0;
   max-width: 768px;
-  padding: .1em .1em 0 ;
 }
 
 @include tablet-plus {

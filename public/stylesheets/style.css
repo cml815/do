@@ -139,9 +139,8 @@ xl, extra-large: 1920px or larger
   margin-bottom: 4em; }
 
 .banner__inner {
-  margin-top: 3em;
-  max-width: 768px;
-  padding: .1em .1em 0; }
+  padding: 3em 0;
+  max-width: 768px; }
 
 @media (min-width: 900px) {
   padding: 2em 2em 0; }
