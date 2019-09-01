@@ -134,3 +134,11 @@ Sprites
   background-position: top 10px right 50px;
 }
 
+</section>
+        <ul class="tag-container">
+            {{#each tag}}
+            <li>{{this}}</li>
+            {{/each}}
+        </ul> 
+    </div>
+</section>
