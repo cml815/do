@@ -2270,14 +2270,12 @@ button {
 .service__container h4 {
   font-family: "Noto Serif JP", Georgia, "Times New Roman", Times, serif; }
 
-.label {
-  padding: 2em 0; }
-
 .submenu a {
   color: #141414; }
 
 .submenu-item {
-  border: 4px solid #141414; }
+  border: 4px solid #141414;
+  padding: 2em 0; }
 
 .submenu-item:hover {
   background-color: #c02e53;
