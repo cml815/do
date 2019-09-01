@@ -1067,9 +1067,10 @@ nav li:hover {
 .grant-case-study footer {
   background-color: white; }
 
-.iframe-container {
+.video-wrap {
   position: relative;
   width: 100%;
+  margin-top: 2em;
   padding-bottom: 56.25%;
   height: 0; }
 

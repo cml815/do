@@ -142,3 +142,5 @@ Sprites
         </ul> 
     </div>
 </section>
+
+   <p>Videographer Jeff Grant turned the camera on himself in 2009, launching JeffGrantMedia on YouTube. His channel evolved with the growing YouTube community as well as his busy personal and professional life. During that era, pioneers of YouTube filmed skits, newsy segments, lifestyle tips or sketch comedy with their friends.</p>
