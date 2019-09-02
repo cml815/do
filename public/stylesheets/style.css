@@ -1127,10 +1127,6 @@ nav li:hover {
     .hero h1, .hero-short h1 {
       font-size: 2.6em; } }
 
-.home .hero {
-  color: white;
-  background-color: #222740; }
-
 .home h1 {
   font-size: 2.4em; }
   @media (min-width: 600px) {
@@ -1672,7 +1668,7 @@ a.underline {
   padding-top: 4em; }
 
 .highlight {
-  background: linear-gradient(180deg, white 70%, #52adf7 0%); }
+  background: linear-gradient(180deg, white 80%, #52adf7 0%); }
 
 /* padding */
 article > h6 {
@@ -1867,13 +1863,6 @@ footer .banner span {
   text-indent: .75em;
   line-height: 1em;
   margin: 0 0 .5em; }
-
-.test-bg {
-  border: 1px #000 solid;
-  background-color: transparent;
-  background: url("../tiny.jpg") no-repeat;
-  background-size: 200px 200px;
-  background-position: right 100px bottom 10px; }
 
 .panel {
   margin-bottom: 1rem;

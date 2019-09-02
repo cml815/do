@@ -27,11 +27,7 @@
   
   // hero custom home page // 
   
-  .home .hero {
-    color: $white;
-    background-color: darken($primary-dark, 1);
-  }
-  
+
   .home h1 {
     font-size: 2.4em; 
     @include mobile-plus {
