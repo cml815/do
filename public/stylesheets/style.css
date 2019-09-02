@@ -593,6 +593,13 @@ figure.card:nth-child(2) {
   letter-spacing: .0625em;
   margin-bottom: 1em; }
 
+.text-outline {
+  color: white;
+  text-shadow: -1px -1px 0 #000,   1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000; }
+
+.large-print {
+  text-transform: uppercase; }
+
 .text-margin > * {
   margin-bottom: 1em; }
 
@@ -1226,6 +1233,10 @@ h1, h2, h3, h4, h5, h6 {
 h1 {
   font-size: 2em;
   margin: 0.67em 0; }
+
+@media (min-width: 600px) {
+  h1.huge {
+    font-size: 4em; } }
 
 h2 {
   font-size: 1.75em;
@@ -2133,10 +2144,6 @@ i.circle {
 /* Contact page */
 .contact {
   margin-bottom: 2em; }
-
-.contact .hero {
-  background-color: #c2c8e9;
-  color: #32293b; }
 
 .contact__container {
   text-align: center;
