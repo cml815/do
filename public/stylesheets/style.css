@@ -1122,7 +1122,6 @@ nav li:hover {
   align-items: center; }
 
 .hero h1, .hero-short h1 {
-  letter-spacing: .02em;
   max-width: 768px; }
   @media (min-width: 600px) {
     .hero h1, .hero-short h1 {
@@ -1230,6 +1229,10 @@ h1 {
 
 h2 {
   font-size: 1.75em;
+  margin: 0.67em 0; }
+
+h2.serif {
+  font-size: 1.4em;
   margin: 0.67em 0; }
 
 h3, h4 {
