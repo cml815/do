@@ -12,14 +12,10 @@ const sassMiddleware = require('node-sass-middleware');
 const favicon = require('serve-favicon');
 const dotenv = require('dotenv').config();
 
-const sgMail = require('@sendgrid/mail');
-sgMail.setApiKey('process.env.SENDGRID_API_KEY');
-
 // unused modules 
 const nodemailer = require('nodemailer');
 
 /* sgMail.setApiKey('sgSG.mmS72HuWRyqiTWGNX11-RA.2qqosUj-b8vktjzDxeVz56BIFWb7-TKYyz9sN_SNR1s'); */
-
 
 const indexRouter = require('./routes/index');
 const aboutRouter = require('./routes/about')
