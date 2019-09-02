@@ -1167,6 +1167,10 @@ nav li:hover {
   background-color: #c02e53; }
 
 @media (max-width: 599px) {
+  .growth-marketing .hero {
+    padding-top: 120px; } }
+
+@media (max-width: 599px) {
   .mobile-hide {
     display: none; } }
 
@@ -2094,60 +2098,6 @@ transform: translate3d(0,-10%,0);
 
 .card > * {
   margin-bottom: .5em; }
-
-.lead {
-  background-color: #ff5947; }
-
-.fund {
-  background-color: #32293b; }
-
-.grow {
-  background-color: #3a4aa5;
-  color: white; }
-
-.grow.darker {
-  background-color: #2d397f; }
-
-.grow.dark {
-  background-color: #1f285a; }
-
-.grow.lighter {
-  background-color: #5061c2; }
-
-.grow.light {
-  background-color: #7683cf; }
-
-.lead {
-  background-color: #ff5947;
-  color: white; }
-
-.lead.darker {
-  background-color: #ff2b14; }
-
-.lead.dark {
-  background-color: #e01600; }
-
-.lead.lighter {
-  background-color: #ff877a; }
-
-.lead.light {
-  background-color: #ffb5ad; }
-
-.fund {
-  background-color: #32293b;
-  color: white; }
-
-.fund.darker {
-  background-color: #19141d; }
-
-.fund.dark {
-  background-color: black; }
-
-.lead.lighter {
-  background-color: #ff877a; }
-
-.lead.light {
-  background-color: #ffb5ad; }
 
 .primary {
   background-color: #242943;

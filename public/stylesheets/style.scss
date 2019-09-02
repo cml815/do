@@ -750,64 +750,6 @@ transform: translate3d(0,-10%,0);
   margin-bottom: .5em;
 }
 
-.grow.darker {
-  background-color: darken($grow, 10);
-}
-
-.grow.dark {
-  background-color: darken($grow, 20)
-}
-
-.grow.lighter {
-  background-color: lighten($grow, 10);
-}
-
-.grow.light {
-  background-color: lighten($grow, 20);
-}
-
-.lead {
-  background-color: $lead;
-  color: white;
-}
-
-.lead.darker {
-  background-color: darken($lead, 10);
-}
-
-.lead.dark {
-  background-color: darken($lead, 20)
-}
-
-.lead.lighter {
-  background-color: lighten($lead, 10);
-}
-
-.lead.light {
-  background-color: lighten($lead, 20);
-}
-
-.fund {
-  background-color: $fund;
-  color: white;
-}
-
-.fund.darker {
-  background-color: darken($fund, 10);
-}
-
-.fund.dark {
-  background-color: darken($fund, 20)
-}
-
-.lead.lighter {
-  background-color: lighten($lead, 10);
-}
-
-.lead.light {
-  background-color: lighten($lead, 20);
-}
-
 .primary {
   background-color: $primary;
   color: $white;
