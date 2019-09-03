@@ -201,3 +201,18 @@ background
   background-color: rgba(255, 255, 255, 0.8);
   background-blend-mode: lighten;
 }
+
+
+.simple-blended {
+  background-image: url('../images/couple-selfie.jpg');
+  background-color: red;
+  background-blend-mode: multiply;
+  height: 70vh;
+  }
+
+.simple-blended {
+  background-image: url('../images/couple-selfie.jpg');
+  background-color: red;
+  background-blend-mode: multiply;
+  height: 70vh;
+  }
