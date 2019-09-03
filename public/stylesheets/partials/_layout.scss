@@ -67,11 +67,15 @@
 }
 
 .case__content-container {
-  flex-basis: 360px;
-  padding: 0 2em 0;
+  max-width: 60ch;
+  padding: 1em 2em;
 }
 
+.case__content-container h4 {
+  padding-bottom: 2em 1em 4em;
+}
 
+ß
 
 .container__inner--text {
     padding: .5em;

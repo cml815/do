@@ -153,8 +153,11 @@ xl, extra-large: 1920px or larger
   background-color: #242943; }
 
 .case__content-container {
-  flex-basis: 360px;
-  padding: 0 2em 0; }
+  max-width: 60ch;
+  padding: 1em 2em; }
+
+.case__content-container h4 {
+  padding-bottom: 2em 1em 4em; }
 
 .container__inner--text {
   padding: .5em; }
@@ -1387,10 +1390,10 @@ figure {
   margin: 0;
   padding: 0; }
 
-figcaption p {
-  /* font-family: $sans; */
-  font-size: .875em;
-  line-height: 1em; }
+figcaption, figcaption p {
+  line-height: 1em;
+  max-width: 45ch;
+  padding: .75em 0 2em; }
 
 /* Contact Form */
 button,

@@ -257,15 +257,13 @@ figure {
   padding: 0;
 }
 
-figcaption {
+figcaption, figcaption p {
+  line-height: 1em;
+  max-width: 45ch;
+  padding: .75em 0 2em;
   
 }
 
-figcaption p {
-  /* font-family: $sans; */
-  font-size: .875em;
-  line-height: 1em;
-}
 
 /* Contact Form */
 
