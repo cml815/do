@@ -3,6 +3,10 @@
   padding: 0;
 }
 
+@mixin red {
+  color: red;
+}
+
 @mixin display-grid {
   display: -ms-grid;
   display: grid;

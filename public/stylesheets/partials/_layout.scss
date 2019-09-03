@@ -92,41 +92,6 @@
     padding: 1em 0;
 }
 
-.inner {
-  padding: 1em; /* default padding */
-
-  @include mobile {
-    padding: $space-s;
-  }
-
-  @include laptop {
-    padding: $space-l;
-  }
-}
-
-.inner > * {
-  margin-bottom: .5em;
-}
-
-/* 
-@include mobile-plus {
-  .inner {
-    padding: 1em 2em;
-  }
-  .inner > * {
-    margin-bottom: .75em;
-  }
-}
-
-@include mobile {
-  .inner {
-    max-width: 900px;
-    margin: 0 auto;
-    padding: 0 1em;
-  }
-}
-
-*/
 
 /* Cards */
 

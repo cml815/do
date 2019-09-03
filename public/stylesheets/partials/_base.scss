@@ -45,7 +45,6 @@ body {
     color: $black;
     /* overflow-x: hidden; */
 }
-
 @include mobile-plus {
   body {
     font-size: 18px;
@@ -54,7 +53,6 @@ body {
 
 main {
   display: block;
-  /* min-height: calc(100vh - 50px); */
 }
 
 h1, h2, h3, h4, h5, h6 {
