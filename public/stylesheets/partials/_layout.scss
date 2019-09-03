@@ -35,8 +35,6 @@
 */
 
 
-
-
 /// Containers /// 
 
 /* Full-width banners */
@@ -75,12 +73,9 @@
   padding-bottom: 2em 1em 4em;
 }
 
-ß
-
 .container__inner--text {
     padding: .5em;
 }
-
 
 .container--bg {
     margin: 0 auto;
@@ -525,27 +520,19 @@ figure.card:nth-child(2) {
 
 /* Alignment */ 
 
-.center {
-    justify-self: center;
-    justify-content: center;
-    align-items: center;
-}
-
-.center > * {
-    text-align: center;
-    align-self: center;
-}
-
 .centered {
-    max-width: 50%
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.space-between {
+  display: flex;
+  justify-content: space-between;
 }
 
 .halfscreen {
     height: 50vh;
-}
-
-.spaced {
-    justify-content: space-between;
 }
 
 /// Headers ///

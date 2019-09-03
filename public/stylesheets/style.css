@@ -506,23 +506,17 @@ figure.card:nth-child(2) {
     grid-row: span 2; } }
 
 /* Alignment */
-.center {
-  justify-self: center;
+.centered {
+  display: flex;
   justify-content: center;
   align-items: center; }
 
-.center > * {
-  text-align: center;
-  align-self: center; }
-
-.centered {
-  max-width: 50%; }
+.space-between {
+  display: flex;
+  justify-content: space-between; }
 
 .halfscreen {
   height: 50vh; }
-
-.spaced {
-  justify-content: space-between; }
 
 .title-box {
   padding: 0 1em;
