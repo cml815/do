@@ -216,3 +216,17 @@ background
   background-blend-mode: multiply;
   height: 70vh;
   }
+
+  <figure class="images-container flex-c">
+    <div>
+        <img src="../images/grant-look-drone.jpg" height="" width="" alt="Videographer Jeff Grant on location">
+    </div>
+    <div>
+        <img src="../images/grant-fly-drone.jpg" height="" width="" alt="Videographer Jeff Grant on location">
+    </div>
+</figure>
+<figure class="video-wrap ">
+<div class="flex-c--center">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/avLbaq42iyI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+</figure>

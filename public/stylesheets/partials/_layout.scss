@@ -9,35 +9,16 @@
     color: $black; 
   }
 
-/* 
-@include mobile {
-  article {
-    min-width: $large;
-    margin-left: auto;
-    margin-right: auto;
-  }
-  figure {
-    min-width: $large;
-    margin-left: auto;
-    margin-right: auto;
-  }
-}
-
-*/
-
-/* new styles to do move */
-
-/*
-.row {
-  @include flex;
-}
-
-*/
+/* Padding, margins and spacers */ 
 
 
 /// Containers /// 
 
-/* Full-width banners */
+/* Full-width containers */
+
+.container {
+  @include padding
+}
 
 .banner {
     width: 100%;
@@ -63,6 +44,7 @@
       background-color: $primary;
     }
 }
+
 
 .case__content-container {
   max-width: 60ch;

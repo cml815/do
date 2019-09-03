@@ -1,12 +1,6 @@
 /// Case Study & Service Page Styles ///
 /* Service styles */
 
-
-.mw {
-  width: 100%;
-  max-width: 768px;
-}
-
 .fancy-text, .fancy-text-block p {
   font-family: $serif;
   font-size: 1.15em;
@@ -174,8 +168,8 @@ height: 80vh;
 }
 
 .summary-text {
+  @include max-width; 
   padding: 1em 4em;
-  max-width: 768px;
 }
 
 /* Case study page layout  */

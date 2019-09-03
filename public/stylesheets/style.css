@@ -110,29 +110,14 @@ xl, extra-large: 1920px or larger
   padding: .25em;
   color: #141414; }
 
-/* 
-@include mobile {
-  article {
-    min-width: $large;
-    margin-left: auto;
-    margin-right: auto;
-  }
-  figure {
-    min-width: $large;
-    margin-left: auto;
-    margin-right: auto;
-  }
-}
+/* Padding, margins and spacers */
+/* Full-width containers */
+.container {
+  padding: 1em; }
+  @media (min-width: 600px) {
+    .container {
+      padding: 2em; } }
 
-*/
-/* new styles to do move */
-/*
-.row {
-  @include flex;
-}
-
-*/
-/* Full-width banners */
 .banner {
   width: 100%;
   background-color: transparent;
@@ -769,10 +754,6 @@ nav li:hover {
   font-size: 1.4em; }
 
 /* Service styles */
-.mw {
-  width: 100%;
-  max-width: 768px; }
-
 .fancy-text, .fancy-text-block p {
   font-family: "Noto Serif JP", Georgia, "Times New Roman", Times, serif;
   font-size: 1.15em;
@@ -903,8 +884,9 @@ nav li:hover {
   max-width: 375px; }
 
 .summary-text {
-  padding: 1em 4em;
-  max-width: 768px; }
+  width: 100%;
+  max-width: 768px;
+  padding: 1em 4em; }
 
 /* Case study page layout  */
 .grant-case-study .text-block {
@@ -1425,12 +1407,6 @@ fieldset {
   color: #141414; }
 
 /* helper classes */
-/*
-div p {
-  max-width: 768px;
-}
-
-*/
 .anchor a {
   position: absolute;
   left: 0px; }
@@ -1824,9 +1800,6 @@ footer .banner span {
 .panel > * {
   margin-bottom: 1rem; }
 
-.panel__container {
-  padding: 1em 2em 2em; }
-
 .panel__content {
   max-width: 500px; }
 
@@ -1886,7 +1859,6 @@ footer .banner span {
     padding: 2em; } }
 
 .callout p {
-  max-width: 768px;
   font-size: 1.25em;
   font-family: "Noto Serif JP", Georgia, "Times New Roman", Times, serif;
   line-height: 1.8; }

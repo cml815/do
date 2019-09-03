@@ -39,13 +39,6 @@ background-color: $night;
 
 /* helper classes */
 
-/*
-div p {
-  max-width: 768px;
-}
-
-*/
-
 .anchor a {
   position: absolute;
   left: 0px;
@@ -482,10 +475,6 @@ footer .banner span {
   margin-bottom: 1rem;
 }
 
-.panel__container {
-  padding: 1em 2em 2em; 
-}
-
 .panel__content {
   max-width: 500px;
 }
@@ -560,7 +549,6 @@ padding: $space;
 }
 
 .callout p {
-  max-width: 768px;
   font-size: 1.25em;
   font-family: $serif;
   line-height: 1.8;

@@ -3,8 +3,20 @@
   padding: 0;
 }
 
+@mixin padding {
+  padding: 1em;
+  @include mobile-plus {
+    padding: 2em;
+  }
+}
+
 @mixin red {
   color: red;
+}
+
+@mixin max-width {
+    width: 100%;
+    max-width: 768px;
 }
 
 @mixin display-grid {
