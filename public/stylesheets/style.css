@@ -1176,6 +1176,9 @@ nav li:hover {
   .growth-marketing .hero {
     padding-top: 120px; } }
 
+.contact .hero {
+  width: 100%; }
+
 @media (max-width: 599px) {
   .mobile-hide {
     display: none; } }
