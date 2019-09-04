@@ -19,7 +19,7 @@
   }
   
   .hero h1, .hero-short h1 {
-    max-width: $mw-m;
+    max-width: $max-width-base;
     @include mobile-plus {
       font-size: 2.6em;
     }

@@ -168,7 +168,7 @@ height: 80vh;
 }
 
 .summary-text {
-  @include max-width; 
+  max-width: $max-width-base;
   padding: 1em 4em;
 }
 

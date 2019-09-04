@@ -1,15 +1,15 @@
 /* Size and spacing */
 /* padding and margins */
 /* max-width */
-/* $space-unit: 1em; /* for padding and margins 
+/* $space-base-unit: 1em; /* for padding and margins 
 
-$space-xxs:  calc(0.25 * var(--space-unit));
-$space-xs:   calc(0.5 * var(--space-unit));
-$space-sm:   calc(0.75 * var(--space-unit));
-$space-md:   calc(1.25 * var(--space-unit));
-$space-lg:   calc(2 * var(--space-unit));
-$space-xl:   calc(3.25 * var(--space-unit));
-$space-xxl:  calc(5.25 * var(--space-unit));
+$space-base-xxs:  calc(0.25 * var(--space-unit));
+$space-base-xs:   calc(0.5 * var(--space-unit));
+$space-base-sm:   calc(0.75 * var(--space-unit));
+$space-base-md:   calc(1.25 * var(--space-unit));
+$space-base-lg:   calc(2 * var(--space-unit));
+$space-base-xl:   calc(3.25 * var(--space-unit));
+$space-base-xxl:  calc(5.25 * var(--space-unit));
 
 /* Grid Layouts */
 /* Color Scheme */
@@ -884,7 +884,6 @@ nav li:hover {
   max-width: 375px; }
 
 .summary-text {
-  width: 100%;
   max-width: 768px;
   padding: 1em 4em; }
 
@@ -1471,7 +1470,8 @@ fieldset {
 
 .text-column {
   max-width: 768px;
-  margin: 0 auto; }
+  margin: 0 auto;
+  padding: 2em; }
 
 .underline {
   border-bottom: 2px #23e3c9 solid; }

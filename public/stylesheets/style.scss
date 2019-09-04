@@ -528,12 +528,12 @@ footer .banner span {
 }
 
 .callout .inner { 
-padding: $space;
+padding: $space-base;
 }
 
 @include mobile-plus {
   .callout .inner {
-    padding: $space-l;
+    padding: $space-base-l;
   }
 }
 

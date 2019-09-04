@@ -14,10 +14,6 @@
   color: red;
 }
 
-@mixin max-width {
-    width: 100%;
-    max-width: 768px;
-}
 
 @mixin display-grid {
   display: -ms-grid;
@@ -25,8 +21,9 @@
 }
 
 @mixin text-column {
-  max-width: $mw-m;
+  max-width: $max-width-base;
   margin: 0 auto;
+  padding: $space-base-l;
 }
 
 @mixin mobile-plus {
