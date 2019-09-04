@@ -1,6 +1,29 @@
 /// Case Study & Service Page Styles ///
 /* Service styles */
 
+
+/* Other projects section */
+
+.more-projects {
+  background-color: $black;
+}
+
+.more-projects h2 {
+  color: $white;
+}
+
+.more-projects--container {
+  padding: 2em;
+}
+
+.img-sizer {
+  max-width: 500px;
+  margin-right: 1em;
+}
+
+
+
+
 .fancy-text, .fancy-text-block p {
   font-family: $serif;
   font-size: 1.15em;
