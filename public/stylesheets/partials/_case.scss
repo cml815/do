@@ -8,100 +8,18 @@
   font-weight: bold;
 }
 
-.next-project-first {
-  width: 50%;
-}
-
-.next-project-second {
-  width: 50%;
-}
-
-.next-project-first > img {
-  object-fit: contain;
- 
-}
-
-.next-project-second > img {
-  object-fit: contain;
-}
 
 .focus-text-block {
   margin-bottom: 2em;
 }
 
 
-
-// projects nav // 
-.sub-nav {
-  width: 100%
-}
-
-.sub-nav li {
-  height: 20vh;
-}
-
-@include mobile {
-  .sub-nav li {
-    width: 50%;
-  }
-}
-
-.sub-nav li a {
-  color: white;
-}
-
-.sub-nav li:first-child {
-  background-color: $indigo;
-}
-
-.sub-nav li:nth-child(2) {
-  background-color: lighten($indigo, 10%);
-}
-.sub-nav li:nth-child(3) {
-  background-color: darken($indigo, 10%);
-}
-
-.sub-nav li:nth-child(4) {
-  background-color: lighten($indigo, 10%);
-}
-.sub-nav li:nth-child(5) {
-  background-color: darken($indigo, 10%);
-}
-
-.sub-nav li:nth-child(6) {
-  background-color: $indigo;
-}
-
 .inactive {
   background-color: $charcoal;
   color: white;
 }
 
-/* global case styles */
 
-/* 
-. {
-height: 80vh;
-}
-
-*/
-
-/* 
-. {
-  background: url('../images/travel1.svg');
-}
-
-*/
-
-
-/* 
-  @include mobile-plus {
-    .row-md {
-    flex-direction: row;
-  }
-}
-
-*/
 
 .justify-between {
   justify-content: space-between;

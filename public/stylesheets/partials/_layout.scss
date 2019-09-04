@@ -497,21 +497,6 @@ figure.card:nth-child(2) {
 
 }
 
-/* subnav grid */ 
-
-/*
-
-.sub-nav .grid-c {
-    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
-    grid-gap: 0;
-}
-
-.sub-nav > li {
-    
-}
-
-*/
-
 .grid__page--12x12 {
     display: grid;
     grid-template-columns: repeat(12, 1fr);
