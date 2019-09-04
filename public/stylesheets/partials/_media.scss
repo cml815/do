@@ -5,15 +5,17 @@
 }
 
 @include mobile {
+  .visible-on-larger {
+    display: none;
+  }
+}
+
+
+@include mobile {
   section, figure, .flex-c {
     flex-direction: column; 
   }
 }
 
-@include mobile {
-  .visible-on-larger {
-    display: none;
-  }
-}
 
   

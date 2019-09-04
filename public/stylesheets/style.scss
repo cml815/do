@@ -78,18 +78,18 @@ background-color: $night;
 }
 
 
-.width-tune {
+.container--vertical-text {
   max-width: 100px;
 }
 
 @include mobile {
-  .text-as-background {
+  .text-rotated {
     display: none;
   }
 }
 
 @include mobile-plus {
-.text-as-background {
+.text-rotated {
   writing-mode: vertical-rl;
   text-orientation: sideways;
   position: relative;
@@ -447,14 +447,9 @@ footer .banner span {
   background-position: contain; */
 } 
 
-.home .banner {
-  height: 50vh;
-}
-
-
-.panel {
+/* .panel {
   height: 80vh;
-}
+} */
 
 .panel__list li {
   padding-bottom: .5em;
@@ -494,12 +489,6 @@ footer .banner span {
   grid-gap: 0;
   align-items: stretch;
   background-color: #efefef;
-}
-
-@include mobile {
-  section {
-    flex-direction: column; 
-  }
 }
 
 .feature-text {
