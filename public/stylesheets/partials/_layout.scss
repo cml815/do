@@ -9,8 +9,11 @@
     color: $black; 
   }
 
-/* Padding, margins and spacers */ 
+/* utility classes */ 
 
+.inner {
+  padding: $space-base;
+}
 
 /// Containers /// 
 

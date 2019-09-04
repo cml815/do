@@ -33,7 +33,7 @@ router.get('/press-campaign', function(req, res, next) {
       team: ['David Scholnick'],
       tag: ['strategy', 'public relations', 'earned media'],
       url1: "../projects/social-media-influencer",
-      img1: "../images/grant-red-crop.jpg",
+      img1: "../images/kaynen-brown.jpg",
       url2: "../projects/websites",
       img2: "../images/desktop.svg",
       layout: 'case' 
@@ -52,7 +52,7 @@ router.get('/founder-stories', function(req, res, next) {
       'Tomas Ponce de Leon'],
       tag: ['content marketing', 'thought leadership', 'seo'],
       url1: "../projects/social-media-influencer",
-      img1: "../images/grant-red-crop.jpg",
+      img1: "../images/jeff-grant-headshot-crop.jpg",
       url2: "../projects/press-campaign",
       img2: "../images/overhead.jpg",
       layout: 'case' 

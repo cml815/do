@@ -110,7 +110,10 @@ xl, extra-large: 1920px or larger
   padding: .25em;
   color: #141414; }
 
-/* Padding, margins and spacers */
+/* utility classes */
+.inner {
+  padding: 1em; }
+
 /* Full-width containers */
 .container {
   padding: 1em; }
@@ -811,11 +814,14 @@ nav li:hover {
   color: white; }
 
 /* global case styles */
-.summary-container {
-  height: 80vh; }
-
 /* 
-.summary-container {
+. {
+height: 80vh;
+}
+
+*/
+/* 
+. {
   background: url('../images/travel1.svg');
 }
 
@@ -834,7 +840,7 @@ nav li:hover {
 .case-client {
   padding: 1.5em 0 1em; }
 
-.summary-container aside {
+aside {
   flex: 0 0 33%; }
 
 .case-meta-container > * {
@@ -861,12 +867,6 @@ nav li:hover {
 
 .content-container {
   max-width: 540px; }
-
-.block-spacer {
-  margin-top: 2em; }
-
-.block-spacer-lg {
-  margin-top: 3em; }
 
 .flex-c--space-between {
   display: flex;

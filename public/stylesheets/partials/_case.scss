@@ -79,12 +79,15 @@
 
 /* global case styles */
 
-.summary-container {
+/* 
+. {
 height: 80vh;
 }
 
+*/
+
 /* 
-.summary-container {
+. {
   background: url('../images/travel1.svg');
 }
 
@@ -108,7 +111,7 @@ height: 80vh;
   padding: 1.5em 0 1em;
 }
 
-.summary-container aside {
+aside {
   flex: 0 0 33%;
 }
 
@@ -138,14 +141,6 @@ height: 80vh;
 
 .content-container {
   max-width: 540px;
-}
-
-.block-spacer {
-  margin-top: 2em;
-}
-
-.block-spacer-lg {
-  margin-top: 3em;
 }
 
 .flex-c--space-between {
