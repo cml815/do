@@ -1305,8 +1305,7 @@ figure {
 
 figcaption, figcaption p {
   line-height: 1em;
-  max-width: 45ch;
-  padding: .75em 0 2em; }
+  max-width: 45ch; }
 
 /* Contact Form */
 button,
