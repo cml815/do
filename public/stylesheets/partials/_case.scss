@@ -1,10 +1,37 @@
 /// Case Study & Service Page Styles ///
 /* Service styles */
 
+.case__content-container {
+  max-width: 60ch;
+  padding: 1em 2em;
+}
 
-/* Other projects section */
+.case__content-container h4 {
+  padding-bottom: 2em;
+}
 
+.spotlight {
+  display: flex;
+  padding: 2em;
+}
 
+.spotlight img {
+  max-width: 450px; 
+}
+
+/* Results and other projects section */
+
+.content__results {
+  padding: 2em;
+  background-color: $cerise;
+}
+
+.content__results--story, .content__results--list {
+  padding: 2em;
+  margin: 0 auto;
+  background-color: $orange;
+  max-width: 500px;
+}
 
 
 .fancy-text, .fancy-text-block p {

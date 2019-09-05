@@ -148,13 +148,6 @@ xl, extra-large: 1920px or larger
 .banner--deep, section--deep {
   background-color: #242943; }
 
-.case__content-container {
-  max-width: 60ch;
-  padding: 1em 2em; }
-
-.case__content-container h4 {
-  padding-bottom: 2em 1em 4em; }
-
 .content-container {
   max-width: 768px; }
 
@@ -790,7 +783,31 @@ nav li:hover {
   font-size: 1.4em; }
 
 /* Service styles */
-/* Other projects section */
+.case__content-container {
+  max-width: 60ch;
+  padding: 1em 2em; }
+
+.case__content-container h4 {
+  padding-bottom: 2em; }
+
+.spotlight {
+  display: flex;
+  padding: 2em; }
+
+.spotlight img {
+  max-width: 450px; }
+
+/* Results and other projects section */
+.content__results {
+  padding: 2em;
+  background-color: #c02e53; }
+
+.content__results--story, .content__results--list {
+  padding: 2em;
+  margin: 0 auto;
+  background-color: #f9973b;
+  max-width: 500px; }
+
 .fancy-text, .fancy-text-block p {
   font-family: "Noto Serif JP", Georgia, "Times New Roman", Times, serif;
   font-size: 1.15em;
