@@ -230,3 +230,16 @@ background
     <iframe width="560" height="315" src="https://www.youtube.com/embed/avLbaq42iyI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 </figure>
+
+  .parallax {
+    background-image: url("../images/grant-sit-tight.jpg");
+      /* Full height */
+  height: 100%; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  }

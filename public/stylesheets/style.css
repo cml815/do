@@ -124,6 +124,11 @@ xl, extra-large: 1920px or larger
     .container {
       padding: 2em; } }
 
+.container--contained {
+  margin: 0 auto;
+  max-width: 1000px;
+  padding: 1em; }
+
 .banner {
   width: 100%;
   background-color: transparent;
@@ -304,6 +309,10 @@ figure.card:nth-child(2) {
   grid-template-columns: repeat(4, 1fr);
   grid-gap: .5em; }
 
+.grid-c--2x2 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); }
+
 /* About image gallery */
 .team-grid {
   display: grid;
@@ -367,11 +376,18 @@ figure.card:nth-child(2) {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(100px, 1fr)); }
 
+.grid-c__gutter {
+  display: grid;
+  grid-template-columns: 100px 1fr 1fr; }
+
 .gap {
   grid-gap: 1em; }
 
 .gap-2 {
   grid-gap: 2em; }
+
+.gap-3 {
+  grid-gap: 3em; }
 
 .gap-4 {
   grid-gap: 4em; }
@@ -948,9 +964,6 @@ aside {
 .narrative {
   width: 50%; }
 
-.grant-case-study .hero {
-  background: #efefef url("../images/grant-sit-tight.jpg") no-repeat center right; }
-
 .grant-case-study footer {
   background-color: white; }
 
@@ -1059,6 +1072,9 @@ aside {
 .contact .hero {
   width: 100%; }
 
+.grant-case-study .hero {
+  background: #efefef url("../images/grant-sit-tight.jpg") no-repeat center right; }
+
 @media (max-width: 599px) {
   .mobile-hide {
     display: none; } }
@@ -1129,11 +1145,17 @@ h2.serif {
   font-size: 1.4em;
   margin: 0.67em 0; }
 
-h3, h4 {
+h3 {
   font-size: 1.5em; }
 
-h5, h6 {
+h4 {
   font-size: 1.25em; }
+
+h5 {
+  font-size: 1.25em; }
+
+h6 {
+  font-size: 1em; }
 
 .serif {
   font-family: "Noto Serif JP", Georgia, "Times New Roman", Times, serif; }
@@ -1739,6 +1761,7 @@ footer .banner span {
 
 .header__container {
   max-width: 60ch;
+  padding-bottom: 1em;
   /*  background: url("../images/test-bg.png") no-repeat center;
   background-position: contain; */ }
 

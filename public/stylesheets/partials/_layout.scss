@@ -27,6 +27,12 @@
   @include padding
 }
 
+.container--contained {
+  margin: 0 auto;
+  max-width: 1000px;
+  padding: 1em;
+}
+
 .banner {
     width: 100%;
     background-color: transparent;
@@ -261,6 +267,12 @@ figure.card:nth-child(2) {
   grid-gap: .5em;
 }
 
+.grid-c--2x2 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);;
+}
+
+
 /* About image gallery */
 
 .team-grid {
@@ -343,6 +355,11 @@ figure.card:nth-child(2) {
     grid-template-columns: repeat(auto-fill, minmax($minmax-xs, 1fr));
 }
 
+.grid-c__gutter {
+  display: grid;
+  grid-template-columns: 100px 1fr 1fr;
+}
+
 .gap {
     grid-gap: 1em;
 }
@@ -350,6 +367,11 @@ figure.card:nth-child(2) {
 .gap-2 {
     grid-gap: 2em;
 }
+
+.gap-3 {
+  grid-gap: 3em;
+}
+
 
 .gap-4 {
     grid-gap: 4em;
