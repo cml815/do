@@ -114,6 +114,9 @@ xl, extra-large: 1920px or larger
 .inner {
   padding: 1em; }
 
+.inner--l {
+  padding: 2em; }
+
 /* Full-width containers */
 .container {
   padding: 1em; }
@@ -146,6 +149,15 @@ xl, extra-large: 1920px or larger
 
 .case__content-container h4 {
   padding-bottom: 2em 1em 4em; }
+
+.content-container {
+  max-width: 768px; }
+
+.content-container--l {
+  max-width: 1000px; }
+
+.content-container--s {
+  max-width: 540px; }
 
 .container__inner--text {
   padding: .5em; }
@@ -293,14 +305,6 @@ figure.card:nth-child(2) {
   grid-gap: .5em; }
 
 /* About image gallery */
-.team-wrap {
-  margin: 0 auto; }
-
-@media (min-width: 600px) {
-  .team-container {
-    padding: 0;
-    max-width: 768px; } }
-
 .team-grid {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -827,9 +831,6 @@ aside {
 
 .theme-cherry span .theme-cherry .other-element {
   background: #d4584d; }
-
-.content-container {
-  max-width: 540px; }
 
 .flex-c--space-between {
   display: flex;

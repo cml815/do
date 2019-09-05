@@ -15,6 +15,10 @@
   padding: $space-base;
 }
 
+.inner--l {
+  padding: $space-base-l;
+}
+
 /// Containers /// 
 
 /* Full-width containers */
@@ -57,6 +61,19 @@
 .case__content-container h4 {
   padding-bottom: 2em 1em 4em;
 }
+
+.content-container {
+  max-width: 768px;
+}
+
+.content-container--l {
+  max-width: 1000px;
+}
+
+.content-container--s {
+  max-width: 540px;
+}
+
 
 .container__inner--text {
     padding: .5em;
@@ -245,17 +262,6 @@ figure.card:nth-child(2) {
 }
 
 /* About image gallery */
-
-.team-wrap {
-  margin: 0 auto;
-}
-@include mobile-plus {
-  .team-container {
-    padding: 0;
-    max-width: 768px;
-  }
-}
-
 
 .team-grid {
   display: grid;

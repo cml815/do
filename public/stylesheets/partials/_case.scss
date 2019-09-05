@@ -79,11 +79,6 @@ aside {
 .theme-cherry span {
   @include theme(theme-cherry, $red);
 }
-
-.content-container {
-  max-width: 540px;
-}
-
 .flex-c--space-between {
   display: flex;
   justify-content: space-between;
