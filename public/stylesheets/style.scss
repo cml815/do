@@ -1,5 +1,38 @@
 @import "./partials/base";
 
+.next-project-container {
+  background-color: $black;
+  padding: 2em 0;
+}
+
+.link-text-large {
+  font-size: 2em;
+  border-bottom: 1px $orange solid;
+  color: $orange;
+}
+
+.link-text-large span {
+  color: $white;
+}
+
+.img-display { 
+  padding-left: 4em;
+
+}
+
+.grayscale {
+  filter: gray; /* IE6-9 */
+  -webkit-filter: grayscale(100%); /* Chrome 19+ & Safari 6+ */
+}
+
+.grayscale:hover {
+  filter: none;
+  -webkit-filter: grayscale(0%);
+  transition: all .4s ease-in-out;
+  -webkit-transition: all .4s ease-in-out;
+
+}
+
 .pool-bg {
   color: $black;
   background-color: lighten($pool, 20%);
@@ -507,12 +540,11 @@ footer .banner span {
 
 .testimonials {
   height: 75vh;
-  background-color: $primary-dark;
-  color: $white;
+  background-color: $gray-light;
 }
 
 .testimonials .fine-print {
-  color: $accent;
+  color: $cerise;
   margin-bottom: 1em;
 }
 

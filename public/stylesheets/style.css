@@ -791,19 +791,6 @@ nav li:hover {
 
 /* Service styles */
 /* Other projects section */
-.more-projects {
-  background-color: #141414; }
-
-.more-projects h2 {
-  color: white; }
-
-.more-projects--container {
-  padding: 2em; }
-
-.img-sizer {
-  max-width: 500px;
-  margin-right: 1em; }
-
 .fancy-text, .fancy-text-block p {
   font-family: "Noto Serif JP", Georgia, "Times New Roman", Times, serif;
   font-size: 1.15em;
@@ -1364,6 +1351,33 @@ fieldset {
   .visible-on-large {
     display: none; } }
 
+.next-project-container {
+  background-color: #141414;
+  padding: 2em 0; }
+
+.link-text-large {
+  font-size: 2em;
+  border-bottom: 1px #f9973b solid;
+  color: #f9973b; }
+
+.link-text-large span {
+  color: white; }
+
+.img-display {
+  padding-left: 4em; }
+
+.grayscale {
+  filter: gray;
+  /* IE6-9 */
+  -webkit-filter: grayscale(100%);
+  /* Chrome 19+ & Safari 6+ */ }
+
+.grayscale:hover {
+  filter: none;
+  -webkit-filter: grayscale(0%);
+  transition: all .4s ease-in-out;
+  -webkit-transition: all .4s ease-in-out; }
+
 .pool-bg {
   color: #141414;
   background-color: #bde3ff; }
@@ -1813,11 +1827,10 @@ footer .banner span {
 
 .testimonials {
   height: 75vh;
-  background-color: #242943;
-  color: white; }
+  background-color: #efefef; }
 
 .testimonials .fine-print {
-  color: #23e3c9;
+  color: #c02e53;
   margin-bottom: 1em; }
 
 .callout {
