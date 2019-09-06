@@ -1088,7 +1088,7 @@ aside {
 .contact .hero {
   width: 100%; }
 
-.grant-case-study .hero {
+.grant-case-study .hero, .grant-case-study .hero-short {
   color: white;
   background: #282828; }
 
