@@ -792,7 +792,8 @@ nav li:hover {
 
 .spotlight {
   display: flex;
-  padding: 4em; }
+  padding: 4em;
+  background-color: #efefef; }
 
 .spotlight img {
   max-width: 450px; }
@@ -807,15 +808,13 @@ nav li:hover {
 
 /* Results and other projects section */
 .case-container {
-  padding: 2em;
-  background-color: #c02e53; }
+  padding: 2em; }
 
 .case-container--list {
   width: 50%;
   margin: 0 auto; }
 
 .content__results--story, .content__results--list {
-  padding: 2em;
   margin: 0 auto;
   background-color: #f9973b;
   max-width: 500px; }

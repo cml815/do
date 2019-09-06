@@ -13,6 +13,7 @@
 .spotlight {
   display: flex;
   padding: 4em;
+  background-color: $gray-light;
 }
 
 .spotlight img {
@@ -34,7 +35,6 @@
 
 .case-container {
   padding: 2em;
-  background-color: $cerise;
 }
 
 .case-container--list {
@@ -43,7 +43,6 @@
 }
 
 .content__results--story, .content__results--list {
-  padding: 2em;
   margin: 0 auto;
   background-color: $orange;
   max-width: 500px;
