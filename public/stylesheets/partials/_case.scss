@@ -1,6 +1,19 @@
 /// Case Study & Service Page Styles ///
 /* Service styles */
 
+.case-container {
+
+}
+
+.case-container__main {
+ flex: 2 1 auto;
+}
+
+.case-container__meta {
+  min-width: 375px;
+  flex: 1 0 300px;
+}
+
 .case__content-container {
   max-width: 60ch;
   padding: 1em 2em;
@@ -12,12 +25,10 @@
 
 .spotlight {
   display: flex;
-  padding: 4em;
-  background-color: $gray-light;
-}
-
-.spotlight img {
-  max-width: 450px; 
+  background-color: $pool;
+  @include mobile-plus {
+    padding: 4em;
+  }
 }
 
 .case-container--tease {
@@ -32,9 +43,11 @@
 
 /* Results and other projects section */
 
-
-.case-container {
-  padding: 2em;
+.case-container__main {
+  padding: 1em;
+  @include mobile-plus {
+    padding: 1em 4em 1em 1em;
+  }
 }
 
 .case-container--list {
@@ -69,24 +82,13 @@
 
 
 
-.justify-between {
-  justify-content: space-between;
-}
 
-.case-client {
-  padding: 1.5em 0 1em;
-}
 
 aside {
   flex: 0 0 33%;
 }
 
-.case-meta-container > * {
-  padding-bottom: 1em;
-}
-
 .case-meta {
-  padding: 1em 1.25em;
   background-color: $black;
   color: $white;
 }
@@ -112,7 +114,9 @@ aside {
 .fine-print .no-margin {
   margin: 0;
 }
-
+.tag-list {
+  margin-top: 1em;
+}
 .tag-list li {
   padding-bottom: .75em;
   text-indent: .75em;

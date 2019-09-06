@@ -1,11 +1,13 @@
-<div class="flex-c--col flex-c--center">
-  <div class="case-meta-container">
-    <p><span>client</span> &mdash;  {{client}}</p>
-    <ul class="flex-c--col tag-list">
-      {{#each tag}}
-        <li>{{this}} <span>/</span></{{this}}></li>
-        {{/each}}
-      </ul>
+<div class="flex-c--col case-container case-meta">
+  <div class="case-container__meta flex-c--center">
+    <div class="">
+      <p><span>client</span> &mdash;  {{client}}</p>
+      <ul class="flex-c--col tag-list">
+        {{#each tag}}
+          <li>{{this}} <span>/</span></{{this}}></li>
+          {{/each}}
+        </ul>
+      </div>
     </div>
   </div>
 

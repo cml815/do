@@ -181,6 +181,10 @@ figure.card:nth-child(2) {
     justify-content: space-between;
 }
 
+.justify-between {
+  justify-content: space-between;
+}
+
 .flex-c--wrap {
     flex-direction: wrap;
 }
@@ -516,20 +520,6 @@ figure.card:nth-child(2) {
 
   /* end todo */
   
-
-.two-x-two {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(2, 1fr);
-    grid-gap: 0;
-    justify-content: center;
-    min-height: 100%;
-}
-
-
-
-
-
 /* Alignment */ 
 
 .centered {
