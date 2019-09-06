@@ -797,8 +797,16 @@ nav li:hover {
 .spotlight img {
   max-width: 450px; }
 
+.case-container--tease {
+  padding: 2em;
+  background-color: #141414;
+  color: white; }
+
+.social-container {
+  margin: 0 auto; }
+
 /* Results and other projects section */
-.content__results {
+.case-container {
   padding: 2em;
   background-color: #c02e53; }
 
