@@ -1158,6 +1158,7 @@ h2 {
 
 h2.serif {
   font-size: 1.4em;
+  line-height: 1.8em;
   margin: 0.67em 0; }
 
 h3 {
@@ -1822,12 +1823,9 @@ footer .banner span {
   line-height: 1em;
   margin: 0 0 .5em; }
 
-.panel {
-  margin-bottom: 1rem;
-  margin-top: 1em; }
-
-.panel > * {
-  margin-bottom: 1rem; }
+@media (min-width: 600px) {
+  .panel {
+    margin-bottom: 8em; } }
 
 .panel__content {
   max-width: 500px; }

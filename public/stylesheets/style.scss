@@ -500,13 +500,10 @@ footer .banner span {
   margin: 0 0 .5em;
 }
 
-.panel {
-  margin-bottom: 1rem;
-  margin-top: 1em;
-}
-
-.panel > * {
-  margin-bottom: 1rem;
+@include mobile-plus {
+  .panel {
+    margin-bottom: 8em;
+  }
 }
 
 .panel__content {
