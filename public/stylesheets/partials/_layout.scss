@@ -273,6 +273,11 @@ figure.card:nth-child(2) {
   grid-template-columns: repeat(2, 1fr);
   grid-gap: 1em;
 }
+@include mobile-plus {
+  .team-grid {
+    grid-gap: 4em;
+  }
+}
 
 .team-item {
   max-width: 400px;
