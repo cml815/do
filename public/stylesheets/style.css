@@ -782,8 +782,15 @@ nav li:hover {
   font-size: 1.4em; }
 
 /* Service styles */
+.case-container h4 {
+  padding-bottom: .5em; }
+
 .case-container__main {
-  flex: 2 1 auto; }
+  flex: 2 1 auto;
+  padding: 1em; }
+  @media (min-width: 600px) {
+    .case-container__main {
+      padding: 1em 4em 1em 1em; } }
 
 .case-container__aside {
   min-width: 375px;
@@ -798,7 +805,7 @@ nav li:hover {
 
 .spotlight {
   display: flex;
-  background-color: #57b8ff; }
+  padding: 1em; }
   @media (min-width: 600px) {
     .spotlight {
       padding: 4em; } }
@@ -812,12 +819,6 @@ nav li:hover {
   margin: 0 auto; }
 
 /* Results and other projects section */
-.case-container__main {
-  padding: 1em; }
-  @media (min-width: 600px) {
-    .case-container__main {
-      padding: 1em 4em 1em 1em; } }
-
 .case-container--list {
   width: 50%;
   margin: 0 auto; }

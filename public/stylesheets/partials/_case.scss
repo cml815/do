@@ -5,8 +5,16 @@
 
 }
 
+.case-container h4 {
+  padding-bottom: .5em;
+}
+
 .case-container__main {
- flex: 2 1 auto;
+  flex: 2 1 auto;
+  padding: 1em;
+  @include mobile-plus {
+    padding: 1em 4em 1em 1em;
+  }
 }
 
 .case-container__aside {
@@ -25,7 +33,7 @@
 
 .spotlight {
   display: flex;
-  background-color: $pool;
+  padding: 1em;
   @include mobile-plus {
     padding: 4em;
   }
@@ -43,12 +51,7 @@
 
 /* Results and other projects section */
 
-.case-container__main {
-  padding: 1em;
-  @include mobile-plus {
-    padding: 1em 4em 1em 1em;
-  }
-}
+
 
 .case-container--list {
   width: 50%;
@@ -79,10 +82,6 @@
   background-color: $charcoal;
   color: white;
 }
-
-
-
-
 
 aside {
   flex: 0 0 33%;
