@@ -785,7 +785,7 @@ nav li:hover {
 .case-container__main {
   flex: 2 1 auto; }
 
-.case-container__meta {
+.case-container__aside {
   min-width: 375px;
   flex: 1 0 300px; }
 
@@ -1089,7 +1089,8 @@ aside {
   width: 100%; }
 
 .grant-case-study .hero {
-  background: #efefef url("../images/grant-sit-tight.jpg") no-repeat center right; }
+  color: white;
+  background: #282828; }
 
 @media (max-width: 599px) {
   .mobile-hide {

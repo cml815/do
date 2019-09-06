@@ -91,7 +91,8 @@
   }
    
   .grant-case-study .hero {
-    background: $gray-light url("../images/grant-sit-tight.jpg") no-repeat center right;
+    color: $white;
+    background: lighten($black, 8%);
   }
 
   
