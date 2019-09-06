@@ -12,7 +12,7 @@
 
 .spotlight {
   display: flex;
-  padding: 2em;
+  padding: 4em;
 }
 
 .spotlight img {
@@ -35,6 +35,11 @@
 .case-container {
   padding: 2em;
   background-color: $cerise;
+}
+
+.case-container--list {
+  width: 50%;
+  margin: 0 auto;
 }
 
 .content__results--story, .content__results--list {

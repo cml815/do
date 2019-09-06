@@ -792,7 +792,7 @@ nav li:hover {
 
 .spotlight {
   display: flex;
-  padding: 2em; }
+  padding: 4em; }
 
 .spotlight img {
   max-width: 450px; }
@@ -809,6 +809,10 @@ nav li:hover {
 .case-container {
   padding: 2em;
   background-color: #c02e53; }
+
+.case-container--list {
+  width: 50%;
+  margin: 0 auto; }
 
 .content__results--story, .content__results--list {
   padding: 2em;
