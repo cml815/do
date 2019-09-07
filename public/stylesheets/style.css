@@ -1270,7 +1270,7 @@ a {
   background-color: transparent;
   /* IE 10 */ }
 
-a:visited, a:hover {
+a:visited {
   color: #141414; }
 
 b,
@@ -1802,15 +1802,14 @@ footer li {
   color: white; }
 
 .social-links {
-  display: inline-block;
-  flex-direction: row;
+  width: 50%;
   padding-top: 2em; }
 
 .social-links li {
-  width: 100px; }
+  width: 25%; }
 
 .social-links li a {
-  font-size: 2em; }
+  font-size: 1.25em; }
 
 .header__container {
   max-width: 60ch;

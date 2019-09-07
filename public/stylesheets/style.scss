@@ -469,17 +469,16 @@ footer li {
 }
 
 .social-links {
-  display: inline-block;
-  flex-direction: row;
+  width: 50%;
   padding-top: 2em;
 }
 
 .social-links li {
-  width: 100px;
+  width: 25%;
 }
 
 .social-links li a {
-  font-size: 2em;
+  font-size: 1.25em;
 }
 
 

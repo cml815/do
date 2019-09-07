@@ -140,8 +140,11 @@ a {
     background-color: transparent; /* IE 10 */ 
 }
 
-a:visited, a:hover {  
+a:visited {  
   color: $black;
+}
+
+a:hover {
 }
 
 b,
