@@ -1246,25 +1246,29 @@ hr.vertical-line {
 .btn {
   all: unset;
   background-color: #23e3c9;
-  padding: .25em .75em;
+  padding: .75em 1.25em;
   margin: .5em 0;
-  text-align: center; }
+  text-align: center;
+  letter-spacing: .02em; }
+  .btn:hover {
+    background: #1bd2b9;
+    transition: 400ms;
+    transition-timing-function: ease-in-out;
+    cursor: pointer; }
 
-.btn a {
+.btn a, .btn:visited, .btn:hover {
   color: #141414; }
 
 .outline {
   border: solid 2px #242943;
   background-color: transparent; }
 
-.outline a {
-  color: #141414; }
-
 .small {
   padding: .25em; }
 
 .large {
-  padding: .75em 1.5em; }
+  padding: .75em 1.75em;
+  font-size: 1.25em; }
 
 .rounded {
   border-radius: 2.5em; }
@@ -1291,10 +1295,6 @@ hr.vertical-line {
   -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
   -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
   box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75); }
-
-.btn a, .btn a:visited {
-  text-transform: uppercase;
-  font-weight: bold; }
 
 .btn.night {
   display: inline-block;
@@ -1784,10 +1784,7 @@ footer a, footer a:visited {
   font-size: 1.4em; }
 
 footer .banner {
-  position: absolute;
-  background-color: #141414;
-  text-align: center;
-  bottom: 0; }
+  position: absolute; }
 
 footer .banner span {
   color: white; }
@@ -1796,7 +1793,8 @@ footer .banner span {
   padding: 1em 0;
   font-size: 1em;
   text-align: center;
-  background-color: #32293b;
+  background: #4c80dd;
+  background: linear-gradient(45deg, #4c80dd 0%, #2c51a7 22%, #2e408e 46%, #313275 60%, #32316d 82%, #32293b 100%);
   color: white; }
 
 .social-links {
