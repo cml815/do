@@ -1,0 +1,90 @@
+/* Buttons */
+
+.btn {
+  all: unset;
+  background-color: $accent; 
+  padding: .75em 1.25em;
+  text-align: center;
+  letter-spacing: .02em;
+  &:hover {
+    background: darken($accent, 5%);
+    transition: 400ms;
+    transition-timing-function: ease-in-out; 
+    cursor: pointer;
+  }
+}
+
+.btn--no-margin {
+margin: 0;
+}
+
+.btn a, .btn:visited, .btn:hover {
+color: $black;
+}
+
+.outline {
+border: solid 2px $night;
+background-color: transparent;
+}
+
+.small {
+padding: .50em 1em;
+}
+
+.large {
+padding: .75em 1.75em;
+font-size: 1.25em;
+}
+
+.rounded {
+border-radius: 2.5em;
+}
+
+.attention {
+background-color: map-get($theme-colors, "accent");
+}
+
+.bg-primary {
+background-color: map-get($theme-colors, "primary");
+}
+
+.bg-secondary {
+background-color: map-get($theme-colors, "secondary");
+}
+
+.white {
+color: $white;
+}
+
+.black {
+color: $black;
+}
+
+.primary {
+color: map-get($theme-colors, "primary");
+}
+
+.btn .shadow {
+-webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+
+.btn a, .btn a:visited  {
+}
+
+
+.btn.night {
+display: inline-block;
+background: $primary;
+&:hover {
+  background: darken($primary, 10%);
+  transition: 400ms;
+  transition-timing-function: ease-in-out; 
+  cursor: pointer;
+}
+}
+
+.btn.night a {
+color: $white;
+}
