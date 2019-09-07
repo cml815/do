@@ -44,8 +44,8 @@ router.get('/lead-generation', function(req, res, next) {
 
 // Grants route
 
-router.get('/proposal-writing', function(req, res, next) {
-  res.render('proposal-writing', { 
+router.get('/fundraising', function(req, res, next) {
+  res.render('fundraising', { 
     title: 'Win grant awards with federal and SBIR grant proposals',
     summary: 'How Fuel helped tech and biotech companies win funding to bring their innovations to market',
     bodyClass: 'grants',
