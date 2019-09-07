@@ -433,12 +433,14 @@ article > h6 {
 
 footer {
 position: relative;
+background-color: lighten($black, 5%);
+color: $white;
 }
 
 footer p, 
 footer a, footer a:visited {
   color: $white;
-  font-size: 1.4em;
+  font-size: 1em;
 }
 
 footer .banner {
@@ -446,16 +448,23 @@ footer .banner {
 }
 
 footer .banner span {
-  color: white;
+  color: $black;
+}
+
+footer li {
+  margin-bottom: .5em;
+}
+
+.content-block {
+  padding: 1.5em 0;
 }
 
 .copyright {
   padding: 1em 0;
   font-size: 1em;
   text-align: center;
-  background: rgb(76,128,221);
-  background: linear-gradient(45deg, rgba(76,128,221,1) 0%, rgba(44,81,167,1) 22%, rgba(46,64,142,1) 46%, rgba(49,50,117,1) 60%, rgba(50,49,109,1) 82%, rgba(50,41,59,1) 100%);
-
+  background: rgb(50,41,59);
+  background: linear-gradient(45deg, rgba(50,41,59,1) 0%, rgba(49,53,117,1) 33%, rgba(49,50,117,1) 77%, rgba(50,41,59,1) 100%);
   color: $white;
 }
 

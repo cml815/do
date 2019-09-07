@@ -1776,25 +1776,33 @@ article > h6 {
   */
 /* Footer */
 footer {
-  position: relative; }
+  position: relative;
+  background-color: #212121;
+  color: white; }
 
 footer p,
 footer a, footer a:visited {
   color: white;
-  font-size: 1.4em; }
+  font-size: 1em; }
 
 footer .banner {
   position: absolute; }
 
 footer .banner span {
-  color: white; }
+  color: #141414; }
+
+footer li {
+  margin-bottom: .5em; }
+
+.content-block {
+  padding: 1.5em 0; }
 
 .copyright {
   padding: 1em 0;
   font-size: 1em;
   text-align: center;
-  background: #4c80dd;
-  background: linear-gradient(45deg, #4c80dd 0%, #2c51a7 22%, #2e408e 46%, #313275 60%, #32316d 82%, #32293b 100%);
+  background: #32293b;
+  background: linear-gradient(45deg, #32293b 0%, #313575 33%, #313275 77%, #32293b 100%);
   color: white; }
 
 .social-links {
