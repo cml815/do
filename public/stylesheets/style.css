@@ -1074,10 +1074,6 @@ aside {
 .press-case-study .hero-short {
   background-color: #c02e53; }
 
-.grants__main .hero {
-  background-color: transparent;
-  background: url("../images/chicago-skyline.jpg"); }
-
 @media (max-width: 599px) {
   .growth-marketing .hero {
     padding-top: 120px; } }
