@@ -4,6 +4,7 @@
   all: unset;
   background-color: $accent; 
   padding: .75em 1.25em;
+  margin: .5em 0;
   text-align: center;
   letter-spacing: .02em;
   &:hover {
@@ -12,10 +13,6 @@
     transition-timing-function: ease-in-out; 
     cursor: pointer;
   }
-}
-
-.btn--no-margin {
-margin: 0;
 }
 
 .btn a, .btn:visited, .btn:hover {

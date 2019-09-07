@@ -136,12 +136,12 @@ img {
 
 a {
     text-decoration: none;
-    color: $link;
+    color: $black;
     background-color: transparent; /* IE 10 */ 
 }
 
 a:visited, a:hover {  
-  color: darken($link, 20%);
+  color: $black;
 }
 
 b,
@@ -256,6 +256,8 @@ button,
 
   /* Visibility with JS */
 
+
+
   .toggle-content {
     display: none;
   }
@@ -264,8 +266,8 @@ button,
     display: block;
   }
 
-  @include laptop-max {
-    .visible-on-large {
+  @include mobile {
+    .is-visible {
       display: none;
     } 
   }

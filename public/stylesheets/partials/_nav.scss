@@ -2,15 +2,12 @@
 
 /* https://www.w3schools.com/code/tryit.asp?filename=G6913M8THUXM */
 
-/* old nav */
 nav {
     width: 100%;
     background-color: transparent;
     text-align: center;
     margin: 0 auto;
     height: 2.6em;
-    position: fixed;
-    background-color: #efefef;
     z-index: 10;
   }
 
@@ -46,7 +43,6 @@ nav {
       padding-left: 0;
       justify-content: flex-end;
       align-items: center;
-      height: 3em;
   }
 
   nav ul li {

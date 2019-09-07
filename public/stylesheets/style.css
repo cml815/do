@@ -631,15 +631,12 @@ blockquote {
 */
 /* Navigation */
 /* https://www.w3schools.com/code/tryit.asp?filename=G6913M8THUXM */
-/* old nav */
 nav {
   width: 100%;
   background-color: transparent;
   text-align: center;
   margin: 0 auto;
   height: 2.6em;
-  position: fixed;
-  background-color: #efefef;
   z-index: 10; }
 
 /* applied after scroll height reached 
@@ -669,8 +666,7 @@ nav ul {
   margin: 0;
   padding-left: 0;
   justify-content: flex-end;
-  align-items: center;
-  height: 3em; }
+  align-items: center; }
 
 nav ul li {
   justify-self: flex-end;
@@ -1098,6 +1094,7 @@ aside {
   all: unset;
   background-color: #23e3c9;
   padding: .75em 1.25em;
+  margin: .5em 0;
   text-align: center;
   letter-spacing: .02em; }
   .btn:hover {
@@ -1105,9 +1102,6 @@ aside {
     transition: 400ms;
     transition-timing-function: ease-in-out;
     cursor: pointer; }
-
-.btn--no-margin {
-  margin: 0; }
 
 .btn a, .btn:visited, .btn:hover {
   color: #141414; }
@@ -1272,12 +1266,12 @@ img {
 
 a {
   text-decoration: none;
-  color: #23e3c9;
+  color: #141414;
   background-color: transparent;
   /* IE 10 */ }
 
 a:visited, a:hover {
-  color: #128e7d; }
+  color: #141414; }
 
 b,
 strong {
@@ -1382,8 +1376,8 @@ fieldset {
 .toggle-content.is-visible {
   display: block; }
 
-@media (max-width: 900px) {
-  .visible-on-large {
+@media (max-width: 599px) {
+  .is-visible {
     display: none; } }
 
 .bg-shape {
