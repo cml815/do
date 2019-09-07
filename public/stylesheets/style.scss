@@ -2,7 +2,7 @@
 
 .bg-shape {
   border-radius: 0% 0% 27% 22% / 10% 10% 34% 10%;
-  background-color: lighten($orange, 8%); 
+  background-image: radial-gradient( circle 920px at 2.4% 5.2%,  rgba(247,2,210,1) 0%, rgba(249,211,0,1) 99.7% ); 
 }
 
 .next-project-container {

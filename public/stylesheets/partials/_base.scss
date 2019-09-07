@@ -181,10 +181,16 @@ sup {
 
 /* Buttons */
 
-.btn { 
+.btn {
+    all: unset;
+    background-color: $accent; 
     padding: .25em .75em;
     margin: .5em 0;
     text-align: center;
+}
+
+.btn a {
+  color: $black;
 }
 
 
@@ -316,10 +322,6 @@ button,
   [type="reset"]:-moz-focusring,
   [type="submit"]:-moz-focusring {
     outline: 1px dotted ButtonText;
-  }
-
-  button .default {
-    background-color: #666; /* test button todo */
   }
 
   textarea /* IE 10+ */ {

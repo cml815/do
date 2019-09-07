@@ -1244,9 +1244,14 @@ hr.vertical-line {
 
 /* Buttons */
 .btn {
+  all: unset;
+  background-color: #23e3c9;
   padding: .25em .75em;
   margin: .5em 0;
   text-align: center; }
+
+.btn a {
+  color: #141414; }
 
 .outline {
   border: solid 2px #242943;
@@ -1353,10 +1358,6 @@ button:-moz-focusring,
 [type="submit"]:-moz-focusring {
   outline: 1px dotted ButtonText; }
 
-button .default {
-  background-color: #666;
-  /* test button todo */ }
-
 textarea {
   overflow: auto; }
 
@@ -1385,7 +1386,7 @@ fieldset {
 
 .bg-shape {
   border-radius: 0% 0% 27% 22% / 10% 10% 34% 10%;
-  background-color: #faac63; }
+  background-image: radial-gradient(circle 920px at 2.4% 5.2%, #f702d2 0%, #f9d300 99.7%); }
 
 .next-project-container {
   background-color: #141414;
