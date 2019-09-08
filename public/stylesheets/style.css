@@ -300,11 +300,19 @@ figure.card:nth-child(2) {
   display: -ms-grid;
   display: grid; }
 
+.submenu__container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-auto-rows: 1fr;
+  grid-gap: .5em; }
+
+/*
 .grid-c--1x4 {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  grid-gap: .5em; }
-
+  grid-gap: .5em;
+}
+*/
 .grid-c--2x2 {
   display: grid;
   grid-template-columns: repeat(2, 1fr); }
@@ -638,6 +646,9 @@ nav {
   margin: 0 auto;
   height: 2.6em;
   z-index: 10; }
+
+.about nav {
+  background-color: #f9395a; }
 
 /* applied after scroll height reached 
   
@@ -1021,7 +1032,7 @@ aside {
 .hero {
   width: 100%;
   display: flex;
-  height: 100vh;
+  height: 90vh;
   justify-content: center;
   align-items: center; }
   @media (max-width: 599px) {
@@ -1029,17 +1040,39 @@ aside {
       flex-direction: column;
       align-items: center; } }
 
-.hero-short {
+.hero--short {
   display: flex;
   height: 70vh;
+  width: 100%;
   justify-content: center;
   align-items: center; }
 
-.hero h1, .hero-short h1 {
-  /* max-width: $max-width-base; */ }
+.hero--fluid {
+  display: flex;
+  margin-top: 200px;
+  width: 100%;
+  justify-content: center;
+  align-items: center; }
+
+.hero h1, .hero--short h1 {
+  margin-top: -200px; }
   @media (min-width: 600px) {
-    .hero h1, .hero-short h1 {
-      font-size: 2.6em; } }
+    .hero h1, .hero--short h1 {
+      font-size: 2.25em; } }
+
+@media (max-width: 599px) {
+  .hero__image {
+    max-width: 300px; } }
+
+@media (min-width: 600px) {
+  .hero__text {
+    width: 60%; } }
+
+.about .hero {
+  background-color: #FA526F; }
+
+.offset {
+  margin-top: -200px; }
 
 .home h1 {
   font-size: 2.4em; }
@@ -1063,17 +1096,18 @@ aside {
   font-size: 1.75em;
   margin-top: 100px; }
 
-.press-case-study .hero-short {
-  background-color: #c02e53; }
+.press-case-study .hero--short {
+  background-color: #FA526F; }
 
 @media (max-width: 599px) {
   .growth-marketing .hero {
-    padding-top: 120px; } }
+    padding-top: 150px;
+    height: 120vh; } }
 
 .contact .hero {
   width: 100%; }
 
-.grant-case-study .hero, .grant-case-study .hero-short {
+.grant-case-study .hero, .grant-case-study .hero--short {
   color: white;
   background: #282828; }
 
@@ -1587,7 +1621,7 @@ fieldset {
 
 /* 404 error page */
 .error {
-  background-color: #c02e53;
+  background-color: #FA526F;
   color: white;
   height: 100vh; }
 
@@ -1854,7 +1888,7 @@ footer li {
   background-color: #efefef; }
 
 .testimonials .fine-print {
-  color: #c02e53;
+  color: #FA526F;
   margin-bottom: 1em; }
 
 .callout {
@@ -2041,10 +2075,10 @@ button {
   padding: 2em 0; }
 
 .submenu-item:hover {
-  background-color: #c02e53;
+  background-color: #FA526F;
   transition: .3s ease-in-out; }
 
-/* todo */
+.submenu__c
 .service__story {
   align-items: flex-end; }
 

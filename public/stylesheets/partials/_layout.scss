@@ -258,11 +258,20 @@ figure.card:nth-child(2) {
   @include display-grid;
 }
 
+.submenu__container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-auto-rows: 1fr;
+  grid-gap: .5em;
+}
+
+/*
 .grid-c--1x4 {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-gap: .5em;
 }
+*/
 
 .grid-c--2x2 {
   display: grid;

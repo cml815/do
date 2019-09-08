@@ -11,6 +11,10 @@ nav {
     z-index: 10;
   }
 
+  .about nav {
+    background-color: darken($cerise, 5%);
+  }
+
   
   
   /* applied after scroll height reached 
