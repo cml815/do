@@ -2,7 +2,7 @@
 
 .hero {
     display: flex;
-    height: 80vh;
+    height: 85vh;
     justify-content: center;
     align-items: center;
     width: 100%;
@@ -34,6 +34,10 @@
     }
   }
 
+  .hero__text-container {
+    padding: 0 2em;
+  }
+
   @include mobile {
     .hero__image {
       max-width: 300px;
@@ -44,22 +48,6 @@
     .hero__text {
       width: 60%;
     }  
-  }
-
-  .hero__text-container {
-    display: flex;
-    @include mobile {
-      flex-direction: column;
-    }
-    @include mobile-plus {
-      margin-left: -200px;
-    }
-  }
-
-  .hero__text {
-    display: flex;
-    justify-content: center;
-    align-items: center; 
   }
 
   .small-text-column {
@@ -86,11 +74,7 @@
       font-size: 4em;
     }
   }
-  
-  .about .hero {
-    background-color: $cerise;
-  }
-  
+    
   // special hero styles //
   
   .press-case-study .hero--short {

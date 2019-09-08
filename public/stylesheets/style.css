@@ -1031,7 +1031,7 @@ aside {
 /** HER0 ***/
 .hero {
   display: flex;
-  height: 80vh;
+  height: 85vh;
   justify-content: center;
   align-items: center;
   width: 100%; }
@@ -1058,6 +1058,9 @@ aside {
   .hero h1, .hero--short h1 {
     font-size: 2.25em; } }
 
+.hero__text-container {
+  padding: 0 2em; }
+
 @media (max-width: 599px) {
   .hero__image {
     max-width: 300px; } }
@@ -1065,20 +1068,6 @@ aside {
 @media (min-width: 600px) {
   .hero__text {
     width: 60%; } }
-
-.hero__text-container {
-  display: flex; }
-  @media (max-width: 599px) {
-    .hero__text-container {
-      flex-direction: column; } }
-  @media (min-width: 600px) {
-    .hero__text-container {
-      margin-left: -200px; } }
-
-.hero__text {
-  display: flex;
-  justify-content: center;
-  align-items: center; }
 
 .small-text-column {
   width: 250px; }
@@ -1098,9 +1087,6 @@ aside {
   @media (min-width: 600px) {
     .home h1 {
       font-size: 4em; } }
-
-.about .hero {
-  background-color: #FA526F; }
 
 .press-case-study .hero--short {
   background-color: #FA526F; }
