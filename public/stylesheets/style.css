@@ -1030,11 +1030,11 @@ aside {
 
 /** HER0 ***/
 .hero {
-  width: 100%;
   display: flex;
   height: 90vh;
   justify-content: center;
-  align-items: center; }
+  align-items: center;
+  width: 100%; }
   @media (max-width: 599px) {
     .hero {
       flex-direction: column;
@@ -1054,11 +1054,9 @@ aside {
   justify-content: center;
   align-items: center; }
 
-.hero h1, .hero--short h1 {
-  margin-top: -200px; }
-  @media (min-width: 600px) {
-    .hero h1, .hero--short h1 {
-      font-size: 2.25em; } }
+@media (min-width: 600px) {
+  .hero h1, .hero--short h1 {
+    font-size: 2.25em; } }
 
 @media (max-width: 599px) {
   .hero__image {
@@ -1067,18 +1065,6 @@ aside {
 @media (min-width: 600px) {
   .hero__text {
     width: 60%; } }
-
-.about .hero {
-  background-color: #FA526F; }
-
-.offset {
-  margin-top: -200px; }
-
-.home h1 {
-  font-size: 2.4em; }
-  @media (min-width: 600px) {
-    .home h1 {
-      font-size: 4em; } }
 
 .hero__text-container {
   display: flex; }
@@ -1095,6 +1081,18 @@ aside {
 .small-text-column p {
   font-size: 1.75em;
   margin-top: 100px; }
+
+.offset {
+  margin-top: -200px; }
+
+.home h1 {
+  font-size: 2.4em; }
+  @media (min-width: 600px) {
+    .home h1 {
+      font-size: 4em; } }
+
+.about .hero {
+  background-color: #FA526F; }
 
 .press-case-study .hero--short {
   background-color: #FA526F; }
