@@ -644,6 +644,18 @@ nav {
 .about nav {
   background-color: #f9395a; }
 
+.projects nav li a {
+  color: #3a4aa5; }
+
+.projects button p {
+  color: white; }
+
+.projects button {
+  background-color: #3a4aa5; }
+
+.projects .hamburger {
+  color: white; }
+
 /* applied after scroll height reached 
   
   .fixed-nav nav {
@@ -1116,6 +1128,10 @@ aside {
 .grant-case-study .hero, .grant-case-study .hero--short {
   color: white;
   background: #282828; }
+
+/* Styled links */
+.classy-link {
+  text-decoration: underline; }
 
 /* Buttons */
 .btn {

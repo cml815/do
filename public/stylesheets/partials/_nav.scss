@@ -18,6 +18,22 @@ nav {
     background-color: darken($cerise, 5%);
   }
 
+  .projects nav li a {
+    color: $indigo;
+  }
+
+  .projects button p {
+    color: $white;
+  }
+
+  .projects button {
+    background-color: $indigo;
+  }
+
+  .projects .hamburger {
+    color: $white;
+  }
+
   
   
   /* applied after scroll height reached 
