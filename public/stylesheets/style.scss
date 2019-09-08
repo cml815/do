@@ -207,20 +207,52 @@ background-color: $night;
   margin-bottom: 2em;
 }
 
-.project--overlay {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  z-index: 10;
-  background-color: rgba(0,0,0,0.5);
-  opacity: 0;
+@include mobile-plus {
+  .project--overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 10;
+    background-color: rgba(0,0,0,0.5);
+    opacity: 0;
+  }
+  .project--details > * {
+    padding-bottom: .5em;
+  }
+
 }
 
-.project--details > * {
-  padding-bottom: .5em;
+@include mobile-plus {
+  .project--overlay:hover{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+    background-color: rgba(0,0,0,0.8);
+    transition: .4s ease-in-out;
+    opacity: 1;
+  }
+  .content--details {
+    padding: 1.5em 0 1em .5em;
+  }
+  .content--details p {
+    padding: 1em 0 .5em;
+  }
+  .content-details h4, .content-details p {
+    padding-bottom: 1em;
+  }
+
 }
+
+.project a {
+  color: $white;
+}
+
+
 
 /*
 
@@ -238,35 +270,7 @@ background-color: $night;
 
 */
 
-.project--overlay:hover{
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  z-index: 2;
-  background-color: rgba(0,0,0,0.8);
-  transition: .4s ease-in-out;
-  opacity: 1;
-}
 
-.content--details {
-  padding: 1.5em 0 1em .5em;
-}
-
-.content--details p {
-  padding: 1em 0 .5em;
-}
-.narrow {
-  width: 10ch;
-}
-
-.content-details h4, .content-details p {
-  padding-bottom: 1em;
-}
-.project a {
-  color: $white;
-}
 
 
 
