@@ -635,8 +635,11 @@ nav {
   background-color: transparent;
   text-align: center;
   margin: 0 auto;
-  height: 2.6em;
+  height: 56px;
   z-index: 10; }
+  @media (min-width: 600px) {
+    nav {
+      height: 3em; } }
 
 .about nav {
   background-color: #f9395a; }
@@ -675,8 +678,24 @@ nav ul li {
   padding: 0 1em; }
 
 .logo {
-  padding-left: 1em;
+  height: 40px;
+  padding: .5em;
   margin-top: -10px; }
+
+.hamburger {
+  font-size: 24px;
+  padding: .5em 1em; }
+
+.contact-text {
+  font-size: 1.5em;
+  margin: 0; }
+
+.btn--menu {
+  all: unset;
+  background-color: #23e3c9;
+  padding: .5em;
+  text-align: center;
+  letter-spacing: .02em; }
 
 nav li {
   color: #000;
@@ -775,9 +794,6 @@ nav li:hover {
     font-size: 40px;
     top: 15px;
     right: 35px; } }
-
-.hamburger {
-  font-size: 1.4em; }
 
 /* Service styles */
 .case-container h4 {

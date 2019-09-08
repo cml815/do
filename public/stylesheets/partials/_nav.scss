@@ -7,8 +7,11 @@ nav {
     background-color: transparent;
     text-align: center;
     margin: 0 auto;
-    height: 2.6em;
+    height: 56px;
     z-index: 10;
+    @include mobile-plus {
+      height: 3em;
+    }
   }
 
   .about nav {
@@ -55,9 +58,27 @@ nav {
   }
 
   .logo {
-   padding-left: 1em;
-   margin-top: -10px;
-    
+   height: 40px;
+   padding: .5em;
+   margin-top: -10px; 
+  }
+
+  .hamburger {
+    font-size: 24px;
+    padding: .5em 1em;
+  }
+
+  .contact-text {
+    font-size: 1.5em;
+    margin: 0;
+  }
+
+  .btn--menu {
+    all:unset;
+    background-color: $accent;
+    padding: .5em;
+    text-align: center;
+    letter-spacing: .02em;
   }
   
   nav li {
@@ -161,6 +182,3 @@ nav {
   }
 }
 
-.hamburger {
-  font-size: 1.4em;
-}
