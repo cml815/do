@@ -58,7 +58,7 @@
     font-size: 1.25em;
     margin-top: 100px;
     @include mobile-plus {
-      font-size: 1.75em;
+      font-size: 1.5em;
     }
   }
   
@@ -69,11 +69,22 @@
   }
 
   .home h1 {
-    font-size: 2.4em; 
+    font-size: 2.4em;
+    margin: 0 0 .67em; 
     @include mobile-plus {
-      font-size: 4em;
+      font-size: 3em;
     }
   }
+
+  .space-tight {
+    margin-bottom: .25em;
+  }
+
+  .no-margin {
+    margin: 0;
+  }
+
+  
     
   // special hero styles //
   

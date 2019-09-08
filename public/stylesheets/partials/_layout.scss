@@ -36,11 +36,15 @@
 .banner {
     width: 100%;
     background-color: transparent;
-    margin-bottom: 4em;
+    margin: 4em 0;
+}
+
+.home .banner {
+  height: 60vh;
 }
 
 .banner__inner {
-  padding: 3em 0;
+  padding: 3em .5em;
   max-width: 768px;
 }
 
@@ -58,9 +62,6 @@
     }
 }
 
-
-
-
 .content-container {
   max-width: 768px;
 }
@@ -73,26 +74,9 @@
   max-width: 540px;
 }
 
-
 .container__inner--text {
     padding: .5em;
 }
-
-.container--bg {
-    margin: 0 auto;
-    width: 25%;
-    height: 25%;
-    border-radius: 65% 35% 50% 50% / 50% 35% 65% 50%;
-    background: rgb(58,67,165);
-    background: linear-gradient(45deg, rgba(58,67,165,1) 23%, rgba(123,84,202,1) 68%, rgba(35,45,153,1) 99%);
-    
-}
-
-.container--bg i {
-    font-size: 2em;
-    padding: 1em 0;
-}
-
 
 /* Cards */
 

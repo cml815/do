@@ -525,28 +525,6 @@ footer li {
   padding: 2em 0;
 }
 
-.feature {
-  height: 80vh;
-  grid-template-columns: 60% 40%;
-  grid-template-rows: 1fr;
-  grid-gap: 0;
-  align-items: stretch;
-  background-color: #efefef;
-}
-
-.feature-text {
-  grid-column: 1 / span 1;
-  grid-row: 1 / span 1;
-}
-
-.feature-img {
-  grid-column: 2 / span 1;
-  grid-row: 1 / span 2;
-  width: auto;
-  height: 50vh;
-  border-style: none;
-}  
-
 .testimonials {
   height: 75vh;
   background-color: $gray-light;
