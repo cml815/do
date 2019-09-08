@@ -1031,7 +1031,7 @@ aside {
 /** HER0 ***/
 .hero {
   display: flex;
-  height: 90vh;
+  height: 80vh;
   justify-content: center;
   align-items: center;
   width: 100%; }
@@ -1075,12 +1075,20 @@ aside {
     .hero__text-container {
       margin-left: -200px; } }
 
+.hero__text {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
 .small-text-column {
   width: 250px; }
 
 .small-text-column p {
-  font-size: 1.75em;
+  font-size: 1.25em;
   margin-top: 100px; }
+  @media (min-width: 600px) {
+    .small-text-column p {
+      font-size: 1.75em; } }
 
 .offset {
   margin-top: -200px; }
