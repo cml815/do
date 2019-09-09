@@ -39,7 +39,7 @@
   }
 
   @include mobile {
-    .hero__image {
+    .hero__img {
       max-width: 300px;
     }
   }
@@ -100,8 +100,7 @@
   
   .growth-marketing .hero {
     @include mobile {
-      padding-top: 150px;
-      height: 120vh;
+      padding-top: 0;
     }    
   }
 

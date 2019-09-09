@@ -1082,7 +1082,7 @@ aside {
   padding: 0 2em; }
 
 @media (max-width: 599px) {
-  .hero__image {
+  .hero__img {
     max-width: 300px; } }
 
 @media (min-width: 600px) {
@@ -1123,8 +1123,7 @@ aside {
 
 @media (max-width: 599px) {
   .growth-marketing .hero {
-    padding-top: 150px;
-    height: 120vh; } }
+    padding-top: 0; } }
 
 .contact .hero {
   width: 100%; }
@@ -2064,9 +2063,6 @@ button {
 /* Growth marketing service page */
 .service__container {
   margin-top: 3em; }
-
-.service__container h4 {
-  font-family: "Noto Serif JP", Georgia, "Times New Roman", Times, serif; }
 
 .submenu a {
   color: #141414; }
