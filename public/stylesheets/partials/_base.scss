@@ -10,14 +10,12 @@
 @import "button";
 @import "media";
 
-/*
-
+/* 
  * {
   border: 1px solid red;
  }
 
  */
-
 
 *, *:before, *:after {
   box-sizing: inherit;
@@ -61,6 +59,7 @@ h1, h2, h3, h4, h5, h6 {
   font-family: $sans;
   line-height: 1.25;
   max-width: 45ch;
+  margin: 0.67em 0;
 }
 
 h1 {

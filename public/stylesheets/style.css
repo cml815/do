@@ -291,12 +291,6 @@ figure.card:nth-child(2) {
   display: -ms-grid;
   display: grid; }
 
-.submenu__container {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  grid-auto-rows: 1fr;
-  grid-gap: .5em; }
-
 /*
 .grid-c--1x4 {
   display: grid;
@@ -325,30 +319,6 @@ figure.card:nth-child(2) {
 @media (min-width: 600px) {
   .team-1, .team-3, .team-5 {
     margin-top: 100px; } }
-
-.team-1 {
-  grid-column: 1 / 2;
-  grid-row: 1 /2; }
-
-.team-2 {
-  grid-column: 2 / 3;
-  grid-row: 1 /2; }
-
-.team-3 {
-  grid-column: 1 / 2;
-  grid-row: 2 /3; }
-
-.team-4 {
-  grid-column: 2 / 3;
-  grid-row: 2 / 3; }
-
-.team-5 {
-  grid-column: 1 / 2;
-  grid-row: 3 / 4; }
-
-.team-6 {
-  grid-column: 2 / 3;
-  grid-row: 3 / 4; }
 
 .grid-c__fluid {
   display: grid;
@@ -525,6 +495,28 @@ figure.card:nth-child(2) {
   grid-gap: 0;
   justify-content: center;
   min-height: 100%; }
+
+/* Submenu */
+.submenu__container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: minmax(75px, auto) 1fr;
+  grid-gap: .5em; }
+
+@media (max-width: 599px) {
+  .is-visible-on-large {
+    display: none; } }
+
+.submenu a {
+  color: #141414; }
+
+.submenu-item {
+  border: 4px solid #141414;
+  padding: 2em 0; }
+
+.submenu-item:hover {
+  background-color: #FA526F;
+  transition: .3s ease-in-out; }
 
 /* Container components */
 .cards {
@@ -1127,7 +1119,7 @@ img.center {
 
 @media (max-width: 599px) {
   .growth-marketing .hero {
-    padding-top: 0; } }
+    margin-top: 4em; } }
 
 .contact .hero {
   width: 100%; }
@@ -1218,8 +1210,7 @@ img.center {
   section, figure, .flex-c {
     flex-direction: column; } }
 
-/*
-
+/* 
  * {
   border: 1px solid red;
  }
@@ -1259,7 +1250,8 @@ main {
 h1, h2, h3, h4, h5, h6 {
   font-family: "DM Sans", "Helvetica Neue", "Helvetica", Arial, sans-serif;
   line-height: 1.25;
-  max-width: 45ch; }
+  max-width: 45ch;
+  margin: 0.67em 0; }
 
 h1 {
   font-size: 2em;
@@ -2064,35 +2056,6 @@ textarea {
   /* To position the buttons to the same position of the text fields */
   padding-left: 90px;
   /* same size as the label elements */ }
-
-/* 
-
-button {
-  /* This extra margin represent roughly the same space as the space
-     between the labels and their text fields */
-/*
-  margin-left: .5em;
-}
-
-*/
-/* Growth marketing service page */
-.service__container {
-  margin-top: 3em; }
-
-.submenu a {
-  color: #141414; }
-
-.submenu-item {
-  border: 4px solid #141414;
-  padding: 2em 0; }
-
-.submenu-item:hover {
-  background-color: #FA526F;
-  transition: .3s ease-in-out; }
-
-.submenu__c
-.service__story {
-  align-items: flex-end; }
 
 /* Projects Overview */
 .sample > .flex-item {
