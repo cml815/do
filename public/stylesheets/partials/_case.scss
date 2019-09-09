@@ -20,7 +20,11 @@
 .case-container__aside {
   min-width: 375px;
   flex: 1 0 300px;
-  border: 1px $black solid;
+}
+
+.press-case-study aside {
+  background-color: $orange;
+  padding: 2em;
 }
 
 .case__content-container {

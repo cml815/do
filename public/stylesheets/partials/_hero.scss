@@ -93,6 +93,10 @@
   .press-case-study .hero--short {
    background-color: $cerise;
   }
+
+  .founder-case-study .hero {
+    background: url("../images/travel.svg");
+  }
   
   .growth-marketing .hero {
     @include mobile {

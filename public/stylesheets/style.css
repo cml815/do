@@ -820,8 +820,11 @@ nav li:hover {
 
 .case-container__aside {
   min-width: 375px;
-  flex: 1 0 300px;
-  border: 1px #141414 solid; }
+  flex: 1 0 300px; }
+
+.press-case-study aside {
+  background-color: #f9973b;
+  padding: 2em; }
 
 .case__content-container {
   max-width: 60ch;
@@ -1114,6 +1117,9 @@ aside {
 
 .press-case-study .hero--short {
   background-color: #FA526F; }
+
+.founder-case-study .hero {
+  background: url("../images/travel.svg"); }
 
 @media (max-width: 599px) {
   .growth-marketing .hero {
