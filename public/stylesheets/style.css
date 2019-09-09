@@ -1279,7 +1279,8 @@ h3 {
   font-size: 1.5em; }
 
 h4 {
-  font-size: 1.25em; }
+  font-size: 1.25em;
+  margin: 0.67em 0; }
 
 h5 {
   font-size: 1.25em; }
@@ -1891,6 +1892,10 @@ footer li {
 .testimonials .fine-print {
   color: #FA526F;
   margin-bottom: 1em; }
+
+.testimonial-headline {
+  padding: 2em;
+  font-size: 1.25em; }
 
 .callout {
   display: flex;
