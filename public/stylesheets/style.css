@@ -1099,8 +1099,9 @@ aside {
     .small-text-column p {
       font-size: 1.5em; } }
 
-.offset {
-  margin-top: -200px; }
+.home .hero {
+  background-color: #141414;
+  color: #adadad; }
 
 .home h1 {
   font-size: 2.4em;
