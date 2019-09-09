@@ -820,7 +820,8 @@ nav li:hover {
 
 .case-container__aside {
   min-width: 375px;
-  flex: 1 0 300px; }
+  flex: 1 0 300px;
+  border: 1px #141414 solid; }
 
 .case__content-container {
   max-width: 60ch;
