@@ -500,7 +500,7 @@ figure.card:nth-child(2) {
   .grid__wrap--case-story {
     display: grid;
     grid-template-columns: repeat(12, [col-start] 1fr);
-    grid-gap: 7em 1.25em; } }
+    grid-gap: 2em 1.25em; } }
 
 @media (max-width: 599px) {
   .grid__wrap--case-story > * {
@@ -545,6 +545,14 @@ figure.card:nth-child(2) {
 .grid-strategy {
   grid-column: 7 / span 4;
   grid-row: 14 / span 4; }
+
+.grid-results {
+  grid-column: 4 / span 4;
+  grid-row: 18 / span 4; }
+
+.grid-team {
+  grid-column: 9 / span 4;
+  grid-row: 18 / span 4; }
 
 /* Submenu */
 .submenu__container {
