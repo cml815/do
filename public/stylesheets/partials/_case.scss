@@ -2,24 +2,31 @@
 /* Service styles */
 
 .case-container {
-
+ 
 }
 
 .case-container h4 {
   padding-bottom: .5em;
+  
 }
 
 .case-container__main {
   flex: 2 1 auto;
   padding: 1em;
   @include mobile-plus {
-    padding: 1em 4em 1em 1em;
+    padding: 2em 6em;
   }
 }
 
+.case-container__text {
+  max-width: 50ch;
+}
+
 .case-container__aside {
-  min-width: 375px;
-  flex: 1 0 300px;
+  min-width: 300px;
+  flex: 1 2 200px;
+  @include mobile-plus {
+  }
 }
 
 .press-case-study aside {
@@ -89,12 +96,14 @@
 }
 
 aside {
-  flex: 0 0 33%;
+  flex: 1 0 400px;
 }
 
 .case-meta {
   background-color: $black;
   color: $white;
+  padding: 2vw;
+  margin-top: 50px;
 }
 
 .case-inner > * {
