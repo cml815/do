@@ -577,11 +577,11 @@ figure.card:nth-child(2) {
   grid-row: 10 / span 3; }
 
 .grid-spotlight-s {
-  grid-column: 4 / span 3;
+  grid-column: 2 / span 4;
   grid-row: 15 / span 3; }
 
 .grid-img-s {
-  grid-column: 8 / span 3;
+  grid-column: 6 / span 6;
   grid-row: 15 / span 3; }
 
 .grid-spotlight2-s {
@@ -1093,17 +1093,33 @@ aside {
 /* Next project component */
 /* Page template styles */
 /* Jeff Grant, Influencer */
-.row {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  width: 100%; }
+.img__display {
+  position: relative;
+  height: 800px;
+  width: 1000px; }
 
-.column {
-  display: flex;
-  flex-direction: column;
-  flex-basis: 100%;
-  flex: 1; }
+.img__images .front {
+  position: absolute;
+  top: 100px;
+  height: 500px;
+  width: 400px;
+  z-index: 2; }
+
+.img__images .side {
+  position: absolute;
+  left: 200px;
+  top: 200px;
+  height: 500px;
+  width: 400px;
+  z-index: 3; }
+
+.img__images .top {
+  position: absolute;
+  top: 0px;
+  right: 100px;
+  height: 500px;
+  width: 400px;
+  z-index: 4; }
 
 .narrative {
   width: 50%; }
