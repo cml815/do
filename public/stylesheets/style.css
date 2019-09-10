@@ -593,7 +593,7 @@ figure.card:nth-child(2) {
   grid-row: 19 / span 4; }
 
 .grid-results-s {
-  grid-column: 4 / span 3;
+  grid-column: 4 / span 4;
   grid-row: 23 / span 3; }
 
 /* Submenu */
@@ -1178,9 +1178,18 @@ img.center {
   margin: 0 auto; }
 
 /** HER0 ***/
+.line1, .line2, .line3, .line4 {
+  stroke-dasharray: 2300;
+  stroke-dashoffset: 2300;
+  animation: dash 5s linear forwards; }
+
+@keyframes dash {
+  to {
+    stroke-dashoffset: 0; } }
+
 .hero {
   display: flex;
-  height: 85vh;
+  height: 100vh;
   justify-content: center;
   align-items: center;
   width: 100%; }
@@ -1231,13 +1240,6 @@ img.center {
 .home .hero {
   background-color: #141414;
   color: #adadad; }
-
-.home h1 {
-  font-size: 2.4em;
-  margin: 0 0 .67em; }
-  @media (min-width: 600px) {
-    .home h1 {
-      font-size: 3em; } }
 
 .space-tight {
   margin-bottom: .25em; }
