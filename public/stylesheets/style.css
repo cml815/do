@@ -590,7 +590,7 @@ figure.card:nth-child(2) {
 
 .grid-img2-s {
   grid-column: 7 / span 6;
-  grid-row: 19 / span 3; }
+  grid-row: 19 / span 4; }
 
 .grid-results-s {
   grid-column: 4 / span 3;
@@ -1236,8 +1236,11 @@ img.center {
   background: #282828; }
 
 /* Styled links */
-.classy-link {
+a {
   text-decoration: underline; }
+
+nav a {
+  text-decoration: none; }
 
 /* Buttons */
 .btn {
@@ -1254,7 +1257,8 @@ img.center {
     cursor: pointer; }
 
 .btn a, .btn:visited, .btn:hover {
-  color: #141414; }
+  color: #141414;
+  text-decoration: none; }
 
 .outline {
   border: solid 2px #242943;
@@ -1417,7 +1421,7 @@ img {
   /* IE 10 */ }
 
 a {
-  text-decoration: none;
+  text-decoration: underline;
   color: #141414;
   background-color: transparent;
   /* IE 10 */ }

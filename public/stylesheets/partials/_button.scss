@@ -1,7 +1,11 @@
 /* Styled links */
 
-.classy-link {
+a {
   text-decoration: underline;
+}
+
+nav a {
+  text-decoration: none;
 }
 
 /* Buttons */
@@ -23,6 +27,7 @@
 
 .btn a, .btn:visited, .btn:hover {
 color: $black;
+text-decoration: none;
 }
 
 .outline {
