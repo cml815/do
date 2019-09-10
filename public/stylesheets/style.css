@@ -1103,6 +1103,7 @@ aside {
   top: 100px;
   height: 500px;
   width: 400px;
+  transition: transform .2s;
   z-index: 4; }
 
 .img__images .side {
@@ -1112,7 +1113,12 @@ aside {
   right: 0;
   height: 400px;
   width: 320px;
+  transition: transform .2s;
   z-index: 5; }
+
+.side:hover, .top:hover, .front:hover {
+  z-index: 6 !important;
+  transform: scale(1.05); }
 
 .img__images .top {
   position: absolute;
@@ -1120,6 +1126,7 @@ aside {
   right: 100px;
   height: 400px;
   width: 320px;
+  transition: transform .2s;
   z-index: 2; }
 
 .img__caption {
