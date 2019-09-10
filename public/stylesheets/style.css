@@ -496,14 +496,15 @@ figure.card:nth-child(2) {
   justify-content: center;
   min-height: 100%; }
 
-.grid__wrap--case-story {
-  display: grid;
-  grid-template-columns: repeat(12, [col-start] 1fr);
-  grid-gap: 1.25em; }
+@media (min-width: 600px) {
+  .grid__wrap--case-story {
+    display: grid;
+    grid-template-columns: repeat(12, [col-start] 1fr);
+    grid-gap: 1.25em; } }
 
 @media (max-width: 599px) {
   .grid__wrap--case-story > * {
-    grid-column: col-start / span 12; } }
+    grid-column: [col-start]/span 12; } }
 
 .grid-summary {
   grid-column: 3 / span 4;
@@ -514,15 +515,15 @@ figure.card:nth-child(2) {
   grid-row: 1 / span 3; }
 
 .grid-challenge {
-  grid-column: 1 / span 3;
+  grid-column: 2 / span 3;
   grid-row: 4 / span 3; }
 
 .grid-image {
-  grid-column: 4 / span 3;
+  grid-column: 6 / span 3;
   grid-row: 4 / span 3; }
 
 .grid-tweet {
-  grid-column: 9 / span 3;
+  grid-column: 10 / span 3;
   grid-row: 4 / span 3; }
 
 .grid-solution {
