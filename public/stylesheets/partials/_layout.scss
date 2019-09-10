@@ -531,6 +531,11 @@ figure.card:nth-child(2) {
   }
 }
 
+/** layout reference
+** summary / meta 
+** challenge / image / tweet 
+**/
+
 .grid-summary {
   grid-column: 3 / span 4;
   grid-row: 1 / span 3;
@@ -569,6 +574,21 @@ figure.card:nth-child(2) {
 .grid-solution {
   grid-column: 3 / span 4;
   grid-row: 14 / span 4; 
+}
+
+.grid-strategy {
+  grid-column: 7 / span 4;
+  grid-row: 14 / span 4; 
+}
+
+.grid-results {
+  grid-column: 5 / span 4;
+  grid-row: 18 / span 4; 
+}
+
+.grid-team {
+  grid-column: 9 / span 4;
+  grid-row: 18 / span 4; 
 }
 
 

@@ -506,6 +506,10 @@ figure.card:nth-child(2) {
   .grid__wrap--case-story > * {
     grid-column: [col-start]/span 12; } }
 
+/** layout reference
+** summary / meta 
+** challenge / image / tweet 
+**/
 .grid-summary {
   grid-column: 3 / span 4;
   grid-row: 1 / span 3; }
@@ -536,6 +540,10 @@ figure.card:nth-child(2) {
 
 .grid-solution {
   grid-column: 3 / span 4;
+  grid-row: 14 / span 4; }
+
+.grid-strategy {
+  grid-column: 7 / span 4;
   grid-row: 14 / span 4; }
 
 /* Submenu */
