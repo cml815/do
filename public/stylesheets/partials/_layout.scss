@@ -558,14 +558,6 @@ figure.card:nth-child(2) {
   grid-row: 6 / span 3;
 }
 
-/* social media influencer */
-
-.grid-fact {
-  grid-column: 6 / span 3;
-  grid-row: 6 / span 3;
-}
-
-
 .grid-spotlight {
   grid-column: 1 / span 5;
   grid-row: 10 / span 4; 
@@ -596,6 +588,62 @@ figure.card:nth-child(2) {
   grid-row: 18 / span 4; 
 }
 
+/* social media influencer */
+
+.grid-summary-s {
+  grid-column: 3 / span 4;
+  grid-row: 1 / span 3;
+}
+
+.grid-meta-s {
+  grid-column: 8 / span 4;
+  grid-row: 1 / span 3;
+}
+
+.grid-challenge-s {
+  grid-column: 2 / span 3;
+  grid-row: 6 / span 3;
+}
+
+.grid-fact-s {
+  grid-column: 8 / span 3;
+  grid-row: 6 / span 3;
+}
+
+.grid-solution-s {
+  grid-column: 4 / span 3;
+  grid-row: 10 / span 3;
+}
+
+.grid-strategy-s {
+  grid-column: 8 / span 3;
+  grid-row: 10 / span 3;
+}
+
+.grid-spotlight-s {
+  grid-column: 4 / span 3;
+  grid-row: 15 / span 3;
+}
+
+.grid-img-s {
+  grid-column: 8 / span 3;
+  grid-row: 15 / span 3;
+}
+
+.grid-spotlight2-s {
+  grid-column: 2 / span 4;
+  grid-row: 19 / span 3;
+}
+
+.grid-img2-s {
+  grid-column: 7 / span 6;
+  grid-row: 19 / span 3;
+}
+
+.grid-results-s {
+  grid-column: 4 / span 3;
+  grid-row: 23 / span 3;
+}
 
 
 
