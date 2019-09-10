@@ -531,10 +531,7 @@ figure.card:nth-child(2) {
   }
 }
 
-/** layout reference
-** summary / meta 
-** challenge / image / tweet 
-**/
+/* founder stories grid */
 
 .grid-summary {
   grid-column: 3 / span 4;
@@ -560,6 +557,14 @@ figure.card:nth-child(2) {
   grid-column: 10 / span 3;
   grid-row: 6 / span 3;
 }
+
+/* social media influencer */
+
+.grid-fact {
+  grid-column: 6 / span 3;
+  grid-row: 6 / span 3;
+}
+
 
 .grid-spotlight {
   grid-column: 1 / span 5;
