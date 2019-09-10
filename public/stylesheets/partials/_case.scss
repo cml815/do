@@ -269,7 +269,7 @@ line-height: 1.25em;
 .img__display {
   position: relative;
   height: 800px;
-  width: 1000px;
+  width: 800px;
 }
 
 .img__images .front {
@@ -277,25 +277,32 @@ line-height: 1.25em;
   top: 100px;
   height: 500px;
   width: 400px;
-  z-index: 2;
+  z-index: 4;
 }
 
 .img__images .side {
   position: absolute;
-  left: 200px;
-  top: 200px;
-  height: 500px;
-  width: 400px;
-  z-index: 3;
+  left: 300px;
+  bottom: 200px;
+  right: 0;
+  height: 400px;
+  width: 320px;
+  z-index: 5;
 }
 
 .img__images .top {
   position: absolute;
   top: 0px;
   right: 100px;
-  height: 500px;
-  width: 400px;
-  z-index: 4;
+  height: 400px;
+  width: 320px;
+  z-index: 2;
+}
+
+.img__caption {
+  position: absolute;
+  bottom: 100;
+  left: 0;
 }
 
 
