@@ -96,7 +96,10 @@
   }
 
   .founder-case-study .hero {
-    background: url("../images/travel.svg");
+    background: url("../images/plane.svg") no-repeat;
+    background-size: 64px;
+    background-position: bottom 60% right 40%;
+
   }
   
   .growth-marketing .hero {
