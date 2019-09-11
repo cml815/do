@@ -750,7 +750,7 @@ nav a:before {
   height: 2px;
   bottom: 0;
   left: 0;
-  background-color: #23e3c9;
+  background-color: #141414;
   visibility: hidden;
   -webkit-transform: scaleX(0);
   transform: scaleX(0);
