@@ -921,8 +921,8 @@ nav li:hover {
   max-width: 50ch; }
 
 .case-container__aside {
-  min-width: 300px;
-  flex: 1 2 200px; }
+  min-width: 400px;
+  flex: 0 1; }
 
 .press-case-study aside {
   background-color: #f9973b;
