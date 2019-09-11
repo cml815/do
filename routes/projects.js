@@ -110,5 +110,23 @@ router.get('/sbir-grants', function(req, res, next) {
       layout: 'case', 
     });
   });
+
+  // Social marketing grant 
+
+  router.get('/social-marketing-grant', function(req, res, next) {
+    res.render('social-marketing-grant', { 
+      title: 'Social marketing to save lives',
+      bodyClass: 'social-marketing-case-study',
+      description: 'We wrote a grant proposal to educate women on an inherited bleeding disorder',
+      client: 'National Hemophilia Foundation',
+      team: 'Caroline Leopold', 
+      tag: ['grant writing', 'project development', 'social marketing'],
+      url1: "../projects/social-media-influencer",
+      img1: "../images/jeff-grant-headshot-crop.jpg",
+      url2: "../projects/press-campaign",
+      img2: "../images/overhead.jpg",
+      layout: 'case' 
+    });
+  });
       
   module.exports = router;
