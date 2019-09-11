@@ -102,7 +102,7 @@ router.get('/sbir-grants', function(req, res, next) {
       summary: 'Web design to introduce new companies to discerning audiences',
       team: ['Caroline Leopold', 'Dana Henry', 'Francesca Lo Basso', 'Rich Garella'],
       client: 'Various companies',
-      tag: ['web design', 'prototyping', 'strategy', 'copywriting', 'seo'],
+      tag: ['web design', 'strategy', 'copywriting', 'seo'],
       url1: "../projects/social-media-influencer",
       img1: "../images/grant-red-crop.jpg",
       url2: "../projects/sbir-grants",
