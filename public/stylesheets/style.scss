@@ -414,6 +414,48 @@ article > h6 {
   }
 
   */
+$total-items: 4;
+
+  .menu-reveal-container {
+    width: 100%;
+    position: absolute;
+    margin-top: 25px;
+    margin-left: -150px;
+  }
+
+  .menu-reveal li {
+    position: relative;
+    display: block;
+    border-bottom: 1px solid hotpink;
+    margin-bottom: 16px;
+    padding: 10px 0px;
+    text-align: center;
+    animation: fadeIn 0.5s linear;
+    animation-fill-mode: both;
+  }
+
+  // Set delay per List Item
+@for $i from 1 through $total-items {
+  li:nth-child(#{$i}) {
+    animation-delay: .5s * $i;
+  }
+}
+
+// Keyframe animation
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity: 0;
+    top: 100px;
+  }
+  75% {
+    opacity: 0.5;
+    top: 0px;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
 
 
 

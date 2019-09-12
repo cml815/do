@@ -33,7 +33,6 @@
 
 .container {
   @include padding
-  background-color: $orange;
 }
 
 .container--contained {
@@ -820,7 +819,7 @@ figure.card:nth-child(2) {
     line-height: 1.8em;
     padding: 2em 3em;
   }
-  
+
   .vertical-line {
     margin: 4em 0 0;
     height: 50px;
