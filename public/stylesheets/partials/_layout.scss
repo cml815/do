@@ -546,7 +546,7 @@ figure.card:nth-child(2) {
     display: grid;
     grid-template-columns: repeat(3, [col-start] 1fr);
     grid-template-rows: repeat(6, 1fr);
-    grid-gap: 3em 1em;
+    grid-gap: 1.5em 1em;
     justify-content: center;
     min-height: 100%;
   }
