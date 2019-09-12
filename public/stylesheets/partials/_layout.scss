@@ -539,6 +539,25 @@ figure.card:nth-child(2) {
   }
 }
 
+/* team bios */
+
+@include mobile-plus {
+  .grid--team-bios {
+    display: grid;
+    grid-template-columns: repeat(3, [col-start] 1fr);
+    grid-template-rows: repeat(6, 1fr);
+    grid-gap: 3em 1em;
+    justify-content: center;
+    min-height: 100%;
+  }
+}
+
+@include mobile {
+  .grid--team-bios > * {
+  grid-column: [col-start] / span 12;
+}
+}
+
 /* founder stories grid */
 
 .grid-summary {

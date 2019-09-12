@@ -513,6 +513,20 @@ figure.card:nth-child(2) {
   .grid__wrap--case-story > * {
     grid-column: [col-start]/span 12; } }
 
+/* team bios */
+@media (min-width: 600px) {
+  .grid--team-bios {
+    display: grid;
+    grid-template-columns: repeat(3, [col-start] 1fr);
+    grid-template-rows: repeat(6, 1fr);
+    grid-gap: 3em 1em;
+    justify-content: center;
+    min-height: 100%; } }
+
+@media (max-width: 599px) {
+  .grid--team-bios > * {
+    grid-column: [col-start]/span 12; } }
+
 /* founder stories grid */
 .grid-summary {
   grid-column: 3 / span 4;
