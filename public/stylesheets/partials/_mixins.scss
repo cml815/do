@@ -27,7 +27,7 @@
 @mixin text-column {
   max-width: $max-width-base;
   margin: 0 auto;
-  padding: $space-base-l;
+  padding: $space-l;
 }
 
 @mixin mobile-plus {

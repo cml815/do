@@ -8,9 +8,10 @@ $font-size-large: 18px;
 $space-base: 1em;
 
 $space-base-xs: .25em;
-$space-base-s: .5em;
+$space-s: .5em;
 $space-base-m: 1.5em;
-$space-base-l: 2em;
+$space-l: 2em;
+$space-xl: 4em;
 
 /* max-width */
 
@@ -23,9 +24,9 @@ $max-width-l: 1024px;
 
 $space-base-xxs:  calc(0.25 * var(--space-unit));
 $space-base-xs:   calc(0.5 * var(--space-unit));
-$space-base-sm:   calc(0.75 * var(--space-unit));
+$space-sm:   calc(0.75 * var(--space-unit));
 $space-base-md:   calc(1.25 * var(--space-unit));
-$space-base-lg:   calc(2 * var(--space-unit));
+$space-lg:   calc(2 * var(--space-unit));
 $space-base-xl:   calc(3.25 * var(--space-unit));
 $space-base-xxl:  calc(5.25 * var(--space-unit));
 

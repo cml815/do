@@ -91,10 +91,6 @@ background-color: $night;
   pointer-events: none;
 }
 
-.margin-gap {
-  margin-bottom: 1em;
-}
-
 @include mobile {
   .mobile-hide {
     display:none;
@@ -254,21 +250,6 @@ background-color: $night;
 
 
 
-/*
-
-.project--overlay::before {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  z-index: 2;
-  background-color: rgba(0,0,0,0.5);
-  transition: .4s ease-in-out;
-  opacity: 1;
-}
-
-*/
 
 
 
@@ -519,6 +500,7 @@ footer li {
 
 // Home page //
 
+
 .header__container {
   max-width: 60ch;
   padding-bottom: 1em;
@@ -594,7 +576,7 @@ padding: $space-base;
 
 @include mobile-plus {
   .callout .inner {
-    padding: $space-base-l;
+    padding: $space-l;
   }
 }
 
