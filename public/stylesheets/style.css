@@ -2074,24 +2074,24 @@ article > h6 {
 .menu-reveal li {
   position: relative;
   display: block;
+  line-height: 1.4em;
   border-bottom: 1px solid hotpink;
   margin-bottom: 16px;
   padding: 10px 0px;
-  text-align: center;
   animation: fadeIn 0.5s linear;
   animation-fill-mode: both; }
 
 li:nth-child(1) {
-  animation-delay: 0.5s; }
-
-li:nth-child(2) {
   animation-delay: 1s; }
 
+li:nth-child(2) {
+  animation-delay: 2s; }
+
 li:nth-child(3) {
-  animation-delay: 1.5s; }
+  animation-delay: 3s; }
 
 li:nth-child(4) {
-  animation-delay: 2s; }
+  animation-delay: 4s; }
 
 @-webkit-keyframes fadeIn {
   0% {

@@ -472,10 +472,10 @@ $total-items: 4;
   .menu-reveal li {
     position: relative;
     display: block;
+    line-height: 1.4em;
     border-bottom: 1px solid hotpink;
     margin-bottom: 16px;
     padding: 10px 0px;
-    text-align: center;
     animation: fadeIn 0.5s linear;
     animation-fill-mode: both;
   }
@@ -483,7 +483,7 @@ $total-items: 4;
   // Set delay per List Item
 @for $i from 1 through $total-items {
   li:nth-child(#{$i}) {
-    animation-delay: .5s * $i;
+    animation-delay: 1s * $i;
   }
 }
 
