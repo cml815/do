@@ -1,5 +1,47 @@
 @import "./partials/base";
 
+.floating {
+  filter: drop-shadow(0px 14px 28px rgba(0,0,0,0.3));
+  -webkit-filter: drop-shadow(0px 14px 28px rgba(0,0,0,0.3));
+  -moz-filter: drop-shadow(0px 14px 28px rgba(0,0,0,0.3));
+}
+
+.shadow {
+  -webkit-box-shadow: 7px 5px 5px 0px rgba(0,0,0,.5);
+  -moz-box-shadow: 3px 5px 5px 0px rgba(0,0,0,.5);
+  box-shadow: 3px 5px 5px 0px rgba(0,0,0,.5);
+}
+
+.shadow-2:hover {
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+  transition: all 400ms ease-in-out;
+}
+
+.parallax-container {
+  background-color: $indigo;
+}
+
+.floating {
+  // ...
+  transform: translateZ(0px);
+  animation: animateZ 2s infinite;
+}
+
+@keyframes animateZ {
+  from {
+    transform: translateZ(0px);
+  }
+  to {
+    transform: translateZ(4px);
+  }
+}
+
+/* 
+
+<div class="flex-c--center service__story container-img" data-parallax="{&quot;y&quot;: -80, &quot;smoothness&quot;: 30}" style="transform:translate3d(0px, -80px, 0px) rotateX(0deg) rotateY(0deg) rotateZ(0deg) scaleX(1) scaleY(1) scaleZ(1); -webkit-transform:translate3d(0px, -80px, 0px) rotateX(0deg) rotateY(0deg) rotateZ(0deg) scaleX(1) scaleY(1) scaleZ(1); "></div>
+
+*/ 
+
 .bg-shape {
   border-radius: 0% 0% 27% 22% / 10% 10% 34% 10%;
   background-image: radial-gradient( circle 920px at 2.4% 5.2%,  rgba(247,2,210,1) 0%, rgba(249,211,0,1) 99.7% ); 
