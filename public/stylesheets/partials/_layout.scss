@@ -558,7 +558,7 @@ figure.card:nth-child(2) {
 
 .theme--cerise {
   color: $white;
-  background: $cerise;
+  background-color: darken($cerise, 5%);
 }
 
 .theme--orange {
@@ -569,7 +569,7 @@ figure.card:nth-child(2) {
 @include mobile-plus {
   .grid--team-bios {
     display: grid;
-    grid-template-columns: repeat(3, [col-start] 1fr);
+    grid-template-columns: repeat(2, [col-start] 1fr);
     grid-template-rows: repeat(6, 1fr);
     grid-gap: 1.5em 1em;
     justify-content: center;
