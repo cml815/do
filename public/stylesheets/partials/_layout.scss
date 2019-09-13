@@ -270,7 +270,7 @@ figure.card:nth-child(2) {
 .grid-c--2x2 {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  grid-gap: 3em;
+  grid-gap: 1em;
   @include mobile {
     /* change to 1 column grid */
     grid-template-columns: repeat(1, 1fr);
@@ -551,6 +551,21 @@ figure.card:nth-child(2) {
 
 /* team bios */
 
+.theme--dark {
+  color: $white;
+  background: $black;
+}
+
+.theme--cerise {
+  color: $white;
+  background: $cerise;
+}
+
+.theme--orange {
+  color: $black;
+  background: lighten($orange, 8%);
+}
+
 @include mobile-plus {
   .grid--team-bios {
     display: grid;
@@ -821,7 +836,7 @@ figure.card:nth-child(2) {
   }
 
   .vertical-line {
-    margin: 4em 0 0;
-    height: 50px;
+    margin: 5em 0 0;
+    height: 40px;
     background: linear-gradient($black, $black) no-repeat center/1px 100%;
   }

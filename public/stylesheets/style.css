@@ -313,7 +313,7 @@ figure.card:nth-child(2) {
 .grid-c--2x2 {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  grid-gap: 3em; }
+  grid-gap: 1em; }
   @media (max-width: 599px) {
     .grid-c--2x2 {
       /* change to 1 column grid */
@@ -525,6 +525,18 @@ figure.card:nth-child(2) {
     grid-column: [col-start]/span 12; } }
 
 /* team bios */
+.theme--dark {
+  color: white;
+  background: #141414; }
+
+.theme--cerise {
+  color: white;
+  background: #FA526F; }
+
+.theme--orange {
+  color: #141414;
+  background: #faac63; }
+
 @media (min-width: 600px) {
   .grid--team-bios {
     display: grid;
@@ -725,8 +737,8 @@ blockquote {
   padding: 2em 3em; }
 
 .vertical-line {
-  margin: 4em 0 0;
-  height: 50px;
+  margin: 5em 0 0;
+  height: 40px;
   background: linear-gradient(#141414, #141414) no-repeat center/1px 100%; }
 
 .img--filter {
@@ -1364,9 +1376,10 @@ nav a {
   color: #c1666b; }
 
 .btn .shadow {
-  -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
-  -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
-  box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75); }
+  /* -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75); */
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.14), 0 2px 1px -1px rgba(0, 0, 0, 0.12), 0 1px 3px 0 rgba(0, 0, 0, 0.2); }
 
 .btn.night {
   display: inline-block;
@@ -1914,6 +1927,9 @@ article > h6 {
 /* Home page styles */
 .benefits {
   background-color: #efefef; }
+
+.benefits-container {
+  margin: 0 0 0 3em; }
 
 /* Background video */
 * {
