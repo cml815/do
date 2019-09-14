@@ -1664,6 +1664,48 @@ fieldset {
   .is-visible {
     display: none; } }
 
+/* layout */
+.margin-top {
+  margin-top: 3em; }
+
+/* Parallax Styles */
+.p-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 420px; }
+
+.p-container {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  perspective: 8px;
+  perspective-origin: 0%;
+  display: flex; }
+
+.background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  transform: translateZ(0px); }
+
+.foreground {
+  margin-top: auto;
+  margin-bottom: 50px;
+  transform-origin: 0;
+  transform: translateZ(3px) scale(0.625);
+  /* Uncomment the code below to see the difference the scale property makes! */
+  /* transform: translateZ(3px); */
+  /* transform: translateZ(0) scale(1); */ }
+
+.foreground h1 {
+  font-size: 36px;
+  color: white; }
+
 .floating {
   filter: drop-shadow(0px 14px 28px rgba(0, 0, 0, 0.3));
   -webkit-filter: drop-shadow(0px 14px 28px rgba(0, 0, 0, 0.3));
@@ -1677,9 +1719,6 @@ fieldset {
 .shadow-2:hover {
   box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
   transition: all 400ms ease-in-out; }
-
-.parallax-container {
-  background-color: #3a4aa5; }
 
 .floating {
   transform: translateZ(0px);
@@ -1796,12 +1835,10 @@ fieldset {
     top: 100px;
     left: 1.5em;
     background-color: transparent;
-    color: rgba(0, 0, 0, 0.2);
     font-family: "DM Sans", "Helvetica Neue", "Helvetica", Arial, sans-serif;
     font-size: 1.4em;
     font-weight: bold;
     border-left: 2px solid #23e3c9;
-    color: #141414;
     /* -webkit-text-fill-color: white; // Will override color (regardless of order)
   -webkit-text-stroke-width: 2px;
   -webkit-text-stroke-color: black; */
@@ -1812,6 +1849,12 @@ fieldset {
       -1px 1px 0 #000,
        1px 1px 0 #000; */
     letter-spacing: 3px; } }
+
+.text-rotated--dark {
+  color: white; }
+
+.text--dark-theme {
+  color: white; }
 
 .text-column {
   max-width: 768px;
@@ -1928,9 +1971,6 @@ article > h6 {
   padding: 1em 0; }
 
 /* Home page styles */
-.benefits {
-  background-color: #efefef; }
-
 .benefits-container {
   margin: 0 0 0 3em; }
 
@@ -2192,7 +2232,7 @@ footer li {
 
 @media (min-width: 600px) {
   .panel {
-    margin-bottom: 8em; } }
+    padding: 8em 4em; } }
 
 .panel__content {
   max-width: 500px; }
@@ -2282,8 +2322,12 @@ footer li {
   background-color: #32293b;
   color: white; }
 
+.icons {
+  padding: 2em 0; }
+
 .icon__container {
-  margin-top: 2em; }
+  margin-top: 2em;
+  padding: 2em; }
 
 .icon__container li {
   padding: 1em 0; }
