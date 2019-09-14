@@ -4,7 +4,31 @@ var router = express.Router();
 router.get('/', function(req, res, next) {
     res.render('about', { layout: 'default', bodyClass: "team-bios" });
   });
+
+  router.get('/caroline-leopold', function(req, res, next) {
+    res.render('caroline-leopold', { layout: 'default', bodyClass: 'leopold', linkedin: 'https://www.linkedin.com/in/cleopold/' });
+  });
+
+  router.get('/rich-garella', function(req, res, next) {
+    res.render('rich-garella', { layout: 'default', bodyClass: 'garella', linkedin: 'https://www.linkedin.com/in/garella/' });
+  });
+
+  router.get('/dave-scholnick', function(req, res, next) {
+    res.render('dave-scholnick', { layout: 'default', bodyClass: 'scholnick', linkedin: 'https://www.linkedin.com/in/davidscholnick/' });
+  });
+
+  router.get('/dana-henry', function(req, res, next) {
+    res.render('dana-henry', { layout: 'default', bodyClass: 'henry', linkedin: 'https://www.linkedin.com/in/dana-henry-writes/' });
+  });
+
+  router.get('/ed-apffel', function(req, res, next) {
+    res.render('ed-appfel', { layout: 'default', bodyClass: 'apffel', linkedin: 'https://www.linkedin.com/in/edapffel/' });
+  });
   
+  router.get('/darcie-goodwin', function(req, res, next) {
+    res.render('darcie-goodwin', { layout: 'default', name: 'Darcie Goodwin', linkedin: 'https://www.linkedin.com/in/darcie-goodwin-99b327/'});
+  });
+
 router.get('/team-bios', function(req, res, next) {
   res.render('team-bios', { layout: 'default' });
 });

@@ -570,7 +570,7 @@ figure.card:nth-child(2) {
   .grid--team-bios {
     display: grid;
     grid-template-columns: repeat(2, [col-start] 1fr);
-    grid-template-rows: repeat(6, 1fr);
+    grid-template-rows: repeat(6, 600px);
     grid-gap: 1.5em 1em;
     justify-content: center;
     min-height: 100%;
@@ -581,6 +581,10 @@ figure.card:nth-child(2) {
   .grid--team-bios > * {
   grid-column: [col-start] / span 12;
 }
+}
+
+.team-image {
+  max-height: 500px;
 }
 
 /* founder stories grid */
