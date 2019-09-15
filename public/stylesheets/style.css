@@ -2265,6 +2265,9 @@ footer a, footer a:visited {
   color: #949494;
   text-decoration: none; }
 
+footer a:hover {
+  color: white; }
+
 footer a:before {
   content: "";
   position: absolute;
@@ -2303,8 +2306,7 @@ footer li {
   padding: 1em 0;
   font-size: 1em;
   text-align: center;
-  background: #32293b;
-  background: linear-gradient(45deg, #32293b 0%, #313575 33%, #313275 77%, #32293b 100%);
+  background-color: #f9455f;
   color: white; }
 
 .social-links {
@@ -2330,6 +2332,13 @@ footer li {
 /* .panel {
   height: 80vh;
 } */
+.fund {
+  background-color: #f6fac6; }
+
+.market {
+  background-color: #0f255d;
+  color: white; }
+
 .panel__list li {
   padding-bottom: .5em; }
 

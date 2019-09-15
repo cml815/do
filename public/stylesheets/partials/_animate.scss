@@ -123,3 +123,59 @@
     opacity: 1;
   }
 }
+
+// Keyframe animation
+@-webkit-keyframes fadeIn {
+    0% {
+      opacity: 0;
+      top: 100px;
+    }
+    75% {
+      opacity: 0.5;
+      top: 0px;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  
+    // Set delay per List Item
+@for $i from 1 through $total-items {
+  li:nth-child(#{$i}) {
+    animation-delay: 1s * $i;
+  }
+}
+
+  /* Slide in right not working 
+
+  .slide-in-right-FIXME {
+  -webkit-animation: slide-in-right 3s alternate ease-in-out; 
+  animation: slide-in-right 3s alternate ease-in-out;
+}
+
+  @-webkit-keyframes slide-in-right {
+    0% {
+      -webkit-transform: translateX(1000px);
+              transform: translateX(1000px);
+      opacity: 0;
+    }
+    100% {
+      -webkit-transform: translateX(0);
+              transform: translateX(0);
+      opacity: 1;
+    }
+  }
+  @keyframes slide-in-right {
+    0% {
+      -webkit-transform: translateX(1000px);
+              transform: translateX(1000px);
+      opacity: 0;
+    }
+    100% {
+      -webkit-transform: translateX(0);
+              transform: translateX(0);
+      opacity: 1;
+    }
+  }
+
+  */
