@@ -1,14 +1,12 @@
 @import "./partials/base";
 
+.home-icon {
+  width: 110px;
+}
+
 /* layout */
 .margin-top {
   margin-top: 3em;
-}
-
-.line {
-  stroke-dasharray: 2000;
-  stroke-dashoffset: 2000;
-  animation: dash 5s linear forwards;
 }
 
 /* Parallax Styles */

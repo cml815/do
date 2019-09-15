@@ -70,6 +70,16 @@ xl, extra-large: 1920px or larger
 */
 /* Main Primary color */
 /* Test color schemes */
+.line {
+  stroke-dasharray: 2000;
+  stroke-dashoffset: 2000;
+  animation: dash 5s linear forwards; }
+
+.outline {
+  stroke-dasharray: 2000;
+  stroke-dashoffset: 2000;
+  animation: dash 5s linear forwards; }
+
 #heart {
   animation: pop1 3s ease infinite;
   animation: ghost 3s ease-in-out;
@@ -1759,14 +1769,12 @@ fieldset {
   .is-visible {
     display: none; } }
 
+.home-icon {
+  width: 110px; }
+
 /* layout */
 .margin-top {
   margin-top: 3em; }
-
-.line {
-  stroke-dasharray: 2000;
-  stroke-dashoffset: 2000;
-  animation: dash 5s linear forwards; }
 
 /* Parallax Styles */
 .p-wrapper {

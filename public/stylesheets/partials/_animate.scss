@@ -1,3 +1,16 @@
+
+.line {
+    stroke-dasharray: 2000;
+    stroke-dashoffset: 2000;
+    animation: dash 5s linear forwards;
+  }
+
+  .outline {
+    stroke-dasharray: 2000;
+    stroke-dashoffset: 2000;
+    animation: dash 5s linear forwards; 
+  }
+
 #text {
 }
 
