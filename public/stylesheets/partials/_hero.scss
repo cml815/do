@@ -69,7 +69,6 @@
   
   .small-text-column p {
     font-size: 1.25em;
-    margin-top: 100px;
     @include mobile-plus {
       font-size: 1.5em;
     }
@@ -103,10 +102,6 @@
 
   // special hero styles //
 
-  .home .hero {
-
-  }
-  
   .press-case-study .hero--short {
    background-color: $cerise;
   }

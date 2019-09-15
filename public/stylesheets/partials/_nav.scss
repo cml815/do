@@ -7,11 +7,20 @@ nav {
     background-color: transparent;
     text-align: center;
     margin: 0 auto;
-    height: 56px;
     z-index: 10;
     @include mobile-plus {
-      height: 3em;
     }
+  }
+
+nav li, nav p {
+  margin-bottom: 0;
+}
+
+nav button {
+  height: 56px;
+}
+  .navbar {
+    height: 3em;
   }
 
   .about nav {
@@ -50,6 +59,7 @@ nav {
   }
 
   */
+
   
   .navigation {
     display: -webkit-box;
@@ -95,6 +105,7 @@ nav {
 
   .btn--menu {
     all:unset;
+    height: 46px;
     background-color: $accent;
     padding: .5em;
     text-align: center;
