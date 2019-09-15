@@ -470,42 +470,6 @@ article > h6 {
     will-change: opacity;
   }
 
-  /* Slide in right */
-
-  @-webkit-keyframes slide-in-right {
-    from { margin-right: -100%;    }
-    to   { margin-right: 25%; }
-}
-
-@keyframes slide-in-right {
-  from { margin-right: -100%;    }
-  to   { margin-right: 25%; }
-}
-
-
-$total-items: 4;
-
-  .menu-reveal-container {
-    width: 100%;
-    position: absolute;
-    margin-top: 25px;
-    margin-left: -150px;
-  }
-
-  .menu-reveal li {
-    position: relative;
-    display: block;
-    line-height: 1.4em;
-    border-bottom: 1px solid hotpink;
-    margin-bottom: 16px;
-    padding: 10px 0px;
-    animation: fadeIn 0.5s linear;
-    animation-fill-mode: both;
-  }
-
-
-
-
 /* Footer */
 
 footer {
@@ -615,12 +579,31 @@ footer li {
  
 }
 
+.image__container {
+  position: relative;
+  text-align: center;
+  color: $white;
+}
+
+.bottom-left {
+  position: absolute;
+  bottom: 8px;
+  left: 16px;
+}
+
+
+
+.image__background {
+  position: relative;
+}
+
+
 .fund {
   background-color: #f6fac6
 }
 
 .market {
-  background-color: #0f255d;
+  background-color: $night;
   color: $white;
 }
 
@@ -717,6 +700,7 @@ animation: fade-in 1.4s;
 }
 
 .team-gallery {
+  background: linear-gradient(to right bottom, #292d38 50%, #212531 50%);
 
 }
 

@@ -140,6 +140,9 @@
   }
   
     // Set delay per List Item
+
+$total-items: 4;
+
 @for $i from 1 through $total-items {
   li:nth-child(#{$i}) {
     animation-delay: 1s * $i;
@@ -166,7 +169,7 @@
     }
   }
   @keyframes slide-in-right {
-    0% {
+    0% 
       -webkit-transform: translateX(1000px);
               transform: translateX(1000px);
       opacity: 0;
@@ -179,3 +182,15 @@
   }
 
   */
+
+    /* Slide in right */
+
+    @-webkit-keyframes slide-in-right {
+      from { margin-right: -100%;    }
+      to   { margin-right: 25%; }
+  }
+  
+  @keyframes slide-in-right {
+    from { margin-right: -100%;    }
+    to   { margin-right: 25%; }
+  }
