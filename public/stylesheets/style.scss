@@ -5,6 +5,12 @@
   margin-top: 3em;
 }
 
+.line {
+  stroke-dasharray: 2000;
+  stroke-dashoffset: 2000;
+  animation: dash 5s linear forwards;
+}
+
 /* Parallax Styles */
 .p-wrapper {
   display: flex;
