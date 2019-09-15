@@ -126,6 +126,14 @@ nav button {
     color: rgb(0, 0, 0); /* over-ridden todo fix  */
   }
   
+  .projects .nav-link {
+    color: $white;
+  }
+
+  .projects .logo-link {
+    color: $cerise;
+  }
+
   nav li:hover {
       cursor: pointer; }
 

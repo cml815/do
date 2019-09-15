@@ -270,13 +270,12 @@ li:nth-child(4) {
     margin-right: 25%; } }
 
 /* Slideshow */
-body {
-  font-family: 'Open Sans', sans-serif; }
-
-h2 {
-  font-weight: 700;
-  font-size: 22px;
-  margin-bottom: 15px; }
+/* 
+  https://codepen.io/CheeStudio/pen/vYBmEVy
+  
+  https://codepen.io/tudorsuhan/pen/yJwvNo */
+.slide-title {
+  margin-bottom: 1em; }
 
 p {
   font-size: 1.1em;
@@ -1197,6 +1196,12 @@ nav li {
 nav li a {
   color: black;
   /* over-ridden todo fix  */ }
+
+.projects .nav-link {
+  color: white; }
+
+.projects .logo-link {
+  color: #FA526F; }
 
 nav li:hover {
   cursor: pointer; }
