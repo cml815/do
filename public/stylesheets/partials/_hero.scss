@@ -79,7 +79,18 @@
   
 .home .hero {
   background-color: $black;
-    color: lighten($black, 60%);
+}
+
+.home h1 {
+  color: lighten($black, 80%);
+}
+
+.home .hero p {
+  color: $white;
+}
+
+.color-red {
+  color: $cerise;
 }
 
   .space-tight {
