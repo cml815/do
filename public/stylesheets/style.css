@@ -1673,7 +1673,7 @@ fieldset {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 420px; }
+  height: 600px; }
 
 .p-container {
   position: relative;
@@ -1695,7 +1695,7 @@ fieldset {
 
 .foreground {
   margin-top: auto;
-  margin-bottom: 50px;
+  margin-bottom: 100px;
   transform-origin: 0;
   transform: translateZ(3px) scale(0.625);
   /* Uncomment the code below to see the difference the scale property makes! */

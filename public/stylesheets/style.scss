@@ -10,7 +10,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 420px;
+  height: 600px;
 }
 .p-container {
   position: relative;
@@ -34,8 +34,7 @@
 
 .foreground {
   margin-top: auto;
-  margin-bottom: 50px;
-  
+  margin-bottom: 100px;
   transform-origin: 0;
   transform: translateZ(3px) scale(0.625);
   
