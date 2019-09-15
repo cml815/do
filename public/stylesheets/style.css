@@ -1174,7 +1174,6 @@ nav li:hover {
   max-width: 50ch; }
 
 .case-container__aside {
-  min-width: 400px;
   flex: 0 1; }
 
 .press-case-study aside {
@@ -1357,6 +1356,10 @@ aside {
   position: relative;
   height: 800px;
   width: 800px; }
+  @media (max-width: 599px) {
+    .img__display {
+      width: 100vw;
+      height: auto; } }
 
 .img__images .front {
   position: absolute;
@@ -1366,28 +1369,33 @@ aside {
   transition: transform .2s;
   z-index: 4; }
 
-.img__images .side {
-  position: absolute;
-  left: 350px;
-  bottom: 100px;
-  right: 0;
-  height: 400px;
-  width: 320px;
-  transition: transform .2s;
-  z-index: 5; }
+@media (min-width: 600px) {
+  .img__images .side {
+    position: absolute;
+    left: 350px;
+    bottom: 100px;
+    right: 0;
+    height: 400px;
+    width: 320px;
+    transition: transform .2s;
+    z-index: 5; } }
 
 .side:hover, .top:hover, .front:hover {
   z-index: 6 !important;
   transform: scale(1.02); }
 
-.img__images .top {
-  position: absolute;
-  top: 0px;
-  right: 100px;
-  height: 400px;
-  width: 320px;
-  transition: transform .2s;
-  z-index: 2; }
+@media (min-width: 600px) {
+  .img__images .top {
+    position: absolute;
+    top: 0px;
+    right: 100px;
+    height: 400px;
+    width: 320px;
+    transition: transform .2s;
+    z-index: 2; } }
+  @media (min-width: 600px) and (max-width: 599px) {
+    .img__images .top .img__images img .top {
+      display: none; } }
 
 .img__caption {
   position: absolute;
@@ -1397,20 +1405,23 @@ aside {
 .narrative {
   width: 50%; }
 
+/* 
 .video-wrap {
   position: relative;
   width: 100%;
   margin-top: 2em;
-  padding-bottom: 56.25%;
-  height: 0; }
-
+  padding-bottom: 56.25%; 
+  height: 0;
+}
 .iframe-container iframe {
   position: absolute;
-  top: 0;
+  top:0;
   left: 0;
   width: 100%;
-  height: 100%; }
+  height: 100%;
+}
 
+*/
 /* Helper classes */
 .caps {
   text-transform: uppercase; }
@@ -1620,12 +1631,9 @@ box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75); */
   section, figure, .flex-c {
     flex-direction: column; } }
 
-/* 
- * {
-  border: 1px solid red;
- }
+* {
+  border: 1px solid red; }
 
- */
 *, *:before, *:after {
   box-sizing: inherit; }
 
