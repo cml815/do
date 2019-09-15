@@ -1,10 +1,6 @@
 /// Case Study & Service Page Styles ///
 /* Service styles */
 
-.case-container {
- 
-}
-
 .case-container h4 {
   padding-bottom: .5em;
   
@@ -20,12 +16,6 @@
 
 .case-container__text {
   max-width: 50ch;
-}
-
-.case-container__aside {
-  flex: 0 1;
-  @include mobile-plus {
-  }
 }
 
 .press-case-study aside {
@@ -103,6 +93,7 @@ aside {
   color: $white;
   padding: 2vw;
   margin-top: 50px;
+  max-width: 400px;
 }
 
 .case-inner > * {
@@ -121,6 +112,10 @@ aside {
 .flex-c--space-between {
   display: flex;
   justify-content: space-between;
+}
+
+.flex-c--justify-center {
+  justify-items: center;
 }
 
 .fine-print .no-margin {
