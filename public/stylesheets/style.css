@@ -1378,7 +1378,7 @@ aside {
 
 .side:hover, .top:hover, .front:hover {
   z-index: 6 !important;
-  transform: scale(1.05); }
+  transform: scale(1.02); }
 
 .img__images .top {
   position: absolute;
@@ -2290,7 +2290,7 @@ footer li {
   padding: 1em 0;
   font-size: 1em;
   text-align: center;
-  background-color: #f9455f;
+  background-color: #a2182c;
   color: white; }
 
 .social-links {
