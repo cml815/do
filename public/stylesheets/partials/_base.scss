@@ -115,7 +115,11 @@ p, li {
     font-size: 1em;
     line-height: 1.5;
     margin-bottom: .75em;
-    max-width: $max-width-base;
+    
+}
+
+p {
+  max-width: $max-width-base;
 }
 
 ul, li {

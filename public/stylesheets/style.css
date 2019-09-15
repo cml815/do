@@ -1545,7 +1545,9 @@ p, li {
   font-family: "DM Sans", "Helvetica Neue", "Helvetica", Arial, sans-serif;
   font-size: 1em;
   line-height: 1.5;
-  margin-bottom: .75em;
+  margin-bottom: .75em; }
+
+p {
   max-width: 768px; }
 
 ul, li {
