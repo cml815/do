@@ -243,3 +243,10 @@ background
   background-size: cover;
 
   }
+
+  Darcie Goodwin works as a marketing and communications consultant for clients including FedEx Express Asia Pacific, Think Global and Kudzukian. Her previous experience includes serving as Communications Manager for FedEx Express in China and traveling the globe with ORBIS International, where she handled media relations and communications. She has also held positions at the Oklahoma Department of Commerce; the Taipei YMCA; and, with former US Congressman Buddy MacKay.
+ 
+Darcie earned her BA in Economics and Political Science from Drew University and an MBA in International Management from Thunderbird School of Global Management. She is proficient in Mandarin Chinese.
+
+More than 20 years experience handling communications in countries including the U.S., China, Germany, India and Peru.
+Works with both Fortune 500 and start up businesses.

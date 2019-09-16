@@ -77,7 +77,12 @@
   // hero custom home page // 
   
 .home .hero {
-  background-color: $black;
+  background-color: $coal;
+  background-image: url("../images/cell-heart-color.svg");
+  background-repeat: no-repeat;
+  background-blend-mode: screen;
+  background-position: right;
+  
 }
 
 .home h1 {

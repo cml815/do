@@ -11,6 +11,15 @@
     animation: dash 5s linear forwards; 
   }
 
+  .tree {
+    fill: #000;
+    stroke: #000;
+    stroke-width: 2px;
+    stroke-dasharray: 2000;
+    stroke-linejoin: round;
+    animation: dash 5s linear forwards; 
+  }
+
 #text {
 }
 

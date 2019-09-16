@@ -80,6 +80,14 @@ xl, extra-large: 1920px or larger
   stroke-dashoffset: 2000;
   animation: dash 5s linear forwards; }
 
+.tree {
+  fill: #000;
+  stroke: #000;
+  stroke-width: 2px;
+  stroke-dasharray: 2000;
+  stroke-linejoin: round;
+  animation: dash 5s linear forwards; }
+
 #heart {
   animation: pop1 3s ease infinite;
   animation: ghost 3s ease-in-out;
@@ -1694,7 +1702,11 @@ img.center {
       font-size: 1.5em; } }
 
 .home .hero {
-  background-color: #141414; }
+  background-color: #232324;
+  background-image: url("../images/cell-heart-color.svg");
+  background-repeat: no-repeat;
+  background-blend-mode: screen;
+  background-position: right; }
 
 .home h1 {
   color: #e0e0e0; }
@@ -2044,6 +2056,7 @@ fieldset {
   line-height: 1.6em; }
 
 .home-icon {
+  margin-top: 2em;
   width: 110px; }
 
 /* layout */
