@@ -215,6 +215,11 @@ background-color: $night;
   max-width: 100px;
 }
 
+.place-left {
+  margin-left: -100px;
+}
+
+
 @include mobile {
   .text-rotated {
     display: none;

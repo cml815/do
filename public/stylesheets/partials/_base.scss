@@ -110,12 +110,11 @@ h6 {
   font-family: $sans;
 }
 
-p, li {
+p {
     font-family: $sans;
     font-size: 1em;
     line-height: 1.5;
-    margin-bottom: .75em;
-    
+    margin-bottom: .75em;   
 }
 
 p {
@@ -126,7 +125,10 @@ ul, li {
     list-style-type: none;
 }
 
-.indent li {
+li {
+  font-size: 1em;
+  line-height: 1.1em;
+  margin-bottom: .5em;
   text-indent: .5em;
 }
 

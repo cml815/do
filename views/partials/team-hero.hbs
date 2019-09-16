@@ -1,11 +1,13 @@
-<section class="hero">
+<section class="hero team">
   <div class="hero__text-container flex-c--center">
-    <div class="hero__text">
-      <p class="fine-print">Meet the Team</p>
-      <h1 class="huge large-print text-outline">{{firstname}}</h1>
+      <div class="container--vertical-text ">
+        <p class="text-rotated place-left color--white">Meet the Team</p>
+      </div>
+    <div class="hero__text hero__text---team">
+      <h1 class="huge"><span class="text-outline">{{firstname}}<br></span><span class="color--white">{{lastname}}</span></h1>
     </div>
     <div class="image-container">
-        <img src="../images/{{img}}.jpg" width="500px" alt="{{fullname}}" />
+        <img class="shadow" src="../images/{{img}}.jpg" width="600px" alt="{{fullname}}" />
     </div>  
   </div>
 </section>

@@ -107,6 +107,26 @@
 
   // special hero styles //
 
+  .hero__text--team {
+    background-color: $white;
+    padding: 2em;
+    height: 50vh;
+  }
+
+  .hero.team {
+
+    background: rgb(11,10,10);
+    background: linear-gradient(0deg, rgba(11,10,10,1) 0%, rgba(15,14,14,1) 50%, rgba(255,255,255,1) 50%);
+  }
+
+  .color--white {
+    color: $white;
+  }
+
+  .image-container {
+  
+  }
+
   .press-case-study .hero--short {
    background-color: $cerise;
   }

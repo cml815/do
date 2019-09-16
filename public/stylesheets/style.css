@@ -1723,6 +1723,18 @@ img.center {
 .no-margin {
   margin: 0; }
 
+.hero__text--team {
+  background-color: white;
+  padding: 2em;
+  height: 50vh; }
+
+.hero.team {
+  background: #0b0a0a;
+  background: linear-gradient(0deg, #0b0a0a 0%, #0f0e0e 50%, white 50%); }
+
+.color--white {
+  color: white; }
+
 .press-case-study .hero--short {
   background-color: #FA526F; }
 
@@ -1908,7 +1920,7 @@ h6 {
 .sans {
   font-family: "DM Sans", "Helvetica Neue", "Helvetica", Arial, sans-serif; }
 
-p, li {
+p {
   font-family: "DM Sans", "Helvetica Neue", "Helvetica", Arial, sans-serif;
   font-size: 1em;
   line-height: 1.5;
@@ -1920,7 +1932,10 @@ p {
 ul, li {
   list-style-type: none; }
 
-.indent li {
+li {
+  font-size: 1em;
+  line-height: 1.1em;
+  margin-bottom: .5em;
   text-indent: .5em; }
 
 li:hover {
@@ -2217,6 +2232,9 @@ fieldset {
 
 .container--vertical-text {
   max-width: 100px; }
+
+.place-left {
+  margin-left: -100px; }
 
 @media (max-width: 599px) {
   .text-rotated {
