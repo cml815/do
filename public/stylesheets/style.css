@@ -617,8 +617,26 @@ figure.card:nth-child(2) {
   background-color: #141414;
   color: #FA526F; }
 
+.grid-item-1 {
+  background-color: #efefef; }
+
+.grid-item-3 {
+  background-color: white; }
+
+.grid-item-4 {
+  background-color: #FA526F; }
+
+.grid-item-6 {
+  padding-top: 4em; }
+
 .justify-center {
   justify-items: center; }
+
+a > figcaption {
+  text-decoration: none; }
+
+.top-margin {
+  padding-top: 1.5em; }
 
 /* About image gallery */
 .team-grid {
@@ -1085,16 +1103,12 @@ blockquote {
 .aspect-ratio--16x9 {
   padding: 56.25% 0 0 0; }
 
-/* 
-.zoom-in-out img {
-  transition: .6s ease-in-out;
-}
+.zoom-in-out {
+  transition: transform 1s; }
 
 .zoom-in-out:hover {
-  transform: scale(1.15);
-}
+  transform: scale(1.05); }
 
-*/
 /* Navigation */
 /* https://www.w3schools.com/code/tryit.asp?filename=G6913M8THUXM */
 nav {

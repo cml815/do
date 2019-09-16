@@ -297,8 +297,30 @@ figure.card:nth-child(2) {
   color: $cerise;
 }
 
+.grid-item-1 {
+  background-color: $gray-light;
+}
+
+.grid-item-3 {
+  background-color: lighten($cerise, 50%);
+}
+.grid-item-4 {
+  background-color: $cerise;
+}
+
+.grid-item-6 {
+  padding-top: 4em;
+}
 .justify-center {
   justify-items: center;
+}
+
+a > figcaption {
+  text-decoration: none;
+}
+
+.top-margin {
+  padding-top: 1.5em;
 }
 
 

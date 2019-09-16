@@ -16,13 +16,14 @@
   padding: 56.25% 0 0 0;
 }
 
-/* 
-.zoom-in-out img {
-  transition: .6s ease-in-out;
+
+.zoom-in-out {
+  // transition: .6s ease-in-out;
+  transition: transform 1s;
 }
 
 .zoom-in-out:hover {
-  transform: scale(1.15);
+  transform: scale(1.05);
 }
 
-*/
+
