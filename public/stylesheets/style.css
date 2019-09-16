@@ -450,18 +450,22 @@ p {
 
 .content-image {
   width: 80%;
-  height: 150vh;
-  min-height: 200px;
+  height: 100vh;
   overflow: auto;
   position: -webkit-sticky;
   position: sticky;
   top: 0; }
 
+.container__wrap {
+  background-color: yellow;
+  color: black; }
+
 .about-intro__wrap {
   background-color: yellow; }
 
 .container__text {
-  background-color: blue; }
+  background-color: #fee7eb;
+  color: #141414; }
 
 .theme--red {
   background-color: #FA526F;
