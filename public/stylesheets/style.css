@@ -444,6 +444,29 @@ p {
   max-width: 1000px;
   padding: 1em; }
 
+.container__text {
+  max-width: 600px;
+  padding: 1em 5em; }
+
+.content-image {
+  width: 80%;
+  height: 150vh;
+  min-height: 200px;
+  overflow: auto;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0; }
+
+.about-intro__wrap {
+  background-color: yellow; }
+
+.container__text {
+  background-color: blue; }
+
+.theme--red {
+  background-color: #FA526F;
+  color: white; }
+
 .banner {
   width: 100%;
   background-color: transparent; }
