@@ -283,7 +283,7 @@ figure.card:nth-child(2) {
 .grid-c--2x4 {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: repeat(4, 1fr);
+  grid-template-rows: repeat(4, minmax(200px, 500px));
   grid-gap: 1em;
   @include mobile {
     /* change to 1 column grid */
@@ -293,7 +293,7 @@ figure.card:nth-child(2) {
 }
 
 
-.gjustify-center {
+.justify-center {
   justify-items: center;
 }
 
