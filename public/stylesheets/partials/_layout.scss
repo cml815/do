@@ -292,6 +292,10 @@ figure.card:nth-child(2) {
   }
 }
 
+.grid-item-color {
+  background-color: $black;
+  color: $cerise;
+}
 
 .justify-center {
   justify-items: center;
@@ -616,6 +620,8 @@ figure.card:nth-child(2) {
 .grid-meta {
   grid-column: 8 / span 4;
   grid-row: 1 / span 3;
+  background-color: $night;
+  color: lighten($night, 70%);
 }
 
 .grid-challenge {

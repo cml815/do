@@ -613,6 +613,10 @@ figure.card:nth-child(2) {
       grid-template-columns: repeat(1, 1fr);
       grid-gap: 0; } }
 
+.grid-item-color {
+  background-color: #141414;
+  color: #FA526F; }
+
 .justify-center {
   justify-items: center; }
 
@@ -856,7 +860,9 @@ figure.card:nth-child(2) {
 
 .grid-meta {
   grid-column: 8 / span 4;
-  grid-row: 1 / span 3; }
+  grid-row: 1 / span 3;
+  background-color: #242943;
+  color: #dee1ee; }
 
 .grid-challenge {
   grid-column: 2 / span 3;
@@ -1977,6 +1983,9 @@ fieldset {
 @media (max-width: 599px) {
   .is-visible {
     display: none; } }
+
+.grid-item {
+  background-color: #3a4aa5; }
 
 .line-wrap {
   line-height: 1.6em; }
