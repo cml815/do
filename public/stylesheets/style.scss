@@ -230,7 +230,7 @@ background-color: $night;
   background-color: transparent;
   // color: rgba(0,0,0,0.2);
   font-family: $sans;
-  font-size: 1.4em;
+  font-size: 1em;
   font-weight: bold;
   border-left: 2px solid $accent;
    //text-decoration: underline;
@@ -751,6 +751,7 @@ animation: fade-in 1.4s;
 
 .icons {
   padding: 2em 0;
+  width: 768px;
 }
 
 .icon__container {

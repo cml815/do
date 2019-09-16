@@ -80,7 +80,7 @@
 
 
 .inactive {
-  background-color: $charcoal;
+  background-color: $coal;
   color: white;
 }
 
@@ -217,7 +217,7 @@ line-height: 1.25em;
 
 .grid__item--header > h2 {
   text-align: center;
-  color: $charcoal;
+  color: $coal;
 }
   .grid__item--main {
     grid-area: main;
@@ -249,7 +249,7 @@ line-height: 1.25em;
 .case-header li {
   margin-right: 1em;
   padding: 25em;
-  border: solid 1px $charcoal;
+  border: solid 1px $coal;
 }
 
 /* Next project component */

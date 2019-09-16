@@ -207,7 +207,7 @@ balls.forEach((el, i, ra) => {
 
 */
 
-/* Slideshow */
+/* Testimonial slideshow */
 
 var slideshow = document.querySelector('.slide-wrap');
 

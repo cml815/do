@@ -195,16 +195,24 @@ $total-items: 4;
     to   { margin-right: 25%; }
   }
 
-  /* Slideshow */
+  /* Testimonial slideshow */
   
   /* 
   https://codepen.io/CheeStudio/pen/vYBmEVy
   
   https://codepen.io/tudorsuhan/pen/yJwvNo */ 
 
+  .testimonial-slider {
+    background-color: $coal;
+    @include mobile-plus {
+      padding: 6em 2em;
+    }
+  }
 
   .slide-title {
     margin-bottom: 1em;
+    text-transform: uppercase;
+    text-align: center;
   }
   
   p {
@@ -214,9 +222,12 @@ $total-items: 4;
   
   .slide-wrap {
     position: relative;
-      max-width:1000px;
+    max-width: 900px;
     margin: 0 auto;
     transition:300ms;
+    background-color: $gray-light;
+    margin-top: 2em;
+    
   }
   
   .slideshow {
@@ -230,18 +241,21 @@ $total-items: 4;
     left: 0;
   right: 0;
     margin:0 auto;
-    text-align: center;
+    // text-align: center;
     z-index: 20;
     opacity: 0;
     visibility: hidden;
-    padding: 20px 5%;
+    padding: 2em 10%;
     transition:300ms;
   &.active {
       opacity: 1;
       visibility: visible;
     }
   }
-  
+
+  .slide-entry .indent {
+    text-indent: .5em;
+  }
   
   .slide-nav {
     display: flex;
@@ -258,17 +272,26 @@ $total-items: 4;
     z-index: 0;
     li {
       cursor: pointer;
-      color:#ccc;
-      font-size:25px;
+      color:rgb(236, 221, 221);
+      font-size:64px;
+      @include mobile {
+        font-size: 1.5em;
+      }
     }
   }
   
   #prev-slide {
-    margin-left:-20px;
+    margin-left:-50px;
+    @include mobile {
+      margin-left: 0px;
+    }
   }
   
   #next-slide {
-    margin-right:-20px;
+    margin-right:-50px;
+    @include mobile {
+      margin-right: 0px;
+    }
   }
   
   /* Responsive Video Embeds
