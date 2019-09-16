@@ -276,7 +276,7 @@ line-height: 1.25em;
   top: 100px;
   height: 500px;
   width: 400px;
-  transition: transform .2s;
+  transition: transform 1s;
   z-index: 4;
 }
 
@@ -288,7 +288,7 @@ line-height: 1.25em;
   right: 0;
   height: 400px;
   width: 320px;
-  transition: transform .2s;
+  transition: transform .8s;
   z-index: 5;
 }
 
@@ -307,7 +307,7 @@ line-height: 1.25em;
   right: 100px;
   height: 400px;
   width: 320px;
-  transition: transform .2s;
+  transition: transform 1s;
   z-index: 2;
   @include mobile {
     .img__images img .top {

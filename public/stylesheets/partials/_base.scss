@@ -126,6 +126,10 @@ ul, li {
     list-style-type: none;
 }
 
+.indent li {
+  text-indent: .5em;
+}
+
 li:hover {
   cursor: pointer;
 }
