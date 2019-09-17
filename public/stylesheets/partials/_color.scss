@@ -21,6 +21,17 @@
     background-color: $orange;
     color: $black;
   }
+
+  .theme--indigo {
+    background-color: $indigo;
+    color: $white;
+  }
+
+  .theme--night {
+    background-color: $night;
+    color: $white;
+  }
+  
   
   .theme__gradient--red {
     background: linear-gradient(to right bottom, $cerise 60%, lighten($cerise, 5%) 40%);
@@ -65,4 +76,5 @@
   .team-gallery {
     background: linear-gradient(to right bottom, #292d38 50%, #212531 50%);
   }
+  
   

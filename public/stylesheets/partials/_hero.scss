@@ -41,14 +41,13 @@
     align-items: center; 
   }
   
-  .hero h1, .hero--short h1 {
-    @include mobile-plus {
-      font-size: 2.25em;
-    }
-  }
-
   .hero__text-container {
-    padding: 0 2em;
+    margin-top: 2em;
+    padding: 2em;
+    flex: 1 1 25%;
+    @include mobile-plus {
+     
+    }
   }
 
   @include mobile {
@@ -59,12 +58,18 @@
 
   @include mobile-plus {
     .hero__text {
-      width: 60%;
+      width: 40%;
     }  
+  }
+
+  .hero__cta-container {
+    flex: 2 1 75%;
+    padding-right: 4em;
   }
 
   .small-text-column {
     width: 250px;
+    padding: 2em 0;
   }
   
   .small-text-column p {
@@ -72,6 +77,14 @@
     @include mobile-plus {
       font-size: 1.5em;
     }
+  }
+
+  .cta {
+    @include mobile-plus {
+      padding-top: 2em;
+      margin-bottom: -100px;
+    }
+   
   }
   
   // hero custom home page // 
@@ -81,12 +94,18 @@
   height: 70vh;
 }
 
-.home h1, .home p {
-  color: $white;
+.home h1 {
+  letter-spacing: .06em;
+  color: lighten($coal, 40%);
+
+}
+.home .hero p {
+  color: rgba(255, 255, 255, .8 );
 }
 
+
   .space-tight {
-    margin-bottom: .25em;
+    margin-bottom: 0;
   }
 
   .no-margin {

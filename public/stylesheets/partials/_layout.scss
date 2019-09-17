@@ -9,6 +9,9 @@
     color: $black; 
   }
 
+.margin-move {
+  margin-bottom: -125px;
+}
 /* utility classes */ 
 
 .inner {
@@ -172,7 +175,7 @@ figure.card:nth-child(2) {
 }
 
 .larger {
-    font-size: 1.25em;
+    font-size: 1.5em;
 }
 
 .xlarge {

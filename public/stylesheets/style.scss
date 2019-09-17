@@ -104,6 +104,23 @@
 }
 
 
+.benefit-1 h6 {
+  color: lighten($cerise, 10%);
+} 
+
+.benefit-2 h6 {
+  color: lighten($indigo, 20%);
+} 
+
+.benefit-3 h6 {
+  color: lighten($cerise, 20%);
+} 
+
+.benefit-4 h6 {
+  color: lighten($indigo, 30%);
+} 
+
+
 .bg-shape {
   border-radius: 0% 0% 27% 22% / 10% 10% 34% 10%;
   background-image: radial-gradient( circle 920px at 2.4% 5.2%,  rgba(247,2,210,1) 0%, rgba(249,211,0,1) 99.7% ); 
@@ -435,7 +452,7 @@ article > h6 {
 
 footer {
 position: relative;
-background-color: lighten($black, 5%);
+background-color: $coal;
 color: $white;
 }
 
@@ -495,9 +512,7 @@ footer li {
   font-size: 1em;
   text-align: center;
   // background-color: #f9455f;
-  background-color: #a2182c;
-  // background: rgb(50,41,59);
-  // background: linear-gradient(45deg, rgba(50,41,59,1) 0%, rgba(49,53,117,1) 33%, rgba(49,50,117,1) 77%, rgba(50,41,59,1) 100%);
+  background-color: darken($coal, 2%);
   color: $white;
 }
 
@@ -513,6 +528,10 @@ footer li {
 
 .social-links li a {
   font-size: 1.25em;
+}
+
+.wave-up {
+  margin-bottom: -50px;
 }
 
 
@@ -553,20 +572,11 @@ footer li {
   left: 16px;
 }
 
-
-
+.panel.market {
+  margin-top: -200px;
+}
 .image__background {
   position: relative;
-}
-
-
-.fund {
-  background-color: #f6fac6
-}
-
-.market {
-  background-color: $night;
-  color: $white;
 }
 
 .panel__list li {
@@ -599,6 +609,7 @@ footer li {
 
 .testimonials {
   background-color: $gray-light;
+  color: $black;
 }
 
 .testimonials .fine-print {
