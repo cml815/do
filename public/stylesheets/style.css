@@ -450,7 +450,7 @@ p {
 
 .content-image {
   width: 80%;
-  height: 100vh;
+  height: 110vh;
   overflow: auto;
   position: -webkit-sticky;
   position: sticky;
