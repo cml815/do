@@ -1,0 +1,12 @@
+.color-red {
+    color: $cerise;
+  }
+  
+  .theme--cherry {
+    background-color: $cerise;
+    color: lighten($cerise, 40%);
+  }
+  
+  .theme--pool {
+    background-color: $pool;
+  }

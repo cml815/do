@@ -78,23 +78,11 @@
   
 .home .hero {
   background-color: $coal;
-  background-image: url("../images/cell-heart-color.svg");
-  background-repeat: no-repeat;
-  background-blend-mode: screen;
-  background-position: right;
-  
+  height: 70vh;
 }
 
-.home h1 {
-  color: lighten($black, 80%);
-}
-
-.home .hero p {
+.home h1, .home p {
   color: $white;
-}
-
-.color-red {
-  color: $cerise;
 }
 
   .space-tight {

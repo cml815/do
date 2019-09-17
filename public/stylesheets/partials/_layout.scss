@@ -31,6 +31,24 @@
 
 /* Full-width containers */
 
+.divider {
+  width: 100%;
+}
+
+@include mobile-plus {
+.place-adjust {
+  margin-top: -150px;
+  padding-top: 250px;
+}
+}
+
+@include mobile {
+  .place-adjust {
+    margin-top: -50px;
+    padding-top: 100px;
+  }
+}
+
 .container {
   @include padding
 }
@@ -339,7 +357,7 @@ figure.card:nth-child(2) {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: repeat(4, minmax(200px, 500px));
-  grid-gap: 1em;
+  grid-gap: 4em 1em;
   @include mobile {
     /* change to 1 column grid */
     grid-template-columns: repeat(1, 1fr);

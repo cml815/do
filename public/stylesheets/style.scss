@@ -99,6 +99,17 @@
 
 */ 
 
+/* Home Page */ 
+
+.theme--pool {
+  background-color: lighten($pool, 20%);
+}
+
+.theme--red {
+
+}
+
+
 .bg-shape {
   border-radius: 0% 0% 27% 22% / 10% 10% 34% 10%;
   background-image: radial-gradient( circle 920px at 2.4% 5.2%,  rgba(247,2,210,1) 0%, rgba(249,211,0,1) 99.7% ); 
@@ -672,7 +683,7 @@ footer li {
 
 @include mobile-plus {
   .panel {
-    padding: 8em 4em;
+    padding: 4em;
   }
 }
 
