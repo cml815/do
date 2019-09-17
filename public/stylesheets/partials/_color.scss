@@ -10,3 +10,14 @@
   .theme--pool {
     background-color: $pool;
   }
+
+/* 
+.theme-grape {
+  @include theme(theme-grape, )
+} */
+
+.light {
+    background-color: $gray-light;
+    color: $black;
+  }
+  
