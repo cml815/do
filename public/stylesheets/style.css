@@ -1901,6 +1901,10 @@ img.center {
   background-color: #232324;
   height: 70vh; }
 
+.hero.team {
+  background: #0b0a0a;
+  background: linear-gradient(0deg, #232324 0%, #232324 51%, white 51%); }
+
 .home h1 {
   letter-spacing: .06em;
   color: #88888b; }
@@ -1923,10 +1927,6 @@ img.center {
     background: rgb(11,10,10);
     background: linear-gradient(0deg, rgba(11,10,10,1) 0%, rgba(15,14,14,1) 50%, rgba(255,255,255,1) 50%);
   } */
-.hero.team {
-  background: #0b0a0a;
-  background: linear-gradient(0deg, #141414 0%, #141414 51%, white 51%); }
-
 .color--white {
   color: white; }
 

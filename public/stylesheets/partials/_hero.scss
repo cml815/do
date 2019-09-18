@@ -93,6 +93,14 @@
   background-color: $coal;
   height: 70vh;
 }
+.hero.team {
+  background: rgb(11,10,10);
+  background: linear-gradient(0deg, rgba(35, 35, 36,1) 0%, rgba(35, 35, 36,1) 51%, rgba(255,255,255,1) 51%);
+}
+
+
+
+
 
 .home h1 {
   letter-spacing: .06em;
@@ -125,10 +133,9 @@
     background: linear-gradient(0deg, rgba(11,10,10,1) 0%, rgba(15,14,14,1) 50%, rgba(255,255,255,1) 50%);
   } */
 
-  .hero.team {
-    background: rgb(11,10,10);
-    background: linear-gradient(0deg, rgba(20,20,20,1) 0%, rgba(20,20,20,1) 51%, rgba(255,255,255,1) 51%);
-  }
+
+
+  
 
   .color--white {
     color: $white;
