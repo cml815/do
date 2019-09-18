@@ -11,6 +11,9 @@
 
 .margin-move {
   margin-bottom: -125px;
+  @include mobile {
+    margin-bottom: -50px;
+  }
 }
 /* utility classes */ 
 

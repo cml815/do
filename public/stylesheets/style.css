@@ -19,6 +19,7 @@ $white: rgba(255, 255, 255, 1) !default;
 $red: #ff0000;
 
 */
+/* #3a4aa5 */
 /* dark blue */
 /* RGB */
 /* night */
@@ -509,6 +510,9 @@ p {
 
 .margin-move {
   margin-bottom: -125px; }
+  @media (max-width: 599px) {
+    .margin-move {
+      margin-bottom: -50px; } }
 
 /* utility classes */
 .inner {
@@ -1301,6 +1305,15 @@ nav button {
 .about nav {
   background-color: #f9395a; }
 
+.projects nav {
+  background-color: #232324; }
+
+.projects nav li a {
+  color: white; }
+
+.projects .hamburger {
+  color: white; }
+
 .nav-link {
   position: relative; }
 
@@ -1745,11 +1758,11 @@ aside {
 */
 /* Next project case study footer */
 .next-project {
-  background-color: #232324;
+  background-color: transparent;
   padding: 2em 0; }
 
 .next-project p {
-  color: white; }
+  color: #141414; }
 
 .link-text-large {
   font-size: 2em;
@@ -1868,7 +1881,11 @@ img.center {
 .hero__text-container {
   margin-top: 2em;
   padding: 2em;
-  flex: 1 1 25%; }
+  flex: 1 1 40%; }
+
+.hero__cta-container {
+  flex: 2 1 60%;
+  padding-right: 4em; }
 
 @media (max-width: 599px) {
   .hero__img {
@@ -1876,15 +1893,11 @@ img.center {
 
 @media (min-width: 600px) {
   .hero__text {
-    width: 40%; } }
-
-.hero__cta-container {
-  flex: 2 1 75%;
-  padding-right: 4em; }
+    width: 50%; } }
 
 .small-text-column {
   width: 250px;
-  padding: 2em 0; }
+  margin-top: 2em; }
 
 .small-text-column p {
   font-size: 1.25em; }
@@ -1952,6 +1965,12 @@ img.center {
 .about .hero {
   background-color: #FA526F;
   margin-top: -2px; }
+
+.growth-marketing .hero {
+  background-color: #3a4aa5; }
+
+.growth-marketing .hero h1, .growth-marketing .hero p {
+  color: white; }
 
 /* Styled links */
 a {
@@ -2264,6 +2283,12 @@ fieldset {
 @media (max-width: 599px) {
   .is-visible {
     display: none; } }
+
+.wave, .wave-footer {
+  fill: #232324; }
+
+.wave--indigo {
+  fill: #3a4aa5; }
 
 .grid-item {
   background-color: #3a4aa5; }
@@ -2709,8 +2734,13 @@ footer li {
 .social-links li a {
   font-size: 1.25em; }
 
-.wave-up {
-  margin-bottom: -50px; }
+@media (max-width: 599px) {
+  .wave-up {
+    margin-bottom: -10px; } }
+
+@media (min-width: 600px) {
+  .wave-up {
+    margin-bottom: -50px; } }
 
 .header__container {
   max-width: 60ch;
@@ -2760,6 +2790,9 @@ footer li {
 
 .button__container {
   padding: 2em 0; }
+  @media (max-width: 599px) {
+    .button__container {
+      padding: 0 0 3em; } }
 
 .testimonials {
   background-color: #efefef;
@@ -2813,6 +2846,14 @@ footer li {
 .about {
   min-height: 100%;
   height: 100%; }
+
+.about-intro__wrap, .margin-adjust {
+  margin-top: 100px;
+  z-index: -10; }
+
+.curve-red {
+  z-index: 100;
+  position: absolute; }
 
 .about figcaption {
   text-align: center; }

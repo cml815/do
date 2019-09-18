@@ -29,6 +29,18 @@ nav button {
     background-color: darken($cerise, 5%);
   }
 
+  .projects nav {
+    background-color: $coal;
+  }
+
+  .projects nav li a {
+    color: $white;
+  }
+
+  .projects .hamburger {
+    color: $white;
+  }
+
   .nav-link {
     position: relative;
   }

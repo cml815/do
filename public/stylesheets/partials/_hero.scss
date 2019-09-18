@@ -44,10 +44,15 @@
   .hero__text-container {
     margin-top: 2em;
     padding: 2em;
-    flex: 1 1 25%;
+    flex: 1 1 40%;
     @include mobile-plus {
      
     }
+  }
+
+  .hero__cta-container {
+    flex: 2 1 60%;
+    padding-right: 4em;
   }
 
   @include mobile {
@@ -58,18 +63,13 @@
 
   @include mobile-plus {
     .hero__text {
-      width: 40%;
+      width: 50%;
     }  
-  }
-
-  .hero__cta-container {
-    flex: 2 1 75%;
-    padding-right: 4em;
   }
 
   .small-text-column {
     width: 250px;
-    padding: 2em 0;
+    margin-top: 2em;
   }
   
   .small-text-column p {
@@ -176,4 +176,13 @@
     margin-top: -2px;
   }
 
-  
+  .grants .hero {
+  }
+
+.growth-marketing .hero {
+  background-color: $indigo;
+}
+
+.growth-marketing .hero h1, .growth-marketing .hero p {
+  color: $white;
+}

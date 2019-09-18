@@ -1,5 +1,13 @@
 @import "./partials/base";
 
+.wave, .wave-footer {
+  fill: #232324;
+}
+
+.wave--indigo {
+  fill: #3a4aa5
+}
+
 .grid-item {
   background-color: $indigo;
 }
@@ -531,7 +539,13 @@ footer li {
 }
 
 .wave-up {
-  margin-bottom: -50px;
+  @include mobile {
+    margin-bottom: -10px;
+  }
+  @include mobile-plus {
+    margin-bottom: -50px;  
+  }
+  
 }
 
 
@@ -605,6 +619,9 @@ footer li {
 
 .button__container {
   padding: 2em 0;
+  @include mobile {
+    padding: 0 0 3em;
+  }
 }
 
 .testimonials {
@@ -671,6 +688,19 @@ animation: fade-in 1.4s;
   min-height: 100%;
   height: 100%;
 }
+
+.about-intro__wrap, .margin-adjust {
+  margin-top: 100px;
+  z-index: -10;
+}
+
+.curve-red {
+  z-index: 100;
+  position: absolute;
+  // left: 0px;
+  //top: 0px;
+}
+
 
 
 .about figcaption {

@@ -351,12 +351,12 @@ line-height: 1.25em;
 /* Next project case study footer */
 
 .next-project {
-  background-color: $coal;
+  background-color: transparent;
   padding: 2em 0;
 }
 
 .next-project p {
-  color: lighten($orange, 40%);
+  color: $black;
 }
 
 .link-text-large {
