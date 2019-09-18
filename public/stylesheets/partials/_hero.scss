@@ -120,10 +120,14 @@
     height: 50vh;
   }
 
-  .hero.team {
-
+  /* .hero.team {
     background: rgb(11,10,10);
     background: linear-gradient(0deg, rgba(11,10,10,1) 0%, rgba(15,14,14,1) 50%, rgba(255,255,255,1) 50%);
+  } */
+
+  .hero.team {
+    background: rgb(11,10,10);
+    background: linear-gradient(0deg, rgba(20,20,20,1) 0%, rgba(20,20,20,1) 51%, rgba(255,255,255,1) 51%);
   }
 
   .color--white {
