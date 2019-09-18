@@ -2753,6 +2753,9 @@ footer li {
   line-height: 1em;
   margin: 0 0 .5em; }
 
+.panel {
+  max-width: 900px;
+}
 @media (min-width: 600px) {
   .panel {
     padding: 4em; } }
