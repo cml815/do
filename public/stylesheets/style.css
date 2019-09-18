@@ -552,8 +552,10 @@ p {
   padding: 1em; }
 
 .container__text {
-  max-width: 600px;
-  padding: 1em 5em; }
+  max-width: 600px; }
+  @media (min-width: 600px) {
+    .container__text {
+      padding: 1em 5em; } }
 
 .content-image {
   width: 80%;
@@ -564,14 +566,10 @@ p {
   top: 0; }
 
 .container__wrap {
-  background-color: yellow;
   color: black; }
 
-.about-intro__wrap {
-  background-color: yellow; }
-
 .container__text {
-  background-color: #fee7eb;
+  background-color: #ff8f66;
   color: #141414; }
 
 .banner {
@@ -814,6 +812,31 @@ a > figcaption {
 @media (min-width: 600px) {
   .team-1, .team-3, .team-5 {
     margin-top: 100px; } }
+
+/* team bios */
+.bio-wrap {
+  background: linear-gradient(90deg, #ff4500 10%, white 10%); }
+
+.brag-container, .bio-container {
+  padding: 2em; }
+
+.bio-container {
+  padding: 2em; }
+
+.brag-container {
+  margin-left: 2em; }
+
+.brag-container h2 {
+  color: #ff4500; }
+
+.list-container {
+  padding: 2em 4em 2em; }
+
+.fa-linkedin {
+  font-size: 1.2em;
+  padding-left: 2em;
+  padding-bottom: 1em;
+  color: #141414; }
 
 .grid-c__fluid {
   display: grid;
@@ -2114,8 +2137,7 @@ ul, li {
 li {
   font-size: 1em;
   line-height: 1.1em;
-  margin-bottom: .5em;
-  text-indent: .5em; }
+  margin-bottom: .5em; }
 
 li:hover {
   cursor: pointer; }
@@ -2396,7 +2418,7 @@ fieldset {
     text-orientation: sideways;
     position: relative;
     top: 100px;
-    left: 1.5em;
+    left: .5em;
     background-color: transparent;
     font-family: "DM Sans", "Helvetica Neue", "Helvetica", Arial, sans-serif;
     font-size: 1em;

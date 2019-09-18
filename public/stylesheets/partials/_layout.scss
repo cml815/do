@@ -67,8 +67,9 @@
 
 .container__text {
   max-width: 600px;
-  padding: 1em 5em;
-  
+  @include mobile-plus {
+    padding: 1em 5em;
+  }
 }
 
 .content-image { 
@@ -87,7 +88,7 @@
 
 
 .container__text {
-  background-color: lighten($cerise, 30%);
+  background-color: lighten($orange-red, 20%);
   color: $black;
 }
 
@@ -402,6 +403,39 @@ a > figcaption {
   .team-1, .team-3, .team-5 {
     margin-top: 100px;
   } 
+}
+
+/* team bios */
+
+.bio-wrap {
+  background: linear-gradient(90deg, $orange-red 10%, $white 10%);
+}
+.brag-container, .bio-container {
+  padding: 2em;
+ 
+}
+
+.bio-container {
+  padding: 2em;
+}
+
+.brag-container {
+  margin-left: 2em;
+}
+
+.brag-container h2 {
+color: $orange-red;
+}
+
+.list-container {
+  padding: 2em 4em 2em;
+}
+
+.fa-linkedin {
+  font-size: 1.2em;
+  padding-left: 2em;
+  padding-bottom: 1em;
+  color: $black;
 }
 
 .grid-c__fluid {
