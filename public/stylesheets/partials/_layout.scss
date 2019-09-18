@@ -89,13 +89,10 @@
   color: black;
 }
 
-
 .container__text {
   background-color: lighten($orange-red, 20%);
   color: $black;
 }
-
-
 
 .banner {
     width: 100%;
@@ -149,18 +146,15 @@
 
 /* Cards */
 
-figure.card {
-  height: 50vh;
+.container__card {
+  display: flex;
+  flex-direction: column;
 }
 
-figure.card:first-child {
-  /* background-color: #070E16; */
-  /* background: lightblue url("../images/grant-sit-camera.jpg") no-repeat fixed center; */ 
-}
-
-figure.card:nth-child(2) {
-  /* background-color: $coal; */
-  /* background: lightblue url("../images/grant-sit-camera.jpg") no-repeat fixed center; */ 
+.container__caption {
+  background-color: darken($gray-light, 5%);
+  text-align: center;
+  padding: .5em 0;
 }
 
 /// Shapes /// 
@@ -954,6 +948,10 @@ color: $orange-red;
     margin-bottom: 1em;
   }
 
+  .small {
+    font-size: .5em;
+  }
+
   .text-outline {
     color: $white;
     text-shadow:
@@ -1004,3 +1002,11 @@ color: $orange-red;
     height: 40px;
     background: linear-gradient($black, $black) no-repeat center/1px 100%;
   }
+
+  .vertical-line--dark {
+    margin: 5em 0 0;
+    height: 40px;
+    background: linear-gradient($white, $white) no-repeat center/1px 100%;
+  }
+
+  

@@ -1,7 +1,112 @@
 /* Helper classes */
 
+.anchor a {
+  position: absolute;
+  left: 0px;
+}
+
+.anchor:before {
+  display: block; 
+  content: " "; 
+  margin-top: -120px; 
+  height: 120px; 
+  visibility: hidden; 
+  pointer-events: none;
+}
+
+
 .caps {
   text-transform: uppercase;
+}
+
+.circle {
+  height: 100px;
+  width: 100px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+
+.highlight {
+  background: $highlight;
+}
+
+img.center {
+  margin: 0 auto;
+}
+
+
+@include mobile {
+  .mobile-hide {
+    display:none;
+  }
+}
+
+.reset {
+  padding: 0;
+  margin: 0;
+}
+
+.shoutout {
+  margin-top: 4em;
+}
+
+.shoutout h2 {
+  max-width: 768px;
+}
+
+.place-left {
+  margin-left: -100px;
+}
+
+/* Vertical text */
+
+@include mobile {
+  .text-rotated {
+    display: none;
+  }
+}
+
+@include mobile-plus {
+.text-rotated {
+  writing-mode: vertical-rl;
+  text-orientation: sideways;
+  position: relative;
+  top: 100px;
+  left: .5em;
+  background-color: transparent;
+  // color: rgba(0,0,0,0.2);
+  font-family: $sans;
+  font-size: 1em;
+  font-weight: bold;
+  border-left: 2px solid $accent;
+   //text-decoration: underline;
+  // z-index: -1;
+ /* -webkit-text-fill-color: white; // Will override color (regardless of order)
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: black; */
+  /* text-shadow:
+       3px 3px 0 #000,
+      -1px -1px 0 #000,  
+      1px -1px 0 #000,
+      -1px 1px 0 #000,
+       1px 1px 0 #000; */
+  letter-spacing: 3px;
+}
+  
+}
+
+.text-rotated--dark {
+  color: $white;
+}
+
+.flex-end {
+  justify-content: flex-end;
+}
+
+.border-bottom {
+  border-bottom: 1px $pool solid;
 }
 
 /* Width styles */ 
@@ -30,6 +135,6 @@
   width: 66.67%;
 }
 
-img.center {
-  margin: 0 auto;
+.width-half {
+  width: 50%;
 }
