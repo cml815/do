@@ -31,6 +31,26 @@
     background-color: $night;
     color: $white;
   }
+
+  .theme--cs-press {
+    .case-meta__client {
+      color: $orange;
+    }
+  }
+
+  .theme--cs-influencer {
+    .case-meta__client {
+      color: $red;
+    }
+  }
+
+  .theme--cs-founder {
+    .case-meta__client {
+      color: $pool;
+    }
+  }
+  
+  
   
   
   .theme__gradient--red {

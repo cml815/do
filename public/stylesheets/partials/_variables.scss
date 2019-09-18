@@ -1,3 +1,27 @@
+/* As hex codes */
+
+.color-primary-0 { color: #345994 }	/* Main Primary color */
+.color-primary-1 { color: #7A97C5 }
+.color-primary-2 { color: #4E70A6 }
+.color-primary-3 { color: #1D4481 } /* blue */
+.color-primary-4 { color: #0F3166 }
+
+.color-secondary-1-0 { color: #4A3A9B }	/* Main Secondary color (1) */
+.color-secondary-1-1 { color: #8C80CA }
+.color-secondary-1-2 { color: #6455AE }
+.color-secondary-1-3 { color: #332287 }
+.color-secondary-1-4 { color: #22136B }
+
+.color-secondary-2-0 { color: #298E7D }	/* Main Secondary color (2) */
+.color-secondary-2-1 { color: #70C0B3 }
+.color-secondary-2-2 { color: #429F8F }
+.color-secondary-2-3 { color: #127B6A }
+.color-secondary-2-4 { color: #066253 }
+
+
+
+.primary{ color: #0F3166 }
+
 /* Size and spacing */
 
 $font-size-base: 16px;
@@ -90,7 +114,11 @@ $black: rgb(20, 20, 20);
 $white: rgb(255, 255, 255);
 $coal: #232324;
 $gray-light: rgb(239, 239, 239);
+$blue: #1D4481;
 
+$indigo: #332287;
+
+/*
 $indigo: rgb(58, 74, 165); /* #3a4aa5 */
 
 // $cerise: rgb(192, 46, 83);

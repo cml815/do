@@ -1,3 +1,56 @@
+/* As hex codes */
+.color-primary-0 {
+  color: #345994; }
+
+/* Main Primary color */
+.color-primary-1 {
+  color: #7A97C5; }
+
+.color-primary-2 {
+  color: #4E70A6; }
+
+.color-primary-3 {
+  color: #1D4481; }
+
+/* blue */
+.color-primary-4 {
+  color: #0F3166; }
+
+.color-secondary-1-0 {
+  color: #4A3A9B; }
+
+/* Main Secondary color (1) */
+.color-secondary-1-1 {
+  color: #8C80CA; }
+
+.color-secondary-1-2 {
+  color: #6455AE; }
+
+.color-secondary-1-3 {
+  color: #332287; }
+
+.color-secondary-1-4 {
+  color: #22136B; }
+
+.color-secondary-2-0 {
+  color: #298E7D; }
+
+/* Main Secondary color (2) */
+.color-secondary-2-1 {
+  color: #70C0B3; }
+
+.color-secondary-2-2 {
+  color: #429F8F; }
+
+.color-secondary-2-3 {
+  color: #127B6A; }
+
+.color-secondary-2-4 {
+  color: #066253; }
+
+.primary {
+  color: #0F3166; }
+
 /* Size and spacing */
 /* padding and margins */
 /* max-width */
@@ -19,7 +72,8 @@ $white: rgba(255, 255, 255, 1) !default;
 $red: #ff0000;
 
 */
-/* #3a4aa5 */
+/*
+$indigo: rgb(58, 74, 165); /* #3a4aa5 */
 /* dark blue */
 /* RGB */
 /* night */
@@ -445,12 +499,21 @@ p {
   color: #141414; }
 
 .theme--indigo {
-  background-color: #3a4aa5;
+  background-color: #332287;
   color: white; }
 
 .theme--night {
   background-color: #242943;
   color: white; }
+
+.theme--cs-press .case-meta__client {
+  color: #f9973b; }
+
+.theme--cs-influencer .case-meta__client {
+  color: #cf5372; }
+
+.theme--cs-founder .case-meta__client {
+  color: #57b8ff; }
 
 .theme__gradient--red {
   background: linear-gradient(to right bottom, #FA526F 60%, #fb6b84 40%); }
@@ -1466,7 +1529,7 @@ nav li:hover {
   text-decoration: none;
   font-size: 2em;
   font-weight: bold;
-  color: #3a4aa5;
+  color: #332287;
   border-bottom: solid 1px #efefef;
   display: block;
   /* Display block instead of inline */
@@ -1475,12 +1538,12 @@ nav li:hover {
   transition-timing-function: ease-in-out; }
 
 .overlay a:visited {
-  color: #3a4aa5; }
+  color: #332287; }
 
 /* When you mouse over the navigation links, change their color */
 .overlay a:hover, .overlay a:focus {
-  color: #c2c8e9;
-  background-color: #3a4aa5; }
+  color: #9f92e3;
+  background-color: #332287; }
 
 /* Position the close button (top right corner) */
 .overlay .closebtn {
@@ -1567,9 +1630,8 @@ aside {
 .case-meta {
   background-color: #141414;
   color: white;
-  padding: 2vw;
-  margin-top: 50px;
-  max-width: 400px; }
+  padding: 5vw;
+  max-width: 500px; }
 
 .case-inner > * {
   padding: 0 0 1em; }
@@ -1764,7 +1826,7 @@ aside {
 */
 /* Next project case study footer */
 .next-project {
-  background-color: transparent;
+  background-color: red;
   padding: 2em 0; }
 
 .next-project p {
@@ -2052,7 +2114,10 @@ img.center {
   margin-top: -2px; }
 
 .growth-marketing .hero {
-  background-color: #3a4aa5; }
+  background-color: #332287; }
+
+.grants .hero {
+  background-color: #2e477a; }
 
 .growth-marketing .hero h1, .growth-marketing .hero p {
   color: white; }
@@ -2377,7 +2442,7 @@ fieldset {
   fill: #3a4aa5; }
 
 .grid-item {
-  background-color: #3a4aa5; }
+  background-color: #332287; }
 
 .line-wrap {
   line-height: 1.6em; }
@@ -2422,13 +2487,13 @@ fieldset {
   color: #fb8498; }
 
 .benefit-2 h6 {
-  color: #7683cf; }
+  color: #5840cf; }
 
 .benefit-3 h6 {
   color: #fdb5c2; }
 
 .benefit-4 h6 {
-  color: #9ca5dc; }
+  color: #7c69d9; }
 
 .bg-shape {
   border-radius: 0% 0% 27% 22% / 10% 10% 34% 10%;
@@ -2753,9 +2818,6 @@ footer li {
   line-height: 1em;
   margin: 0 0 .5em; }
 
-.panel {
-  max-width: 900px;
-}
 @media (min-width: 600px) {
   .panel {
     padding: 4em; } }
@@ -2889,7 +2951,7 @@ i.circle {
   width: 100%;
   border-radius: 100% 0% 100% 0% / 0% 0% 100% 100%;
   height: 10vh;
-  background-color: #3a4aa5; }
+  background-color: #332287; }
 
 /* Case stories */
 /* Contact page */

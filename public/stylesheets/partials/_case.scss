@@ -91,9 +91,12 @@ aside {
 .case-meta {
   background-color: $black;
   color: $white;
-  padding: 2vw;
-  margin-top: 50px;
-  max-width: 400px;
+  padding: 5vw;
+  max-width: 500px;
+}
+
+.case-meta__client {
+  
 }
 
 .case-inner > * {
@@ -351,7 +354,7 @@ line-height: 1.25em;
 /* Next project case study footer */
 
 .next-project {
-  background-color: transparent;
+  background-color: red;
   padding: 2em 0;
 }
 

@@ -10,7 +10,7 @@ router.get('/', function(req, res, next) {
   router.get('/social-media-influencer', function(req, res, next) {
     res.render('social-media-influencer', { 
       title: 'Influencer Marketing: YouTube Case Study',
-      bodyClass: 'grant-case-study',
+      bodyClass: 'cs-influencer',
       client: 'Aceable',
       team: ['Caroline Leopold', 'Dana Henry'],
       tag: ['social media','influencer marketing','video'],
@@ -27,7 +27,7 @@ router.get('/', function(req, res, next) {
 router.get('/press-campaign', function(req, res, next) {
     res.render('press-campaign', { 
       title: 'PR and Media Relations: Case Study',
-      bodyClass: 'press-case-study',
+      bodyClass: 'cs-press',
       summary: 'How a citizens group organized the largest gun violence prevention rally ever in Pennsylvania and was catapulted to the national stage.',
       client: 'CeaseFirePA',
       team: ['David Scholnick'],
@@ -45,7 +45,7 @@ router.get('/press-campaign', function(req, res, next) {
 router.get('/founder-stories', function(req, res, next) {
     res.render('founder-stories', { 
       title: 'Interviews for content marketing: Case study',
-      bodyClass: 'founder-case-study',
+      bodyClass: 'cs-founder',
       description: 'Fuel interviewed dozens of entrepreneurs on how to make a mark in the travel world',
       client: 'RewardExpert',
       team: ['Nick Mordowanec', 'Shawn Farner', 'Caroline Leopold', 'Dana Henry', 
@@ -64,7 +64,7 @@ router.get('/founder-stories', function(req, res, next) {
 router.get('/sbir-grants', function(req, res, next) {
     res.render('sbir-grants', { 
       title: 'SBIR grants: Funds without dilution',
-      bodyClass: 'sbir-case-study',
+      bodyClass: 'cs-sbir',
       summary: 'How Fuel helped tech and biotech companies win funding to bring their innovations to market',
       client: 'Various companies',
       team: ['Caroline Leopold', 'Dana Henry', 'Ed Apffel'], 
@@ -98,7 +98,7 @@ router.get('/sbir-grants', function(req, res, next) {
   router.get('/websites', function(req, res, next) {
     res.render('websites', { 
       title: 'Usable, useful websites',
-      bodyClass: 'website-case-study',
+      bodyClass: 'cs-website',
       summary: 'Web design to introduce new companies to discerning audiences',
       team: ['Caroline Leopold', 'Dana Henry', 'Francesca Lo Basso', 'Rich Garella'],
       client: 'Various companies',
@@ -116,7 +116,7 @@ router.get('/sbir-grants', function(req, res, next) {
   router.get('/social-marketing-grant', function(req, res, next) {
     res.render('social-marketing-grant', { 
       title: 'Social marketing to save lives',
-      bodyClass: 'social-marketing-case-study',
+      bodyClass: 'cs-grant',
       description: 'We wrote a grant proposal to educate women on an inherited bleeding disorder',
       client: 'National Hemophilia Foundation',
       team: 'Caroline Leopold', 
