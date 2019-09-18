@@ -472,7 +472,9 @@ p {
   color: #141414; }
 
 .team-gallery {
-  background: linear-gradient(to right bottom, #292d38 50%, #212531 50%); }
+  background: linear-gradient(to right bottom, #292d38 50%, #212531 50%);
+  padding-bottom: 6em;
+  margin-bottom: -120px; }
 
 /* 
 .theme-grape {
