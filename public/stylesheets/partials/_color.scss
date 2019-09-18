@@ -76,5 +76,24 @@
   .team-gallery {
     background: linear-gradient(to right bottom, #292d38 50%, #212531 50%);
   }
+
+  /* .team-gallery {
+    background: linear-gradient(to right bottom, #292d38 50%, #212531 50%);
+  }
+  */
+
+.team-gallery {
+  background: rgb(224,75,9);
+  background: linear-gradient(90deg, rgba(224,75,9,0.7) 0%, rgba(242,111,52,0.7) 34%, rgba(242,111,52,0.7) 50%, rgba(227,82,17,0.7) 74%, rgba(224,75,9,0.7) 75%);
+
+}
+
+
+  .team-gallery-old {
+    background: rgb(224,75,9);
+    background: linear-gradient(90deg, rgba(224,75,9,1) 0%, rgba(242,111,52,1) 34%, rgba(242,111,52,1) 50%, rgba(227,82,17,1) 74%, rgba(224,75,9,1) 75%);
+
+  }
+ 
   
   

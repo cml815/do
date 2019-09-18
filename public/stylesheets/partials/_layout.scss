@@ -385,7 +385,13 @@ a > figcaption {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-gap: 1em;
+  @include mobile {
+    /* change to 1 column grid */
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 0;
+  }
 }
+
 @include mobile-plus {
   .team-grid {
     grid-gap: 4em;
