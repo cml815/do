@@ -370,6 +370,15 @@ p {
     #next-slide {
       margin-right: 0px; } }
 
+.line1, .line2, .line3, .line4 {
+  stroke-dasharray: 2300;
+  stroke-dashoffset: 2300;
+  animation: dash 5s linear forwards; }
+
+@keyframes dash {
+  to {
+    stroke-dashoffset: 0; } }
+
 /* Responsive Video Embeds
   ========================================================= */
 .embed-container {
@@ -520,6 +529,10 @@ p {
 .theme--light {
   background-color: #efefef;
   color: #141414; }
+
+.theme--blue {
+  background-color: #1D4481;
+  color: white; }
 
 .team-gallery {
   background: linear-gradient(to right bottom, #292d38 50%, #212531 50%);
@@ -1354,10 +1367,23 @@ nav button {
 .about nav {
   background-color: #f9395a; }
 
-.projects nav {
-  background-color: #232324; }
+.projects nav, .cs-sbir {
+  background-color: #232324;
+  color: white; }
+  .projects nav .hamburger, .cs-sbir .hamburger {
+    color: white; }
+    .projects nav .hamburger .logo, .cs-sbir .hamburger .logo {
+      color: #FA526F; }
 
-.projects nav li a {
+.cs-sbir {
+  background-color: #142e57;
+  color: white; }
+  .cs-sbir .hamburger {
+    color: white; }
+    .cs-sbir .hamburger .logo {
+      color: #FA526F; }
+
+.projects nav li a, .cs-sbir nav li a {
   color: white; }
 
 .projects .hamburger {
@@ -1806,7 +1832,7 @@ aside {
 */
 /* Next project case study footer */
 .next-project {
-  height: 80vh;
+  height: 100vh;
   padding: 4em 0 8em; }
   @media (min-width: 600px) {
     .next-project {
@@ -1814,17 +1840,6 @@ aside {
   @media (max-width: 599px) {
     .next-project {
       margin-bottom: -50px; } }
-
-.next-project p {
-  color: #141414; }
-
-.link-text-large {
-  font-size: 2em;
-  color: #f9973b;
-  margin-bottom: 0; }
-
-.link-text-large span {
-  color: white; }
 
 .img-display img {
   display: inline-block; }
@@ -1846,30 +1861,32 @@ aside {
 
 .next-project a, .next-project a:visited {
   position: relative;
-  color: #949494;
   text-decoration: none; }
 
-.next-project a:hover {
+.link-style a:hover {
   color: white; }
 
-.next-project a:before {
+.link-style a:before {
   content: "";
   position: absolute;
   width: 100%;
   height: 1px;
   bottom: 0;
   left: 0;
-  background-color: blue;
+  background-color: white;
   visibility: hidden;
   -webkit-transform: scaleX(0);
   transform: scaleX(0);
   -webkit-transition: all 0.3s ease-in-out 0s;
   transition: all 0.3s ease-in-out 0s; }
 
-.next-project a:hover:before {
+.link-style a:hover:before {
   visibility: visible;
   -webkit-transform: scaleX(1);
   transform: scaleX(1); }
+
+.link-text-large {
+  font-size: 2em; }
 
 .grayscale {
   filter: gray;
@@ -1989,15 +2006,6 @@ img.center {
   width: 50%; }
 
 /** HER0 ***/
-.line1, .line2, .line3, .line4 {
-  stroke-dasharray: 2300;
-  stroke-dashoffset: 2300;
-  animation: dash 5s linear forwards; }
-
-@keyframes dash {
-  to {
-    stroke-dashoffset: 0; } }
-
 .hero {
   display: flex;
   height: 100vh;
@@ -2059,10 +2067,6 @@ img.center {
   background-color: #232324;
   height: 70vh; }
 
-.hero.team {
-  background: #0b0a0a;
-  background: linear-gradient(0deg, #232324 0%, #232324 51%, white 51%); }
-
 .home h1 {
   letter-spacing: .06em;
   color: #88888b; }
@@ -2099,6 +2103,10 @@ img.center {
   background-size: 64px;
   background-position: bottom 60% right 40%; }
 
+.hero.team {
+  background: #0b0a0a;
+  background: linear-gradient(0deg, #232324 0%, #232324 51%, white 51%); }
+
 .growth-marketing .hero {
   background-color: #3a4aa5; }
   @media (max-width: 599px) {
@@ -2109,7 +2117,6 @@ img.center {
   width: 100%; }
 
 .cs-founder .hero {
-  background-color: #57b8ff;
   background: #57b8ff url("../images/helicopter.svg") no-repeat;
   background-size: 64px 64px;
   background-position: 50% 80%; }
@@ -2173,7 +2180,7 @@ nav a {
 .black {
   color: #141414; }
 
-.btn .shadow {
+.shadow {
   /* -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
 -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
 box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75); */

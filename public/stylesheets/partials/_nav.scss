@@ -29,11 +29,29 @@ nav button {
     background-color: darken($cerise, 5%);
   }
 
-  .projects nav {
+  .projects nav, .cs-sbir {
     background-color: $coal;
+    color: $white;
+    & .hamburger {
+      color: $white;
+    & .logo {
+      color: $cerise;
+    }
+    }
   }
 
-  .projects nav li a {
+  .cs-sbir {
+    background-color: darken($blue, 10%);
+    color: $white;
+    & .hamburger {
+      color: $white;
+    & .logo {
+      color: $cerise;
+    }
+    }
+  }
+
+  .projects nav li a, .cs-sbir nav li a {
     color: $white;
   }
 

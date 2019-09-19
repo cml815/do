@@ -1,18 +1,5 @@
 /** HER0 ***/
 
-.line1, .line2, .line3, .line4
-{
-	stroke-dasharray:2300;
-	stroke-dashoffset:2300;
-	animation: dash 5s linear forwards;
-}
-
-@keyframes dash {
-  to {
-    stroke-dashoffset: 0;
-  }
-}
-
 .hero {
     display: flex;
     height: 100vh;
@@ -93,15 +80,6 @@
   background-color: $coal;
   height: 70vh;
 }
-.hero.team {
-  background: rgb(11,10,10);
-  background: linear-gradient(0deg, rgba(35, 35, 36,1) 0%, rgba(35, 35, 36,1) 51%, rgba(255,255,255,1) 51%);
-}
-
-
-
-
-
 .home h1 {
   letter-spacing: .06em;
   color: lighten($coal, 40%);
@@ -142,9 +120,6 @@
     }
   }
 
-  .image-container {
-  
-  }
 
   .press-case-study .hero--short {
    background-color: $cerise;
@@ -155,6 +130,11 @@
     background-size: 64px;
     background-position: bottom 60% right 40%;
 
+  }
+
+  .hero.team {
+    background: rgb(11,10,10);
+    background: linear-gradient(0deg, rgba(35, 35, 36,1) 0%, rgba(35, 35, 36,1) 51%, rgba(255,255,255,1) 51%);
   }
   
   .growth-marketing .hero {
@@ -169,7 +149,6 @@
   }
 
   .cs-founder .hero {
-    background-color: $pool;
     background: $pool url('../images/helicopter.svg') no-repeat;
     background-size: 64px 64px;
     background-position: 50% 80%;
@@ -183,9 +162,6 @@
   .about .hero {
     background-color: $cerise;
     margin-top: -2px;
-  }
-
-  .grants .hero {
   }
 
 
