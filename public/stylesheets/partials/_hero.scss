@@ -165,6 +165,13 @@
   .contact .hero {
     width: 100%;
   }
+
+  .cs-founder .hero {
+    background-color: $pool;
+    background: $pool url('../images/helicopter.svg') no-repeat;
+    background-size: 64px 64px;
+    background-position: 50% 80%;
+  }
    
   .grant-case-study .hero, .grant-case-study .hero--short {
     color: $white;
