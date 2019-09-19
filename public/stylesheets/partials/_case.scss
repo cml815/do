@@ -354,8 +354,14 @@ line-height: 1.25em;
 /* Next project case study footer */
 
 .next-project {
-  background-color: red;
-  padding: 2em 0;
+  height: 80vh;
+  padding: 4em 0 8em;
+  @include mobile-plus {
+    margin-bottom: -150px;
+  }
+  @include mobile {
+    margin-bottom: -50px;
+  }
 }
 
 .next-project p {
@@ -372,9 +378,25 @@ line-height: 1.25em;
   color: $white;
 }
 
+.img-display img {
+  display: inline-block;
+}
+
+
+/*
 .img-display { 
   padding-left: 4em;
 
+} */
+
+.img-display {
+  @include mobile-plus {
+    width: 50%;
+  }
+}
+
+.img-display img {
+  max-width: 400px;
 }
 
 .next-project > .spaced {

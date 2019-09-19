@@ -7,6 +7,9 @@
     color: $cerise;
   }
 
+.theme--gray-light {
+  background-color: $gray-light;
+}
   .theme--cerise {
     color: $white;
     background-color: darken($cerise, 5%);
@@ -32,15 +35,13 @@
     color: $white;
   }
 
+.theme--orange {
+  background-color: orange;
+  color: $black;
+}
   .theme--cs-press {
     .case-meta__client {
       color: $orange;
-    }
-  }
-
-  .theme--cs-influencer {
-    .case-meta__client {
-      color: $red;
     }
   }
 
