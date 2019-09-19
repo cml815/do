@@ -2808,7 +2808,7 @@ footer li {
 } */
 .panel__text {
   max-width: 600px;
-  padding: 2em; }
+  padding: 1em 1em 0; }
 
 .image__container {
   position: relative;
