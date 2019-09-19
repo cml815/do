@@ -483,6 +483,9 @@ p {
   color: white;
   background: #232324; }
 
+.color-white {
+  background-color: white; }
+
 .color-red {
   color: #FA526F; }
 
@@ -1172,8 +1175,11 @@ a > figcaption {
   grid-row: 10 / span 3; }
 
 .grid-spotlight-sm {
-  grid-column: 1 / span 4;
-  grid-row: 15 / span 3; }
+  grid-column: 1 / span 5;
+  grid-row: 15 / span 2; }
+
+.card-rounded {
+  border-radius: 5%; }
 
 .grid-img-s {
   grid-column: 6 / span 6;
