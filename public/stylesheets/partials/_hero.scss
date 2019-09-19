@@ -40,6 +40,9 @@
   .hero__cta-container {
     flex: 2 1 60%;
     padding-right: 4em;
+    @include mobile {
+      padding: 0;
+    }
   }
 
   @include mobile {
@@ -78,25 +81,18 @@
   
 .home .hero {
   background-color: $coal;
-  height: 70vh;
+  height: 90vh;
 }
 .home h1 {
   letter-spacing: .06em;
-  color: lighten($coal, 40%);
-
+  color: lighten($coal, 50%);
+  margin: 0;
 }
 .home .hero p {
   color: rgba(255, 255, 255, .8 );
 }
 
 
-  .space-tight {
-    margin-bottom: 0;
-  }
-
-  .no-margin {
-    margin: 0;
-  }
 
   // special hero styles //
 

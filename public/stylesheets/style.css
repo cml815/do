@@ -472,8 +472,8 @@ p {
   color: white;
   background: #232324; }
 
-.color-white {
-  background-color: white; }
+.white {
+  color: white; }
 
 .color-red {
   color: #FA526F; }
@@ -1313,6 +1313,9 @@ a > figcaption {
   letter-spacing: .0625em;
   margin-bottom: 1em; }
 
+.norm-text {
+  font-size: 1em; }
+
 .small {
   font-size: .5em; }
 
@@ -1487,7 +1490,7 @@ nav ul li {
 
 .btn--menu {
   all: unset;
-  height: 46px;
+  height: 40px;
   background-color: #23e3c9;
   padding: .5em;
   text-align: center;
@@ -1962,6 +1965,10 @@ img.center {
   .mobile-hide {
     display: none; } }
 
+@media (min-width: 600px) {
+  .is-visible-mobile {
+    display: none; } }
+
 .reset {
   padding: 0;
   margin: 0; }
@@ -1985,8 +1992,8 @@ img.center {
     writing-mode: vertical-rl;
     text-orientation: sideways;
     position: relative;
-    top: 100px;
-    left: .5em;
+    /* top: 100px; */
+    /* left: .5em; */
     background-color: transparent;
     font-family: "DM Sans", "Helvetica Neue", "Helvetica", Arial, sans-serif;
     font-size: 1em;
@@ -2068,6 +2075,9 @@ img.center {
 .hero__cta-container {
   flex: 2 1 60%;
   padding-right: 4em; }
+  @media (max-width: 599px) {
+    .hero__cta-container {
+      padding: 0; } }
 
 @media (max-width: 599px) {
   .hero__img {
@@ -2094,20 +2104,15 @@ img.center {
 
 .home .hero {
   background-color: #232324;
-  height: 70vh; }
+  height: 90vh; }
 
 .home h1 {
   letter-spacing: .06em;
-  color: #88888b; }
+  color: #a2a2a4;
+  margin: 0; }
 
 .home .hero p {
   color: rgba(255, 255, 255, 0.8); }
-
-.space-tight {
-  margin-bottom: 0; }
-
-.no-margin {
-  margin: 0; }
 
 .hero__text--team {
   background-color: white;
@@ -2510,13 +2515,13 @@ fieldset {
   margin: 0 0 0 3em; }
 
 .benefit-1 h6 {
-  color: #fb8498; }
+  color: #6372c8; }
 
 .benefit-2 h6 {
-  color: #7683cf; }
+  color: #8994d6; }
 
 .benefit-3 h6 {
-  color: #fdb5c2; }
+  color: #7683cf; }
 
 .benefit-4 h6 {
   color: #9ca5dc; }

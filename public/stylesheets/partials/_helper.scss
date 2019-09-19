@@ -43,6 +43,12 @@ img.center {
   }
 }
 
+@include mobile-plus {
+  .is-visible-mobile {
+    display: none;
+  }
+}
+
 .reset {
   padding: 0;
   margin: 0;
@@ -73,8 +79,8 @@ img.center {
   writing-mode: vertical-rl;
   text-orientation: sideways;
   position: relative;
-  top: 100px;
-  left: .5em;
+  /* top: 100px; */
+  /* left: .5em; */
   background-color: transparent;
   // color: rgba(0,0,0,0.2);
   font-family: $sans;
