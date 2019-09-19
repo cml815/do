@@ -632,9 +632,9 @@ p {
   position: sticky;
   top: 0; }
 
-@media (min-width: 900px) {
-  .container__wrap-test {
-    max-width: 1000px;
+@media (min-width: 600px) {
+  .container__wrap {
+    max-width: 1100px;
     margin: 0 auto; } }
 
 .banner {
@@ -751,6 +751,11 @@ p {
 
 /* Grid */
 /* services page grid with left gutter */
+.grid--center {
+  align-items: center;
+  justify-items: center;
+  /* adjusted */ }
+
 .grid-c--gutter {
   display: grid;
   grid-template-columns: 100px 1fr 1fr;
@@ -806,7 +811,7 @@ p {
     .grid-c--2x3 {
       /* change to 1 column grid */
       grid-template-columns: repeat(1, 1fr);
-      grid-auto-rows: minmax(250px, auto);
+      grid-auto-rows: minmax(250px, 400px);
       grid-gap: 0; } }
 
 .offers {
@@ -1376,20 +1381,20 @@ nav button {
 .about nav {
   background-color: #f9395a; }
 
-.projects nav, .cs-sbir {
+.projects nav, .cs-sbir nav {
   background-color: #232324;
   color: white; }
-  .projects nav .hamburger, .cs-sbir .hamburger {
+  .projects nav .hamburger, .cs-sbir nav .hamburger {
     color: white; }
-    .projects nav .hamburger .logo, .cs-sbir .hamburger .logo {
+    .projects nav .hamburger .logo, .cs-sbir nav .hamburger .logo {
       color: #FA526F; }
 
-.cs-sbir {
+.cs-sbir nav {
   background-color: #142e57;
   color: white; }
-  .cs-sbir .hamburger {
+  .cs-sbir nav .hamburger {
     color: white; }
-    .cs-sbir .hamburger .logo {
+    .cs-sbir nav .hamburger .logo {
       color: #FA526F; }
 
 .projects nav li a, .cs-sbir nav li a {
@@ -2450,9 +2455,6 @@ fieldset {
     display: none; } }
 
 /* global styles */
-.grid-item {
-  background-color: #3a4aa5; }
-
 .line-wrap {
   line-height: 1.6em; }
 

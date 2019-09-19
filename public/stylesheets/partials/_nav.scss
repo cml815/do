@@ -29,7 +29,7 @@ nav button {
     background-color: darken($cerise, 5%);
   }
 
-  .projects nav, .cs-sbir {
+  .projects nav, .cs-sbir nav {
     background-color: $coal;
     color: $white;
     & .hamburger {
@@ -40,7 +40,7 @@ nav button {
     }
   }
 
-  .cs-sbir {
+  .cs-sbir nav {
     background-color: darken($blue, 10%);
     color: $white;
     & .hamburger {
