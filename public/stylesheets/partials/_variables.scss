@@ -84,29 +84,6 @@ $primary: rgba(193, 102, 107, 1);
 $secondary: #3a4aa5;
 $accent: rgb(165, 248, 244);
 
-$market: #CC2929;
-$fund: #2929cc;
-
-$red: rgb(207, 83, 114);
-$indigo: #3a4aa5;
-$pool:  rgb(87, 184, 255);
-
-
-
-// theme map
-
-$theme-colors: (
-  "primary": rgba(193, 102, 107, 1),
-  "primary-dark": rgb(36, 41, 67),
-  "secondary": rgb(58, 74, 165),
-  "accent": rgb(81, 216, 211),
-  "black": rgb(20, 20, 20),
-);
-
-.alert {
-  // Instead of $theme-color-#{warning}
-  background-color: map-get($theme-colors, "warning");
-}
  
 // base colors
 
@@ -114,93 +91,17 @@ $black: rgb(20, 20, 20);
 $white: rgb(255, 255, 255);
 $coal: #232324;
 $gray-light: rgb(239, 239, 239);
-$blue: #1D4481;
-
-$indigo: #332287;
-
-/*
-$indigo: rgb(58, 74, 165); /* #3a4aa5 */
-
-// $cerise: rgb(192, 46, 83);
-$red-test: rgb(216, 30, 91);
+$red: rgb(207, 83, 114);
 $cerise: #FA526F;
-
+$blue: #1D4481;
+$indigo: #3a4aa5;
+$pool:  rgb(87, 184, 255);
 $orange-red: rgba(255, 89, 71, 1);
 $orange: rgba(249, 151, 59, 1);
-
-$pool:  rgb(87, 184, 255);
-$aqua: rgb(95, 214, 229);
-$aqua-green: rgb(35, 227, 201);
-
-$orange-red: #ff4500;
-
 $grape: #32293b;
-
-$blue: rgb(46, 71, 122);
+$aqua-green: rgb(35, 227, 201);
 $night: rgb(36, 41, 67); /* dark blue */
-
-/* RGB */
-$color1: rgba(36, 41, 67, 1); /* night */
-$color2: rgba(72, 169, 166, 1);
-$color3: rgba(228, 223, 218, 1);
-$color4: rgba(212, 180, 131, 1);
-$color5: rgba(193, 102, 107, 1); /* light red */
-
-
-// color variable map
-$colors: (
-  text: #FFF,
-  background: #333,
-  // map inception  
-  primary: (
-    base: #FFBB00,
-    light: lighten(#FFBB00, 15%),
-    dark: darken(#FFBB00, 15%)
-  ),
-  secondary: (
-    base: #0969A2,
-    light: lighten(#0969A2, 15%),
-    dark: darken(#0969A2, 15%)
-  )
-);
-
-// retrieve color from map ie. `color(primary, base)`
-@function color($color-name, $color-variant:null) {
-  // color variant is optional
-  @if ($color-variant != null) {
-    // map inception
-    @return map-get(map-get($colors, $color-name), $color-variant);
-  } @else {
-    @return map-get($colors, $color-name);
-  }
-}
-
-// color scheme //
-
-
-// theme grape
-
-$base-color:          #413DA8;
-
-$base-color-lightest: lighten($base-color, 20%);
-$base-color-lighter:  lighten($base-color, 15%);
-$base-color-light:    lighten($base-color, 10%);
-
-$base-color-dark:     darken($base-color, 40%);
-$base-color-darker:   darken($base-color, 50%);
-$base-color-darkest:  darken($base-color, 60%);
-
-// theme red
-
-$base-color: rgb(192, 46, 83);
-
-$base-color-lightest: lighten($base-color, 20%);
-$base-color-lighter:  lighten($base-color, 15%);
-$base-color-light:    lighten($base-color, 10%);
-
-$base-color-dark:     darken($base-color, 40%);
-$base-color-darker:   darken($base-color, 50%);
-$base-color-darkest:  darken($base-color, 60%);
+$youtube-red: #c4302b;
 
 // theme slate 
 
@@ -214,45 +115,6 @@ $main-color-dark:     darken($base-color, 40%);
 $main-color-darker:   darken($base-color, 50%);
 $main-color-darkest:  darken($base-color, 60%);
 
-// theme accent
-
-$accent-color: #2AA375;
-
-
-@function tint($color, $percentage) {
-  @return mix(white, $color, $percentage);
-}
-
-@function shade($color, $percentage) {
-  @return mix(black, $color, $percentage);
-}
-
-// service category colors
-
-$youtube-red: #c4302b;
-$red-test: #e0433d;
-
-// element colors
-
-$bg-color-primary-dark: $night;
-$bg-text-color-light: lighten($bg-color-primary-dark, 50%);
-
-.text-light {
-  color: $bg-text-color-light;
-}
-
-$link-x:  rgba(72, 82, 84, 1); /* gray-d */
-$link-bright: rgba(87, 184, 255, 1); /* pool */
-$link-vis: #3a4aa5; /* indigo */
-$link: $aqua-green; /* indigo lite */
-
-
-// $primary: #242943; /* night */
-$primary: $cerise;
-$primary-light: $pool;
-
-$secondary: $grape; /* grape */
-
 /* Gradients */ 
 
 $highlight: linear-gradient(180deg,rgb(255, 255, 255) 80%, rgb(82, 173, 247) 0%);
@@ -260,15 +122,6 @@ $highlight: linear-gradient(180deg,rgb(255, 255, 255) 80%, rgb(82, 173, 247) 0%)
 $highlight-alt: linear-gradient(145deg,#61d0fd 5%,#5ae3ab 95%);
 
 $hero: linear-gradient( 45deg, rgba($gray-light,0.82) 80%, rgba(58, 74, 166, 0.82) 20% );
-
-/* $hero: linear-gradient(45deg,#fff 70%, rgb(82, 173, 247) 0%); */
-
-/* 
-$hero: linear-gradient(45deg,rgb(15, 15, 15) 60%, rgb(58, 74, 166) 0%,);
-
-*/
-
-/* lighten($indigo, 5%); */
 
 /* button adjusted colors*/ 
 $btn-primary: $night; 

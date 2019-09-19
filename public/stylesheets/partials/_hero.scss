@@ -158,6 +158,7 @@
   }
   
   .growth-marketing .hero {
+    background-color: #3a4aa5;
     @include mobile {
       margin-top: 4em;
     }    
@@ -187,9 +188,6 @@
   .grants .hero {
   }
 
-.growth-marketing .hero {
-  background-color: $indigo;
-}
 
 .grants .hero {
   background-color: $blue;

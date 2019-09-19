@@ -2120,9 +2120,11 @@ img.center {
   background-size: 64px;
   background-position: bottom 60% right 40%; }
 
-@media (max-width: 599px) {
-  .growth-marketing .hero {
-    margin-top: 4em; } }
+.growth-marketing .hero {
+  background-color: #3a4aa5; }
+  @media (max-width: 599px) {
+    .growth-marketing .hero {
+      margin-top: 4em; } }
 
 .contact .hero {
   width: 100%; }
@@ -2140,9 +2142,6 @@ img.center {
 .about .hero {
   background-color: #FA526F;
   margin-top: -2px; }
-
-.growth-marketing .hero {
-  background-color: #332287; }
 
 .grants .hero {
   background-color: #2e477a; }
