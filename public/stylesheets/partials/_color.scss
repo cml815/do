@@ -55,6 +55,14 @@
     }
   }
 
+  /* Background */
+
+  .stripes {
+    background-image: linear-gradient(90deg, #f0e7e8 0.50%, #fff 0.50%, #fff 50%, #f0e7e8 50%, #f0e7e8 50.50%, #fff 50.50%, #fff 100%);
+    background-size: 202.00px 202.00px;
+    
+    }
+
   .theme__gradient--red {
     background: linear-gradient(to right bottom, $cerise 60%, lighten($cerise, 5%) 40%);
   }

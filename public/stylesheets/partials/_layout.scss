@@ -347,24 +347,6 @@
   }
 }
 
-.stripes {
-background-image: linear-gradient(90deg, #f0e7e8 0.50%, #fff 0.50%, #fff 50%, #f0e7e8 50%, #f0e7e8 50.50%, #fff 50.50%, #fff 100%);
-background-size: 202.00px 202.00px;
-
-}
-
-.decolines--fixed {
-  position: fixed;
-  width: 100vw;
-  height: 100vh;
-}
-.decolines {
-  top: 0;
-  left: 0;
-  pointer-events: none;
-}
-
-
 
 .grid-item:first-child {
 background-color: red;
@@ -706,6 +688,7 @@ color: $orange-red;
   display: grid;
   grid-template-columns: repeat(12, [col-start] 1fr);
   grid-gap: 2em 1.25em;
+  padding-top: 3em;
 }
 }
 
@@ -758,13 +741,18 @@ color: $orange-red;
 
 /* founder stories grid */
 
+.grid-challenge-f {
+  grid-column: 1 / span 4;
+  grid-row: 6 / span 3;
+}
+
 .grid-image {
-  grid-column: 6 / span 3;
+  grid-column: 5 / span 4;
   grid-row: 6 / span 3;
 }
 
 .grid-tweet {
-  grid-column: 10 / span 3;
+  grid-column: 9 / span 4;
   grid-row: 6 / span 3;
 }
 

@@ -132,9 +132,8 @@ aside {
   text-indent: .75em;
 }
 
-.twitter-wrap {
-  background-color: $pool;
-  max-width: 375px;
+.twitter-tweet {
+  border: 8px $pool solid;
 }
 
 .summary-text {
