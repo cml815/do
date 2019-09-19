@@ -555,9 +555,6 @@ p {
   background-color: #efefef;
   color: #141414; }
 
-.team-gallery {
-  background: linear-gradient(to right bottom, #292d38 50%, #212531 50%); }
-
 /* .team-gallery {
     background: linear-gradient(to right bottom, #292d38 50%, #212531 50%);
   }
@@ -598,7 +595,8 @@ p {
 
 /* Full-width containers */
 .divider {
-  width: 100%; }
+  width: 100%;
+  margin-top: -10px; }
 
 @media (min-width: 600px) {
   .place-adjust {
@@ -2110,6 +2108,9 @@ img.center {
   } */
 .color--white {
   color: white; }
+  @media (max-width: 599px) {
+    .color--white {
+      color: #141414; } }
 
 .press-case-study .hero--short {
   background-color: #FA526F; }

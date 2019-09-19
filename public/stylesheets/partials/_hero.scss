@@ -135,10 +135,11 @@
 
 
 
-  
-
   .color--white {
     color: $white;
+    @include mobile {
+      color: $black;
+    }
   }
 
   .image-container {
