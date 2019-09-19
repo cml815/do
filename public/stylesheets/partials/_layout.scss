@@ -89,11 +89,6 @@
   color: black;
 }
 
-.container__text {
-  background-color: lighten($orange-red, 20%);
-  color: $black;
-}
-
 .banner {
     width: 100%;
     background-color: transparent;
@@ -392,8 +387,8 @@ a > figcaption {
 }
 
 .team-item {
-  max-width: 400px;
-  padding-bottom: 2em;
+  width: 50vw;
+  padding: 2em;
 }
 
 @include mobile-plus {

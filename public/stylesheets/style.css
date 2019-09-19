@@ -562,10 +562,6 @@ p {
     background: linear-gradient(to right bottom, #292d38 50%, #212531 50%);
   }
   */
-.team-gallery {
-  background: #e04b09;
-  background: linear-gradient(90deg, rgba(224, 75, 9, 0.7) 0%, rgba(242, 111, 52, 0.7) 34%, rgba(242, 111, 52, 0.7) 50%, rgba(227, 82, 17, 0.7) 74%, rgba(224, 75, 9, 0.7) 75%); }
-
 .team-gallery-old {
   background: #e04b09;
   background: linear-gradient(90deg, #e04b09 0%, #f26f34 34%, #f26f34 50%, #e35211 74%, #e04b09 75%); }
@@ -641,10 +637,6 @@ p {
 
 .container__wrap {
   color: black; }
-
-.container__text {
-  background-color: #ff8f66;
-  color: #141414; }
 
 .banner {
   width: 100%;
@@ -878,8 +870,8 @@ a > figcaption {
     grid-gap: 4em; } }
 
 .team-item {
-  max-width: 400px;
-  padding-bottom: 2em; }
+  width: 50vw;
+  padding: 2em; }
 
 @media (min-width: 600px) {
   .team-1, .team-3, .team-5 {
