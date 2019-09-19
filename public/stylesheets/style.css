@@ -66,6 +66,7 @@
 
 /* Typography */
 /* font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"; todo */
+/* Container width and spacing */
 .line {
   stroke-dasharray: 2000;
   stroke-dashoffset: 2000;
@@ -513,11 +514,17 @@ p {
 .theme__gradient--red {
   background: linear-gradient(to right bottom, #FA526F 60%, #fb6b84 40%); }
 
+.theme__gradient--red-light {
+  background: linear-gradient(to right bottom, #FA526F 60%, #fdb5c2 40%); }
+
 .theme__gradient--orange {
   background: linear-gradient(to right bottom, #f9973b 60%, #faa454 40%); }
 
 .theme__gradient--pool {
-  background: linear-gradient(to right bottom, #57b8ff 40%, #8aceff 60%); }
+  background: linear-gradient(to right bottom, #57b8ff 60%, #bde3ff 40%); }
+
+.theme__gradient--pool-light {
+  background: linear-gradient(to right bottom, #bde3ff 60%, #d7eeff 40%); }
 
 .theme--cherry {
   background-color: #FA526F;
@@ -625,8 +632,10 @@ p {
   position: sticky;
   top: 0; }
 
-.container__wrap {
-  color: black; }
+@media (min-width: 900px) {
+  .container__wrap-test {
+    max-width: 1000px;
+    margin: 0 auto; } }
 
 .banner {
   width: 100%;

@@ -86,8 +86,11 @@
   top: 0;
 } 
 
-.container__wrap {
-  color: black;
+.container__wrap-test {
+  @include laptop {
+    max-width: 1000px;
+    margin: 0 auto;
+  }
 }
 
 .banner {

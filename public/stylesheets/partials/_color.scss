@@ -54,12 +54,13 @@
       color: $pool;
     }
   }
-  
-  
-  
-  
+
   .theme__gradient--red {
     background: linear-gradient(to right bottom, $cerise 60%, lighten($cerise, 5%) 40%);
+  }
+
+  .theme__gradient--red-light {
+    background: linear-gradient(to right bottom, $cerise 60%, lighten($cerise, 20%) 40%);
   }
   
   .theme__gradient--orange {
@@ -67,7 +68,11 @@
   }
 
   .theme__gradient--pool {
-    background: linear-gradient(to right bottom, $pool 40%, lighten($pool, 10%) 60%);
+    background: linear-gradient(to right bottom, $pool 60%, lighten($pool, 20%) 40%);
+  }
+
+  .theme__gradient--pool-light {
+    background: linear-gradient(to right bottom, lighten($pool, 20%) 60%, lighten($pool, 25%) 40%);
   }
 
   .theme--cherry {
