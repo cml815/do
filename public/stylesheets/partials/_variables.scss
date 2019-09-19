@@ -18,8 +18,6 @@
 .color-secondary-2-3 { color: #127B6A }
 .color-secondary-2-4 { color: #066253 }
 
-
-
 .primary{ color: #0F3166 }
 
 /* Size and spacing */
@@ -43,17 +41,6 @@ $max-width-base: 768px;
 $max-width-s: 540px;
 $max-width-l: 1024px;
 
-
-/* $space-base-unit: 1em; /* for padding and margins 
-
-$space-base-xxs:  calc(0.25 * var(--space-unit));
-$space-base-xs:   calc(0.5 * var(--space-unit));
-$space-sm:   calc(0.75 * var(--space-unit));
-$space-base-md:   calc(1.25 * var(--space-unit));
-$space-lg:   calc(2 * var(--space-unit));
-$space-base-xl:   calc(3.25 * var(--space-unit));
-$space-base-xxl:  calc(5.25 * var(--space-unit));
-
 /* Grid Layouts */
 
 $minmax: 250px;
@@ -64,15 +51,6 @@ $minmax-s: 150px;
 $minmax-xs: 100px; 
 
 /* Color Scheme */
-
-// defaults 
-
-/* 
-$black: rgba(0, 0, 0, 1) !default; 
-$white: rgba(255, 255, 255, 1) !default;
-$red: #ff0000;
-
-*/ 
 
 // old brand colors 
 $logo: #eb5b5f;
@@ -106,14 +84,6 @@ $youtube-red: #c4302b;
 // theme slate 
 
 $secondary-color: #30699C;
-
-$secondary-color-lightest: lighten($base-color, 20%);
-$secondary-color-lighter:  lighten($base-color, 15%);
-$main-color-light:    lighten($base-color, 10%);
-
-$main-color-dark:     darken($base-color, 40%);
-$main-color-darker:   darken($base-color, 50%);
-$main-color-darkest:  darken($base-color, 60%);
 
 /* Gradients */ 
 

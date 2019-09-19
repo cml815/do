@@ -2,14 +2,6 @@
 
 /* global styles */
 
-.wave, .wave-footer {
-  fill: #232324;
-}
-
-.wave--indigo {
-  fill: #3a4aa5
-}
-
 .grid-item {
   background-color: $indigo;
 }
@@ -383,6 +375,8 @@ footer li {
   font-size: 1.25em;
 }
 
+/* header-footer svg design */
+
 .wave-up {
   @include mobile {
     margin-bottom: -10px;
@@ -390,14 +384,20 @@ footer li {
   @include mobile-plus {
     margin-bottom: -50px;  
   }
-  
+}
+
+.wave, .wave-footer {
+  fill: #232324;
+}
+
+.wave--indigo {
+  fill: #3a4aa5
 }
 
 
 /// Page Styles ///
 
 // Home page //
-
 
 .header__container {
   max-width: 60ch;
@@ -430,6 +430,10 @@ footer li {
   color: $white;
 }
 
+.image__background {
+  position: relative;
+}
+
 .bottom-left {
   position: absolute;
   bottom: 8px;
@@ -438,9 +442,6 @@ footer li {
 
 .panel.market {
   margin-top: -200px;
-}
-.image__background {
-  position: relative;
 }
 
 .panel__list li {
@@ -497,41 +498,6 @@ footer li {
   max-height: 100%;
 }
 
-.callout .fullscreen {
-  height: 100vh;
-}
-
-.callout .inner { 
-padding: $space-base;
-}
-
-@include mobile-plus {
-  .callout .inner {
-    padding: $space-l;
-  }
-}
-
-.callout p {
-  font-size: 1.25em;
-  font-family: $serif;
-  line-height: 1.8;
-}
-
-/* Animate */
-
-@keyframes fade-in {
-  from {opacity: 0; transform: scale(.7,.7)}
-  to {opacity: 1;}
-}
-
-.fade-in-element {
-animation: fade-in 1.4s;
-}
-
-.hidden {
-  opacity: 0;
-}
-
 /* About page */
 
 .about {
@@ -551,8 +517,6 @@ animation: fade-in 1.4s;
   //top: 0px;
 }
 
-
-
 .about figcaption {
   text-align: center;
 }
@@ -569,7 +533,6 @@ animation: fade-in 1.4s;
 }
 
 
-
 /* Work page and sub-pages */
 
 .card-wrap > * {
@@ -578,16 +541,6 @@ animation: fade-in 1.4s;
 
 .card > * {
   margin-bottom: .5em;
-}
-
-.primary {
-  background-color: $primary;
-  color: $white;
-}
-
-.secondary {
-  background-color: $secondary;
-  color: $white;
 }
 
 .icons {
@@ -612,11 +565,6 @@ i.circle {
   color: white;
   font-size: 1em;
   max-width: 25vw;
-}
-
-.growth-marketing > .card {
-  width: 100%;
-  height: 100%;
 }
 
 .bottom-border {
