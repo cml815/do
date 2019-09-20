@@ -424,9 +424,11 @@ a > figcaption {
   grid-template-columns: repeat(2, 1fr);
   grid-gap: 1em;
   @include mobile {
-    /* change to 1 column grid */
-    grid-template-columns: repeat(1, 1fr);
-    grid-gap: 0;
+    display: flex;
+    flex-direction: column;
+    & img {
+      width: 300px;
+    }
   }
 }
 
@@ -463,10 +465,17 @@ a > figcaption {
 
 .brag-container {
   margin-left: 2em;
+  @include mobile {
+    margin-left: 0;
+  }
 }
 
 .brag-container h2 {
 color: $orange-red;
+}
+
+.brag-container li {
+  line-height: 1.4em; 
 }
 
 .list-container {
