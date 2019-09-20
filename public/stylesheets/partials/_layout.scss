@@ -38,7 +38,7 @@
 
 /// Containers /// 
 
-/* Full-width containers */
+/* header-footer svg design */
 
 .divider-hero {
   width: 100%;
@@ -47,8 +47,27 @@
 
 .divider {
   width: 100%;
+  height: 30vh;
   margin-top: -100px;
 }
+
+.wave-up {
+  @include mobile {
+    margin-bottom: -10px;
+  }
+  @include mobile-plus {
+    margin-bottom: -50px;  
+  }
+}
+
+.wave, .wave-footer {
+  fill: #232324;
+}
+
+.wave--indigo {
+  fill: #3a4aa5
+}
+
 
 @include mobile-plus {
 .place-adjust {
