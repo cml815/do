@@ -58,16 +58,10 @@
 }
 
 
-@include mobile-plus {
-.place-adjust {
-  margin-top: -150px;
-  padding-top: 250px;
-}
-}
+
 
 @include mobile {
   .place-adjust {
-    margin-top: -50px;
     padding-top: 100px;
   }
 }

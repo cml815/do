@@ -612,17 +612,11 @@ p {
 .wave, .wave-footer {
   fill: #232324; }
 
-.wave--indigo {
-  fill: #3a4aa5; }
-
-@media (min-width: 600px) {
-  .place-adjust {
-    margin-top: -150px;
-    padding-top: 250px; } }
+.wave--market {
+  fill: rgb(241, 160, 83); }
 
 @media (max-width: 599px) {
   .place-adjust {
-    margin-top: -50px;
     padding-top: 100px; } }
 
 .container {
@@ -2178,7 +2172,7 @@ img.center {
   background: linear-gradient(0deg, #232324 0%, #232324 51%, white 51%); }
 
 .growth-marketing .hero {
-  background-color: #3a4aa5; }
+  background-color: #f1a053; }
   @media (max-width: 599px) {
     .growth-marketing .hero {
       margin-top: 4em; } }
@@ -2206,7 +2200,7 @@ img.center {
   margin-top: -2px; }
 
 .grants .hero {
-  background-color: #3f70c0; }
+  background-color: #3a4aa5; }
 
 .growth-marketing .hero h1, .growth-marketing .hero p {
   color: white; }
@@ -2873,9 +2867,6 @@ footer li {
   position: absolute;
   bottom: 8px;
   left: 16px; }
-
-.panel.market {
-  margin-top: -200px; }
 
 .panel__list li {
   padding-bottom: .5em; }
