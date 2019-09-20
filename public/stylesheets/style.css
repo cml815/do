@@ -549,7 +549,7 @@ p {
   background-color: #3f70c0;
   color: white; }
 
-.team-gallery {
+.pin-stripe {
   background: linear-gradient(to right bottom, #292d38 50%, #212531 50%);
   padding-bottom: 6em;
   margin-bottom: -120px; }
@@ -600,17 +600,7 @@ p {
 .inner--xl {
   padding: 4em; }
 
-/* header-footer svg design */
-
-/* .divider-hero {
-  width: 100%;
-  margin-top: -50px; } */
-
-.divider {
-  width: 100%;
-  height: 30vh;
-  margin-top: -100px; }
-
+/* header and footer svg design */
 @media (max-width: 599px) {
   .wave-up {
     margin-bottom: -10px; } }
