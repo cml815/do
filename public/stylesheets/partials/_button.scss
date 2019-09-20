@@ -31,8 +31,14 @@ text-decoration: none;
 }
 
 .outline {
-border: solid 2px $night;
+border: solid 2px $coal;
 background-color: transparent;
+}
+
+.outline.white {
+  border: solid 2px $white;
+  background-color: $coal;
+  padding: 1em 1.25em;
 }
 
 .small {

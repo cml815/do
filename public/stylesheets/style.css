@@ -854,7 +854,8 @@ p {
   padding: 1em; }
 
 .grid-item:nth-child(4) {
-  background-color: #3a4aa5;
+  background-color: #232324;
+  color: white;
   padding: 4em; }
 
 .grid-item:nth-child(5) {
@@ -2222,8 +2223,13 @@ nav a {
   text-decoration: none; }
 
 .outline {
-  border: solid 2px #242943;
+  border: solid 2px #232324;
   background-color: transparent; }
+
+.outline.white {
+  border: solid 2px white;
+  background-color: #232324;
+  padding: 1em 1.25em; }
 
 .small {
   padding: .50em 1em; }
