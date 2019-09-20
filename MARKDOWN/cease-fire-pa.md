@@ -1,4 +1,60 @@
-Summary 
+
+
+Here's how our PR expert brought the media spotlight to a massive gun violence prevention rally in Pennsylvania.
+
+Background
+     
+Pennsylvania not-for-profit CeaseFirePA aims to end the epidemic of gun violence across the Commonwealth and the country through education, coalition building, and advocacy. 
+
+They organized a rally to take a stand against gun violence, which would become one of the largest assemblies in Pennsylvania's Capitol in Harrisburg. Media relations expert, Dave Scholnick, developed a strategy to attract media attention to this historic event.
+
+Challenge
+
+CeaseFirePA wanted to mount a powerful action in support of legislation to end an exemption that allows the purchase of an assault weapon without a background check.  
+
+If hundreds turned up in Harrisburg, CeaseFirePA would get the attention  of politicians, but to really  make an impact, they needed to communicate with voters across the Commonwealth.
+
+CeaseFirePA didn't have the staff and resources to deploy media representatives across Pennsylvania. But, they needed a strategy beyond press releases and newspaper editorials, which wouldn't reach smaller media markets.
+
+Solution
+
+CeaseFirePA hired media Dave Scholnick, communications expert, to help attract broad press coverage and penetrate hyper-local media markets.
+
+Dave worked with CeaseFirePA executive director, Shira Goodman, to craft a strategy to generate hometown stories. Dave pitched the idea that bus pickups across Pennsylvania could attract local media for this major event.
+
+Dave and CeaseFirePA tapped relationships with reporters to ensure the story landed in the right hands. And Dave's idea of training bus drivers as media liaisons was an ingenious press relations strategy. Dave coordinated media at the bus stops and trained bus drivers.
+
+
+Testimonial
+
+“Dave recognized our needs and...maximized our media coverage. His strategic writing and thinking amplified our voice and extended our reach. It moved our agenda forward. Shira Goodman, Executive Director, Cease Fire PA”
+
+Results 
+
+Newly sworn in Senator Tom Killion (R, Delaware County) told the Daily Local News that in his 13 years serving in the House of Representatives he had never seen a crowd that size in the Capitol.
+
+gun violence. passing House Bill 1010 and Senate Bill 1049 into law
+
+Source: 
+
+https://www.dailylocal.com/news/background-check-battle-arrives-at-the-pennsylvania-state-capitol/article_16228186-9e67-5287-b64a-f763643487c4.html
+
+Media Coverage (what I Googled- probably more)
+
+https://www.dailylocal.com/news/background-check-battle-arrives-at-the-pennsylvania-state-capitol/article_16228186-9e67-5287-b64a-f763643487c4.html
+
+https://fox43.com/2016/05/16/pa-gun-background-check-supporters-rally-will-bill-ever-pass/
+
+https://www.pennlive.com/politics/2016/05/gun_background_check_advocates.html
+
+https://local21news.com/news/local/hundreds-expected-at-capitol-rally-for-gun-background-checks
+
+http://www.mainlinemedianews.com/mainlinesuburbanlife/opinion/as-i-see-it-closing-gaps-in-pa-gun-laws/article_65ded86b-1435-5ae3-a484-063c23abfa62.html
+
+https://chesterspirit.com/2016/05/hundreds-rally-in-capitol-rotunda-demanding-background-checks-for-every-sale-of-every-gun/
+
+
+
 
 How a citizens group organized the largest gun violence prevention rally ever in Pennsylvania and was catapulted to the national stage. 
 

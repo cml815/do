@@ -601,9 +601,10 @@ p {
   padding: 4em; }
 
 /* header-footer svg design */
-.divider-hero {
+
+/* .divider-hero {
   width: 100%;
-  margin-top: 50px; }
+  margin-top: -50px; } */
 
 .divider {
   width: 100%;
