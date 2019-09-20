@@ -576,7 +576,7 @@ p {
   color: #141414; }
 
 .margin-move {
-  margin-bottom: -125px; }
+  margin-bottom: -150px; }
   @media (max-width: 599px) {
     .margin-move {
       margin-bottom: -50px; } }
@@ -598,11 +598,13 @@ p {
   padding: 4em; }
 
 /* Full-width containers */
+.divider-hero {
+  width: 100%;
+  margin-top: 50px; }
+
 .divider {
   width: 100%;
-  margin-top: -10px; }
-
-.divider.large {
+  height: 30vh;
   margin-top: -100px; }
 
 @media (min-width: 600px) {
