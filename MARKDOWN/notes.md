@@ -250,3 +250,7 @@ Darcie earned her BA in Economics and Political Science from Drew University and
 
 More than 20 years experience handling communications in countries including the U.S., China, Germany, India and Peru.
 Works with both Fortune 500 and start up businesses.
+
+
+
+
