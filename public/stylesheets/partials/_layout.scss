@@ -342,7 +342,7 @@
 .grid-c--2x4 {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: repeat(4, minmax(200px, 400px));
+  grid-template-rows: repeat(4, minmax(300px, 500px));
   grid-gap: 4em 1em;
   @include mobile {
     /* change to 1 column grid */
@@ -351,14 +351,36 @@
   }
 }
 
+/* sbir case study */
 
 .grid-item:first-child {
-background-color: red;
+background-color: $pool;
+padding: 3em;
 }
-.grid-item:nth-child(2n) {
-  background-color: $indigo;
+
+.grid-item:nth-child(2) {
+  padding: 4em;
   }
 
+.grid-item:nth-child(3) {
+  background-color: $gray-light;
+  padding: 1em;
+  }
+
+.grid-item:nth-child(4) {
+  background-color: $indigo;
+  padding: 4em;
+}
+
+.grid-item:nth-child(5) {
+  background-color: $cerise;
+  padding: 2em;
+}
+
+.grid-item:nth-child(6) {
+  background-color: $indigo;
+  padding: 4em;
+  }
 
 .grid-item-color {
   background-color: $black;
