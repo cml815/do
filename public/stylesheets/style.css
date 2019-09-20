@@ -677,9 +677,6 @@ p {
 .banner--deep, section--deep {
   background-color: #c1666b; }
 
-.content-container {
-  max-width: 768px; }
-
 .content-container--l {
   max-width: 1000px; }
 
@@ -913,7 +910,6 @@ a > figcaption {
     grid-gap: 4em; } }
 
 .team-item {
-  width: 50vw;
   padding: 2em; }
 
 @media (min-width: 600px) {
@@ -2294,12 +2290,9 @@ box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75); */
   section, figure, .flex-c {
     flex-direction: column; } }
 
-/*
- * {
+/* * {
   border: 1px solid red;
- }
-
- */
+ } */
 *, *:before, *:after {
   box-sizing: inherit; }
 
