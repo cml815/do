@@ -356,7 +356,7 @@ footer li {
   text-align: center;
   // background-color: #f9455f;
   background-color: darken($coal, 2%);
-  color: $white;
+  color: lighten($coal, 50%);
 }
 
 .social-links {
