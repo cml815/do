@@ -51,6 +51,7 @@
 /* Home page */ 
 
 .benefits {
+
 }
 
 .benefits-container {
@@ -455,6 +456,14 @@ footer li {
   .panel {
     padding: 4em;
   }
+}
+
+.panel__wrap.market {
+  background-color: $orange;
+} 
+
+.panel.fund {
+  background-color: $blue;
 }
 
 .panel__content {

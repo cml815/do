@@ -490,7 +490,7 @@ p {
   color: white; }
 
 .theme--orange {
-  background-color: #f9973b;
+  background-color: #f1a053;
   color: #141414; }
 
 .theme--indigo {
@@ -506,7 +506,7 @@ p {
   color: #141414; }
 
 .theme--cs-press .case-meta__client {
-  color: #f9973b; }
+  color: #f1a053; }
 
 .theme--cs-founder .case-meta__client {
   color: #57b8ff; }
@@ -523,7 +523,7 @@ p {
   background: linear-gradient(to right bottom, #FA526F 60%, #fdb5c2 40%); }
 
 .theme__gradient--orange {
-  background: linear-gradient(to right bottom, #f9973b 60%, #faa454 40%); }
+  background: linear-gradient(to right bottom, #f1a053 60%, #f3ad6b 40%); }
 
 .theme__gradient--pool {
   background: linear-gradient(to right bottom, #57b8ff 60%, #bde3ff 40%); }
@@ -543,7 +543,7 @@ p {
   color: #141414; }
 
 .theme--blue {
-  background-color: #1D4481;
+  background-color: #3f70c0;
   color: white; }
 
 .team-gallery {
@@ -601,6 +601,9 @@ p {
 .divider {
   width: 100%;
   margin-top: -10px; }
+
+.divider.large {
+  margin-top: -100px; }
 
 @media (min-width: 600px) {
   .place-adjust {
@@ -1409,7 +1412,7 @@ nav button {
       color: #FA526F; }
 
 .cs-sbir nav {
-  background-color: #142e57;
+  background-color: #325a9a;
   color: white; }
   .cs-sbir nav .hamburger {
     color: white; }
@@ -1615,7 +1618,7 @@ nav li:hover {
   max-width: 50ch; }
 
 .press-case-study aside {
-  background-color: #f9973b;
+  background-color: #f1a053;
   padding: 2em; }
 
 .case__content-container {
@@ -1647,7 +1650,7 @@ nav li:hover {
 
 .content__results--story, .content__results--list {
   margin: 0 auto;
-  background-color: #f9973b;
+  background-color: #f1a053;
   max-width: 500px; }
 
 .fancy-text, .fancy-text-block p {
@@ -1933,6 +1936,7 @@ aside {
   -webkit-transition: all .4s ease-in-out; }
 
 /* Helper classes */
+/* positioning */
 .anchor a {
   position: absolute;
   left: 0px; }
@@ -1978,6 +1982,9 @@ img.center {
 
 .shoutout h2 {
   max-width: 768px; }
+
+.spacer-top {
+  padding-top: 2em; }
 
 .place-left {
   margin-left: -100px; }
@@ -2164,7 +2171,7 @@ img.center {
   margin-top: -2px; }
 
 .grants .hero {
-  background-color: #1D4481; }
+  background-color: #3f70c0; }
 
 .growth-marketing .hero h1, .growth-marketing .hero p {
   color: white; }
@@ -2859,6 +2866,12 @@ footer li {
 @media (min-width: 600px) {
   .panel {
     padding: 4em; } }
+
+.panel__wrap.market {
+  background-color: #f1a053; }
+
+.panel.fund {
+  background-color: #3f70c0; }
 
 .panel__content {
   max-width: 500px; }

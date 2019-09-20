@@ -45,6 +45,10 @@
   margin-top: -10px;
 }
 
+.divider.large {
+  margin-top: -100px;
+}
+
 @include mobile-plus {
 .place-adjust {
   margin-top: -150px;

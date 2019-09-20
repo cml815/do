@@ -1,5 +1,9 @@
 /* Helper classes */
 
+
+/* positioning */
+
+
 .anchor a {
   position: absolute;
   left: 0px;
@@ -13,7 +17,6 @@
   visibility: hidden; 
   pointer-events: none;
 }
-
 
 .caps {
   text-transform: uppercase;
@@ -60,6 +63,10 @@ img.center {
 
 .shoutout h2 {
   max-width: 768px;
+}
+
+.spacer-top {
+  padding-top: 2em;
 }
 
 .place-left {
