@@ -150,7 +150,8 @@
   }
 
   .about .hero {
-    background-color: $cerise;
+    background-color: lighten($night, 8%);
+    color: lighten($night, 50%);
     margin-top: -2px;
   }
 
