@@ -2173,7 +2173,8 @@ img.center {
 .cs-press .hero {
   background: #FA526F url("../images/ammo.svg") no-repeat;
   background-size: 64px 64px;
-  background-position: 40% 80%; }
+  background-position: 40% 80%;
+  height: 80vh; }
 
 .grant-case-study .hero, .grant-case-study .hero--short {
   color: white;
