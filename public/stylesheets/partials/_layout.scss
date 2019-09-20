@@ -792,22 +792,28 @@ color: $orange-red;
 
 /* social media influencer */
 
+.bg-col {
+  background-color: yellow;
+  grid-column: 1 / 13;
+  grid-row: 1 / 5;
+}
 
 .grid-fact-sm {
-  background-color: $gray-light;
+  background-color: $white;
   padding: 4em 2em 0;
   grid-column: 8 / span 5;
-  grid-row: 6 / span 3;
+  grid-row: 5 / span 3;
 }
 
 .grid-solution-sm {
-  grid-column: 2 / span 4;
+  grid-column: 2 / span 5;
   grid-row: 10 / span 3;
 }
 
 .grid-strategy-sm {
-  grid-column: 8 / span 3;
-  grid-row: 10 / span 3;
+  grid-column: 8 / span 5;
+  grid-row: 10 / span 4;
+  padding: 4em;
 }
 
 .grid-spotlight-sm {
