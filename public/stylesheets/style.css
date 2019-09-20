@@ -1804,13 +1804,14 @@ aside {
       width: 100vw;
       height: auto; } }
 
-.img__images .front {
-  position: absolute;
-  top: 100px;
-  height: 500px;
-  width: 400px;
-  transition: transform 1s;
-  z-index: 4; }
+@media (min-width: 600px) {
+  .img__images .front {
+    position: absolute;
+    top: 100px;
+    height: 500px;
+    width: 400px;
+    transition: transform 1s;
+    z-index: 4; } }
 
 @media (min-width: 600px) {
   .img__images .side {
@@ -1840,10 +1841,11 @@ aside {
     .img__images .top .img__images img .top {
       display: none; } }
 
-.img__caption {
-  position: absolute;
-  bottom: 100;
-  left: 0; }
+@media (min-width: 600px) {
+  .img__caption {
+    position: absolute;
+    bottom: 100;
+    left: 0; } }
 
 .narrative {
   width: 50%; }

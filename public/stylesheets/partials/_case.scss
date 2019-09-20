@@ -273,13 +273,15 @@ line-height: 1.25em;
 }
 
 
-.img__images .front {
-  position: absolute;
-  top: 100px;
-  height: 500px;
-  width: 400px;
-  transition: transform 1s;
-  z-index: 4;
+@include mobile-plus {
+  .img__images .front {
+    position: absolute;
+    top: 100px;
+    height: 500px;
+    width: 400px;
+    transition: transform 1s;
+    z-index: 4;
+  }
 }
 
 @include mobile-plus {
@@ -321,11 +323,15 @@ line-height: 1.25em;
 
 }
 
-.img__caption {
-  position: absolute;
-  bottom: 100;
-  left: 0;
+
+@include mobile-plus {
+  .img__caption {
+    position: absolute;
+    bottom: 100;
+    left: 0;
+  }
 }
+
 
 
 .narrative {
