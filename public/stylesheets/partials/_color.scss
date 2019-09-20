@@ -83,6 +83,11 @@
     background: linear-gradient(to right bottom, lighten($pool, 20%) 60%, lighten($pool, 25%) 40%);
   }
 
+  .theme__gradient--red-white {
+    background: linear-gradient(90deg, $white 50%, $orange-red 50%);
+  }
+
+
   .theme--cherry {
     background-color: $cerise;
     color: lighten($cerise, 40%);

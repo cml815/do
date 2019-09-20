@@ -531,6 +531,9 @@ p {
 .theme__gradient--pool-light {
   background: linear-gradient(to right bottom, #bde3ff 60%, #d7eeff 40%); }
 
+.theme__gradient--red-white {
+  background: linear-gradient(90deg, white 50%, #ff5947 50%); }
+
 .theme--cherry {
   background-color: #FA526F;
   color: white; }
@@ -919,7 +922,7 @@ a > figcaption {
 
 /* team bios */
 .bio-wrap {
-  background: linear-gradient(90deg, #ff5947 10%, white 10%); }
+  background: linear-gradient(90deg, white 50%, #ff5947 50%); }
 
 .brag-container, .bio-container {
   padding: 2em; }
