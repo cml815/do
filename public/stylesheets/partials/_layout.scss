@@ -79,18 +79,18 @@
 .container__text {
   max-width: 600px;
   @include mobile-plus {
-    padding: 1em 5em;
+    padding: 0em 3em;
+    margin-bottom: 2em;
   }
 }
 
-.content-image { 
+.content-image img { 
   width: 80%;
-  height: 110vh; // experiment with this value, try changing to 110vh
   //min-height: 200px;
   overflow: auto;
-  position: -webkit-sticky;
+  /*position: -webkit-sticky;
   position: sticky;
-  top: 0;
+  top: 0; */
 } 
 
 .container__wrap {

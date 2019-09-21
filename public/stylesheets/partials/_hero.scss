@@ -83,13 +83,14 @@
   background-color: $coal;
   height: 90vh;
 }
+
 .home h1 {
-  letter-spacing: .06em;
+  letter-spacing: .04em;
   color: lighten($coal, 50%);
   margin: 0;
 }
-.home .hero p {
-  color: rgba(255, 255, 255, .8 );
+.home .hero p, .home .hero h2 {
+  color: $white;
 }
 
 

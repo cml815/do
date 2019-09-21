@@ -489,10 +489,18 @@ footer li {
   height: 100%;
 }
 
+.about-intro {
+  background-color: $gray-light;
+  padding: 4em 0;
+}
+
+/*
 .about-intro__wrap, .margin-adjust {
   margin-top: 100px;
   z-index: -10;
 }
+
+*/
 
 .curve-red {
   z-index: 100;
