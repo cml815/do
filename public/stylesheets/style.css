@@ -649,6 +649,9 @@ p {
     max-width: 1100px;
     margin: 0 auto; } }
 
+.fullscreen {
+  height: 100vh; }
+
 .banner {
   width: 100%;
   background-color: transparent; }
@@ -2524,7 +2527,7 @@ fieldset {
 
 .home-icon {
   margin-top: 2em;
-  width: 110px; }
+  width: 156px; }
 
 /* layout */
 .margin-top {
