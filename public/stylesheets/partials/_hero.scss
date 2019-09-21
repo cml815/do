@@ -85,10 +85,17 @@
 }
 
 .home h1 {
+background: #fc466b;
+background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+/* .home h1 {
   letter-spacing: .04em;
   color: lighten($coal, 50%);
   margin: 0;
-}
+} */
+
 .home .hero p, .home .hero h2 {
   color: $white;
 }

@@ -2145,10 +2145,16 @@ img.center {
   height: 90vh; }
 
 .home h1 {
-  letter-spacing: .04em;
-  color: #a2a2a4;
-  margin: 0; }
+  background: #fc466b;
+  background: radial-gradient(circle, #3f5efb 0%, #fc466b 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; }
 
+/* .home h1 {
+  letter-spacing: .04em;
+  color: lighten($coal, 50%);
+  margin: 0;
+} */
 .home .hero p, .home .hero h2 {
   color: white; }
 
