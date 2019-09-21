@@ -56,8 +56,13 @@
 
 .benefits-container {
   margin: 0 0 0 3em;
+  
 }
 
+.benefit {
+  border-top: 2px solid lighten($indigo, 20%);
+
+}
 
 .benefit-1 h6 {
   color: lighten($indigo, 15%);
