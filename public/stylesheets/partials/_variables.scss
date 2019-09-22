@@ -60,7 +60,9 @@ $dummy: rgba(249, 151, 59, 1);
 $primary-dark: #242943; // night
 $primary: rgba(193, 102, 107, 1);
 $secondary: #3a4aa5;
-$accent: rgb(165, 248, 244);
+
+$accent: #c682f9;
+/* bright green $accent: rgb(165, 248, 244); */
 
  
 // base colors
@@ -123,7 +125,7 @@ $hero: linear-gradient( 45deg, rgba($gray-light,0.82) 80%, rgba(58, 74, 166, 0.8
 
 /* button adjusted colors*/ 
 $btn-primary: $night; 
-$accent: $aqua-green;
+// $accent: $aqua-green;
 
 .btn .shadow {
   -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);

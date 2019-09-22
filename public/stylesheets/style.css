@@ -56,6 +56,7 @@
 /* max-width */
 /* Grid Layouts */
 /* Color Scheme */
+/* bright green $accent: rgb(165, 248, 244); */
 /* dark blue */
 /* Gradients */
 /* button adjusted colors*/
@@ -1499,7 +1500,7 @@ nav ul li {
 .btn--menu {
   all: unset;
   height: 40px;
-  background-color: #23e3c9;
+  background-color: #c682f9;
   padding: .5em;
   text-align: center;
   letter-spacing: .02em; }
@@ -2002,9 +2003,9 @@ img.center {
     /* left: .5em; */
     background-color: transparent;
     font-family: "DM Sans", "Helvetica Neue", "Helvetica", Arial, sans-serif;
-    font-size: 1em;
+    font-size: 1.2em;
     font-weight: bold;
-    border-left: 2px solid #23e3c9;
+    border-left: 2px solid #c682f9;
     /* -webkit-text-fill-color: white; // Will override color (regardless of order)
   -webkit-text-stroke-width: 2px;
   -webkit-text-stroke-color: black; */
@@ -2014,7 +2015,7 @@ img.center {
       1px -1px 0 #000,
       -1px 1px 0 #000,
        1px 1px 0 #000; */
-    letter-spacing: 3px; } }
+    letter-spacing: 2px; } }
 
 .text-rotated--dark {
   color: white; }
@@ -2189,13 +2190,13 @@ nav a {
 /* Buttons */
 .btn {
   all: unset;
-  background-color: #23e3c9;
+  background-color: #c682f9;
   padding: .75em 1.25em;
   margin: .5em 0;
   text-align: center;
   letter-spacing: .02em; }
   .btn:hover {
-    background: #1bd2b9;
+    background: lightenn(#c682f9, 5%);
     transition: 400ms;
     transition-timing-function: ease-in-out;
     cursor: pointer; }
@@ -2825,9 +2826,12 @@ footer li {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding-bottom: 1em;
+  padding: 1.5em;
   /*  background: url("../images/test-bg.png") no-repeat center;
   background-position: contain; */ }
+
+.header__container i {
+  padding: .5em 0; }
 
 .header__container p {
   max-width: 60ch; }
@@ -2841,16 +2845,7 @@ footer li {
 
 .image__container {
   position: relative;
-  text-align: center;
-  color: white; }
-
-.image__background {
-  position: relative; }
-
-.bottom-left {
-  position: absolute;
-  bottom: 8px;
-  left: 16px; }
+  text-align: center; }
 
 .panel__list li {
   padding-bottom: .5em; }
@@ -2875,7 +2870,7 @@ footer li {
   width: 50%; }
 
 .panel.fund {
-  background-color: #485285; }
+  background-color: #9dacf7; }
 
 .panel__content {
   max-width: 500px; }

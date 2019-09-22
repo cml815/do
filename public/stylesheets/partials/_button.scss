@@ -18,7 +18,7 @@ nav a {
   text-align: center;
   letter-spacing: .02em;
   &:hover {
-    background: darken($accent, 5%);
+    background: lightenn($accent, 5%);
     transition: 400ms;
     transition-timing-function: ease-in-out; 
     cursor: pointer;

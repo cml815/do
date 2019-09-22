@@ -391,10 +391,14 @@ footer li {
   flex-direction: column; 
   justify-content: center;
   align-items: center;
-  padding-bottom: 1em;
+  padding: 1.5em;
   /*  background: url("../images/test-bg.png") no-repeat center;
   background-position: contain; */
 } 
+
+.header__container i {
+  padding: .5em 0;
+}
 
 .header__container p {
   max-width: 60ch;
@@ -417,17 +421,6 @@ footer li {
 .image__container {
   position: relative;
   text-align: center;
-  color: $white;
-}
-
-.image__background {
-  position: relative;
-}
-
-.bottom-left {
-  position: absolute;
-  bottom: 8px;
-  left: 16px;
 }
 
 .panel__list li {
@@ -460,7 +453,7 @@ footer li {
 }
 
 .panel.fund {
-  background-color: $night-light;
+  background-color: #9dacf7;
 }
 
 .panel__content {
