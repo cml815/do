@@ -2904,7 +2904,8 @@ footer li {
 
 .testimonials {
   background-color: #efefef;
-  color: #141414; }
+  color: #141414;
+  height: 80vh; }
 
 .testimonials .fine-print {
   color: #FA526F;
