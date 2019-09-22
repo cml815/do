@@ -2028,6 +2028,9 @@ img.center {
     font-size: 1.2em;
     font-weight: bold;
     border-left: 2px solid #c682f9;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 5px;
     /* -webkit-text-fill-color: white; // Will override color (regardless of order)
   -webkit-text-stroke-width: 2px;
   -webkit-text-stroke-color: black; */
@@ -2904,8 +2907,7 @@ footer li {
 
 .testimonials {
   background-color: #efefef;
-  color: #141414;
-  height: 80vh; }
+  color: #141414; }
 
 .testimonials .fine-print {
   color: #FA526F;

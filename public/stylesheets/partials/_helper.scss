@@ -94,6 +94,9 @@ img.center {
   font-size: 1.2em;
   font-weight: bold;
   border-left: 2px solid $accent;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 5px;
    //text-decoration: underline;
   // z-index: -1;
  /* -webkit-text-fill-color: white; // Will override color (regardless of order)
