@@ -2561,20 +2561,28 @@ fieldset {
 .benefits-container {
   margin: 0 0 0 3em; }
 
+.benefit:after {
+  content: "";
+  display: block;
+  width: 25%;
+  padding-top: 1em;
+  border-bottom: 2px solid #7683cf; }
+
 .benefit {
-  border-top: 2px solid #7683cf; }
+  background-color: white;
+  margin: 0 auto; }
 
 .benefit-1 h6 {
-  color: #6372c8; }
+  color: #fc5f7f; }
 
 .benefit-2 h6 {
-  color: #8994d6; }
+  color: #fc5f7f; }
 
 .benefit-3 h6 {
-  color: #7683cf; }
+  color: #fc5f7f; }
 
 .benefit-4 h6 {
-  color: #9ca5dc; }
+  color: #fc5f7f; }
 
 .bg-shape {
   border-radius: 0% 0% 27% 22% / 10% 10% 34% 10%;
@@ -2893,7 +2901,14 @@ footer li {
     padding: 4em; } }
 
 .panel__wrap.market {
-  background-color: #f1a053; }
+  height: 100%;
+  width: 100%; }
+
+.panel__wrap.market:after {
+  content: "";
+  background-color: #fc466b;
+  height: 50%;
+  width: 50%; }
 
 .panel.fund {
   background-color: #485285; }

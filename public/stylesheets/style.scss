@@ -59,25 +59,33 @@
   
 }
 
-.benefit {
-  border-top: 2px solid lighten($indigo, 20%);
+.benefit:after {
+  content: ""; 
+  display: block; 
+  width: 25%; 
+  padding-top: 1em; 
+  border-bottom: 2px solid lighten($indigo, 20%);
+}
 
+.benefit {
+  background-color: $white;
+  margin: 0 auto;
 }
 
 .benefit-1 h6 {
-  color: lighten($indigo, 15%);
+  color: lighten($red-new, 5%);
 } 
 
 .benefit-2 h6 {
-  color: lighten($indigo, 25%);
+  color: lighten($red-new, 5%)
 } 
 
 .benefit-3 h6 {
-  color: lighten($indigo, 20%);
+  color: lighten($red-new, 5%)
 } 
 
 .benefit-4 h6 {
-  color: lighten($indigo, 30%);
+  color: lighten($red-new, 5%)
 } 
 
 
@@ -442,8 +450,17 @@ footer li {
 }
 
 .panel__wrap.market {
-  background-color: $orange;
+  height: 100%;
+  width: 100%;
 } 
+
+.panel__wrap.market:after {
+  content:"";
+  background-color: $red-new;
+  height: 50%;
+  width: 50%;
+
+}
 
 .panel.fund {
   background-color: $night-light;
