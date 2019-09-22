@@ -53,9 +53,6 @@
   fill: #232324;
 }
 
-.wave--indigo {
-  fill: #3a4aa5
-}
 
 
 
@@ -424,8 +421,10 @@ a > figcaption {
 /* team bios */
 
 .bio-wrap {
-  /* background: linear-gradient(90deg, $white 55%, $red-new 45%); */
+ max-width: 768px;
+ margin: 0 auto;
 }
+
 .brag-container, .bio-container {
   padding: 2em;
  
@@ -436,11 +435,42 @@ a > figcaption {
 }
 
 .brag-container {
+  display: flex;
+  width: 33%;
   margin-left: 2em;
-  background-color: $red-new;
+  padding: 2em;
   @include mobile {
     margin-left: 0;
   }
+}
+
+.brag-bullets {
+  width: 66%;
+}
+
+.brag-text-container {
+  padding: 0 1em;
+  background-color: $gray-light;
+}
+
+.brag-container i {
+  font-size: 2em;
+  text-indent: 1em;
+  padding-bottom: 1em;
+  
+}
+
+.brag-bullets {
+  
+}
+
+.brag-bullets i {
+  color: black;
+  font-size: 1em;
+}
+
+.brag-neader {
+
 }
 
 .brag-container h2 {

@@ -21,3 +21,7 @@ Caroline has been part of the McAllister & Quinn grant writer network for nearly
 Beyond her writing abilities, Caroline does a great job working with a variety of clients from very research savvy PI’s to brand new Program Directors and faculty members. She is able to help lead the client through the grant writing process asking key questions and allowing them to focus on program development and/or research strategies.
 
 Caroline excels in all aspects of grant writing, from putting pen to paper, working with clients and overall time management. I look forward to my continued work with her.
+
+Mark Moffett 
+
+Fuel Copy tightened up my proposals and made them smarter, and more graceful. Their guidance included important insights into what would catch the eye of each granting agency. Glad to have them on my team.

@@ -99,9 +99,6 @@
   @include text-column;
 }
 
-.underline {
-  border-bottom: 1px $black solid;
-  }
 
 /// SITE STYLES - move to base TODO  ///
 
@@ -222,10 +219,11 @@
   font-size: 1.25em;
 }
 
-a.underline {
-  font-size: 1.25em;
-  text-decoration: underline;
-}
+.underline {
+  border-bottom: 1px $accent solid;
+  }
+
+
 
 .top-pad {
   padding-top: 4em;
