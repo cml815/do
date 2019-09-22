@@ -359,39 +359,8 @@
 
 /* sbir case study */
 
-.grid-item:first-child {
-background-color: $pool;
-padding: 3em;
-}
-
-.grid-item:nth-child(2) {
-  padding: 4em;
-  }
-
-.grid-item:nth-child(3) {
-  background-color: $gray-light;
-  padding: 1em;
-  }
-
-.grid-item:nth-child(4) {
-  background-color: $coal;
-  color: $white;
-  padding: 4em;
-}
-
-.grid-item:nth-child(5) {
-  background-color: $cerise;
-  padding: 2em;
-}
-
-.grid-item:nth-child(6) {
-  background-color: $indigo;
-  padding: 4em;
-  }
-
-.grid-item-color {
-  background-color: $black;
-  color: $cerise;
+.image-centered {
+  margin: 0 auto;
 }
 
 .grid-item-1 {
@@ -399,10 +368,10 @@ padding: 3em;
 }
 
 .grid-item-3 {
-  background-color: lighten($cerise, 50%);
+  background-color: $orange;
 }
 .grid-item-4 {
-  background-color: $cerise;
+  background-color: $gray-light;
 }
 
 .grid-item-6 {

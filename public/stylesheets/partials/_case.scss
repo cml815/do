@@ -361,6 +361,8 @@ line-height: 1.25em;
 .next-project {
   height: 100vh;
   padding: 4em 0 8em;
+  background-color: gra$orange;
+  justify-content: space-between;
   @include mobile-plus {
     margin-bottom: -150px;
   }
@@ -368,29 +370,6 @@ line-height: 1.25em;
     margin-bottom: -50px;
   }
 }
-
-
-.img-display img {
-  display: inline-block;
-}
-
-
-/*
-.img-display { 
-  padding-left: 4em;
-
-} */
-
-.img-display {
-  @include mobile-plus {
-    width: 50%;
-  }
-}
-
-.img-display img {
-  max-width: 400px;
-}
-
 
 .next-project > .spaced {
   margin-right: 1em;
@@ -428,17 +407,24 @@ line-height: 1.25em;
 
 .link-text-large {
   font-size: 2em;
+  @include mobile {
+    font-size: 1.5em;
+  }
 }
 
+@include mobile-plus {
 .grayscale {
   filter: gray; /* IE6-9 */
   -webkit-filter: grayscale(100%); /* Chrome 19+ & Safari 6+ */
 }
 
+}
+
+@include mobile-plus {
 .grayscale:hover {
   filter: none;
   -webkit-filter: grayscale(0%);
   transition: all .4s ease-in-out;
   -webkit-transition: all .4s ease-in-out;
-
+}
 }

@@ -72,22 +72,15 @@
   margin: 0 auto;
 }
 
-.benefit-1 h6 {
-  color: lighten($red-new, 5%);
-} 
+.benefit i {
+  font-size: 1.75em;
+  color: $red-new;
+  margin: 0 auto;
+}
 
-.benefit-2 h6 {
-  color: lighten($red-new, 5%)
-} 
-
-.benefit-3 h6 {
-  color: lighten($red-new, 5%)
-} 
-
-.benefit-4 h6 {
-  color: lighten($red-new, 5%)
-} 
-
+.benefit h6 {
+  color: $indigo;
+}
 
 .bg-shape {
   border-radius: 0% 0% 27% 22% / 10% 10% 34% 10%;
@@ -393,7 +386,11 @@ footer li {
 // Home page //
 
 .header__container {
-  max-width: 60ch;
+  // max-width: 60ch;
+  display: flex;
+  flex-direction: column; 
+  justify-content: center;
+  align-items: center;
   padding-bottom: 1em;
   /*  background: url("../images/test-bg.png") no-repeat center;
   background-position: contain; */
