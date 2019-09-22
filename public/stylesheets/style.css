@@ -904,23 +904,26 @@ a > figcaption {
 
 .brag-container {
   display: flex;
-  width: 33%;
+  width: 50%;
   margin-left: 2em;
-  padding: 2em; }
+  padding: 2em;
+  background-color: #efefef; }
   @media (max-width: 599px) {
     .brag-container {
       margin-left: 0; } }
 
 .brag-bullets {
-  width: 66%; }
+  padding: 1em; }
+
+.brag-text {
+  padding: 0; }
 
 .brag-text-container {
   padding: 0 1em;
-  background-color: #efefef; }
+  border-left: 2px #fc466b solid; }
 
 .brag-container i {
   font-size: 2em;
-  text-indent: 1em;
   padding-bottom: 1em; }
 
 .brag-bullets i {
