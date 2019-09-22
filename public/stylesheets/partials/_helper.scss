@@ -96,7 +96,8 @@ img.center {
   border-left: 2px solid $accent;
   position: -webkit-sticky;
   position: sticky;
-  top: 5px;
+  top: 0;
+  padding: 1em 0;
    //text-decoration: underline;
   // z-index: -1;
  /* -webkit-text-fill-color: white; // Will override color (regardless of order)
