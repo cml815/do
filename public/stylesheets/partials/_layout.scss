@@ -455,7 +455,7 @@ a > figcaption {
 /* team bios */
 
 .bio-wrap {
-  background: linear-gradient(90deg, $white 50%, $orange-red 50%);
+  /* background: linear-gradient(90deg, $white 55%, $red-new 45%); */
 }
 .brag-container, .bio-container {
   padding: 2em;
@@ -468,6 +468,7 @@ a > figcaption {
 
 .brag-container {
   margin-left: 2em;
+  background-color: $red-new;
   @include mobile {
     margin-left: 0;
   }

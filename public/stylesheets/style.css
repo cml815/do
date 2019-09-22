@@ -920,7 +920,7 @@ a > figcaption {
 
 /* team bios */
 .bio-wrap {
-  background: linear-gradient(90deg, white 50%, #ff5947 50%); }
+  /* background: linear-gradient(90deg, $white 55%, $red-new 45%); */ }
 
 .brag-container, .bio-container {
   padding: 2em; }
@@ -929,7 +929,8 @@ a > figcaption {
   padding: 2em; }
 
 .brag-container {
-  margin-left: 2em; }
+  margin-left: 2em;
+  background-color: #fc466b; }
   @media (max-width: 599px) {
     .brag-container {
       margin-left: 0; } }
@@ -1432,9 +1433,6 @@ nav button {
     height: 3em;
   }
 */
-.about nav {
-  background-color: #f9395a; }
-
 .projects nav, .cs-sbir nav {
   background-color: #232324;
   color: white; }
