@@ -1,0 +1,6 @@
+# All robots allowed
+User-agent: *
+Disallow: /privacy
+
+# Sitemap files
+Sitemap: https://www.fuelcopy.com/sitemap.xml
