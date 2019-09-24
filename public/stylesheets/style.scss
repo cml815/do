@@ -591,8 +591,8 @@ i.circle {
 }
 
 .contact__container {
-  text-align: center;
-  padding-top: 4em;
+  padding: 4em;
+  margin-left: 4em;
   & a {
     color: $black;
   }
@@ -604,13 +604,15 @@ background: url("../images/bok.jpg") no-repeat center bottom;
 }
 
 .mail-link {
-  padding-bottom: 1.5em; 
 }
 
 .mail-link a, .tel-link a {
   font-size: 1.25em;
 }
 
+.mail-link a:hover {
+  color: $pool;
+}
 /* Form updated */
 
 form {

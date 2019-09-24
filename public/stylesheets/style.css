@@ -3104,8 +3104,8 @@ i.circle {
   height: 100vh; }
 
 .contact__container {
-  text-align: center;
-  padding-top: 4em; }
+  padding: 4em;
+  margin-left: 4em; }
   .contact__container a {
     color: #141414; }
 
@@ -3113,11 +3113,11 @@ i.circle {
   height: 70vh;
   background: url("../images/bok.jpg") no-repeat center bottom; }
 
-.mail-link {
-  padding-bottom: 1.5em; }
-
 .mail-link a, .tel-link a {
   font-size: 1.25em; }
+
+.mail-link a:hover {
+  color: #57b8ff; }
 
 /* Form updated */
 form {
