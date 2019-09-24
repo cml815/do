@@ -603,11 +603,16 @@ height: 70vh;
 background: url("../images/bok.jpg") no-repeat center bottom;
 }
 
-.mail-link {
+.spaced-container {
+  margin-top: 2em;
+}
+
+.mail-link a {
+  color: $red-new;
 }
 
 .mail-link a, .tel-link a {
-  font-size: 1.25em;
+  font-size: 1.3em;
 }
 
 .mail-link a:hover {

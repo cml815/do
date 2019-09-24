@@ -3113,8 +3113,14 @@ i.circle {
   height: 70vh;
   background: url("../images/bok.jpg") no-repeat center bottom; }
 
+.spaced-container {
+  margin-top: 2em; }
+
+.mail-link a {
+  color: #fc466b; }
+
 .mail-link a, .tel-link a {
-  font-size: 1.25em; }
+  font-size: 1.3em; }
 
 .mail-link a:hover {
   color: #57b8ff; }
