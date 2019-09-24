@@ -601,6 +601,12 @@ p {
 .inner--xl {
   padding: 4em; }
 
+/* Typography */
+.fancy-text {
+  font-family: "Noto Serif JP", Georgia, "Times New Roman", Times, serif;
+  font-size: 1.3em;
+  line-height: 1.6em; }
+
 /* header and footer svg design */
 @media (max-width: 599px) {
   .wave-up {
@@ -1785,15 +1791,6 @@ nav li:hover {
   background-color: #fdca6c;
   max-width: 500px; }
 
-.fancy-text, .fancy-text-block p {
-  font-family: "Noto Serif JP", Georgia, "Times New Roman", Times, serif;
-  font-size: 1.15em;
-  line-height: 1.6em;
-  font-weight: bold; }
-
-.focus-text-block {
-  margin-bottom: 2em; }
-
 .inactive {
   background-color: #232324;
   color: white; }
@@ -2307,9 +2304,6 @@ img.center {
 
 .grants .hero {
   background-color: #3a4aa5; }
-
-.growth-marketing .hero h1, .growth-marketing .hero p {
-  color: white; }
 
 /* Styled links */
 a {
