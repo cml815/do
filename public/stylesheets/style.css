@@ -2275,7 +2275,8 @@ img.center {
   background: linear-gradient(0deg, #232324 0%, #232324 51%, white 51%); }
 
 .growth-marketing .hero {
-  background-color: #5c98e6; }
+  background: #527bf7;
+  background: linear-gradient(45deg, #527bf7 0%, #83a7ff 70%, #658bff 100%); }
   @media (max-width: 599px) {
     .growth-marketing .hero {
       margin-top: 4em; } }
@@ -2303,7 +2304,14 @@ img.center {
   margin-top: -2px; }
 
 .grants .hero {
-  background-color: #3a4aa5; }
+  background: #3a4aa5;
+  background: linear-gradient(45deg, #3a4aa5 0%, #3a55d1 20%, #375bee 41%, #3958e0 72%, #3a4aa5 100%); }
+
+.grants .hero h1 {
+  color: #e7eaf7; }
+
+.grants .hero p {
+  color: white; }
 
 /* Styled links */
 a {
