@@ -24,12 +24,6 @@
   display: grid;
 }
 
-@mixin text-column {
-  max-width: $max-width-base;
-  margin: 0 auto;
-  padding: $space-l;
-}
-
 @mixin mobile-plus {
   @media (min-width: 600px) { @content; }
 }

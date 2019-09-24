@@ -95,10 +95,6 @@
   color: $white;
 }
 
-.text-column {
-  @include text-column;
-}
-
 
 /// SITE STYLES - move to base TODO  ///
 
@@ -470,9 +466,14 @@ footer li {
 }
 
 .testimonials {
+  display: flex;
+  justify-content: center;
   background-color: $gray-light;
   color: $black;
+  padding: 3em 1em;
 }
+
+
 
 .testimonials .fine-print {
   color: $cerise;
