@@ -691,9 +691,26 @@ p {
   flex-direction: column; }
 
 .container__caption {
-  background-color: #e2e2e2;
+  background-color: #a4d2dd;
   text-align: center;
-  padding: .5em 0; }
+  padding: 1em; }
+
+.service__container-1 {
+  background: #73f8fa; }
+
+.service__container-2 {
+  background: #5c98e6; }
+
+.service__container-3 {
+  background: #5cbae6; }
+
+.service__container-4 {
+  background: #5ce3e6;
+  height: 110vh;
+  margin-bottom: -150px; }
+
+.nudge-up {
+  margin-top: -50px; }
 
 .circle {
   border-radius: 50%; }
@@ -2261,7 +2278,7 @@ img.center {
   background: linear-gradient(0deg, #232324 0%, #232324 51%, white 51%); }
 
 .growth-marketing .hero {
-  background-color: #cd6441; }
+  background-color: #5c98e6; }
   @media (max-width: 599px) {
     .growth-marketing .hero {
       margin-top: 4em; } }

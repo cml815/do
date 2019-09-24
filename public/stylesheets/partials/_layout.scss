@@ -157,9 +157,31 @@
 }
 
 .container__caption {
-  background-color: darken($gray-light, 5%);
+  background-color: #a4d2dd;
   text-align: center;
-  padding: .5em 0;
+  padding: 1em;
+}
+
+.service__container-1 {
+  background: rgb(115, 248, 250);
+}
+
+.service__container-2 {
+  background: rgb(92, 152, 230);
+}
+
+.service__container-3 {
+  background: rgb(92, 186, 230);
+}
+
+.service__container-4 {
+  background: rgb(92, 227, 230);
+  height: 110vh;
+  margin-bottom: -150px;
+}
+
+.nudge-up {
+  margin-top: -50px;
 }
 
 /// Shapes /// 

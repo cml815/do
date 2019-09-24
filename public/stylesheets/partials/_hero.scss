@@ -36,7 +36,7 @@
      
     }
   }
-  
+
   .hero__cta-container {
     flex: 2 1 60%;
     padding-right: 4em;
@@ -130,7 +130,7 @@ background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100
   }
   
   .growth-marketing .hero {
-    background-color: $market;
+    background-color: rgb(92, 152, 230);
     @include mobile {
       margin-top: 4em;
     }    
