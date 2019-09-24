@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+   <url>
+      <loc>https://www.fuelcopy.com/</loc>
+      <priority>1</priority>
+   </url>
+   <url>
+      <loc>https://www.fuelcopy.com/about</loc>
+   </url>
+    <url>
+      <loc>https://www.fuelcopy.com/growth-marketing</loc>
+   </url>
+    <url>
+      <loc>https://www.fuelcopy.com/fundraising</loc>
+   </url>
+   <url>
+      <loc>https://www.fuelcopy.com/contact</loc>
+      <priority>0.3</priority>
+   </url>
+
+   <!--Case Studies-->
+
+    <url>
+      <loc>https://www.fuelcopy.com/projects</loc>
+      <priority>0.3</priority>
+   </url>
+   <url>
+      <loc>https://www.fuelcopy.com/projects/social-media-influencer</loc>
+   </url>
+    <url>
+      <loc>https://www.fuelcopy.com/projects/press-campaign</loc>
+   </url>
+    <url>
+      <loc>https://www.fuelcopy.com/projects/founder-stories</loc>
+   </url>
+   <url>
+      <loc>https://www.fuelcopy.com/projects/social-marketing-grant</loc>
+   </url>
+    <url>
+      <loc>https://www.fuelcopy.com/projects/sbir-grants</loc>
+   </url>
+    <url>
+      <loc>https://www.fuelcopy.com/projects/websites</loc>
+   </url>
+    <url>
+      <loc>https://www.fuelcopy.com/projects/websites</loc>
+   </url>
+
+   <!-- Bio Pages-->
+
+    <url>
+      <loc>https://www.fuelcopy.com/about/caroline-leopold</loc>
+   </url>
+   <url>
+      <loc>https://www.fuelcopy.com/about/rich-garella</loc>
+   </url>
+   <url>
+      <loc>https://www.fuelcopy.com/about/dave-scholnick</loc>
+   </url>
+    <url>
+      <loc>https://www.fuelcopy.com/about/dana-henry</loc>
+   </url>
+    <url>
+      <loc>https://www.fuelcopy.com/about/ed-apffel</loc>
+   </url>
+    <url>
+      <loc>https://www.fuelcopy.com/about/darcie-goodwin</loc>
+   </url>
+</urlset> 
