@@ -2755,6 +2755,14 @@ fieldset {
 .project a {
   color: white; }
 
+/* Privacy page */
+.privacy {
+  background-color: #fdca6c; }
+
+.inner-container {
+  max-width: 1000px;
+  padding: 2em 4em; }
+
 /* 404 error page */
 .error {
   background-color: #FA526F;
