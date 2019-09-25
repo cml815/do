@@ -1267,7 +1267,8 @@ a > figcaption {
 
 .grid-solution-sm {
   grid-column: 2 / span 5;
-  grid-row: 10 / span 3; }
+  grid-row: 10 / span 3;
+  padding-top: 1em; }
 
 .grid-strategy-sm {
   grid-column: 8 / span 5;
@@ -1300,7 +1301,8 @@ a > figcaption {
 /* social media marketing */
 .grid-challenge-s {
   grid-column: 2 / span 5;
-  grid-row: 6 / span 3; }
+  grid-row: 6 / span 3;
+  padding-top: 1em; }
 
 .grid-fact-s {
   background-color: #efefef;
