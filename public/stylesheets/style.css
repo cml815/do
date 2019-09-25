@@ -2746,9 +2746,13 @@ fieldset {
     height: 100%;
     z-index: 10;
     background-color: black;
-    opacity: 0; }
-  .project--details > * {
-    padding-bottom: .5em; } }
+    opacity: 0; } }
+
+.project--details > * {
+  padding-bottom: .5em; }
+  @media (max-width: 599px) {
+    .project--details > * {
+      padding: 0 1em; } }
 
 @media (min-width: 600px) {
   .project--overlay:hover {

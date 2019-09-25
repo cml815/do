@@ -148,11 +148,16 @@
     background-color: rgba(0,0,0,1);
     opacity: 0;
   }
+}
+
   .project--details > * {
     padding-bottom: .5em;
+    @include mobile {
+      padding: 0 1em;
+    }
   }
 
-}
+
 
 @include mobile-plus {
   .project--overlay:hover{
