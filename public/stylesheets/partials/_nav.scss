@@ -126,6 +126,9 @@ nav button {
   .hamburger {
     font-size: 24px;
     padding: .5em 1em;
+    @include mobile-plus {
+      display: none;
+    }
   }
 
   .contact-text {
