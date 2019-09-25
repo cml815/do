@@ -54,9 +54,10 @@
 
 }
 
+@include mobile-plus {
 .benefits-container {
   margin: 0 0 0 3em;
-  
+}
 }
 
 .benefit:after {

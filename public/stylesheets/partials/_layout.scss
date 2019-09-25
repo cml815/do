@@ -341,7 +341,7 @@
   @include mobile {
     /* change to 1 column grid */
     grid-template-columns: repeat(1, 1fr);
-    grid-gap: 0;
+    grid-gap: 1em;
   }
 }
 
@@ -1137,8 +1137,20 @@ color: $orange-red;
   blockquote {
     font-family: $serif;
     line-height: 1.8em;
-    padding: 2em 3em;
+    @include mobile-plus {
+      padding: 2em 3em;
+    }
+    @include mobile {
+      padding: 1em 0;
+    }
   }
+
+  include mobile {
+  .testimonal:first-child {
+    margin-bottom: 1em;
+
+  }
+}
 
   .vertical-line {
     margin: 5em 0 0;

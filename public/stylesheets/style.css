@@ -831,7 +831,7 @@ p {
     .grid-c--2x2 {
       /* change to 1 column grid */
       grid-template-columns: repeat(1, 1fr);
-      grid-gap: 0; } }
+      grid-gap: 1em; } }
 
 /* fundraising page grid */
 .grid-c--2x3 {
@@ -1427,8 +1427,16 @@ a > figcaption {
 
 blockquote {
   font-family: "Noto Serif JP", Georgia, "Times New Roman", Times, serif;
-  line-height: 1.8em;
-  padding: 2em 3em; }
+  line-height: 1.8em; }
+  @media (min-width: 600px) {
+    blockquote {
+      padding: 2em 3em; } }
+  @media (max-width: 599px) {
+    blockquote {
+      padding: 2em 0; } }
+
+include mobile .testimonal:first-child {
+  margin-bottom: 1em; }
 
 .vertical-line {
   margin: 5em 0 0;
@@ -2656,8 +2664,9 @@ fieldset {
     transform: translateZ(4px); } }
 
 /* Home page */
-.benefits-container {
-  margin: 0 0 0 3em; }
+@media (min-width: 600px) {
+  .benefits-container {
+    margin: 0 0 0 3em; } }
 
 .benefit:after {
   content: "";
