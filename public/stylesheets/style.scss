@@ -90,6 +90,9 @@
 
 .container--vertical-text {
   max-width: 100px;
+  @include tablet {
+    max-width: 50px;
+  }
 }
 
 .text--dark-theme {
@@ -451,6 +454,16 @@ footer li {
     padding: 4em;
   }
 }
+
+.panel {
+  @include mobile-plus {
+      padding: 4em;
+    }
+    @include tablet {
+      padding: 4em 1em;
+    }
+  }
+
 
 .panel__wrap.market {
   height: 100%;

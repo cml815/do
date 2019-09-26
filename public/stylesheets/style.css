@@ -835,6 +835,9 @@ p {
       /* change to 1 column grid */
       grid-template-columns: repeat(1, 1fr);
       grid-gap: 1em; } }
+  @media (max-width: 599px) and (min-width: 768px) and (max-width: 1024px) {
+    .grid-c--2x2 {
+      grid-gap: .5em; } }
 
 /* fundraising page grid */
 .grid-c--2x3 {
@@ -2516,6 +2519,10 @@ li {
 li:hover {
   cursor: pointer; }
 
+@media (min-width: 768px) and (max-width: 1024px) {
+  li.tight {
+    letter-spacing: -.05em; } }
+
 img {
   display: block;
   max-width: 100%;
@@ -2705,6 +2712,9 @@ fieldset {
 
 .container--vertical-text {
   max-width: 100px; }
+  @media (min-width: 768px) and (max-width: 1024px) {
+    .container--vertical-text {
+      max-width: 50px; } }
 
 .text--dark-theme {
   color: white; }
@@ -3017,6 +3027,14 @@ footer li {
 @media (min-width: 600px) {
   .panel {
     padding: 4em; } }
+
+@media (min-width: 600px) {
+  .panel {
+    padding: 4em; } }
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .panel {
+    padding: 4em 1em; } }
 
 .panel__wrap.market {
   height: 100%;

@@ -138,6 +138,12 @@ li:hover {
   cursor: pointer;
 }
 
+li.tight {
+  @include tablet {
+    letter-spacing: -.05em;
+  }
+}
+
 img {
     display: block;
     max-width: 100%;
