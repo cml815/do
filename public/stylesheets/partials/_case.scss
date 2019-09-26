@@ -325,30 +325,13 @@ line-height: 1.25em;
   width: 50%;
 }
 
-/* 
-.video-wrap {
-  position: relative;
-  width: 100%;
-  margin-top: 2em;
-  padding-bottom: 56.25%; 
-  height: 0;
-}
-.iframe-container iframe {
-  position: absolute;
-  top:0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-}
-
-*/
 
 /* Next project case study footer */
 
 .next-project {
   height: 100vh;
   padding: 4em 0 8em;
-  background-color: gra$orange;
+  background-color: $orange;
   justify-content: space-between;
   @include mobile-plus {
     margin-bottom: -150px;
