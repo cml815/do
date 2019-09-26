@@ -2008,28 +2008,11 @@ aside {
 .narrative {
   width: 50%; }
 
-/* 
-.video-wrap {
-  position: relative;
-  width: 100%;
-  margin-top: 2em;
-  padding-bottom: 56.25%; 
-  height: 0;
-}
-.iframe-container iframe {
-  position: absolute;
-  top:0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-}
-
-*/
 /* Next project case study footer */
 .next-project {
   height: 100vh;
   padding: 4em 0 8em;
-  background-color: gra #fdca6c;
+  background-color: #fdca6c;
   justify-content: space-between; }
   @media (min-width: 600px) {
     .next-project {
@@ -2421,7 +2404,7 @@ box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75); */
 .wordlink {
   font-weight: bold;
   text-decoration: underline;
-  color: #e44635; }
+  color: #92180b; }
 
 @media (max-width: 599px) {
   .mobile-hide {

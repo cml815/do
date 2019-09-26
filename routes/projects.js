@@ -10,6 +10,7 @@ router.get('/', function(req, res, next) {
   router.get('/social-media-influencer', function(req, res, next) {
     res.render('social-media-influencer', { 
       title: 'Influencer Marketing: YouTube Case Study',
+      description: 'Fuel connected YouTube influencers with an online brand for young adults. Learn how to benefit from influencers.', 
       bodyClass: 'cs-influencer',
       client: 'Aceable',
       team: ['Caroline Leopold', 'Dana Henry'],
@@ -27,6 +28,7 @@ router.get('/', function(req, res, next) {
 router.get('/press-campaign', function(req, res, next) {
     res.render('press-campaign', { 
       title: 'PR and Media Relations: Case Study',
+      description: 'Read the story we generated media for a large event. Learn how you can get PR for your company or brand.',
       bodyClass: 'cs-press',
       summary: 'How a citizens group organized the largest gun violence prevention rally ever in Pennsylvania and was catapulted to the national stage.',
       client: 'CeaseFirePA',
@@ -46,7 +48,7 @@ router.get('/founder-stories', function(req, res, next) {
     res.render('founder-stories', { 
       title: 'Interviews for content marketing: Case study',
       bodyClass: 'cs-founder',
-      description: 'Fuel interviewed dozens of entrepreneurs on how to make a mark in the travel world',
+      description: 'Read how Fuel interviewed startup founders for a content marketing campaign. Grow organic reach; build your brand',
       client: 'RewardExpert',
       team: ['Nick Mordowanec', 'Shawn Farner', 'Caroline Leopold', 'Dana Henry', 
       'Tomas Ponce de Leon'],
@@ -64,6 +66,7 @@ router.get('/founder-stories', function(req, res, next) {
 router.get('/sbir-grants', function(req, res, next) {
     res.render('sbir-grants', { 
       title: 'SBIR grants: Funds without dilution',
+      description: 'Read case study on non-dilutive business grants. See how small business innovation research (SBIR) helps with R&D',
       bodyClass: 'cs-sbir',
       summary: 'How Fuel helped tech and biotech companies win funding to bring their innovations to market',
       client: 'Various companies',
@@ -77,27 +80,12 @@ router.get('/sbir-grants', function(req, res, next) {
     });
   });
   
-  // Authority blogging - thought eadership case study
-  
-  router.get('/thought-leadership', function(req, res, next) {
-    res.render('thought-leadership', { 
-      title: 'Healthcare content readers can trust',
-      summary: '',
-      name: 'null',
-      jobTitle: 'null',
-      caption: 'null',
-      credit: 'null',
-      client: ['Various brands'],
-      tag: ['thought leadership', 'magazine style', 'white papers', 'authority'],
-      layout: 'case' 
-    });
-  });
-  
   // Web design case study route
   
   router.get('/websites', function(req, res, next) {
     res.render('websites', { 
       title: 'Usable, useful websites',
+      description: 'Read story how our web design and copywriting services help solo entrepreneurs and small companies. ',
       bodyClass: 'cs-website',
       summary: 'Web design to introduce new companies to discerning audiences',
       team: ['Caroline Leopold', 'Dana Henry', 'Francesca Lo Basso', 'Rich Garella'],
@@ -117,7 +105,7 @@ router.get('/sbir-grants', function(req, res, next) {
     res.render('social-marketing-grant', { 
       title: 'Social marketing to save lives',
       bodyClass: 'cs-grant',
-      description: 'We wrote a grant proposal to educate women on an inherited bleeding disorder',
+      description: 'Read the story of how we helped design a social marketing for a funded grant proposal. Get help for federal grants in health',
       client: 'National Hemophilia Foundation',
       team: 'Caroline Leopold', 
       tag: ['grant writing', 'project development', 'social marketing'],

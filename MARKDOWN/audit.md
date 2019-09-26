@@ -12,3 +12,5 @@ p.hidden
 Annoying
 
 Background buttons (user agent)
+
+font-display --> Download font-awesome svg
