@@ -145,7 +145,7 @@ app.post('/submit-form', function (req, res) {
   res.send("Thank you for sending us a message!")
 });
 
-// send grid test 
+/* send grid test 
 
 // using Twilio SendGrid's v3 Node.js Library
 // https://github.com/sendgrid/sendgrid-nodejs
@@ -159,6 +159,8 @@ const msg = {
   html: '<strong>and easy to do anywhere, even with Node.js</strong>',
 };
 sgMail.send(msg);
+
+*/
 
 // catch 404 and forward to error handler
 
