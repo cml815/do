@@ -45,7 +45,7 @@
     }
   }
 
-  @include mobile {
+  @include mobile-plus {
     .hero__img {
       max-width: 300px;
     }

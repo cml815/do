@@ -767,6 +767,9 @@ p {
   @media (max-width: 599px) {
     .flex-c--center {
       flex-direction: column; } }
+  @media (min-width: 768px) and (max-width: 1024px) {
+    .flex-c--center {
+      flex-direction: column; } }
 
 .flex-item-half {
   max-width: 80%; }
@@ -940,6 +943,10 @@ a > figcaption {
   padding: 2em;
   background-color: #efefef; }
   @media (max-width: 599px) {
+    .brag-container {
+      margin-left: 0;
+      width: 100%; } }
+  @media (min-width: 768px) and (max-width: 1024px) {
     .brag-container {
       margin-left: 0;
       width: 100%; } }
@@ -2237,7 +2244,7 @@ img.center {
     .hero__cta-container {
       padding: 0; } }
 
-@media (max-width: 599px) {
+@media (min-width: 600px) {
   .hero__img {
     max-width: 300px; } }
 
