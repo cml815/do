@@ -1684,7 +1684,8 @@ nav li a {
   color: #141414; }
 
 .logo-link {
-  color: #FA526F; }
+  color: #d6072a;
+  font-weight: bold; }
 
 nav li:hover {
   cursor: pointer; }
@@ -3076,7 +3077,7 @@ footer li {
   padding: 3em 1em; }
 
 .testimonials .fine-print {
-  color: #FA526F;
+  color: #d6072a;
   margin-bottom: 1em; }
 
 .testimonial-headline {
