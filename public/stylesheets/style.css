@@ -3147,6 +3147,9 @@ i.circle {
   margin-left: 4em; }
   .contact__container a {
     color: #141414; }
+  @media (max-width: 599px) {
+    .contact__container {
+      margin-left: 0; } }
 
 .contact-image {
   height: 70vh;

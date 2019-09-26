@@ -612,11 +612,15 @@ i.circle {
   height: 100vh;
 }
 
+
 .contact__container {
   padding: 4em;
   margin-left: 4em;
   & a {
     color: $black;
+  }
+  @include mobile {
+    margin-left: 0;
   }
 }
 
