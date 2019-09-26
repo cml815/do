@@ -83,8 +83,11 @@
 <section class="panel market flex-c place-adjust">
   <article class="flex-c">
     <div class="container flex-c--center">      
-      <div class="image__container">
-        <img class="image__background shadow image--place" src="./images/couple-selfie-sq.jpg" width="500px" height="" alt="young couple taking selfie"/ >
+      <div class="image__container js-lazy-container">
+         <img src="./images/spacer.gif"class="image__background shadow image--place js-lazy" data-src="./images/couple-selfie-sq.jpg" width="500px" height="" alt=""/ >
+        <noscript>
+          <img class="image__background shadow image--place js-lazy" src="./images/couple-selfie-sq.jpg" width="500px" alt="young couple taking selfie"/ >
+        </noscript>
       </div>
     </div>
   <div class="container flex-c--center">
@@ -123,7 +126,9 @@
       </div>
     </div>
     <div class="image__container">
-      <img class="shadow" src="./images/office.jpg" width="500px" alt="people in a conference room"/ >
+      <noscript>
+        <img class="shadow js-lazy" src="./images/office.jpg" width="500px" alt="people in a conference room"/ >
+      </noscript>
     </div>
   </article>
 </section>
