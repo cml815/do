@@ -3113,9 +3113,6 @@ footer li {
 .about figcaption p:first-child {
   margin-top: 1em; }
 
-.about a {
-  color: #141414; }
-
 /* Work page and sub-pages */
 .card-wrap > * {
   margin-bottom: 2em; }
