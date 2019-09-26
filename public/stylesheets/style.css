@@ -1662,10 +1662,11 @@ nav ul li {
 .btn--menu {
   all: unset;
   height: 40px;
-  background-color: #c682f9;
+  background-color: #d6586d;
+  color: white;
   padding: .5em;
   text-align: center;
-  letter-spacing: .02em; }
+  letter-spacing: .01em; }
 
 nav li {
   color: #000;
@@ -2290,10 +2291,6 @@ img.center {
   padding: 2em;
   height: 50vh; }
 
-/* .hero.team {
-    background: rgb(11,10,10);
-    background: linear-gradient(0deg, rgba(11,10,10,1) 0%, rgba(15,14,14,1) 50%, rgba(255,255,255,1) 50%);
-  } */
 .color--white {
   color: white; }
   @media (max-width: 599px) {
@@ -2329,9 +2326,12 @@ img.center {
   background: #282828; }
 
 .about .hero {
-  background-color: #32395e;
-  color: #9ca4ca;
+  background-color: #3f4775;
+  color: #bdc2dc;
   margin-top: -2px; }
+
+.about .hero .fine-print {
+  color: white; }
 
 .grants .hero {
   background: #3a4aa5;
@@ -2712,7 +2712,7 @@ fieldset {
   margin: 0 auto; }
 
 .benefit h6 {
-  color: #3a4aa5; }
+  color: #1b2fa2; }
 
 .bg-shape {
   border-radius: 0% 0% 27% 22% / 10% 10% 34% 10%;

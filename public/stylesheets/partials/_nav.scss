@@ -139,10 +139,11 @@ nav button {
   .btn--menu {
     all:unset;
     height: 40px;
-    background-color: $accent;
+    background-color: #d6586d;
+    color: $white;
     padding: .5em;
     text-align: center;
-    letter-spacing: .02em;
+    letter-spacing: .01em;
   }
   
   nav li {
@@ -167,6 +168,7 @@ nav button {
     color: $red-dark;
     font-weight: bold;
   }
+
 
   nav li:hover {
       cursor: pointer; }

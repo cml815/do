@@ -6,3 +6,9 @@ h6.fine-print
 p.hidden
 h6.fine-print
 p.hidden
+
+
+
+Annoying
+
+Background buttons (user agent)
