@@ -3142,6 +3142,9 @@ i.circle {
 .contact--details {
   height: 100vh; }
 
+.contact p {
+  margin-bottom: 0; }
+
 .contact__container {
   padding: 4em;
   margin-left: 4em; }
@@ -3156,7 +3159,7 @@ i.circle {
   background: url("../images/bok.jpg") no-repeat center bottom; }
 
 .spaced-container {
-  margin-top: 2em; }
+  margin-top: 1em; }
 
 .mail-link a {
   color: #fc466b; }

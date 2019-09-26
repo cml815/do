@@ -612,6 +612,9 @@ i.circle {
   height: 100vh;
 }
 
+.contact p {
+  margin-bottom: 0;
+}
 
 .contact__container {
   padding: 4em;
@@ -630,7 +633,7 @@ background: url("../images/bok.jpg") no-repeat center bottom;
 }
 
 .spaced-container {
-  margin-top: 2em;
+  margin-top: 1em;
 }
 
 .mail-link a {
