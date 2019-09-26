@@ -121,9 +121,20 @@ background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100
     background: linear-gradient(0deg, rgba(35, 35, 36,1) 0%, rgba(35, 35, 36,1) 51%, rgba(255,255,255,1) 51%);
   }
   
+  /*
   .growth-marketing .hero {
     background: rgb(82,123,247);
     background: linear-gradient(45deg, rgba(82,123,247,1) 0%, rgba(131,167,255,1) 70%, rgba(101,139,255,1) 100%);
+    @include mobile {
+      margin-top: 4em;
+    }    
+  }
+
+  */
+
+  .growth-marketing .hero {
+    background: #fc466b;
+    background: linear-gradient(135deg, rgba(63,94,251,.8) 0%, rgba(252,70,107,.8) 100%);
     @include mobile {
       margin-top: 4em;
     }    
