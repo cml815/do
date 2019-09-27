@@ -2033,6 +2033,9 @@ aside {
 .next-project > .spaced {
   margin-right: 1em; }
 
+.next-project p {
+  color: white; }
+
 .next-project a, .next-project a:visited {
   position: relative;
   text-decoration: none;
