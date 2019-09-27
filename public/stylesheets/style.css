@@ -3074,6 +3074,9 @@ footer li {
   padding: 2em;
   font-size: 1.25em; }
 
+.testimonial p {
+  color: #141414; }
+
 .callout {
   display: flex;
   flex-direction: column;
