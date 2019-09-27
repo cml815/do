@@ -11,7 +11,6 @@ const { sanitizeBody } = require('express-validator/filter');
 const sassMiddleware = require('node-sass-middleware');
 const favicon = require('serve-favicon');
 const dotenv = require('dotenv').config();
-
 // unused modules 
 const nodemailer = require('nodemailer');
 
