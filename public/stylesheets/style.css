@@ -1558,8 +1558,14 @@ nav {
 nav li, nav p {
   margin-bottom: 0; }
 
-nav button {
+nav {
   height: 56px; }
+
+nav a {
+  display: block;
+  width: 100%;
+  height: 100%;
+  background: orange; }
 
 /* .navbar {
     height: 3em;
@@ -1659,11 +1665,15 @@ nav ul li {
 .btn--menu {
   all: unset;
   height: 40px;
-  background-color: #d6586d;
+  background-color: #E01A38;
   color: white;
   padding: .5em;
   text-align: center;
   letter-spacing: .01em; }
+
+.btn--menu p {
+  color: white;
+  font-weight: bolder; }
 
 nav li {
   color: #000;
