@@ -28,5 +28,8 @@
     "normalize.css": "^8.0.1",
     "papaparse": "^4.6.3",
     "serve-favicon": "^2.5.0"
+  },
+  "devDependencies": {
+    "purify-css": "^1.2.5"
   }
 }
