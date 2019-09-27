@@ -2216,7 +2216,7 @@ img.center {
 
 .hero__text-container {
   margin-top: 2em;
-  padding: 2em;
+  padding: 2em 6em;
   flex: 1 1 40%; }
 
 .hero__cta-container {
