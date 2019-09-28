@@ -1,4 +1,73 @@
+dave edit
 
+===
+
+CASE STUDY
+
+A Show of Strength
+
+Here's how our PR expert brought the media spotlight to a massive gun violence prevention rally in Pennsylvania.
+
+ 
+
+Summary
+
+Pennsylvania not-for-profit CeaseFirePA aims to end the epidemic of gun violence, which takes more than 1,500 lives a year in the state.
+
+ 
+
+The small staff was organizing what was to become the biggest gun violence prevention rally ever in Pennsylvania, an event that was sure to get noticed by elected officials. But to get the change they sought, CeaseFirePA also needed to grab the attention of people in contested districts. People who vote. So, they hired Dave Scholnick, a media expert to help with PR. 
+
+ 
+
+Challenge
+
+CeaseFirePA’s event was going to be massive, but that alone wouldn’t draw statewide media coverage to a demonstration in Harrisburg, PA. How do you get big-market press to cover a small-market event?
+
+With buses bringing activists from around the state, and turnout expected to strain the capacity of the Capitol Rotunda, CeaseFirePA’s staff was stretched thin.
+
+ 
+
+Solution
+
+CeaseFirePA hired media and communications specialist Dave Scholnick to help attract broad press coverage and penetrate hyper-local media markets.
+
+ 
+
+Dave worked with Executive Director Shira Goodman to craft a strategy to garner media attention in the big markets and hometown stories in key suburbs. They submitted multiple op-eds to big and medium newspapers and leveraged relationships to ensure the story landed in the right hands.
+
+ 
+
+Next, Dave pitched several of the bus pickups as their own stories to a deep list of large and local news outlets. He distributed talking points to designated volunteer coordinators on each bus and issued targeted local media advisories with logistical details.
+
+ 
+
+Results
+
+Pennsylvanians witnessed dramatic reports on television and radio in the state’s three biggest media markets. Readers woke up to stories in major metropolitan daily papers and small town weeklies across the state. #EveryGunEverySale trended on Twitter during the rally.
+
+https://twitter.com/hashtag/everyguneverysale
+
+ 
+
+One reporter in a key Philadelphia suburb covered the bus pickup and then rode with activists to Harrisburg for a front-page story.
+
+ 
+
+The media push generated coverage across channels to a combined circulation, viewership, and listenership of more than 1.6 million Pennsylvanians.
+
+
+
+“Dave recognized our needs and maximized our media coverage. His strategic writing and thinking amplified our voice and extended our reach. It moved our agenda forward." — Shira Goodman, Executive Director, CeaseFirePA
+
+Attachments area
+Here you go!Thoughts?Thanks!
+
+
+
+
+
+===
 
 Here's how our PR expert brought the media spotlight to a massive gun violence prevention rally in Pennsylvania.
 

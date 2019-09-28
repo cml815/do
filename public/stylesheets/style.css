@@ -542,6 +542,11 @@ p {
 .theme--pool {
   background-color: #57b8ff; }
 
+.color--pool a, .color--pool a:visited {
+  color: #008bf0;
+  font-weight: bolder;
+  text-decoration: underline; }
+
 .theme--light {
   background-color: #efefef;
   color: #141414; }
@@ -1222,12 +1227,21 @@ a > figcaption {
   grid-column: 2 / span 5;
   grid-row: 8 / span 3; }
 
-.grid-quote {
+.grid-quote-p {
   grid-column: 1 / span 12;
-  grid-row: 11 / span 3; }
+  grid-row: 11 / span 3;
+  padding: 0; }
 
 .grid-quote-p p {
-  padding: 3em; }
+  padding: 3em 5em; }
+
+.grid-results-p {
+  grid-column: 2 / span 4;
+  grid-row: 16 / span 4; }
+
+.grid-img-2 {
+  grid-column: 7 / span 6;
+  grid-row: 16 / span 6; }
 
 /* founder stories grid */
 .grid-challenge-f {
@@ -1664,7 +1678,7 @@ nav ul li {
 .btn--menu {
   all: unset;
   height: 40px;
-  background-color: #E01A38;
+  background-color: #232324;
   color: white;
   padding: .5em;
   text-align: center;
@@ -2319,9 +2333,9 @@ img.center {
   background-position: 60% 30%; }
 
 .cs-press .hero {
-  background: #FA526F url("../images/ammo.svg") no-repeat;
-  background-size: 32px 32px;
-  background-position: 40% 70%; }
+  background: #FA526F url("../images/ammo-noun.svg") no-repeat;
+  background-size: 72px 72px;
+  background-position: 40% 75%; }
 
 .grant-case-study .hero, .grant-case-study .hero--short {
   color: white;
@@ -3073,6 +3087,7 @@ footer li {
 
 .testimonials {
   display: flex;
+  height: 75vh;
   justify-content: center;
   background-color: #efefef;
   color: #141414;

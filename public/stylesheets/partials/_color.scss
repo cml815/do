@@ -97,6 +97,12 @@
     background-color: $pool;
   }
 
+  .color--pool a, .color--pool a:visited {
+    color: darken($pool, 20%);
+    font-weight: bolder;
+    text-decoration: underline;
+  }
+
   .theme--light {
     background-color: $gray-light;
     color: $black;

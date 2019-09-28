@@ -855,13 +855,26 @@ color: $orange-red;
   grid-row: 8 / span 3;
 }
 
-.grid-quote {
+.grid-quote-p {
   grid-column: 1 / span 12;
   grid-row: 11 / span 3;
+  padding: 0;
+  
 }
 
 .grid-quote-p p {
-  padding: 3em;
+  padding: 3em 5em;
+}
+
+.grid-results-p {
+  grid-column: 2 / span 4;
+  grid-row: 16 / span 4;
+}
+
+
+.grid-img-2 {
+  grid-column: 7 / span 6;
+  grid-row: 16 / span 6;
 }
 
 
