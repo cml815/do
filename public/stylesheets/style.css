@@ -2722,10 +2722,11 @@ fieldset {
   background-color: white;
   margin: 0 auto; }
 
-.benefit i {
+.benefit i, .benefit img {
   font-size: 1.75em;
   color: #fc466b;
-  margin: 0 auto; }
+  margin: 0 auto;
+  width: 42px; }
 
 .benefit h6 {
   color: #1b2fa2; }
