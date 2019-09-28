@@ -5,6 +5,8 @@ Audit - major to do
 1. Remove unused CSS
 2. Minify CSS - Purify - https://github.com/purifycss/purifycss
 3. Use https
+4. font awesome - fontface or DL icons svg
+
 
 // try 
 
