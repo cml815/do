@@ -146,7 +146,7 @@ height: 100%;
   .btn--menu {
     all:unset;
     height: 40px;
-    background-color: $coal;
+    background-color: lighten($coal, 8%);
     color: $white;
     padding: .5em;
     text-align: center;
