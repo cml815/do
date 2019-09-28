@@ -91,8 +91,8 @@
 
 .container--vertical-text {
   max-width: 100px;
-  @include tablet {
-    max-width: 50px;
+  @include tablet-smaller {
+    display: none;
   }
 }
 
@@ -502,7 +502,7 @@ footer li {
   display: flex;
   height: 75vh;
   justify-content: center;
-  background-color: $white;
+  background-color: $gray-light;
   color: #000;
   padding: 3em 1em;
 }
@@ -520,7 +520,7 @@ footer li {
 }
 
 .testimonial p {
-  color: #000;
+  color: $black;
 }
 
 .callout {

@@ -167,8 +167,11 @@ $narrow: 'Roboto Condensed', 'Lato', Helvetica, 'Helvetica Neue', Arial, sans-se
   @mixin tablet-plus {
     @media (min-width: 900px) { @content; }
   }
-  @mixin desktop {
-    @media (min-width: 1200px) { @content; }
+  @mixin tablet-smaller {
+    @media (max-width: 1024px) { @content; }
+  }
+  @mixin laptop-plus {
+    @media (min-width: 1025px) { @content; }
   }
   @mixin desktop-plus {
     @media (min-width: 1800px) { @content; }

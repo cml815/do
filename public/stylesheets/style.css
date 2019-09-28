@@ -2737,9 +2737,9 @@ fieldset {
 
 .container--vertical-text {
   max-width: 100px; }
-  @media (min-width: 768px) and (max-width: 1024px) {
+  @media (max-width: 1024px) {
     .container--vertical-text {
-      max-width: 50px; } }
+      display: none; } }
 
 .text--dark-theme {
   color: white; }
@@ -3090,7 +3090,7 @@ footer li {
   display: flex;
   height: 75vh;
   justify-content: center;
-  background-color: white;
+  background-color: #efefef;
   color: #000;
   padding: 3em 1em; }
 
@@ -3103,7 +3103,7 @@ footer li {
   font-size: 1.25em; }
 
 .testimonial p {
-  color: #000; }
+  color: #141414; }
 
 .callout {
   display: flex;

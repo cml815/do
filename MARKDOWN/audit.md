@@ -5,7 +5,7 @@ Audit - major to do
 1. Remove unused CSS
 2. Minify CSS - Purify - https://github.com/purifycss/purifycss
 3. Use https
-4. font awesome - fontface or DL icons svg
+4. DONE - svg - font awesome - fontface or DL icons svg
 
 
 // try 
@@ -19,8 +19,7 @@ Audit - major to do
 a.logo-link
 h6.fine-print
 p.hidden
-h6.fine-print
-p.hidden
+
 
 
 
@@ -29,6 +28,7 @@ Annoying
 Background buttons (user agent)
 
 font-display --> Download font-awesome svg
+stripped social links - wrong color and lack text
 
 
 
