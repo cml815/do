@@ -209,8 +209,8 @@
 /* 404 error page */
 
 .error {
-  background-color: $cerise;
-  color: $white;
+  background-color: lighten($indigo, 10%);
+  color: $black;
   height: 100vh;
 }
 

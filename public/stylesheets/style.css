@@ -1708,7 +1708,7 @@ nav li a {
   color: #141414; }
 
 .logo-link {
-  color: #d6072a;
+  color: white;
   font-weight: bold; }
 
 nav li:hover {
@@ -2838,8 +2838,8 @@ fieldset {
 
 /* 404 error page */
 .error {
-  background-color: #FA526F;
-  color: white;
+  background-color: #5061c2;
+  color: #141414;
   height: 100vh; }
 
 .error > .img-container {
