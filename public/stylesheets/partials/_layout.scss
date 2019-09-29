@@ -421,6 +421,12 @@ a > figcaption {
   text-decoration: none;
 }
 
+.projects figcaption {
+  @include mobile {
+    color: $black;
+  }
+}
+
 .top-margin {
   padding-top: 1.5em;
 }
@@ -535,13 +541,6 @@ color: $orange-red;
   padding: 2em 4em 2em;
 }
 
-.fa-linkedin {
-  font-size: 1.2em;
-  padding-left: 2em;
-  padding-bottom: 1em;
-  color: $black;
-}
-
 .grid-c__fluid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax($minmax, 1fr));
@@ -556,6 +555,7 @@ color: $orange-red;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax($minmax-l, 1fr));
     grid-gap: 1em;
+    margin: 2em 0;
   }
 
 .grid-c__fluid--m {
@@ -853,12 +853,12 @@ color: $orange-red;
 
 .grid-solution-p {
   grid-column: 2 / span 5;
-  grid-row: 8 / span 3;
+  grid-row: 9 / span 3;
 }
 
 .grid-quote-p {
   grid-column: 1 / span 12;
-  grid-row: 11 / span 3;
+  grid-row: 12 / span 3;
   padding: 0;
   
 }
