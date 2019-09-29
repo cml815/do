@@ -151,9 +151,9 @@ background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100
   }
 
   .cs-press .hero {
-    background: $cerise url('../images/ammo-noun.svg') no-repeat;
-    background-size: 72px 72px;
-    background-position: 40% 75%;
+    background: lighten($cerise, 4%) url('../images/ammo-noun.svg') no-repeat;
+    background-size: 80px 80px;
+    background-position: 40% 80%;
   }
    
   .grant-case-study .hero, .grant-case-study .hero--short {

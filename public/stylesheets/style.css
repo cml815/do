@@ -2333,9 +2333,9 @@ img.center {
   background-position: 60% 30%; }
 
 .cs-press .hero {
-  background: #FA526F url("../images/ammo-noun.svg") no-repeat;
-  background-size: 72px 72px;
-  background-position: 40% 75%; }
+  background: #fb6680 url("../images/ammo-noun.svg") no-repeat;
+  background-size: 80px 80px;
+  background-position: 40% 80%; }
 
 .grant-case-study .hero, .grant-case-study .hero--short {
   color: white;
@@ -3228,7 +3228,7 @@ i.circle {
   color: #fc466b; }
 
 .mail-link a, .tel-link a {
-  font-size: 1.3em; }
+  font-size: 1.1em; }
 
 .mail-link a:hover {
   color: #57b8ff; }
