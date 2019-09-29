@@ -161,6 +161,11 @@ background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100
     background: lighten($black, 8%);
   }
 
+  .cs-website .hero--short {
+    background-color: lighten($night, 15%);
+    color: lighten($night, 80%);
+  }
+
   .about .hero {
     background-color: lighten($night, 15%);
     color: lighten($night, 60%);
@@ -183,4 +188,5 @@ background: linear-gradient(45deg, #6871dc 0%, #556cd6 20%, #4357ab 41%, #3248ad
 .grants .hero p {
   color: $white;
 }
+
 

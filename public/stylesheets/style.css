@@ -1580,13 +1580,6 @@ nav a {
   width: 100%;
   height: 100%; }
 
-/* .navbar {
-    height: 3em;
-  }
-*/
-.hamburger {
-  color: #141414; }
-
 .projects nav, .cs-sbir nav {
   background-color: #232324;
   color: white; }
@@ -1668,7 +1661,6 @@ nav ul li {
   margin-top: -10px; }
 
 .hamburger {
-  font-size: 24px;
   padding: .5em 1em; }
   @media (min-width: 600px) {
     .hamburger {
@@ -1784,7 +1776,7 @@ nav li:hover {
 .overlay .closebtn {
   position: absolute;
   top: 20px;
-  right: 45px;
+  left: 80px;
   font-size: 60px; }
 
 /* When the height of the screen is less than 450 pixels, change the font-size of the links and position the close button again, so they don't overlap */
@@ -2351,6 +2343,10 @@ img.center {
   color: white;
   background: #282828; }
 
+.cs-website .hero--short {
+  background-color: #3f4775;
+  color: white; }
+
 .about .hero {
   background-color: #3f4775;
   color: #bdc2dc;
@@ -2438,7 +2434,6 @@ box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75); */
   color: white; }
 
 .wordlink {
-  font-weight: bold;
   text-decoration: underline;
   color: #92180b; }
 
@@ -2838,7 +2833,7 @@ fieldset {
 
 /* 404 error page */
 .error {
-  background-color: #5061c2;
+  background-color: #7683cf;
   color: #141414;
   height: 100vh; }
 
