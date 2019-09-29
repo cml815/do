@@ -341,6 +341,10 @@ footer a, footer a:visited {
   position: relative;
   color: lighten($black, 50%);
   text-decoration: none;
+  @include mobile {
+    color: $white;
+    border-bottom: 1px solid lighten($black, 50%);
+  }
 }
 
 footer a:hover {

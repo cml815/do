@@ -2424,6 +2424,9 @@ box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75); */
   text-decoration: underline;
   color: #92180b; }
 
+.bio-meta a {
+  border-bottom: 1px #3f70c0 solid; }
+
 @media (max-width: 599px) {
   .mobile-hide {
     display: none; } }
@@ -2967,6 +2970,10 @@ footer a, footer a:visited {
   position: relative;
   color: #949494;
   text-decoration: none; }
+  @media (max-width: 599px) {
+    footer a, footer a:visited {
+      color: white;
+      border-bottom: 1px solid #949494; } }
 
 footer a:hover {
   color: white; }
