@@ -648,6 +648,8 @@ p {
 .banner__inner {
   padding: 3em .5em;
   max-width: 768px; }
+  .banner__inner h4 {
+    font-size: 1.8em; }
 
 .icon__container p {
   padding-top: 1em; }
