@@ -354,11 +354,11 @@ line-height: 1.25em;
 
 .next-project a, .next-project a:visited {
   position: relative;
-  text-decoration: none;
+  text-decoration: underline;
   color: $white;
 }
 
-.link-style a:hover {
+/* .link-style a:hover {
   color: $white;
 }
 
@@ -382,6 +382,8 @@ line-height: 1.25em;
   -webkit-transform: scaleX(1);
   transform: scaleX(1);
 }
+
+*/
 
 .link-text-large {
   font-size: 2em;
