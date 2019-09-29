@@ -1,5 +1,6 @@
 /// Elements connected to Express ///
 
+/* 
 .page-title {
     display: inline;
     text-transform: uppercase;
@@ -9,12 +10,8 @@
     color: $black; 
   }
 
-.margin-move {
-  margin-bottom: -150px;
-  @include mobile {
-    margin-bottom: -50px;
-  }
-}
+  */
+
 /* utility classes */ 
 
 .inner {
@@ -26,23 +23,6 @@
   @include mobile {
     padding: $space-base;
   }
-}
-
-.inner--xl-5 {
-  padding: 5em;
-}
-
-.inner--xl {
-  padding: $space-xl;
-}
-
-/* Typography */
-
-
-.fancy-text {
-  font-family: $serif;
-  font-size: 1.3em;
-  line-height: 1.6em;
 }
 
 /// Containers /// 
@@ -62,10 +42,6 @@
   fill: #232324;
 }
 
-
-
-
-
 @include mobile {
   .place-adjust {
     padding-top: 100px;
@@ -74,12 +50,6 @@
 
 .container {
   @include padding
-}
-
-.container--contained {
-  margin: 0 auto;
-  max-width: 1000px;
-  padding: 1em;
 }
 
 .container__text {
@@ -125,10 +95,6 @@
   max-width: 768px;
 }
 
-.banner__title {
-  padding: 2em;
-}
-
 .icon__container p {
   padding-top: 1em;
 }
@@ -136,7 +102,7 @@
   padding: 2em 2em 0;
 }
 
-.banner, section {
+/* .banner, section {
     &--light {
         background-color: $gray-light;
         color: $black;
@@ -146,8 +112,7 @@
     }
 }
 
-.content-container {
-}
+*/
 
 .content-container--l {
   max-width: 1000px;
@@ -175,21 +140,32 @@
 }
 
 .service__container-1 {
-  background: #8f74f5;
+  background: lighten(#8f74f5, 16%);
+}
+
+.service__container-1 figcaption {
 }
 
 .service__container-2 {
-  background: #82b5f7;
+  background: lighten(#82b5f7, 5%);
 }
 
 .service__container-3 {
-  background: #f58787;
+  background: lighten(#8f74f5, 6%);;
 }
 
 .service__container-4 {
-  background: #e881b9;
+  background: lighten(#82b5f7, 8%);
   height: 110vh;
   margin-bottom: -150px;
+  @include mobile {
+    height: auto;
+    margin-bottom: 50px;
+  }
+}
+
+.container__caption {
+  background: $white;
 }
 
 .nudge-up {
@@ -1080,9 +1056,11 @@ color: $orange-red;
 
   */
 
+  @include mobile-plus {
   .shadow {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); 
-  }
+    }
+  }    
 
   .work > article {
     height: 100vh;
