@@ -32,8 +32,8 @@
     margin-top: 2em;
     padding: 2em 6em;
     flex: 1 1 40%;
-    @include mobile-plus {
-     
+    @include mobile {
+     padding: 2em 1em;
     }
   }
 

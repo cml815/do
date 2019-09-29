@@ -950,6 +950,7 @@ a > figcaption {
   @media (max-width: 599px) {
     .brag-container {
       margin-left: 0;
+      padding: 0;
       width: 100%; } }
   @media (min-width: 768px) and (max-width: 1024px) {
     .brag-container {
@@ -2246,6 +2247,9 @@ img.center {
   margin-top: 2em;
   padding: 2em 6em;
   flex: 1 1 40%; }
+  @media (max-width: 599px) {
+    .hero__text-container {
+      padding: 2em 1em; } }
 
 .hero__cta-container {
   flex: 2 1 60%;
