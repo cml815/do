@@ -3204,11 +3204,12 @@ i.circle {
 .contact__container {
   padding: 4em;
   margin-left: 4em; }
-  .contact__container a {
-    color: #141414; }
   @media (max-width: 599px) {
     .contact__container {
-      margin-left: 0; } }
+      margin-left: 0;
+      padding: 4em 1.5em; } }
+  .contact__container a {
+    color: #141414; }
 
 .contact-image {
   height: 70vh;
