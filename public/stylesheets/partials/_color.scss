@@ -63,6 +63,17 @@
     
     }
 
+    .pin-stripe {
+      background: linear-gradient(to right bottom, #292d38 50%, #212531 50%);
+      padding-bottom: 6em;
+      margin-bottom: -120px;
+    }
+
+    .pin-stripe--light {
+      background: linear-gradient(to right bottom, #ccd5ec 60%, #f6f7fa 40%);
+      padding-bottom: 6em;
+    }
+
   .theme__gradient--red {
     background: linear-gradient(to right bottom, $cerise 60%, lighten($cerise, 5%) 40%);
   }
@@ -73,6 +84,11 @@
   
   .theme__gradient--orange {
     background: linear-gradient(to right bottom, $orange 60%, lighten($orange, 5%) 40%);
+  }
+
+  .theme__gradient--indigo-light {
+    background: linear-gradient(to right bottom, #9ba8f0 60%, lighten($indigo, 25%) 40%);
+
   }
 
   .theme__gradient--pool {
@@ -113,34 +129,7 @@
     color: $white;
   }
 
-  .pin-stripe {
-    background: linear-gradient(to right bottom, #292d38 50%, #212531 50%);
-    padding-bottom: 6em;
-    margin-bottom: -120px;
-  }
-
-/* 
-.theme-grape {
-  @include theme(theme-grape, )
-} */
-
 .light {
     background-color: $gray-light;
     color: $black;
   }
-
-  /* .team-gallery {
-    background: linear-gradient(to right bottom, #292d38 50%, #212531 50%);
-  }
-  */
-
-
-
-  .team-gallery-old {
-    background: rgb(224,75,9);
-    background: linear-gradient(90deg, rgba(224,75,9,1) 0%, rgba(242,111,52,1) 34%, rgba(242,111,52,1) 50%, rgba(227,82,17,1) 74%, rgba(224,75,9,1) 75%);
-
-  }
- 
-  
-  

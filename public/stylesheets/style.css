@@ -517,6 +517,15 @@ p {
   background-image: linear-gradient(90deg, #f0e7e8 0.5%, #fff 0.5%, #fff 50%, #f0e7e8 50%, #f0e7e8 50.5%, #fff 50.5%, #fff 100%);
   background-size: 202.00px 202.00px; }
 
+.pin-stripe {
+  background: linear-gradient(to right bottom, #292d38 50%, #212531 50%);
+  padding-bottom: 6em;
+  margin-bottom: -120px; }
+
+.pin-stripe--light {
+  background: linear-gradient(to right bottom, #ccd5ec 60%, #f6f7fa 40%);
+  padding-bottom: 6em; }
+
 .theme__gradient--red {
   background: linear-gradient(to right bottom, #FA526F 60%, #fb6b84 40%); }
 
@@ -525,6 +534,9 @@ p {
 
 .theme__gradient--orange {
   background: linear-gradient(to right bottom, #fdca6c 60%, #fdd385 40%); }
+
+.theme__gradient--indigo-light {
+  background: linear-gradient(to right bottom, #9ba8f0 60%, #8994d6 40%); }
 
 .theme__gradient--pool {
   background: linear-gradient(to right bottom, #57b8ff 60%, #bde3ff 40%); }
@@ -555,26 +567,9 @@ p {
   background-color: #3f70c0;
   color: white; }
 
-.pin-stripe {
-  background: linear-gradient(to right bottom, #292d38 50%, #212531 50%);
-  padding-bottom: 6em;
-  margin-bottom: -120px; }
-
-/* 
-.theme-grape {
-  @include theme(theme-grape, )
-} */
 .light {
   background-color: #efefef;
   color: #141414; }
-
-/* .team-gallery {
-    background: linear-gradient(to right bottom, #292d38 50%, #212531 50%);
-  }
-  */
-.team-gallery-old {
-  background: #e04b09;
-  background: linear-gradient(90deg, #e04b09 0%, #f26f34 34%, #f26f34 50%, #e35211 74%, #e04b09 75%); }
 
 /* 
 .page-title {
@@ -845,7 +840,7 @@ p {
   margin: 0 auto; }
   @media (min-width: 600px) {
     .grid-c--2x3 article {
-      padding: 3em; } }
+      padding: 1.5em; } }
   @media (max-width: 599px) {
     .grid-c--2x3 {
       /* change to 1 column grid */
