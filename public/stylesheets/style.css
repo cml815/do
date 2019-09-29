@@ -2450,9 +2450,9 @@ box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75); */
   section, figure, .flex-c {
     flex-direction: column; } }
 
-* {
-  border: 1px solid red; }
-
+/* * {
+  border: 1px solid red;
+ } */
 *, *:before, *:after {
   box-sizing: inherit; }
 
