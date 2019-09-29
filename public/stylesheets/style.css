@@ -1685,10 +1685,13 @@ nav li a {
 .nav-link {
   color: #141414; }
 
-.logo-link {
-  color: white;
-  font-weight: bold; }
+/*
+  .logo-link {
+    color: $white;
+    font-weight: bold;
+  }
 
+  */
 nav li:hover {
   cursor: pointer; }
 
