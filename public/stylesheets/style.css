@@ -1422,7 +1422,7 @@ a > figcaption {
 .fine-print {
   text-transform: uppercase;
   font-size: 1em;
-  letter-spacing: .0625em;
+  /* letter-spacing: .0625em; */
   margin-bottom: 1em; }
 
 .norm-text {
