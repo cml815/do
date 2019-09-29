@@ -93,6 +93,7 @@
 
 .container--vertical-text {
   max-width: 100px;
+  margin-top: 2em;
   @include tablet-smaller {
     display: none;
   }
