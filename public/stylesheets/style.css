@@ -1584,6 +1584,9 @@ nav a {
     height: 3em;
   }
 */
+.hamburger {
+  color: #141414; }
+
 .projects nav, .cs-sbir nav {
   background-color: #232324;
   color: white; }
@@ -1976,15 +1979,18 @@ aside {
 /* Next project component */
 /* Page template styles */
 /* Jeff Grant, Influencer */
+/* 
 .img__display {
   position: relative;
   height: 800px;
-  width: 800px; }
-  @media (max-width: 599px) {
-    .img__display {
-      width: 100vw;
-      height: auto; } }
+  width: 800px;
+  @include mobile {
+    width: 100vw;
+    height: auto;
+  }
+}
 
+*/
 @media (min-width: 600px) {
   .img__images .front {
     position: absolute;
@@ -2444,9 +2450,9 @@ box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75); */
   section, figure, .flex-c {
     flex-direction: column; } }
 
-/* * {
-  border: 1px solid red;
- } */
+* {
+  border: 1px solid red; }
+
 *, *:before, *:after {
   box-sizing: inherit; }
 
