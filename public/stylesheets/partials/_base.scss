@@ -288,8 +288,14 @@ button,
 
   @include mobile {
     .is-visible {
-      display: none;
+      display: none; 
     } 
+  }
+
+  @include mobile-plus {
+    .is-visible-on-mobile {
+      display: none;
+    }
   }
 
 

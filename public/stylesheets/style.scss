@@ -206,6 +206,19 @@
   margin-top: 2em;
 } 
 
+/* privacy page */ 
+
+
+.privacy h1 { font-size: 1.5em; }
+
+.privacy h2 {font-size: 1.15em}
+
+@include mobile {
+  .privacy .inner-container {
+    padding: .5em;
+  }
+}
+
 /* 404 error page */
 
 .error {

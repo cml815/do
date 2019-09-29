@@ -2675,6 +2675,10 @@ fieldset {
   .is-visible {
     display: none; } }
 
+@media (min-width: 600px) {
+  .is-visible-on-mobile {
+    display: none; } }
+
 /* global styles */
 .line-wrap {
   line-height: 1.6em; }
@@ -2830,6 +2834,17 @@ fieldset {
 
 .more-margin-top {
   margin-top: 2em; }
+
+/* privacy page */
+.privacy h1 {
+  font-size: 1.5em; }
+
+.privacy h2 {
+  font-size: 1.15em; }
+
+@media (max-width: 599px) {
+  .privacy .inner-container {
+    padding: .5em; } }
 
 /* 404 error page */
 .error {
