@@ -20,6 +20,28 @@ a.logo-link
 h6.fine-print
 p.hidden
 
+Word Count
+5,827
+
+https://www.fuelcopy.com/	333
+https://www.fuelcopy.com/about	280
+https://www.fuelcopy.com/contact	123
+https://www.fuelcopy.com/work/fundraising	633
+https://www.fuelcopy.com/privacy	487
+https://www.fuelcopy.com/work/growth-marketing	495
+https://www.fuelcopy.com/projects	158
+https://www.fuelcopy.com/about/caroline-leopold	196
+https://www.fuelcopy.com/about/dave-scholnick	176
+https://www.fuelcopy.com/about/dana-henry	164
+https://www.fuelcopy.com/about/darcie-goodwin	204
+https://www.fuelcopy.com/about/rich-garella	242
+https://www.fuelcopy.com/projects/social-media-influencer	597
+https://www.fuelcopy.com/projects/press-campaign	527
+https://www.fuelcopy.com/projects/social-marketing-grant	466
+https://www.fuelcopy.com/projects/founder-stories	519
+https://www.fuelcopy.com/projects/sbir-grants	523
+https://www.fuelcopy.com/projects/websites	574
+https://www.fuelcopy.com/about/ed-apffel	208
 
 
 
