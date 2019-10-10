@@ -31,6 +31,8 @@ mongoose.Promise = global.Promise;
 var db = mongoose.connection;
 db.on('error', console.error.bind(console, 'MongoDB connection error:'));
 
+mongoose.connect("mongodb://localhost:27017/YourDB", { useNewUrlParser: true });
+
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
 
