@@ -1,3 +1,0 @@
-CDN
-
-Cloudinary for assets 
