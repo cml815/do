@@ -21,6 +21,7 @@ const aboutRouter = require('./routes/about')
 const usersRouter = require('./routes/users');
 const workRouter = require('./routes/work');
 const projectsRouter = require('./routes/projects');
+const blogRouter = require('./routes/blog');
 
 const app = express();
 
@@ -84,10 +85,11 @@ app.use('/projects', express.static(__dirname + '/public'));
 app.use('/about', express.static(__dirname + '/public'));
 
 app.use('/', indexRouter);
-app.use('/about', aboutRouter)
+app.use('/about', aboutRouter);
 app.use('/users', usersRouter);
 app.use('/work', workRouter);
 app.use('/projects', projectsRouter);
+app.use('/blog', blogRouter);
 
 
 /* https://express-validator.github.io/docs/ */
