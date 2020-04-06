@@ -1462,6 +1462,10 @@ include mobile .testimonal:first-child {
   height: 40px;
   background: linear-gradient(white, white) no-repeat center/1px 100%; }
 
+.blog-row {
+  max-width: 768px;
+  padding: 5em; }
+
 .img--filter {
   -webkit-filter: grayscale(100%);
   filter: grayscale(0%); }
