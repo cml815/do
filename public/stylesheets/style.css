@@ -1466,6 +1466,29 @@ include mobile .testimonal:first-child {
   max-width: 768px;
   padding: 5em; }
 
+.blog-bg {
+  background-color: #fff;
+  -webkit-animation: random 5s infinite;
+  animation: random 5s infinite; }
+
+@keyframes random {
+  15% {
+    background-color: red; }
+  30% {
+    background-color: yellow; }
+  45% {
+    background-color: green; }
+  60% {
+    background-color: blue; }
+  75% {
+    background-color: white; } }
+
+@keyframes mymove {
+  form {
+    background-color: #38dc58; }
+  to {
+    background-color: #9b40f1; } }
+
 .img--filter {
   -webkit-filter: grayscale(100%);
   filter: grayscale(0%); }
