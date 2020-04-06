@@ -2,28 +2,29 @@ var express = require('express');
 var router = express.Router();
 
 router.get('/', function(req, res, next) {
-    res.render('blog', { title: 'Blog on advice to market and win grant funding for health or biotech project', bodyClass: 'blog', shortTitle: 'Blog', description: 'Lessons in growth and success', layout: 'default' });
+    res.render('blog', { title: 'Blog on advice to market and win grant funding for health or biotech project', bodyClass: 'blog', shortTitle: 'Blog', description: 'Lessons in growth and success', layout: 'blog' });
   });
-
-  /* 
 
   // Social media influencer
 
-  router.get('/social-media-influencer', function(req, res, next) {
-    res.render('social-media-influencer', { 
-      title: 'Influencer Marketing: YouTube Case Study',
+  router.get('/coronavirus-champions', function(req, res, next) {
+    res.render('coronavirus-champions', { 
+      title: 'Test title - fix descript',
       description: 'Fuel connected YouTube influencers with an online brand for young adults. Learn how to benefit from influencers.', 
       bodyClass: 'cs-influencer',
       client: 'Aceable',
-      team: ['Caroline Leopold', 'Dana Henry'],
-      tag: ['social media','influencer marketing','video'],
-      url1: "../projects/founder-stories",
+      author: 'Caroline Leopold',
+      date: 'April 7, 2020',
+      tag: ['pandemic','public health','biotech'],
+      url1: "../blog/coronavirus-champions",
       img1: "../images/travel1.svg",
       url2: "../projects/websites",
       img2: "../images/desktop.svg",
-      layout: 'case' 
+      layout: 'case', 
     });
   });
+
+  /*
 
   // PR case study route
 

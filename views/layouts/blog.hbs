@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="en">
+<head>
+  {{> head}}
+</head>
+<body class="{{ bodyClass }}">
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PG4665D"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+  <header id="menu" class="menu-wrap grid__item">
+    {{> nav }}
+  </header>
+  <main class=" {{bodyClass}}__main">
+      {{{ body }}}
+  </main>
+  <footer class="{{bodyClass}}__footer">
+    {{> footer }}
+  </footer>
+  <script src="./javascripts/main.js"></script>
+</body>
+</html>
