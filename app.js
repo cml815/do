@@ -13,6 +13,7 @@ const favicon = require('serve-favicon');
 const dotenv = require('dotenv').config();
 // unused modules 
 const nodemailer = require('nodemailer');
+const la = require('@toptensoftware/losangeles');
 
 /* sgMail.setApiKey('sgSG.mmS72HuWRyqiTWGNX11-RA.2qqosUj-b8vktjzDxeVz56BIFWb7-TKYyz9sN_SNR1s'); */
 
@@ -83,6 +84,10 @@ app.use(express.static(path.join(__dirname, 'public')));
 app.use('/work', express.static(__dirname + '/public'));
 app.use('/projects', express.static(__dirname + '/public'));
 app.use('/about', express.static(__dirname + '/public'));
+// LA plugin
+app.use(la.serve({
+  contentPath: path.join(__dirname, 'public')
+}).middleware);
 
 app.use('/', indexRouter);
 app.use('/about', aboutRouter);
