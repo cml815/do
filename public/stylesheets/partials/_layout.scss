@@ -1177,6 +1177,11 @@ color: $orange-red;
   padding: 5em;
 }
 
+.blog-list-row {
+  display: flex;
+  flex-direction: row;
+}
+
 /*
 
 .blog-bg {
