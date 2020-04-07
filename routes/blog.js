@@ -8,7 +8,7 @@ router.get('/', function(req, res, next) {
   // Social media influencer
 
   router.get('/coronavirus-champions', function(req, res, next) {
-    res.render('coronavirus-champions', { 
+    res.render('blog/coronavirus-champions', { 
       title: 'Test title - fix descript',
       description: 'Fuel connected YouTube influencers with an online brand for young adults. Learn how to benefit from influencers.', 
       bodyClass: 'cs-influencer',
@@ -23,6 +23,25 @@ router.get('/', function(req, res, next) {
       layout: 'case', 
     });
   });
+
+
+  router.get('/blog-test', function(req, res, next) {
+    res.render('blog/blog-test', { 
+      title: 'Test title - fix descript',
+      description: 'Fuel connected YouTube influencers with an online brand for young adults. Learn how to benefit from influencers.', 
+      bodyClass: 'cs-influencer',
+      client: 'Aceable',
+      author: 'Caroline Leopold',
+      date: 'April 7, 2020',
+      tag: ['pandemic','public health','biotech'],
+      url1: "../blog/coronavirus-champions",
+      img1: "../images/travel1.svg",
+      url2: "../projects/websites",
+      img2: "../images/desktop.svg",
+      layout: 'case', 
+    });
+  });
+
 
   /*
 
