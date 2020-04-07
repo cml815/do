@@ -5,7 +5,7 @@ router.get('/', function(req, res, next) {
     res.render('blog', { title: 'Blog on advice to market and win grant funding for health or biotech project', bodyClass: 'blog', shortTitle: 'Blog', description: 'Lessons in growth and success', layout: 'blog' });
   });
 
-  // Social media influencer
+  // Coronavirus champions
 
   router.get('/coronavirus-champions', function(req, res, next) {
     res.render('blog/coronavirus-champions', { 
@@ -20,7 +20,7 @@ router.get('/', function(req, res, next) {
       img1: "../images/travel1.svg",
       url2: "../projects/websites",
       img2: "../images/desktop.svg",
-      layout: 'case', 
+      layout: 'blog'
     });
   });
 
