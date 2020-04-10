@@ -86,7 +86,7 @@ app.use('/projects', express.static(__dirname + '/public'));
 app.use('/about', express.static(__dirname + '/public'));
 // LA plugin
 app.use(la.serve({
-  contentPath: path.join(__dirname, 'public')
+  contentPath: path.join(__dirname, '/public')
 }).middleware);
 
 app.use('/', indexRouter);
