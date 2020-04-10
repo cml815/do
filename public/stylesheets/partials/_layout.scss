@@ -1182,6 +1182,11 @@ color: $orange-red;
   flex-direction: row;
 }
 
+.post-layout {
+  max-width: 768px;
+  font: $serif;
+}
+
 /*
 
 .blog-bg {

@@ -1470,6 +1470,10 @@ include mobile .testimonal:first-child {
   display: flex;
   flex-direction: row; }
 
+.post-layout {
+  max-width: 768px;
+  font: "Noto Serif JP", Georgia, "Times New Roman", Times, serif; }
+
 /*
 
 .blog-bg {

@@ -1,10 +1,15 @@
 ---
-title: How to win SBIR grant funding in an era of economic uncertainty
+
+title: How to win funding in an age of economic uncertainty.
+
 ---
 
-<p class="fine-print>
-Tag
-</p>
+<div align="center">
+
+Centered h2
+
+</div>
+
 
 ## h2
 
