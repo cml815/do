@@ -1450,8 +1450,8 @@ blockquote {
       padding: 1em 0; } }
 
 .quote {
-  font-family: "Noto Serif JP", Georgia, "Times New Roman", Times, serif;
-  line-height: 1.8em;
+  font: 1.6em "Noto Serif JP", Georgia, "Times New Roman", Times, serif;
+  line-height: 1.6em;
   background-color: #dcb3fb; }
   @media (min-width: 600px) {
     .quote {
@@ -1481,7 +1481,10 @@ include mobile .testimonal:first-child {
   display: flex;
   flex-direction: row; }
 
-.post-layout {
+.layout--post {
+  padding: 4em; }
+
+.layout--post-text {
   max-width: 768px;
   font-family: "Noto Serif JP", Georgia, "Times New Roman", Times, serif; }
 
