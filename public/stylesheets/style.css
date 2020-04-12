@@ -1472,7 +1472,7 @@ include mobile .testimonal:first-child {
 
 .post-layout {
   max-width: 768px;
-  font: "Noto Serif JP", Georgia, "Times New Roman", Times, serif; }
+  font-family: "Noto Serif JP", Georgia, "Times New Roman", Times, serif; }
 
 /*
 
