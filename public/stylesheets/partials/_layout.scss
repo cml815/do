@@ -1151,6 +1151,18 @@ color: $orange-red;
     }
   }
 
+  .quote {
+    font-family: $serif;
+    line-height: 1.8em;
+    background-color: lighten(#c682f9, 10%);
+    @include mobile-plus {
+      padding: 2em 3em;
+    }
+    @include mobile {
+      padding: 1em 0;
+    }
+  }
+
   include mobile {
   .testimonal:first-child {
     margin-bottom: 1em;
@@ -1211,8 +1223,8 @@ color: $orange-red;
  to{background-color: #9b40f1;}
 }
 
-
-
-
+.test {
+  text-transform: uppercase;
+}
 
   

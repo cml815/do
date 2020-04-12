@@ -1449,6 +1449,17 @@ blockquote {
     blockquote {
       padding: 1em 0; } }
 
+.quote {
+  font-family: "Noto Serif JP", Georgia, "Times New Roman", Times, serif;
+  line-height: 1.8em;
+  background-color: #dcb3fb; }
+  @media (min-width: 600px) {
+    .quote {
+      padding: 2em 3em; } }
+  @media (max-width: 599px) {
+    .quote {
+      padding: 1em 0; } }
+
 include mobile .testimonal:first-child {
   margin-bottom: 1em; }
 
@@ -1496,6 +1507,9 @@ include mobile .testimonal:first-child {
     background-color: #38dc58; }
   to {
     background-color: #9b40f1; } }
+
+.test {
+  text-transform: uppercase; }
 
 .img--filter {
   -webkit-filter: grayscale(100%);

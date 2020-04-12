@@ -18,7 +18,9 @@ Veri graece facete id vis, ea per libris habemus. Pro unum quas cu, no cum dicun
 
 Ut per feugait suscipiantur. Definiebas reformidans an duo. Ei vel vitae reprehendunt, assum delicata erroribus per et. In reque eligendi postulant vis. Ut aperiam praesent duo, brute dictas usu an.
 
->Vim utinam sensibus concludaturque at, nam ad fugit mazim. At eum viderer mentitum. Ad rebum tamquam feugiat usu, vel pertinax perpetua neglegentur at. Vim nominavi voluptatum reprehendunt in, meis labores te his.
+<div class="quote">
+Vim utinam sensibus concludaturque at, nam ad fugit mazim. At eum viderer mentitum. Ad rebum tamquam feugiat usu, vel pertinax perpetua neglegentur at. Vim nominavi voluptatum reprehendunt in, meis labores te his.
+</div>
 
 Eu dolorum mnesarchum vim, per ut clita blandit. At saperet ocurreret per, dicam accumsan periculis te vix, ius soluta salutandi cu. In probo everti adversarium has. Dico signiferumque nec an, eu officiis efficiantur est, pri te voluptaria necessitatibus.
 
