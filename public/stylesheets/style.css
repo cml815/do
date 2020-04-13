@@ -2263,6 +2263,12 @@ img.center {
   justify-content: center;
   align-items: center; }
 
+.hero--short-col {
+  display: flex;
+  flex-direction: column;
+  height: 70vh;
+  width: 100%; }
+
 .hero--tiny {
   display: flex;
   height: 40vh;
