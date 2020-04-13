@@ -1,7 +1,9 @@
 ---
 title: Blog
 ---
-Here's 
+List of articles
+
+[Getting Started](../blog/gettingStarted)
 
 * Apples
 * Pears
