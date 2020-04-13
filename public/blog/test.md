@@ -1,6 +1,8 @@
 ---
 
-title: Test blog. Test Blog For Format
+title: Sample Post
+author: Caroline Leopold
+date: Apr 13, 2020
 
 ---
 
