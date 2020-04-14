@@ -164,6 +164,11 @@ a:visited {
 a:hover {
 }
 
+a.link-visible {
+  border-bottom: .25em solid $pool;
+}
+
+
 b,
 strong {
   font-weight: bolder; /* Chrome, Edge, Safari */

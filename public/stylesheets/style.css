@@ -2612,6 +2612,9 @@ a {
 a:visited {
   color: #141414; }
 
+a.link-visible {
+  border-bottom: 0.25em solid #57b8ff; }
+
 b,
 strong {
   font-weight: bolder;
