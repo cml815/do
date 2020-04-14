@@ -8,6 +8,7 @@ date: Apr 13, 2020
 
 Lorem ipsum dolor sit amet, per aeterno pertinacia ad. Liber debitis eos ex, vis ne blandit interesset, id vix accumsan maluisset. An eos qualisque deseruisse. Mutat omittam has ut, at nam aliquip legimus. Mea no dolor congue nostro. Duis malorum patrioque sit eu, ex utamur reprimique eam.
 
+
 ![alt text](../images/betteryouknow.png "Better You Know website")
 
 Qui ocurreret patrioque assueverit ex. Detraxit suavitate vix ne, prima indoctum recteque eos at. Dolorem necessitatibus conclusionemque an vim. Utroque repudiandae deterruisset eu sit. Ad pri odio everti, nam dico vidisse philosophia cu.
