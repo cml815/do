@@ -1,6 +1,6 @@
 ---
 
-title: "How to win first funding: Follow the winners"  
+title: "How to showcase your value and win first funding"  
 author: Caroline Leopold
 date: Apr 16, 2020
 
@@ -10,13 +10,15 @@ To win contracts or funding takes having funding already.  Does this sound famil
 ![alt text](../images/betteryouknow.png "Better You Know website")
 
 
-Competition for funding favors the victors -- those who already have shouldered their way to notice. Then, how does a new project stand a chance in any fundraising competition? The answer is simple, emulate the winners. Here's some practical advice followed by stories of success and near-misses. 
+As you probably know, competition for funding favors the victors -- those who already have climbed their way to notice. Then, how does a new project stand a chance in any funding competition? The answer is simple, but not easy. Don't undervalue yourself and emulate the winners. Here's some practical advice followed by stories of success and near-misses. 
 
 ## Your worth is greater than your bank account
 
-You probably have paltry deposits from outside sources, if you're new to fundraising. But you're probably devaluing yourself. Have you calculated the time, sweat and tears you and your collaborators have put into the work?  
+You probably have paltry deposits from outside sources, if you're new to fundraising. But you might be devaluing yourself. Have you considered?
 
-<a class="center" href="../">Related:<span style="color:blue">How to diversify funding for your not-for-profit</span>
+
+
+<a href="../">Related:<span style="color:blue"> How to diversify funding for your not-for-profit</span>
 </a>
 
 No erat integre similique sed. Ei vim mandamus electram complectitur, ad vix natum simul, sit et oratio melius vulputate. Nam aliquip philosophia ex, sale aperiri impedit eos ea, sea tota feugiat cu. Usu ne aeque suscipit, tantas quaestio et vix. Cum denique dignissim definiebas at, his no duis modus. Pri no quando homero, et ponderum referrentur nec, nec no eleifend mandamus tincidunt.
