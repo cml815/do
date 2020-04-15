@@ -5,15 +5,18 @@ author: Caroline Leopold
 date: Apr 16, 2020
 
 ---
+The shortest path to funding is to already have funding.  Does this sound familiar? While this is generally true, there are ways for you to prove yourself as worth the risk. Here are some ways you can boost your chances for funding. 
 
-Lorem ipsum dolor sit amet, per aeterno pertinacia ad. Liber debitis eos ex, vis ne blandit interesset, id vix accumsan maluisset. An eos qualisque deseruisse. Mutat omittam has ut, at nam aliquip legimus. Mea no dolor congue nostro. Duis malorum patrioque sit eu, ex utamur reprimique eam.
-
-Winning initial fundin 
+Yes, evidence of success is important to calm the nerves of those who 
 
 
 ![alt text](../images/betteryouknow.png "Better You Know website")
 
-Qui ocurreret patrioque assueverit ex. Detraxit suavitate vix ne, prima indoctum recteque eos at. Dolorem necessitatibus conclusionemque an vim. Utroque repudiandae deterruisset eu sit. Ad pri odio everti, nam dico vidisse philosophia cu.
+Competition for funding favors the victors -- those who already have shouldered their way to notice. Then, how does a new project stand a chance in any fundraising competition? The answer is simple, emulate the winners. Here's some practical advice followed by stories of success and near-misses. 
+
+## Know your worth
+
+
 
 No erat integre similique sed. Ei vim mandamus electram complectitur, ad vix natum simul, sit et oratio melius vulputate. Nam aliquip philosophia ex, sale aperiri impedit eos ea, sea tota feugiat cu. Usu ne aeque suscipit, tantas quaestio et vix. Cum denique dignissim definiebas at, his no duis modus. Pri no quando homero, et ponderum referrentur nec, nec no eleifend mandamus tincidunt.
 
