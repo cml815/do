@@ -11,9 +11,9 @@ Any bid for funding comes risk. For example, a million dollar award is an entici
 
 ## How much a bid will cost you?
 
-Pursuing funding comes with opportunity cost. 
+Pursuing funding comes with opportunity cost. That cost is the benefit you lose from choosing a funding option over another. For example, let's say you bid on a $1 million opportunity over pursuing a $100K account. 
 
-
+Opportunity cost is the benefit you forego in choosing one course of action over another. You can determine the opportunity cost of choosing one investment option over another by using the following formula: Opportunity Cost = Return on Most Profitable Investment Choice - Return on Investment Chosen to Pursue.
 
 
 ## Your worth is greater than your bank account
