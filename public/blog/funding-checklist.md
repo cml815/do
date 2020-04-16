@@ -1,19 +1,23 @@
 ---
 
-title: "Checklis: Assess your chances for funding"  
+title: "Bid or Pass: Understanding the Opportunity Cost of Pursuing a Huge Contract"  
 author: Caroline Leopold
 date: Apr 16, 2020
 
 ---
-Any bid for funding comes risk. For example, a million dollar award is an enticing return, but what if your chances were 1%? Or 0.001% Here is a checklist to help you evaluate contract or grant competitions.
+An opportunity surfaces and you have to act fast. You read an RFP that fits you and think, "What do I have to lose?" But, any bid for a contract or funding comes risk.  Therefore, you need to evaluate what you could gain and lose. Here are some things to consider in take the time, money and labor required to win a contract bid. 
 
 ![alt text](../images/betteryouknow.png "Better You Know website")
 
-## How much a bid will cost you?
+## Know the opportunity cost. How much a bid will cost you?
 
-Pursuing funding comes with opportunity cost. That cost is the benefit you lose from choosing a funding option over another. For example, let's say you bid on a $1 million opportunity over pursuing a $100K account. 
+What will you lose if you pursue a potential win?  Opportunity cost is intuitive and it rules our professional and lives. Pursuing one direction over another means  funding comes with opportunity cost. That cost is the benefit you lose from choosing a funding option over another. For example, let's say you bid on a $1 million opportunity over pursuing a $100K account. 
+
+Sometimes it's tempting to "go big,"
 
 Opportunity cost is the benefit you forego in choosing one course of action over another. You can determine the opportunity cost of choosing one investment option over another by using the following formula: Opportunity Cost = Return on Most Profitable Investment Choice - Return on Investment Chosen to Pursue.
+
+
 
 
 ## Your worth is greater than your bank account
