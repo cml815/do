@@ -5,6 +5,9 @@ author: Caroline Leopold
 date: Apr 16, 2020
 
 ---
+
+You may be overwhelmed by the number of grant and contract opportunities
+
 An opportunity surfaces and you have to act fast. You read an RFP that fits you and think, "What do I have to lose?" But, any bid for a contract or funding comes risk. Therefore, you need to evaluate the opportunity cost or what you could lose. Here are some things to consider in take the time, money and labor required to win a contract bid. 
 
 ![alt text](../images/betteryouknow.png "Better You Know website")
