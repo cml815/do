@@ -1,6 +1,6 @@
 ---
 
-title: "Bid or Pass: Here's How to Know Where You Stand Even Before You Apply" Understanding the Opportunity Cost of Pursuing a Huge Contract"  
+title: "Learn Your Chance for Success: How to Know Where You Stand in a Funding Competition Even Before You Apply" 
 author: Caroline Leopold
 date: Apr 16, 2020
 
