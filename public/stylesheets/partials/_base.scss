@@ -164,8 +164,8 @@ a:visited {
 a:hover {
 }
 
-a.link-visible {
-  border-bottom: .25em solid $pool;
+a.link-visible, a.blog-link {
+  border-bottom: .10em solid $pool;
 }
 
 

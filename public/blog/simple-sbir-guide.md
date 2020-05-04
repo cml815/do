@@ -8,7 +8,7 @@ date: May 4, 2020
 
 Small business innovation research (SBIR) grants help launch innovative projects and solve human problems, such as those arising from the COVID-19 pandemic. Here's a simple guide to SBIR grants, so you can decide if this funding source is right for you.
 
-![alt text](../images/betteryouknow.png "Better You Know website")
+![alt text](../images/nci-cells.jpg "Photo Credit: National Cancer Institute")
 
 ## What is the purpose of grants?
 
@@ -24,11 +24,11 @@ Further, grants are non-dilutive, which means that you are not required to give 
 
 ## Is my business eligible? 
 
-The principal investigator (research project lead) must be employed by the small company. Also, the proposing company must perform at least two-thirds (66%) of the work during Phase I and at 50% or more in Phase II [Source: SBA](https://www.sbir.gov/applicants).
+The principal investigator (research project lead) must be employed by the small company. Also, the proposing company must perform at least two-thirds (66%) of the work during Phase I and at 50% or more in Phase II <a href="blog-link" href="https://www.sbir.gov/applicants">Source: SBA</a>
 
 The company must not have more than 500 employees. There are no revenue limits for SBIR, which differs from the SBA's defnition. 
 
-There are some caveats with eligibility, especially around complex ownership arrangements, including venture capital firms and hedge funds.  The SBA has a detailed [eligibility guide](https://www.sbir.gov/sites/default/files/elig_size_compliance_guide.pdf).
+There are some caveats with eligibility, especially around complex ownership arrangements, including venture capital firms and hedge funds.  The SBA has a detailed <a href="blog-link" href="https://www.sbir.gov/sites/default/files/elig_size_compliance_guide.pdf">Eligibility Guide.</a>
 
 ## How much funding can I get?
 
@@ -44,13 +44,12 @@ Direct to Phase II (DP2) is a way for applicants to bypass Phase I and receive a
 
 To begin, you want to find and read an opportunity announcement that fits you. 
 
-There are several ways to find funding opportunities. For a user-friendly experience, Open Opportunity list on <style class= "blog-link">
+There are several ways to find funding opportunities. For a user-friendly experience, check out: <a class="blog-link" href = "https://www.sbir.gov/solicitations/open"><p>Open Opportunity list on SBIR.gov</p></a>
 
-[SBIR.gov](https://www.sbir.gov/solicitations/open). 
 
-</style>
 
-Also, Grants.gov is useful, especially in downloading an application package. [Use "SBIR" as a search term](https://www.grants.gov/web/grants/search-grants.html?keywords=SBIR). 
+Also, Grants.gov is useful, especially in downloading an application package. <a class="blog-link" href = "https://www.grants.gov/web/grants/search-grants.html?keywords=SBIR"><p>Use "SBIR" as a serarch term.</p></a>
+
 
 Some SBIR opportunities are more general while others are very specific. Searching today, I pulled an SBIR looking for cryogenic technology for Drosophilia (fruit flies). You'll need some persistence to find an opportunity that fits your company. 
 
@@ -62,7 +61,7 @@ You are welcome to submit COVID-related projects, if they fit an agency's priori
 
 Read the opportunity and pass it along to your team, especially to your Chief Scientific Officer. Generate a list of questions and email the relevant contact. Every opportunity has a contact person or a Program Officer. Developing a rapport with a Program Officer is valuable because they help you over time. 
 
-If you have more questions, feel free to [contact us](https://fuelcopy.com/contact).
+If you have more questions, feel free to <a class="blog-link" href="https://fuelcopy.com/contact">contact us.</a>
 
 ## Which agencies give awards? 
 
