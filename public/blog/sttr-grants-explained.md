@@ -1,0 +1,3 @@
+## We cannot do R&D in house. What are our options?
+
+Fuel Copy often fields questions from companies who don't have the space or staff to do research in-house. One alternative is to partner with a university and submit a Small Business Technology Transfer (STTR) grant. In that arrangement, you would need to do 40% of the work and the university would do 30% to 60% of the research. Another option is to partner with another company and be a sub-awardee. 
