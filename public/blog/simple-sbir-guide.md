@@ -8,13 +8,41 @@ date: May 4, 2020
 
 Small business innovation research (SBIR) grants help launch innovative projects and solve human problems, such as those arising from the COVID-19 pandemic. Here's a simple guide to SBIR grants, so you can decide if this funding source is right for you.
 
-What is the purpose of grants?
+## What is the purpose of grants?
 
-Funding is awarded as grants or contracts that arise from federal funds. The Small Business Administration administers this program for participating federal agencies such as the Department of Defense (DoD) and the National Institutes of Health (NIH).
+Funding is awarded as grants or contracts that arise from federal funds. The Small Business Administration coordinates this program and provides helpful information for applicants. 
 
-The primary purpose is to support research and development (R&D) in areas aligned with federal priorities. Each agency that offers SBIR describes its priorities on its website and funding opportunity. Also, the SBA offers a handy [explainer](https://www.sbir.gov/tutorials/individual-agency-requirements/), which summarizes agency priorities. 
+The primary purpose is to support research and development (R&D) in areas aligned with federal priorities. Each agency that offers SBIR describes its priorities on its website and funding opportunity. Also, the SBA offers a handy [explainer](https://www.sbir.gov/tutorials/individual-agency-requirements/), which summarizes agency priorities.
 
-How much money is available? 
+## What funding can I get?
+
+Approximately, $2.5 billion of SBIR funding is available to small businesses. Eleven federal agencies set aside a portion (around 3%) of their R&D budget to SBIR grants. Agencies, which are larger, have more funding to give. For example, the Department of Defense, the largest agency, offers about $1 billion in SBIR grants per year. 
+
+Awards vary based on what type of funding you apply. Phase I awards are the most common way to win a grant, especially for a beginning is generally limited to $150,000. This grant is meant to demonstrate a proof of concept, and if successful, then you would be eligible for Phase II funding. 
+
+Phase II awardees show success in their pilot Phase I grant and are encouraged to apply for a $1 million award over two years. 
+
+Direct to Phase II (DP2) is a way for applicants to bypass Phase I and receive a Phase II grant. This pathway is not adopted by all federal agencies. Check SBIR funding announcements to see if DP2 is available. 
+
+## Which agencies give awards? 
+
+Here are the agencies, which participate in SBIR. (Source: SBIR.gov) 
+
+Department of Agriculture
+Department of Commerce - National Institute of Standards and Technology
+Department of Commerce - National Oceanic and Atmospheric Administration
+Department of Defense
+Department of Education
+Department of Energy
+Department of Health and Human Services
+Department of Homeland Security
+Department of Transportation
+Environmental Protection Agency
+National Aeronautics and Space Administration
+National Science Foundation
+
+
+
 
 Grants are given to companies that achieve the goals of government or not-for-profit funders. Companies are asked to solve a problem. Companies benefit by advancing growth goals.   
 
