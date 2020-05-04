@@ -1,6 +1,6 @@
 ---
 
-title: "A simple SBIR grant guide for small businesses"  
+title: "An SBIR grant guide for small businesses"  
 author: Caroline Leopold
 date: May 4, 2020
 
@@ -44,7 +44,11 @@ Direct to Phase II (DP2) is a way for applicants to bypass Phase I and receive a
 
 To begin, you want to find and read an opportunity announcement that fits you. 
 
-There are several ways to find funding opportunities. For a user-friendly experience, Open Opportunity list on [SBIR.gov](https://www.sbir.gov/solicitations/open). 
+There are several ways to find funding opportunities. For a user-friendly experience, Open Opportunity list on <style class= "blog-link">
+
+[SBIR.gov](https://www.sbir.gov/solicitations/open). 
+
+</style>
 
 Also, Grants.gov is useful, especially in downloading an application package. [Use "SBIR" as a search term](https://www.grants.gov/web/grants/search-grants.html?keywords=SBIR). 
 
