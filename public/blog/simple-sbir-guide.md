@@ -10,7 +10,9 @@ Small business innovation research (SBIR) grants help launch innovative projects
 
 What is the purpose of grants?
 
-These grants come from federal funds, which are administered by the Small Business Administration. The primary purpose is to support research and development (R&D) in areas aligned with federal priorities.    
+Funding is awarded as grants or contracts that arise from federal funds. The Small Business Administration administers this program for participating federal agencies such as the Department of Defense (DoD) and the National Institutes of Health (NIH).
+
+The primary purpose is to support research and development (R&D) in areas aligned with federal priorities. Each agency that offers SBIR describes its priorities on its website and funding opportunity. Also, the SBA offers a handy [explainer](https://www.sbir.gov/tutorials/individual-agency-requirements/), which summarizes agency priorities. 
 
 How much money is available? 
 
