@@ -7,7 +7,7 @@ router.get('/', function(req, res, next) {
 
 router.get('/growth-marketing', function(req, res, next) {
   res.render('growth-marketing', { 
-    title: 'Fuel growth with your online presence',
+    title: 'Content strategy and copywriting to grow online',
     description: 'Fuel growth with web design, content marketing and seo',
     bodyClass: 'growth-marketing',
     shortTitle: 'growth marketing',
@@ -22,7 +22,7 @@ router.get('/growth-marketing', function(req, res, next) {
 
 router.get('/fundraising', function(req, res, next) {
   res.render('fundraising', { 
-    title: 'Win SBIR and other federal grants',
+    title: 'Win SBIR Grants and Contracts',
     description: 'Fuel helps companies win funding to bring tech innovations to market',
     bodyClass: 'grants',
     shortTitle: 'Fundraising',
