@@ -12,23 +12,20 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     {{> nav }}
   </header>
   <main class=" {{bodyClass}}__main">
-      {{{ body }}}
-      <h1>TEST blog.hbs</h1>
+    
   </main>
-  <footer class="{{bodyClass}}__footer">
-    {{> footer }}
-  </footer>
-  <script src="./javascripts/main.js"></script>
+
 
 
 
 <section class="hero--short">
   <div class="inner">
+    <p class="fine-print">Blog</p>
     <h1>We help brands share themselves in real and appealing ways. Draw inspiration from their successes!</h1>
   </div>
 </section>
-<section class="grid-c__fluid--l">
-  <article>
+<section class="grid-c__fluid--l inner--l">
+  <article class="inner">
     <figure class="project case-study__jg ">
       <a href="../projects/social-media-influencer">  
         <figcaption class="project--overlay is-caption project--details project--meta content--details">
@@ -98,8 +95,13 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   </article>
 </section>
 
+  <footer class="{{bodyClass}}__footer">
+    {{> footer }}
+  </footer>
+  <script src="./javascripts/main.js"></script>
+
 </body>
-{{> svg}}
+
 
 
 

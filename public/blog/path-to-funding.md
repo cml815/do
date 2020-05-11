@@ -1,17 +1,27 @@
 ---
 
-title: "How to showcase your value and win first funding"  
+title: "Get Help Early and Often: How To Win an SBIR Grant"  
 author: Caroline Leopold
-date: Apr 16, 2020
+date: May 15, 2020
 view: page.hbs
 
 ---
-To win contracts or funding takes having funding already.  Does this sound familiar? While this is generally true, there are ways for you to prove yourself as worth the risk. Here are some creative ways you can boost your chances for funding. 
+The shortest path to win an SBIR grant is to already have funding. Does this advice sound familiar to you? 
+
+While it's generally true that the process favors the winners, most grant seekers started from zero. A major predictor of success is whether companies asked for help early and often. 
+
+Here are some ways to benefit from help, so you prove your company's worth and get your first grant award. 
 
 ![alt text](../images/betteryouknow.png "Better You Know website")
 
+## Discuss your project with SBIR winners in your field.
 
-As you probably know, competition for funding favors the victors -- those who already have climbed their way to notice. Then, how does a new project stand a chance in any funding competition? The answer is simple, but not easy. Don't undervalue yourself and emulate the winners. Here's some practical advice followed by stories of success and near-misses. 
+Okay, funding favors the winners largely because they've gained the experience to create a superior proposal. And they probably won first-funding by emulating their mentors and leaders in their field. 
+
+We all pay for federal grants with our taxes, which means the awards process has transparency. Winners and their concepts are [publicly available in databases](https://www.sbir.gov/sbirsearch/award/all), hosted by the federal government. 
+
+Befriending winners you find online, at a conference or even in your own company yield great benefits. 
+
 
 ## Your worth is greater than your bank account
 

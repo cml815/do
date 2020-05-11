@@ -6,6 +6,9 @@ date: Apr 13, 2020
 
 ---
 
+create an important project and explain it competitions favors those who've gained the experience to craft a superior proposal that sway grant reviewers. Then, how does a new project stand a chance in any funding competition? The answer is simple, but not easy. Don't undervalue yourself and emulate the winners. Here's some practical advice followed by stories of success and near-misses. 
+
+
 Lorem ipsum dolor sit amet, per aeterno pertinacia ad. Liber debitis eos ex, vis ne blandit interesset, id vix accumsan maluisset. An eos qualisque deseruisse. Mutat omittam has ut, at nam aliquip legimus. Mea no dolor congue nostro. Duis malorum patrioque sit eu, ex utamur reprimique eam.
 
 
