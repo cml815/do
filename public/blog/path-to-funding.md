@@ -3,6 +3,7 @@
 title: "How to showcase your value and win first funding"  
 author: Caroline Leopold
 date: Apr 16, 2020
+view: page.hbs
 
 ---
 To win contracts or funding takes having funding already.  Does this sound familiar? While this is generally true, there are ways for you to prove yourself as worth the risk. Here are some creative ways you can boost your chances for funding. 
