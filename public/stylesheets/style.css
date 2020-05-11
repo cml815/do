@@ -1992,7 +1992,7 @@ aside {
 .case-header h1 {
   text-align: center; }
 
-.case-header ul {
+.case-header ul, .tag-line ul {
   display: flex;
   flex-direction: row;
   justify-content: center; }
