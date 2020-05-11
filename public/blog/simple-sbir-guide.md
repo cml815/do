@@ -1,6 +1,6 @@
 ---
 
-title: "An SBIR grant guide for small businesses"  
+title: "SBIR Grant Guide for Small Businesses"  
 author: Caroline Leopold
 date: May 4, 2020
 
