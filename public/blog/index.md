@@ -12,13 +12,99 @@ List of articles
 ![Colored cells](../images/nci-cells.jpg "A simple sbir guide image title")
 
 
-<div class="hero">
+<style class="hero">
 
 {{> test-text}}
 
-</div>
+</style>
 
 
 * Apples
 * Pears
 * Bananas
+
+
+
+====
+
+
+<section class="hero--short">
+  <div class="inner">
+    <h1>We help brands share themselves in real and appealing ways. Draw inspiration from their successes!</h1>
+  </div>
+</section>
+<section class="grid-c__fluid--l">
+  <article>
+    <figure class="project case-study__jg ">
+      <a href="../projects/social-media-influencer">  
+        <figcaption class="project--overlay is-caption project--details project--meta content--details">
+          <h4 class="narrow">How To Befriend the YouTube Generation.</h4>
+          <p class="line-wrap">influencer marketing / <br> social media</p> 
+        </figcaption>
+        <img class="img--filter image__content" src="../images/jeff-grant-headshot.jpg" alt="Videographer Jeff Grant" />
+      </a>
+    </figure>
+  </article>
+  <article>
+    <figure class="project">
+      <a href="../projects/press-campaign">
+        <figcaption class="project--overlay project--details 
+         project--meta content--details"> 
+            <h4 class="narrow">Mass Action To End Mass Shootings.</h4>
+            <p class="line-wrap">earned media / pr</p>
+        </figcaption>         
+        <img class="image__content" src="../images/harrisburg.jpg" alt="Rally to prevent gun violence in Harrisburg at Pennsylvania State Capitol">
+      </a>
+    </figure>
+  </article>
+  <article>
+    <figure class="project">
+      <a href="../projects/founder-stories">
+        <figcaption class="project--overlay project--details project--meta content--details  ">
+          <h4 class="narrow">Founder Stories Stir Imagination, Grow Traffic.</h4>
+          <p class="line-wrap">content marketing / <br> SEO</p>
+        </figcaption>
+        <img class="image__content" src="../images/caroline-shin-ceo.jpg" alt="Caroline Shin, Vacatia CEO">
+      </a>
+    </figure>
+  </article>
+  <article>
+      <figure class="project">
+        <a href="../projects/websites">
+          <figcaption class="project--overlay project--details project--meta content--details">
+            <h4 class="narrow">A Web Presence &amp; Digital Onboarding Made Easier.</h4>
+            <p class="line-wrap">web design / <br> copywriting</p>
+        </figcaption>
+        <img class="image__content" src="../images/laptop.jpg" alt="desktop computer">
+      </a>
+    </figure>
+  </article>
+  <article>
+    <figure class="project">
+      <a href="../projects/sbir-grants">
+        <figcaption class="project--overlay project--details project--meta content--details  ">
+          <h4 class="narrow">SBIR Grants Consulting</h4>
+          <p class="line-wrap">
+          advising / <br> proposal writing</p>
+        </figcaption>
+        <img class="image__content" src="../images/perelman-center.jpg" alt="Perelman Center at University of Pennsylvania">
+      </a>
+    </figure>
+  </article>
+   <article>
+    <figure class="project">
+      <a href="../projects/social-marketing-grant">
+        <figcaption class="project--overlay project--details project--meta content--details  ">
+          <h4 class="narrow">Social Marketing to Save Lives</h4>
+          <p class="line-wrap">Fundraising</p>
+        </figcaption>
+        <img class="image__content" src="../images/woman-red.jpg" alt="woman in red suit">
+      </a>
+    </figure>
+  </article>
+</section>
+{{> svg}}
+
+
+
+
