@@ -28,7 +28,7 @@ List of blog posts
 
 ../blog/sbir-grant-guide
 ../blog/estimate-chances-for-grant-success
-../grants-for-small-businesses-2020
+../grants-for-small-businesses-covid
 
 ====
 
