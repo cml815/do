@@ -2,7 +2,7 @@ Business grants have been available for decades, but the COVID-19 pandemic have 
 
 What is the purpose of grants?
 
-Grants are given to companies that achieve the goals of government or not-for-profit funders. Companies are asked to solve a problem. Companies benefit by advancing growth goals.   
+Grants fund companies who show they're able meet the goals of government or not-for-profit funders. Companies are asked to solve a problem. Companies benefit by advancing growth goals.   
 
 What are the benefits of these awards?
  
