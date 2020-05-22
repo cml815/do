@@ -8,7 +8,9 @@ date: May 4, 2020
 
 Small business innovation research (SBIR) grants help launch innovative projects and solve human problems, such as those arising from the COVID-19 pandemic. Here's a simple guide to SBIR grants, so you can decide if this funding source is right for you.
 
-![alt text](../images/nci-cells.jpg "Photo Credit: National Cancer Institute")
+<!-- ![alt text](../images/nci-cells.jpg "Photo Credit: National Cancer Institute") -->
+
+<img src="../images/nci-cells.jpg" width="800px" height="200" />
 
 ## What is the purpose of grants?
 
