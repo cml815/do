@@ -1551,8 +1551,8 @@ include mobile .testimonal:first-child {
 @media (min-width: 60em) {
   .item-1 {
     grid-column: 1 / span 2; }
-    .item-1 h1 {
-      font-size: 24px; } }
+    .item-1 h2 {
+      font-size: 1.5em; } }
 
 .img--filter {
   -webkit-filter: grayscale(100%);
