@@ -1,19 +1,21 @@
 ---
 
-title: "Medical Research Grants: Frequently Asked Questions"  
+title: "Research & Development Grants: Frequently Asked Questions"  
 author: Caroline Leopold
 date: May 22, 2020
 
 ---
 ## General Questions
 
-How do grants support research?
+What is research and development funding?
 
-Biomedical and science research in the U.S. is largely funded through the government and through industry. These grants are of a sufficient size to enable a Principal Investigator to carry out a substantial amount of time to research.
+Biomedical and science research and development (R&D) in the U.S. is largely funded through the government and industry. 
 
-Federal research grants are normally awarded to an organization of higher education, research institute, medical center, and in some cases, a business. 
+While research and development are grouped together, they have different aims. 
 
-Industry often hires in-house scientists to perform research and development. In some cases, companies will contract with other companies to perform studies, analyze data and other research tasks. These usually contractual relationships and not issued as grants. 
+Federal research grants and contracts are conferred  to organizations, including higher education, research institutes, medical centers, and small and large businesses.
+
+Industry often hires in-house scientists to perform research and development to advance technology and pipeline products. In some cases, companies will contract with other companies to perform studies, analyze data and other research tasks. These usually contractual relationships and not issued as grants. 
 
 Are there seed grants for research?
 
