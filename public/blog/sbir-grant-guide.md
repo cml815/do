@@ -10,7 +10,7 @@ Small business innovation research (SBIR) grants help launch innovative projects
 
 <!-- ![alt text](../images/nci-cells.jpg "Photo Credit: National Cancer Institute") -->
 
-<img src="../images/nci-cells.jpg" width="800px" height="200" />
+<img src="../images/sbir-sttr-opt.jpg" width="800px" height="200" />
 
 ## What is the purpose of grants?
 
@@ -48,8 +48,6 @@ To begin, you want to find and read an opportunity announcement that fits you.
 
 There are several ways to find funding opportunities. For a user-friendly experience, check out: <a class="blog-link" href = "https://www.sbir.gov/solicitations/open"><p>Open Opportunity list on SBIR.gov</p></a>
 
-
-
 Also, Grants.gov is useful, especially in downloading an application package. <a class="blog-link" href = "https://www.grants.gov/web/grants/search-grants.html?keywords=SBIR"><p>Use "SBIR" as a serarch term.</p></a>
 
 
@@ -69,18 +67,18 @@ If you have more questions, feel free to <a class="blog-link" href="https://fuel
 
 Only 11 agencies participate in SBIR. (Source: SBIR.gov) 
 
-Department of Agriculture
-Department of Commerce - National Institute of Standards and Technology
-Department of Commerce - National Oceanic and Atmospheric Administration
-Department of Defense
-Department of Education
-Department of Energy
-Department of Health and Human Services
-Department of Homeland Security
-Department of Transportation
-Environmental Protection Agency
-National Aeronautics and Space Administration
-National Science Foundation
+Department of Agriculture   
+Department of Commerce - National Institute of Standards and Technology   
+Department of Commerce - National Oceanic and Atmospheric Administration   
+Department of Defense   
+Department of Education   
+Department of Energy   
+Department of Health and Human Services   
+Department of Homeland Security   
+Department of Transportation   
+Environmental Protection Agency   
+National Aeronautics and Space Administration   
+National Science Foundation   
 
 
 

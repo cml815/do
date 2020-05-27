@@ -21,7 +21,9 @@ Many new applicants want a sounding board for their specific situation, includin
 
 >Can we apply even though we don't yet have a commercial product?
 
->Is our industry fundable?
+>Are we eligible to apply?  
+
+>What are our chances for funding?
 
 It is evident that many small companies need a sounding board. And an entrepreneur's instinct to discuss whether SBIR is right for them is a good one. 
 
