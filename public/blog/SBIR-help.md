@@ -29,8 +29,6 @@ A major predictor of success is whether companies asked for help -- from a human
 
 Here are some ways to benefit from help, so you prove your company's worth and get your first grant award. 
 
-
-
 ## Discuss your project with grant winners in your field.
 
  largely because they've gained the experience to create a superior proposal. And they probably won first-funding by emulating their mentors and leaders in their field. 
