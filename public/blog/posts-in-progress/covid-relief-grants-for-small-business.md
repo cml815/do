@@ -18,7 +18,7 @@ Check eligibility first because only a fraction of opportunities go to small bus
 
 The funding opportunity describes eligibility. Read this information first to saved wasted time.  Also, foundation grants are generally only given to not-for-profit organizations. 
 
-What defines a small businesses, but the [Small Business Administration's](https://www.sba.gov/federal-contracting/contracting-guide/basic-requirements) definition is a good guide. Small businesses have fewer than 500 employees and average annual revenue under $7.5 million. 
+What defines a small businesses, but the [Small Business Administration's](https://www.sba.gov/federal-contracting/contracting-guide/basic-requirements) definition is a good guidee. Small businesses have fewer than 500 employees and average annual revenue under $7.5 million. 
 
 Other aspects of your business can matter in eligibility, &mdash; such as whether your company is US-based,independent, and whether you are doing R&D in-house. 
 

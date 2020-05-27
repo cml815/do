@@ -2,6 +2,7 @@
 
 title: "Research & Development Grants: Frequently Asked Questions"  
 author: Caroline Leopold
+updated: May 27, 2020
 date: May 22, 2020
 
 ---
@@ -11,11 +12,23 @@ What is research and development funding?
 
 Biomedical and science research and development (R&D) in the U.S. is largely funded through the government and industry. 
 
-While research and development are grouped together, they have different aims. 
+While research and development are grouped together, they have different aims. Research that receives public grant funding is meant to uncover new knowledge for some public benefit. 
 
-Federal research grants and contracts are conferred  to organizations, including higher education, research institutes, medical centers, and small and large businesses.
+Development research is more focused on the work required to bring an innovation to market. 
 
-Industry often hires in-house scientists to perform research and development to advance technology and pipeline products. In some cases, companies will contract with other companies to perform studies, analyze data and other research tasks. These usually contractual relationships and not issued as grants. 
+Who is eligible for a federal R&D grant?
+
+Federal research grants and contracts are conferred  to organizations, including higher education, research institutes, medical centers, and small and large businesses. 
+
+Often there is a Project Director or Principal Investigator named in the grant and leads the research work. 
+
+Companies of all sizes may be eligible for research grants, although large businesses compete for contracts, not grants. There is much more federal contract funding than grant funding. 
+
+However, federal grant funding to small businesses is common through the Small Business Innovation Research and Small Business Technology Transfer programs. 
+
+Are there federal grants to individuals or unincorporated sole proprietors?
+
+No, but small businesses of any size are eligible for small business grants. 
 
 Are there seed grants for research?
 

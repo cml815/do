@@ -1,12 +1,4 @@
----
-
-title: "Estimate Your Chance for Success: How to Know Where You Stand in a Funding Competition Even Before You Apply" 
-author: Caroline Leopold
-date: Apr 16, 2020
-
----
-
-Many people buy Some of the greatest things in life are drivenA perennial challenge we face at Fuel is telling authentic stories about how startups technical aspects of solutions that are true to the  technology company be authentic, trustworthy and relevant to those who need you. But, how do tell your story if your service or product is highly technical. 
+You want your technology company be authentic, trustworthy and relevant to those who need you. But, how do tell your story if your service or product is highly technical. 
 
 The challenge is to balance talk on specifications with the greater purpose -- how you   achieve user goals faster and better. This is an issue clients of Fuel Copy faced, but they devised ingenious solutions. Here are some ideas to inspire your marketing strategy.
 
