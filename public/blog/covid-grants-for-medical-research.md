@@ -1,93 +1,87 @@
 ---
 
-title: "Coronavirus Grant Opportunities for Medical Researchers & Biotech Companies" 
+title: "Coronavirus Grant Opportunities for Research & Development" 
 author: David Scholnick
-date: May 26, 2020
+date: May 28, 2020
  
 
 ---
 
-Here are COVID-19 opportunities organized by funder. 
+Numerous opportunities for Coronavirus research and development are available. Here are COVID-19 opportunities organized by funding source.
+
+This page will be updated frequently, so check back or contact us with questions.
+
+<img src="../images/coronavirus-source-CDC.jpg" width="800px" height="200" />
 
 ## [National Institutes of Health](https://www.nih.gov/)
 
 #### NIH Directors Emergency Transformative Research Awards (R01 Clinical Trial Optional)  
-RFA-RM-20-020 
 
 Deadline: September 30, 2020
 
 **[Link to Opportunity](https://grants.nih.gov/grants/guide/rfa-files/RFA-RM-20-020.html)**
 
-NIH will issue five to ten awards for projects “that bring new, innovative perspectives and approaches to the prevention of, preparation for, or response to coronavirus SARS-CoV-2, domestically or internationally. Any relevant area of coronavirus SARS-CoV-2 research is welcome, including behavioral/social science research, research on health disparities, novel therapeutics, and other related topics.”
-
+NIH will issue five to ten awards to fund innovative projects to prevent, prepare for or respond to  coronavirus SARS-CoV-2 in the U.S. or internationally. The NIH welcomes relevant areas of coronavirus SARS-CoV-2 research is welcome, including research on behavioral/social science, health disparities, novel therapeutics, and other related topics.”
 
 #### NIH Directors Emergency Early Independence Awards (DP5 Clinical Trial Optional)  
-RFA-RM-20-021 
 
 Deadline: September 4, 2020; letter of intent due August 4, 2020  
 
 **[Link to Opportunity](https://grants.nih.gov/grants/guide/rfa-files/RFA-RM-20-021.html)**
 
-NIH will issue five to ten awards for projects “that bring new, innovative perspectives and approaches to the prevention of, preparation for, or response to coronavirus SARS-CoV-2, domestically or internationally. Any relevant area of coronavirus SARS-CoV-2 research is welcome, including behavioral/social science research, research on health disparities, novel therapeutics, and other related topics.
+NIH will issue awards to junior scientists who have already demonstrated productivity and innovation. Awards will go to projects that bring new approaches in preventing or responding to  coronavirus SARS-CoV-2 in the U.S. or globally. , domestically or internationally. 
 
-RADx-POCTRN 
-NIH Rapid Acceleration of Diagnostics (RADx) Initiative for COVID-19
+#### NIH Rapid Acceleration of Diagnostics (RADx) Initiative for COVID-19
+
 Deadline: Rolling until further notice  
 
 **[Link to Opportunity](https://www.poctrn.org/radx)
 
-“The National Institute of Biomedical Imaging and Bioengineering (NIBIB) is urgently soliciting proposals… to rapidly produce innovative SARS-CoV-2 diagnostic tests that will assist the public’s safe return to normal activities…. NIBIB is providing substantial support to accelerate the development, validation, and commercialization of innovative point-of-care and home-based tests, as well as improvements to clinical laboratory tests, that can directly detect SARS-CoV-2, the virus that causes COVID-19. NIBIB will support the full range of product development including commercialization and product distribution.”
+The National Institute of Biomedical Imaging and Bioengineering (NIBIB) is requesting proposals to rapidly produce innovative SARS-CoV-2 diagnostic tests that will assist public safety. NIBIB is interested in accelerating the development and commercialization of home and clinical laboratory tests that can detect SARS-CoV-2, the virus that causes COVID-19. 
 
-Collaborative Cross (CC) Mouse Model Generation and Discovery of Immunoregulatory Mechanisms (R21 Clinical Trial Not Allowed)
+#### Collaborative Cross (CC) Mouse Model Generation and Discovery of Immunoregulatory Mechanisms (R21 Clinical Trial Not Allowed)
 
 Deadline: September 9, 2020
 
 **[Link to Opportunity](https://grants.nih.gov/grants/guide/pa-files/PAR-18-781.html)
 
-The purpose of this Funding Opportunity Announcement (FOA) is to support the use of Collaborative Cross (CC) mouse lines to advance understanding of the host genetics involved in immune regulation and function and to further develop CC mouse lines that more faithfully reproduce human immune responses. Applicants may include CC, CC derivatives with reproducible genomes and/or CC-RIX mice to accomplish these goals. Research areas supported by this FOA include immune system development, function or regulation; mechanisms governing immune response to infectious pathogens, vaccines or adjuvants; host susceptibility factors and mechanisms of pathogen-induced immunopathology; and immune mechanisms involved in the development and progression of immune-mediated diseases, such as allergy/asthma, autoimmunity, primary immunodeficiency, inflammation, and cell/organ/tissue transplant rejection or tolerance.
+This Funding Opportunity Announcement (FOA) supports the use of Collaborative Cross (CC) mouse lines to advance knowledge of host genetics involved in immune function and to further develop these mouse lines, to better reproduce human immunity. 
 
-
-Long-Term Effects of Disasters on Health Care Systems Serving Health Disparity Populations (R01- Clinical Trial Optional)  
-PA-20-172
+#### Long-Term Effects of Disasters on Health Care Systems Serving Health Disparity Populations (R01- Clinical Trial Optional)  
 
 Deadline: October 5, 2020, Letter of intent due September 4, 2020
+
 **[Link to Opportunity](https://grants.nih.gov/grants/guide/pa-files/pa-20-172.html)**
 
-The overarching goal of this FOA is to invite robust investigative and collaborative research focused on understanding the long-term effects of disasters on health disparity populations and the health care systems that serve them, including the influence of risk factors or vulnerabilities of both the systems and the communities preceding the event(s). This initiative focuses on (i) describing the direct effects of disasters on health care systems, and specifically on the delivery, coordination, safety and quality of health care services, physical and organizational infrastructure, health care workforce and changes in health care needs and disparities of the communities they serve, and (ii) identifying strategies or best practices that health care systems or communities have implemented that promote appropriate system function and delivery of services during and after the disaster, maintenance of optimal continuity of care, and resilience of health care systems and populations for future events.
+This opportunity invites research focused on understanding the long-term effects of disasters on people affected by health disparities and their health care systems that serve them.  
 
-
-Partnerships for Countermeasures against Select Pathogens (R01 Clinical Trials Not Allowed)
-RFA-AI-20-028
+#### Partnerships for Countermeasures against Select Pathogens (R01 Clinical Trials Not Allowed)
 
 Deadline: June 29, 2020
 
 **[Link to Opportunity](https://grants.nih.gov/grants/guide/rfa-files/RFA-AI-20-028.html)**
 
-The purpose of this Funding Opportunity Announcement (FOA) is to solicit research applications for milestone-driven projects focused on preclinical development of lead candidate therapeutics, vaccines and related countermeasures against select NIAID Emerging Infectious Diseases/Pathogens. Applications must include a Product Development Strategy attachment and demonstrate substantive investment by at least one industrial participant.
-
+This solicitation invites research applications for projects focused on preclinical development of lead candidate therapeutics, vaccines and related countermeasures against select NIAID emerging infectious diseases and Pathogens. 
 
 ### [United States Department of Agriculture (USDA)](https://www.usda.gov/)
 
-Distance Learning and Telemedicine Grants
-RUS-20-02-DLT
+**Distance Learning and Telemedicine Grants**
 
 Deadline: July 13, 2020
 
 **[Link to Opportunity](https://www.rd.usda.gov/programs-services/distance-learning-telemedicine-grants)**
 
-“DLT grant funds support the use of telecommunications-enabled information, audio and video equipment, and related advanced technologies by students, teachers, medical professionals, and rural residents. These grants are intended to increase rural access to education, training, and health care resources that are otherwise unavailable or limited in scope.”
+This opportunity funds support development of telecommunications-related technologies for students, teachers, health workers, and rural residents. These grants are intended to increase access to education and health resources for underserved areas. 
 
 #### [United States Department of Defense](https://dod.defense.gov/)
 
-Interoperable Medical Automated Systems (iMAS) Technology
-MTEC-20-13-iMAS
+#### Interoperable Medical Automated Systems (iMAS) Technology
 
 Deadline: Jun 18, 2020 
 
-[Link to Opportunity - PDF](https://beta.sam.gov/opp/a478bb6da2c4463687f244a24a2059d0/view?keywords=iMAS&sort=-relevance&index=opp&is_active=true&page=1 and
-https://www.mtec-sc.org/wp-content/uploads/2020/05/20-13-iMAS-RPP.pdf)
+[Link for More Information](https://www.mtec-sc.org/upcoming-solicitations/)
 
-This Request for Project Proposals (RPP) aims to help develop a research prototype for the ability to tele-monitor and capture research data for the following research areas: COVID-19 wards, emergency rooms/trauma rooms (ERs/TRs), and neurological patients. This capability will help develop the Department of Defense’s (DoD’s) interoperable Medical Automated Systems (iMAS) program.
+This Request for Project Proposals (RPP) will fund projects to capture research data for: COVID-19 wards, emergency departments, and neurological patients. This effort will help develop the Department of Defense’s interoperable Medical Automated Systems (iMAS) program.
 
 
 #### **[Congressionally Directed Medical Research Program](https://cdmrp.army.mil/default)

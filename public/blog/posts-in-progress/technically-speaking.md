@@ -1,6 +1,9 @@
 You want your technology company be authentic, trustworthy and relevant to those who need you. But, how do tell your story if your service or product is highly technical. 
 
-The challenge is to balance talk on specifications with the greater purpose -- how you   achieve user goals faster and better. This is an issue clients of Fuel Copy faced, but they devised ingenious solutions. Here are some ideas to inspire your marketing strategy.
+The challenge is to talk about specifications that attract, not confuse the user. In the case of 5G, there is some exciting research and development. This week, the Army released the [results](https://www.army.mil/article/235923) of research that promises to make 5G 50 times more energy efficient. How the Army presented their results are a great example of pairing the technical with the plain language. 
+
+1) Pair the technical with why it matters. 
+
 
 1) User success stories 
 
