@@ -83,30 +83,23 @@ Deadline: Jun 18, 2020
 
 This Request for Project Proposals (RPP) will fund projects to capture research data for: COVID-19 wards, emergency departments, and neurological patients. This effort will help develop the Department of Defense’s interoperable Medical Automated Systems (iMAS) program.
 
+## **[Congressionally Directed Medical Research Program](https://cdmrp.army.mil/default)
 
-#### **[Congressionally Directed Medical Research Program](https://cdmrp.army.mil/default)
-
-Peer Reviewed Medical Clinical Trial Award for Emerging Viral Diseases and Respiratory Health
-W81XWH-20-PRMRP-CTA-COV
+#### Peer Reviewed Medical Clinical Trial Award for Emerging Viral Diseases and Respiratory Health
 
 Deadline: June 22, 2020, pre-application due June 8, 2020
 
 **[Link to Opportunity](https://cdmrp.army.mil/funding/prmrp)**
 
-“The proposed research must be relevant to active duty Service members, Veterans, military beneficiaries, and/or the American public. The PRMRP challenges the scientific and clinical communities to address at least one of the FY20 PRMRP Topic Areas of Emerging Viral Diseases and Respiratory Health with original ideas that foster new directions along the entire spectrum of research and clinical care.”
-
-
-Peer Reviewed Medical Research Program Investigator-Initiated Research Award for Emerging Viral Diseases and Respiratory Health
-W81XWH-20-PRMRP-IIRA-COV
+The opportunity will fund research relevant to active duty to active military, veterans, military beneficiaries, and/or the American public. The PRMRP request the proposes to address one or more of least one of the PRMRP Topic Areas: emerging viral diseases and respiratory health.
 
 Deadline: June 12, 2020, pre-application due May 28, 2020
+
 **[Link to Opportunity](https://cdmrp.army.mil/funding/prmrp)
 
 “The proposed research must be relevant to active duty Service members, Veterans, military beneficiaries, and/or the American public. The PRMRP challenges the scientific and clinical communities to address at least one of the FY20 PRMRP Topic Areas of Emerging Viral Diseases and Respiratory Health with original ideas that foster new directions along the entire spectrum of research and clinical care”
 
-Peer Reviewed Medical Research Program Technology/Therapeutic Development Award for Emerging Viral Diseases and Respiratory Health
-
-W81XWH-20-PRMRP-TTDA-COV
+#### Peer Reviewed Medical Research Program Technology/Therapeutic Development Award for Emerging Viral Diseases and Respiratory Health
 
 Deadline: June 12, 2020, pre-application due May 28, 2020
 
