@@ -3,4 +3,4 @@ User-agent: *
 Disallow: /privacy
 
 # Sitemap files
-Sitemap: https://www.fuelcopy.com/sitemap.xml
+Sitemap: https://www.fuelcopy.com/sitemap.txt
