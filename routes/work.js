@@ -20,8 +20,8 @@ router.get('/growth-marketing', function(req, res, next) {
 
 // Grants route
 
-router.get('/fundraising', function(req, res, next) {
-  res.render('fundraising', { 
+router.get('/grant-writing', function(req, res, next) {
+  res.render('grant-writing', { 
     title: 'Win SBIR Grants and Contracts',
     description: 'Fuel helps companies win funding to bring tech innovations to market',
     bodyClass: 'grants',

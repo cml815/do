@@ -32,5 +32,17 @@
   },
   "devDependencies": {
     "purify-css": "^1.2.5"
-  }
+  },
+  "description": "\"Do\" Fuel Website Project =========================",
+  "main": "app.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cml815/do.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cml815/do/issues"
+  },
+  "homepage": "https://github.com/cml815/do#readme"
 }
