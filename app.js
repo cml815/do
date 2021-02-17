@@ -28,8 +28,7 @@ const app = express();
 
 // Set up db connection - archive - TODO move 
 
-/* 
-var mongoDB = 'mongodb://meus:815cricket@ds241723.mlab.com:41723/fuelport';
+/* var mongoDB = 'mongodb://meus:815cricket@ds241723.mlab.com:41723/fuelport';
 mongoose.connect(mongoDB);
 mongoose.Promise = global.Promise;
 var db = mongoose.connection;
@@ -38,6 +37,7 @@ db.on('error', console.error.bind(console, 'MongoDB connection error:'));
 mongoose.connect("mongodb://localhost:27017/YourDB", { useNewUrlParser: true });
 
 */
+
 
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
