@@ -69,6 +69,8 @@ Open browser window and type "localhost:3000"
 
 [MDN tutorial for beginners to Node/Express](https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs/Introduction)
 
+[Brad Traversy's instructions on deploying Node.js app](https://gist.github.com/bradtraversy/cd90d1ed3c462fe3bddd11bf8953a896.js)
+
 ## Todos (team or hire) 
 
 * Accessibility audit

@@ -15,8 +15,6 @@ const dotenv = require('dotenv').config();
 const nodemailer = require('nodemailer');
 const la = require('@toptensoftware/losangeles');
 
-/* sgMail.setApiKey('sgSG.mmS72HuWRyqiTWGNX11-RA.2qqosUj-b8vktjzDxeVz56BIFWb7-TKYyz9sN_SNR1s'); */
-
 const indexRouter = require('./routes/index');
 const aboutRouter = require('./routes/about')
 const usersRouter = require('./routes/users');
@@ -25,19 +23,6 @@ const projectsRouter = require('./routes/projects');
 const blogRouter = require('./routes/blog');
 
 const app = express();
-
-// Set up db connection - archive - TODO move 
-
-/* var mongoDB = 'mongodb://meus:815cricket@ds241723.mlab.com:41723/fuelport';
-mongoose.connect(mongoDB);
-mongoose.Promise = global.Promise;
-var db = mongoose.connection;
-db.on('error', console.error.bind(console, 'MongoDB connection error:'));
-
-mongoose.connect("mongodb://localhost:27017/YourDB", { useNewUrlParser: true });
-
-*/
-
 
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
@@ -96,44 +81,6 @@ app.use('/work', workRouter);
 app.use('/projects', projectsRouter);
 app.use('/blog', blogRouter);
 
-
-/* https://express-validator.github.io/docs/ */
-
-/*
-https://www.hacksparrow.com/webdev/express/handling-processing-forms.html
-
-app.post('/handler', function (req, res) {
-  console.log(req.body);
-  res.send(req.body);
-});
-
-app.post('/submit-form', (req, res) => {
-  const username = req.body.username
-  //...
-  res.end()
-})
-
-*/
-
-/* 
-
-app.post('/form', [
-  check('name').isLength({ min: 3 }),
-  check('email').isEmail(),
-  check('age').isNumeric()
-], (req, res) => {
-  const errors = validationResult(req)
-  if (!errors.isEmpty()) {
-    return res.status(422).json({ errors: errors.array() })
-  }
-
-  const name  = req.body.name
-  const email = req.body.email
-  const age   = req.body.age
-})
-
-*/
-
 app.post('/submit-form', [
   body('name').isLength({ min: 3 }),
   body('email').isEmail(),
@@ -157,23 +104,6 @@ app.post('/submit-form', function (req, res) {
   res.send("Thank you for sending us a message!")
 });
 
-/* send grid test 
-
-// using Twilio SendGrid's v3 Node.js Library
-// https://github.com/sendgrid/sendgrid-nodejs
-const sgMail = require('@sendgrid/mail');
-sgMail.setApiKey(process.env.SENDGRID_API_KEY);
-const msg = {
-  to: 'caroline@fuelcopy.com',
-  from: 'caroline@fuelcopy.com',
-  subject: 'Sending with Twilio SendGrid is Fun',
-  text: 'and easy to do anywhere, even with Node.js',
-  html: '<strong>and easy to do anywhere, even with Node.js</strong>',
-};
-sgMail.send(msg);
-
-*/
-
 // catch 404 and forward to error handler
 
 app.use(function(req, res, next) {
@@ -190,5 +120,8 @@ app.use(function(err, req, res, next) {
   res.status(err.status || 500);
   res.render('error', {layout: 'error', bodyClass: 'error', title: 'Error'});
 });
+
+// start server
+/* app.listen(3000, function(err) {}) */
 
 module.exports = app;
