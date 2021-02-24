@@ -2,7 +2,7 @@
 
 title: "Estimate Your Chance for Success: How to Know Where You Stand in a Funding Competition Even Before You Apply" 
 author: Caroline Leopold
-date: April 16, 2020
+date: April 16, 2020 | Update February 23, 2021
 
 ---
 Updated: February 23, 2021
