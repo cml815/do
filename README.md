@@ -71,9 +71,9 @@ Open browser window and type "localhost:3000"
 
 [Brad Traversy's instructions on deploying Node.js app](https://gist.github.com/bradtraversy/cd90d1ed3c462fe3bddd11bf8953a896)
 
-## Todos (team or hire) 
+## Todos 
 
-* Accessibility audit
+* Update node-sass to node-sass@4.12.0 [Support via Github](https://github.com/sass/node-sass/issues/2662). Current version not working with later versions of node.
 
 ### Site Updates
 
