@@ -9,7 +9,7 @@
   "dependencies": {
     "@sendgrid/mail": "^6.4.0",
     "@toptensoftware/losangeles": "^0.3.4",
-    "async": "^2.6.1",
+    "async": "^3.2.0",
     "body-parser": "^1.18.3",
     "browser-sync": "^2.26.5",
     "cookie-parser": "^1.4.3",
